@@ -1,0 +1,12 @@
+RewriteEngine On
+
+# Forcer HTTPS
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Ne pas réécrire si on demande déjà quelque chose dans /public
+RewriteCond %{REQUEST_URI} !^/public/
+
+# Rediriger tout vers public/
+RewriteRule ^(.*)$ public/$1 [L,QSA]
+
