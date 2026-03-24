@@ -59,7 +59,14 @@ date,home_team,away_team,home_score,away_score,competition,stadium,city,country,
 1958-04-07,Italy,France,3,11,,,,,False,False
 1958-04-19,France,Ireland,11,6,"1958 Five Nations","Stade Colombes",Paris,France,False,False
 1958-07-12,Rhodesia,France,0,19,"1958 France Tour of South Africa","Police Ground",Salisbury,Zimbabwe,False,False
+1958-07-16,"Northern & Western Transvaal",France,19,18,"1958 France Tour of South Africa","Loftus Versfeld",Pretoria,"South Africa",False,False
+1958-07-19,"Eastern Transvaal / Natal / Transvaal",France,14,16,"1958 France Tour of South Africa","PAM Brink Stadium",Springs,"South Africa",False,False
+1958-07-22,"Free State / Griqualand West / South West Africa",France,11,11,"1958 France Tour of South Africa","Free State Stadium",Bloemfontein,"South Africa",False,False
 1958-07-26,"South Africa",France,3,3,"1958 France Tour of South Africa","Newlands Stadium","Cape Town","South Africa",False,False
+1958-07-30,"Western Province / South Western Districts / Boland",France,38,8,"1958 France Tour of South Africa",,,,False,False
+1958-08-02,"Junior Springboks",France,9,5,"1958 France Tour of South Africa","Crusader Ground","Port Elizabeth","South Africa",False,False
+1958-08-06,"Border /  Eastern Province / North Eastern Districts",France,9,16,"1958 France Tour of South Africa","Border Ground","East London","South Africa",False,False
+1958-08-09,"South African Universities",France,16,32,"1958 France Tour of South Africa",Kingsmead,Durban,"South Africa",False,False
 1958-08-16,"South Africa",France,5,9,"1958 France Tour of South Africa","Ellis Park",Johannesburg,"South Africa",False,False
 1959-01-10,France,Scotland,9,0,"1959 Five Nations","Stade Colombes",Paris,France,False,False
 1959-02-28,England,France,3,3,"1959 Five Nations",Twickenham,London,England,False,False
@@ -83,9 +90,20 @@ date,home_team,away_team,home_score,away_score,competition,stadium,city,country,
 1961-03-25,France,Wales,8,6,"1961 Five Nations","Stade Colombes",Paris,France,False,False
 1961-04-02,France,Italy,17,0,,,,,False,False
 1961-04-15,Ireland,France,3,15,"1961 Five Nations","Lansdowne Road",Dublin,Ireland,False,False
+1961-07-08,"Nelson Bays / Marlborough / Golden Bay / Motueka",France,11,29,"1961 France Tour of New Zealand & Australia",,,,False,False
+1961-07-12,Taranaki,France,9,11,"1961 France Tour of New Zealand & Australia",,,,False,False
+1961-07-15,Waikato,France,22,3,"1961 France Tour of New Zealand & Australia",,,,False,False
+1961-07-18,"North Auckland",France,8,6,"1961 France Tour of New Zealand & Australia",,,,False,False
 1961-07-22,"New Zealand",France,13,6,"1961 France Tour of New Zealand & Australia","Eden Park",Auckland,"New Zealand",False,False
+1961-07-26,"Bay of Plenty",France,9,22,"1961 France Tour of New Zealand & Australia",,,,False,False
+1961-07-29,"New Zealand Maori",France,5,3,"1961 France Tour of New Zealand & Australia",,,,False,False
+1961-08-01,Manawatu,France,6,21,"1961 France Tour of New Zealand & Australia",,,,False,False
 1961-08-05,"New Zealand",France,5,3,"1961 France Tour of New Zealand & Australia","Athletic Park",Wellington,"New Zealand",False,False
+1961-08-09,Southland,France,6,14,"1961 France Tour of New Zealand & Australia",,,,False,False
+1961-08-12,Otago,France,6,15,"1961 France Tour of New Zealand & Australia",,,,False,False
+1961-08-15,"South Canterbury",France,17,14,"1961 France Tour of New Zealand & Australia",,,,False,False
 1961-08-19,"New Zealand",France,32,3,"1961 France Tour of New Zealand & Australia","Lancaster Park",Christchurch,"New Zealand",False,False
+1961-08-23,Queensland,France,12,15,"1961 France Tour of New Zealand & Australia",,,,False,False
 1961-08-26,Australia,France,8,15,"1961 France Tour of New Zealand & Australia","Sydney Cricket Ground",Sydney,Australia,False,False
 1961-11-12,France,Romania,5,5,,,,,False,False
 1962-01-13,Scotland,France,3,11,"1962 Five Nations",Murrayfield,Edinburgh,Scotland,False,False
@@ -107,7 +125,11 @@ date,home_team,away_team,home_score,away_score,competition,stadium,city,country,
 1964-03-29,Italy,France,3,12,,,,,False,False
 1964-04-11,France,Ireland,27,6,"1964 Five Nations","Stade Colombes",Paris,France,False,False
 1964-07-11,Rhodesia,France,11,34,"1964 France Tour of South Africa","Police Ground",Salisbury,Zimbabwe,False,False
+1964-07-15,"Griqualand West",France,3,29,"1964 France Tour of South Africa","de Beers Stadium",Kimberley,"South Africa",False,False
+1964-07-18,"Western Province",France,20,11,"1964 France Tour of South Africa","Newlands Stadium","Cape Town","South Africa",False,False
+1964-07-21,Border,France,6,14,"1964 France Tour of South Africa","Border Ground","East London","South Africa",False,False
 1964-07-25,"South Africa",France,6,8,"1964 France Tour of South Africa","PAM Brink Stadium",Springs,"South Africa",False,False
+1964-07-29,Transvaal,France,9,21,"1964 France Tour of South Africa","Ellis Park",Johannesburg,"South Africa",False,False
 1964-10-17,France,Fiji,21,3,"1964 Fiji Tour of Wales, France & Canada","Stade Colombes",Paris,France,False,False
 1964-11-29,Romania,France,6,9,,,,,False,False
 1965-01-09,France,Scotland,16,8,"1965 Five Nations","Stade Colombes",Paris,France,False,False
@@ -141,9 +163,19 @@ date,home_team,away_team,home_score,away_score,competition,stadium,city,country,
 1968-02-24,France,England,14,9,"1968 Five Nations","Stade Colombes",Paris,France,False,False
 1968-03-23,Wales,France,9,14,"1968 Five Nations","Cardiff Arms Park",Cardiff,Wales,False,False
 1968-05-05,Czechoslovakia,France,6,19,,,,,False,False
+1968-07-03,Marlborough,France,24,19,"1968 France Tour of New Zealand & Australia","Lansdowne Park",Blenheim,"New Zealand",False,False
+1968-07-06,Otago,France,6,12,"1968 France Tour of New Zealand & Australia",Carisbrook,Dunedin,"New Zealand",False,False
+1968-07-09,Southland,France,6,8,"1968 France Tour of New Zealand & Australia","Rugby Park",Invercargill,"New Zealand",False,False
 1968-07-13,"New Zealand",France,12,9,"1968 France Tour of New Zealand & Australia","Lancaster Park",Christchurch,"New Zealand",False,False
+1968-07-17,Taranaki,France,6,21,"1968 France Tour of New Zealand & Australia","Rugby Park","New Plymouth","New Zealand",False,False
+1968-07-20,"Hawke's Bay",France,12,16,"1968 France Tour of New Zealand & Australia","McLean Park",Napier,"New Zealand",False,False
+1968-07-23,Manawatu,France,3,8,"1968 France Tour of New Zealand & Australia","Showgrounds Oval","Palmerston North","New Zealand",False,False
 1968-07-27,"New Zealand",France,9,3,"1968 France Tour of New Zealand & Australia","Athletic Park",Wellington,"New Zealand",False,False
+1968-07-31,"King Country",France,9,23,"1968 France Tour of New Zealand & Australia","The Domain",Taumarunui,"New Zealand",False,False
+1968-08-03,"North Auckland",France,6,10,"1968 France Tour of New Zealand & Australia","Okara Park",Whangarei,"New Zealand",False,False
+1968-08-06,Waikato,France,8,13,"1968 France Tour of New Zealand & Australia","Rugby Park",Hamilton,"New Zealand",False,False
 1968-08-10,"New Zealand",France,19,12,"1968 France Tour of New Zealand & Australia","Eden Park",Auckland,"New Zealand",False,False
+1968-08-13,Queensland,France,11,31,"1968 France Tour of New Zealand & Australia",,,,False,False
 1968-08-17,Australia,France,11,10,"1968 France Tour of New Zealand & Australia","Sydney Cricket Ground",Sydney,Australia,False,False
 1968-11-09,France,"South Africa",9,12,"1968 South Africa Tour of France","Stade Municipal",Bordeaux,France,False,False
 1968-11-16,France,"South Africa",11,16,"1968 South Africa Tour of France","Stade Colombes",Paris,France,False,False
@@ -168,7 +200,14 @@ date,home_team,away_team,home_score,away_score,competition,stadium,city,country,
 1971-02-27,England,France,14,14,"1971 Five Nations",Twickenham,London,England,False,False
 1971-02-28,France,Italy,37,13,"1971 Federation Internationale de Rugby Amateur Championship",,,,False,False
 1971-03-27,France,Wales,5,9,"1971 Five Nations","Stade Colombes",Paris,France,False,False
+1971-05-22,"Eastern Transvaal",France,13,22,"1971 France Tour of South Africa",,,,False,False
+1971-05-26,"Western Transvaal",France,0,50,"1971 France Tour of South Africa",,,,False,False
+1971-05-29,Transvaal,France,14,20,"1971 France Tour of South Africa",,,,False,False
+1971-05-31,Border,France,6,30,"1971 France Tour of South Africa",,,,False,False
+1971-06-05,"Western Province",France,6,21,"1971 France Tour of South Africa",,,,False,False
+1971-06-08,"South West Africa",France,6,35,"1971 France Tour of South Africa",,,,False,False
 1971-06-12,"South Africa",France,22,9,"1971 France Tour of South Africa","Free State Stadium",Bloemfontein,"South Africa",False,False
+1971-06-15,"North Eastern Cape",France,17,33,"1971 France Tour of South Africa",,,,False,False
 1971-06-19,"South Africa",France,8,8,"1971 France Tour of South Africa","King's Park",Durban,"South Africa",False,False
 1971-11-20,France,Australia,11,13,"1971 Australia Tour of France","Stade des Ponts Jumeaux",Toulouse,France,False,False
 1971-11-27,France,Australia,18,9,"1971 Australia Tour of France","Stade Colombes",Paris,France,False,False
@@ -210,7 +249,16 @@ date,home_team,away_team,home_score,away_score,competition,stadium,city,country,
 1975-02-15,France,Scotland,10,9,"1975 Five Nations","Parc des Princes",Paris,France,False,False
 1975-02-15,Italy,France,9,16,,,,,False,False
 1975-03-01,Ireland,France,25,6,"1975 Five Nations","Lansdowne Road",Dublin,Ireland,False,False
+1975-05-31,"Natal Sharks",France,18,34,"1975 France Tour of South Africa",,,,False,False
+1975-06-02,"South Africa African XV",France,9,34,"1975 France Tour of South Africa",,,,False,False
+1975-06-04,"South African Coloured XV",France,3,37,"1975 France Tour of South Africa",,,,False,False
+1975-06-07,"South Africa Invitation XV",France,18,3,"1975 France Tour of South Africa",,,,False,False
+1975-06-09,"South Western Districts",France,6,44,"1975 France Tour of South Africa",,,,False,False
+1975-06-11,"Eastern Province",France,9,18,"1975 France Tour of South Africa",,,,False,False
+1975-06-14,Transvaal,France,28,22,"1975 France Tour of South Africa",,,,False,False
+1975-06-17,"South West Africa",France,13,13,"1975 France Tour of South Africa",,,,False,False
 1975-06-21,"South Africa",France,38,25,"1975 France Tour of South Africa","Free State Stadium",Bloemfontein,"South Africa",False,False
+1975-06-24,"North Eastern Cape",France,15,34,"1975 France Tour of South Africa",,,,False,False
 1975-06-28,"South Africa",France,33,18,"1975 France Tour of South Africa","Loftus Versfeld",Pretoria,"South Africa",False,False
 1975-10-19,France,Argentina,29,6,"1975 Argentina Tour of France","Stade de Gerland",Lyon,France,False,False
 1975-10-25,France,Argentina,36,21,"1975 Argentina Tour of France","Parc des Princes",Paris,France,False,False
@@ -221,6 +269,8 @@ date,home_team,away_team,home_score,away_score,competition,stadium,city,country,
 1976-02-28,Spain,France,0,36,,"Ciudad Universitaria",Madrid,Spain,False,False
 1976-03-06,Wales,France,19,13,"1975 Five Nations","Cardiff Arms Park",Cardiff,Wales,False,False
 1976-03-20,France,England,30,9,"1975 Five Nations","Parc des Princes",Paris,France,False,False
+1976-06-06,"Eastern Union",France,12,16,"1976 France Tour of USA",,,,False,False
+1976-06-09,"New York Selection",France,7,71,"1976 France Tour of USA",,,,False,False
 1976-06-12,USA,France,14,33,"1976 France Tour of USA",,,,False,False
 1976-10-24,France,Australia,18,15,"1976 Australia Tour of France & Italy","Stade Municipal",Bordeaux,France,False,False
 1976-10-30,France,Australia,34,6,"1976 Australia Tour of France & Italy","Parc des Princes",Paris,France,False,False
@@ -234,7 +284,12 @@ date,home_team,away_team,home_score,away_score,competition,stadium,city,country,
 1977-03-19,Ireland,France,6,15,"1977 Five Nations","Lansdowne Road",Dublin,Ireland,False,False
 1977-03-20,Morocco,France,0,69,,,,,False,False
 1977-06-04,France,Romania,9,6,"1977 Federation Internationale de Rugby Amateur Championship","Parc des Princes",Paris,France,False,False
+1977-06-11,"Buenos Aires",France,0,0,"1977 France Tour of Argentina",,,,False,False
+1977-06-15,"Interior Selection",France,0,0,"1977 France Tour of Argentina",,,,False,False
+1977-06-18,"Combined Clubs XV",France,0,0,"1977 France Tour of Argentina",,,,False,False
+1977-06-22,Cuyo,France,0,0,"1977 France Tour of Argentina",,,,False,False
 1977-06-25,Argentina,France,3,26,"1977 France Tour of Argentina","Ferro Carril Oeste Stadium","Buenos Aires",Argentina,False,False
+1977-06-28,"Santa Fé",France,0,0,"1977 France Tour of Argentina",,,,False,False
 1977-07-02,Argentina,France,18,18,"1977 France Tour of Argentina","Ferro Carril Oeste Stadium","Buenos Aires",Argentina,False,False
 1977-10-02,France,Czechoslovakia,63,0,"1977 Federation Internationale de Rugby Amateur Championship",,,,False,False
 1977-11-11,France,"New Zealand",18,13,"1977 New Zealand Tour of Italy & France",Stadium,Toulouse,France,False,False
@@ -247,7 +302,11 @@ date,home_team,away_team,home_score,away_score,competition,stadium,city,country,
 1978-02-18,France,Ireland,10,9,"1978 Five Nations","Parc des Princes",Paris,France,False,False
 1978-03-18,Wales,France,16,7,"1978 Five Nations","Cardiff Arms Park",Cardiff,Wales,False,False
 1978-09-09,"Hong Kong",France,0,26,"1978 France Tour of Japan & Canada",,,,False,False
+1978-09-14,"Japan XV",France,10,61,"1978 France Tour of Japan & Canada",,,,False,False
+1978-09-17,"Western Japan",France,18,90,"1978 France Tour of Japan & Canada",,,,False,False
+1978-09-20,Kyushu,France,0,0,"1978 France Tour of Japan & Canada",,,,False,False
 1978-09-23,Japan,France,16,55,"1978 France Tour of Japan & Canada","National Kasumigaoka Stadium",Tokyo,Japan,False,False
+1978-09-26,"British Columbia",France,10,17,"1978 France Tour of Japan & Canada",,,,False,False
 1978-09-30,Canada,France,9,24,"1978 France Tour of Japan & Canada","Kingsland Rugby Park",Calgary,Canada,False,False
 1978-12-04,Romania,France,6,9,"1978 Federation Internationale de Rugby Amateur Championship",,,,False,False
 1979-01-20,Ireland,France,9,9,"1979 Five Nations","Lansdowne Road",Dublin,Ireland,False,False
@@ -257,7 +316,13 @@ date,home_team,away_team,home_score,away_score,competition,stadium,city,country,
 1979-03-04,France,Spain,92,0,"1979 Federation Internationale de Rugby Amateur Championship",,,,False,False
 1979-03-17,France,Scotland,21,17,"1979 Five Nations","Parc des Princes",Paris,France,False,False
 1979-06-16,Fiji,France,4,13,"1979 France Tour of Fiji & New Zealand","National Stadium",Suva,Fiji,False,False
+1979-06-20,Marlborough,France,15,35,"1979 France Tour of Fiji & New Zealand",,,,False,False
+1979-06-23,Waikato,France,18,15,"1979 France Tour of Fiji & New Zealand",,,,False,False
+1979-06-27,"North Auckland",France,3,16,"1979 France Tour of Fiji & New Zealand",,,,False,False
+1979-06-30,Wellington,France,9,14,"1979 France Tour of Fiji & New Zealand",,,,False,False
+1979-07-03,"Hawke's Bay",France,13,31,"1979 France Tour of Fiji & New Zealand",,,,False,False
 1979-07-07,"New Zealand",France,23,9,"1979 France Tour of Fiji & New Zealand","Lancaster Park",Christchurch,"New Zealand",False,False
+1979-07-10,Southland,France,12,11,"1979 France Tour of Fiji & New Zealand",,,,False,False
 1979-07-14,"New Zealand",France,19,24,"1979 France Tour of Fiji & New Zealand","Eden Park",Auckland,"New Zealand",False,False
 1979-09-18,Tunisia,France,3,104,,,,,False,False
 1979-09-22,France,Italy,38,12,,,,,False,False
@@ -269,6 +334,9 @@ date,home_team,away_team,home_score,away_score,competition,stadium,city,country,
 1980-02-17,France,Italy,46,9,,,,,False,False
 1980-03-01,France,Ireland,19,18,"1980 Five Nations","Parc des Princes",Paris,France,False,False
 1980-10-19,France,Japan,23,3,"1980 Japan Tour of Netherlands & France",Stadium,Toulouse,France,False,False
+1980-10-29,"Natal Sharks",France,16,27,"1980 France Tour of South Africa",,,,False,False
+1980-11-01,"Western Province",France,15,16,"1980 France Tour of South Africa",,,,False,False
+1980-11-04,"South Africa Invitation XV",France,37,15,"1980 France Tour of South Africa",,,,False,False
 1980-11-08,"South Africa",France,37,15,"1980 France Tour of South Africa","Loftus Versfeld",Pretoria,"South Africa",False,False
 1980-11-23,Romania,France,15,0,"1980 Federation Internationale de Rugby Amateur Championship","Stadionul Giulesti",Bucuresti,Romania,False,False
 1981-01-17,France,Scotland,16,9,"1981 Five Nations","Parc des Princes",Paris,France,False,False
@@ -277,7 +345,14 @@ date,home_team,away_team,home_score,away_score,competition,stadium,city,country,
 1981-03-08,Italy,France,9,17,,,,,False,False
 1981-03-21,England,France,12,16,"1981 Five Nations",Twickenham,London,England,False,False
 1981-03-22,Spain,France,19,40,,"Sant Boi de Llobregat",Barcelona,Spain,False,False
+1981-06-14,Queensland,France,15,18,"1981 France Tour of Australia",,,,False,False
+1981-06-17,"Queensland Country",France,3,33,"1981 France Tour of Australia",,,,False,False
+1981-06-19,Sydney,France,16,14,"1981 France Tour of Australia",,,,False,False
+1981-06-24,Victoria,France,6,11,"1981 France Tour of Australia",,,,False,False
+1981-06-27,"New South Wales",France,12,21,"1981 France Tour of Australia",,,,False,False
+1981-07-01,ACT,France,7,50,"1981 France Tour of Australia",,,,False,False
 1981-07-05,Australia,France,17,15,"1981 France Tour of Australia",Ballymore,Brisbane,Australia,False,False
+1981-07-08,"New South Wales Country",France,12,13,"1981 France Tour of Australia",,,,False,False
 1981-07-11,Australia,France,24,14,"1981 France Tour of Australia","Sydney Cricket Ground",Sydney,Australia,False,False
 1981-11-01,France,Romania,17,9,"1981 Federation Internationale de Rugby Amateur Championship",,,,False,False
 1981-11-14,France,"New Zealand",9,13,"1981 New Zealand Tour of France & Romania",Stadium,Toulouse,France,False,False
@@ -311,8 +386,14 @@ date,home_team,away_team,home_score,away_score,competition,stadium,city,country,
 1984-03-04,France,Morocco,45,10,,,,,False,False
 1984-03-17,Scotland,France,21,12,"1984 Five Nations",Murrayfield,Edinburgh,Scotland,False,False
 1984-05-27,Netherlands,France,0,3,,,,,False,False
+1984-06-02,Taranaki,France,18,30,"1984 France Tour of New Zealand",,,,False,False
+1984-06-06,Marlborough,France,9,36,"1984 France Tour of New Zealand",,,,False,False
+1984-06-09,Wellington,France,18,38,"1984 France Tour of New Zealand",,,,False,False
+1984-06-12,Otago,France,10,20,"1984 France Tour of New Zealand",,,,False,False
 1984-06-16,"New Zealand",France,10,9,"1984 France Tour of New Zealand","Lancaster Park",Christchurch,"New Zealand",False,False
+1984-06-19,"Hawke's Bay",France,18,40,"1984 France Tour of New Zealand",,,,False,False
 1984-06-23,"New Zealand",France,31,18,"1984 France Tour of New Zealand","Eden Park",Auckland,"New Zealand",False,False
+1984-06-26,Counties,France,24,33,"1984 France Tour of New Zealand",,,,False,False
 1984-09-30,Japan,France,0,52,"1984 France Tour of Japan","Hanazono Stadium",Osaka,Japan,False,False
 1984-10-06,Tunisia,France,6,25,,,,,False,False
 1984-10-07,Japan,France,12,40,"1984 France Tour of Japan","National Kasumigaoka Stadium",Tokyo,Japan,False,False
@@ -324,8 +405,13 @@ date,home_team,away_team,home_score,away_score,competition,stadium,city,country,
 1985-03-03,Italy,France,9,22,,,,,False,False
 1985-03-30,France,Wales,14,3,"1985 Five Nations","Parc des Princes",Paris,France,False,False
 1985-06-02,France,Netherlands,20,0,,,,,False,False
+1985-06-08,"San Isidro",France,18,41,"1985 France Tour of Argentina & Uruguay",,,,False,False
+1985-06-12,Cuyo,France,6,64,"1985 France Tour of Argentina & Uruguay",,,,False,False
+1985-06-15,"Buenos Aires",France,15,50,"1985 France Tour of Argentina & Uruguay",,,,False,False
+1985-06-18,"Tucumán RC",France,7,24,"1985 France Tour of Argentina & Uruguay",,,,False,False
 1985-06-22,Argentina,France,24,16,"1985 France Tour of Argentina & Uruguay","Ferro Carril Oeste Stadium","Buenos Aires",Argentina,False,False
 1985-06-22,Italy,France,0,0,,,,,False,False
+1985-06-25,"Santa Fé",France,7,82,"1985 France Tour of Argentina & Uruguay",,,,False,False
 1985-06-29,Argentina,France,15,23,"1985 France Tour of Argentina & Uruguay","Ferro Carril Oeste Stadium","Buenos Aires",Argentina,False,False
 1985-06-30,Uruguay,France,6,34,"1985 France Tour of Argentina & Uruguay","Estadio Charrua",Montevideo,Uruguay,False,False
 1985-10-19,France,Japan,50,0,"1985 Japan Tour of France","Parc Municipal",Dax,France,False,False
@@ -342,8 +428,12 @@ date,home_team,away_team,home_score,away_score,competition,stadium,city,country,
 1986-05-01,Netherlands,France,10,0,,,,,False,False
 1986-05-18,France,Italy,12,0,,,,,False,False
 1986-05-31,Argentina,France,15,13,"1986 France Tour of Argentina, Australia & New Zealand","Velez Sarsfield Stadium","Buenos Aires",Argentina,False,False
+1986-06-03,"Argentina B",France,24,45,"1986 France Tour of Argentina, Australia & New Zealand",,,,False,False
 1986-06-07,Argentina,France,9,22,"1986 France Tour of Argentina, Australia & New Zealand","Velez Sarsfield Stadium","Buenos Aires",Argentina,False,False
+1986-06-15,Queensland,France,9,48,"1986 France Tour of Argentina, Australia & New Zealand",,,,False,False
+1986-06-18,ACT,France,18,18,"1986 France Tour of Argentina, Australia & New Zealand",,,,False,False
 1986-06-21,Australia,France,27,14,"1986 France Tour of Argentina, Australia & New Zealand","Sydney Cricket Ground",Sydney,Australia,False,False
+1986-06-24,"North Auckland",France,19,30,"1986 France Tour of Argentina, Australia & New Zealand",,,,False,False
 1986-06-28,"New Zealand",France,18,9,"1986 France Tour of Argentina, Australia & New Zealand","Lancaster Park",Christchurch,"New Zealand",False,False
 1986-10-25,Romania,France,3,20,"1986 Federation Internationale de Rugby Amateur Championship","Stadionul Giulesti",Bucuresti,Romania,False,False
 1986-11-08,France,"New Zealand",7,19,"1986 New Zealand Tour of France",Stadium,Toulouse,France,False,False
@@ -365,6 +455,10 @@ date,home_team,away_team,home_score,away_score,competition,stadium,city,country,
 1987-06-07,Fiji,France,16,31,"Rugby World Cup 1987","Eden Park",Auckland,"New Zealand",False,True
 1987-06-13,Australia,France,24,30,"Rugby World Cup 1987","Concord Oval",Sydney,Australia,False,True
 1987-06-20,"New Zealand",France,29,9,"Rugby World Cup 1987","Eden Park",Auckland,"New Zealand",False,True
+1987-09-16,Glasgow,France,9,38,"1987 France Tour of Scotland",,,,False,False
+1987-09-19,Anglo-Scots,France,19,16,"1987 France Tour of Scotland",,,,False,False
+1987-09-23,Edinburgh,France,9,22,"1987 France Tour of Scotland",,,,False,False
+1987-09-26,"Scottish Select XV",France,15,12,"1987 France Tour of Scotland",,,,False,False
 1987-11-11,France,Romania,49,3,"1987 Federation Internationale de Rugby Amateur Championship",,,,False,False
 1988-01-16,France,England,10,9,"1988 Five Nations","Parc des Princes",Paris,France,False,False
 1988-02-06,Scotland,France,23,12,"1988 Five Nations",Murrayfield,Edinburgh,Scotland,False,False
@@ -375,7 +469,12 @@ date,home_team,away_team,home_score,away_score,competition,stadium,city,country,
 1988-05-21,France,Netherlands,13,3,,,,,False,False
 1988-05-22,France,Italy,16,3,,,,,False,False
 1988-05-23,France,"Great Britain",8,6,,,,,False,False
+1988-06-04,"San Isidro",France,16,16,"1988 France Tour of Argentina",,,,False,False
+1988-06-07,"Tucumán RC",France,18,18,"1988 France Tour of Argentina",,,,False,False
+1988-06-11,"Buenos Aires",France,0,82,"1988 France Tour of Argentina",,,,False,False
+1988-06-15,"Select XV",France,19,36,"1988 France Tour of Argentina",,,,False,False
 1988-06-18,Argentina,France,15,18,"1988 France Tour of Argentina","Velez Sarsfield Stadium","Buenos Aires",Argentina,False,False
+1988-06-21,Rosario,France,9,42,"1988 France Tour of Argentina",,,,False,False
 1988-06-25,Argentina,France,18,6,"1988 France Tour of Argentina","Velez Sarsfield Stadium","Buenos Aires",Argentina,False,False
 1988-06-27,Paraguay,France,12,106,"1988 France Tour of Argentina",,,,False,False
 1988-11-05,France,Argentina,29,9,"1988 Argentina Tour of France","Stade de la Beaujoire",Nantes,France,False,False
@@ -390,7 +489,13 @@ date,home_team,away_team,home_score,away_score,competition,stadium,city,country,
 1989-03-18,France,Scotland,19,3,"1989 Five Nations","Parc des Princes",Paris,France,False,False
 1989-03-19,France,Spain,57,7,,,,,False,False
 1989-05-02,Spain,France,0,28,,,,,False,False
+1989-06-07,Counties,France,21,24,"1989 France Tour of New Zealand","Pukekohe Stadium",Pukekohe,"New Zealand",False,False
+1989-06-10,Manawatu,France,23,28,"1989 France Tour of New Zealand","Palmerston Oval","Palmerston North","New Zealand",False,False
+1989-06-13,Southland,France,12,7,"1989 France Tour of New Zealand","Rugby Park",Invercargill,"New Zealand",False,False
 1989-06-17,"New Zealand",France,25,17,"1989 France Tour of New Zealand","Lancaster Park",Christchurch,"New Zealand",False,False
+1989-06-21,"Seddon Shield XV",France,13,39,"1989 France Tour of New Zealand",,,,False,False
+1989-06-24,Wellington,France,24,23,"1989 France Tour of New Zealand","Athletic Park",Wellington,"New Zealand",False,False
+1989-06-27,"Bay of Plenty",France,18,22,"1989 France Tour of New Zealand",,,,False,False
 1989-07-01,"New Zealand",France,34,20,"1989 France Tour of New Zealand","Eden Park",Auckland,"New Zealand",False,False
 1989-10-04,France,"British & Irish Lions",27,29,,"Parc des Princes",Paris,France,False,False
 1989-11-04,France,Australia,15,32,"1989 Australia Tour of Canada & France","Stade Meinau",Strasbourg,France,False,False
@@ -402,7 +507,12 @@ date,home_team,away_team,home_score,away_score,competition,stadium,city,country,
 1990-03-03,France,Ireland,31,12,"1990 Five Nations","Parc des Princes",Paris,France,False,False
 1990-04-14,Netherlands,France,0,10,,,,,False,False
 1990-05-24,France,Romania,6,12,"1990 Federation Internationale de Rugby Amateur Championship","Stade Patrice Brocas",Auch,France,False,False
+1990-06-02,"New South Wales",France,12,19,"1990 France Tour of Australia",,,,False,False
+1990-06-05,ACT,France,21,22,"1990 France Tour of Australia",,,,False,False
 1990-06-09,Australia,France,21,9,"1990 France Tour of Australia","Aussie Stadium",Sydney,Australia,False,False
+1990-06-13,"Australian Universities",France,19,26,"1990 France Tour of Australia",,,,False,False
+1990-06-17,Queensland,France,15,3,"1990 France Tour of Australia",,,,False,False
+1990-06-20,Sydney,France,36,26,"1990 France Tour of Australia",,,,False,False
 1990-06-24,Australia,France,48,31,"1990 France Tour of Australia",Ballymore,Brisbane,Australia,False,False
 1990-06-30,Australia,France,19,28,"1990 France Tour of Australia","Aussie Stadium",Sydney,Australia,False,False
 1990-11-03,France,"New Zealand",3,24,"1990 New Zealand Tour of France","Stade de la Beaujoire",Nantes,France,False,False
@@ -414,7 +524,9 @@ date,home_team,away_team,home_score,away_score,competition,stadium,city,country,
 1991-03-16,England,France,21,19,"1991 Five Nations",Twickenham,London,England,False,False
 1991-04-28,Spain,France,6,24,,"Ciudad Universitaria",Madrid,Spain,False,False
 1991-06-22,Romania,France,21,33,,,,,False,False
+1991-07-10,"Western Union",France,15,42,"1991 France Tour of USA",,,,False,False
 1991-07-13,USA,France,9,41,"1991 France Tour of USA",,,,False,False
+1991-07-17,"USA B",France,6,61,"1991 France Tour of USA",,,,False,False
 1991-07-20,USA,France,3,10,"1991 France Tour of USA",,,,False,False
 1991-09-04,Wales,France,9,22,,"Cardiff Arms Park",Cardiff,Wales,False,False
 1991-10-04,France,Romania,30,3,"Rugby World Cup 1991","Stade de la Mediterranee",Béziers,France,False,True
@@ -431,7 +543,13 @@ date,home_team,away_team,home_score,away_score,competition,stadium,city,country,
 1992-03-22,France,Spain,53,4,,,,,False,False
 1992-05-28,France,Romania,25,6,"1992 Federation Internationale de Rugby Amateur Championship","Stade Jules Deschaseaux","Le Havre",France,False,False
 1992-06-13,France,Spain,14,10,,,,,False,False
+1992-06-16,Cordoba,France,20,62,"1992 France Tour of Argentina",,,,False,False
+1992-06-20,"Buenos Aires",France,12,28,"1992 France Tour of Argentina","Velez Sarsfield Stadium","Buenos Aires",Argentina,False,False
+1992-06-23,"Tucumán RC",France,25,23,"1992 France Tour of Argentina",,,,False,False
+1992-06-27,"Invitation XV",France,18,32,"1992 France Tour of Argentina",,,,False,False
+1992-06-30,Cuyo,France,32,30,"1992 France Tour of Argentina",,,,False,False
 1992-07-04,Argentina,France,12,27,"1992 France Tour of Argentina","Velez Sarsfield Stadium","Buenos Aires",Argentina,False,False
+1992-07-04,Rosario,France,8,6,"1992 France Tour of Argentina",,,,False,False
 1992-07-11,Argentina,France,9,33,"1992 France Tour of Argentina","Velez Sarsfield Stadium","Buenos Aires",Argentina,False,False
 1992-10-17,France,"South Africa",15,20,"1992 South Africa Tour of France & England","Stade de Gerland",Lyon,France,False,False
 1992-10-24,France,"South Africa",29,16,"1992 South Africa Tour of France & England","Parc des Princes",Paris,France,False,False
@@ -446,10 +564,16 @@ date,home_team,away_team,home_score,away_score,competition,stadium,city,country,
 1993-05-20,Romania,France,20,37,"1993 Federation Internationale de Rugby Amateur Championship","Stadionul Dinamo",Bucuresti,Romania,False,False
 1993-05-30,Germany,France,27,71,,,,,False,False
 1993-05-30,Morocco,France,12,34,,,,,False,False
+1993-06-09,"Eastern Province",France,8,18,"1993 France Tour of South Africa","Boet Erasmus Stadium","Port Elizabeth","South Africa",False,False
+1993-06-12,"Western Province",France,6,12,"1993 France Tour of South Africa","Newlands Stadium","Cape Town","South Africa",False,False
+1993-06-15,"South Africa A",France,35,22,"1993 France Tour of South Africa","Basil Kenyon Stadium","East London","South Africa",False,False
+1993-06-19,"Free State",France,22,22,"1993 France Tour of South Africa","Free State Stadium",Bloemfontein,"South Africa",False,False
 1993-06-21,France,Morocco,86,0,,,,,False,False
+1993-06-22,"Northern Transvaal",France,38,19,"1993 France Tour of South Africa","Loftus Versfeld",Pretoria,"South Africa",False,False
 1993-06-23,France,Spain,55,5,,"Parc des sports et de l'Amitie",Narbonne,France,False,False
 1993-06-25,France,Italy,31,6,,,,,False,False
 1993-06-26,"South Africa",France,20,20,"1993 France Tour of South Africa","King's Park",Durban,"South Africa",False,False
+1993-06-29,"South Africa Development XV",France,13,38,"1993 France Tour of South Africa","Welkom Stadium",Welkom,"South Africa",False,False
 1993-07-03,"South Africa",France,17,18,"1993 France Tour of South Africa","Ellis Park",Johannesburg,"South Africa",False,False
 1993-10-17,France,Romania,51,0,"1993 Federation Internationale de Rugby Amateur Championship","Stadium de Brive",Brive,France,False,False
 1993-10-30,France,Australia,16,13,"1993 Australia Tour of USA, Canada & France","Parc Lescure",Bordeaux,France,False,False
@@ -462,8 +586,15 @@ date,home_team,away_team,home_score,away_score,competition,stadium,city,country,
 1994-03-19,Scotland,France,12,20,"1994 Five Nations",Murrayfield,Edinburgh,Scotland,False,False
 1994-03-20,France,Spain,49,3,,,,,False,False
 1994-04-17,France,Japan,99,0,,,,,False,False
+1994-06-01,"Canada A",France,31,34,"1994 France Tour of Canada & New Zealand",,,,False,False
 1994-06-04,Canada,France,18,16,"1994 France Tour of Canada & New Zealand","Twin Elms Rugby Park",Ottawa,Canada,False,False
+1994-06-09,Northland,France,23,28,"1994 France Tour of Canada & New Zealand",,,,False,False
+1994-06-12,"North Harbour",France,27,23,"1994 France Tour of Canada & New Zealand",,,,False,False
+1994-06-15,"Wairarapa Bush",France,9,53,"1994 France Tour of Canada & New Zealand",,,,False,False
+1994-06-18,"New Zealand XV",France,25,33,"1994 France Tour of Canada & New Zealand",,,,False,False
+1994-06-22,"Nelson Bays",France,18,46,"1994 France Tour of Canada & New Zealand",,,,False,False
 1994-06-26,"New Zealand",France,8,22,"1994 France Tour of Canada & New Zealand","Lancaster Park",Christchurch,"New Zealand",False,False
+1994-06-29,"Hawke's Bay",France,30,25,"1994 France Tour of Canada & New Zealand",,,,False,False
 1994-07-03,"New Zealand",France,20,23,"1994 France Tour of Canada & New Zealand","Eden Park",Auckland,"New Zealand",False,False
 1994-12-04,Italy,France,9,14,,,,,False,False
 1994-12-17,France,Canada,28,9,"1994 Canada Tour of Europe","Stade Leo Lagrange",Besancon,France,False,False
@@ -476,6 +607,7 @@ date,home_team,away_team,home_score,away_score,competition,stadium,city,country,
 1995-04-08,Romania,France,15,24,,,,,False,False
 1995-04-12,France,Netherlands,17,0,,,,,False,False
 1995-04-16,France,Spain,6,22,,,,,False,False
+1995-04-22,"Montpellier Herault Rugby Club",France,16,68,"1995 Italy Tour of France",,,,False,False
 1995-05-26,France,Tonga,38,10,"Rugby World Cup 1995","Loftus Versfeld",Pretoria,"South Africa",False,True
 1995-05-30,France,"Cote D'Ivoire",54,18,"Rugby World Cup 1995","Olympia Park",Rustenburg,"South Africa",False,True
 1995-06-03,France,Scotland,22,19,"Rugby World Cup 1995","Loftus Versfeld",Pretoria,"South Africa",False,True
@@ -498,7 +630,11 @@ date,home_team,away_team,home_score,away_score,competition,stadium,city,country,
 1996-04-08,France,Italy,57,8,,,,,False,False
 1996-04-14,Spain,France,10,15,,,,,False,False
 1996-04-20,France,Romania,64,12,,"Stade Jean Alric",Aurillac,France,False,False
+1996-06-10,Cordoba,France,19,22,"1996 France Tour of Argentina",,,,False,False
+1996-06-15,"Buenos Aires",France,29,26,"1996 France Tour of Argentina","San Isidro Stadium","Buenos Aires",Argentina,False,False
+1996-06-18,"Tucumán RC",France,18,20,"1996 France Tour of Argentina",,,,False,False
 1996-06-22,Argentina,France,27,34,"1996 France Tour of Argentina","Ferro Carril Oeste Stadium","Buenos Aires",Argentina,False,False
+1996-06-25,"San Juan",France,0,51,"1996 France Tour of Argentina",,,,False,False
 1996-06-29,Argentina,France,15,34,"1996 France Tour of Argentina","Ferro Carril Oeste Stadium","Buenos Aires",Argentina,False,False
 1996-09-08,France,USA,16,39,,,,,False,False
 1996-09-11,Canada,France,34,3,,,,,False,False
@@ -516,7 +652,11 @@ date,home_team,away_team,home_score,away_score,competition,stadium,city,country,
 1997-04-04,France,England,10,15,,,,,False,False
 1997-04-06,France,Spain,8,25,,,,,False,False
 1997-06-01,Romania,France,20,51,,"Stadionul Dinamo",Bucuresti,Romania,False,False
+1997-06-10,Victoria,France,13,65,"1997 France Tour of Australia",,,,False,False
+1997-06-13,"ACT Presidents XV",France,22,31,"1997 France Tour of Australia",,,,False,False
+1997-06-17,Queensland,France,24,34,"1997 France Tour of Australia",,,,False,False
 1997-06-21,Australia,France,29,15,"1997 France Tour of Australia","Aussie Stadium",Sydney,Australia,False,False
+1997-06-24,"Australian Barbarians",France,26,25,"1997 France Tour of Australia",,,,False,False
 1997-06-28,Australia,France,26,19,"1997 France Tour of Australia",Ballymore,Brisbane,Australia,False,False
 1997-10-18,France,Italy,30,19,"1997 Latin Cup","Stade Moulias",Auch,France,False,False
 1997-10-22,France,Romania,39,3,"1997 Latin Cup","Stade Antoine-Berguere",Lourdes,France,False,False
@@ -530,8 +670,10 @@ date,home_team,away_team,home_score,away_score,competition,stadium,city,country,
 1998-03-07,France,Ireland,18,16,"1998 Five Nations","Stade de France","St Denis",France,False,False
 1998-04-05,Wales,France,0,51,"1998 Five Nations","Wembley Stadium",London,England,False,False
 1998-06-13,Argentina,France,18,35,"1998 France Tour of Argentina","Velez Sarsfield Stadium","Buenos Aires",Argentina,False,False
+1998-06-16,"Buenos Aires",France,36,22,"1998 France Tour of Argentina",,,,False,False
 1998-06-20,Argentina,France,12,37,"1998 France Tour of Argentina","Velez Sarsfield Stadium","Buenos Aires",Argentina,False,False
 1998-06-27,Fiji,France,9,34,"1998 France Tour of Argentina","National Stadium",Suva,Fiji,False,False
+1998-06-27,"Fijian Barbarians",France,32,36,"1998 France Tour of Argentina",,,,False,False
 1998-11-14,France,Argentina,34,14,"1998 Argentina Tour of Italy, France & Wales","Stade de la Beaujoire",Nantes,France,False,False
 1998-11-21,France,Australia,21,32,"1998 Australia Tour of France & England","Stade de France","St Denis",France,False,False
 1999-01-30,Italy,France,24,49,,"Stadio Luigi Ferraris",Genoa,Italy,False,False
@@ -549,6 +691,7 @@ date,home_team,away_team,home_score,away_score,competition,stadium,city,country,
 1999-06-03,France,Romania,62,8,,"Stade Pierre Antoine",Castres,France,False,False
 1999-06-12,Samoa,France,22,39,"1999 France Tour of Samoa, Tonga &  New Zealand",,,,False,False
 1999-06-16,Tonga,France,20,16,"1999 France Tour of Samoa, Tonga &  New Zealand",,,,False,False
+1999-06-20,"New Zealand A",France,45,24,"1999 France Tour of Samoa, Tonga &  New Zealand",,,,False,False
 1999-06-26,"New Zealand",France,54,7,"1999 France Tour of Samoa, Tonga &  New Zealand","Athletic Park",Wellington,"New Zealand",False,False
 1999-08-28,Wales,France,34,23,,"Millennium Stadium",Cardiff,Wales,False,False
 1999-10-02,France,Canada,33,20,"Rugby World Cup 1999","Stade de la Mediterranee",Béziers,France,False,True
@@ -734,6 +877,7 @@ date,home_team,away_team,home_score,away_score,competition,stadium,city,country,
 2010-03-14,France,Italy,46,20,"2010 Six Nations","Stade de France","St Denis",France,False,False
 2010-03-20,France,England,12,10,"2010 Six Nations","Stade de France","St Denis",France,False,False
 2010-06-12,"South Africa",France,42,17,"2010 France Tour of Argentina & South Africa","Newlands Stadium","Cape Town","South Africa",False,False
+2010-06-18,"Argentina Jaguars",France,14,37,"2010 France Tour of Argentina & South Africa","La Plata RC","La Plata",Argentina,False,False
 2010-06-26,Argentina,France,41,13,"2010 France Tour of Argentina & South Africa","Velez Sarsfield Stadium","Buenos Aires",Argentina,False,False
 2010-11-13,France,Fiji,34,12,"2010 Fiji Tour of Europe","Stade de la Beaujoire",Nantes,France,False,False
 2010-11-20,France,Argentina,15,9,"2010 Argentina Tour of Europe","Stade de la Mosson",Montpellier,France,False,False
@@ -772,6 +916,7 @@ date,home_team,away_team,home_score,away_score,competition,stadium,city,country,
 2013-03-16,France,Scotland,23,16,"2013 Six Nations","Stade de France","St Denis",France,False,False
 2013-06-08,USA,France,13,10,,"Oxnard College",California,"United States",False,False
 2013-06-08,"New Zealand",France,23,13,"2013 France Tour (NZL)","Eden Park",Auckland,"New Zealand",False,False
+2013-06-11,Blues,France,15,38,"2013 France Tour (NZL)","North Harbour Stadium","North Harbour","New Zealand",False,False
 2013-06-12,USA,France,25,27,,"Oxnard College",California,"United States",False,False
 2013-06-15,USA,France,12,18,,"StubHub Center","Carson, California","United States",False,False
 2013-06-15,"New Zealand",France,30,0,"2013 France Tour (NZL)","Christchurch Stadium",Christchurch,"New Zealand",False,False

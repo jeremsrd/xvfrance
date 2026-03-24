@@ -49,12 +49,30 @@ class CountrySeeder extends Seeder
             ['name' => 'Namibie', 'code' => 'NAM', 'continent' => Continent::AFRIQUE, 'flag_emoji' => '🇳🇦'],
             ['name' => 'Zimbabwe', 'code' => 'ZIM', 'continent' => Continent::AFRIQUE, 'flag_emoji' => '🇿🇼'],
             ['name' => 'Côte d\'Ivoire', 'code' => 'CIV', 'continent' => Continent::AFRIQUE, 'flag_emoji' => '🇨🇮'],
+            ['name' => 'Maroc', 'code' => 'MAR', 'continent' => Continent::AFRIQUE, 'flag_emoji' => '🇲🇦'],
+            ['name' => 'Tunisie', 'code' => 'TUN', 'continent' => Continent::AFRIQUE, 'flag_emoji' => '🇹🇳'],
+            ['name' => 'Kenya', 'code' => 'KEN', 'continent' => Continent::AFRIQUE, 'flag_emoji' => '🇰🇪'],
+            ['name' => 'Rhodésie', 'code' => 'RHO', 'continent' => Continent::AFRIQUE, 'flag_emoji' => ''],
 
             // Asia
             ['name' => 'Japon', 'code' => 'JPN', 'continent' => Continent::ASIE, 'flag_emoji' => '🇯🇵'],
+            ['name' => 'Kazakhstan', 'code' => 'KAZ', 'continent' => Continent::ASIE, 'flag_emoji' => '🇰🇿'],
+            ['name' => 'Hong Kong', 'code' => 'HKG', 'continent' => Continent::ASIE, 'flag_emoji' => '🇭🇰'],
 
-            // British & Irish Lions (équipe spéciale)
-            ['name' => 'Lions Britanniques et Irlandais', 'code' => 'BIL', 'continent' => Continent::EUROPE, 'flag_emoji' => '🦁'],
+            // Europe supplémentaires
+            ['name' => 'Pays-Bas', 'code' => 'NED', 'continent' => Continent::EUROPE, 'flag_emoji' => '🇳🇱'],
+            ['name' => 'Belgique', 'code' => 'BEL', 'continent' => Continent::EUROPE, 'flag_emoji' => '🇧🇪'],
+            ['name' => 'Suède', 'code' => 'SWE', 'continent' => Continent::EUROPE, 'flag_emoji' => '🇸🇪'],
+            ['name' => 'Tchécoslovaquie', 'code' => 'TCH', 'continent' => Continent::EUROPE, 'flag_emoji' => ''],
+
+            // Americas supplémentaires
+            ['name' => 'Chili', 'code' => 'CHI', 'continent' => Continent::AMERIQUE_SUD, 'flag_emoji' => '🇨🇱'],
+            ['name' => 'Paraguay', 'code' => 'PAR', 'continent' => Continent::AMERIQUE_SUD, 'flag_emoji' => '🇵🇾'],
+
+            // Équipes spéciales
+            ['name' => 'Lions Britanniques', 'code' => 'BIL', 'continent' => Continent::EUROPE, 'flag_emoji' => '🦁'],
+            ['name' => 'Grande-Bretagne', 'code' => 'GBR', 'continent' => Continent::EUROPE, 'flag_emoji' => '🇬🇧'],
+            ['name' => 'Pacific Islanders', 'code' => 'PAC', 'continent' => Continent::OCEANIE, 'flag_emoji' => '🏝️'],
         ];
 
         foreach ($countries as $country) {

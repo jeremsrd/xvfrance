@@ -12,7 +12,7 @@ return new class extends Migration
             $table->id();
             $table->string('name', 150);
             $table->string('city', 100);
-            $table->foreignId('country_id')->constrained('countries');
+            $table->foreignId('country_id')->nullable()->constrained('countries');
             $table->integer('capacity')->nullable();
             $table->integer('opened_year')->nullable();
             $table->decimal('latitude', 10, 7)->nullable();
