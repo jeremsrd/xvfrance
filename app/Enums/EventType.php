@@ -25,13 +25,44 @@ enum EventType: string
         };
     }
 
-    public function points(): int
+    /**
+     * Barème historique du rugby :
+     * 1893-1948 : Essai=3, Transfo=2, Pénalité=3, Drop=4
+     * 1948-1971 : Essai=3, Transfo=2, Pénalité=3, Drop=3
+     * 1971-1992 : Essai=4, Transfo=2, Pénalité=3, Drop=3
+     * 1992+     : Essai=5, Transfo=2, Pénalité=3, Drop=3
+     */
+    public function points(\DateTimeInterface|null $matchDate = null): int
     {
-        return match ($this) {
-            self::ESSAI, self::ESSAI_PENALITE => 5,
-            self::TRANSFORMATION => 2,
-            self::PENALITE, self::DROP => 3,
-            default => 0,
-        };
+        if (in_array($this, [self::CARTON_JAUNE, self::CARTON_ROUGE])) {
+            return 0;
+        }
+
+        if ($this === self::TRANSFORMATION) {
+            return 2;
+        }
+
+        if ($this === self::PENALITE) {
+            return 3;
+        }
+
+        $year = $matchDate?->format('Y') ?? 2024;
+
+        if ($this === self::DROP) {
+            return $year < 1948 ? 4 : 3;
+        }
+
+        // ESSAI et ESSAI_PENALITE
+        if ($year < 1948) {
+            return 3;
+        }
+        if ($year < 1971) {
+            return 3;
+        }
+        if ($year < 1992) {
+            return 4;
+        }
+
+        return 5;
     }
 }

@@ -31,7 +31,7 @@ class PlayerController extends Controller
         $captaincies = $lineups->where('is_captain', true)->count();
         $tries = $events->where('event_type', EventType::ESSAI)->count();
 
-        $points = $events->sum(fn ($e) => $e->event_type->points());
+        $points = $events->sum(fn ($e) => $e->event_type->points($e->match->match_date));
 
         return view('players.show', compact(
             'player', 'lineups', 'events',
