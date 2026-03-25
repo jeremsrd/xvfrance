@@ -45,7 +45,10 @@
                 <nav class="hidden md:flex items-center space-x-1">
                     <a href="{{ route('home') }}" class="px-3 py-2 rounded-md text-sm font-medium hover:bg-bleu-france-light transition {{ request()->routeIs('home') ? 'bg-bleu-france-light' : '' }}">Accueil</a>
                     <a href="{{ route('matches.index') }}" class="px-3 py-2 rounded-md text-sm font-medium hover:bg-bleu-france-light transition {{ request()->routeIs('matches.*') ? 'bg-bleu-france-light' : '' }}">Matches</a>
+                    <a href="{{ route('players.index') }}" class="px-3 py-2 rounded-md text-sm font-medium hover:bg-bleu-france-light transition {{ request()->routeIs('players.*') ? 'bg-bleu-france-light' : '' }}">Joueurs</a>
                     <a href="{{ route('opponents.index') }}" class="px-3 py-2 rounded-md text-sm font-medium hover:bg-bleu-france-light transition {{ request()->routeIs('opponents.*') ? 'bg-bleu-france-light' : '' }}">Adversaires</a>
+                    <a href="{{ route('competitions.index') }}" class="px-3 py-2 rounded-md text-sm font-medium hover:bg-bleu-france-light transition {{ request()->routeIs('competitions.*') || request()->routeIs('editions.*') ? 'bg-bleu-france-light' : '' }}">Comp&eacute;titions</a>
+                    <a href="{{ route('coaches.index') }}" class="px-3 py-2 rounded-md text-sm font-medium hover:bg-bleu-france-light transition {{ request()->routeIs('coaches.*') ? 'bg-bleu-france-light' : '' }}">S&eacute;lectionneurs</a>
                 </nav>
 
                 {{-- Hamburger mobile --}}
@@ -63,7 +66,10 @@
             <div class="px-4 py-3 space-y-1">
                 <a href="{{ route('home') }}" class="block px-3 py-2 rounded-md text-sm font-medium hover:bg-bleu-france-light">Accueil</a>
                 <a href="{{ route('matches.index') }}" class="block px-3 py-2 rounded-md text-sm font-medium hover:bg-bleu-france-light">Matches</a>
+                <a href="{{ route('players.index') }}" class="block px-3 py-2 rounded-md text-sm font-medium hover:bg-bleu-france-light">Joueurs</a>
                 <a href="{{ route('opponents.index') }}" class="block px-3 py-2 rounded-md text-sm font-medium hover:bg-bleu-france-light">Adversaires</a>
+                <a href="{{ route('competitions.index') }}" class="block px-3 py-2 rounded-md text-sm font-medium hover:bg-bleu-france-light">Comp&eacute;titions</a>
+                <a href="{{ route('coaches.index') }}" class="block px-3 py-2 rounded-md text-sm font-medium hover:bg-bleu-france-light">S&eacute;lectionneurs</a>
             </div>
         </div>
     </header>
@@ -83,6 +89,7 @@
     {{-- Contenu principal --}}
     <main class="flex-1">
         @yield('content')
+        {{ $slot ?? '' }}
     </main>
 
     {{-- Footer --}}
@@ -95,7 +102,10 @@
                     <ul class="space-y-2 text-sm">
                         <li><a href="{{ route('home') }}" class="hover:text-white transition">Accueil</a></li>
                         <li><a href="{{ route('matches.index') }}" class="hover:text-white transition">Tous les matches</a></li>
+                        <li><a href="{{ route('players.index') }}" class="hover:text-white transition">Joueurs</a></li>
                         <li><a href="{{ route('opponents.index') }}" class="hover:text-white transition">Adversaires</a></li>
+                        <li><a href="{{ route('competitions.index') }}" class="hover:text-white transition">Comp&eacute;titions</a></li>
+                        <li><a href="{{ route('coaches.index') }}" class="hover:text-white transition">S&eacute;lectionneurs</a></li>
                     </ul>
                 </div>
 

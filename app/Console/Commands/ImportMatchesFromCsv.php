@@ -264,7 +264,7 @@ class ImportMatchesFromCsv extends Command
 
             // Vérifier doublon
             if (!$dryRun) {
-                $exists = RugbyMatch::where('match_date', $matchDate->format('Y-m-d'))
+                $exists = RugbyMatch::whereDate('match_date', $matchDate->format('Y-m-d'))
                     ->where('opponent_id', $opponent->id)
                     ->exists();
                 if ($exists) {
