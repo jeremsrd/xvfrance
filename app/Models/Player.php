@@ -13,8 +13,20 @@ class Player extends Model
     protected $fillable = [
         'first_name', 'last_name', 'nickname', 'birth_date', 'death_date',
         'birth_city', 'birth_country_id', 'country_id', 'height_cm', 'weight_kg',
-        'primary_position', 'photo_path', 'is_active', 'cap_number',
+        'primary_position', 'photo_path', 'is_active', 'cap_number', 'slug',
     ];
+
+    public function getRouteKeyName(): string
+    {
+        return 'slug';
+    }
+
+    public function generateSlug(): string
+    {
+        $base = \Illuminate\Support\Str::slug($this->first_name . ' ' . $this->last_name);
+        $suffix = $this->cap_number ?? $this->id;
+        return "{$base}-{$suffix}";
+    }
 
     protected $casts = [
         'birth_date' => 'date',

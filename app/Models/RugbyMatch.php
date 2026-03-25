@@ -15,8 +15,20 @@ class RugbyMatch extends Model
         'match_date', 'kickoff_time', 'venue_id', 'opponent_id', 'edition_id',
         'france_score', 'opponent_score', 'is_home', 'is_neutral', 'stage',
         'match_number', 'attendance', 'referee', 'referee_country_id',
-        'weather', 'notes',
+        'weather', 'notes', 'slug',
     ];
+
+    public function getRouteKeyName(): string
+    {
+        return 'slug';
+    }
+
+    public function generateSlug(): string
+    {
+        $date = $this->match_date->format('Y-m-d');
+        $opponent = \Illuminate\Support\Str::slug($this->opponent->name);
+        return "{$date}-{$opponent}";
+    }
 
     protected $casts = [
         'match_date' => 'date',

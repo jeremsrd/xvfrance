@@ -13,9 +13,9 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/matches', MatchList::class)->name('matches.index');
-Route::get('/matches/{rugbyMatch}', [MatchController::class, 'show'])->name('matches.show');
+Route::get('/matches/{rugbyMatch:slug}', [MatchController::class, 'show'])->name('matches.show');
 Route::get('/joueurs', PlayerList::class)->name('players.index');
-Route::get('/joueurs/{player}', [PlayerController::class, 'show'])->name('players.show');
+Route::get('/joueurs/{player:slug}', [PlayerController::class, 'show'])->name('players.show');
 Route::get('/adversaires', [OpponentController::class, 'index'])->name('opponents.index');
 Route::get('/adversaires/{country:code}', [OpponentController::class, 'show'])->name('opponents.show');
 Route::get('/competitions', [CompetitionController::class, 'index'])->name('competitions.index');
