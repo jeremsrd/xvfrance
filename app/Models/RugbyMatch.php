@@ -93,4 +93,36 @@ class RugbyMatch extends Model
     {
         return $this->france_score < $this->opponent_score;
     }
+
+    // --- Affichage domicile/extérieur ---
+
+    public function getHomeScoreAttribute(): int
+    {
+        return $this->is_home ? $this->france_score : $this->opponent_score;
+    }
+
+    public function getAwayScoreAttribute(): int
+    {
+        return $this->is_home ? $this->opponent_score : $this->france_score;
+    }
+
+    public function getHomeTeamNameAttribute(): string
+    {
+        return $this->is_home ? 'France' : $this->opponent->name;
+    }
+
+    public function getAwayTeamNameAttribute(): string
+    {
+        return $this->is_home ? $this->opponent->name : 'France';
+    }
+
+    public function getHomeTeamFlagAttribute(): string
+    {
+        return $this->is_home ? '🇫🇷' : $this->opponent->flag_emoji;
+    }
+
+    public function getAwayTeamFlagAttribute(): string
+    {
+        return $this->is_home ? $this->opponent->flag_emoji : '🇫🇷';
+    }
 }

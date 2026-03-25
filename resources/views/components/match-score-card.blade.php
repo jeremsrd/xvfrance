@@ -23,13 +23,21 @@
                 @endif
             </div>
 
-            {{-- Score --}}
+            {{-- Score (domicile à gauche, extérieur à droite) --}}
             <div class="flex items-center gap-3 {{ $featured ? 'text-2xl' : 'text-lg' }}">
-                <span class="font-bold">France</span>
-                <span class="font-mono font-bold">{{ $match->france_score }}</span>
-                <span class="text-gray-400">-</span>
-                <span class="font-mono font-bold">{{ $match->opponent_score }}</span>
-                <x-country-flag :country="$match->opponent" class="font-bold" />
+                @if($match->is_home)
+                    <span class="font-bold">France</span>
+                    <span class="font-mono font-bold">{{ $match->france_score }}</span>
+                    <span class="text-gray-400">-</span>
+                    <span class="font-mono font-bold">{{ $match->opponent_score }}</span>
+                    <x-country-flag :country="$match->opponent" class="font-bold" />
+                @else
+                    <x-country-flag :country="$match->opponent" class="font-bold" />
+                    <span class="font-mono font-bold">{{ $match->opponent_score }}</span>
+                    <span class="text-gray-400">-</span>
+                    <span class="font-mono font-bold">{{ $match->france_score }}</span>
+                    <span class="font-bold">France</span>
+                @endif
             </div>
 
             {{-- Stade --}}

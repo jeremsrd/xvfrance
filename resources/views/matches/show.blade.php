@@ -1,14 +1,14 @@
 @extends('layouts.app')
 
-@section('title', 'France ' . $rugbyMatch->france_score . ' - ' . $rugbyMatch->opponent_score . ' ' . $rugbyMatch->opponent->name . ' — ' . $rugbyMatch->match_date->format('d/m/Y'))
+@section('title', $rugbyMatch->home_team_name . ' ' . $rugbyMatch->home_score . ' - ' . $rugbyMatch->away_score . ' ' . $rugbyMatch->away_team_name . ' — ' . $rugbyMatch->match_date->format('d/m/Y'))
 
-@section('meta_description', 'Fiche du match France ' . $rugbyMatch->france_score . ' - ' . $rugbyMatch->opponent_score . ' ' . $rugbyMatch->opponent->name . ' du ' . $rugbyMatch->match_date->format('d/m/Y'))
+@section('meta_description', 'Fiche du match ' . $rugbyMatch->home_team_name . ' ' . $rugbyMatch->home_score . ' - ' . $rugbyMatch->away_score . ' ' . $rugbyMatch->away_team_name . ' du ' . $rugbyMatch->match_date->format('d/m/Y'))
 
 @section('breadcrumb')
     <span class="mx-2">/</span>
     <a href="{{ route('matches.index') }}" class="hover:text-bleu-france">Matches</a>
     <span class="mx-2">/</span>
-    <span class="text-gray-700">France vs {{ $rugbyMatch->opponent->name }}</span>
+    <span class="text-gray-700">{{ $rugbyMatch->home_team_name }} vs {{ $rugbyMatch->away_team_name }}</span>
 @endsection
 
 @section('content')
@@ -30,18 +30,18 @@
                 {{ strtoupper($rugbyMatch->result) }}
             </span>
 
-            {{-- Score --}}
+            {{-- Score (domicile à gauche, extérieur à droite) --}}
             <div class="flex items-center justify-center gap-6 sm:gap-10">
                 <div class="text-center">
-                    <div class="text-4xl mb-2">🇫🇷</div>
-                    <div class="text-lg font-semibold">France</div>
+                    <div class="text-4xl mb-2">{{ $rugbyMatch->home_team_flag }}</div>
+                    <div class="text-lg font-semibold">{{ $rugbyMatch->home_team_name }}</div>
                 </div>
                 <div class="text-5xl sm:text-7xl font-bold font-mono tracking-tight">
-                    {{ $rugbyMatch->france_score }} <span class="text-blue-300">—</span> {{ $rugbyMatch->opponent_score }}
+                    {{ $rugbyMatch->home_score }} <span class="text-blue-300">—</span> {{ $rugbyMatch->away_score }}
                 </div>
                 <div class="text-center">
-                    <div class="text-4xl mb-2">{{ $rugbyMatch->opponent->flag_emoji }}</div>
-                    <div class="text-lg font-semibold">{{ $rugbyMatch->opponent->name }}</div>
+                    <div class="text-4xl mb-2">{{ $rugbyMatch->away_team_flag }}</div>
+                    <div class="text-lg font-semibold">{{ $rugbyMatch->away_team_name }}</div>
                 </div>
             </div>
 
@@ -125,15 +125,22 @@
                 $opponentLineups = $rugbyMatch->lineups->where('team_side', \App\Enums\TeamSide::ADVERSAIRE)->sortBy('jersey_number');
             @endphp
 
+            @php
+                $homeLineups = $rugbyMatch->is_home ? $franceLineups : $opponentLineups;
+                $awayLineups = $rugbyMatch->is_home ? $opponentLineups : $franceLineups;
+                $homeLabel = $rugbyMatch->is_home ? '🇫🇷 XV de France' : $rugbyMatch->opponent->flag_emoji . ' ' . $rugbyMatch->opponent->name;
+                $awayLabel = $rugbyMatch->is_home ? $rugbyMatch->opponent->flag_emoji . ' ' . $rugbyMatch->opponent->name : '🇫🇷 XV de France';
+            @endphp
+
             @if($franceLineups->isNotEmpty() || $opponentLineups->isNotEmpty())
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
-                {{-- France --}}
-                @if($franceLineups->isNotEmpty())
+                {{-- Équipe à domicile --}}
+                @if($homeLineups->isNotEmpty())
                 <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
-                    <h3 class="font-semibold text-gray-900 mb-4">🇫🇷 XV de France</h3>
+                    <h3 class="font-semibold text-gray-900 mb-4">{{ $homeLabel }}</h3>
                     <div class="space-y-1 text-sm">
                         <p class="text-xs text-gray-400 font-semibold uppercase mb-2">Titulaires</p>
-                        @foreach($franceLineups->where('is_starter', true) as $lineup)
+                        @foreach($homeLineups->where('is_starter', true) as $lineup)
                             <div class="flex items-center gap-2 py-1">
                                 <span class="w-6 text-center font-mono text-gray-400">{{ $lineup->jersey_number }}</span>
                                 <span class="font-medium">
@@ -142,9 +149,9 @@
                                 </span>
                             </div>
                         @endforeach
-                        @if($franceLineups->where('is_starter', false)->isNotEmpty())
+                        @if($homeLineups->where('is_starter', false)->isNotEmpty())
                             <p class="text-xs text-gray-400 font-semibold uppercase mt-4 mb-2">Remplaçants</p>
-                            @foreach($franceLineups->where('is_starter', false) as $lineup)
+                            @foreach($homeLineups->where('is_starter', false) as $lineup)
                                 <div class="flex items-center gap-2 py-1">
                                     <span class="w-6 text-center font-mono text-gray-400">{{ $lineup->jersey_number }}</span>
                                     <span>{{ $lineup->player->first_name }} {{ $lineup->player->last_name }}</span>
@@ -155,13 +162,13 @@
                 </div>
                 @endif
 
-                {{-- Adversaire --}}
-                @if($opponentLineups->isNotEmpty())
+                {{-- Équipe à l'extérieur --}}
+                @if($awayLineups->isNotEmpty())
                 <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
-                    <h3 class="font-semibold text-gray-900 mb-4">{{ $rugbyMatch->opponent->flag_emoji }} {{ $rugbyMatch->opponent->name }}</h3>
+                    <h3 class="font-semibold text-gray-900 mb-4">{{ $awayLabel }}</h3>
                     <div class="space-y-1 text-sm">
                         <p class="text-xs text-gray-400 font-semibold uppercase mb-2">Titulaires</p>
-                        @foreach($opponentLineups->where('is_starter', true) as $lineup)
+                        @foreach($awayLineups->where('is_starter', true) as $lineup)
                             <div class="flex items-center gap-2 py-1">
                                 <span class="w-6 text-center font-mono text-gray-400">{{ $lineup->jersey_number }}</span>
                                 <span class="font-medium">
@@ -170,9 +177,9 @@
                                 </span>
                             </div>
                         @endforeach
-                        @if($opponentLineups->where('is_starter', false)->isNotEmpty())
+                        @if($awayLineups->where('is_starter', false)->isNotEmpty())
                             <p class="text-xs text-gray-400 font-semibold uppercase mt-4 mb-2">Remplaçants</p>
-                            @foreach($opponentLineups->where('is_starter', false) as $lineup)
+                            @foreach($awayLineups->where('is_starter', false) as $lineup)
                                 <div class="flex items-center gap-2 py-1">
                                     <span class="w-6 text-center font-mono text-gray-400">{{ $lineup->jersey_number }}</span>
                                     <span>{{ $lineup->player->first_name }} {{ $lineup->player->last_name }}</span>

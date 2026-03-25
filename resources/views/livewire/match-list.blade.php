@@ -82,7 +82,7 @@
                                     <span>{{ $sortDirection === 'asc' ? '↑' : '↓' }}</span>
                                 @endif
                             </th>
-                            <th class="pb-3">Adversaire</th>
+                            <th class="pb-3">Match</th>
                             <th class="pb-3 text-center cursor-pointer hover:text-bleu-france" wire:click="sort('france_score')">
                                 Score
                                 @if($sortField === 'france_score')
@@ -99,10 +99,14 @@
                             <tr class="hover:bg-gray-50 cursor-pointer transition" onclick="window.location='{{ route('matches.show', $match) }}'">
                                 <td class="py-3 text-gray-500 whitespace-nowrap">{{ $match->match_date->format('d/m/Y') }}</td>
                                 <td class="py-3">
-                                    <x-country-flag :country="$match->opponent" />
+                                    @if($match->is_home)
+                                        <span class="font-medium">France</span> - <x-country-flag :country="$match->opponent" />
+                                    @else
+                                        <x-country-flag :country="$match->opponent" /> - <span class="font-medium">France</span>
+                                    @endif
                                 </td>
                                 <td class="py-3 text-center font-mono font-bold">
-                                    {{ $match->france_score }} - {{ $match->opponent_score }}
+                                    {{ $match->home_score }} - {{ $match->away_score }}
                                 </td>
                                 <td class="py-3 text-center">
                                     <x-result-badge :result="$match->result" />

@@ -76,9 +76,9 @@
                 />
                 @if($biggestWin)
                 <x-stat-card
-                    :value="$biggestWin->france_score . ' - ' . $biggestWin->opponent_score"
+                    :value="$biggestWin->home_score . ' - ' . $biggestWin->away_score"
                     label="Plus gros score"
-                    :subtitle="'vs ' . $biggestWin->opponent->name . ' (' . $biggestWin->match_date->format('Y') . ')'"
+                    :subtitle="$biggestWin->home_team_name . ' vs ' . $biggestWin->away_team_name . ' (' . $biggestWin->match_date->format('Y') . ')'"
                 />
                 @endif
                 @if($mostFaced)

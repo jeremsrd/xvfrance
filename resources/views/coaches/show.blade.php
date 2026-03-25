@@ -102,7 +102,7 @@
                         <thead class="bg-gray-50 text-gray-500 text-xs uppercase">
                             <tr>
                                 <th class="px-4 py-3 text-left">Date</th>
-                                <th class="px-4 py-3 text-left">Adversaire</th>
+                                <th class="px-4 py-3 text-left">Match</th>
                                 <th class="px-4 py-3 text-center">Score</th>
                                 <th class="px-4 py-3 text-center">R&eacute;sultat</th>
                                 <th class="px-4 py-3 text-left">Comp&eacute;tition</th>
@@ -117,10 +117,14 @@
                                         </a>
                                     </td>
                                     <td class="px-4 py-3">
-                                        <x-country-flag :country="$match->opponent" class="text-sm" />
+                                        @if($match->is_home)
+                                            <span class="font-medium">France</span> - <x-country-flag :country="$match->opponent" class="text-sm" />
+                                        @else
+                                            <x-country-flag :country="$match->opponent" class="text-sm" /> - <span class="font-medium">France</span>
+                                        @endif
                                     </td>
                                     <td class="px-4 py-3 text-center font-mono font-bold">
-                                        {{ $match->france_score }} - {{ $match->opponent_score }}
+                                        {{ $match->home_score }} - {{ $match->away_score }}
                                     </td>
                                     <td class="px-4 py-3 text-center">
                                         <x-result-badge :result="$match->result" />
@@ -142,8 +146,7 @@
                                 <div>
                                     <div class="text-xs text-gray-500">{{ $match->match_date->format('d/m/Y') }}</div>
                                     <div class="font-bold mt-0.5">
-                                        France {{ $match->france_score }} - {{ $match->opponent_score }}
-                                        {{ $match->opponent->name }}
+                                        {{ $match->home_team_name }} {{ $match->home_score }} - {{ $match->away_score }} {{ $match->away_team_name }}
                                     </div>
                                 </div>
                                 <x-result-badge :result="$match->result" />

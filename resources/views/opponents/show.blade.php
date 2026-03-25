@@ -48,14 +48,14 @@
                 @if($biggestWin)
                 <div class="bg-green-50 rounded-lg border border-green-200 p-5">
                     <div class="text-xs font-semibold text-green-600 uppercase mb-1">Plus grosse victoire</div>
-                    <div class="text-xl font-bold">France {{ $biggestWin->france_score }} - {{ $biggestWin->opponent_score }} {{ $country->name }}</div>
+                    <div class="text-xl font-bold">{{ $biggestWin->home_team_name }} {{ $biggestWin->home_score }} - {{ $biggestWin->away_score }} {{ $biggestWin->away_team_name }}</div>
                     <div class="text-sm text-gray-500 mt-1">{{ $biggestWin->match_date->format('d/m/Y') }}</div>
                 </div>
                 @endif
                 @if($biggestLoss)
                 <div class="bg-red-50 rounded-lg border border-red-200 p-5">
                     <div class="text-xs font-semibold text-red-600 uppercase mb-1">Plus grosse défaite</div>
-                    <div class="text-xl font-bold">France {{ $biggestLoss->france_score }} - {{ $biggestLoss->opponent_score }} {{ $country->name }}</div>
+                    <div class="text-xl font-bold">{{ $biggestLoss->home_team_name }} {{ $biggestLoss->home_score }} - {{ $biggestLoss->away_score }} {{ $biggestLoss->away_team_name }}</div>
                     <div class="text-sm text-gray-500 mt-1">{{ $biggestLoss->match_date->format('d/m/Y') }}</div>
                 </div>
                 @endif
