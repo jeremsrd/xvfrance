@@ -4,22 +4,22 @@
 
 @section('breadcrumb')
     <span class="text-gray-300 mx-1">/</span>
-    <span class="text-gray-700">S&eacute;lectionneurs</span>
+    <span class="text-gray-700">Sélectionneurs</span>
 @endsection
 
 @section('content')
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
 
     <div class="mb-8">
-        <h1 class="text-3xl font-bold text-gray-900">S&eacute;lectionneurs</h1>
-        <p class="mt-1 text-gray-500">Les hommes &agrave; la t&ecirc;te du XV de France</p>
+        <h1 class="text-3xl font-bold text-gray-900">Sélectionneurs</h1>
+        <p class="mt-1 text-gray-500">Les hommes à la tête du XV de France</p>
     </div>
 
     @if($coaches->isEmpty())
         <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-12 text-center">
-            <div class="text-gray-400 text-5xl mb-4">&#127944;</div>
-            <h3 class="text-lg font-semibold text-gray-700 mb-2">Donn&eacute;es &agrave; venir</h3>
-            <p class="text-gray-500">Les fiches des s&eacute;lectionneurs sont en cours de saisie.</p>
+            <div class="text-gray-400 text-5xl mb-4">🏈</div>
+            <h3 class="text-lg font-semibold text-gray-700 mb-2">Données à venir</h3>
+            <p class="text-gray-500">Les fiches des sélectionneurs sont en cours de saisie.</p>
         </div>
     @else
         <div class="space-y-4">
@@ -44,7 +44,7 @@
                             <h2 class="text-xl font-bold text-gray-900">{{ $coach->fullName() }}</h2>
                             <div class="text-sm text-gray-500 mt-1">
                                 @if($coach->tenure->end_date)
-                                    De {{ $coach->tenure->start_date->format('Y') }} &agrave; {{ $coach->tenure->end_date->format('Y') }}
+                                    De {{ $coach->tenure->start_date->format('Y') }} à {{ $coach->tenure->end_date->format('Y') }}
                                 @else
                                     Depuis {{ $coach->tenure->start_date->format('Y') }}
                                 @endif

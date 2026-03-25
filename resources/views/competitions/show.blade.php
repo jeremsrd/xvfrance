@@ -4,7 +4,7 @@
 
 @section('breadcrumb')
     <span class="text-gray-300 mx-1">/</span>
-    <a href="{{ route('competitions.index') }}" class="hover:text-bleu-france">Comp&eacute;titions</a>
+    <a href="{{ route('competitions.index') }}" class="hover:text-bleu-france">Compétitions</a>
     <span class="text-gray-300 mx-1">/</span>
     <span class="text-gray-700">{{ $competition->name }}</span>
 @endsection
@@ -30,12 +30,12 @@
                 </span>
             @endif
         </div>
-        <p class="mt-1 text-gray-500">{{ $editions->count() }} &eacute;dition{{ $editions->count() > 1 ? 's' : '' }}</p>
+        <p class="mt-1 text-gray-500">{{ $editions->count() }} édition{{ $editions->count() > 1 ? 's' : '' }}</p>
     </div>
 
     @if($editions->isEmpty())
         <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-12 text-center">
-            <p class="text-gray-500">Aucune &eacute;dition enregistr&eacute;e.</p>
+            <p class="text-gray-500">Aucune édition enregistrée.</p>
         </div>
     @else
         {{-- Desktop --}}
@@ -43,8 +43,8 @@
             <table class="w-full text-sm">
                 <thead class="bg-gray-50 text-gray-500 text-xs uppercase">
                     <tr>
-                        <th class="px-4 py-3 text-left">&Eacute;dition</th>
-                        <th class="px-4 py-3 text-center">Ann&eacute;e</th>
+                        <th class="px-4 py-3 text-left">Édition</th>
+                        <th class="px-4 py-3 text-center">Année</th>
                         <th class="px-4 py-3 text-center">Classement</th>
                         <th class="px-4 py-3 text-center">Matches</th>
                         <th class="px-4 py-3 text-center">Bilan</th>
@@ -65,7 +65,7 @@
                                         {{ $edition->france_ranking }}{{ $edition->france_ranking === 1 ? 'er' : 'e' }}
                                     </span>
                                 @else
-                                    <span class="text-gray-300">&mdash;</span>
+                                    <span class="text-gray-300">—</span>
                                 @endif
                             </td>
                             <td class="px-4 py-3 text-center">{{ $edition->matches_count }}</td>

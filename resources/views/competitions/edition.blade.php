@@ -4,7 +4,7 @@
 
 @section('breadcrumb')
     <span class="text-gray-300 mx-1">/</span>
-    <a href="{{ route('competitions.index') }}" class="hover:text-bleu-france">Comp&eacute;titions</a>
+    <a href="{{ route('competitions.index') }}" class="hover:text-bleu-france">Compétitions</a>
     <span class="text-gray-300 mx-1">/</span>
     <a href="{{ route('competitions.show', $competitionEdition->competition) }}" class="hover:text-bleu-france">{{ $competitionEdition->competition->name }}</a>
     <span class="text-gray-300 mx-1">/</span>
@@ -29,7 +29,7 @@
     <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
         <x-stat-card :value="$matches->count()" label="Matches" />
         <x-stat-card :value="$wins" label="Victoires" color="green" />
-        <x-stat-card :value="$losses" label="D&eacute;faites" color="red" />
+        <x-stat-card :value="$losses" label="Défaites" color="red" />
         <x-stat-card :value="$draws" label="Nuls" color="yellow" />
     </div>
 
@@ -39,7 +39,7 @@
             <x-match-score-card :match="$match" />
         @empty
             <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-8 text-center text-gray-500">
-                Aucun match enregistr&eacute; pour cette &eacute;dition.
+                Aucun match enregistré pour cette édition.
             </div>
         @endforelse
     </div>

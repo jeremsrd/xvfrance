@@ -32,12 +32,12 @@
                 <h1 class="text-3xl font-bold text-gray-900">
                     {{ $player->fullName() }}
                     @if($player->isDeceased())
-                        <span class="text-gray-400 text-xl">&dagger;</span>
+                        <span class="text-gray-400 text-xl">†</span>
                     @endif
                 </h1>
 
                 @if($player->nickname)
-                    <p class="text-lg text-gray-500 italic">&laquo; {{ $player->nickname }} &raquo;</p>
+                    <p class="text-lg text-gray-500 italic">« {{ $player->nickname }} »</p>
                 @endif
 
                 <div class="flex flex-wrap items-center gap-3 mt-3">
@@ -61,7 +61,7 @@
                 <div class="mt-4 grid grid-cols-2 md:grid-cols-4 gap-x-6 gap-y-2 text-sm text-gray-600">
                     @if($player->birth_date)
                         <div>
-                            <span class="text-gray-400">N&eacute; le</span>
+                            <span class="text-gray-400">Né le</span>
                             {{ $player->birth_date->format('d/m/Y') }}
                             @if(!$player->isDeceased())
                                 <span class="text-gray-400">({{ $player->birth_date->age }} ans)</span>
@@ -70,12 +70,12 @@
                     @endif
                     @if($player->isDeceased())
                         <div>
-                            <span class="text-gray-400">D&eacute;c&eacute;d&eacute; le</span>
+                            <span class="text-gray-400">Décédé le</span>
                             {{ $player->death_date->format('d/m/Y') }}
                         </div>
                     @endif
                     @if($player->birth_city)
-                        <div><span class="text-gray-400">&Agrave;</span> {{ $player->birth_city }}</div>
+                        <div><span class="text-gray-400">À</span> {{ $player->birth_city }}</div>
                     @endif
                     @if($player->height_cm)
                         <div><span class="text-gray-400">Taille</span> {{ number_format($player->height_cm / 100, 2, ',', '') }} m</div>
@@ -90,22 +90,22 @@
 
     {{-- Statistiques --}}
     <div class="grid grid-cols-2 md:grid-cols-5 gap-4 mb-8">
-        <x-stat-card :value="$totalCaps" label="S&eacute;lections" />
+        <x-stat-card :value="$totalCaps" label="Sélections" />
         <x-stat-card :value="$starts" label="Titularisations" color="green" />
         <x-stat-card :value="$tries" label="Essais" color="green" />
         <x-stat-card :value="$captaincies" label="Capitanats" color="yellow" />
         <x-stat-card :value="$points" label="Points" />
     </div>
 
-    {{-- Matches jou&eacute;s --}}
+    {{-- Matches joués --}}
     <div class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden mb-8">
         <div class="px-6 py-4 border-b border-gray-200">
-            <h2 class="text-lg font-bold text-gray-900">Matches jou&eacute;s</h2>
+            <h2 class="text-lg font-bold text-gray-900">Matches joués</h2>
         </div>
 
         @if($lineups->isEmpty())
             <div class="p-8 text-center text-gray-500">
-                Aucune s&eacute;lection enregistr&eacute;e pour l'instant.
+                Aucune sélection enregistrée pour l'instant.
             </div>
         @else
             {{-- Desktop --}}
@@ -116,7 +116,7 @@
                             <th class="px-4 py-3 text-left">Date</th>
                             <th class="px-4 py-3 text-left">Match</th>
                             <th class="px-4 py-3 text-center">Score</th>
-                            <th class="px-4 py-3 text-center">R&eacute;sultat</th>
+                            <th class="px-4 py-3 text-center">Résultat</th>
                             <th class="px-4 py-3 text-center">Poste</th>
                             <th class="px-4 py-3 text-center">Statut</th>
                             <th class="px-4 py-3 text-center">Cap.</th>
@@ -204,7 +204,7 @@
                         <tr>
                             <th class="px-4 py-3 text-left">Date</th>
                             <th class="px-4 py-3 text-left">Adversaire</th>
-                            <th class="px-4 py-3 text-left">&Eacute;v&eacute;nement</th>
+                            <th class="px-4 py-3 text-left">Événement</th>
                             <th class="px-4 py-3 text-center">Minute</th>
                         </tr>
                     </thead>

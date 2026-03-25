@@ -4,7 +4,7 @@
 
 @section('breadcrumb')
     <span class="text-gray-300 mx-1">/</span>
-    <a href="{{ route('coaches.index') }}" class="hover:text-bleu-france">S&eacute;lectionneurs</a>
+    <a href="{{ route('coaches.index') }}" class="hover:text-bleu-france">Sélectionneurs</a>
     <span class="text-gray-300 mx-1">/</span>
     <span class="text-gray-700">{{ $coach->fullName() }}</span>
 @endsection
@@ -39,14 +39,14 @@
 
                 <div class="mt-4 text-sm text-gray-600 space-y-1">
                     @if($coach->birth_date)
-                        <div><span class="text-gray-400">N&eacute; le</span> {{ $coach->birth_date->format('d/m/Y') }}</div>
+                        <div><span class="text-gray-400">Né le</span> {{ $coach->birth_date->format('d/m/Y') }}</div>
                     @endif
                     @if($coach->birth_city)
-                        <div><span class="text-gray-400">&Agrave;</span> {{ $coach->birth_city }}</div>
+                        <div><span class="text-gray-400">À</span> {{ $coach->birth_city }}</div>
                     @endif
                 </div>
 
-                {{-- R&ocirc;les --}}
+                {{-- Rôles --}}
                 <div class="mt-4 space-y-1">
                     @foreach($coach->tenures as $tenure)
                         <div class="flex items-center gap-2 text-sm">
@@ -55,7 +55,7 @@
                             </span>
                             <span class="text-gray-500">
                                 {{ $tenure->start_date->format('d/m/Y') }}
-                                &rarr;
+                                →
                                 {{ $tenure->end_date ? $tenure->end_date->format('d/m/Y') : 'en cours' }}
                             </span>
                         </div>
@@ -70,7 +70,7 @@
         <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-4">
             <x-stat-card :value="$matches->count()" label="Matches" />
             <x-stat-card :value="$wins" label="Victoires" color="green" />
-            <x-stat-card :value="$losses" label="D&eacute;faites" color="red" />
+            <x-stat-card :value="$losses" label="Défaites" color="red" />
             <x-stat-card :value="$draws" label="Nuls" color="yellow" />
         </div>
 
@@ -93,7 +93,7 @@
 
             @if($matches->isEmpty())
                 <div class="p-8 text-center text-gray-500">
-                    Aucun match enregistr&eacute; pour cette p&eacute;riode.
+                    Aucun match enregistré pour cette période.
                 </div>
             @else
                 {{-- Desktop --}}
@@ -104,8 +104,8 @@
                                 <th class="px-4 py-3 text-left">Date</th>
                                 <th class="px-4 py-3 text-left">Match</th>
                                 <th class="px-4 py-3 text-center">Score</th>
-                                <th class="px-4 py-3 text-center">R&eacute;sultat</th>
-                                <th class="px-4 py-3 text-left">Comp&eacute;tition</th>
+                                <th class="px-4 py-3 text-center">Résultat</th>
+                                <th class="px-4 py-3 text-left">Compétition</th>
                             </tr>
                         </thead>
                         <tbody class="divide-y divide-gray-100">
@@ -158,7 +158,7 @@
         </div>
     @else
         <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-8 text-center text-gray-500">
-            Aucun mandat de s&eacute;lectionneur enregistr&eacute;.
+            Aucun mandat de sélectionneur enregistré.
         </div>
     @endif
 </div>

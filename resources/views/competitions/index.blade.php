@@ -4,20 +4,20 @@
 
 @section('breadcrumb')
     <span class="text-gray-300 mx-1">/</span>
-    <span class="text-gray-700">Comp&eacute;titions</span>
+    <span class="text-gray-700">Compétitions</span>
 @endsection
 
 @section('content')
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
 
     <div class="mb-8">
-        <h1 class="text-3xl font-bold text-gray-900">Comp&eacute;titions</h1>
-        <p class="mt-1 text-gray-500">{{ $competitions->count() }} comp&eacute;tition{{ $competitions->count() > 1 ? 's' : '' }}</p>
+        <h1 class="text-3xl font-bold text-gray-900">Compétitions</h1>
+        <p class="mt-1 text-gray-500">{{ $competitions->count() }} compétition{{ $competitions->count() > 1 ? 's' : '' }}</p>
     </div>
 
     @if($competitions->isEmpty())
         <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-12 text-center">
-            <p class="text-gray-500">Aucune comp&eacute;tition enregistr&eacute;e.</p>
+            <p class="text-gray-500">Aucune compétition enregistrée.</p>
         </div>
     @else
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -45,7 +45,7 @@
                     <div class="flex items-center gap-6 text-sm text-gray-500">
                         <div>
                             <span class="text-2xl font-bold text-gray-900">{{ $competition->editions_count }}</span>
-                            <span class="ml-1">&eacute;dition{{ $competition->editions_count > 1 ? 's' : '' }}</span>
+                            <span class="ml-1">édition{{ $competition->editions_count > 1 ? 's' : '' }}</span>
                         </div>
                         <div>
                             <span class="text-2xl font-bold text-gray-900">{{ $competition->total_matches }}</span>

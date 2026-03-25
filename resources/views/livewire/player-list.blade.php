@@ -11,7 +11,7 @@
         {{-- En-tête --}}
         <div class="mb-8">
             <h1 class="text-3xl font-bold text-gray-900">Joueurs</h1>
-            <p class="mt-1 text-gray-500">{{ $totalCount }} joueur{{ $totalCount > 1 ? 's' : '' }} r&eacute;f&eacute;renc&eacute;{{ $totalCount > 1 ? 's' : '' }}</p>
+            <p class="mt-1 text-gray-500">{{ $totalCount }} joueur{{ $totalCount > 1 ? 's' : '' }} référencé{{ $totalCount > 1 ? 's' : '' }}</p>
         </div>
 
         {{-- Filtres --}}
@@ -24,9 +24,9 @@
                            class="w-full rounded-md border-gray-300 shadow-sm text-sm focus:border-bleu-france focus:ring-bleu-france px-3 py-2 border">
                 </div>
 
-                {{-- Nationalit&eacute; --}}
+                {{-- Nationalité --}}
                 <div>
-                    <label class="block text-xs font-medium text-gray-500 mb-1">Nationalit&eacute;</label>
+                    <label class="block text-xs font-medium text-gray-500 mb-1">Nationalité</label>
                     <select wire:model.live="country"
                             class="w-full rounded-md border-gray-300 shadow-sm text-sm focus:border-bleu-france focus:ring-bleu-france px-3 py-2 border">
                         <option value="">Toutes</option>
@@ -54,8 +54,8 @@
                     <select wire:model.live="status"
                             class="w-full rounded-md border-gray-300 shadow-sm text-sm focus:border-bleu-france focus:ring-bleu-france px-3 py-2 border">
                         <option value="">Tous</option>
-                        <option value="actif">En activit&eacute;</option>
-                        <option value="retraite">Retrait&eacute;</option>
+                        <option value="actif">En activité</option>
+                        <option value="retraite">Retraité</option>
                     </select>
                 </div>
 
@@ -65,15 +65,15 @@
                     <div class="flex gap-1">
                         <button wire:click="sort('last_name')"
                                 class="flex-1 px-2 py-2 text-xs rounded border {{ $sortField === 'last_name' ? 'bg-bleu-france text-white border-bleu-france' : 'bg-white text-gray-700 border-gray-300 hover:bg-gray-50' }}">
-                            Nom {{ $sortField === 'last_name' ? ($sortDirection === 'asc' ? '&uarr;' : '&darr;') : '' }}
+                            Nom {{ $sortField === 'last_name' ? ($sortDirection === 'asc' ? '↑' : '↓') : '' }}
                         </button>
                         <button wire:click="sort('selections')"
                                 class="flex-1 px-2 py-2 text-xs rounded border {{ $sortField === 'selections' ? 'bg-bleu-france text-white border-bleu-france' : 'bg-white text-gray-700 border-gray-300 hover:bg-gray-50' }}">
-                            S&eacute;l. {{ $sortField === 'selections' ? ($sortDirection === 'asc' ? '&uarr;' : '&darr;') : '' }}
+                            Sél. {{ $sortField === 'selections' ? ($sortDirection === 'asc' ? '↑' : '↓') : '' }}
                         </button>
                         <button wire:click="sort('cap_number')"
                                 class="flex-1 px-2 py-2 text-xs rounded border {{ $sortField === 'cap_number' ? 'bg-bleu-france text-white border-bleu-france' : 'bg-white text-gray-700 border-gray-300 hover:bg-gray-50' }}">
-                            Cap {{ $sortField === 'cap_number' ? ($sortDirection === 'asc' ? '&uarr;' : '&darr;') : '' }}
+                            Cap {{ $sortField === 'cap_number' ? ($sortDirection === 'asc' ? '↑' : '↓') : '' }}
                         </button>
                     </div>
                 </div>
@@ -83,13 +83,13 @@
         {{-- Grille de joueurs --}}
         @if($players->isEmpty())
             <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-12 text-center">
-                <div class="text-gray-400 text-5xl mb-4">&#127944;</div>
-                <h3 class="text-lg font-semibold text-gray-700 mb-2">Aucun joueur trouv&eacute;</h3>
+                <div class="text-gray-400 text-5xl mb-4">🏈</div>
+                <h3 class="text-lg font-semibold text-gray-700 mb-2">Aucun joueur trouvé</h3>
                 <p class="text-gray-500">
                     @if($search || $country || $position || $status)
-                        Aucun joueur ne correspond &agrave; vos crit&egrave;res de recherche.
+                        Aucun joueur ne correspond à vos critères de recherche.
                     @else
-                        Les donn&eacute;es arrivent bient&ocirc;t &mdash; les fiches joueurs sont en cours de saisie.
+                        Les données arrivent bientôt — les fiches joueurs sont en cours de saisie.
                     @endif
                 </p>
             </div>
@@ -116,7 +116,7 @@
                                 <div class="font-bold text-gray-900 truncate">
                                     {{ $player->fullName() }}
                                     @if($player->isDeceased())
-                                        <span class="text-gray-400 font-normal">&dagger;</span>
+                                        <span class="text-gray-400 font-normal">†</span>
                                     @endif
                                 </div>
                                 <div class="text-sm text-gray-500 flex items-center gap-2 mt-0.5">
@@ -130,7 +130,7 @@
                                             {{ $player->primary_position->label() }}
                                         </span>
                                     @endif
-                                    <span class="text-xs text-gray-500">{{ $player->lineups_count }} s&eacute;l.</span>
+                                    <span class="text-xs text-gray-500">{{ $player->lineups_count }} sél.</span>
                                 </div>
                             </div>
                         </div>

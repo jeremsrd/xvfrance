@@ -45,7 +45,7 @@
             <div class="flex items-center justify-between mb-6">
                 <h2 class="text-2xl font-bold text-gray-900">Derniers résultats</h2>
                 <a href="{{ route('matches.index') }}" class="text-bleu-france hover:text-bleu-france-light text-sm font-medium transition">
-                    Voir tous les matches &rarr;
+                    Voir tous les matches →
                 </a>
             </div>
 
