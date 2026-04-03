@@ -23,6 +23,15 @@ class RugbyMatch extends Model
         return 'slug';
     }
 
+    protected static function booted(): void
+    {
+        static::creating(function (RugbyMatch $match) {
+            if (empty($match->slug)) {
+                $match->slug = $match->generateSlug();
+            }
+        });
+    }
+
     public function generateSlug(): string
     {
         $date = $this->match_date->format('Y-m-d');
