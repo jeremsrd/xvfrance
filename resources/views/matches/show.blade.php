@@ -51,11 +51,11 @@
                     @if($rugbyMatch->edition && $rugbyMatch->edition->competition)
                         {{ $rugbyMatch->edition->competition->name }}
                         @if($rugbyMatch->stage)
-                            — {{ $rugbyMatch->stage->value }}
+                            — {{ $rugbyMatch->stage->label() }}
                         @endif
                     @endif
                 </p>
-                <p>{{ $rugbyMatch->match_date->translatedFormat('l j F Y') }}</p>
+                <p>{{ ucfirst($rugbyMatch->match_date->translatedFormat('l j F Y')) }}</p>
                 @if($rugbyMatch->venue)
                     <p>{{ $rugbyMatch->venue->name }}, {{ $rugbyMatch->venue->city }}</p>
                 @endif

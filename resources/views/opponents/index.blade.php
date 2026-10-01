@@ -30,7 +30,7 @@
                             <span class="text-green-600 font-semibold">{{ $opponent->record->wins }}V</span>
                             <span class="text-red-600 font-semibold">{{ $opponent->record->losses }}D</span>
                             <span class="text-yellow-600 font-semibold">{{ $opponent->record->draws }}N</span>
-                            <span class="ml-auto text-gray-500">{{ round($opponent->record->winPct) }}%</span>
+                            <span class="ml-auto text-gray-500">{{ $opponent->record->winPctLabel(0) }}</span>
                         </div>
                         {{-- Barre de progression --}}
                         <div class="mt-3 h-2 rounded-full bg-gray-100 overflow-hidden flex">

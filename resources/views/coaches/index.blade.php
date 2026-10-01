@@ -68,7 +68,7 @@
                                 <div class="text-xs text-gray-500">Bilan</div>
                             </div>
                             <div class="text-center">
-                                <div class="text-2xl font-bold {{ $coach->record->winPct >= 50 ? 'text-victoire' : 'text-gray-900' }}">{{ $coach->record->winPct }}%</div>
+                                <div class="text-2xl font-bold {{ $coach->record->winPct >= 50 ? 'text-victoire' : 'text-gray-900' }}">{{ $coach->record->winPctLabel() }}</div>
                                 <div class="text-xs text-gray-500">Victoires</div>
                             </div>
                         </div>

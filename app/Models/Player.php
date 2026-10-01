@@ -21,6 +21,17 @@ class Player extends Model
         return 'slug';
     }
 
+    protected static function booted(): void
+    {
+        // Le slug utilise l'id en suffixe : il ne peut être calculé qu'après l'insertion
+        static::created(function (Player $player) {
+            if (empty($player->slug)) {
+                $player->slug = $player->generateSlug();
+                $player->saveQuietly();
+            }
+        });
+    }
+
     public function generateSlug(): string
     {
         $base = \Illuminate\Support\Str::slug($this->first_name . ' ' . $this->last_name);

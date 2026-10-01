@@ -19,7 +19,7 @@
             <div class="text-5xl mb-4">{{ $country->flag_emoji }}</div>
             <h1 class="text-3xl font-bold tracking-tight">France vs {{ $country->name }}</h1>
             <p class="mt-3 text-blue-200">
-                {{ $record->total }} matches — {{ $record->wins }} victoires — {{ $record->losses }} défaites — {{ $record->draws }} nuls
+                {{ $record->total }} {{ $record->total > 1 ? 'matches' : 'match' }} — {{ $record->wins }} {{ $record->wins > 1 ? 'victoires' : 'victoire' }} — {{ $record->losses }} {{ $record->losses > 1 ? 'défaites' : 'défaite' }} — {{ $record->draws }} {{ $record->draws > 1 ? 'nuls' : 'nul' }}
             </p>
         </div>
     </section>
@@ -31,7 +31,7 @@
                 <x-stat-card :value="$record->wins" label="Victoires" color="green" />
                 <x-stat-card :value="$record->losses" label="Défaites" color="red" />
                 <x-stat-card :value="$record->draws" label="Nuls" color="yellow" />
-                <x-stat-card :value="$record->winPct . '%'" label="Victoires" />
+                <x-stat-card :value="$record->winPctLabel()" label="Victoires" />
             </div>
 
             {{-- Barre de progression --}}

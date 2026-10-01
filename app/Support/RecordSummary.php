@@ -29,6 +29,14 @@ final class RecordSummary
     }
 
     /**
+     * Pourcentage de victoires au format français : « 20,9 % ».
+     */
+    public function winPctLabel(int $decimals = 1): string
+    {
+        return number_format($this->winPct, $decimals, ',', "\u{202F}") . "\u{00A0}%";
+    }
+
+    /**
      * Bilan calculé sur des matches déjà chargés en mémoire.
      *
      * @param  iterable<RugbyMatch>  $matches

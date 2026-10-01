@@ -48,12 +48,12 @@
                 <div class="rounded-xl border border-white/15 bg-white/5 p-6 sm:p-8">
                     <h2 class="font-sans text-sm font-medium uppercase tracking-[0.2em] text-blue-200">Bilan historique</h2>
                     <div class="mt-3 flex items-baseline gap-3">
-                        <span class="font-display text-6xl font-bold tabular-nums">{{ $fr($record->winPct, 1) }}&nbsp;%</span>
+                        <span class="font-display text-6xl font-bold tabular-nums">{{ $record->winPctLabel() }}</span>
                         <span class="text-blue-200">de victoires</span>
                     </div>
 
                     <div class="mt-6 flex h-3 overflow-hidden rounded-full bg-white/10" role="img"
-                         aria-label="{{ $record->wins }} victoires, {{ $record->draws }} nuls, {{ $record->losses }} défaites sur {{ $record->total }} matches">
+                         aria-label="{{ $record->wins }} victoires, {{ $record->draws }} {{ $record->draws > 1 ? 'nuls' : 'nul' }}, {{ $record->losses }} défaites sur {{ $record->total }} matches">
                         <span class="bg-emerald-400" style="width: {{ $share($record->wins) }}%"></span>
                         <span class="bg-amber-300" style="width: {{ $share($record->draws) }}%"></span>
                         <span class="bg-rouge-france" style="width: {{ $share($record->losses) }}%"></span>
@@ -105,7 +105,7 @@
                    class="group mt-6 block rounded-xl border border-slate-200 bg-white p-6 sm:p-8 shadow-xs motion-safe:transition-shadow hover:shadow-lg {{ $focus }} focus-visible:ring-bleu-france">
                     <div class="flex flex-wrap items-center justify-between gap-3 text-sm text-slate-600">
                         <span>
-                            {{ ucfirst($latestMatch->match_date->locale('fr')->translatedFormat('l j F Y')) }}
+                            {{ ucfirst($latestMatch->match_date->translatedFormat('l j F Y')) }}
                             @if($latestMatch->edition?->competition)
                                 <span class="mx-1.5 text-slate-300" aria-hidden="true">·</span>{{ $latestMatch->edition->competition->short_name }} {{ $latestMatch->edition->year }}
                             @endif
