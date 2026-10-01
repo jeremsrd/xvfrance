@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use App\Enums\CoachRole;
 use App\Models\Coach;
 use App\Models\RugbyMatch;
+use App\Support\RecordSummary;
+use Illuminate\Database\Eloquent\Builder;
 
 class CoachController extends Controller
 {
@@ -17,15 +19,8 @@ class CoachController extends Controller
             ->values()
             ->map(function ($coach) {
                 $tenure = $coach->tenures->first();
-                $matches = $this->getMatchesForTenure($tenure);
                 $coach->tenure = $tenure;
-                $coach->total_matches = $matches->count();
-                $coach->wins = $matches->filter(fn ($m) => $m->france_score > $m->opponent_score)->count();
-                $coach->losses = $matches->filter(fn ($m) => $m->france_score < $m->opponent_score)->count();
-                $coach->draws = $matches->filter(fn ($m) => $m->france_score === $m->opponent_score)->count();
-                $coach->win_pct = $coach->total_matches > 0
-                    ? round(($coach->wins / $coach->total_matches) * 100, 1)
-                    : 0;
+                $coach->record = RecordSummary::fromQuery($this->matchesForTenure($tenure));
                 return $coach;
             });
 
@@ -38,25 +33,19 @@ class CoachController extends Controller
 
         $selectorTenure = $coach->tenures->firstWhere('role', CoachRole::SELECTIONNEUR);
 
-        $matches = collect();
-        $wins = $losses = $draws = 0;
-        $winPct = 0;
+        $matches = $selectorTenure
+            ? $this->matchesForTenure($selectorTenure)
+                ->with(['opponent', 'venue', 'edition.competition'])
+                ->orderByDesc('match_date')
+                ->get()
+            : collect();
 
-        if ($selectorTenure) {
-            $matches = $this->getMatchesForTenure($selectorTenure)
-                ->load(['opponent', 'venue', 'edition.competition']);
-            $wins = $matches->filter(fn ($m) => $m->france_score > $m->opponent_score)->count();
-            $losses = $matches->filter(fn ($m) => $m->france_score < $m->opponent_score)->count();
-            $draws = $matches->filter(fn ($m) => $m->france_score === $m->opponent_score)->count();
-            $winPct = $matches->count() > 0
-                ? round(($wins / $matches->count()) * 100, 1)
-                : 0;
-        }
+        $record = RecordSummary::fromMatches($matches);
 
-        return view('coaches.show', compact('coach', 'selectorTenure', 'matches', 'wins', 'losses', 'draws', 'winPct'));
+        return view('coaches.show', compact('coach', 'selectorTenure', 'matches', 'record'));
     }
 
-    private function getMatchesForTenure($tenure)
+    private function matchesForTenure($tenure): Builder
     {
         $query = RugbyMatch::where('match_date', '>=', $tenure->start_date);
 
@@ -64,6 +53,6 @@ class CoachController extends Controller
             $query->where('match_date', '<=', $tenure->end_date);
         }
 
-        return $query->orderByDesc('match_date')->get();
+        return $query;
     }
 }

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\CompetitionEdition;
+use App\Support\RecordSummary;
 
 class CompetitionEditionController extends Controller
 {
@@ -15,10 +16,8 @@ class CompetitionEditionController extends Controller
             ->orderBy('match_date', 'asc')
             ->get();
 
-        $wins = $matches->filter(fn ($m) => $m->france_score > $m->opponent_score)->count();
-        $losses = $matches->filter(fn ($m) => $m->france_score < $m->opponent_score)->count();
-        $draws = $matches->filter(fn ($m) => $m->france_score === $m->opponent_score)->count();
+        $record = RecordSummary::fromMatches($matches);
 
-        return view('competitions.edition', compact('competitionEdition', 'matches', 'wins', 'losses', 'draws'));
+        return view('competitions.edition', compact('competitionEdition', 'matches', 'record'));
     }
 }

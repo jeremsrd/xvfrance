@@ -2,7 +2,7 @@
 
 @section('title', 'France vs ' . $country->name . ' — Bilan complet')
 
-@section('meta_description', 'Bilan complet France vs ' . $country->name . ' : ' . $stats['total'] . ' matches, ' . $stats['victories'] . ' victoires, ' . $stats['defeats'] . ' défaites.')
+@section('meta_description', 'Bilan complet France vs ' . $country->name . ' : ' . $record->total . ' matches, ' . $record->wins . ' victoires, ' . $record->losses . ' défaites.')
 
 @section('breadcrumb')
     <span class="mx-2">/</span>
@@ -19,7 +19,7 @@
             <div class="text-5xl mb-4">{{ $country->flag_emoji }}</div>
             <h1 class="text-3xl font-bold tracking-tight">France vs {{ $country->name }}</h1>
             <p class="mt-3 text-blue-200">
-                {{ $stats['total'] }} matches — {{ $stats['victories'] }} victoires — {{ $stats['defeats'] }} défaites — {{ $stats['draws'] }} nuls
+                {{ $record->total }} matches — {{ $record->wins }} victoires — {{ $record->losses }} défaites — {{ $record->draws }} nuls
             </p>
         </div>
     </section>
@@ -28,18 +28,18 @@
     <section class="py-10">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-2 lg:grid-cols-4 gap-4">
-                <x-stat-card :value="$stats['victories']" label="Victoires" color="green" />
-                <x-stat-card :value="$stats['defeats']" label="Défaites" color="red" />
-                <x-stat-card :value="$stats['draws']" label="Nuls" color="yellow" />
-                <x-stat-card :value="$stats['win_pct'] . '%'" label="Victoires" />
+                <x-stat-card :value="$record->wins" label="Victoires" color="green" />
+                <x-stat-card :value="$record->losses" label="Défaites" color="red" />
+                <x-stat-card :value="$record->draws" label="Nuls" color="yellow" />
+                <x-stat-card :value="$record->winPct . '%'" label="Victoires" />
             </div>
 
             {{-- Barre de progression --}}
-            @if($stats['total'] > 0)
+            @if($record->total > 0)
             <div class="mt-6 h-4 rounded-full bg-gray-100 overflow-hidden flex">
-                <div class="bg-green-500 h-full" style="width: {{ ($stats['victories'] / $stats['total']) * 100 }}%"></div>
-                <div class="bg-yellow-400 h-full" style="width: {{ ($stats['draws'] / $stats['total']) * 100 }}%"></div>
-                <div class="bg-red-500 h-full" style="width: {{ ($stats['defeats'] / $stats['total']) * 100 }}%"></div>
+                <div class="bg-green-500 h-full" style="width: {{ ($record->wins / $record->total) * 100 }}%"></div>
+                <div class="bg-yellow-400 h-full" style="width: {{ ($record->draws / $record->total) * 100 }}%"></div>
+                <div class="bg-red-500 h-full" style="width: {{ ($record->losses / $record->total) * 100 }}%"></div>
             </div>
             @endif
 

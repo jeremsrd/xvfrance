@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Country;
 use App\Models\RugbyMatch;
+use App\Support\RecordSummary;
 
 class HomeController extends Controller
 {
@@ -13,26 +14,15 @@ class HomeController extends Controller
             ->orderBy('match_date', 'desc')
             ->first();
 
-        $recentMatches = RugbyMatch::with(['opponent', 'edition.competition'])
+        $recentMatches = RugbyMatch::with(['opponent', 'venue', 'edition.competition'])
             ->orderBy('match_date', 'desc')
             ->take(5)
             ->get();
 
-        $total = RugbyMatch::count();
-        $victories = RugbyMatch::whereColumn('france_score', '>', 'opponent_score')->count();
-        $defeats = RugbyMatch::whereColumn('france_score', '<', 'opponent_score')->count();
-        $draws = RugbyMatch::whereColumn('france_score', '=', 'opponent_score')->count();
-
-        $stats = [
-            'total' => $total,
-            'victories' => $victories,
-            'defeats' => $defeats,
-            'draws' => $draws,
-            'win_pct' => $total > 0 ? round(($victories / $total) * 100, 1) : 0,
-        ];
+        $record = RecordSummary::fromQuery(RugbyMatch::query());
 
         $biggestWin = RugbyMatch::with('opponent')
-            ->whereColumn('france_score', '>', 'opponent_score')
+            ->wins()
             ->orderByRaw('(france_score - opponent_score) DESC')
             ->first();
 
@@ -43,7 +33,7 @@ class HomeController extends Controller
         return view('home.index', compact(
             'latestMatch',
             'recentMatches',
-            'stats',
+            'record',
             'biggestWin',
             'mostFaced'
         ));

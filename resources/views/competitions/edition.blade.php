@@ -28,9 +28,9 @@
     {{-- Bilan --}}
     <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
         <x-stat-card :value="$matches->count()" label="Matches" />
-        <x-stat-card :value="$wins" label="Victoires" color="green" />
-        <x-stat-card :value="$losses" label="Défaites" color="red" />
-        <x-stat-card :value="$draws" label="Nuls" color="yellow" />
+        <x-stat-card :value="$record->wins" label="Victoires" color="green" />
+        <x-stat-card :value="$record->losses" label="Défaites" color="red" />
+        <x-stat-card :value="$record->draws" label="Nuls" color="yellow" />
     </div>
 
     {{-- Liste des matches --}}

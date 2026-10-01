@@ -4,6 +4,7 @@ namespace App\Filament\Widgets;
 
 use App\Models\Player;
 use App\Models\RugbyMatch;
+use App\Support\RecordSummary;
 use Filament\Widgets\StatsOverviewWidget;
 use Filament\Widgets\StatsOverviewWidget\Stat;
 
@@ -15,9 +16,7 @@ class StatsOverview extends StatsOverviewWidget
         $totalPlayers = Player::count();
         $frenchPlayers = Player::french()->count();
 
-        $victories = RugbyMatch::whereColumn('france_score', '>', 'opponent_score')->count();
-        $defeats = RugbyMatch::whereColumn('france_score', '<', 'opponent_score')->count();
-        $draws = RugbyMatch::whereColumn('france_score', '=', 'opponent_score')->count();
+        $record = RecordSummary::fromQuery(RugbyMatch::query());
 
         $lastMatch = RugbyMatch::with('opponent')->orderByDesc('match_date')->first();
         $lastMatchLabel = $lastMatch
@@ -27,7 +26,7 @@ class StatsOverview extends StatsOverviewWidget
         return [
             Stat::make('Total matches', $totalMatches),
             Stat::make('Joueurs', $frenchPlayers . ' FR / ' . $totalPlayers . ' total'),
-            Stat::make('Bilan', $victories . 'V - ' . $defeats . 'D - ' . $draws . 'N'),
+            Stat::make('Bilan', $record->wins . 'V - ' . $record->losses . 'D - ' . $record->draws . 'N'),
             Stat::make('Dernier match', $lastMatchLabel),
         ];
     }

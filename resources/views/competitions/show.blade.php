@@ -68,13 +68,13 @@
                                     <span class="text-gray-300">—</span>
                                 @endif
                             </td>
-                            <td class="px-4 py-3 text-center">{{ $edition->matches_count }}</td>
+                            <td class="px-4 py-3 text-center">{{ $edition->record->total }}</td>
                             <td class="px-4 py-3 text-center">
-                                <span class="text-victoire font-medium">{{ $edition->wins }}V</span>
+                                <span class="text-victoire font-medium">{{ $edition->record->wins }}V</span>
                                 <span class="text-gray-400 mx-0.5">-</span>
-                                <span class="text-defaite font-medium">{{ $edition->losses }}D</span>
+                                <span class="text-defaite font-medium">{{ $edition->record->losses }}D</span>
                                 <span class="text-gray-400 mx-0.5">-</span>
-                                <span class="text-nul font-medium">{{ $edition->draws }}N</span>
+                                <span class="text-nul font-medium">{{ $edition->record->draws }}N</span>
                             </td>
                         </tr>
                     @endforeach
@@ -90,7 +90,7 @@
                     <div class="flex justify-between items-start">
                         <div>
                             <div class="font-bold text-gray-900">{{ $edition->label }}</div>
-                            <div class="text-sm text-gray-500 mt-1">{{ $edition->matches_count }} match{{ $edition->matches_count > 1 ? 'es' : '' }}</div>
+                            <div class="text-sm text-gray-500 mt-1">{{ $edition->record->total }} match{{ $edition->record->total > 1 ? 'es' : '' }}</div>
                         </div>
                         @if($edition->france_ranking)
                             <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-bold {{ $edition->france_ranking === 1 ? 'bg-or/20 text-or' : 'bg-gray-100 text-gray-700' }}">
@@ -99,11 +99,11 @@
                         @endif
                     </div>
                     <div class="mt-2 text-sm">
-                        <span class="text-victoire font-medium">{{ $edition->wins }}V</span>
+                        <span class="text-victoire font-medium">{{ $edition->record->wins }}V</span>
                         <span class="text-gray-400 mx-0.5">-</span>
-                        <span class="text-defaite font-medium">{{ $edition->losses }}D</span>
+                        <span class="text-defaite font-medium">{{ $edition->record->losses }}D</span>
                         <span class="text-gray-400 mx-0.5">-</span>
-                        <span class="text-nul font-medium">{{ $edition->draws }}N</span>
+                        <span class="text-nul font-medium">{{ $edition->record->draws }}N</span>
                     </div>
                 </a>
             @endforeach

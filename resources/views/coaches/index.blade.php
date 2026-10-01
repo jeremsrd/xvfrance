@@ -54,21 +54,21 @@
                         {{-- Bilan --}}
                         <div class="flex items-center gap-6 text-sm">
                             <div class="text-center">
-                                <div class="text-2xl font-bold text-gray-900">{{ $coach->total_matches }}</div>
+                                <div class="text-2xl font-bold text-gray-900">{{ $coach->record->total }}</div>
                                 <div class="text-xs text-gray-500">Matches</div>
                             </div>
                             <div class="text-center">
                                 <div class="text-lg font-bold">
-                                    <span class="text-victoire">{{ $coach->wins }}V</span>
+                                    <span class="text-victoire">{{ $coach->record->wins }}V</span>
                                     <span class="text-gray-400">-</span>
-                                    <span class="text-defaite">{{ $coach->losses }}D</span>
+                                    <span class="text-defaite">{{ $coach->record->losses }}D</span>
                                     <span class="text-gray-400">-</span>
-                                    <span class="text-nul">{{ $coach->draws }}N</span>
+                                    <span class="text-nul">{{ $coach->record->draws }}N</span>
                                 </div>
                                 <div class="text-xs text-gray-500">Bilan</div>
                             </div>
                             <div class="text-center">
-                                <div class="text-2xl font-bold {{ $coach->win_pct >= 50 ? 'text-victoire' : 'text-gray-900' }}">{{ $coach->win_pct }}%</div>
+                                <div class="text-2xl font-bold {{ $coach->record->winPct >= 50 ? 'text-victoire' : 'text-gray-900' }}">{{ $coach->record->winPct }}%</div>
                                 <div class="text-xs text-gray-500">Victoires</div>
                             </div>
                         </div>

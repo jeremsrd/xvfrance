@@ -69,19 +69,19 @@
         {{-- Bilan --}}
         <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-4">
             <x-stat-card :value="$matches->count()" label="Matches" />
-            <x-stat-card :value="$wins" label="Victoires" color="green" />
-            <x-stat-card :value="$losses" label="Défaites" color="red" />
-            <x-stat-card :value="$draws" label="Nuls" color="yellow" />
+            <x-stat-card :value="$record->wins" label="Victoires" color="green" />
+            <x-stat-card :value="$record->losses" label="Défaites" color="red" />
+            <x-stat-card :value="$record->draws" label="Nuls" color="yellow" />
         </div>
 
         {{-- % de victoires --}}
         <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-4 mb-8">
             <div class="flex items-center justify-between mb-2">
                 <span class="text-sm font-medium text-gray-700">Taux de victoires</span>
-                <span class="text-sm font-bold {{ $winPct >= 50 ? 'text-victoire' : 'text-gray-700' }}">{{ $winPct }}%</span>
+                <span class="text-sm font-bold {{ $record->winPct >= 50 ? 'text-victoire' : 'text-gray-700' }}">{{ $record->winPct }}%</span>
             </div>
             <div class="w-full bg-gray-200 rounded-full h-3">
-                <div class="h-3 rounded-full {{ $winPct >= 50 ? 'bg-victoire' : 'bg-defaite' }}" style="width: {{ $winPct }}%"></div>
+                <div class="h-3 rounded-full {{ $record->winPct >= 50 ? 'bg-victoire' : 'bg-defaite' }}" style="width: {{ $record->winPct }}%"></div>
             </div>
         </div>
 

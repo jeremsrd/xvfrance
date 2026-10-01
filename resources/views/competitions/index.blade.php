@@ -48,8 +48,8 @@
                             <span class="ml-1">édition{{ $competition->editions_count > 1 ? 's' : '' }}</span>
                         </div>
                         <div>
-                            <span class="text-2xl font-bold text-gray-900">{{ $competition->total_matches }}</span>
-                            <span class="ml-1">match{{ $competition->total_matches > 1 ? 'es' : '' }}</span>
+                            <span class="text-2xl font-bold text-gray-900">{{ $competition->matches_count }}</span>
+                            <span class="ml-1">match{{ $competition->matches_count > 1 ? 'es' : '' }}</span>
                         </div>
                     </div>
                 </a>

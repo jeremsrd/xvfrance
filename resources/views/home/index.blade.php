@@ -11,17 +11,17 @@
             <p class="mt-4 text-xl text-blue-200">L'histoire complète depuis 1906</p>
             <div class="mt-8 flex flex-wrap justify-center gap-6 text-sm sm:text-base">
                 <div>
-                    <span class="text-3xl font-bold block">{{ number_format($stats['total'], 0, ',', ' ') }}</span>
+                    <span class="text-3xl font-bold block">{{ number_format($record->total, 0, ',', ' ') }}</span>
                     <span class="text-blue-200">matches</span>
                 </div>
                 <div class="w-px bg-blue-400 hidden sm:block"></div>
                 <div>
-                    <span class="text-3xl font-bold block">{{ $stats['victories'] }}</span>
+                    <span class="text-3xl font-bold block">{{ $record->wins }}</span>
                     <span class="text-blue-200">victoires</span>
                 </div>
                 <div class="w-px bg-blue-400 hidden sm:block"></div>
                 <div>
-                    <span class="text-3xl font-bold block">{{ $stats['win_pct'] }}%</span>
+                    <span class="text-3xl font-bold block">{{ $record->winPct }}%</span>
                     <span class="text-blue-200">de réussite</span>
                 </div>
             </div>
@@ -65,12 +65,12 @@
 
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
                 <x-stat-card
-                    :value="number_format($stats['total'], 0, ',', ' ')"
+                    :value="number_format($record->total, 0, ',', ' ')"
                     label="Matches joués"
                     subtitle="Depuis le 1er janvier 1906"
                 />
                 <x-stat-card
-                    :value="$stats['victories'] . ' (' . $stats['win_pct'] . '%)'"
+                    :value="$record->wins . ' (' . $record->winPct . '%)'"
                     label="Victoires"
                     color="green"
                 />
