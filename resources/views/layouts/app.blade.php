@@ -10,6 +10,10 @@
         tailwind.config = {
             theme: {
                 extend: {
+                    fontFamily: {
+                        'display': ['"Barlow Condensed"', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+                        'barlow': ['Barlow', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+                    },
                     colors: {
                         'bleu-france': '#002395',
                         'bleu-france-light': '#003399',
@@ -28,6 +32,7 @@
     <style>
         [x-cloak] { display: none !important; }
     </style>
+    @stack('head')
     @livewireStyles
 </head>
 <body class="min-h-screen flex flex-col bg-white text-gray-900">
