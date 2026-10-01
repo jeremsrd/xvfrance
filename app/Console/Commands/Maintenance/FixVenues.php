@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Console\Commands;
+namespace App\Console\Commands\Maintenance;
 
 use App\Models\Country;
 use App\Models\RugbyMatch;
@@ -13,7 +13,7 @@ use Symfony\Component\DomCrawler\Crawler;
 
 class FixVenues extends Command
 {
-    protected $signature = 'fix:venues
+    protected $signature = 'xv:fix-venues
         {--dry-run : Lister les corrections sans les appliquer}
         {--delay=2 : Délai en secondes entre les requêtes HTTP}';
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Console\Commands;
+namespace App\Console\Commands\Import;
 
 use App\Services\MatchDataValidator;
 use Illuminate\Console\Command;
@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\File;
 
 class ValidateMatchData extends Command
 {
-    protected $signature = 'validate:match-data
+    protected $signature = 'xv:validate-match-data
         {path : Chemin vers un fichier JSON ou un dossier}';
 
     protected $description = 'Valide les fichiers JSON de données de matchs sans importer';

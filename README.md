@@ -1,58 +1,71 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# xvfrance.fr
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Site de référence francophone sur l'histoire du XV de France de rugby depuis 1906 :
+tous les matches, compositions complètes (France et adversaires), marqueurs,
+sélectionneurs et compétitions.
 
-## About Laravel
+## Stack
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+- Laravel 13 · PHP 8.3 · MySQL 8
+- Blade + Livewire · Tailwind CSS (CDN)
+- Admin : Filament 4 (`/admin`)
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
-
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
-
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-In addition, [Laracasts](https://laracasts.com) contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-You can also watch bite-sized lessons with real-world projects on [Laravel Learn](https://laravel.com/learn), where you will be guided through building a Laravel application from scratch while learning PHP fundamentals.
-
-## Agentic Development
-
-Laravel's predictable structure and conventions make it ideal for AI coding agents like Claude Code, Cursor, and GitHub Copilot. Install [Laravel Boost](https://laravel.com/docs/ai) to supercharge your AI workflow:
+## Installation
 
 ```bash
-composer require laravel/boost --dev
-
-php artisan boost:install
+composer install
+cp .env.example .env
+php artisan key:generate
+# Renseigner DB_* dans .env
+php artisan migrate --seed
+php artisan serve
 ```
 
-Boost provides your agent 15+ tools and skills that help agents build Laravel applications while following best practices.
+## Données
 
-## Contributing
+```
+database/data/
+├── sources/results.csv     # Résultats 1950 → 2025 (source de xv:import-csv)
+└── matches/{année}/*.json  # Feuilles de match détaillées (compos, events, remplacements)
+```
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Format des JSON : voir `docs/specs/import-match-data.md`.
 
-## Code of Conduct
+## Commandes Artisan
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+Toutes les commandes du projet sont préfixées `xv:` (`php artisan list xv`).
 
-## Security Vulnerabilities
+| Commande | Rôle |
+|---|---|
+| `xv:import-csv {file}` | Importe les matches depuis le CSV de résultats |
+| `xv:import-historical` | Importe les matches 1906-1949 depuis equipe-france.fr |
+| `xv:clean-feminine` | Supprime les matches féminins importés par erreur |
+| `xv:fix-venues` | Corrige les stades mal attribués |
+| `xv:seed-1906` | Feuille de match complète du premier match (1906) |
+| `xv:generate-slugs` | Génère les slugs manquants (matches, joueurs) |
+| `xv:validate-match-data {path}` | Valide des JSON de feuilles de match |
+| `xv:import-match-data {path}` | Importe des JSON de feuilles de match |
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+### Reconstruire la base de zéro
 
-## License
+Ordre indicatif, à exécuter après `php artisan migrate:fresh --seed` :
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+```bash
+php artisan xv:import-csv database/data/sources/results.csv
+php artisan xv:import-historical
+php artisan xv:clean-feminine
+php artisan xv:fix-venues
+php artisan xv:seed-1906
+php artisan xv:generate-slugs
+php artisan xv:import-match-data database/data/matches
+```
+
+Les commandes `import-historical`, `clean-feminine` et `fix-venues` interrogent
+equipe-france.fr (option `--delay` entre les requêtes). Les commandes d'import et de
+nettoyage acceptent `--dry-run`.
+
+## Documentation
+
+- `CLAUDE.md` — schéma BDD, conventions, routes
+- `docs/specs/` — spécifications en vigueur
+- `docs/archive/` — specs des phases terminées

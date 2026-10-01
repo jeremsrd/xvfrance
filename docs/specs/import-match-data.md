@@ -107,14 +107,14 @@ Tous les champs dans `lineups`, `events` et `substitutions` peuvent être absent
 
 ## Commandes Artisan à créer
 
-### 1. `import:match-data`
+### 1. `xv:import-match-data`
 
 ```bash
 # Import un fichier JSON
-php artisan import:match-data storage/imports/2024-11-09-JPN.json
+php artisan xv:import-match-data database/data/matches/2024/2024-11-09-JPN.json
 
 # Import tous les fichiers d'un dossier
-php artisan import:match-data storage/imports/2024/
+php artisan xv:import-match-data database/data/matches/2024/
 
 # Options
 --dry-run          # Valide sans écrire en BDD
@@ -123,14 +123,14 @@ php artisan import:match-data storage/imports/2024/
 --verbose          # Affiche le détail de chaque opération
 ```
 
-### 2. `validate:match-data`
+### 2. `xv:validate-match-data`
 
 ```bash
 # Valide un fichier sans importer
-php artisan validate:match-data storage/imports/2024-11-09-JPN.json
+php artisan xv:validate-match-data database/data/matches/2024/2024-11-09-JPN.json
 
 # Valide un dossier entier
-php artisan validate:match-data storage/imports/2024/
+php artisan xv:validate-match-data database/data/matches/2024/
 ```
 
 ---
@@ -234,7 +234,7 @@ MatchSubstitution::create([
 
 ## Validation
 
-### Règles de validation JSON (validate:match-data)
+### Règles de validation JSON (xv:validate-match-data)
 
 ```
 match_date          → required, date format Y-m-d
@@ -313,7 +313,7 @@ app/Services/
 ├── PlayerResolverService.php  # Résolution et création de joueurs
 ├── MatchDataValidator.php     # Validation des données JSON
 
-storage/imports/               # Dossier pour les fichiers JSON à importer
+database/data/matches/            # Dossier pour les fichiers JSON à importer
 ├── 2024/                      # Organisés par année
 │   ├── 2024-02-02-IRL.json
 │   ├── 2024-02-10-ITA.json

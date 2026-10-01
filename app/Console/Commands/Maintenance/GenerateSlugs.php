@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Console\Commands;
+namespace App\Console\Commands\Maintenance;
 
 use App\Models\Player;
 use App\Models\RugbyMatch;
@@ -8,7 +8,7 @@ use Illuminate\Console\Command;
 
 class GenerateSlugs extends Command
 {
-    protected $signature = 'slugs:generate {--force : Régénérer tous les slugs, même ceux déjà existants}';
+    protected $signature = 'xv:generate-slugs {--force : Régénérer tous les slugs, même ceux déjà existants}';
     protected $description = 'Génère les slugs pour tous les matches et joueurs';
 
     public function handle(): int

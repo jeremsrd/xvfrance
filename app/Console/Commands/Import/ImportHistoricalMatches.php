@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Console\Commands;
+namespace App\Console\Commands\Import;
 
 use App\Enums\Continent;
 use App\Enums\CompetitionType;
@@ -15,7 +15,7 @@ use Symfony\Component\DomCrawler\Crawler;
 
 class ImportHistoricalMatches extends Command
 {
-    protected $signature = 'import:historical
+    protected $signature = 'xv:import-historical
         {--year= : Importer une seule année (ex: 1906)}
         {--dry-run : Affiche ce qui serait importé sans écrire en BDD}
         {--delay=2 : Délai en secondes entre les requêtes}';

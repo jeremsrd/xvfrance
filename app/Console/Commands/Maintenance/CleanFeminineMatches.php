@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Console\Commands;
+namespace App\Console\Commands\Maintenance;
 
 use App\Models\RugbyMatch;
 use Illuminate\Console\Command;
@@ -11,7 +11,7 @@ use Symfony\Component\DomCrawler\Crawler;
 
 class CleanFeminineMatches extends Command
 {
-    protected $signature = 'clean:feminine-matches
+    protected $signature = 'xv:clean-feminine
         {--dry-run : Lister les matches féminins sans les supprimer}
         {--year= : Vérifier une seule année}
         {--from=1950 : Année de début}

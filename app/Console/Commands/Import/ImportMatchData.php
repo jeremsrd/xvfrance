@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Console\Commands;
+namespace App\Console\Commands\Import;
 
 use App\Services\MatchDataValidator;
 use App\Services\MatchImportService;
@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\File;
 
 class ImportMatchData extends Command
 {
-    protected $signature = 'import:match-data
+    protected $signature = 'xv:import-match-data
         {path : Chemin vers un fichier JSON ou un dossier}
         {--dry-run : Valide sans écrire en BDD}
         {--force : Écrase les données existantes}

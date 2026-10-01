@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Console\Commands;
+namespace App\Console\Commands\Import;
 
 use App\Enums\EventType;
 use App\Enums\PlayerPosition;
@@ -14,7 +14,7 @@ use Illuminate\Console\Command;
 
 class SeedMatch1906 extends Command
 {
-    protected $signature = 'seed:match-1906 {--fresh : Supprimer les données existantes du match avant de seeder}';
+    protected $signature = 'xv:seed-1906 {--fresh : Supprimer les données existantes du match avant de seeder}';
     protected $description = 'Seed le premier match de l\'histoire du XV de France : France - Nouvelle-Zélande, 1er janvier 1906';
 
     private ?RugbyMatch $match = null;
@@ -32,7 +32,7 @@ class SeedMatch1906 extends Command
             ->first();
 
         if (!$this->match) {
-            $this->error('Match du 01/01/1906 vs NZL introuvable en base. Lancez d\'abord import:historical --year=1906');
+            $this->error('Match du 01/01/1906 vs NZL introuvable en base. Lancez d\'abord xv:import-historical --year=1906');
             return self::FAILURE;
         }
 

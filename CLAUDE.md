@@ -7,7 +7,7 @@ Tous les matches, compositions complètes (France ET adversaires), marqueurs dé
 sélectionneurs et compétitions.
 
 - **Domaine :** xvfrance.fr
-- **Hébergement :** O2switch (mutualisé, PHP 8.2+, MySQL 8, SSH, Composer)
+- **Hébergement :** O2switch (mutualisé, PHP 8.3+, MySQL 8, SSH, Composer)
 - **Repo GitHub :** github.com/jeremsrd/xvfrance (à créer)
 
 ---
@@ -16,12 +16,12 @@ sélectionneurs et compétitions.
 
 | Couche | Technologie |
 |--------|-------------|
-| Backend | Laravel 11 |
+| Backend | Laravel 13 (PHP 8.3) |
 | Front-end | Blade + Livewire 3 |
 | Micro-interactions | Alpine.js (livré avec Livewire) |
 | CSS | Tailwind CSS via CDN |
 | Base de données | MySQL 8 |
-| Admin | À déterminer (Filament recommandé) |
+| Admin | Filament 4 (`/admin`) |
 
 **Pas de Node.js requis.** Tailwind via CDN Play en dev. Pas de build frontend.
 
@@ -45,6 +45,11 @@ php artisan make:livewire NomDuComposant
 
 # Créer un enum
 # Pas de commande artisan, créer manuellement dans app/Enums/
+
+# Commandes projet (préfixe xv:, voir README pour l'ordre de reconstruction)
+php artisan list xv
+php artisan xv:validate-match-data database/data/matches
+php artisan xv:import-match-data database/data/matches
 
 # Cache
 php artisan cache:clear
@@ -117,10 +122,12 @@ matches ──┬── match_lineups (match_id)
 
 #### players
 - id (PK), first_name (VARCHAR 80), last_name (VARCHAR 80),
+  nickname (VARCHAR 100 NULL), slug (UNIQUE),
   birth_date (DATE NULL), birth_city (VARCHAR 100 NULL),
+  birth_country_id (FK countries NULL), death_date (DATE NULL),
   country_id (FK countries), height_cm (INT NULL), weight_kg (INT NULL),
-  primary_position (ENUM PlayerPosition), photo_url (VARCHAR 255 NULL),
-  is_active (BOOLEAN DEFAULT TRUE)
+  primary_position (ENUM PlayerPosition), photo_path (VARCHAR 255 NULL),
+  is_active (BOOLEAN DEFAULT TRUE), cap_number (INT NULL)
 
 #### matches
 - id (PK), match_date (DATE), kickoff_time (TIME NULL),
@@ -131,7 +138,8 @@ matches ──┬── match_lineups (match_id)
   stage (ENUM MatchStage NULL), match_number (INT NULL),
   attendance (INT NULL), referee (VARCHAR 150 NULL),
   referee_country_id (FK countries NULL),
-  weather (VARCHAR 100 NULL), notes (TEXT NULL)
+  weather (VARCHAR 100 NULL), notes (TEXT NULL),
+  slug (UNIQUE, format `YYYY-MM-DD-adversaire`)
 
 #### match_lineups
 - id (PK), match_id (FK matches), player_id (FK players),
@@ -292,18 +300,18 @@ enum Continent: string {
 ```
 GET /                                   -- Accueil
 GET /matches                            -- Tous les matches (Livewire: filtres, recherche, pagination)
-GET /matches/{rugbyMatch}               -- Feuille de match complète
+GET /matches/{rugbyMatch:slug}          -- Feuille de match complète
 GET /joueurs                            -- Joueurs (Livewire: recherche par nom, pays, poste)
-GET /joueurs/{player}                   -- Fiche joueur
+GET /joueurs/{player:slug}              -- Fiche joueur
 GET /adversaires                        -- Liste des adversaires par pays
 GET /adversaires/{country:code}         -- Bilan vs un pays (ex: /adversaires/NZL)
 GET /competitions                       -- Liste des compétitions
-GET /competitions/{competition}/editions -- Éditions
-GET /competitions/editions/{edition}    -- Détail d'une édition
+GET /competitions/{competition}         -- Éditions d'une compétition
+GET /competitions/editions/{competitionEdition} -- Détail d'une édition
 GET /selectionneurs                     -- Liste des sélectionneurs
 GET /selectionneurs/{coach}             -- Fiche sélectionneur + bilan
-GET /stades                             -- Carte interactive (Leaflet.js)
-GET /records                            -- Records et statistiques
+GET /stades                             -- Carte interactive (Leaflet.js) — à faire
+GET /records                            -- Records et statistiques — à faire
 ```
 
 ---
@@ -364,6 +372,9 @@ Japon (JPN), Roumanie (ROU), États-Unis (USA), Canada (CAN), Namibie (NAM).
 - **Enums :** Dans app/Enums/, backed string enums PHP 8.1+
 - **Dates :** Format Y-m-d en BDD, d/m/Y en affichage (format français)
 - **Scores :** Toujours france_score en premier, opponent_score en second
+- **Commandes Artisan :** préfixe `xv:`, rangées dans `app/Console/Commands/Import/` ou `Maintenance/`
+- **Données sources :** `database/data/sources/` (CSV) et `database/data/matches/{année}/` (JSON) — jamais dans `storage/`
+- **Docs :** specs en cours dans `docs/specs/`, phases terminées dans `docs/archive/`
 
 ---
 

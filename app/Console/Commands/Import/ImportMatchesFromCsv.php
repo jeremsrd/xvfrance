@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Console\Commands;
+namespace App\Console\Commands\Import;
 
 use App\Enums\Continent;
 use App\Models\Competition;
@@ -13,7 +13,7 @@ use Illuminate\Support\Carbon;
 
 class ImportMatchesFromCsv extends Command
 {
-    protected $signature = 'import:matches
+    protected $signature = 'xv:import-csv
         {file : Chemin vers le fichier CSV}
         {--dry-run : Affiche ce qui serait importé sans écrire en BDD}
         {--from= : Année de début (ex: 1987)}
