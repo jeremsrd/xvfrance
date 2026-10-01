@@ -12,7 +12,7 @@
     $fr = fn ($n, $d = 0) => number_format($n, $d, ',', "\u{202F}");
     $share = fn ($n) => $record->total > 0 ? number_format($n / $record->total * 100, 2, '.', '') : 0;
     $firstYear = $firstMatchDate ? \Illuminate\Support\Carbon::parse($firstMatchDate)->year : 1906;
-    $focus = 'focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2';
+    $focus = 'focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-offset-2';
 @endphp
 
 @section('content')
@@ -108,7 +108,7 @@
                 <h2 id="dernier-match" class="font-display text-2xl sm:text-3xl font-bold uppercase tracking-tight text-slate-900">Dernier match</h2>
 
                 <a href="{{ route('matches.show', $latestMatch) }}"
-                   class="group mt-6 block rounded-xl border border-slate-200 bg-white p-6 sm:p-8 shadow-sm motion-safe:transition-shadow hover:shadow-lg {{ $focus }} focus-visible:ring-bleu-france">
+                   class="group mt-6 block rounded-xl border border-slate-200 bg-white p-6 sm:p-8 shadow-xs motion-safe:transition-shadow hover:shadow-lg {{ $focus }} focus-visible:ring-bleu-france">
                     <div class="flex flex-wrap items-center justify-between gap-3 text-sm text-slate-600">
                         <span>
                             {{ ucfirst($latestMatch->match_date->locale('fr')->translatedFormat('l j F Y')) }}

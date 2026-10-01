@@ -10,7 +10,7 @@
 @endphp
 
 <a href="{{ route('matches.show', $match) }}"
-   class="block bg-white rounded-lg shadow-sm border border-gray-200 border-l-4 {{ $bgClass }} hover:shadow-md transition {{ $featured ? 'p-6' : 'p-4' }}">
+   class="block bg-white rounded-lg shadow-xs border border-gray-200 border-l-4 {{ $bgClass }} hover:shadow-md transition {{ $featured ? 'p-6' : 'p-4' }}">
 
     <div class="flex items-center justify-between">
         <div class="flex-1">

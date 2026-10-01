@@ -16,7 +16,7 @@
     </div>
 
     @if($coaches->isEmpty())
-        <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-12 text-center">
+        <div class="bg-white rounded-lg shadow-xs border border-gray-200 p-12 text-center">
             <div class="text-gray-400 text-5xl mb-4">🏈</div>
             <h3 class="text-lg font-semibold text-gray-700 mb-2">Données à venir</h3>
             <p class="text-gray-500">Les fiches des sélectionneurs sont en cours de saisie.</p>
@@ -25,10 +25,10 @@
         <div class="space-y-4">
             @foreach($coaches as $coach)
                 <a href="{{ route('coaches.show', $coach) }}"
-                   class="block bg-white rounded-lg shadow-sm border border-gray-200 p-6 hover:shadow-md transition">
+                   class="block bg-white rounded-lg shadow-xs border border-gray-200 p-6 hover:shadow-md transition">
                     <div class="flex flex-col md:flex-row md:items-center gap-4">
                         {{-- Photo --}}
-                        <div class="flex-shrink-0">
+                        <div class="shrink-0">
                             @if($coach->photo_url)
                                 <img src="{{ $coach->photo_url }}" alt="{{ $coach->fullName() }}"
                                      class="w-16 h-16 rounded-full object-cover">

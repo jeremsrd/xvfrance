@@ -38,7 +38,7 @@
         @forelse($matches as $match)
             <x-match-score-card :match="$match" />
         @empty
-            <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-8 text-center text-gray-500">
+            <div class="bg-white rounded-lg shadow-xs border border-gray-200 p-8 text-center text-gray-500">
                 Aucun match enregistré pour cette édition.
             </div>
         @endforelse

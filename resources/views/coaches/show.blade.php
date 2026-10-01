@@ -13,10 +13,10 @@
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
 
     {{-- En-tête --}}
-    <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-6 md:p-8 mb-8">
+    <div class="bg-white rounded-lg shadow-xs border border-gray-200 p-6 md:p-8 mb-8">
         <div class="flex flex-col md:flex-row items-start gap-6">
             {{-- Photo --}}
-            <div class="flex-shrink-0">
+            <div class="shrink-0">
                 @if($coach->photo_url)
                     <img src="{{ $coach->photo_url }}" alt="{{ $coach->fullName() }}"
                          class="w-28 h-28 rounded-full object-cover border-4 border-bleu-france/20">
@@ -75,7 +75,7 @@
         </div>
 
         {{-- % de victoires --}}
-        <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-4 mb-8">
+        <div class="bg-white rounded-lg shadow-xs border border-gray-200 p-4 mb-8">
             <div class="flex items-center justify-between mb-2">
                 <span class="text-sm font-medium text-gray-700">Taux de victoires</span>
                 <span class="text-sm font-bold {{ $record->winPct >= 50 ? 'text-victoire' : 'text-gray-700' }}">{{ $record->winPct }}%</span>
@@ -86,7 +86,7 @@
         </div>
 
         {{-- Liste des matches --}}
-        <div class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden">
+        <div class="bg-white rounded-lg shadow-xs border border-gray-200 overflow-hidden">
             <div class="px-6 py-4 border-b border-gray-200">
                 <h2 class="text-lg font-bold text-gray-900">Matches sous son mandat</h2>
             </div>
@@ -157,7 +157,7 @@
             @endif
         </div>
     @else
-        <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-8 text-center text-gray-500">
+        <div class="bg-white rounded-lg shadow-xs border border-gray-200 p-8 text-center text-gray-500">
             Aucun mandat de sélectionneur enregistré.
         </div>
     @endif

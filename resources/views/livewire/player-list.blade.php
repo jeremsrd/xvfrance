@@ -15,20 +15,20 @@
         </div>
 
         {{-- Filtres --}}
-        <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-4 mb-6">
+        <div class="bg-white rounded-lg shadow-xs border border-gray-200 p-4 mb-6">
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
                 {{-- Recherche --}}
                 <div>
                     <label class="block text-xs font-medium text-gray-500 mb-1">Recherche</label>
                     <input wire:model.live.debounce.300ms="search" type="text" placeholder="Nom du joueur..."
-                           class="w-full rounded-md border-gray-300 shadow-sm text-sm focus:border-bleu-france focus:ring-bleu-france px-3 py-2 border">
+                           class="w-full rounded-md border-gray-300 shadow-xs text-sm focus:border-bleu-france focus:ring-bleu-france px-3 py-2 border">
                 </div>
 
                 {{-- Nationalité --}}
                 <div>
                     <label class="block text-xs font-medium text-gray-500 mb-1">Nationalité</label>
                     <select wire:model.live="country"
-                            class="w-full rounded-md border-gray-300 shadow-sm text-sm focus:border-bleu-france focus:ring-bleu-france px-3 py-2 border">
+                            class="w-full rounded-md border-gray-300 shadow-xs text-sm focus:border-bleu-france focus:ring-bleu-france px-3 py-2 border">
                         <option value="">Toutes</option>
                         @foreach($countries as $c)
                             <option value="{{ $c->id }}">{{ $c->flag_emoji }} {{ $c->name }}</option>
@@ -40,7 +40,7 @@
                 <div>
                     <label class="block text-xs font-medium text-gray-500 mb-1">Poste</label>
                     <select wire:model.live="position"
-                            class="w-full rounded-md border-gray-300 shadow-sm text-sm focus:border-bleu-france focus:ring-bleu-france px-3 py-2 border">
+                            class="w-full rounded-md border-gray-300 shadow-xs text-sm focus:border-bleu-france focus:ring-bleu-france px-3 py-2 border">
                         <option value="">Tous</option>
                         @foreach($positions as $pos)
                             <option value="{{ $pos->value }}">{{ $pos->label() }}</option>
@@ -52,7 +52,7 @@
                 <div>
                     <label class="block text-xs font-medium text-gray-500 mb-1">Statut</label>
                     <select wire:model.live="status"
-                            class="w-full rounded-md border-gray-300 shadow-sm text-sm focus:border-bleu-france focus:ring-bleu-france px-3 py-2 border">
+                            class="w-full rounded-md border-gray-300 shadow-xs text-sm focus:border-bleu-france focus:ring-bleu-france px-3 py-2 border">
                         <option value="">Tous</option>
                         <option value="actif">En activité</option>
                         <option value="retraite">Retraité</option>
@@ -82,7 +82,7 @@
 
         {{-- Grille de joueurs --}}
         @if($players->isEmpty())
-            <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-12 text-center">
+            <div class="bg-white rounded-lg shadow-xs border border-gray-200 p-12 text-center">
                 <div class="text-gray-400 text-5xl mb-4">🏈</div>
                 <h3 class="text-lg font-semibold text-gray-700 mb-2">Aucun joueur trouvé</h3>
                 <p class="text-gray-500">
@@ -97,10 +97,10 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                 @foreach($players as $player)
                     <a href="{{ route('players.show', $player) }}"
-                       class="block bg-white rounded-lg shadow-sm border border-gray-200 p-4 hover:shadow-md transition">
+                       class="block bg-white rounded-lg shadow-xs border border-gray-200 p-4 hover:shadow-md transition">
                         <div class="flex items-center gap-4">
                             {{-- Photo --}}
-                            <div class="flex-shrink-0">
+                            <div class="shrink-0">
                                 @if($player->photo_path)
                                     <img src="{{ $player->photo_path }}" alt="{{ $player->fullName() }}"
                                          class="w-14 h-14 rounded-full object-cover">

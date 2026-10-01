@@ -72,7 +72,7 @@
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
 
                 {{-- Infos complémentaires --}}
-                <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
+                <div class="bg-white rounded-lg shadow-xs border border-gray-200 p-6">
                     <h3 class="font-semibold text-gray-900 mb-4">Informations</h3>
                     <dl class="space-y-3 text-sm">
                         @if($rugbyMatch->referee)
@@ -112,7 +112,7 @@
 
                 {{-- Notes --}}
                 @if($rugbyMatch->notes)
-                <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
+                <div class="bg-white rounded-lg shadow-xs border border-gray-200 p-6">
                     <h3 class="font-semibold text-gray-900 mb-4">Notes</h3>
                     <p class="text-sm text-gray-600 leading-relaxed">{{ $rugbyMatch->notes }}</p>
                 </div>
@@ -136,7 +136,7 @@
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
                 {{-- Équipe à domicile --}}
                 @if($homeLineups->isNotEmpty())
-                <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
+                <div class="bg-white rounded-lg shadow-xs border border-gray-200 p-6">
                     <h3 class="font-semibold text-gray-900 mb-4">{{ $homeLabel }}</h3>
                     <div class="space-y-1 text-sm">
                         <p class="text-xs text-gray-400 font-semibold uppercase mb-2">Titulaires</p>
@@ -164,7 +164,7 @@
 
                 {{-- Équipe à l'extérieur --}}
                 @if($awayLineups->isNotEmpty())
-                <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
+                <div class="bg-white rounded-lg shadow-xs border border-gray-200 p-6">
                     <h3 class="font-semibold text-gray-900 mb-4">{{ $awayLabel }}</h3>
                     <div class="space-y-1 text-sm">
                         <p class="text-xs text-gray-400 font-semibold uppercase mb-2">Titulaires</p>
@@ -198,7 +198,7 @@
 
             {{-- Événements (si disponibles) --}}
             @if($rugbyMatch->events->isNotEmpty())
-            <div class="mt-6 bg-white rounded-lg shadow-sm border border-gray-200 p-6">
+            <div class="mt-6 bg-white rounded-lg shadow-xs border border-gray-200 p-6">
                 <h3 class="font-semibold text-gray-900 mb-4">Faits de jeu</h3>
                 <div class="space-y-2 text-sm">
                     @foreach($rugbyMatch->events->sortBy('minute') as $event)

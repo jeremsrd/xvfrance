@@ -1,11 +1,39 @@
 @import 'tailwindcss';
 
 @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
-@source '../../storage/framework/views/*.php';
-@source '../**/*.blade.php';
-@source '../**/*.js';
+@source '../views/**/*.blade.php';
 
 @theme {
-    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-        'Segoe UI Symbol', 'Noto Color Emoji';
+    --font-display: 'Barlow Condensed', ui-sans-serif, system-ui, sans-serif;
+    --font-barlow: 'Barlow', ui-sans-serif, system-ui, sans-serif;
+
+    --color-bleu-france: #002395;
+    --color-bleu-france-light: #003399;
+    --color-bleu-france-dark: #001a6e;
+    --color-rouge-france: #ED2939;
+    --color-rouge-france-light: #FF3344;
+    --color-victoire: #198754;
+    --color-defaite: #DC3545;
+    --color-nul: #FFC107;
+    --color-or: #D4AF37;
+}
+
+/* Comportements par défaut de Tailwind v3, conservés après la migration en v4 */
+@layer base {
+    *,
+    ::after,
+    ::before,
+    ::backdrop,
+    ::file-selector-button {
+        border-color: var(--color-gray-200, currentColor);
+    }
+
+    button:not(:disabled),
+    [role='button']:not(:disabled) {
+        cursor: pointer;
+    }
+}
+
+[x-cloak] {
+    display: none !important;
 }

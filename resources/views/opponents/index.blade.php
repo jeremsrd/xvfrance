@@ -21,7 +21,7 @@
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                 @foreach($opponents as $opponent)
                     <a href="{{ route('opponents.show', $opponent) }}"
-                       class="block bg-white rounded-lg shadow-sm border border-gray-200 p-5 hover:shadow-md transition">
+                       class="block bg-white rounded-lg shadow-xs border border-gray-200 p-5 hover:shadow-md transition">
                         <div class="flex items-center justify-between mb-3">
                             <x-country-flag :country="$opponent" class="text-lg font-semibold" />
                             <span class="text-sm text-gray-400">{{ $opponent->record->total }} matches</span>

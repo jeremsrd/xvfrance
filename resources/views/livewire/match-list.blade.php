@@ -20,11 +20,11 @@
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-3">
                 <div>
                     <input wire:model.live.debounce.300ms="search" type="text" placeholder="Rechercher un adversaire..."
-                           class="w-full rounded-lg border-gray-300 text-sm shadow-sm focus:border-bleu-france focus:ring-bleu-france">
+                           class="w-full rounded-lg border-gray-300 text-sm shadow-xs focus:border-bleu-france focus:ring-bleu-france">
                 </div>
                 <div>
                     <select wire:model.live="competition"
-                            class="w-full rounded-lg border-gray-300 text-sm shadow-sm focus:border-bleu-france focus:ring-bleu-france">
+                            class="w-full rounded-lg border-gray-300 text-sm shadow-xs focus:border-bleu-france focus:ring-bleu-france">
                         <option value="">Toutes les compétitions</option>
                         @foreach($competitions as $comp)
                             <option value="{{ $comp->id }}">{{ $comp->short_name }}</option>
@@ -33,7 +33,7 @@
                 </div>
                 <div>
                     <select wire:model.live="result"
-                            class="w-full rounded-lg border-gray-300 text-sm shadow-sm focus:border-bleu-france focus:ring-bleu-france">
+                            class="w-full rounded-lg border-gray-300 text-sm shadow-xs focus:border-bleu-france focus:ring-bleu-france">
                         <option value="">Tous les résultats</option>
                         <option value="victoire">Victoires</option>
                         <option value="defaite">Défaites</option>
@@ -42,7 +42,7 @@
                 </div>
                 <div>
                     <select wire:model.live="decade"
-                            class="w-full rounded-lg border-gray-300 text-sm shadow-sm focus:border-bleu-france focus:ring-bleu-france">
+                            class="w-full rounded-lg border-gray-300 text-sm shadow-xs focus:border-bleu-france focus:ring-bleu-france">
                         <option value="">Toutes les décennies</option>
                         @for($d = 2020; $d >= 1900; $d -= 10)
                             <option value="{{ $d }}">{{ $d }}s</option>
@@ -51,7 +51,7 @@
                 </div>
                 <div>
                     <select wire:model.live="location"
-                            class="w-full rounded-lg border-gray-300 text-sm shadow-sm focus:border-bleu-france focus:ring-bleu-france">
+                            class="w-full rounded-lg border-gray-300 text-sm shadow-xs focus:border-bleu-france focus:ring-bleu-france">
                         <option value="">Domicile & Extérieur</option>
                         <option value="domicile">Domicile</option>
                         <option value="exterieur">Extérieur</option>

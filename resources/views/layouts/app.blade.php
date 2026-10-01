@@ -5,33 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@yield('title', 'XV de France — L\'histoire complète depuis 1906')</title>
     <meta name="description" content="@yield('meta_description', 'Site de référence francophone sur l\'histoire du XV de France de rugby depuis 1906. Tous les matches, compositions, marqueurs et statistiques.')">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    fontFamily: {
-                        'display': ['"Barlow Condensed"', 'ui-sans-serif', 'system-ui', 'sans-serif'],
-                        'barlow': ['Barlow', 'ui-sans-serif', 'system-ui', 'sans-serif'],
-                    },
-                    colors: {
-                        'bleu-france': '#002395',
-                        'bleu-france-light': '#003399',
-                        'bleu-france-dark': '#001a6e',
-                        'rouge-france': '#ED2939',
-                        'rouge-france-light': '#FF3344',
-                        'victoire': '#198754',
-                        'defaite': '#DC3545',
-                        'nul': '#FFC107',
-                        'or': '#D4AF37',
-                    }
-                }
-            }
-        }
-    </script>
-    <style>
-        [x-cloak] { display: none !important; }
-    </style>
+    @vite('resources/css/app.css')
     @stack('head')
     @livewireStyles
 </head>

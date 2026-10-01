@@ -34,12 +34,12 @@
     </div>
 
     @if($editions->isEmpty())
-        <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-12 text-center">
+        <div class="bg-white rounded-lg shadow-xs border border-gray-200 p-12 text-center">
             <p class="text-gray-500">Aucune édition enregistrée.</p>
         </div>
     @else
         {{-- Desktop --}}
-        <div class="hidden md:block bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden">
+        <div class="hidden md:block bg-white rounded-lg shadow-xs border border-gray-200 overflow-hidden">
             <table class="w-full text-sm">
                 <thead class="bg-gray-50 text-gray-500 text-xs uppercase">
                     <tr>
@@ -86,7 +86,7 @@
         <div class="md:hidden space-y-3">
             @foreach($editions as $edition)
                 <a href="{{ route('editions.show', $edition) }}"
-                   class="block bg-white rounded-lg shadow-sm border border-gray-200 p-4 hover:shadow-md transition">
+                   class="block bg-white rounded-lg shadow-xs border border-gray-200 p-4 hover:shadow-md transition">
                     <div class="flex justify-between items-start">
                         <div>
                             <div class="font-bold text-gray-900">{{ $edition->label }}</div>

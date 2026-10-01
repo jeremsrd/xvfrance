@@ -13,10 +13,10 @@
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
 
     {{-- En-tête joueur --}}
-    <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-6 md:p-8 mb-8">
+    <div class="bg-white rounded-lg shadow-xs border border-gray-200 p-6 md:p-8 mb-8">
         <div class="flex flex-col md:flex-row items-start gap-6">
             {{-- Photo --}}
-            <div class="flex-shrink-0">
+            <div class="shrink-0">
                 @if($player->photo_path)
                     <img src="{{ $player->photo_path }}" alt="{{ $player->fullName() }}"
                          class="w-28 h-28 rounded-full object-cover border-4 border-bleu-france/20">
@@ -98,7 +98,7 @@
     </div>
 
     {{-- Matches joués --}}
-    <div class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden mb-8">
+    <div class="bg-white rounded-lg shadow-xs border border-gray-200 overflow-hidden mb-8">
         <div class="px-6 py-4 border-b border-gray-200">
             <h2 class="text-lg font-bold text-gray-900">Matches joués</h2>
         </div>
@@ -193,7 +193,7 @@
 
     {{-- Faits de jeu --}}
     @if($events->isNotEmpty())
-        <div class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden">
+        <div class="bg-white rounded-lg shadow-xs border border-gray-200 overflow-hidden">
             <div class="px-6 py-4 border-b border-gray-200">
                 <h2 class="text-lg font-bold text-gray-900">Faits de jeu</h2>
             </div>

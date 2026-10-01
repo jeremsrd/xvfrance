@@ -19,19 +19,26 @@ sélectionneurs et compétitions.
 | Backend | Laravel 13 (PHP 8.3) |
 | Front-end | Blade + Livewire 3 |
 | Micro-interactions | Alpine.js (livré avec Livewire) |
-| CSS | Tailwind CSS via CDN |
+| CSS | Tailwind CSS v4 via Vite (`resources/css/app.css`) |
 | Base de données | MySQL 8 |
 | Admin | Filament 4 (`/admin`) |
 
-**Pas de Node.js requis.** Tailwind via CDN Play en dev. Pas de build frontend.
+**Node.js requis en local uniquement** pour compiler le CSS (`npm run build` → `public/build/`).
+Le thème (couleurs `bleu-france`, `rouge-france`…, polices `font-display` / `font-barlow`) est déclaré
+dans le bloc `@theme` de `resources/css/app.css`. Pas de JS applicatif : Alpine est fourni par Livewire.
+`public/build/` est ignoré par git : il faut lancer `npm run build` avant chaque déploiement.
 
 ---
 
 ## Commandes utiles
 
 ```bash
-# Serveur de dev
+# Serveur de dev (Herd sert déjà le site sur https://xvfrance.test)
 php artisan serve
+
+# CSS : rechargement à chaud en dev / build de production
+npm run dev
+npm run build
 
 # Migrations
 php artisan migrate

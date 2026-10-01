@@ -7,13 +7,14 @@ sélectionneurs et compétitions.
 ## Stack
 
 - Laravel 13 · PHP 8.3 · MySQL 8
-- Blade + Livewire · Tailwind CSS (CDN)
+- Blade + Livewire · Tailwind CSS v4 (Vite)
 - Admin : Filament 4 (`/admin`)
 
 ## Installation
 
 ```bash
 composer install
+npm install && npm run build   # compile le CSS dans public/build
 cp .env.example .env
 php artisan key:generate
 # Renseigner DB_* dans .env

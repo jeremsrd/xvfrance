@@ -16,14 +16,14 @@
     </div>
 
     @if($competitions->isEmpty())
-        <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-12 text-center">
+        <div class="bg-white rounded-lg shadow-xs border border-gray-200 p-12 text-center">
             <p class="text-gray-500">Aucune compétition enregistrée.</p>
         </div>
     @else
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             @foreach($competitions as $competition)
                 <a href="{{ route('competitions.show', $competition) }}"
-                   class="block bg-white rounded-lg shadow-sm border border-gray-200 p-6 hover:shadow-md transition">
+                   class="block bg-white rounded-lg shadow-xs border border-gray-200 p-6 hover:shadow-md transition">
                     <div class="flex items-start justify-between mb-3">
                         <h2 class="text-lg font-bold text-gray-900">{{ $competition->name }}</h2>
                         @if($competition->type)
