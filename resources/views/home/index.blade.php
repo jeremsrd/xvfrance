@@ -2,12 +2,6 @@
 
 @section('title', 'XV de France — L\'histoire complète depuis 1906')
 
-@push('head')
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
-@endpush
-
 @php
     $fr = fn ($n, $d = 0) => number_format($n, $d, ',', "\u{202F}");
     $share = fn ($n) => $record->total > 0 ? number_format($n / $record->total * 100, 2, '.', '') : 0;
@@ -16,7 +10,7 @@
 @endphp
 
 @section('content')
-<div class="font-barlow">
+<div>
 
     {{-- Hero : identité + bilan historique --}}
     <section class="bg-bleu-france text-white">
@@ -52,7 +46,7 @@
 
             <div class="lg:col-span-5">
                 <div class="rounded-xl border border-white/15 bg-white/5 p-6 sm:p-8">
-                    <h2 class="text-sm font-medium uppercase tracking-[0.2em] text-blue-200">Bilan historique</h2>
+                    <h2 class="font-sans text-sm font-medium uppercase tracking-[0.2em] text-blue-200">Bilan historique</h2>
                     <div class="mt-3 flex items-baseline gap-3">
                         <span class="font-display text-6xl font-bold tabular-nums">{{ $fr($record->winPct, 1) }}&nbsp;%</span>
                         <span class="text-blue-200">de victoires</span>

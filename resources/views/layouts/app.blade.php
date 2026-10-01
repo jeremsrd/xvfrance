@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@yield('title', 'XV de France — L\'histoire complète depuis 1906')</title>
     <meta name="description" content="@yield('meta_description', 'Site de référence francophone sur l\'histoire du XV de France de rugby depuis 1906. Tous les matches, compositions, marqueurs et statistiques.')">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
     @vite('resources/css/app.css')
     @stack('head')
     @livewireStyles
@@ -17,7 +20,7 @@
             <div class="flex items-center justify-between h-16">
                 {{-- Logo --}}
                 <a href="{{ route('home') }}" class="flex items-center space-x-2">
-                    <span class="text-2xl font-bold tracking-tight">XV FRANCE</span>
+                    <span class="font-display text-3xl font-bold uppercase tracking-tight">XV France</span>
                 </a>
 
                 {{-- Navigation desktop --}}

@@ -4,8 +4,10 @@
 @source '../views/**/*.blade.php';
 
 @theme {
-    --font-display: 'Barlow Condensed', ui-sans-serif, system-ui, sans-serif;
-    --font-barlow: 'Barlow', ui-sans-serif, system-ui, sans-serif;
+    --font-sans: 'Barlow', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+    --font-display: 'Barlow Condensed', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+        'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 
     --color-bleu-france: #002395;
     --color-bleu-france-light: #003399;
@@ -26,6 +28,14 @@
     ::backdrop,
     ::file-selector-button {
         border-color: var(--color-gray-200, currentColor);
+    }
+
+    /* Titres de page et de section : police condensée en capitales, comme sur l'accueil */
+    h1,
+    h2 {
+        font-family: var(--font-display);
+        text-transform: uppercase;
+        letter-spacing: -0.01em;
     }
 
     button:not(:disabled),
