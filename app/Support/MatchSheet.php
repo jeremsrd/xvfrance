@@ -28,6 +28,9 @@ final class MatchSheet
         EventType::DROP,
     ];
 
+    /** Durée réglementaire d'un match (hors prolongations) */
+    public const MATCH_LENGTH = 80;
+
     private ?array $timeline = null;
 
     public function __construct(public readonly RugbyMatch $match)
@@ -114,11 +117,18 @@ final class MatchSheet
         $subs = $this->match->substitutions->filter(fn (MatchSubstitution $s) => $s->team_side === $side);
         $events = $this->match->events->filter(fn (MatchEvent $e) => $e->team_side === $side && $e->player_id);
 
-        $rows = $this->match->lineups
-            ->filter(fn (MatchLineup $l) => $l->team_side === $side)
+        $players = $this->match->lineups->filter(fn (MatchLineup $l) => $l->team_side === $side);
+        // Remplacements complets si chaque remplaçant de la feuille a une entrée saisie
+        $subsComplete = $players->where('is_starter', false)->isNotEmpty()
+            && $players->where('is_starter', false)->every(fn (MatchLineup $l) => $subs->contains('player_on_id', $l->player_id));
+
+        $rows = $players
             ->sortBy('jersey_number')
-            ->map(function (MatchLineup $l) use ($subs, $events) {
+            ->map(function (MatchLineup $l) use ($subs, $events, $subsComplete) {
                 $own = $events->where('player_id', $l->player_id);
+                $on = $l->is_starter ? 0 : $subs->firstWhere('player_on_id', $l->player_id)?->minute;
+                $off = $subs->firstWhere('player_off_id', $l->player_id)?->minute
+                    ?? $own->firstWhere('event_type', EventType::CARTON_ROUGE)?->minute;
 
                 return [
                     'jersey' => $l->jersey_number,
@@ -128,6 +138,7 @@ final class MatchSheet
                     'starter' => $l->is_starter,
                     'on' => $subs->firstWhere('player_on_id', $l->player_id)?->minute,
                     'off' => $subs->firstWhere('player_off_id', $l->player_id)?->minute,
+                    'minutes' => $this->minutesPlayed($l->is_starter, $on, $off, $subsComplete),
                     'tries' => $own->where('event_type', EventType::ESSAI)->count(),
                     'points' => $own->sum(fn (MatchEvent $e) => $e->event_type->points($this->match->match_date)),
                     'cards' => $own->filter(fn ($e) => in_array($e->event_type, [EventType::CARTON_JAUNE, EventType::CARTON_ROUGE]))
@@ -139,6 +150,27 @@ final class MatchSheet
             'starters' => $rows->where('starter', true)->values()->all(),
             'bench' => $rows->where('starter', false)->values()->all(),
         ];
+    }
+
+    /**
+     * Minutes jouées, uniquement quand elles sont certaines (null sinon).
+     * Un remplaçant sans entrée saisie n'a pas joué si les remplacements sont complets.
+     */
+    private function minutesPlayed(bool $starter, ?int $on, ?int $off, bool $subsComplete): ?int
+    {
+        $end = self::MATCH_LENGTH;
+
+        if (!$starter && $on === null) {
+            return $subsComplete ? 0 : null;
+        }
+        if ($off !== null) {
+            return max(0, min($off, $end) - ($on ?? 0));
+        }
+        if (!$starter) {
+            return max(0, $end - $on);
+        }
+
+        return $subsComplete ? $end : null;
     }
 
     /**

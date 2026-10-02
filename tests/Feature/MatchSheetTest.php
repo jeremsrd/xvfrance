@@ -163,4 +163,25 @@ class MatchSheetTest extends TestCase
             ->assertSee('Mi-temps')
             ->assertSee('confrontation entre la France et l&#039;Angleterre', false);
     }
+
+    public function test_minutes_played_only_when_certain(): void
+    {
+        [$starter, $other, $bench1, $bench2] = Player::factory()->count(4)->create(['country_id' => $this->fr->country_id]);
+        foreach ([[$starter, 1, true], [$other, 2, true], [$bench1, 16, false], [$bench2, 17, false]] as [$p, $n, $start]) {
+            MatchLineup::factory()->create(['match_id' => $this->match->id, 'player_id' => $p->id, 'jersey_number' => $n, 'is_starter' => $start]);
+        }
+        MatchSubstitution::factory()->create(['match_id' => $this->match->id, 'player_off_id' => $starter->id, 'player_on_id' => $bench1->id, 'minute' => 50]);
+
+        // Un seul remplacement sur deux remplaçants : seuls les joueurs concernés sont certains
+        $minutes = fn () => array_column(array_merge(...array_values($this->sheet()->lineup(TeamSide::FRANCE))), 'minutes', 'jersey');
+        $this->assertSame([1 => 50, 2 => null, 16 => 30, 17 => null], $minutes());
+
+        // Tous les remplaçants entrés : les titulaires non remplacés ont joué 80 minutes
+        MatchSubstitution::factory()->create(['match_id' => $this->match->id, 'player_off_id' => $bench1->id, 'player_on_id' => $bench2->id, 'minute' => 70]);
+        $this->assertSame([1 => 50, 2 => 80, 16 => 20, 17 => 10], $minutes());
+
+        // Un carton rouge arrête le compteur
+        $this->event(EventType::CARTON_ROUGE, 30, TeamSide::FRANCE, $other);
+        $this->assertSame(30, $minutes()[2]);
+    }
 }

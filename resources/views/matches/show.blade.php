@@ -203,38 +203,7 @@
                                 <div class="space-y-6">
                                     @foreach(['Titulaires' => $lineup['starters'], 'Remplaçants' => $lineup['bench']] as $title => $rows)
                                         @continue(empty($rows))
-                                        <div>
-                                            <h3 class="mb-2 text-xs font-semibold uppercase tracking-[0.18em] text-texte-2">{{ $title }}</h3>
-                                            <ul class="divide-y divide-filet overflow-hidden rounded-xl border border-filet bg-white">
-                                                @foreach($rows as $row)
-                                                    <li>
-                                                        <a href="{{ route('players.show', $row['player']) }}" class="flex items-center gap-3 px-4 py-2.5 hover:bg-papier {{ $focus }} focus-visible:ring-inset focus-visible:ring-bleu-france">
-                                                            <x-match.jersey :number="$row['jersey']" :france="$team['isFrance']" size="sm" class="{{ $team['isFrance'] ? '' : 'ring-encre/25' }}" />
-                                                            <span class="min-w-0 flex-1">
-                                                                <span class="block truncate font-semibold text-encre">
-                                                                    {{ $row['player']->first_name }} {{ $row['player']->last_name }}
-                                                                    @if($row['captain'])<span class="ml-1 rounded bg-or/20 px-1.5 py-0.5 align-middle text-[10px] font-bold uppercase tracking-wide text-or-2">Capitaine</span>@endif
-                                                                </span>
-                                                                @if($row['position'])<span class="block text-xs text-texte-2">{{ $row['position']->label() }}</span>@endif
-                                                            </span>
-                                                            <span class="flex shrink-0 items-center gap-2 text-xs text-texte-2 tabular-nums">
-                                                                @if($row['tries'])
-                                                                    <span class="flex items-center gap-0.5 text-encre" title="{{ $row['tries'] }} essai(s)"><x-match.event-icon type="essai" class="h-4 w-4" />@if($row['tries'] > 1)<b>{{ $row['tries'] }}</b>@endif</span>
-                                                                @endif
-                                                                @if($row['points'] && $row['points'] !== $row['tries'] * \App\Enums\EventType::ESSAI->points($m->match_date))
-                                                                    <span class="font-semibold text-encre">{{ $row['points'] }} pts</span>
-                                                                @endif
-                                                                @foreach($row['cards'] as $card)
-                                                                    <span class="flex items-center" title="{{ $card['type']->label() }}{{ $card['minute'] ? ' (' . $card['minute'] . '\')' : '' }}"><x-match.event-icon :type="$card['type']->value" class="h-4 w-4" /></span>
-                                                                @endforeach
-                                                                @if($row['on'])<span class="text-gagne">↑ {{ $row['on'] }}'</span>@endif
-                                                                @if($row['off'])<span class="text-perdu">↓ {{ $row['off'] }}'</span>@endif
-                                                            </span>
-                                                        </a>
-                                                    </li>
-                                                @endforeach
-                                            </ul>
-                                        </div>
+                                        @include('matches.partials.lineup-table', ['rows' => $rows, 'title' => $title, 'team' => $team])
                                     @endforeach
                                 </div>
                             </div>
