@@ -4,12 +4,15 @@ namespace App\Models;
 
 use App\Enums\PlayerPosition;
 use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 
 class Player extends Model
 {
+    use HasFactory;
+
     protected $fillable = [
         'first_name', 'last_name', 'nickname', 'birth_date', 'death_date',
         'birth_city', 'birth_country_id', 'country_id', 'height_cm', 'weight_kg',

@@ -5,11 +5,14 @@ namespace App\Models;
 use App\Enums\PlayerPosition;
 use App\Enums\TeamSide;
 use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 class MatchLineup extends Model
 {
+    use HasFactory;
+
     protected $fillable = [
         'match_id', 'player_id', 'jersey_number', 'is_starter',
         'position_played', 'is_captain', 'team_side',

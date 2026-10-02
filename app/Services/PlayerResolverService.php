@@ -46,10 +46,12 @@ class PlayerResolverService
             return null;
         }
 
-        // 2. Recherche fuzzy par nom seul (même pays)
+        // 2. Recherche fuzzy par nom seul (même pays), en écartant les homonymes
+        //    dont le prénom est incompatible (ex: Scott / Beauden / Jordie Barrett)
         $fuzzy = Player::where('country_id', $country->id)
             ->whereRaw('LOWER(last_name) = ?', [mb_strtolower(trim($lastName))])
-            ->get();
+            ->get()
+            ->filter(fn (Player $p) => $this->firstNamesCompatible($firstNorm, $p->first_name));
 
         if ($fuzzy->count() === 1) {
             $this->log[] = ['info', "Joueur trouvé par nom seul : {$fuzzy->first()->fullName()} ({$country->code})"];
@@ -62,16 +64,15 @@ class PlayerResolverService
         }
 
         // 3. Création
-        $player = Player::create([
+        // Poste inconnu (joueur cité seulement dans un événement) : défaut de la colonne
+        // Le slug est généré par le model à la création
+        $player = Player::create(array_filter([
             'first_name' => trim($firstName ?? ''),
             'last_name' => trim($lastName),
             'country_id' => $country->id,
             'primary_position' => $position,
             'is_active' => true,
-        ]);
-
-        $player->slug = $player->generateSlug();
-        $player->save();
+        ], fn ($value) => $value !== null));
 
         $this->createdCount++;
         $this->log[] = ['info', "Joueur créé : {$player->fullName()} ({$country->code})"];
@@ -99,6 +100,29 @@ class PlayerResolverService
         $value = trim($value);
         $value = Str::ascii($value);
         return mb_strtolower($value);
+    }
+
+    /**
+     * Prénoms compatibles : l'un est absent, ils sont égaux sans accents,
+     * ou l'un est l'initiale de l'autre (« B. » / « Beauden »).
+     */
+    private function firstNamesCompatible(?string $wanted, ?string $existing): bool
+    {
+        $existing = $existing ? $this->normalize($existing) : '';
+        if (!$wanted || $existing === '') {
+            return true;
+        }
+
+        $wanted = rtrim($wanted, '.');
+        $existing = rtrim($existing, '.');
+        if ($wanted === $existing) {
+            return true;
+        }
+
+        $isInitial = fn (string $s) => mb_strlen($s) === 1;
+
+        return ($isInitial($wanted) || $isInitial($existing))
+            && mb_substr($wanted, 0, 1) === mb_substr($existing, 0, 1);
     }
 
     private function cacheKey(string $lastName, ?string $firstName, int $countryId): string

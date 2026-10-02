@@ -4,11 +4,14 @@ namespace App\Models;
 
 use App\Enums\TeamSide;
 use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 class MatchSubstitution extends Model
 {
+    use HasFactory;
+
     protected $fillable = [
         'match_id', 'player_off_id', 'player_on_id', 'minute', 'is_tactical', 'team_side',
     ];

@@ -2,12 +2,15 @@
 
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 
 class Coach extends Model
 {
+    use HasFactory;
+
     protected $fillable = [
         'first_name', 'last_name', 'birth_date', 'birth_city', 'country_id', 'photo_url',
     ];
