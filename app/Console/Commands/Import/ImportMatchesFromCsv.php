@@ -437,6 +437,11 @@ class ImportMatchesFromCsv extends Command
 
         $lower = strtolower($csvCompetition);
 
+        // Compétition mondiale lancée en 2026 (fenêtres de juillet et novembre)
+        if (str_contains($lower, 'nations championship')) {
+            return 'Nations Championship';
+        }
+
         if (str_contains($lower, 'six nations') || str_contains($lower, 'five nations')
             || str_contains($lower, 'home nations') || str_contains($lower, '4 nations')) {
             return '5/6 Nations';

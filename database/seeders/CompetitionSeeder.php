@@ -15,6 +15,7 @@ class CompetitionSeeder extends Seeder
             ['name' => 'Coupe du Monde de Rugby', 'short_name' => 'Coupe du Monde', 'type' => CompetitionType::COUPE_DU_MONDE],
             ['name' => 'Tests d\'automne', 'short_name' => 'Tests d\'automne', 'type' => CompetitionType::TEST_MATCH],
             ['name' => 'Tournée d\'été', 'short_name' => 'Tournée d\'été', 'type' => CompetitionType::TEST_MATCH],
+            ['name' => 'Championnat des Nations', 'short_name' => 'Nations Championship', 'type' => CompetitionType::AUTRE],
         ];
 
         foreach ($competitions as $competition) {

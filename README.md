@@ -26,7 +26,7 @@ php artisan serve
 
 ```
 database/data/
-├── sources/results.csv     # Résultats 1950 → 2025 (source de xv:import-csv)
+├── sources/results.csv     # Résultats 1950 → 2026 (source de xv:import-csv)
 ├── sources/venue_coordinates.csv  # Coordonnées des stades (précision « stade » ou « ville »)
 └── matches/{année}/*.json  # Feuilles de match détaillées (compos, events, remplacements)
 ```
