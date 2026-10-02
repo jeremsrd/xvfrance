@@ -73,6 +73,7 @@ class PublicPagesTest extends TestCase
             'édition' => [fn (self $t) => route('editions.show', $t->match->edition_id)],
             'sélectionneurs' => [fn (self $t) => route('coaches.index')],
             'fiche sélectionneur' => [fn (self $t) => route('coaches.show', $t->tenure->coach_id)],
+            'records' => [fn (self $t) => route('records.index')],
         ];
     }
 
@@ -89,7 +90,7 @@ class PublicPagesTest extends TestCase
         $this->match->substitutions()->delete();
         RugbyMatch::query()->delete();
 
-        foreach (['home', 'matches.index', 'players.index', 'opponents.index', 'competitions.index', 'coaches.index'] as $route) {
+        foreach (['home', 'matches.index', 'players.index', 'opponents.index', 'competitions.index', 'coaches.index', 'records.index'] as $route) {
             $this->get(route($route))->assertOk();
         }
     }

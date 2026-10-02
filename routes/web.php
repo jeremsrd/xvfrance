@@ -7,6 +7,7 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\MatchController;
 use App\Http\Controllers\OpponentController;
 use App\Http\Controllers\PlayerController;
+use App\Http\Controllers\RecordController;
 use App\Livewire\MatchList;
 use App\Livewire\PlayerList;
 use Illuminate\Support\Facades\Route;
@@ -23,3 +24,4 @@ Route::get('/competitions/{competition}', [CompetitionController::class, 'show']
 Route::get('/competitions/editions/{competitionEdition}', [CompetitionEditionController::class, 'show'])->name('editions.show');
 Route::get('/selectionneurs', [CoachController::class, 'index'])->name('coaches.index');
 Route::get('/selectionneurs/{coach}', [CoachController::class, 'show'])->name('coaches.show');
+Route::get('/records', [RecordController::class, 'index'])->name('records.index');
