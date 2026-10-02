@@ -72,8 +72,10 @@ nettoyage acceptent `--dry-run`.
 
 ## Déploiement (O2switch)
 
-Le déploiement se lance depuis la machine locale, dont l'IP doit être autorisée en SSH
-(cPanel > Autorisation SSH). Le CSS est compilé localement : `public/build` reste hors de git.
+Le déploiement se lance depuis la machine locale, depuis n'importe quel réseau : O2switch
+n'ouvre SSH qu'aux IP en liste blanche, et le script y ajoute l'IP courante via l'API cPanel
+(jeton dans `.deploy.env`) le temps du déploiement, puis la retire, même en cas d'échec.
+Le CSS est compilé localement : `public/build` reste hors de git.
 
 ```bash
 cp .deploy.env.example .deploy.env   # une seule fois : accès SSH et dossier sur le serveur
