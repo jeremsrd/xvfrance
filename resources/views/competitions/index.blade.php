@@ -1,60 +1,68 @@
 @extends('layouts.app')
 
-@section('title', 'Compétitions — XV de France')
+@section('title', 'Les compétitions du XV de France — Tournoi, Coupe du monde, tournées')
+
+@section('meta_description', 'Le bilan du XV de France dans chaque compétition : Tournoi des 5/6 Nations, Coupe du monde, tournées d\'été, tests d\'automne.')
 
 @section('breadcrumb')
-    <span class="text-gray-300 mx-1">/</span>
-    <span class="text-gray-700">Compétitions</span>
+    <x-breadcrumb :items="['Compétitions' => null]" />
 @endsection
 
+@php
+    $share = fn ($r, $n) => $r->total ? round($n / $r->total * 100, 2) : 0;
+@endphp
+
 @section('content')
-<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <x-page.hero kicker="Le calendrier" title="Les compétitions"
+                 subtitle="Le Tournoi depuis 1910, la Coupe du monde depuis 1987, les tournées et les tests : le XV de France dans chaque compétition." />
 
-    <div class="mb-8">
-        <h1 class="text-3xl font-bold text-gray-900">Compétitions</h1>
-        <p class="mt-1 text-gray-500">{{ $competitions->count() }} compétition{{ $competitions->count() > 1 ? 's' : '' }}</p>
-    </div>
-
-    @if($competitions->isEmpty())
-        <div class="bg-white rounded-lg shadow-xs border border-gray-200 p-12 text-center">
-            <p class="text-gray-500">Aucune compétition enregistrée.</p>
-        </div>
-    @else
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <section class="py-12 lg:py-16">
+        <div class="mx-auto max-w-6xl space-y-4 px-4 sm:px-6 lg:px-8">
             @foreach($competitions as $competition)
-                <a href="{{ route('competitions.show', $competition) }}"
-                   class="block bg-white rounded-lg shadow-xs border border-gray-200 p-6 hover:shadow-md transition">
-                    <div class="flex items-start justify-between mb-3">
-                        <h2 class="text-lg font-bold text-gray-900">{{ $competition->name }}</h2>
-                        @if($competition->type)
-                            @php
-                                $typeClass = match($competition->type->value) {
-                                    'tournoi' => 'bg-blue-100 text-blue-800',
-                                    'coupe_du_monde' => 'bg-or/20 text-or',
-                                    'test_match' => 'bg-gray-100 text-gray-800',
-                                    'tournee' => 'bg-green-100 text-green-800',
-                                    default => 'bg-gray-100 text-gray-800',
-                                };
-                            @endphp
-                            <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium {{ $typeClass }}">
-                                {{ $competition->type->label() }}
-                            </span>
-                        @endif
+                @php $r = $competition->record; @endphp
+                <a href="{{ route('competitions.show', $competition) }}" class="group grid gap-6 rounded-2xl border border-filet bg-white p-6 hover:border-encre/30 focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-bleu-france sm:p-8 lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] lg:items-center">
+                    <div>
+                        <p class="text-xs font-semibold uppercase tracking-[0.18em] text-texte-2">{{ $competition->type?->label() }}</p>
+                        <h2 class="mt-1 font-display text-3xl font-bold uppercase leading-tight text-encre group-hover:underline">{{ $competition->name }}</h2>
+                        <p class="mt-1 font-serif text-texte-2">
+                            {{ $competition->editions_count }} édition{{ $competition->editions_count > 1 ? 's' : '' }}@if($competition->first_year) · {{ $competition->first_year }}@if($competition->last_year !== $competition->first_year)–{{ $competition->last_year }}@endif @endif
+                        </p>
                     </div>
-
-                    <div class="flex items-center gap-6 text-sm text-gray-500">
-                        <div>
-                            <span class="text-2xl font-bold text-gray-900">{{ $competition->editions_count }}</span>
-                            <span class="ml-1">édition{{ $competition->editions_count > 1 ? 's' : '' }}</span>
+                    <div>
+                        <div class="flex flex-wrap items-baseline justify-between gap-2">
+                            <span class="font-display text-4xl font-bold tabular-nums text-encre">{{ $r->total }} <span class="text-base font-semibold text-texte-2">matches</span></span>
+                            <span class="text-sm tabular-nums"><b class="text-gagne">{{ $r->wins }}</b> V · <b class="text-egal">{{ $r->draws }}</b> N · <b class="text-perdu">{{ $r->losses }}</b> D · <b class="text-encre">{{ $r->winPctLabel(0) }}</b></span>
                         </div>
-                        <div>
-                            <span class="text-2xl font-bold text-gray-900">{{ $competition->matches_count }}</span>
-                            <span class="ml-1">match{{ $competition->matches_count > 1 ? 'es' : '' }}</span>
+                        <div class="mt-3 flex h-2 overflow-hidden rounded-full bg-papier-2" aria-hidden="true">
+                            <span class="bg-gagne" style="width: {{ $share($r, $r->wins) }}%"></span>
+                            <span class="bg-egal" style="width: {{ $share($r, $r->draws) }}%"></span>
+                            <span class="bg-perdu" style="width: {{ $share($r, $r->losses) }}%"></span>
                         </div>
                     </div>
                 </a>
             @endforeach
+
+            @if($withoutCompetition->total)
+                @php $r = $withoutCompetition; @endphp
+                <div class="grid gap-6 rounded-2xl border border-dashed border-filet p-6 sm:p-8 lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] lg:items-center">
+                    <div>
+                        <p class="text-xs font-semibold uppercase tracking-[0.18em] text-texte-2">Hors compétition</p>
+                        <h2 class="mt-1 font-display text-3xl font-bold uppercase leading-tight text-encre">Tests et autres matches</h2>
+                        <p class="mt-1 font-serif text-texte-2">Rencontres non rattachées à une compétition dans nos archives.</p>
+                    </div>
+                    <div>
+                        <div class="flex flex-wrap items-baseline justify-between gap-2">
+                            <span class="font-display text-4xl font-bold tabular-nums text-encre">{{ $r->total }} <span class="text-base font-semibold text-texte-2">matches</span></span>
+                            <span class="text-sm tabular-nums"><b class="text-gagne">{{ $r->wins }}</b> V · <b class="text-egal">{{ $r->draws }}</b> N · <b class="text-perdu">{{ $r->losses }}</b> D · <b class="text-encre">{{ $r->winPctLabel(0) }}</b></span>
+                        </div>
+                        <div class="mt-3 flex h-2 overflow-hidden rounded-full bg-papier-2" aria-hidden="true">
+                            <span class="bg-gagne" style="width: {{ $share($r, $r->wins) }}%"></span>
+                            <span class="bg-egal" style="width: {{ $share($r, $r->draws) }}%"></span>
+                            <span class="bg-perdu" style="width: {{ $share($r, $r->losses) }}%"></span>
+                        </div>
+                    </div>
+                </div>
+            @endif
         </div>
-    @endif
-</div>
+    </section>
 @endsection
