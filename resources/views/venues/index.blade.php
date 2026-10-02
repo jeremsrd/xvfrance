@@ -5,11 +5,15 @@
 @section('meta_description', 'Carte interactive des ' . $venues->count() . ' stades où le XV de France a joué depuis 1906, avec le bilan de la France dans chacun.')
 
 @section('breadcrumb')
-    <span class="mx-2">/</span>
-    <span class="text-gray-700">Stades</span>
+    <x-breadcrumb :items="['Stades' => null]" />
 @endsection
 
 @push('head')
+    <style>
+        /* Fond de carte désaturé, accordé à la palette papier / encre */
+        #venues-map .leaflet-tile-pane { filter: grayscale(0.9) sepia(0.15) contrast(0.92) brightness(1.04); }
+        #venues-map { background: #EFEBE2; }
+    </style>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
           integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
@@ -18,28 +22,24 @@
 
 @section('content')
 
-    <section class="bg-bleu-france text-white py-10">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h1 class="text-4xl sm:text-5xl font-bold tracking-tight">Les stades</h1>
-            <p class="mt-3 text-blue-100">{{ $venues->count() }} stades dans {{ $venues->pluck('country_id')->unique()->count() }} pays ont accueilli le XV de France.</p>
-        </div>
-    </section>
+    <x-page.hero kicker="Les terrains" title="Les stades"
+                 :subtitle="$venues->count() . ' stades dans ' . $venues->pluck('country_id')->unique()->count() . ' pays ont accueilli le XV de France.'" />
 
     <section class="py-8">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div id="venues-map" class="h-[28rem] sm:h-[36rem] rounded-xl border border-slate-200 z-0"
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div id="venues-map" class="h-[28rem] sm:h-[36rem] rounded-xl border border-filet z-0"
                  role="region" aria-label="Carte des stades"></div>
-            <p class="mt-2 text-xs text-slate-500">La taille des cercles est proportionnelle au nombre de matches. Fond de carte © contributeurs OpenStreetMap.</p>
+            <p class="mt-2 text-xs text-texte-2">La taille des cercles est proportionnelle au nombre de matches. Fond de carte © contributeurs OpenStreetMap.</p>
         </div>
     </section>
 
     <section class="pb-12">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-2xl font-bold tracking-tight text-slate-900">Bilan par stade</h2>
-            <div class="mt-4 overflow-x-auto rounded-xl border border-slate-200 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-2xl font-bold tracking-tight text-encre">Bilan par stade</h2>
+            <div class="mt-4 overflow-x-auto rounded-xl border border-filet bg-white">
                 <table class="w-full min-w-[40rem] text-sm">
                     <thead>
-                        <tr class="border-b border-slate-100 text-left text-xs uppercase tracking-wider text-slate-500">
+                        <tr class="border-b border-filet text-left text-xs uppercase tracking-wider text-texte-2">
                             <th scope="col" class="px-5 py-3 font-medium">Stade</th>
                             <th scope="col" class="px-3 py-3 font-medium">Ville</th>
                             <th scope="col" class="px-3 py-3 text-right font-medium">Matches</th>
@@ -49,11 +49,11 @@
                             <th scope="col" class="px-5 py-3 text-right font-medium">Victoires</th>
                         </tr>
                     </thead>
-                    <tbody class="divide-y divide-slate-100">
+                    <tbody class="divide-y divide-filet">
                         @foreach($venues as $venue)
                             <tr>
-                                <th scope="row" class="px-5 py-2.5 text-left font-medium text-slate-900">{{ $venue->name }}</th>
-                                <td class="px-3 py-2.5 text-slate-600">
+                                <th scope="row" class="px-5 py-2.5 text-left font-medium text-encre">{{ $venue->name }}</th>
+                                <td class="px-3 py-2.5 text-texte-2">
                                     @if($venue->country)<span aria-hidden="true">{{ $venue->country->flag_emoji }}</span>@endif
                                     {{ $venue->city }}
                                 </td>
