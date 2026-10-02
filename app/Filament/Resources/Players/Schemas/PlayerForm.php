@@ -31,10 +31,13 @@ class PlayerForm
                             ->maxLength(100),
                         DatePicker::make('birth_date')
                             ->label('Date de naissance'),
-                        DatePicker::make('death_date')
-                            ->label('Date de décès'),
                         TextInput::make('birth_city')
                             ->label('Ville de naissance'),
+                        DatePicker::make('death_date')
+                            ->label('Date de décès'),
+                        TextInput::make('death_city')
+                            ->label('Ville de décès')
+                            ->maxLength(100),
                         Select::make('birth_country_id')
                             ->label('Pays de naissance')
                             ->relationship('birthCountry', 'name')

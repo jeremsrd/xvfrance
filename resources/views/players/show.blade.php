@@ -10,14 +10,10 @@
     $teamLabel = $isFrench ? 'le XV de France' : ($p->country ? $p->country->withArticle() : 'son équipe');
     $fr = fn ($n) => number_format($n, 0, ',', "\u{202F}");
     $bio = array_filter([
-        'Naissance' => $p->birth_date
-            ? ucfirst($p->birth_date->translatedFormat('j F Y')) . ($p->birth_city ? ' à ' . $p->birth_city : '') . ($p->birthCountry && $p->birthCountry->code !== $p->country?->code ? ' (' . $p->birthCountry->name . ')' : '')
-            : ($p->birth_city ? $p->birth_city : null),
-        'Décès' => $p->death_date ? ucfirst($p->death_date->translatedFormat('j F Y')) . ($p->birth_date ? ' (' . $p->birth_date->diffInYears($p->death_date) . ' ans)' : '') : null,
-        'Âge' => $p->birth_date && !$p->death_date ? (int) $p->birth_date->diffInYears(now()) . ' ans' : null,
         'Taille' => $p->height_cm ? number_format($p->height_cm / 100, 2, ',', '') . ' m' : null,
         'Poids' => $p->weight_kg ? $p->weight_kg . ' kg' : null,
     ]);
+    $lifeLine = array_filter([$p->birthSummary(), $p->deathSummary()]);
     $resultTone = fn ($r) => match ($r) { 'Victoire' => 'bg-gagne', 'Défaite' => 'bg-perdu', default => 'bg-egal' };
     $resultLetter = fn ($r) => match ($r) { 'Victoire' => 'V', 'Défaite' => 'D', default => 'N' };
     $focus = 'focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-offset-2';
@@ -75,18 +71,20 @@
                 @if($p->nickname)
                     <p class="mt-2 font-serif text-lg italic text-blue-200">« {{ $p->nickname }} »</p>
                 @endif
-                @if($p->isDeceased())
-                    <p class="mt-2 text-sm text-blue-200">† {{ $p->death_date->translatedFormat('j F Y') }}</p>
+                @if($lifeLine)
+                    <p class="mt-3 font-serif text-lg text-blue-100">
+                        {{ implode(' — ', $lifeLine) }}@if($p->age() !== null)<span class="text-blue-300"> ({{ $p->isDeceased() ? 'à ' : '' }}{{ $p->age() }} ans)</span>@endif
+                    </p>
                 @endif
 
                 @if($first)
                     <p class="mt-4 max-w-2xl text-blue-100">
                         @if($first === $last)
                             Un match recensé avec {{ $teamLabel }},
-                            le {{ $first['match']->match_date->translatedFormat('j F Y') }}.
+                            le {{ \App\Support\FrenchDate::long($first['match']->match_date) }}.
                         @else
                             Recensé avec {{ $teamLabel }} du
-                            {{ $first['match']->match_date->translatedFormat('j F Y') }} au {{ $last['match']->match_date->translatedFormat('j F Y') }}.
+                            {{ \App\Support\FrenchDate::long($first['match']->match_date) }} au {{ \App\Support\FrenchDate::long($last['match']->match_date) }}.
                         @endif
                     </p>
                 @endif
@@ -174,7 +172,7 @@
                                                     </span>
                                                 </span>
                                                 <span class="mt-0.5 block truncate text-xs text-texte-2">
-                                                    {{ $m->match_date->translatedFormat('j F') }}
+                                                    {{ \App\Support\FrenchDate::long($m->match_date, year: false) }}
                                                     @if($m->edition?->competition) · {{ $m->edition->competition->short_name }}@endif
                                                     · {{ $row['starter'] ? 'Titulaire' : 'Remplaçant' }}{{ $row['position'] ? ', ' . mb_strtolower($row['position']->label()) : '' }}
                                                 </span>

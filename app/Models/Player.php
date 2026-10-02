@@ -14,7 +14,7 @@ class Player extends Model
     use HasFactory;
 
     protected $fillable = [
-        'first_name', 'last_name', 'nickname', 'birth_date', 'death_date',
+        'first_name', 'last_name', 'nickname', 'birth_date', 'death_date', 'death_city',
         'birth_city', 'birth_country_id', 'country_id', 'height_cm', 'weight_kg',
         'primary_position', 'photo_path', 'is_active', 'cap_number', 'slug',
     ];
@@ -53,6 +53,44 @@ class Player extends Model
     {
         return $this->first_name . ' ' . $this->last_name;
     }
+
+    /**
+     * « Né le 1er mars 1980 à Apia (Samoa) », ou null si rien n'est connu.
+     */
+    public function birthSummary(): ?string
+    {
+        if (!$this->birth_date && !$this->birth_city) {
+            return null;
+        }
+
+        $place = $this->birth_city;
+        if ($place && $this->birthCountry && $this->birthCountry->id !== $this->country_id) {
+            $place .= ' (' . $this->birthCountry->name . ')';
+        }
+
+        return 'Né' . ($this->birth_date ? ' le ' . \App\Support\FrenchDate::long($this->birth_date) : '') . ($place ? ' à ' . $place : '');
+    }
+
+    /**
+     * « Mort le 12 juin 1950 à Paris », ou null pour un joueur vivant.
+     */
+    public function deathSummary(): ?string
+    {
+        if (!$this->death_date && !$this->death_city) {
+            return null;
+        }
+
+        return 'Mort' . ($this->death_date ? ' le ' . \App\Support\FrenchDate::long($this->death_date) : '') . ($this->death_city ? ' à ' . $this->death_city : '');
+    }
+
+    /**
+     * Âge actuel, ou âge au décès.
+     */
+    public function age(): ?int
+    {
+        return $this->birth_date ? (int) $this->birth_date->diffInYears($this->death_date ?? now()) : null;
+    }
+
 
     public function isDeceased(): bool
     {

@@ -38,7 +38,7 @@
 
 @section('title', $home['name'] . ' ' . $home['score'] . '-' . $away['score'] . ' ' . $away['name'] . ' (' . $m->match_date->format('d/m/Y') . ') — Feuille de match')
 
-@section('meta_description', $resultLabel . ' ' . $m->france_score . '-' . $m->opponent_score . ' face à ' . $m->opponent->name . ' le ' . $m->match_date->translatedFormat('j F Y') . ($m->venue ? ' à ' . $m->venue->city : '') . ' : composition, marqueurs et chronologie du match.')
+@section('meta_description', $resultLabel . ' ' . $m->france_score . '-' . $m->opponent_score . ' face à ' . $m->opponent->name . ' le ' . \App\Support\FrenchDate::long($m->match_date) . ($m->venue ? ' à ' . $m->venue->city : '') . ' : composition, marqueurs et chronologie du match.')
 
 @section('breadcrumb')
     <span class="mx-2">/</span>
@@ -73,7 +73,7 @@
                 <span>Match n° {{ number_format($franceMatchNumber, 0, ',', "\u{202F}") }} du XV de France</span>
             </div>
             <p class="mt-2 text-center font-serif text-lg italic text-blue-100">
-                {{ ucfirst($m->match_date->translatedFormat('l j F Y')) }}@if($m->venue), {{ $m->venue->city }}@endif
+                {{ ucfirst(\App\Support\FrenchDate::long($m->match_date, weekday: true)) }}@if($m->venue), {{ $m->venue->city }}@endif
             </p>
 
             {{-- Score --}}
@@ -337,7 +337,7 @@
                         <span class="mt-1 block font-semibold text-encre group-hover:underline">
                             {{ $other->home_team_name }} <span class="font-display tabular-nums">{{ $other->home_score }}–{{ $other->away_score }}</span> {{ $other->away_team_name }}
                         </span>
-                        <span class="block text-sm text-texte-2">{{ ucfirst($other->match_date->translatedFormat('j F Y')) }}</span>
+                        <span class="block text-sm text-texte-2">{{ \App\Support\FrenchDate::long($other->match_date) }}</span>
                     </a>
                 @else
                     <span class="hidden sm:block"></span>

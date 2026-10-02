@@ -137,7 +137,7 @@ matches ──┬── match_lineups (match_id)
 - id (PK), first_name (VARCHAR 80), last_name (VARCHAR 80),
   nickname (VARCHAR 100 NULL), slug (UNIQUE),
   birth_date (DATE NULL), birth_city (VARCHAR 100 NULL),
-  birth_country_id (FK countries NULL), death_date (DATE NULL),
+  birth_country_id (FK countries NULL), death_date (DATE NULL), death_city (VARCHAR 100 NULL),
   country_id (FK countries), height_cm (INT NULL), weight_kg (INT NULL),
   primary_position (ENUM PlayerPosition), photo_path (VARCHAR 255 NULL),
   is_active (BOOLEAN DEFAULT TRUE), cap_number (INT NULL)
