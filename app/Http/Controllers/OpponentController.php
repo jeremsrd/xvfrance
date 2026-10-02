@@ -11,10 +11,19 @@ class OpponentController extends Controller
     public function index()
     {
         $records = RecordSummary::groupedBy(RugbyMatch::query(), 'opponent_id');
+        $periods = RugbyMatch::toBase()
+            ->selectRaw('opponent_id, MIN(match_date) AS first_met, MAX(match_date) AS last_met')
+            ->groupBy('opponent_id')
+            ->get()
+            ->keyBy('opponent_id');
 
         $opponents = Country::whereIn('id', $records->keys())
             ->get()
-            ->each(fn ($country) => $country->record = $records[$country->id])
+            ->each(function ($country) use ($records, $periods) {
+                $country->record = $records[$country->id];
+                $country->first_met = \Illuminate\Support\Carbon::parse($periods[$country->id]->first_met);
+                $country->last_met = \Illuminate\Support\Carbon::parse($periods[$country->id]->last_met);
+            })
             ->sortByDesc(fn ($country) => $country->record->total)
             ->values();
 
