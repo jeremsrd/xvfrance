@@ -4,6 +4,7 @@ namespace App\Livewire;
 
 use App\Models\Competition;
 use App\Models\RugbyMatch;
+use App\Support\RecordSummary;
 use Livewire\Component;
 use Livewire\WithPagination;
 
@@ -19,6 +20,9 @@ class MatchList extends Component
     public string $sortField = 'match_date';
     public string $sortDirection = 'desc';
 
+    /** Tri proposé à l'utilisateur : recent, ancien, points */
+    public string $order = 'recent';
+
     // Pre-applied filter (for opponent page reuse)
     public ?int $opponentId = null;
 
@@ -28,7 +32,24 @@ class MatchList extends Component
         'result' => ['except' => ''],
         'decade' => ['except' => ''],
         'location' => ['except' => ''],
+        'order' => ['except' => 'recent'],
     ];
+
+    public function updatingOrder()
+    {
+        $this->resetPage();
+    }
+
+    public function resetFilters(): void
+    {
+        $this->reset(['search', 'competition', 'result', 'decade', 'location', 'order']);
+        $this->resetPage();
+    }
+
+    public function paginationView(): string
+    {
+        return 'partials.pagination';
+    }
 
     public function updatingSearch()
     {
@@ -108,10 +129,17 @@ class MatchList extends Component
             };
         }
 
-        $totalCount = $query->count();
+        $summary = RecordSummary::fromQuery($query);
+        $totalCount = $summary->total;
 
-        $matches = $query->orderBy($this->sortField, $this->sortDirection)
-            ->paginate(20);
+        [$field, $direction] = match ($this->order) {
+            'ancien' => ['match_date', 'asc'],
+            'points' => ['france_score', 'desc'],
+            default => ['match_date', 'desc'],
+        };
+
+        $matches = $query->orderBy($field, $direction)->orderBy('id', $direction)
+            ->paginate(25);
 
         $competitions = Competition::orderBy('name')->get();
 
@@ -119,6 +147,9 @@ class MatchList extends Component
             'matches' => $matches,
             'competitions' => $competitions,
             'totalCount' => $totalCount,
+            'summary' => $summary,
+            'allCount' => RugbyMatch::count(),
+            'filtered' => $this->search !== '' || $this->competition !== '' || $this->result !== '' || $this->decade !== '' || $this->location !== '',
         ])->layout('layouts.app', [
             'title' => 'Tous les matches du XV de France',
         ]);

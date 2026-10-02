@@ -439,7 +439,7 @@ class ImportMatchesFromCsv extends Command
 
         // Compétition mondiale lancée en 2026 (fenêtres de juillet et novembre)
         if (str_contains($lower, 'nations championship')) {
-            return 'Nations Championship';
+            return 'Championnat des Nations';
         }
 
         if (str_contains($lower, 'six nations') || str_contains($lower, 'five nations')

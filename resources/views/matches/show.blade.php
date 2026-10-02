@@ -41,10 +41,7 @@
 @section('meta_description', $resultLabel . ' ' . $m->france_score . '-' . $m->opponent_score . ' face à ' . $m->opponent->name . ' le ' . \App\Support\FrenchDate::long($m->match_date) . ($m->venue ? ' à ' . $m->venue->city : '') . ' : composition, marqueurs et chronologie du match.')
 
 @section('breadcrumb')
-    <span class="mx-2">/</span>
-    <a href="{{ route('matches.index') }}" class="hover:text-bleu-france">Matches</a>
-    <span class="mx-2">/</span>
-    <span class="text-gray-700">{{ $home['name'] }} – {{ $away['name'] }}, {{ $m->match_date->format('d/m/Y') }}</span>
+    <x-breadcrumb :items="['Matches' => route('matches.index'), $home['name'] . ' – ' . $away['name'] . ', ' . $m->match_date->format('d/m/Y') => null]" />
 @endsection
 
 @section('content')
@@ -52,11 +49,8 @@
 
     {{-- ═══ Tableau d'affichage ═══ --}}
     <header class="relative overflow-hidden bg-encre text-white">
-        <div class="pointer-events-none absolute inset-x-0 top-0 flex h-1" aria-hidden="true">
-            <span class="flex-1 bg-bleu-france"></span><span class="flex-1 bg-white"></span><span class="flex-1 bg-rouge-france"></span>
-        </div>
 
-        <div class="mx-auto max-w-6xl px-4 pb-10 pt-10 sm:px-6 lg:px-8 lg:pb-14 lg:pt-14">
+        <div class="mx-auto max-w-6xl px-4 pb-10 pt-6 sm:px-6 lg:px-8 lg:pb-14 lg:pt-8">
             {{-- Contexte --}}
             <div class="flex flex-wrap items-center justify-center gap-x-3 gap-y-1 text-center text-sm text-blue-200">
                 @if($competition)

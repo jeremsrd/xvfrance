@@ -29,7 +29,20 @@ class Country extends Model
     /**
      * Nom précédé de son article : « l'Angleterre », « le pays de Galles », « les Fidji ».
      */
-    public function withArticle(): string
+    public function withArticle(?string $preposition = null): string
+    {
+        $phrase = $this->articleAndName();
+
+        // Contractions : à le → au, à les → aux, de le → du, de les → des
+        return match (true) {
+            $preposition === null => $phrase,
+            str_starts_with($phrase, 'le ') => ($preposition === 'à' ? 'au ' : 'du ') . substr($phrase, 3),
+            str_starts_with($phrase, 'les ') => ($preposition === 'à' ? 'aux ' : 'des ') . substr($phrase, 4),
+            default => $preposition . ' ' . $phrase,
+        };
+    }
+
+    private function articleAndName(): string
     {
         $name = $this->name;
         if (array_key_exists($this->code, self::ARTICLES)) {

@@ -33,6 +33,7 @@
     --color-gagne: #1D7348;
     --color-perdu: #B3261E;
     --color-egal: #8A6100;
+    --color-nuit: #060D20;
 }
 
 /* Comportements par défaut de Tailwind v3, conservés après la migration en v4 */

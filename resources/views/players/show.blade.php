@@ -24,10 +24,7 @@
 @section('meta_description', $p->fullName() . ($p->primary_position ? ', ' . mb_strtolower($p->primary_position->label()) : '') . ($p->country ? ' (' . $p->country->name . ')' : '') . ' : ' . $totals['matches'] . ' matches recensés' . ($totals['tries'] ? ', ' . $totals['tries'] . ' essais' : '') . ($totals['points'] ? ', ' . $totals['points'] . ' points' : '') . '.')
 
 @section('breadcrumb')
-    <span class="mx-2">/</span>
-    <a href="{{ route('players.index') }}" class="hover:text-bleu-france">Joueurs</a>
-    <span class="mx-2">/</span>
-    <span class="text-gray-700">{{ $p->fullName() }}</span>
+    <x-breadcrumb :items="['Joueurs' => route('players.index'), $p->fullName() => null]" />
 @endsection
 
 @section('content')
@@ -35,15 +32,12 @@
 
     {{-- ═══ Bandeau ═══ --}}
     <header class="relative overflow-hidden bg-encre text-white">
-        <div class="pointer-events-none absolute inset-x-0 top-0 flex h-1" aria-hidden="true">
-            <span class="flex-1 bg-bleu-france"></span><span class="flex-1 bg-white"></span><span class="flex-1 bg-rouge-france"></span>
-        </div>
         {{-- Numéro géant en filigrane --}}
         @if($profile->favouriteJersey())
             <span class="pointer-events-none absolute -right-6 -top-10 select-none font-display text-[18rem] font-bold leading-none text-white/[0.04] sm:text-[24rem]" aria-hidden="true">{{ $profile->favouriteJersey() }}</span>
         @endif
 
-        <div class="relative mx-auto flex max-w-6xl flex-col gap-8 px-4 py-10 sm:flex-row sm:items-center sm:px-6 lg:px-8 lg:py-14">
+        <div class="relative mx-auto flex max-w-6xl flex-col gap-8 px-4 pb-10 pt-6 sm:flex-row sm:items-center sm:px-6 lg:px-8 lg:pb-14 lg:pt-8">
             <div class="shrink-0">
                 @if($p->photo_path)
                     <img src="{{ $p->photo_path }}" alt="Portrait de {{ $p->fullName() }}" class="h-40 w-40 rounded-2xl object-cover ring-1 ring-white/20">
