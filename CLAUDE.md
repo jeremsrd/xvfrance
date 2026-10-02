@@ -16,12 +16,18 @@ sélectionneurs et compétitions.
 
 | Couche | Technologie |
 |--------|-------------|
-| Backend | Laravel 13 (PHP 8.3) |
+| Backend | Laravel 12 (PHP 8.2) |
 | Front-end | Blade + Livewire 3 |
 | Micro-interactions | Alpine.js (livré avec Livewire) |
 | CSS | Tailwind CSS v4 via Vite (`resources/css/app.css`) |
 | Base de données | MySQL 8 |
 | Admin | Filament 4 (`/admin`) |
+
+**Pourquoi Laravel 12 / PHP 8.2 :** le compte O2switch héberge une quarantaine de sites en PHP 8.2
+(version par défaut du compte) et O2switch ne permet pas de donner à un seul domaine une autre version
+de PHP avec ses extensions. Le projet suit donc la version du compte (`config.platform.php` = 8.2.33
+dans composer.json). PHP 8.2 n'a plus de correctifs de sécurité après le 31/12/2026 : passer le
+compte en 8.3+ (avec vérification des autres sites) permettra de revenir à Laravel 13.
 
 **Node.js requis en local uniquement** pour compiler le CSS (`npm run build` → `public/build/`).
 Le thème (couleurs `bleu-france`, `rouge-france`…, polices `font-display` / `font-barlow`) est déclaré

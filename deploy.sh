@@ -114,6 +114,9 @@ npm run build
 # --- Préparation de l'archive ----------------------------------------------
 
 BUILD_DIR="$(mktemp -d)"
+# mktemp crée un dossier privé (700) et rsync -a recopie ces droits sur le dossier du site :
+# le serveur web ne pourrait plus y entrer (403)
+chmod 755 "$BUILD_DIR"
 
 git archive HEAD | tar -x -C "$BUILD_DIR"
 mkdir -p "$BUILD_DIR/public"
