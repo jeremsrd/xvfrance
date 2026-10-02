@@ -13,100 +13,87 @@ class PlayerList extends Component
     use WithPagination;
 
     public string $search = '';
+    /** bleus | adversaires | tous */
+    public string $team = 'bleus';
     public string $country = '';
     public string $position = '';
-    public string $status = '';
-    public string $sortField = 'last_name';
-    public string $sortDirection = 'asc';
+    /** nom | matches | selection */
+    public string $order = 'nom';
 
     protected $queryString = [
         'search' => ['except' => ''],
+        'team' => ['except' => 'bleus'],
         'country' => ['except' => ''],
         'position' => ['except' => ''],
-        'status' => ['except' => ''],
+        'order' => ['except' => 'nom'],
     ];
 
-    public function updatingSearch()
+    public function updating(string $property): void
     {
-        $this->resetPage();
-    }
-
-    public function updatingCountry()
-    {
-        $this->resetPage();
-    }
-
-    public function updatingPosition()
-    {
-        $this->resetPage();
-    }
-
-    public function updatingStatus()
-    {
-        $this->resetPage();
-    }
-
-    public function sort(string $field)
-    {
-        if ($this->sortField === $field) {
-            $this->sortDirection = $this->sortDirection === 'asc' ? 'desc' : 'asc';
-        } else {
-            $this->sortField = $field;
-            $this->sortDirection = $field === 'last_name' ? 'asc' : 'desc';
+        if (in_array($property, ['search', 'team', 'country', 'position', 'order'], true)) {
+            $this->resetPage();
         }
+    }
+
+    public function updatedTeam(): void
+    {
+        $this->country = '';
+    }
+
+    public function resetFilters(): void
+    {
+        $this->reset(['search', 'country', 'position', 'order']);
+        $this->resetPage();
+    }
+
+    public function paginationView(): string
+    {
+        return 'partials.pagination';
     }
 
     public function render()
     {
-        $query = Player::with('country')
-            ->withCount('lineups');
+        $franceId = Country::where('code', 'FRA')->value('id');
 
-        if ($this->search) {
+        $query = Player::with('country')->withCount('lineups');
+
+        match ($this->team) {
+            'adversaires' => $query->where('country_id', '!=', $franceId),
+            'tous' => null,
+            default => $query->where('country_id', $franceId),
+        };
+
+        if ($this->search !== '') {
             $search = $this->search;
-            $query->where(function ($q) use ($search) {
-                $q->where('first_name', 'like', "%{$search}%")
-                  ->orWhere('last_name', 'like', "%{$search}%");
-            });
+            $query->where(fn ($q) => $q->where('first_name', 'like', "%{$search}%")
+                ->orWhere('last_name', 'like', "%{$search}%")
+                ->orWhere('nickname', 'like', "%{$search}%"));
         }
 
-        if ($this->country) {
+        if ($this->country !== '' && $this->team !== 'bleus') {
             $query->where('country_id', $this->country);
         }
 
-        if ($this->position) {
+        if ($this->position !== '') {
             $query->where('primary_position', $this->position);
         }
 
-        if ($this->status === 'actif') {
-            $query->where('is_active', true);
-        } elseif ($this->status === 'retraite') {
-            $query->where('is_active', false);
-        }
-
-        $totalCount = $query->count();
-
-        $sortField = $this->sortField;
-        if ($sortField === 'selections') {
-            $query->orderBy('lineups_count', $this->sortDirection);
-        } else {
-            $query->orderBy($sortField, $this->sortDirection);
-        }
-
-        $players = $query->paginate(30);
-
-        $countries = Country::whereHas('players')
-            ->orderBy('name')
-            ->get();
-
-        $positions = PlayerPosition::cases();
+        match ($this->order) {
+            'matches' => $query->orderByDesc('lineups_count')->orderBy('last_name'),
+            // Joueurs sans numéro de sélection en fin de liste
+            'selection' => $query->orderByRaw('cap_number IS NULL')->orderBy('cap_number')->orderBy('last_name'),
+            default => $query->orderBy('last_name')->orderBy('first_name'),
+        };
 
         return view('livewire.player-list', [
-            'players' => $players,
-            'countries' => $countries,
-            'positions' => $positions,
-            'totalCount' => $totalCount,
-        ])->layout('layouts.app', [
-            'title' => 'Joueurs du XV de France',
-        ]);
+            'players' => $query->paginate(48),
+            'countries' => Country::where('id', '!=', $franceId)->whereHas('players')->orderBy('name')->get(),
+            'positions' => PlayerPosition::cases(),
+            'counts' => [
+                'bleus' => Player::where('country_id', $franceId)->count(),
+                'adversaires' => Player::where('country_id', '!=', $franceId)->count(),
+            ],
+            'filtered' => $this->search !== '' || $this->country !== '' || $this->position !== '' || $this->order !== 'nom',
+        ])->layout('layouts.app');
     }
 }
