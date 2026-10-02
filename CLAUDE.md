@@ -26,7 +26,7 @@ sélectionneurs et compétitions.
 **Node.js requis en local uniquement** pour compiler le CSS (`npm run build` → `public/build/`).
 Le thème (couleurs `bleu-france`, `rouge-france`…, polices `font-display` / `font-barlow`) est déclaré
 dans le bloc `@theme` de `resources/css/app.css`. Pas de JS applicatif : Alpine est fourni par Livewire.
-`public/build/` est ignoré par git : il faut lancer `npm run build` avant chaque déploiement.
+`public/build/` est ignoré par git : le script `./deploy.sh` compile le CSS et l'envoie au serveur (voir README).
 
 ---
 

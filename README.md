@@ -70,6 +70,25 @@ equipe-france.fr, et `geocode-venues` interroge OpenStreetMap (option `--delay` 
 Les lignes de précision « ville » du CSV des coordonnées sont à affiner à la main. Les commandes d'import et de
 nettoyage acceptent `--dry-run`.
 
+## Déploiement (O2switch)
+
+Le déploiement se lance depuis la machine locale, dont l'IP doit être autorisée en SSH
+(cPanel > Autorisation SSH). Le CSS est compilé localement : `public/build` reste hors de git.
+
+```bash
+cp .deploy.env.example .deploy.env   # une seule fois : accès SSH et dossier sur le serveur
+./deploy.sh --dry-run                # liste des fichiers qui seraient envoyés
+./deploy.sh                          # tests, build, envoi, composer, migrations, caches
+```
+
+Seul le contenu **commité** est déployé (le script refuse si des modifications sont en cours).
+Sur le serveur, `.env`, `vendor/`, `storage/` et `bootstrap/cache/` ne sont jamais écrasés.
+Si une étape échoue côté serveur, le site reste en maintenance : corriger, puis relancer.
+
+Premier déploiement : créer le `.env` de production sur le serveur (`APP_ENV=production`,
+`APP_DEBUG=false`, accès MySQL, `APP_KEY` via `php artisan key:generate`) et faire pointer la
+racine web du domaine sur le dossier `public/` de l'application.
+
 ## Documentation
 
 - `CLAUDE.md` — schéma BDD, conventions, routes
