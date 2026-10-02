@@ -82,7 +82,8 @@ open_ssh_access() {
     local list
     list="$(whitelist_api list)" || fail "API cPanel injoignable : vérifier CPANEL_HOST, CPANEL_USER et CPANEL_TOKEN."
 
-    if grep -qF "\"$ip\"" <<<"$list"; then
+    # data.ip est l'IP de l'appelant : seule data.list fait foi
+    if jq -e --arg ip "$ip" 'any(.data.list[]?; .address == $ip and .port == 22)' <<<"$list" >/dev/null; then
         # Déjà autorisée (ex: IP fixe ajoutée à la main) : on n'y touche pas
         echo "$ip est déjà autorisée."
         return
