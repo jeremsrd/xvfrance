@@ -1,81 +1,63 @@
 @extends('layouts.app')
 
-@section('title', 'Sélectionneurs — XV de France')
+@section('title', 'Les sélectionneurs du XV de France')
+
+@section('meta_description', 'Les sélectionneurs du XV de France et leur bilan à la tête de l\'équipe.')
 
 @section('breadcrumb')
-    <span class="text-gray-300 mx-1">/</span>
-    <span class="text-gray-700">Sélectionneurs</span>
+    <x-breadcrumb :items="['Sélectionneurs' => null]" />
 @endsection
 
+@php
+    use App\Support\FrenchDate;
+    $share = fn ($r, $n) => $r->total ? round($n / $r->total * 100, 2) : 0;
+@endphp
+
 @section('content')
-<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <x-page.hero kicker="Le banc" title="Les sélectionneurs"
+                 subtitle="Ceux qui ont composé le XV de France, et leur bilan à la tête de l'équipe." />
 
-    <div class="mb-8">
-        <h1 class="text-3xl font-bold text-gray-900">Sélectionneurs</h1>
-        <p class="mt-1 text-gray-500">Les hommes à la tête du XV de France</p>
-    </div>
-
-    @if($coaches->isEmpty())
-        <div class="bg-white rounded-lg shadow-xs border border-gray-200 p-12 text-center">
-            <div class="text-gray-400 text-5xl mb-4">🏈</div>
-            <h3 class="text-lg font-semibold text-gray-700 mb-2">Données à venir</h3>
-            <p class="text-gray-500">Les fiches des sélectionneurs sont en cours de saisie.</p>
-        </div>
-    @else
-        <div class="space-y-4">
-            @foreach($coaches as $coach)
-                <a href="{{ route('coaches.show', $coach) }}"
-                   class="block bg-white rounded-lg shadow-xs border border-gray-200 p-6 hover:shadow-md transition">
-                    <div class="flex flex-col md:flex-row md:items-center gap-4">
-                        {{-- Photo --}}
-                        <div class="shrink-0">
-                            @if($coach->photo_url)
-                                <img src="{{ $coach->photo_url }}" alt="{{ $coach->fullName() }}"
-                                     class="w-16 h-16 rounded-full object-cover">
-                            @else
-                                <div class="w-16 h-16 rounded-full bg-bleu-france flex items-center justify-center text-white font-bold text-lg">
-                                    {{ mb_substr($coach->first_name, 0, 1) }}{{ mb_substr($coach->last_name, 0, 1) }}
-                                </div>
-                            @endif
-                        </div>
-
-                        {{-- Infos --}}
-                        <div class="flex-1">
-                            <h2 class="text-xl font-bold text-gray-900">{{ $coach->fullName() }}</h2>
-                            <div class="text-sm text-gray-500 mt-1">
-                                @if($coach->tenure->end_date)
-                                    De {{ $coach->tenure->start_date->format('Y') }} à {{ $coach->tenure->end_date->format('Y') }}
-                                @else
-                                    Depuis {{ $coach->tenure->start_date->format('Y') }}
+    <section class="py-12 lg:py-16">
+        <div class="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+            @if($coaches->isEmpty())
+                <div class="rounded-2xl border border-dashed border-filet bg-white/60 p-8 text-center">
+                    <p class="font-display text-2xl font-bold uppercase text-encre">Frise en préparation</p>
+                    <p class="mx-auto mt-2 max-w-xl font-serif text-texte-2">
+                        Les sélectionneurs du XV de France et leurs périodes n'ont pas encore été saisis dans nos archives.
+                        Leur bilan sera calculé automatiquement à partir des matches.
+                    </p>
+                </div>
+            @else
+                <ol class="relative border-l-2 border-filet pl-8">
+                    @foreach($coaches as $coach)
+                        @php $r = $coach->record; $t = $coach->tenure; @endphp
+                        <li class="relative pb-8 last:pb-0">
+                            <span class="absolute -left-[2.6rem] top-1.5 h-4 w-4 rounded-full border-4 border-papier {{ $t->end_date ? 'bg-encre-3' : 'bg-bleu-france' }}" aria-hidden="true"></span>
+                            <a href="{{ route('coaches.show', $coach) }}" class="group block rounded-2xl border border-filet bg-white p-6 hover:border-encre/30 focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-bleu-france">
+                                <p class="font-display text-lg font-bold tabular-nums text-texte-2">
+                                    {{ $t->start_date->year }} – {{ $t->end_date ? $t->end_date->year : 'aujourd\'hui' }}
+                                    @unless($t->end_date)<span class="ml-2 rounded-full bg-bleu-france/10 px-2 py-0.5 align-middle text-xs font-semibold uppercase tracking-wide text-bleu-france">En poste</span>@endunless
+                                </p>
+                                <h2 class="mt-1 leading-tight">
+                                    <span class="font-serif text-lg italic text-texte-2">{{ $coach->first_name }}</span>
+                                    <span class="block font-display text-3xl font-bold uppercase text-encre group-hover:underline">{{ $coach->last_name }}</span>
+                                </h2>
+                                @if($r->total)
+                                    <div class="mt-4 flex flex-wrap items-center justify-between gap-2 text-sm tabular-nums">
+                                        <span>{{ $r->total }} matches · <b class="text-gagne">{{ $r->wins }}</b> V · <b class="text-egal">{{ $r->draws }}</b> N · <b class="text-perdu">{{ $r->losses }}</b> D</span>
+                                        <span class="font-display text-xl font-bold text-encre">{{ $r->winPctLabel(0) }}</span>
+                                    </div>
+                                    <div class="mt-2 flex h-1.5 overflow-hidden rounded-full bg-papier-2" aria-hidden="true">
+                                        <span class="bg-gagne" style="width: {{ $share($r, $r->wins) }}%"></span>
+                                        <span class="bg-egal" style="width: {{ $share($r, $r->draws) }}%"></span>
+                                        <span class="bg-perdu" style="width: {{ $share($r, $r->losses) }}%"></span>
+                                    </div>
                                 @endif
-                            </div>
-                        </div>
-
-                        {{-- Bilan --}}
-                        <div class="flex items-center gap-6 text-sm">
-                            <div class="text-center">
-                                <div class="text-2xl font-bold text-gray-900">{{ $coach->record->total }}</div>
-                                <div class="text-xs text-gray-500">Matches</div>
-                            </div>
-                            <div class="text-center">
-                                <div class="text-lg font-bold">
-                                    <span class="text-victoire">{{ $coach->record->wins }}V</span>
-                                    <span class="text-gray-400">-</span>
-                                    <span class="text-defaite">{{ $coach->record->losses }}D</span>
-                                    <span class="text-gray-400">-</span>
-                                    <span class="text-nul">{{ $coach->record->draws }}N</span>
-                                </div>
-                                <div class="text-xs text-gray-500">Bilan</div>
-                            </div>
-                            <div class="text-center">
-                                <div class="text-2xl font-bold {{ $coach->record->winPct >= 50 ? 'text-victoire' : 'text-gray-900' }}">{{ $coach->record->winPctLabel() }}</div>
-                                <div class="text-xs text-gray-500">Victoires</div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            @endforeach
+                            </a>
+                        </li>
+                    @endforeach
+                </ol>
+            @endif
         </div>
-    @endif
-</div>
+    </section>
 @endsection
