@@ -31,6 +31,7 @@
                     <a href="{{ route('opponents.index') }}" class="px-3 py-2 rounded-md text-sm font-medium hover:bg-bleu-france-light transition {{ request()->routeIs('opponents.*') ? 'bg-bleu-france-light' : '' }}">Adversaires</a>
                     <a href="{{ route('competitions.index') }}" class="px-3 py-2 rounded-md text-sm font-medium hover:bg-bleu-france-light transition {{ request()->routeIs('competitions.*') || request()->routeIs('editions.*') ? 'bg-bleu-france-light' : '' }}">Compétitions</a>
                     <a href="{{ route('coaches.index') }}" class="px-3 py-2 rounded-md text-sm font-medium hover:bg-bleu-france-light transition {{ request()->routeIs('coaches.*') ? 'bg-bleu-france-light' : '' }}">Sélectionneurs</a>
+                    <a href="{{ route('venues.index') }}" class="px-3 py-2 rounded-md text-sm font-medium hover:bg-bleu-france-light transition {{ request()->routeIs('venues.*') ? 'bg-bleu-france-light' : '' }}">Stades</a>
                     <a href="{{ route('records.index') }}" class="px-3 py-2 rounded-md text-sm font-medium hover:bg-bleu-france-light transition {{ request()->routeIs('records.*') ? 'bg-bleu-france-light' : '' }}">Records</a>
                 </nav>
 
@@ -53,6 +54,7 @@
                 <a href="{{ route('opponents.index') }}" class="block px-3 py-2 rounded-md text-sm font-medium hover:bg-bleu-france-light">Adversaires</a>
                 <a href="{{ route('competitions.index') }}" class="block px-3 py-2 rounded-md text-sm font-medium hover:bg-bleu-france-light">Compétitions</a>
                 <a href="{{ route('coaches.index') }}" class="block px-3 py-2 rounded-md text-sm font-medium hover:bg-bleu-france-light">Sélectionneurs</a>
+                <a href="{{ route('venues.index') }}" class="block px-3 py-2 rounded-md text-sm font-medium hover:bg-bleu-france-light">Stades</a>
                 <a href="{{ route('records.index') }}" class="block px-3 py-2 rounded-md text-sm font-medium hover:bg-bleu-france-light">Records</a>
             </div>
         </div>
@@ -90,6 +92,7 @@
                         <li><a href="{{ route('opponents.index') }}" class="hover:text-white transition">Adversaires</a></li>
                         <li><a href="{{ route('competitions.index') }}" class="hover:text-white transition">Compétitions</a></li>
                         <li><a href="{{ route('coaches.index') }}" class="hover:text-white transition">Sélectionneurs</a></li>
+                        <li><a href="{{ route('venues.index') }}" class="hover:text-white transition">Stades</a></li>
                         <li><a href="{{ route('records.index') }}" class="hover:text-white transition">Records</a></li>
                     </ul>
                 </div>

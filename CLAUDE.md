@@ -317,7 +317,7 @@ GET /competitions/{competition}         -- Éditions d'une compétition
 GET /competitions/editions/{competitionEdition} -- Détail d'une édition
 GET /selectionneurs                     -- Liste des sélectionneurs
 GET /selectionneurs/{coach}             -- Fiche sélectionneur + bilan
-GET /stades                             -- Carte interactive (Leaflet.js) — à faire
+GET /stades                             -- Carte interactive (Leaflet.js) + bilan par stade
 GET /records                            -- Records et statistiques (RecordsService)
 ```
 

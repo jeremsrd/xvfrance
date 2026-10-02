@@ -27,6 +27,7 @@ php artisan serve
 ```
 database/data/
 ├── sources/results.csv     # Résultats 1950 → 2025 (source de xv:import-csv)
+├── sources/venue_coordinates.csv  # Coordonnées des stades (précision « stade » ou « ville »)
 └── matches/{année}/*.json  # Feuilles de match détaillées (compos, events, remplacements)
 ```
 
@@ -42,6 +43,8 @@ Toutes les commandes du projet sont préfixées `xv:` (`php artisan list xv`).
 | `xv:import-historical` | Importe les matches 1906-1949 depuis equipe-france.fr |
 | `xv:clean-feminine` | Supprime les matches féminins importés par erreur |
 | `xv:fix-venues` | Corrige les stades mal attribués |
+| `xv:geocode-venues` | Complète le CSV des coordonnées via OpenStreetMap (ne touche pas la base) |
+| `xv:import-venue-coordinates` | Applique le CSV des coordonnées aux stades |
 | `xv:seed-1906` | Feuille de match complète du premier match (1906) |
 | `xv:generate-slugs` | Génère les slugs manquants (matches, joueurs) |
 | `xv:validate-match-data {path}` | Valide des JSON de feuilles de match |
@@ -56,13 +59,15 @@ php artisan xv:import-csv database/data/sources/results.csv
 php artisan xv:import-historical
 php artisan xv:clean-feminine
 php artisan xv:fix-venues
+php artisan xv:import-venue-coordinates
 php artisan xv:seed-1906
 php artisan xv:generate-slugs
 php artisan xv:import-match-data database/data/matches
 ```
 
 Les commandes `import-historical`, `clean-feminine` et `fix-venues` interrogent
-equipe-france.fr (option `--delay` entre les requêtes). Les commandes d'import et de
+equipe-france.fr, et `geocode-venues` interroge OpenStreetMap (option `--delay` entre les requêtes).
+Les lignes de précision « ville » du CSV des coordonnées sont à affiner à la main. Les commandes d'import et de
 nettoyage acceptent `--dry-run`.
 
 ## Documentation
