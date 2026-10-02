@@ -7,7 +7,7 @@
     <meta name="description" content="@yield('meta_description', 'Site de référence francophone sur l\'histoire du XV de France de rugby depuis 1906. Tous les matches, compositions, marqueurs et statistiques.')">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
     @vite('resources/css/app.css')
     @stack('head')
     @livewireStyles

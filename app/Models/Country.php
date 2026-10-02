@@ -19,6 +19,35 @@ class Country extends Model
         'continent' => Continent::class,
     ];
 
+    /** Article propre aux noms de pays qui ne suivent pas la règle (pluriels, masculins) */
+    private const ARTICLES = [
+        'WAL' => 'le ', 'JPN' => 'le ', 'CAN' => 'le ', 'PAK' => 'le ', 'PRT' => 'le ', 'POR' => 'le ', 'CHL' => 'le ', 'CHI' => 'le ',
+        'ZIM' => 'le ', 'MAR' => 'le ', 'BRA' => 'le ', 'KEN' => 'le ', 'PAR' => 'le ', 'URU' => 'l\'', 'HKG' => '', 'MON' => '',
+        'FIJ' => 'les ', 'BIL' => 'les ', 'NZM' => 'les ', 'PAC' => 'les ', 'SAM' => 'les ', 'TGA' => 'les ', 'USA' => 'les ', 'NED' => 'les ', 'PHI' => 'les ',
+    ];
+
+    /**
+     * Nom précédé de son article : « l'Angleterre », « le pays de Galles », « les Fidji ».
+     */
+    public function withArticle(): string
+    {
+        $name = $this->name;
+        if (array_key_exists($this->code, self::ARTICLES)) {
+            $article = self::ARTICLES[$this->code];
+        } elseif (preg_match('/^[AEIOUYÉÈÊÂÎÔ]/iu', $name)) {
+            $article = 'l\'';
+        } else {
+            $article = 'la ';
+        }
+
+        // « Pays de Galles » s'écrit avec une minuscule après l'article
+        if ($this->code === 'WAL') {
+            $name = mb_strtolower(mb_substr($name, 0, 1)) . mb_substr($name, 1);
+        }
+
+        return $article . $name;
+    }
+
     public function venues(): HasMany
     {
         return $this->hasMany(Venue::class);

@@ -18,6 +18,21 @@
     --color-defaite: #DC3545;
     --color-nul: #FFC107;
     --color-or: #D4AF37;
+
+    /* Identité « Almanach du XV » */
+    --font-serif: 'Source Serif 4', ui-serif, Georgia, serif;
+    --color-encre: #0B1A3B;
+    --color-encre-2: #16264A;
+    --color-encre-3: #2A3B63;
+    --color-papier: #F7F5F0;
+    --color-papier-2: #EFEBE2;
+    --color-filet: #DED8CB;
+    --color-texte: #1A1F2B;
+    --color-texte-2: #5B6170;
+    --color-or-2: #9A7A22;
+    --color-gagne: #1D7348;
+    --color-perdu: #B3261E;
+    --color-egal: #8A6100;
 }
 
 /* Comportements par défaut de Tailwind v3, conservés après la migration en v4 */
