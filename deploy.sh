@@ -41,6 +41,7 @@ source .deploy.env
 : "${CPANEL_TOKEN:?CPANEL_TOKEN manquant dans .deploy.env}"
 DEPLOY_PHP="${DEPLOY_PHP:-php}"
 DEPLOY_COMPOSER="${DEPLOY_COMPOSER:-composer}"
+DEPLOY_PHP_HANDLER="${DEPLOY_PHP_HANDLER:-}"
 
 SSH_OPTS=(-o AddressFamily=inet -o StrictHostKeyChecking=accept-new -o ConnectTimeout=20)
 
@@ -116,6 +117,12 @@ BUILD_DIR="$(mktemp -d)"
 git archive HEAD | tar -x -C "$BUILD_DIR"
 mkdir -p "$BUILD_DIR/public"
 cp -R public/build "$BUILD_DIR/public/build"
+
+# Version de PHP du site, propre à ce domaine (directive .htaccess de l'hébergeur)
+if [[ -n "$DEPLOY_PHP_HANDLER" ]]; then
+    { echo "AddHandler $DEPLOY_PHP_HANDLER .php"; echo; cat "$BUILD_DIR/public/.htaccess"; } > "$BUILD_DIR/public/.htaccess.tmp"
+    mv "$BUILD_DIR/public/.htaccess.tmp" "$BUILD_DIR/public/.htaccess"
+fi
 
 # Fichiers inutiles en production
 rm -rf "$BUILD_DIR/tests" "$BUILD_DIR/.github" "$BUILD_DIR/phpunit.xml" \
