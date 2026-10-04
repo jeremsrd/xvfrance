@@ -79,7 +79,7 @@ class MatchDataValidator
     }
 
     /**
-     * Champs de match optionnels : arbitre, affluence, coup d'envoi (heure locale), météo.
+     * Champs de match optionnels : arbitre, affluence, coup d'envoi (heure locale), météo, résumé vidéo.
      */
     private function validateMatchInfo(array $data): void
     {
@@ -100,6 +100,17 @@ class MatchDataValidator
         if (isset($data['kickoff_time'])
             && (!is_string($data['kickoff_time']) || !preg_match('/^([01]\d|2[0-3]):[0-5]\d$/', $data['kickoff_time']))) {
             $this->errors[] = "kickoff_time invalide (format attendu : HH:MM, heure locale)";
+        }
+
+        foreach (['video_url', 'video_embed_url'] as $field) {
+            if (isset($data[$field])
+                && (!is_string($data[$field]) || !preg_match('~^https://[^\s/]+\.[a-z]{2,}/\S*$~i', $data[$field]) || strlen($data[$field]) > 255)) {
+                $this->errors[] = "{$field} doit être un lien https de 255 caractères au plus";
+            }
+        }
+
+        if (isset($data['video_embed_url']) && !isset($data['video_url'])) {
+            $this->errors[] = 'video_embed_url sans video_url';
         }
 
         if (isset($data['referee_country_code'])) {

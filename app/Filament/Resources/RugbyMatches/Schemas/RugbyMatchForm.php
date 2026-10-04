@@ -81,6 +81,16 @@ class RugbyMatchForm
                             ->preload(),
                         TextInput::make('weather')
                             ->label('Météo'),
+                        TextInput::make('video_url')
+                            ->label('Résumé vidéo')
+                            ->helperText('Lien YouTube (lu dans la page) ou page du diffuseur (TF1+, France TV…)')
+                            ->url()
+                            ->maxLength(255),
+                        TextInput::make('video_embed_url')
+                            ->label('Lecteur intégrable (hors YouTube)')
+                            ->helperText('TF1+ : valeur « embedUrl » de la page vidéo, https://www.tf1.fr/player/…')
+                            ->url()
+                            ->maxLength(255),
                         Textarea::make('notes')
                             ->label('Notes')
                             ->columnSpanFull(),

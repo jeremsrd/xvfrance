@@ -19,7 +19,7 @@ class RugbyMatch extends Model
         'match_date', 'kickoff_time', 'venue_id', 'opponent_id', 'edition_id',
         'france_score', 'opponent_score', 'is_home', 'is_neutral', 'stage',
         'match_number', 'attendance', 'referee', 'referee_country_id',
-        'weather', 'notes', 'slug',
+        'weather', 'video_url', 'video_embed_url', 'notes', 'slug',
     ];
 
     public function getRouteKeyName(): string
@@ -123,6 +123,60 @@ class RugbyMatch extends Model
     }
 
     // --- Affichage domicile/extérieur ---
+
+    /**
+     * Identifiant YouTube d'une URL (watch?v=, youtu.be/, embed/, shorts/, live/), ou null.
+     */
+    public static function youtubeId(?string $url): ?string
+    {
+        if (!$url) {
+            return null;
+        }
+
+        $pattern = '~^https?://(?:www\.|m\.)?(?:youtube\.com/(?:watch\?(?:.*&)?v=|embed/|shorts/|live/)|youtu\.be/)([A-Za-z0-9_-]{11})(?:[?&#].*)?$~';
+
+        return preg_match($pattern, $url, $m) ? $m[1] : null;
+    }
+
+    public function getVideoIdAttribute(): ?string
+    {
+        return self::youtubeId($this->video_url);
+    }
+
+    /**
+     * Adresse du lecteur à intégrer dans la page : déduite pour YouTube, saisie pour les autres diffuseurs.
+     */
+    public function getVideoPlayerUrlAttribute(): ?string
+    {
+        if ($this->video_id) {
+            return "https://www.youtube-nocookie.com/embed/{$this->video_id}?autoplay=1&rel=0";
+        }
+
+        return $this->video_embed_url;
+    }
+
+    /**
+     * Nom du site qui héberge le résumé vidéo (TF1+, France TV…), affiché quand la vidéo
+     * ne peut pas être lue dans la page.
+     */
+    public function getVideoSourceAttribute(): ?string
+    {
+        $host = $this->video_url ? parse_url($this->video_url, PHP_URL_HOST) : null;
+        if (!$host) {
+            return null;
+        }
+        $host = preg_replace('/^(www|m)\./', '', strtolower($host));
+
+        $names = [
+            'youtube.com' => 'YouTube', 'youtu.be' => 'YouTube',
+            'tf1.fr' => 'TF1+', 'tf1info.fr' => 'TF1 Info',
+            'france.tv' => 'France TV', 'francetvinfo.fr' => 'France TV',
+            'dailymotion.com' => 'Dailymotion', 'lequipe.fr' => "L'Équipe",
+            'canalplus.com' => 'Canal+', 'ffr.fr' => 'FFR',
+        ];
+
+        return $names[$host] ?? $host;
+    }
 
     public function getHomeScoreAttribute(): int
     {

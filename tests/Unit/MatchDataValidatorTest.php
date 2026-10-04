@@ -85,6 +85,7 @@ class MatchDataValidatorTest extends TestCase
             'attendance' => 29152,
             'kickoff_time' => '19:05',
             'weather' => 'Pluie',
+            'video_url' => 'https://www.youtube.com/watch?v=fBxLPuhXs7s',
         ] + $this->validData();
 
         $this->assertTrue($this->validator->validate($data), implode("\n", $this->validator->errors()));
@@ -97,6 +98,7 @@ class MatchDataValidatorTest extends TestCase
             'attendance' => '29 152',
             'kickoff_time' => '7pm',
             'weather' => '',
+            'video_url' => 'www.tf1.fr/video',
         ] + $this->validData();
 
         $this->assertFalse($this->validator->validate($data));
@@ -106,6 +108,7 @@ class MatchDataValidatorTest extends TestCase
             'kickoff_time invalide (format attendu : HH:MM, heure locale)',
             'referee_country_code sans referee',
             'referee_country_code inconnu en base : "XXX"',
+            'video_url doit être un lien https de 255 caractères au plus',
         ], $this->validator->errors());
     }
 

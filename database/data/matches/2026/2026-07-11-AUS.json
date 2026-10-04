@@ -7,6 +7,8 @@
   "referee_country_code": "ENG",
   "attendance": 52121,
   "kickoff_time": "17:40",
+  "video_url": "https://www.tf1.fr/tf1/nations-championship/videos/australie-france-voir-le-resume-de-10-minutes-54462699.html",
+  "video_embed_url": "https://www.tf1.fr/player/1aac044f-d0b3-4296-b97b-04f828daed7e",
   "lineups": {
     "france": [
       {"jersey": 1, "first_name": "Moses", "last_name": "Alo-Emile", "is_starter": true, "position": "pilier_gauche", "is_captain": false},

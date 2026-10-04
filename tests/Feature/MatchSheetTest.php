@@ -184,4 +184,52 @@ class MatchSheetTest extends TestCase
         $this->event(EventType::CARTON_ROUGE, 30, TeamSide::FRANCE, $other);
         $this->assertSame(30, $minutes()[2]);
     }
+
+    public function test_other_video_sources_get_a_link_card(): void
+    {
+        $this->match->update(['video_url' => 'https://www.tf1.fr/tf1/nations-championship/videos/australie-france-voir-le-resume-de-10-minutes-54462699.html']);
+
+        $this->get(route('matches.show', $this->match))
+            ->assertOk()
+            ->assertSee('Résumé vidéo')
+            ->assertSee('Voir le résumé sur TF1+')
+            ->assertDontSee('youtube-nocookie.com', false);
+    }
+
+    public function test_broadcaster_player_is_embedded_when_given(): void
+    {
+        $this->match->update([
+            'video_url' => 'https://www.tf1.fr/tf1/nations-championship/videos/australie-france-voir-le-resume-de-10-minutes-54462699.html',
+            'video_embed_url' => 'https://www.tf1.fr/player/1aac044f-d0b3-4296-b97b-04f828daed7e',
+        ]);
+
+        $this->get(route('matches.show', $this->match))
+            ->assertOk()
+            ->assertSee('src="https://www.tf1.fr/player/1aac044f-d0b3-4296-b97b-04f828daed7e"', false)
+            ->assertSee('Voir sur TF1+')
+            ->assertDontSee('Voir le résumé sur TF1+');
+    }
+
+    public function test_youtube_video_summary_is_embedded(): void
+    {
+        $this->get(route('matches.show', $this->match))->assertOk()->assertDontSee('Résumé vidéo');
+
+        $this->match->update(['video_url' => 'https://youtu.be/fBxLPuhXs7s?t=5']);
+
+        $this->get(route('matches.show', $this->match))
+            ->assertOk()
+            ->assertSee('Résumé vidéo')
+            ->assertSee('https://www.youtube-nocookie.com/embed/fBxLPuhXs7s', false)
+            ->assertSee('href="https://youtu.be/fBxLPuhXs7s?t=5"', false);
+    }
+
+    public function test_youtube_id_extraction(): void
+    {
+        $this->assertSame('fBxLPuhXs7s', RugbyMatch::youtubeId('https://www.youtube.com/watch?v=fBxLPuhXs7s'));
+        $this->assertSame('fBxLPuhXs7s', RugbyMatch::youtubeId('https://m.youtube.com/watch?si=abc&v=fBxLPuhXs7s&t=3'));
+        $this->assertSame('fBxLPuhXs7s', RugbyMatch::youtubeId('https://www.youtube.com/shorts/fBxLPuhXs7s'));
+        $this->assertNull(RugbyMatch::youtubeId('https://vimeo.com/123456'));
+        $this->assertNull(RugbyMatch::youtubeId('https://www.youtube.com/watch?v=trop-court'));
+        $this->assertNull(RugbyMatch::youtubeId(null));
+    }
 }

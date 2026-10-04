@@ -7,6 +7,8 @@
   "referee_country_code": "ENG",
   "attendance": 29152,
   "kickoff_time": "19:10",
+  "video_url": "https://www.tf1.fr/tf1/nations-championship/videos/nouvelle-zelande-france-voir-le-resume-en-10-minutes-76540791.html",
+  "video_embed_url": "https://www.tf1.fr/player/ee26af6f-92eb-458f-b858-b30e90d06afd",
   "lineups": {
     "france": [
       {"jersey": 1, "first_name": "Jefferson", "last_name": "Poirot", "is_starter": true, "position": "pilier_gauche", "is_captain": false},

@@ -97,6 +97,7 @@ Placés au premier niveau, après les scores :
   "attendance": 29152,
   "kickoff_time": "19:05",
   "weather": "Pluie, vent fort",
+  "video_url": "https://www.youtube.com/watch?v=fBxLPuhXs7s",
   "lineups": { ... }
 }
 ```
@@ -108,6 +109,11 @@ Placés au premier niveau, après les scores :
 | `attendance` | entier > 0 | `matches.attendance` |
 | `kickoff_time` | `HH:MM`, heure locale du stade | `matches.kickoff_time` |
 | `weather` | texte, 100 caractères max | `matches.weather` |
+| `video_url` | lien `https` de la page du résumé (YouTube, TF1+, France TV…) | `matches.video_url` |
+| `video_embed_url` | lecteur intégrable d'un diffuseur autre que YouTube (TF1+ : valeur `embedUrl` de la page, `https://www.tf1.fr/player/…`) ; exige `video_url` | `matches.video_embed_url` |
+
+Résumé vidéo : YouTube est lu dans la page (lecteur déduit du lien) ; un autre diffuseur aussi s'il a un
+`video_embed_url`, sinon une carte « Voir le résumé sur … » ouvre son site. Le lecteur ne se charge qu'au clic.
 
 Un champ **absent** ne modifie pas la base (les valeurs venues du CSV ou de l'admin sont conservées).
 Un champ présent à `null` efface la valeur.

@@ -253,14 +253,14 @@ class MatchImportService
     }
 
     /**
-     * Arbitre, affluence, coup d'envoi, météo : seuls les champs présents dans le JSON
+     * Arbitre, affluence, coup d'envoi, météo, résumé vidéo : seuls les champs présents dans le JSON
      * sont écrits, pour ne pas effacer ce qui vient d'une autre source (CSV, saisie admin).
      */
     private function importMatchInfo(RugbyMatch $match, array $data): void
     {
         $info = [];
 
-        foreach (['referee', 'attendance', 'weather'] as $field) {
+        foreach (['referee', 'attendance', 'weather', 'video_url', 'video_embed_url'] as $field) {
             if (array_key_exists($field, $data)) {
                 $info[$field] = $data[$field];
             }

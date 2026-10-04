@@ -3,6 +3,7 @@
   "opponent_code": "ITA",
   "france_score": 33,
   "opponent_score": 8,
+  "video_url": "https://www.youtube.com/watch?v=AYTNcnbdREw",
   "lineups": {
     "france": [
       {"jersey": 1, "first_name": "Jean-Baptiste", "last_name": "Gros", "is_starter": true, "position": "pilier_gauche", "is_captain": false},

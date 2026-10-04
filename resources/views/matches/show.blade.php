@@ -29,6 +29,7 @@
         'Météo' => $m->weather,
     ]);
     $sections = array_filter([
+        'video' => $m->video_url ? 'Résumé vidéo' : null,
         'compositions' => $sheet->hasLineups() ? 'Compositions' : null,
         'chronologie' => count($timeline) ? 'Chronologie' : null,
         'face-a-face' => 'Face-à-face',
@@ -148,6 +149,60 @@
                 @endforeach
             </div>
         </nav>
+    @endif
+
+    {{-- ═══ Résumé vidéo : le lecteur (YouTube, TF1+…) et ses cookies ne se chargent qu'au clic ;
+         sans lecteur intégrable, une carte ouvre la vidéo chez le diffuseur ═══ --}}
+    @if($m->video_url)
+        <section id="video" class="scroll-mt-16 pt-12 lg:pt-16" x-data="{ playing: false }">
+            <div class="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+                <h2 class="font-display text-3xl font-bold uppercase tracking-tight text-encre">Résumé vidéo</h2>
+                @php
+                    $videoTitle = $home['name'] . ' ' . $home['score'] . '–' . $away['score'] . ' ' . $away['name'];
+                    $playIcon = '<svg class="ml-1 h-7 w-7 sm:h-8 sm:w-8" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.6-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5Z"/></svg>';
+                @endphp
+                @if($m->video_player_url)
+                    <div class="relative mt-6 aspect-video overflow-hidden rounded-2xl bg-encre shadow-sm ring-1 ring-filet">
+                        <template x-if="playing">
+                            <iframe class="absolute inset-0 h-full w-full" src="{{ $m->video_player_url }}"
+                                    title="Résumé vidéo : {{ $videoTitle }}"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </template>
+                        <button type="button" x-show="!playing" @click="playing = true"
+                                class="group absolute inset-0 flex h-full w-full flex-col items-center justify-center gap-4 {{ $focus }} focus-visible:ring-bleu-france">
+                            @if($m->video_id)
+                                <img src="https://i.ytimg.com/vi/{{ $m->video_id }}/hqdefault.jpg" alt="" loading="lazy" decoding="async"
+                                     class="absolute inset-0 h-full w-full object-cover opacity-80 motion-safe:transition-opacity group-hover:opacity-95">
+                                <span class="absolute inset-0 bg-linear-to-t from-encre/70 via-encre/10 to-transparent" aria-hidden="true"></span>
+                            @endif
+                            <span class="relative flex h-16 w-16 items-center justify-center rounded-full bg-rouge-france text-white shadow-lg motion-safe:transition-transform group-hover:scale-110 sm:h-20 sm:w-20">{!! $playIcon !!}</span>
+                            @unless($m->video_id)
+                                <span class="relative px-4 text-center font-display text-xl font-bold uppercase text-white sm:text-3xl">{{ $videoTitle }}</span>
+                            @endunless
+                            <span class="sr-only">Lire le résumé vidéo</span>
+                        </button>
+                    </div>
+                    <p class="mt-3 flex flex-wrap items-center justify-between gap-x-4 gap-y-1 text-sm text-texte-2">
+                        <span>Vidéo hébergée par {{ $m->video_source }}, chargée seulement au lancement de la lecture.</span>
+                        <a href="{{ $m->video_url }}" target="_blank" rel="noopener" class="inline-flex items-center gap-1 font-semibold text-bleu-france hover:underline {{ $focus }} focus-visible:ring-bleu-france">
+                            Voir sur {{ $m->video_source }} <span aria-hidden="true">↗</span>
+                        </a>
+                    </p>
+                @else
+                    <a href="{{ $m->video_url }}" target="_blank" rel="noopener"
+                       class="group mt-6 flex items-center gap-5 overflow-hidden rounded-2xl bg-encre p-5 text-white shadow-sm hover:bg-encre-2 sm:p-6 {{ $focus }} focus-visible:ring-bleu-france">
+                        <span class="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-rouge-france shadow-lg motion-safe:transition-transform group-hover:scale-110 sm:h-16 sm:w-16">{!! $playIcon !!}</span>
+                        <span class="min-w-0">
+                            <span class="block font-display text-xl font-bold uppercase leading-tight sm:text-2xl">{{ $videoTitle }}</span>
+                            <span class="mt-1 inline-flex items-center gap-1 text-sm font-semibold text-blue-200 group-hover:underline">
+                                Voir le résumé sur {{ $m->video_source }} <span aria-hidden="true">↗</span>
+                            </span>
+                        </span>
+                    </a>
+                @endif
+            </div>
+        </section>
     @endif
 
     {{-- ═══ Feuille non saisie ═══ --}}

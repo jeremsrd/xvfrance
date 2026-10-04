@@ -61,6 +61,14 @@ C'est le poste le plus coûteux : viser 2 sources concordantes, pas plus.
   sortie compacte : numéro, prénom, nom, capitaine, puis remplacements « sortant → entrant, minute ».
 - Récupérer : 23 + 23 joueurs, capitaines, remplacements avec minutes, et les cartons ou champs
   de match (arbitre, affluence, heure) que l'encadré Wikipédia ne donne pas.
+- **Résumé vidéo** (`video_url`) : de préférence YouTube, lu dans la page. Chaîne officielle d'abord :
+  « France Rugby » (FFR) publie les résumés des matches de la France. WebSearch limité à `youtube.com`,
+  puis vérifier la chaîne sans ouvrir la page :
+  `curl -s "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=<id>&format=json"`
+  (une vidéo non intégrable ou introuvable n'y répond pas). À défaut, la page du résumé chez le diffuseur
+  (TF1+, France TV) : vérifier par son `<title>` qu'il s'agit bien du résumé de ce match et pas d'une liste,
+  et récupérer son lecteur intégrable pour `video_embed_url` :
+  `curl -sL "<url>" -A "Mozilla/5.0" | grep -o '<title>[^<]*</title>\|"embedUrl":"[^"]*"'`
 - Orthographe des noms : reprendre celle des joueurs **déjà en base** pour éviter les doublons :
 
 ```bash
@@ -73,7 +81,7 @@ sqlite3 database/database.sqlite "select first_name, last_name from players p jo
 Ordre des clés (comme les feuilles existantes, une ligne par joueur) :
 `match_date`, `opponent_code`, `france_score`, `opponent_score`, puis (nouveau match) `venue`,
 `venue_city`, `venue_country_code`, `competition`, `stage`, puis les champs de match connus
-(`referee`, `referee_country_code`, `attendance`, `kickoff_time`, `weather`), puis `lineups`
+(`referee`, `referee_country_code`, `attendance`, `kickoff_time`, `weather`, `video_url`, `video_embed_url`), puis `lineups`
 (`france`, `adversaire`), `events`, `substitutions`.
 
 - Postes : déduits du numéro (1 pilier gauche … 15 arrière) ; remplaçants : poste réel du joueur.

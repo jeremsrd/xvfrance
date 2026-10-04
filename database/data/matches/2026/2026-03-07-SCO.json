@@ -3,6 +3,7 @@
   "opponent_code": "SCO",
   "france_score": 40,
   "opponent_score": 50,
+  "video_url": "https://www.youtube.com/watch?v=B1IyAMvalTs",
   "lineups": {
     "france": [
       {"jersey": 1, "first_name": "Jean-Baptiste", "last_name": "Gros", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
