@@ -34,7 +34,7 @@ class MatchImportService
         $this->validator = $validator;
     }
 
-    public function importFile(string $path, bool $dryRun, bool $force, bool $skipExisting): void
+    public function importFile(string $path, bool $dryRun, bool $force, bool $skipExisting, bool $changedOnly = false): void
     {
         $content = file_get_contents($path);
         $data = json_decode($content, true);
@@ -55,11 +55,14 @@ class MatchImportService
         }
 
         foreach ($matches as $matchData) {
-            $this->importSingleMatch($matchData, $dryRun, $force, $skipExisting);
+            $this->importSingleMatch($matchData, $dryRun, $force, $skipExisting, $changedOnly);
         }
     }
 
-    public function importSingleMatch(array $data, bool $dryRun, bool $force, bool $skipExisting): void
+    /**
+     * @param  bool  $changedOnly  réimporte le match seulement si son JSON a changé depuis le dernier import
+     */
+    public function importSingleMatch(array $data, bool $dryRun, bool $force, bool $skipExisting, bool $changedOnly = false): void
     {
         $this->matchesProcessed++;
         $label = ($data['match_date'] ?? '?') . ' vs ' . ($data['opponent_code'] ?? '?');
@@ -111,6 +114,18 @@ class MatchImportService
         $hasSubs = $match->substitutions()->count() > 0;
         $hasExisting = $hasLineups || $hasEvents || $hasSubs;
 
+        // Empreinte indépendante de la mise en forme du fichier
+        $checksum = hash('sha256', json_encode($data));
+
+        if ($changedOnly) {
+            if ($hasExisting && $match->source_checksum === $checksum) {
+                $this->info("Feuille de match inchangée — skippée (--changed)");
+                $this->matchesSkipped++;
+                return;
+            }
+            $force = true;
+        }
+
         if ($hasExisting && $skipExisting) {
             $this->info("Match déjà rempli — skippé (--skip-existing)");
             $this->matchesSkipped++;
@@ -129,7 +144,7 @@ class MatchImportService
             return;
         }
 
-        DB::transaction(function () use ($match, $data, $country, $force, $hasLineups, $hasEvents, $hasSubs) {
+        DB::transaction(function () use ($match, $data, $country, $force, $hasLineups, $hasEvents, $hasSubs, $checksum) {
             // Suppression des données existantes si --force
             if ($force) {
                 if ($hasLineups) {
@@ -156,6 +171,8 @@ class MatchImportService
 
             // Étape 6 — Substitutions
             $this->importSubstitutions($match, $data['substitutions'] ?? [], $france, $country);
+
+            $match->forceFill(['source_checksum' => $checksum])->saveQuietly();
         });
 
         // Collect player resolver logs

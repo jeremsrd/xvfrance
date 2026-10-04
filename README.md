@@ -47,8 +47,8 @@ Toutes les commandes du projet sont préfixées `xv:` (`php artisan list xv`).
 | `xv:import-venue-coordinates` | Applique le CSV des coordonnées aux stades |
 | `xv:seed-1906` | Feuille de match complète du premier match (1906) |
 | `xv:generate-slugs` | Génère les slugs manquants (matches, joueurs) |
-| `xv:validate-match-data {path}` | Valide des JSON de feuilles de match |
-| `xv:import-match-data {path}` | Importe des JSON de feuilles de match |
+| `xv:validate-match-data {path}` | Valide des JSON de feuilles de match (dont points = score selon le barème de l'époque, cohérence des remplacements, noms proches d'un joueur existant) |
+| `xv:import-match-data {path}` | Importe des JSON de feuilles de match (`--changed` : seulement ceux modifiés depuis le dernier import, utilisé par `deploy.sh`) |
 
 ### Reconstruire la base de zéro
 

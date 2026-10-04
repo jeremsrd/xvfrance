@@ -65,7 +65,7 @@
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Reinach", "player_first_name": "Cobus", "minute": 33},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Feinberg-Mngomezulu", "player_first_name": "Sacha", "minute": 34},
     {"team_side": "adversaire", "type": "carton_rouge", "player_last_name": "de Jager", "player_first_name": "Lood", "minute": 39},
-    {"team_side": "france", "type": "transformation", "player_last_name": "Ramos", "player_first_name": "Thomas", "minute": 59},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Ramos", "player_first_name": "Thomas", "minute": 58},
     {"team_side": "france", "type": "carton_jaune", "player_last_name": "Bielle-Biarrey", "player_first_name": "Louis", "minute": 63},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Esterhuizen", "player_first_name": "André", "minute": 65},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Williams", "player_first_name": "Grant", "minute": 71},

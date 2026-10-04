@@ -56,23 +56,24 @@
     ]
   },
   "events": [
+    {"team_side": "france", "type": "penalite", "player_last_name": "Le Garrec", "player_first_name": "Nolann", "minute": 20},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Barrett", "player_first_name": "Beauden", "minute": 8},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Roigard", "player_first_name": "Cam", "minute": 14},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Barrett", "player_first_name": "Beauden", "minute": 15},
     {"team_side": "adversaire", "type": "carton_jaune", "player_last_name": "Barrett", "player_first_name": "Beauden", "minute": 19},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Le Garrec", "player_first_name": "Nolann", "minute": 20},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Savea", "player_first_name": "Ardie", "minute": 23},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Barrett", "player_first_name": "Jordie", "minute": 24},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Taylor", "player_first_name": "Codie", "minute": 29},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Vaa'i", "player_first_name": "Tupou", "minute": 36},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Barrett", "player_first_name": "Beauden", "minute": 37},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Barré", "player_first_name": "Léo", "minute": 47},
+    {"team_side": "france", "type": "essai", "player_last_name": "Barré", "player_first_name": "Léo", "minute": 47},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Le Garrec", "player_first_name": "Nolann", "minute": 48},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Jordan", "player_first_name": "Will", "minute": 54},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Barrett", "player_first_name": "Beauden", "minute": 55},
+    {"team_side": "france", "type": "essai", "player_last_name": "Brennan", "player_first_name": "Joshua", "minute": 77},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Hastoy", "player_first_name": "Antoine", "minute": 78},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Ioane", "player_first_name": "Rieko", "minute": 62},
-    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Barrett", "player_first_name": "Beauden", "minute": 63},
-    {"team_side": "france", "type": "carton_jaune", "player_last_name": "Brennan", "player_first_name": "Joshua", "minute": 77},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Hastoy", "player_first_name": "Antoine", "minute": 78}
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Barrett", "player_first_name": "Beauden", "minute": 63}
   ],
   "substitutions": []
 }

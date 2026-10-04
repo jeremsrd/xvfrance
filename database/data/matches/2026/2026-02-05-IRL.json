@@ -65,9 +65,9 @@
     {"team_side": "france", "type": "essai", "player_last_name": "Bielle-Biarrey", "player_first_name": "Louis", "minute": 47},
     {"team_side": "france", "type": "transformation", "player_last_name": "Ramos", "player_first_name": "Thomas", "minute": 48},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Timoney", "player_first_name": "Nick", "minute": 59},
-    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Prendergast", "player_first_name": "Sam", "minute": 59},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Prendergast", "player_first_name": "Sam", "minute": 59},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Milne", "player_first_name": "Michael", "minute": 62},
-    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Prendergast", "player_first_name": "Sam", "minute": 62},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Prendergast", "player_first_name": "Sam", "minute": 62},
     {"team_side": "france", "type": "essai", "player_last_name": "Attissogbe", "player_first_name": "Théo", "minute": 81},
     {"team_side": "france", "type": "transformation", "player_last_name": "Ramos", "player_first_name": "Thomas", "minute": 81}
   ],

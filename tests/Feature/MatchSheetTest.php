@@ -29,7 +29,7 @@ class MatchSheetTest extends TestCase
         $france = Country::factory()->france()->create();
         $england = Country::factory()->create(['name' => 'Angleterre', 'code' => 'ENG']);
         // 2024 : essai à 5 points
-        $this->match = RugbyMatch::factory()->score(12, 3)->create(['match_date' => '2024-02-10', 'opponent_id' => $england->id, 'is_home' => false]);
+        $this->match = RugbyMatch::factory()->score(14, 3)->create(['match_date' => '2024-02-10', 'opponent_id' => $england->id, 'is_home' => false]);
         $this->fr = Player::factory()->create(['country_id' => $france->id, 'first_name' => 'Antoine', 'last_name' => 'Dupont']);
         $this->eng = Player::factory()->create(['country_id' => $england->id, 'first_name' => 'Marcus', 'last_name' => 'Smith']);
     }
@@ -74,7 +74,7 @@ class MatchSheetTest extends TestCase
 
         $this->assertTrue($sheet->isScoreComplete());
         $this->assertSame([7, 3], $sheet->halfTimeScore());
-        $this->assertSame([[5, 0], [7, 0], [7, 3], [12, 3]], array_column($sheet->timeline(), 'score'));
+        $this->assertSame([[5, 0], [7, 0], [7, 3], [14, 3]], array_column($sheet->timeline(), 'score'));
     }
 
     public function test_incomplete_timeline_hides_running_score(): void

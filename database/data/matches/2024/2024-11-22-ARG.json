@@ -65,6 +65,7 @@
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Albornoz", "player_first_name": "Tomás", "minute": 26},
     {"team_side": "france", "type": "essai", "player_last_name": "Villière", "player_first_name": "Gabin", "minute": 33},
     {"team_side": "france", "type": "transformation", "player_last_name": "Ramos", "player_first_name": "Thomas", "minute": 34},
+    {"team_side": "france", "type": "essai_penalite", "player_last_name": null, "player_first_name": null, "minute": 36},
     {"team_side": "france", "type": "penalite", "player_last_name": "Ramos", "player_first_name": "Thomas", "minute": 41},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Gallo", "player_first_name": "Thomas", "minute": 56},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Albornoz", "player_first_name": "Tomás", "minute": 57},

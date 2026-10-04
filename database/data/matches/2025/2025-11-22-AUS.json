@@ -61,6 +61,7 @@
     {"team_side": "france", "type": "transformation", "player_last_name": "Ramos", "player_first_name": "Thomas", "minute": 10},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Bell", "player_first_name": "Angus", "minute": 21},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Edmed", "player_first_name": "Tane", "minute": 22},
+    {"team_side": "france", "type": "essai", "player_last_name": "Ramos", "player_first_name": "Thomas", "minute": 25},
     {"team_side": "france", "type": "essai", "player_last_name": "Bielle-Biarrey", "player_first_name": "Louis", "minute": 31},
     {"team_side": "france", "type": "transformation", "player_last_name": "Ramos", "player_first_name": "Thomas", "minute": 32},
     {"team_side": "france", "type": "carton_jaune", "player_last_name": "Lucu", "player_first_name": "Maxime", "minute": 35},

@@ -127,10 +127,11 @@ class MatchImportServiceTest extends TestCase
 
     public function test_score_mismatch_is_reported_as_warning(): void
     {
-        $this->import(['france_score' => 31] + $this->fixture());
+        $this->match->update(['france_score' => 31]);
+        $this->import($this->fixture());
 
         $this->assertContains(
-            ['warn', 'Score France diffère : JSON=31 vs BDD=30'],
+            ['warn', 'Score France diffère : JSON=30 vs BDD=31'],
             $this->service->flushMessages(),
         );
     }
@@ -139,9 +140,24 @@ class MatchImportServiceTest extends TestCase
     {
         $data = $this->fixture();
         $data['events'][] = ['team_side' => 'adversaire', 'type' => 'essai_penalite', 'minute' => 79];
+        $data['opponent_score'] += 7;
 
         $this->import($data);
 
         $this->assertTrue($this->match->events()->whereNull('player_id')->where('team_side', TeamSide::ADVERSAIRE)->exists());
+    }
+
+    public function test_changed_mode_reimports_only_modified_sheets(): void
+    {
+        $data = $this->fixture();
+        $this->import($data);
+
+        $this->service->importSingleMatch($data, false, false, false, changedOnly: true);
+        $this->assertSame(1, $this->service->getMatchesImported(), 'feuille inchangée : rien à réimporter');
+
+        $data['events'][0]['minute'] = ($data['events'][0]['minute'] ?? 0) + 1;
+        $this->service->importSingleMatch($data, false, false, false, changedOnly: true);
+        $this->assertSame(2, $this->service->getMatchesImported(), 'feuille modifiée : réimportée');
+        $this->assertSame(count($data['lineups']['france']), $this->match->lineups()->france()->count());
     }
 }

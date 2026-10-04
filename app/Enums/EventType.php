@@ -26,43 +26,30 @@ enum EventType: string
     }
 
     /**
-     * Barème historique du rugby :
-     * 1893-1948 : Essai=3, Transfo=2, Pénalité=3, Drop=4
-     * 1948-1971 : Essai=3, Transfo=2, Pénalité=3, Drop=3
-     * 1971-1992 : Essai=4, Transfo=2, Pénalité=3, Drop=3
-     * 1992+     : Essai=5, Transfo=2, Pénalité=3, Drop=3
+     * Barème historique du rugby (les changements s'appliquent à la saison suivante,
+     * d'où la bascule au 1er juillet) :
+     * jusqu'en 1948 : Essai=3, Transfo=2, Pénalité=3, Drop=4
+     * 1948-1971     : Essai=3, Transfo=2, Pénalité=3, Drop=3
+     * 1971-1992     : Essai=4
+     * depuis 1992   : Essai=5
+     * Essai de pénalité : valeur d'un essai (transformation à part), puis 7 points
+     * sans transformation depuis juillet 2017.
      */
     public function points(\DateTimeInterface|null $matchDate = null): int
     {
-        if (in_array($this, [self::CARTON_JAUNE, self::CARTON_ROUGE])) {
-            return 0;
-        }
+        $date = $matchDate?->format('Y-m-d') ?? '2024-01-01';
 
-        if ($this === self::TRANSFORMATION) {
-            return 2;
-        }
-
-        if ($this === self::PENALITE) {
-            return 3;
-        }
-
-        $year = $matchDate?->format('Y') ?? 2024;
-
-        if ($this === self::DROP) {
-            return $year < 1948 ? 4 : 3;
-        }
-
-        // ESSAI et ESSAI_PENALITE
-        if ($year < 1948) {
-            return 3;
-        }
-        if ($year < 1971) {
-            return 3;
-        }
-        if ($year < 1992) {
-            return 4;
-        }
-
-        return 5;
+        return match ($this) {
+            self::CARTON_JAUNE, self::CARTON_ROUGE => 0,
+            self::TRANSFORMATION => 2,
+            self::PENALITE => 3,
+            self::DROP => $date < '1948-07-01' ? 4 : 3,
+            self::ESSAI_PENALITE => $date >= '2017-07-01' ? 7 : self::ESSAI->points($matchDate),
+            self::ESSAI => match (true) {
+                $date < '1971-07-01' => 3,
+                $date < '1992-07-01' => 4,
+                default => 5,
+            },
+        };
     }
 }

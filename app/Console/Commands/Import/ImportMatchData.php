@@ -14,7 +14,8 @@ class ImportMatchData extends Command
         {path : Chemin vers un fichier JSON ou un dossier}
         {--dry-run : Valide sans écrire en BDD}
         {--force : Écrase les données existantes}
-        {--skip-existing : Ne touche pas aux matchs déjà remplis}';
+        {--skip-existing : Ne touche pas aux matchs déjà remplis}
+        {--changed : Réimporte uniquement les matchs dont le JSON a changé depuis le dernier import}';
 
     protected $description = 'Importe les données détaillées de matchs (lineups, events, substitutions) depuis des fichiers JSON';
 
@@ -24,6 +25,7 @@ class ImportMatchData extends Command
         $dryRun = $this->option('dry-run');
         $force = $this->option('force');
         $skipExisting = $this->option('skip-existing');
+        $changedOnly = $this->option('changed');
 
         if ($dryRun) {
             $this->components->info('Mode DRY-RUN activé — aucune écriture en base');
@@ -44,7 +46,7 @@ class ImportMatchData extends Command
 
         foreach ($files as $file) {
             $this->components->twoColumnDetail('Fichier', basename($file));
-            $service->importFile($file, $dryRun, $force, $skipExisting);
+            $service->importFile($file, $dryRun, $force, $skipExisting, $changedOnly);
 
             // Afficher les messages au fur et à mesure
             foreach ($service->flushMessages() as [$level, $message]) {

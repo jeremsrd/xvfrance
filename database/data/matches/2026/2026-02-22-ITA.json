@@ -62,7 +62,7 @@
     {"team_side": "france", "type": "essai", "player_last_name": "Ramos", "player_first_name": "Thomas", "minute": 29},
     {"team_side": "france", "type": "transformation", "player_last_name": "Ramos", "player_first_name": "Thomas", "minute": 30},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Capuozzo", "player_first_name": "Ange", "minute": 32},
-    {"team_side": "adversaire", "type": "essai", "player_last_name": "Garbisi", "player_first_name": "Paolo", "minute": 40},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Garbisi", "player_first_name": "Paolo", "minute": 40},
     {"team_side": "france", "type": "essai", "player_last_name": "Dréan", "player_first_name": "Gaël", "minute": 71},
     {"team_side": "france", "type": "transformation", "player_last_name": "Ramos", "player_first_name": "Thomas", "minute": 72},
     {"team_side": "france", "type": "essai", "player_last_name": "Gailleton", "player_first_name": "Emilien", "minute": 77},

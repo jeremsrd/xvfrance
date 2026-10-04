@@ -81,7 +81,7 @@
     {"team_side": "france", "type": "essai", "player_last_name": "Barré", "player_first_name": "Léo", "minute": 65},
     {"team_side": "france", "type": "transformation", "player_last_name": "Ramos", "player_first_name": "Thomas", "minute": 66},
     {"team_side": "france", "type": "essai", "player_last_name": "Attissogbe", "player_first_name": "Théo", "minute": 76},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Lucu", "player_first_name": "Maxime", "minute": 77},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Lucu", "player_first_name": "Maxime", "minute": 77},
     {"team_side": "france", "type": "essai", "player_last_name": "Barassi", "player_first_name": "Pierre-Louis", "minute": 80}
   ],
   "substitutions": []

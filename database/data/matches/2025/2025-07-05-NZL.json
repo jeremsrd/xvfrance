@@ -55,20 +55,22 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "penalite", "player_last_name": "Le Garrec", "player_first_name": "Nolann", "minute": 18},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Segonds", "player_first_name": "Joris", "minute": 7},
+    {"team_side": "france", "type": "essai", "player_last_name": "Guillard", "player_first_name": "Mickaël", "minute": 17},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Le Garrec", "player_first_name": "Nolann", "minute": 18},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Jordan", "player_first_name": "Will", "minute": 20},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Barrett", "player_first_name": "Beauden", "minute": 21},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Vaa'i", "player_first_name": "Tupou", "minute": 26},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Barrett", "player_first_name": "Beauden", "minute": 27},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Le Garrec", "player_first_name": "Nolann", "minute": 33},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Barrett", "player_first_name": "Jordie", "minute": 40},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Barrett", "player_first_name": "Beauden", "minute": 41},
     {"team_side": "france", "type": "essai", "player_last_name": "Villière", "player_first_name": "Gabin", "minute": 43},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Le Garrec", "player_first_name": "Nolann", "minute": 44},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Le Garrec", "player_first_name": "Nolann", "minute": 44},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Jordan", "player_first_name": "Will", "minute": 47},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Barrett", "player_first_name": "Beauden", "minute": 48},
-    {"team_side": "france", "type": "essai", "player_last_name": "Guillard", "player_first_name": "Mickaël", "minute": 50},
     {"team_side": "france", "type": "essai", "player_last_name": "Woki", "player_first_name": "Cameron", "minute": 50},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Le Garrec", "player_first_name": "Nolann", "minute": 50},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Le Garrec", "player_first_name": "Nolann", "minute": 50},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Barrett", "player_first_name": "Beauden", "minute": 74}
   ],
   "substitutions": []

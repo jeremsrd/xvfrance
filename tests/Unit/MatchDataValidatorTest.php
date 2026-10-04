@@ -30,13 +30,14 @@ class MatchDataValidatorTest extends TestCase
             'is_starter' => true,
             'position' => 'centre',
         ], range(1, 15));
+        $bench = [['jersey' => 16, 'first_name' => 'Prénom', 'last_name' => 'Remplaçant', 'is_starter' => false, 'position' => 'talonneur']];
 
         return [
             'match_date' => '2024-11-16',
             'opponent_code' => 'NZL',
-            'france_score' => 30,
-            'opponent_score' => 29,
-            'lineups' => ['france' => $starters],
+            'france_score' => 5,
+            'opponent_score' => 7,
+            'lineups' => ['france' => [...$starters, ...$bench]],
             'events' => [
                 ['team_side' => 'france', 'type' => 'essai', 'player_last_name' => 'Joueur9', 'minute' => 12],
                 ['team_side' => 'adversaire', 'type' => 'essai_penalite', 'minute' => 70],
@@ -117,7 +118,7 @@ class MatchDataValidatorTest extends TestCase
     public function test_warns_on_incomplete_lineup_and_unknown_scorer(): void
     {
         $data = $this->validData();
-        array_pop($data['lineups']['france']);
+        unset($data['lineups']['france'][14]);
         $data['events'][0]['player_last_name'] = 'Inconnu';
 
         $this->assertTrue($this->validator->validate($data));
@@ -133,5 +134,49 @@ class MatchDataValidatorTest extends TestCase
         $this->validator->validate($this->validData());
 
         $this->assertSame([], $this->validator->errors());
+    }
+
+    public function test_rejects_events_that_do_not_add_up_to_the_score(): void
+    {
+        $this->assertFalse($this->validator->validate(['france_score' => 8] + $this->validData()));
+        $this->assertSame(['france : les événements totalisent 5 points pour un score de 8'], $this->validator->errors());
+    }
+
+    public function test_penalty_try_is_worth_seven_points_since_2017_only(): void
+    {
+        // En 2010 : essai de pénalité = 5 points (transformation à part)
+        $this->assertFalse($this->validator->validate(['match_date' => '2010-11-13'] + $this->validData()));
+        $this->assertSame(['adversaire : les événements totalisent 5 points pour un score de 7'], $this->validator->errors());
+    }
+
+    public function test_substitution_flow(): void
+    {
+        $data = $this->validData();
+        $data['substitutions'][] = ['team_side' => 'france', 'player_off_last_name' => 'Joueur1', 'player_on_last_name' => 'Joueur2', 'minute' => 60];
+        $data['substitutions'][] = ['team_side' => 'france', 'player_off_last_name' => 'Inconnu', 'player_on_last_name' => 'Remplaçant', 'minute' => 70];
+
+        $this->assertFalse($this->validator->validate($data));
+        $this->assertSame(['france : remplacement Inconnu → Remplaçant : joueur absent de la composition'], $this->validator->errors());
+
+        array_pop($data['substitutions']);
+        $this->assertTrue($this->validator->validate($data));
+        $this->assertContains("france : remplacement Joueur1 → Joueur2 : le sortant n'est pas sur le terrain à ce moment-là", $this->validator->warnings());
+    }
+
+    public function test_warns_when_a_new_player_looks_like_a_known_one(): void
+    {
+        $france = \App\Models\Country::factory()->create(['code' => 'FRA']);
+        \App\Models\Player::factory()->create(['country_id' => $france->id, 'first_name' => 'Tom', 'last_name' => 'Spring']);
+        \App\Models\Player::factory()->create(['country_id' => $france->id, 'first_name' => 'Oscar', 'last_name' => 'Jégou']);
+        $data = $this->validData();
+        $data['lineups']['france'][0] = ['jersey' => 1, 'first_name' => 'Max', 'last_name' => 'Spring', 'is_starter' => true];
+        $data['lineups']['france'][1] = ['jersey' => 2, 'first_name' => 'Oscar', 'last_name' => 'Jegou', 'is_starter' => true];
+        $data['substitutions'] = [];
+
+        $this->assertTrue($this->validator->validate($data));
+        $this->assertSame([
+            'france : Max Spring sera créé, mais Tom Spring existe déjà',
+            'france : Oscar Jegou sera créé, mais Oscar Jégou existe déjà',
+        ], $this->validator->warnings());
     }
 }
