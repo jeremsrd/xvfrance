@@ -31,7 +31,7 @@ database/data/
 └── matches/{année}/*.json  # Feuilles de match détaillées (compos, events, remplacements)
 ```
 
-Format des JSON : voir `docs/specs/import-match-data.md`.
+Format des JSON : voir `docs/specs/import-match-data.md`. Méthode de saisie et de correction (scripts Wikipédia dans `scripts/wikipedia/`) : voir `docs/specs/feuilles-de-match-suite.md`.
 
 ## Commandes Artisan
 
