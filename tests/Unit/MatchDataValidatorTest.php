@@ -75,6 +75,38 @@ class MatchDataValidatorTest extends TestCase
         $this->assertCount(2, $this->validator->errors());
     }
 
+    public function test_accepts_match_info_fields(): void
+    {
+        $data = [
+            'referee' => 'Luke Pearce',
+            'referee_country_code' => 'NZL',
+            'attendance' => 29152,
+            'kickoff_time' => '19:05',
+            'weather' => 'Pluie',
+        ] + $this->validData();
+
+        $this->assertTrue($this->validator->validate($data), implode("\n", $this->validator->errors()));
+    }
+
+    public function test_rejects_invalid_match_info_fields(): void
+    {
+        $data = [
+            'referee_country_code' => 'XXX',
+            'attendance' => '29 152',
+            'kickoff_time' => '7pm',
+            'weather' => '',
+        ] + $this->validData();
+
+        $this->assertFalse($this->validator->validate($data));
+        $this->assertEqualsCanonicalizing([
+            'weather doit être un texte non vide',
+            'attendance doit être un entier positif',
+            'kickoff_time invalide (format attendu : HH:MM, heure locale)',
+            'referee_country_code sans referee',
+            'referee_country_code inconnu en base : "XXX"',
+        ], $this->validator->errors());
+    }
+
     public function test_rejects_duplicate_and_out_of_range_jerseys(): void
     {
         $data = $this->validData();

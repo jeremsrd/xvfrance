@@ -172,6 +172,8 @@ class MatchImportService
             // Étape 6 — Substitutions
             $this->importSubstitutions($match, $data['substitutions'] ?? [], $france, $country);
 
+            $this->importMatchInfo($match, $data);
+
             $match->forceFill(['source_checksum' => $checksum])->saveQuietly();
         });
 
@@ -182,6 +184,40 @@ class MatchImportService
         $this->playerResolver->resetLog();
 
         $this->matchesImported++;
+    }
+
+    /**
+     * Arbitre, affluence, coup d'envoi, météo : seuls les champs présents dans le JSON
+     * sont écrits, pour ne pas effacer ce qui vient d'une autre source (CSV, saisie admin).
+     */
+    private function importMatchInfo(RugbyMatch $match, array $data): void
+    {
+        $info = [];
+
+        foreach (['referee', 'attendance', 'weather'] as $field) {
+            if (array_key_exists($field, $data)) {
+                $info[$field] = $data[$field];
+            }
+        }
+
+        if (array_key_exists('kickoff_time', $data)) {
+            $info['kickoff_time'] = $data['kickoff_time'] !== null ? $data['kickoff_time'] . ':00' : null;
+        }
+
+        if (array_key_exists('referee_country_code', $data)) {
+            $info['referee_country_id'] = $data['referee_country_code'] !== null
+                ? Country::where('code', $data['referee_country_code'])->value('id')
+                : null;
+        }
+
+        if ($info === []) {
+            return;
+        }
+
+        $match->forceFill($info);
+        if ($match->isDirty()) {
+            $this->info('Champs de match mis à jour : ' . implode(', ', array_keys($match->getDirty())));
+        }
     }
 
     private function importLineups(RugbyMatch $match, array $lineups, Country $france, Country $opponent): void

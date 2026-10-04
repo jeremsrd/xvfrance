@@ -3,6 +3,8 @@
   "opponent_code": "AUS",
   "france_score": 42,
   "opponent_score": 26,
+  "referee": "Karl Dickson",
+  "referee_country_code": "ENG",
   "lineups": {
     "france": [
       {"jersey": 1, "first_name": "Moses", "last_name": "Alo-Emile", "is_starter": true, "position": "pilier_gauche", "is_captain": false},

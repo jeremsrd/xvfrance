@@ -15,6 +15,9 @@
 - 13 feuilles de 2024-2026 ont été corrigées le 04/10/2026 d'après les encadrés de match de Wikipédia.
   L'import d'origine confondait pénalités et transformations, et il manquait des essais et des essais de pénalité.
 
+- Le JSON accepte depuis le 04/10/2026 les champs de match : arbitre et son pays, affluence, heure du
+  coup d'envoi, météo (voir `docs/specs/import-match-data.md`). Renseignés pour NZL–FRA et AUS–FRA 2026.
+
 ## Publier une feuille de match
 
 1. Écrire ou modifier le JSON (format : `docs/specs/import-match-data.md`).
@@ -52,14 +55,11 @@ Les **compositions et remplacements** ne figurent pas dans les encadrés Wikipé
 
 ## Prochaines étapes proposées
 
-1. **Champs de match dans le JSON** : arbitre, affluence, heure du coup d'envoi, météo. Les colonnes existent
-   déjà dans `matches`, mais le format JSON ne les prévoit pas. Données déjà connues : NZL–FRA 04/07/2026,
-   arbitre Luke Pearce, 29 152 spectateurs ; AUS–FRA 11/07/2026, arbitre Karl Dickson.
-2. **Commande de projet `/feuille-de-match <date>`** : méthode figée, avec les points par les scripts
+1. **Commande de projet `/feuille-de-match <date>`** : méthode figée, avec les points par les scripts
    Wikipédia et les compositions et remplacements par une recherche ciblée, puis validation.
-3. **Matches historiques (~800)** : trouver une source structurée à récupérer automatiquement
+2. **Matches historiques (~800)** : trouver une source structurée à récupérer automatiquement
    (ESPN Statsguru, allrugby…), car la méthode au cas par cas ne tient pas à cette échelle.
-4. Points connus mais non corrigés :
+3. Points connus mais non corrigés :
    - `PlayerResolverService` cherche le nom de famille avec accents. « Jegou » créerait donc un doublon
      de « Jégou », ce que la validation signale désormais par un avertissement.
    - Pas de classement aux points dans les records individuels, en attendant d'avoir plus de feuilles complètes.

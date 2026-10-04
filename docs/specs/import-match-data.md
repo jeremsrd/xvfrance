@@ -82,6 +82,36 @@ Créer un pipeline Laravel d'import de données détaillées (lineups, événeme
 }
 ```
 
+### Champs de match (optionnels)
+
+Placés au premier niveau, après les scores :
+
+```json
+{
+  "match_date": "2026-07-04",
+  "opponent_code": "NZL",
+  "france_score": 32,
+  "opponent_score": 34,
+  "referee": "Luke Pearce",
+  "referee_country_code": "ENG",
+  "attendance": 29152,
+  "kickoff_time": "19:05",
+  "weather": "Pluie, vent fort",
+  "lineups": { ... }
+}
+```
+
+| Champ | Format | Colonne |
+|-------|--------|---------|
+| `referee` | texte non vide | `matches.referee` |
+| `referee_country_code` | code pays présent en base, exige `referee` | `matches.referee_country_id` |
+| `attendance` | entier > 0 | `matches.attendance` |
+| `kickoff_time` | `HH:MM`, heure locale du stade | `matches.kickoff_time` |
+| `weather` | texte, 100 caractères max | `matches.weather` |
+
+Un champ **absent** ne modifie pas la base (les valeurs venues du CSV ou de l'admin sont conservées).
+Un champ présent à `null` efface la valeur.
+
 ### Fichier multi-matchs
 
 ```json

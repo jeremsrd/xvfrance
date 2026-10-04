@@ -22,6 +22,7 @@ class MatchDataValidator
         $this->validateRequiredFields($data);
         $this->validateOpponentCode($data);
         $this->validateScores($data);
+        $this->validateMatchInfo($data);
         $this->validateLineups($data);
         $this->validateEvents($data);
         $this->validateSubstitutions($data);
@@ -69,6 +70,40 @@ class MatchDataValidator
 
         if (!Country::where('code', $data['opponent_code'])->exists()) {
             $this->errors[] = "opponent_code inconnu en base : {$data['opponent_code']}";
+        }
+    }
+
+    /**
+     * Champs de match optionnels : arbitre, affluence, coup d'envoi (heure locale), météo.
+     */
+    private function validateMatchInfo(array $data): void
+    {
+        foreach (['referee', 'weather'] as $field) {
+            if (isset($data[$field]) && (!is_string($data[$field]) || trim($data[$field]) === '')) {
+                $this->errors[] = "{$field} doit être un texte non vide";
+            }
+        }
+
+        if (isset($data['weather']) && is_string($data['weather']) && mb_strlen($data['weather']) > 100) {
+            $this->errors[] = 'weather ne doit pas dépasser 100 caractères';
+        }
+
+        if (isset($data['attendance']) && (!is_int($data['attendance']) || $data['attendance'] <= 0)) {
+            $this->errors[] = 'attendance doit être un entier positif';
+        }
+
+        if (isset($data['kickoff_time'])
+            && (!is_string($data['kickoff_time']) || !preg_match('/^([01]\d|2[0-3]):[0-5]\d$/', $data['kickoff_time']))) {
+            $this->errors[] = "kickoff_time invalide (format attendu : HH:MM, heure locale)";
+        }
+
+        if (isset($data['referee_country_code'])) {
+            if (!isset($data['referee'])) {
+                $this->errors[] = 'referee_country_code sans referee';
+            }
+            if (!is_string($data['referee_country_code']) || !Country::where('code', $data['referee_country_code'])->exists()) {
+                $this->errors[] = 'referee_country_code inconnu en base : ' . json_encode($data['referee_country_code']);
+            }
         }
     }
 

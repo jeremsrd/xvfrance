@@ -160,4 +160,34 @@ class MatchImportServiceTest extends TestCase
         $this->assertSame(2, $this->service->getMatchesImported(), 'feuille modifiée : réimportée');
         $this->assertSame(count($data['lineups']['france']), $this->match->lineups()->france()->count());
     }
+
+    public function test_imports_match_info_fields(): void
+    {
+        $eng = Country::factory()->create(['code' => 'ENG']);
+
+        $this->import([
+            'referee' => 'Luke Pearce',
+            'referee_country_code' => 'ENG',
+            'attendance' => 29152,
+            'kickoff_time' => '19:05',
+        ] + $this->fixture());
+
+        $this->match->refresh();
+        $this->assertSame('Luke Pearce', $this->match->referee);
+        $this->assertSame($eng->id, $this->match->referee_country_id);
+        $this->assertSame(29152, $this->match->attendance);
+        $this->assertSame('19:05:00', $this->match->kickoff_time);
+    }
+
+    public function test_absent_match_info_fields_are_left_untouched(): void
+    {
+        $this->match->update(['referee' => 'Louis Dedet', 'weather' => 'Temps humide']);
+
+        $this->import(['attendance' => 3000] + $this->fixture());
+
+        $this->match->refresh();
+        $this->assertSame('Louis Dedet', $this->match->referee);
+        $this->assertSame('Temps humide', $this->match->weather);
+        $this->assertSame(3000, $this->match->attendance);
+    }
 }
