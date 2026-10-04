@@ -3,6 +3,10 @@
   "opponent_code": "JPN",
   "france_score": 42,
   "opponent_score": 15,
+  "referee": "Ben O'Keeffe",
+  "referee_country_code": "NZL",
+  "attendance": 52632,
+  "kickoff_time": "17:40",
   "lineups": {
     "france": [
       {"jersey": 1, "first_name": "Jefferson", "last_name": "Poirot", "is_starter": true, "position": "pilier_gauche", "is_captain": false},

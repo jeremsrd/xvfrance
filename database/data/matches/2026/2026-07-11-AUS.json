@@ -5,6 +5,8 @@
   "opponent_score": 26,
   "referee": "Karl Dickson",
   "referee_country_code": "ENG",
+  "attendance": 52121,
+  "kickoff_time": "17:40",
   "lineups": {
     "france": [
       {"jersey": 1, "first_name": "Moses", "last_name": "Alo-Emile", "is_starter": true, "position": "pilier_gauche", "is_captain": false},

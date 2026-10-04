@@ -27,8 +27,9 @@ while True:
     fields={}
     for m in re.finditer(r'\|\s*(\w+)\s*=\s*(.*?)(?=\n\s*\||\}\}\s*$)',box,re.S):
         fields[m.group(1)]=re.sub(r'\s+',' ',m.group(2)).strip()
+    if not re.search(r'France|\bFRA\b',fields.get('team1','')+fields.get('team2','')): continue
     if dates and not any(d in fields.get('date','') for d in dates): continue
-    clean=lambda v: re.sub(r"\{\{(?:flagicon|sortname)[^}]*\}\}|<br\s*/?>|\[\[(?:[^|\]]*\|)?([^\]]*)\]\]|'''?",lambda m:(m.group(1) or ' ') if m.group(0).startswith('[[') else ' ',v)
+    clean=lambda v: re.sub(r"<ref[^>]*/>|<ref[^>]*>.*?</ref>|\{\{(?:flagicon|sortname)[^}]*\}\}|<br\s*/?>|\[\[(?:[^|\]]*\|)?([^\]]*)\]\]|'''?",lambda m:(m.group(1) or ' ') if m.group(0).startswith('[[') else ' ',re.sub(r'\{\{ru(?:-rt)?\|(\w+)\}\}',r'\1',v))
     print('##',clean(fields.get('date','')),'|',clean(fields.get('team1','')),clean(fields.get('score','')),clean(fields.get('team2','')))
-    for k in ('try1','con1','pen1','drop1','cards1','try2','con2','pen2','drop2','cards2'):
+    for k in ('try1','con1','pen1','drop1','cards1','try2','con2','pen2','drop2','cards2','time','stadium','attendance','referee'):
         if fields.get(k): print(f'  {k}: {re.sub(r" +"," ",clean(fields[k]))}')

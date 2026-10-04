@@ -6,6 +6,7 @@
   "referee": "Luke Pearce",
   "referee_country_code": "ENG",
   "attendance": 29152,
+  "kickoff_time": "19:10",
   "lineups": {
     "france": [
       {"jersey": 1, "first_name": "Jefferson", "last_name": "Poirot", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
