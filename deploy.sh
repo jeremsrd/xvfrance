@@ -168,6 +168,8 @@ mkdir -p storage/app/public storage/framework/cache/data storage/framework/sessi
 [ -f .env ] || { echo ".env absent sur le serveur : à créer avant le premier déploiement." >&2; exit 1; }
 $DEPLOY_COMPOSER install --no-dev --optimize-autoloader --no-interaction --no-progress
 $DEPLOY_PHP artisan migrate --force
+# Feuilles de match versionnées : seuls les matches encore vides sont remplis
+$DEPLOY_PHP artisan xv:import-match-data database/data/matches --skip-existing --no-interaction
 $DEPLOY_PHP artisan optimize
 $DEPLOY_PHP artisan filament:optimize
 [ -L public/storage ] || $DEPLOY_PHP artisan storage:link
