@@ -21,12 +21,19 @@
             @foreach($competitions as $competition)
                 @php $r = $competition->record; @endphp
                 <a href="{{ route('competitions.show', $competition) }}" class="group grid gap-6 rounded-2xl border border-filet bg-white p-6 hover:border-encre/30 focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-bleu-france sm:p-8 lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] lg:items-center">
-                    <div>
+                    <div class="flex items-center gap-5">
+                        @if($competition->logo_path)
+                            <span class="flex h-20 w-28 shrink-0 items-center justify-center rounded-xl bg-encre p-3 sm:w-36">
+                                <img src="{{ asset($competition->logo_path) }}" alt="Logo {{ $competition->name }}" class="max-h-full max-w-full object-contain" loading="lazy">
+                            </span>
+                        @endif
+                        <div class="min-w-0">
                         <p class="text-xs font-semibold uppercase tracking-[0.18em] text-texte-2">{{ $competition->type?->label() }}</p>
                         <h2 class="mt-1 font-display text-3xl font-bold uppercase leading-tight text-encre group-hover:underline">{{ $competition->name }}</h2>
                         <p class="mt-1 font-serif text-texte-2">
                             {{ $competition->editions_count }} édition{{ $competition->editions_count > 1 ? 's' : '' }}@if($competition->first_year) · {{ $competition->first_year }}@if($competition->last_year !== $competition->first_year)–{{ $competition->last_year }}@endif @endif
                         </p>
+                        </div>
                     </div>
                     <div>
                         <div class="flex flex-wrap items-baseline justify-between gap-2">

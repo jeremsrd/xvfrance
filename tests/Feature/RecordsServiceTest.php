@@ -3,6 +3,7 @@
 namespace Tests\Feature;
 
 use App\Enums\EventType;
+use App\Models\Country;
 use App\Models\MatchEvent;
 use App\Models\MatchLineup;
 use App\Models\Player;
@@ -39,8 +40,6 @@ class RecordsServiceTest extends TestCase
 
         $this->assertSame([$big->id, $small->id], $service->biggestWins()->pluck('id')->all());
         $this->assertSame([$bigLoss->id, $loss->id], $service->heaviestDefeats()->pluck('id')->all());
-        $this->assertSame($big->id, $service->mostPointsScored(1)->first()->id);
-        $this->assertSame($bigLoss->id, $service->mostPointsConceded(1)->first()->id);
     }
 
     public function test_streaks_track_longest_runs_in_chronological_order(): void
@@ -79,6 +78,55 @@ class RecordsServiceTest extends TestCase
         $this->assertSame([1910, 1920], $decades->keys()->all());
         $this->assertSame([1, 1], [$decades[1910]->wins, $decades[1910]->losses]);
         $this->assertSame([1, 1, 1], [$venues['home']->total, $venues['away']->total, $venues['neutral']->total]);
+    }
+
+    public function test_home_win_streak_ignores_away_matches(): void
+    {
+        // domicile V, extérieur D, domicile V V, domicile D : 3 victoires de rang à domicile
+        foreach ([[20, 10, true], [5, 10, false], [20, 10, true], [20, 10, true], [5, 10, true]] as $i => [$fr, $opp, $home]) {
+            RugbyMatch::factory()->score($fr, $opp)->create(['match_date' => "2000-01-0" . ($i + 1), 'is_home' => $home]);
+        }
+
+        $this->assertSame(3, (new RecordsService())->streaks()['homeWins']['length']);
+    }
+
+    public function test_opponent_records(): void
+    {
+        $nzl = Country::factory()->create();
+        $first = RugbyMatch::factory()->score(10, 5)->for($nzl, 'opponent')->create(['match_date' => '1954-01-01']);
+        $big = RugbyMatch::factory()->score(40, 5)->for($nzl, 'opponent')->create(['match_date' => '1960-01-01']);
+        $loss = RugbyMatch::factory()->score(10, 61)->for($nzl, 'opponent')->create(['match_date' => '2007-01-01']);
+        RugbyMatch::factory()->score(30, 0)->create(['match_date' => '2001-01-01']);
+
+        $records = (new RecordsService())->opponentRecords();
+        $nz = $records->first();
+
+        $this->assertCount(2, $records);
+        $this->assertTrue($nz->opponent->is($nzl));
+        $this->assertSame(3, $nz->total);
+        $this->assertTrue($first->is($nz->firstWin));
+        $this->assertTrue($big->is($nz->biggestWin));
+        $this->assertTrue($loss->is($nz->heaviestDefeat));
+        $this->assertNull($records->last()->heaviestDefeat);
+    }
+
+    public function test_score_records_and_best_year(): void
+    {
+        [$a, $b, $c, $d] = $this->playMatches([[96, 0], [35, 55], [20, 20], [30, 27]], '2023-01-01');
+        $this->playMatches([[3, 10], [3, 10], [3, 10], [3, 10], [20, 10], [20, 10]], '2010-01-01');
+
+        $service = new RecordsService();
+        $records = $service->scoreRecords();
+
+        $this->assertTrue($a->is($records['mostScored']));
+        $this->assertTrue($b->is($records['mostConceded']));
+        $this->assertTrue($a->is($records['highestAggregate']));
+        $this->assertTrue($b->is($records['mostScoredInDefeat']));
+        $this->assertTrue($d->is($records['mostConcededInWin']));
+        $this->assertTrue($c->is($records['highestDraw']));
+        // 2023 n'a que 4 matches : seule 2010 atteint le minimum de 6
+        $this->assertSame(2010, $service->bestYear()['year']);
+        $this->assertSame(2023, $service->bestYear(3)['year']);
     }
 
     public function test_individual_leaderboards_only_count_france(): void

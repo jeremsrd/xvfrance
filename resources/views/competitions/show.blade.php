@@ -15,7 +15,7 @@
 @endphp
 
 @section('content')
-    <x-page.hero :kicker="$competition->type?->label()" :title="$competition->name"
+    <x-page.hero :kicker="$competition->type?->label()" :title="$competition->name" :logo="$competition->logo_path"
                  :subtitle="$editions->count() . ' édition' . ($editions->count() > 1 ? 's' : '') . ($editions->isNotEmpty() ? ', de ' . $editions->min('year') . ' à ' . $editions->max('year') : '') . '.'">
         <div class="mt-8 grid gap-6 sm:grid-cols-[auto_minmax(0,1fr)] sm:items-end sm:gap-10">
             <div>

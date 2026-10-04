@@ -13,7 +13,7 @@ class Competition extends Model
     use HasFactory;
 
     protected $fillable = [
-        'name', 'short_name', 'type',
+        'name', 'short_name', 'type', 'logo_path',
     ];
 
     protected $casts = [

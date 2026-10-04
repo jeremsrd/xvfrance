@@ -9,7 +9,7 @@
 @endsection
 
 @php
-    $rivals = $opponents->take(6);
+    $rivals = $opponents->take(12);
     $share = fn ($r, $n) => $r->total ? round($n / $r->total * 100, 2) : 0;
     $focus = 'focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-bleu-france';
 @endphp

@@ -23,6 +23,10 @@ class CompetitionForm
                     ->label('Type')
                     ->options(CompetitionType::class)
                     ->required(),
+                TextInput::make('logo_path')
+                    ->label('Logo')
+                    ->helperText('Chemin dans public/, ex. images/competitions/six-nations.png (version pour fond sombre)')
+                    ->maxLength(255),
             ]);
     }
 }

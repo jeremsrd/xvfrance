@@ -42,26 +42,10 @@ class RecordsService
             ->limit($limit)->get();
     }
 
-    /** @return Collection<int, RugbyMatch> */
-    public function mostPointsScored(int $limit = 5): Collection
-    {
-        return $this->matchQuery()
-            ->orderByDesc('france_score')->orderBy('match_date')
-            ->limit($limit)->get();
-    }
-
-    /** @return Collection<int, RugbyMatch> */
-    public function mostPointsConceded(int $limit = 5): Collection
-    {
-        return $this->matchQuery()
-            ->orderByDesc('opponent_score')->orderBy('match_date')
-            ->limit($limit)->get();
-    }
-
     /**
      * Plus longues séries, dans l'ordre chronologique.
      *
-     * @return array{wins: ?array, unbeaten: ?array, losses: ?array}
+     * @return array{wins: ?array, unbeaten: ?array, losses: ?array, homeWins: ?array}
      */
     public function streaks(): array
     {
@@ -69,6 +53,10 @@ class RecordsService
             'wins' => $this->longestStreak(fn (RugbyMatch $m) => $m->france_score > $m->opponent_score),
             'unbeaten' => $this->longestStreak(fn (RugbyMatch $m) => $m->france_score >= $m->opponent_score),
             'losses' => $this->longestStreak(fn (RugbyMatch $m) => $m->france_score < $m->opponent_score),
+            'homeWins' => $this->longestStreak(
+                fn (RugbyMatch $m) => $m->france_score > $m->opponent_score,
+                $this->chronology()->where('is_home', true),
+            ),
         ];
     }
 
@@ -100,6 +88,76 @@ class RecordsService
             'away' => RecordSummary::fromMatches($groups['away'] ?? []),
             'neutral' => RecordSummary::fromMatches($groups['neutral'] ?? []),
         ];
+    }
+
+    /**
+     * Records face à chaque adversaire : première victoire, plus large victoire,
+     * plus lourde défaite. Triés par nombre de rencontres.
+     *
+     * @return Collection<int, object{opponent: \App\Models\Country, total: int, firstWin: ?RugbyMatch, biggestWin: ?RugbyMatch, heaviestDefeat: ?RugbyMatch}>
+     */
+    public function opponentRecords(): Collection
+    {
+        return $this->chronology()
+            ->groupBy('opponent_id')
+            ->map(function (Collection $matches) {
+                $wins = $matches->filter(fn (RugbyMatch $m) => $m->france_score > $m->opponent_score);
+                $defeats = $matches->filter(fn (RugbyMatch $m) => $m->france_score < $m->opponent_score);
+
+                return (object) [
+                    'opponent' => $matches->first()->opponent,
+                    'total' => $matches->count(),
+                    'firstWin' => $wins->first(),
+                    'biggestWin' => $wins->sortByDesc(fn (RugbyMatch $m) => $m->france_score - $m->opponent_score)->first(),
+                    'heaviestDefeat' => $defeats->sortByDesc(fn (RugbyMatch $m) => $m->opponent_score - $m->france_score)->first(),
+                ];
+            })
+            ->sortByDesc('total')
+            ->values();
+    }
+
+    /**
+     * Records de score isolés, un match chacun (null si aucun match ne convient).
+     *
+     * @return array<string, ?RugbyMatch>
+     */
+    public function scoreRecords(): array
+    {
+        $matches = $this->chronology();
+        $highest = fn (Collection $c, callable $value) => $c->sortByDesc($value)->first();
+
+        return [
+            'mostScored' => $highest($matches, fn (RugbyMatch $m) => $m->france_score),
+            'mostConceded' => $highest($matches, fn (RugbyMatch $m) => $m->opponent_score),
+            'highestAggregate' => $highest($matches, fn (RugbyMatch $m) => $m->france_score + $m->opponent_score),
+            'mostScoredInDefeat' => $highest($matches->filter(fn (RugbyMatch $m) => $m->france_score < $m->opponent_score), fn (RugbyMatch $m) => $m->france_score),
+            'mostConcededInWin' => $highest($matches->filter(fn (RugbyMatch $m) => $m->france_score > $m->opponent_score), fn (RugbyMatch $m) => $m->opponent_score),
+            'highestDraw' => $highest($matches->filter(fn (RugbyMatch $m) => $m->france_score === $m->opponent_score), fn (RugbyMatch $m) => $m->france_score),
+        ];
+    }
+
+    /**
+     * Meilleure année civile : plus fort taux de victoires (au moins $minMatches matches),
+     * puis le plus de victoires.
+     *
+     * @return array{year: int, record: RecordSummary}|null
+     */
+    public function bestYear(int $minMatches = 6): ?array
+    {
+        $year = $this->chronology()
+            ->groupBy(fn (RugbyMatch $m) => $m->match_date->year)
+            ->map(fn (Collection $matches) => RecordSummary::fromMatches($matches))
+            ->filter(fn (RecordSummary $r) => $r->total >= $minMatches)
+            ->sortBy([fn ($a, $b) => $b->wins / $b->total <=> $a->wins / $a->total, fn ($a, $b) => $b->wins <=> $a->wins])
+            ->keys()
+            ->first();
+
+        return $year === null ? null : ['year' => $year, 'record' => $this->recordByYear($year)];
+    }
+
+    public function firstMatch(): ?RugbyMatch
+    {
+        return $this->chronology()->first();
     }
 
     // --- Records individuels (feuilles de match détaillées) ---
@@ -137,6 +195,11 @@ class RecordsService
 
     // --- Interne ---
 
+    private function recordByYear(int $year): RecordSummary
+    {
+        return RecordSummary::fromMatches($this->chronology()->filter(fn (RugbyMatch $m) => $m->match_date->year === $year));
+    }
+
     /** @return Builder<RugbyMatch> */
     private function matchQuery(): Builder
     {
@@ -173,11 +236,12 @@ class RecordsService
 
     /**
      * @param  callable(RugbyMatch): bool  $continues
+     * @param  Collection<int, RugbyMatch>|null  $matches  sous-ensemble chronologique (tous les matches par défaut)
      * @return array{length: int, from: RugbyMatch, to: RugbyMatch, ongoing: bool}|null
      */
-    private function longestStreak(callable $continues): ?array
+    private function longestStreak(callable $continues, ?Collection $matches = null): ?array
     {
-        $matches = $this->chronology()->values();
+        $matches = ($matches ?? $this->chronology())->values();
         $best = null;
         $start = null;
 
