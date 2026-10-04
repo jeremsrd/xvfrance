@@ -2,11 +2,14 @@
 
 namespace Tests\Feature;
 
+use App\Enums\MatchStage;
 use App\Enums\TeamSide;
+use App\Models\Competition;
 use App\Models\Country;
 use App\Models\MatchLineup;
 use App\Models\Player;
 use App\Models\RugbyMatch;
+use App\Models\Venue;
 use App\Services\MatchImportService;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Monolog\Handler\NullHandler;
@@ -30,6 +33,7 @@ class MatchImportServiceTest extends TestCase
         config(['logging.channels.import' => ['driver' => 'monolog', 'handler' => NullHandler::class]]);
 
         $this->france = Country::factory()->france()->create();
+        Country::factory()->create(['name' => 'Angleterre', 'code' => 'ENG']);
         $nzl = Country::factory()->create(['name' => 'Nouvelle-Zélande', 'code' => 'NZL']);
         $this->match = RugbyMatch::factory()->score(30, 29)->create([
             'match_date' => '2024-11-16',
@@ -108,12 +112,52 @@ class MatchImportServiceTest extends TestCase
         $this->assertSame($lineupCount, MatchLineup::count());
     }
 
-    public function test_unknown_match_is_skipped(): void
+    public function test_unknown_match_without_venue_is_rejected(): void
     {
         $this->import(['match_date' => '1999-01-01'] + $this->fixture());
 
-        $this->assertSame(1, $this->service->getMatchesSkipped());
-        $this->assertSame(0, MatchLineup::count());
+        $this->assertSame(0, $this->service->getMatchesImported());
+        $this->assertContains(['error', 'venue requis pour créer le match (absent de la base)'], $this->service->flushMessages());
+        $this->assertSame(1, RugbyMatch::count());
+    }
+
+    public function test_unknown_match_is_created_with_new_venue_and_edition(): void
+    {
+        $competition = Competition::create(['name' => 'Championnat des Nations', 'short_name' => 'Championnat des Nations', 'type' => 'autre']);
+
+        $this->import([
+            'match_date' => '2026-11-28',
+            'venue' => 'Allianz Stadium',
+            'venue_city' => 'Londres',
+            'venue_country_code' => 'ENG',
+            'competition' => 'Championnat des Nations',
+            'stage' => 'finale',
+        ] + $this->fixture());
+
+        $this->assertSame(0, $this->service->getErrorCount(), json_encode($this->service->flushMessages()));
+        $match = RugbyMatch::whereDate('match_date', '2026-11-28')->sole();
+        $this->assertSame('2026-11-28-nouvelle-zelande', $match->slug);
+        $this->assertSame([30, 29], [$match->france_score, $match->opponent_score]);
+        $this->assertSame('Allianz Stadium', $match->venue->name);
+        $this->assertFalse($match->is_home);
+        $this->assertTrue($match->is_neutral, 'stade anglais, ni France ni Nouvelle-Zélande');
+        $this->assertSame($competition->id, $match->edition->competition_id);
+        $this->assertSame(2026, $match->edition->year);
+        $this->assertSame(MatchStage::FINALE, $match->stage);
+        $this->assertGreaterThan(0, $match->lineups()->count());
+    }
+
+    public function test_existing_match_gets_venue_and_home_flag(): void
+    {
+        $venue = Venue::factory()->create(['name' => 'Stade de France', 'country_id' => $this->france->id]);
+        $this->match->update(['is_home' => false]);
+
+        $this->import(['venue' => 'Stade de France'] + $this->fixture());
+
+        $this->match->refresh();
+        $this->assertSame($venue->id, $this->match->venue_id);
+        $this->assertTrue($this->match->is_home);
+        $this->assertFalse($this->match->is_neutral);
     }
 
     public function test_invalid_data_is_rejected(): void
@@ -163,7 +207,7 @@ class MatchImportServiceTest extends TestCase
 
     public function test_imports_match_info_fields(): void
     {
-        $eng = Country::factory()->create(['code' => 'ENG']);
+        $eng = Country::where('code', 'ENG')->sole();
 
         $this->import([
             'referee' => 'Luke Pearce',

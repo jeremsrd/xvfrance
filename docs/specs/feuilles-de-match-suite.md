@@ -18,9 +18,13 @@
 - Le JSON accepte depuis le 04/10/2026 les champs de match : arbitre et son pays, affluence, heure du
   coup d'envoi, météo (voir `docs/specs/import-match-data.md`). Renseignés pour NZL–FRA et AUS–FRA 2026.
 
+- Depuis le 04/10/2026, un match absent de la base est **créé par l'import du JSON** (stade, compétition,
+  phase, scores) : plus besoin de l'admin ni de `results.csv` pour un nouveau match.
+
 ## Publier une feuille de match
 
-1. Écrire ou modifier le JSON (format : `docs/specs/import-match-data.md`).
+1. Écrire ou modifier le JSON (format : `docs/specs/import-match-data.md`). Pour un nouveau match,
+   ajouter `venue` (et `venue_city`, `venue_country_code` si le stade est nouveau), `competition`, `stage`.
 2. `php artisan xv:validate-match-data <fichier>` : 0 erreur exigée, avertissements à lire.
 3. En local : `php artisan xv:import-match-data <fichier> --changed`.
 4. Commiter le JSON, puis lancer `./deploy.sh`. Le serveur réimporte uniquement les JSON nouveaux

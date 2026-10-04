@@ -112,6 +112,29 @@ Placés au premier niveau, après les scores :
 Un champ **absent** ne modifie pas la base (les valeurs venues du CSV ou de l'admin sont conservées).
 Un champ présent à `null` efface la valeur.
 
+### Contexte du match et création (optionnels)
+
+```json
+  "venue": "Allianz Stadium",
+  "venue_city": "Londres",
+  "venue_country_code": "ENG",
+  "competition": "Championnat des Nations",
+  "stage": "finale",
+```
+
+| Champ | Format |
+|-------|--------|
+| `venue` | nom exact d'un stade en base ; sinon le stade est créé |
+| `venue_city`, `venue_country_code` | requis seulement si le stade n'est pas en base |
+| `competition` | `short_name` d'une compétition en base ; l'édition (compétition + année) est créée si besoin |
+| `stage` | valeur de `MatchStage` |
+
+`is_home` et `is_neutral` se déduisent du pays du stade (France → domicile ; ni France ni adversaire → neutre).
+
+**Match absent de la base** (même date, même adversaire) : il est créé à l'import, avec les scores du JSON.
+`france_score`, `opponent_score` et `venue` sont alors obligatoires. Pas besoin de passer par l'admin
+ni par `results.csv`. Pour un match existant, les champs présents mettent à jour le match.
+
 ### Fichier multi-matchs
 
 ```json

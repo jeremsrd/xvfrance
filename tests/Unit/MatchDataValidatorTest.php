@@ -3,6 +3,7 @@
 namespace Tests\Unit;
 
 use App\Models\Country;
+use App\Models\RugbyMatch;
 use App\Services\MatchDataValidator;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\TestCase;
@@ -17,7 +18,8 @@ class MatchDataValidatorTest extends TestCase
     {
         parent::setUp();
 
-        Country::factory()->create(['code' => 'NZL']);
+        $nzl = Country::factory()->create(['code' => 'NZL']);
+        RugbyMatch::factory()->create(['match_date' => '2024-11-16', 'opponent_id' => $nzl->id]);
         $this->validator = new MatchDataValidator();
     }
 
@@ -107,6 +109,29 @@ class MatchDataValidatorTest extends TestCase
         ], $this->validator->errors());
     }
 
+    public function test_new_match_requires_scores_and_venue(): void
+    {
+        $data = ['match_date' => '2024-11-23'] + $this->validData();
+        unset($data['france_score']);
+
+        $this->assertFalse($this->validator->validate($data));
+        $this->assertEqualsCanonicalizing([
+            'france_score requis pour créer le match (absent de la base)',
+            'venue requis pour créer le match (absent de la base)',
+        ], $this->validator->errors());
+    }
+
+    public function test_new_venue_requires_city_and_country(): void
+    {
+        $data = ['venue' => 'Stade inconnu', 'competition' => 'Inconnue', 'stage' => 'barrage'] + $this->validData();
+
+        $this->assertFalse($this->validator->validate($data));
+        $this->assertContains('venue_city requis pour un stade absent de la base (Stade inconnu)', $this->validator->errors());
+        $this->assertContains('venue_country_code requis et connu en base pour un stade absent de la base (Stade inconnu)', $this->validator->errors());
+        $this->assertContains('stage invalide : "barrage"', $this->validator->errors());
+        $this->assertCount(4, $this->validator->errors());
+    }
+
     public function test_rejects_duplicate_and_out_of_range_jerseys(): void
     {
         $data = $this->validData();
@@ -177,6 +202,7 @@ class MatchDataValidatorTest extends TestCase
     public function test_penalty_try_is_worth_seven_points_since_2017_only(): void
     {
         // En 2010 : essai de pénalité = 5 points (transformation à part)
+        RugbyMatch::factory()->create(['match_date' => '2010-11-13', 'opponent_id' => Country::where('code', 'NZL')->value('id')]);
         $this->assertFalse($this->validator->validate(['match_date' => '2010-11-13'] + $this->validData()));
         $this->assertSame(['adversaire : les événements totalisent 5 points pour un score de 7'], $this->validator->errors());
     }

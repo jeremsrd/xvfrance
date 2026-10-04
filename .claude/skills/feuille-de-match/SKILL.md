@@ -25,9 +25,11 @@ sqlite3 database/database.sqlite "select m.id, m.match_date, c.code, m.france_sc
 ls database/data/matches/<année>/ | grep <date>
 ```
 
-- **Match absent de la base** : s'arrêter. Le match doit d'abord être créé (admin Filament `/admin`,
-  en local **et** en production, car `deploy.sh` n'importe que les feuilles JSON), et la ligne ajoutée
-  à `database/data/sources/results.csv`. Proposer de le faire, puis reprendre.
+- **Match absent de la base** : il sera créé par l'import du JSON. Ajouter alors au JSON `venue`
+  (nom exact d'un stade en base : `sqlite3 database/database.sqlite "select name, city from venues where name like '%<nom>%' or city like '%<ville>%'"`),
+  ou un nouveau stade avec `venue_city` et `venue_country_code` ; `competition` (short_name de la table
+  `competitions`, ex. « Championnat des Nations », « Tests d'automne ») ; `stage` (`journee`, `test`,
+  `finale`…, comme les autres matches de la compétition). Le score vient de l'encadré Wikipédia.
 - **Feuille déjà existante** : la relire et ne compléter ou corriger que ce qui manque ou est faux.
 - Fichier : `database/data/matches/<année>/<date>-<CODE>.json`.
 
@@ -69,7 +71,8 @@ sqlite3 database/database.sqlite "select first_name, last_name from players p jo
 ## 4. Écrire le JSON
 
 Ordre des clés (comme les feuilles existantes, une ligne par joueur) :
-`match_date`, `opponent_code`, `france_score`, `opponent_score`, puis les champs de match connus
+`match_date`, `opponent_code`, `france_score`, `opponent_score`, puis (nouveau match) `venue`,
+`venue_city`, `venue_country_code`, `competition`, `stage`, puis les champs de match connus
 (`referee`, `referee_country_code`, `attendance`, `kickoff_time`, `weather`), puis `lineups`
 (`france`, `adversaire`), `events`, `substitutions`.
 
@@ -97,6 +100,6 @@ curl -sk https://xvfrance.test/matches/<slug> | grep -c "<nom d'un marqueur>"
 
 ## 7. Compte rendu, puis commit et déploiement sur accord
 
-Résumer : sources utilisées, ce qui manque (minutes, affluence…), joueurs créés, avertissements.
+Résumer : match ou stade créés, sources utilisées, ce qui manque (minutes, affluence…), joueurs créés, avertissements.
 Proposer ensuite de commiter le JSON (`data: feuille de match <date> <adversaire>`) et de lancer
 `./deploy.sh` ; **attendre l'accord** de l'utilisateur avant de le faire.

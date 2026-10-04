@@ -3,14 +3,18 @@
 namespace App\Services;
 
 use App\Enums\EventType;
+use App\Enums\MatchStage;
 use App\Enums\PlayerPosition;
 use App\Enums\TeamSide;
+use App\Models\Competition;
+use App\Models\CompetitionEdition;
 use App\Models\Country;
 use App\Models\MatchEvent;
 use App\Models\MatchLineup;
 use App\Models\MatchSubstitution;
 use App\Models\Player;
 use App\Models\RugbyMatch;
+use App\Models\Venue;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
 
@@ -92,33 +96,31 @@ class MatchImportService
             ->where('opponent_id', $country->id)
             ->first();
 
-        if (!$match) {
-            $this->warn("Match non trouvé en base : {$label} — skippé");
-            $this->matchesSkipped++;
-            return;
-        }
+        if ($match) {
+            $this->info("Match trouvé : France {$match->france_score}-{$match->opponent_score} {$country->name} (id: {$match->id})");
 
-        $this->info("Match trouvé : France {$match->france_score}-{$match->opponent_score} {$country->name} (id: {$match->id})");
-
-        // Vérification score
-        if (isset($data['france_score']) && $data['france_score'] !== $match->france_score) {
-            $this->warn("Score France diffère : JSON={$data['france_score']} vs BDD={$match->france_score}");
-        }
-        if (isset($data['opponent_score']) && $data['opponent_score'] !== $match->opponent_score) {
-            $this->warn("Score adversaire diffère : JSON={$data['opponent_score']} vs BDD={$match->opponent_score}");
+            // Vérification score
+            if (isset($data['france_score']) && $data['france_score'] !== $match->france_score) {
+                $this->warn("Score France diffère : JSON={$data['france_score']} vs BDD={$match->france_score}");
+            }
+            if (isset($data['opponent_score']) && $data['opponent_score'] !== $match->opponent_score) {
+                $this->warn("Score adversaire diffère : JSON={$data['opponent_score']} vs BDD={$match->opponent_score}");
+            }
+        } else {
+            $this->info("Match absent de la base : il sera créé (France {$data['france_score']}-{$data['opponent_score']} {$country->name})");
         }
 
         // Étape 2 — Vérification données existantes
-        $hasLineups = $match->lineups()->count() > 0;
-        $hasEvents = $match->events()->count() > 0;
-        $hasSubs = $match->substitutions()->count() > 0;
+        $hasLineups = $match?->lineups()->exists() ?? false;
+        $hasEvents = $match?->events()->exists() ?? false;
+        $hasSubs = $match?->substitutions()->exists() ?? false;
         $hasExisting = $hasLineups || $hasEvents || $hasSubs;
 
         // Empreinte indépendante de la mise en forme du fichier
         $checksum = hash('sha256', json_encode($data));
 
         if ($changedOnly) {
-            if ($hasExisting && $match->source_checksum === $checksum) {
+            if ($hasExisting && $match?->source_checksum === $checksum) {
                 $this->info("Feuille de match inchangée — skippée (--changed)");
                 $this->matchesSkipped++;
                 return;
@@ -145,6 +147,12 @@ class MatchImportService
         }
 
         DB::transaction(function () use ($match, $data, $country, $force, $hasLineups, $hasEvents, $hasSubs, $checksum) {
+            if (!$match) {
+                $match = $this->createMatch($data, $country);
+            } else {
+                $this->applyMatchContext($match, $data, $country);
+            }
+
             // Suppression des données existantes si --force
             if ($force) {
                 if ($hasLineups) {
@@ -184,6 +192,64 @@ class MatchImportService
         $this->playerResolver->resetLog();
 
         $this->matchesImported++;
+    }
+
+    private function createMatch(array $data, Country $opponent): RugbyMatch
+    {
+        $match = new RugbyMatch([
+            'match_date' => $data['match_date'],
+            'opponent_id' => $opponent->id,
+            'france_score' => $data['france_score'],
+            'opponent_score' => $data['opponent_score'],
+        ]);
+        $this->applyMatchContext($match, $data, $opponent);
+        $match->save();
+
+        $this->info("Match créé : {$match->slug} (id: {$match->id})");
+
+        return $match;
+    }
+
+    /**
+     * Stade, compétition, phase : seuls les champs présents dans le JSON sont écrits.
+     * Domicile et terrain neutre se déduisent du pays du stade.
+     */
+    private function applyMatchContext(RugbyMatch $match, array $data, Country $opponent): void
+    {
+        if (isset($data['venue'])) {
+            $venue = Venue::where('name', $data['venue'])->first();
+            if (!$venue) {
+                $venue = Venue::create([
+                    'name' => $data['venue'],
+                    'city' => $data['venue_city'],
+                    'country_id' => Country::where('code', $data['venue_country_code'])->value('id'),
+                ]);
+                $this->warn("Stade créé : {$venue->name}, {$venue->city} (coordonnées à ajouter dans venue_coordinates.csv)");
+            }
+
+            $france = $this->getFranceCountry();
+            $match->venue_id = $venue->id;
+            $match->is_home = $venue->country_id === $france->id;
+            $match->is_neutral = $venue->country_id !== null
+                && !in_array($venue->country_id, [$france->id, $opponent->id], true);
+        }
+
+        if (isset($data['competition'])) {
+            $competition = Competition::where('short_name', $data['competition'])->firstOrFail();
+            $year = (int) substr($data['match_date'], 0, 4);
+            $match->edition_id = CompetitionEdition::firstOrCreate(
+                ['competition_id' => $competition->id, 'year' => $year],
+                ['label' => "{$competition->name} {$year}"],
+            )->id;
+        }
+
+        if (isset($data['stage'])) {
+            $match->stage = MatchStage::from($data['stage']);
+        }
+
+        if ($match->exists && $match->isDirty()) {
+            $this->info('Contexte du match mis à jour : ' . implode(', ', array_keys($match->getDirty())));
+        }
     }
 
     /**

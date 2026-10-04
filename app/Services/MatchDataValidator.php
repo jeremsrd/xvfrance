@@ -3,9 +3,13 @@
 namespace App\Services;
 
 use App\Enums\EventType;
+use App\Enums\MatchStage;
 use App\Enums\PlayerPosition;
+use App\Models\Competition;
 use App\Models\Country;
 use App\Models\Player;
+use App\Models\RugbyMatch;
+use App\Models\Venue;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Str;
 
@@ -23,6 +27,7 @@ class MatchDataValidator
         $this->validateOpponentCode($data);
         $this->validateScores($data);
         $this->validateMatchInfo($data);
+        $this->validateMatchContext($data);
         $this->validateLineups($data);
         $this->validateEvents($data);
         $this->validateSubstitutions($data);
@@ -103,6 +108,52 @@ class MatchDataValidator
             }
             if (!is_string($data['referee_country_code']) || !Country::where('code', $data['referee_country_code'])->exists()) {
                 $this->errors[] = 'referee_country_code inconnu en base : ' . json_encode($data['referee_country_code']);
+            }
+        }
+    }
+
+    /**
+     * Stade, compétition, phase. Un match absent de la base est créé à l'import :
+     * il lui faut alors les scores et le stade.
+     */
+    private function validateMatchContext(array $data): void
+    {
+        if (isset($data['competition']) && !Competition::where('short_name', $data['competition'])->exists()) {
+            $this->errors[] = 'competition inconnue en base : ' . json_encode($data['competition'])
+                . ' (attendu : ' . Competition::pluck('short_name')->implode(', ') . ')';
+        }
+
+        if (isset($data['stage']) && !MatchStage::tryFrom($data['stage'])) {
+            $this->errors[] = 'stage invalide : ' . json_encode($data['stage']);
+        }
+
+        if (isset($data['venue'])) {
+            if (!is_string($data['venue']) || trim($data['venue']) === '') {
+                $this->errors[] = 'venue doit être un texte non vide';
+            } elseif (!Venue::where('name', $data['venue'])->exists()) {
+                // Nouveau stade : il sera créé, avec sa ville et son pays
+                if (empty($data['venue_city'])) {
+                    $this->errors[] = "venue_city requis pour un stade absent de la base ({$data['venue']})";
+                }
+                if (empty($data['venue_country_code']) || !Country::where('code', $data['venue_country_code'])->exists()) {
+                    $this->errors[] = "venue_country_code requis et connu en base pour un stade absent de la base ({$data['venue']})";
+                }
+            }
+        }
+
+        if (empty($data['match_date']) || empty($data['opponent_code']) || !empty($this->errors)) {
+            return;
+        }
+
+        $exists = RugbyMatch::whereDate('match_date', $data['match_date'])
+            ->whereHas('opponent', fn ($q) => $q->where('code', $data['opponent_code']))
+            ->exists();
+
+        if (!$exists) {
+            foreach (['france_score', 'opponent_score', 'venue'] as $field) {
+                if (!isset($data[$field])) {
+                    $this->errors[] = "{$field} requis pour créer le match (absent de la base)";
+                }
             }
         }
     }
