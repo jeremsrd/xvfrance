@@ -1,6 +1,6 @@
 # Feuilles de match : état et suite
 
-État au 04/10/2026.
+État au 05/10/2026.
 
 ## Où on en est
 
@@ -20,6 +20,10 @@
 
 - Depuis le 04/10/2026, un match absent de la base est **créé par l'import du JSON** (stade, compétition,
   phase, scores) : plus besoin de l'admin ni de `results.csv` pour un nouveau match.
+
+- Le 05/10/2026 : 13 JSON minimaux (score, stade, phase, sans composition) ont créé des matches officiels
+  absents de la base, et la base compte les **839 matches officiels** de la liste Wikipédia. Il y a 35 JSON
+  en tout ; ils passent tous la validation.
 
 ## Publier une feuille de match
 
@@ -56,13 +60,18 @@ Pages utiles : « 20XX Six Nations Championship », « 20XX end-of-year rugby un
 
 Les **compositions et remplacements** ne figurent pas dans les encadrés Wikipédia. Il faut une recherche web
 (sites FFR, RugbyPass, allrugby, fédérations), qui reste le poste le plus coûteux.
+Pour les matches passés, les pages d'equipe-france.fr en cache les donnent (voir
+`feuilles-historiques-equipe-france.md`), mais pas les remplacements avec leur minute.
 
 ## Prochaines étapes proposées
 
-1. **Commande de projet `/feuille-de-match <date>`** : méthode figée, avec les points par les scripts
-   Wikipédia et les compositions et remplacements par une recherche ciblée, puis validation.
-2. **Matches historiques (~800)** : trouver une source structurée à récupérer automatiquement
-   (ESPN Statsguru, allrugby…), car la méthode au cas par cas ne tient pas à cette échelle.
-3. Points connus mais non corrigés :
-   - ~~Accents dans `PlayerResolverService`~~ : corrigé le 05/10/2026, « Jegou » retrouve « Jégou ».
-   - Pas de classement aux points dans les records individuels, en attendant d'avoir plus de feuilles complètes.
+1. **Feuilles historiques depuis equipe-france.fr** (prochain chantier) : les 844 pages de match sont en cache
+   avec compositions des deux équipes, capitaines, marqueurs et arbitre. Spec et plan :
+   `docs/specs/feuilles-historiques-equipe-france.md`.
+2. **13 matches sans composition**, créés le 05/10/2026 par des JSON minimaux (1940, 1978, 1987, 1989, 1998, 2003,
+   2004 ×3, 2005, 2008, 2009, 2024) : à compléter, idéalement par le chantier 1.
+3. **Matches de novembre 2026** (07/11 Fidji, 13/11 Afrique du Sud, 21/11 Argentine) : `/feuille-de-match`.
+4. **58 matches sans stade** : la liste Wikipédia (`docs/sources.md`) donne un lieu pour chaque match.
+5. Pas de classement aux points dans les records individuels, en attendant plus de feuilles complètes.
+
+Référence des matches officiels (839 au 05/10/2026) et limites de chaque source : `docs/sources.md`.

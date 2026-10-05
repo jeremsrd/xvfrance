@@ -46,7 +46,8 @@ Utilisé par :
   ou phase, lieu), appliqué par `xv:apply-equipe-france` (phase, numéro de journée, stade quand ils manquent).
 
 Les pages téléchargées sont gardées en cache dans `storage/app/equipe-france/` (hors git). Les pages de match
-donnent aussi l'arbitre et les marqueurs, ce qui est une piste pour les feuilles de match historiques.
+donnent aussi les compositions des deux équipes, l'arbitre et les marqueurs : c'est la source du prochain chantier
+(`docs/specs/feuilles-historiques-equipe-france.md`).
 
 Limites constatées : la liste du site n'est **pas** la liste officielle.
 
