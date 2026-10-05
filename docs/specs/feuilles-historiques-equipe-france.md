@@ -1,6 +1,6 @@
 # Feuilles de match historiques depuis equipe-france.fr
 
-État au 05/10/2026 : **feuilles générées et importées en local** (834 matches détaillés sur 839).
+État au 06/10/2026 : **feuilles générées, importées et déployées** (834 matches détaillés sur 839).
 Reste à reprendre à la main les points de 29 matches (voir « Reste à faire »).
 
 ## Objectif
@@ -94,7 +94,6 @@ exacts pour 51 côtés sur 58. Le site se trompe parfois sur le capitaine ou l'o
 
 ## Reste à faire
 
-- **Déployer** (commit puis `./deploy.sh` : migration, import `--changed` des 811 JSON, postes principaux).
 - **29 matches sans points** : les points du site ne donnent pas le score de la base (comptes doublés, points
   manquants, Coupe du monde 2019 vide). À reprendre par les scripts Wikipédia ou à la main :
   1925-04-13 ENG, 1927-05-15 GER, 1936-05-17 GER, 1954-04-24 ITA, 1963-12-15 ROU, 1976-06-12 USA,

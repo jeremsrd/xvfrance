@@ -1,6 +1,7 @@
 # Feuilles de match : état et suite
 
-État au 05/10/2026.
+État au 05/10/2026. **Dépassé** pour les chiffres : 834 matches sont détaillés depuis les feuilles historiques
+(voir `pistes-de-reprise.md`). La méthode Wikipédia décrite ici reste celle des 29 matches sans points.
 
 ## Où on en est
 
