@@ -22,7 +22,8 @@ class ImportInternationaux extends Command
         {file=database/data/sources/internationaux_encyclo.csv : Liste des internationaux}
         {--mapping=database/data/sources/internationaux_correspondances.csv : Correspondances manuelles}
         {--dry-run : Afficher les changements sans les appliquer}
-        {--report : Lister les internationaux non rapprochés}';
+        {--report : Lister les internationaux non rapprochés}
+        {--ecarts= : Écrire dans ce CSV les noms différents entre la base et la liste}';
 
     protected $description = 'Complète numéro d\'international et date de naissance des joueurs français (liste arrêtée en 2016)';
 
@@ -71,7 +72,9 @@ class ImportInternationaux extends Command
                     $stats['cap_number']++;
                 }
                 if ($this->normalize($player->first_name . $player->last_name) !== $this->normalize($row['first_name'] . $row['last_name'])) {
-                    $names[] = [$row['cap_number'], $player->fullName(), trim("{$row['first_name']} {$row['last_name']}")];
+                    $names[] = [$row['cap_number'], $player->fullName(), trim("{$row['first_name']} {$row['last_name']}"),
+                        $player->first_name, $player->last_name, $row['first_name'], $row['last_name'], $row['years'],
+                        $candidates->first()['from'] . '-' . $candidates->first()['to']];
                 }
                 if ($player->birth_date === null && $row['birth_date'] !== '') {
                     $player->birth_date = $row['birth_date'];
@@ -92,7 +95,16 @@ class ImportInternationaux extends Command
         }
         if ($names && $this->option('report')) {
             $this->warn(count($names) . ' nom(s) différent(s) entre la base et la liste :');
-            $this->table(['N°', 'Base', 'Liste'], $names);
+            $this->table(['N°', 'Base', 'Liste'], array_map(fn ($n) => array_slice($n, 0, 3), $names));
+        }
+        if ($names && $this->option('ecarts')) {
+            $handle = fopen($this->path($this->option('ecarts')), 'w');
+            fputcsv($handle, ['cap_number', 'base_first_name', 'base_last_name', 'liste_first_name', 'liste_last_name', 'liste_annees', 'base_annees'], escape: '');
+            foreach ($names as $n) {
+                fputcsv($handle, [$n[0], ...array_slice($n, 3)], escape: '');
+            }
+            fclose($handle);
+            $this->info(count($names) . ' écart(s) de nom écrits dans ' . $this->option('ecarts'));
         }
         if ($conflicts) {
             $this->warn(count($conflicts) . ' conflit(s) :');
