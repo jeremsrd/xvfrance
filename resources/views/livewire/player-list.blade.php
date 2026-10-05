@@ -97,9 +97,13 @@
                         @endif
                         <li wire:key="p-{{ $player->id }}">
                             <a href="{{ route('players.show', $player) }}" class="group flex h-full items-center gap-4 rounded-2xl border border-filet bg-white p-4 hover:border-encre/30 focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-bleu-france">
-                                <span class="flex h-12 w-12 shrink-0 items-center justify-center rounded-full font-display text-lg font-bold {{ $isFrench ? 'bg-bleu-france text-white' : 'bg-papier-2 text-encre ring-1 ring-inset ring-filet' }}">
-                                    {{ $player->primary_position?->shortLabel() ?? mb_substr($player->last_name, 0, 1) }}
-                                </span>
+                                @if($player->photo_path)
+                                    <img src="{{ $player->photo_path }}" alt="" loading="lazy" class="h-12 w-12 shrink-0 rounded-full object-cover object-top ring-1 ring-filet">
+                                @else
+                                    <span class="flex h-12 w-12 shrink-0 items-center justify-center rounded-full font-display text-lg font-bold {{ $isFrench ? 'bg-bleu-france text-white' : 'bg-papier-2 text-encre ring-1 ring-inset ring-filet' }}">
+                                        {{ $player->primary_position?->shortLabel() ?? mb_substr($player->last_name, 0, 1) }}
+                                    </span>
+                                @endif
                                 <span class="min-w-0 flex-1">
                                     <span class="block truncate text-sm text-texte-2">{{ $player->first_name }}</span>
                                     <span class="block truncate font-display text-xl font-bold uppercase leading-tight text-encre group-hover:underline">{{ $player->last_name }}</span>

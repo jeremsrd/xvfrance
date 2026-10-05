@@ -63,6 +63,7 @@ Toutes les commandes du projet sont préfixées `xv:` (`php artisan list xv`).
 | `xv:import-match-data {path}` | Importe des JSON de feuilles de match (`--changed` : seulement ceux modifiés depuis le dernier import, utilisé par `deploy.sh`) |
 | `xv:import-internationaux` | Numéro d'international et date de naissance des Français d'après `internationaux_encyclo.csv` (liste arrêtée en 2016, `--report` : non rapprochés et noms différents) |
 | `xv:apply-name-corrections` | Renomme les joueurs français d'après les écarts de nom vérifiés (`noms_ecarts.csv`, par numéro d'international) |
+| `xv:import-player-photos` | Associe les portraits d'avant 1930 (`public/images/joueurs`, `player_photos.csv`) aux fiches |
 | `xv:compute-primary-positions` | Déduit le poste principal de chaque joueur du poste le plus joué dans ses compositions |
 
 Les feuilles historiques (1906 → 2023) sont générées par `python3 scripts/equipe_france/feuilles.py` à partir des
@@ -90,6 +91,7 @@ php artisan xv:import-match-data database/data/matches
 php artisan xv:compute-primary-positions
 php artisan xv:import-internationaux
 php artisan xv:apply-name-corrections
+php artisan xv:import-player-photos
 ```
 
 Les commandes `import-historical`, `clean-feminine` et `fix-venues` interrogent

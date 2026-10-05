@@ -40,7 +40,7 @@
         <div class="relative mx-auto flex max-w-6xl flex-col gap-8 px-4 pb-10 pt-6 sm:flex-row sm:items-center sm:px-6 lg:px-8 lg:pb-14 lg:pt-8">
             <div class="shrink-0">
                 @if($p->photo_path)
-                    <img src="{{ $p->photo_path }}" alt="Portrait de {{ $p->fullName() }}" class="h-40 w-40 rounded-2xl object-cover ring-1 ring-white/20">
+                    <img src="{{ $p->photo_path }}" alt="Portrait de {{ $p->fullName() }}" class="h-40 w-40 rounded-2xl object-cover object-top ring-1 ring-white/20">
                 @else
                     <x-player.shirt :number="$profile->favouriteJersey()" :france="$isFrench" class="h-32 w-32 drop-shadow-xl sm:h-40 sm:w-40" />
                 @endif
