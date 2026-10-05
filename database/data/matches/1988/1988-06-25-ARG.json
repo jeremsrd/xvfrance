@@ -1,0 +1,61 @@
+{
+  "match_date": "1988-06-25",
+  "opponent_code": "ARG",
+  "france_score": 6,
+  "opponent_score": 18,
+  "referee": "Owen Doyle",
+  "lineups": {
+    "france": [
+      {"jersey": 1, "first_name": "Pascal", "last_name": "Ondarts", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
+      {"jersey": 2, "first_name": "Philippe", "last_name": "Dintrans", "is_starter": true, "position": "talonneur", "is_captain": false},
+      {"jersey": 3, "first_name": "Jean-Pierre", "last_name": "Garuet", "is_starter": true, "position": "pilier_droit", "is_captain": false},
+      {"jersey": 4, "first_name": "Alain", "last_name": "Lorieux", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 5, "first_name": "Jean", "last_name": "Condom", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 6, "first_name": "Marc", "last_name": "Cecillon", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 7, "first_name": "Laurent", "last_name": "Rodriguez", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 8, "first_name": "Alain", "last_name": "Carminati", "is_starter": true, "position": "numero_huit", "is_captain": false},
+      {"jersey": 9, "first_name": "Pierre", "last_name": "Berbizier", "is_starter": true, "position": "demi_de_melee", "is_captain": true},
+      {"jersey": 10, "first_name": "Franck", "last_name": "Mesnel", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
+      {"jersey": 11, "first_name": "Patrice", "last_name": "Lagisquet", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 12, "first_name": "Marc", "last_name": "Andrieu", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 13, "first_name": "Philippe", "last_name": "Sella", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 14, "first_name": "Philippe", "last_name": "Berot", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 15, "first_name": "Serge", "last_name": "Blanco", "is_starter": true, "position": "arriere", "is_captain": false},
+      {"jersey": 16, "first_name": "Michel", "last_name": "Hondagné-Monge", "is_starter": false, "position": null, "is_captain": false}
+    ],
+    "adversaire": [
+      {"jersey": 1, "first_name": "Serafin", "last_name": "Dengra", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
+      {"jersey": 2, "first_name": "Andres", "last_name": "Courreges", "is_starter": true, "position": "talonneur", "is_captain": false},
+      {"jersey": 3, "first_name": "Diego", "last_name": "Cash", "is_starter": true, "position": "pilier_droit", "is_captain": false},
+      {"jersey": 4, "first_name": "Eliseo", "last_name": "Branca", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 5, "first_name": "Alejandro", "last_name": "Iachetti", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 6, "first_name": "Pablo", "last_name": "Garreton", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 7, "first_name": "Jorge", "last_name": "Allen", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": true},
+      {"jersey": 8, "first_name": "Gustavo", "last_name": "Milano", "is_starter": true, "position": "numero_huit", "is_captain": false},
+      {"jersey": 9, "first_name": "Daniel", "last_name": "Baetti Sabah", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
+      {"jersey": 10, "first_name": "Rafael", "last_name": "Madero", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
+      {"jersey": 11, "first_name": "Christian", "last_name": "Mendy", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 12, "first_name": "Fabian", "last_name": "Turnes", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 13, "first_name": "Marcelo", "last_name": "Loffreda", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 14, "first_name": "Diego", "last_name": "Cuesta Silva", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 15, "first_name": "Alejandro", "last_name": "Scolni", "is_starter": true, "position": "arriere", "is_captain": false},
+      {"jersey": 16, "first_name": "Marcelo", "last_name": "Urbano", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 17, "first_name": "Santiago", "last_name": "Meson", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 18, "first_name": "Alfredo", "last_name": "Soares-Gache", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 19, "first_name": "Joaquin", "last_name": "Uriarte", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 20, "first_name": "Gustavo", "last_name": "Maschwitz", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 21, "first_name": "Dardo", "last_name": "Gonzalez", "is_starter": false, "position": null, "is_captain": false}
+    ]
+  },
+  "events": [
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Baetti Sabah", "player_first_name": "Daniel", "minute": 13},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Berot", "player_first_name": "Philippe", "minute": 24},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Baetti Sabah", "player_first_name": "Daniel", "minute": 26},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Baetti Sabah", "player_first_name": "Daniel", "minute": 33},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Baetti Sabah", "player_first_name": "Daniel", "minute": 42},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Baetti Sabah", "player_first_name": "Daniel", "minute": 52},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Baetti Sabah", "player_first_name": "Daniel", "minute": 61},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Berot", "player_first_name": "Philippe", "minute": 65}
+  ],
+  "substitutions": []
+}

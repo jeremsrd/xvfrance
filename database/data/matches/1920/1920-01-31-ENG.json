@@ -1,0 +1,50 @@
+{
+  "match_date": "1920-01-31",
+  "opponent_code": "ENG",
+  "france_score": 3,
+  "opponent_score": 8,
+  "referee": "Wa Robertson",
+  "lineups": {
+    "france": [
+      {"jersey": 1, "first_name": "Marcel", "last_name": "Lubin-Lebrère", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
+      {"jersey": 2, "first_name": "Pierre", "last_name": "Pons", "is_starter": true, "position": "talonneur", "is_captain": false},
+      {"jersey": 3, "first_name": "Eugène", "last_name": "Soulie", "is_starter": true, "position": "pilier_droit", "is_captain": false},
+      {"jersey": 4, "first_name": "Louis", "last_name": "Puech", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 5, "first_name": "Aimé", "last_name": "Cassayet-Armagnac", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 6, "first_name": "Robert", "last_name": "Thierry", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 7, "first_name": "Joseph", "last_name": "Laurent", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 8, "first_name": "Abel", "last_name": "Guichemerre", "is_starter": true, "position": "numero_huit", "is_captain": false},
+      {"jersey": 9, "first_name": "Phillipe", "last_name": "Struxiano", "is_starter": true, "position": "demi_de_melee", "is_captain": true},
+      {"jersey": 10, "first_name": "Eugène", "last_name": "Billac", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
+      {"jersey": 11, "first_name": "Paul", "last_name": "Serre", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 12, "first_name": "René", "last_name": "Crabos", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 13, "first_name": "Jean", "last_name": "Lavigne", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 14, "first_name": "Adolphe", "last_name": "Jaureguy", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 15, "first_name": "Theophile", "last_name": "Cambre", "is_starter": true, "position": "arriere", "is_captain": false}
+    ],
+    "adversaire": [
+      {"jersey": 1, "first_name": "Sos", "last_name": "Taylor", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
+      {"jersey": 2, "first_name": "Geoffrey", "last_name": "Conway", "is_starter": true, "position": "talonneur", "is_captain": false},
+      {"jersey": 3, "first_name": "William", "last_name": "Wright", "is_starter": true, "position": "pilier_droit", "is_captain": false},
+      {"jersey": 4, "first_name": "George", "last_name": "Holford", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 5, "first_name": "Laurance", "last_name": "Merriam", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 6, "first_name": "Frank", "last_name": "Mellish", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 7, "first_name": "Jenny", "last_name": "Greenwood", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": true},
+      {"jersey": 8, "first_name": "Wavell", "last_name": "Wakefield", "is_starter": true, "position": "numero_huit", "is_captain": false},
+      {"jersey": 9, "first_name": "Cecil", "last_name": "Kershaw", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
+      {"jersey": 10, "first_name": "Dave", "last_name": "Davies", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
+      {"jersey": 11, "first_name": "Wilfrid", "last_name": "Lowry", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 12, "first_name": "Alistair", "last_name": "Smallwood", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 13, "first_name": "Ernie", "last_name": "Hammett", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 14, "first_name": "Cyril", "last_name": "Lowe", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 15, "first_name": "Harry", "last_name": "Millett", "is_starter": true, "position": "arriere", "is_captain": false}
+    ]
+  },
+  "events": [
+    {"team_side": "france", "type": "essai", "player_last_name": "Crabos", "player_first_name": "René", "minute": null},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Davies", "player_first_name": "Dave", "minute": null},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Greenwood", "player_first_name": "Jenny", "minute": null},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Greenwood", "player_first_name": "Jenny", "minute": null}
+  ],
+  "substitutions": []
+}

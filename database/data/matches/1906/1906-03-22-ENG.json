@@ -1,0 +1,62 @@
+{
+  "match_date": "1906-03-22",
+  "opponent_code": "ENG",
+  "france_score": 8,
+  "opponent_score": 35,
+  "referee": "Lo Dedet",
+  "lineups": {
+    "france": [
+      {"jersey": 1, "first_name": "Albert", "last_name": "Branlat", "is_starter": true, "position": null, "is_captain": false},
+      {"jersey": 2, "first_name": "Marcel", "last_name": "Communeau", "is_starter": true, "position": null, "is_captain": false},
+      {"jersey": 3, "first_name": "Jacques", "last_name": "Dufourcq", "is_starter": true, "position": null, "is_captain": false},
+      {"jersey": 4, "first_name": "Pierre", "last_name": "Gauderman", "is_starter": true, "position": null, "is_captain": false},
+      {"jersey": 5, "first_name": "Georges", "last_name": "Jérome", "is_starter": true, "position": null, "is_captain": false},
+      {"jersey": 6, "first_name": "", "last_name": "Maurin", "is_starter": true, "position": null, "is_captain": false},
+      {"jersey": 7, "first_name": "Alan", "last_name": "Muhr", "is_starter": true, "position": null, "is_captain": false},
+      {"jersey": 8, "first_name": "André", "last_name": "Vergès", "is_starter": true, "position": null, "is_captain": false},
+      {"jersey": 9, "first_name": "Albert", "last_name": "Hubert", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
+      {"jersey": 10, "first_name": "Théo", "last_name": "Varvier", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
+      {"jersey": 11, "first_name": "Émile", "last_name": "Lesieur", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 12, "first_name": "Paul", "last_name": "Maclos", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 13, "first_name": "", "last_name": "Lewis", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 14, "first_name": "Gaston", "last_name": "Lane", "is_starter": true, "position": "ailier", "is_captain": true},
+      {"jersey": 15, "first_name": "William", "last_name": "Crichton", "is_starter": true, "position": "arriere", "is_captain": false}
+    ],
+    "adversaire": [
+      {"jersey": 1, "first_name": "Lump", "last_name": "Cartwright", "is_starter": true, "position": null, "is_captain": true},
+      {"jersey": 2, "first_name": "Robert", "last_name": "Dibble", "is_starter": true, "position": null, "is_captain": false},
+      {"jersey": 3, "first_name": "John", "last_name": "Green", "is_starter": true, "position": null, "is_captain": false},
+      {"jersey": 4, "first_name": "Charles", "last_name": "Hammond", "is_starter": true, "position": null, "is_captain": false},
+      {"jersey": 5, "first_name": "Thomas", "last_name": "Hogarth", "is_starter": true, "position": null, "is_captain": false},
+      {"jersey": 6, "first_name": "Thomas", "last_name": "Kelly", "is_starter": true, "position": null, "is_captain": false},
+      {"jersey": 7, "first_name": "Alf", "last_name": "Kewney", "is_starter": true, "position": null, "is_captain": false},
+      {"jersey": 8, "first_name": "William", "last_name": "Mills", "is_starter": true, "position": null, "is_captain": false},
+      {"jersey": 9, "first_name": "Adrian", "last_name": "Stoop", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
+      {"jersey": 10, "first_name": "Darkie", "last_name": "Peters", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
+      {"jersey": 11, "first_name": "Arthur", "last_name": "Hudson", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 12, "first_name": "John", "last_name": "Birkett", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 13, "first_name": "Harry", "last_name": "Shewring", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 14, "first_name": "John", "last_name": "Raphael", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 15, "first_name": "Edward", "last_name": "Jackett", "is_starter": true, "position": "arriere", "is_captain": false}
+    ]
+  },
+  "events": [
+    {"team_side": "france", "type": "transformation", "player_last_name": "Branlat", "player_first_name": "Albert", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Lesieur", "player_first_name": "Émile", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Muhr", "player_first_name": "Alan", "minute": null},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Hogarth", "player_first_name": "Thomas", "minute": null},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Hudson", "player_first_name": "Arthur", "minute": null},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Hudson", "player_first_name": "Arthur", "minute": null},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Hudson", "player_first_name": "Arthur", "minute": null},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Hudson", "player_first_name": "Arthur", "minute": null},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Kewney", "player_first_name": "Alf", "minute": null},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Mills", "player_first_name": "William", "minute": null},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Peters", "player_first_name": "Darkie", "minute": null},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Stoop", "player_first_name": "Adrian", "minute": null},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Cartwright", "player_first_name": "Lump", "minute": null},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Cartwright", "player_first_name": "Lump", "minute": null},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Cartwright", "player_first_name": "Lump", "minute": null},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Cartwright", "player_first_name": "Lump", "minute": null}
+  ],
+  "substitutions": []
+}

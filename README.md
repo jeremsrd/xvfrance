@@ -61,6 +61,10 @@ Toutes les commandes du projet sont préfixées `xv:` (`php artisan list xv`).
 | `xv:generate-slugs` | Génère les slugs manquants (matches, joueurs) |
 | `xv:validate-match-data {path}` | Valide des JSON de feuilles de match (dont points = score selon le barème de l'époque, cohérence des remplacements, noms proches d'un joueur existant) |
 | `xv:import-match-data {path}` | Importe des JSON de feuilles de match (`--changed` : seulement ceux modifiés depuis le dernier import, utilisé par `deploy.sh`) |
+| `xv:compute-primary-positions` | Déduit le poste principal de chaque joueur du poste le plus joué dans ses compositions |
+
+Les feuilles historiques (1906 → 2023) sont générées par `python3 scripts/equipe_france/feuilles.py` à partir des
+pages equipe-france.fr en cache (voir `docs/specs/feuilles-historiques-equipe-france.md`).
 
 ### Reconstruire la base de zéro
 
@@ -79,6 +83,7 @@ php artisan xv:import-venue-coordinates
 php artisan xv:seed-1906
 php artisan xv:generate-slugs
 php artisan xv:import-match-data database/data/matches
+php artisan xv:compute-primary-positions
 ```
 
 Les commandes `import-historical`, `clean-feminine` et `fix-venues` interrogent

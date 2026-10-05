@@ -1,0 +1,60 @@
+{
+  "match_date": "1973-10-27",
+  "opponent_code": "JPN",
+  "france_score": 30,
+  "opponent_score": 18,
+  "referee": "Meirion Joseph",
+  "lineups": {
+    "france": [
+      {"jersey": 1, "first_name": "Jean", "last_name": "Iracabal", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
+      {"jersey": 2, "first_name": "René", "last_name": "Benesis", "is_starter": true, "position": "talonneur", "is_captain": false},
+      {"jersey": 3, "first_name": "Jacques", "last_name": "Rougerie", "is_starter": true, "position": "pilier_droit", "is_captain": false},
+      {"jersey": 4, "first_name": "Elie", "last_name": "Cester", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 5, "first_name": "Michel", "last_name": "Sappa", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 6, "first_name": "Victor", "last_name": "Boffelli", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 7, "first_name": "Jean-Claude", "last_name": "Skrela", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 8, "first_name": "Olivier", "last_name": "Saisset", "is_starter": true, "position": "numero_huit", "is_captain": false},
+      {"jersey": 9, "first_name": "Max", "last_name": "Barrau", "is_starter": true, "position": "demi_de_melee", "is_captain": true},
+      {"jersey": 10, "first_name": "Henri", "last_name": "Cabrol", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
+      {"jersey": 11, "first_name": "Roland", "last_name": "Bertranne", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 12, "first_name": "Gilles", "last_name": "Delaigue", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 13, "first_name": "Jo", "last_name": "Maso", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 14, "first_name": "Noël", "last_name": "Seguier", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 15, "first_name": "Jean-Michel", "last_name": "Aguirre", "is_starter": true, "position": "arriere", "is_captain": false}
+    ],
+    "adversaire": [
+      {"jersey": 1, "first_name": "Susumu", "last_name": "Hara", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
+      {"jersey": 2, "first_name": "Kazumi", "last_name": "Ohigashi", "is_starter": true, "position": "talonneur", "is_captain": false},
+      {"jersey": 3, "first_name": "Masaki", "last_name": "Shimosono", "is_starter": true, "position": "pilier_droit", "is_captain": false},
+      {"jersey": 4, "first_name": "Hiroshi", "last_name": "Ogasawara", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 5, "first_name": "Toshio", "last_name": "Terai", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 6, "first_name": "Yoshiaki", "last_name": "Izawa", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 7, "first_name": "Junji", "last_name": "Yoshida", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 8, "first_name": "Hideo", "last_name": "Akama", "is_starter": true, "position": "numero_huit", "is_captain": false},
+      {"jersey": 9, "first_name": "Ryozo", "last_name": "Imazato", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
+      {"jersey": 10, "first_name": "Masakatsu", "last_name": "Iguchi", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
+      {"jersey": 11, "first_name": "Yoshihiro", "last_name": "Sakata", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 12, "first_name": "Akira", "last_name": "Yokoi", "is_starter": true, "position": "centre", "is_captain": true},
+      {"jersey": 13, "first_name": "Bunji", "last_name": "Shimazaki", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 14, "first_name": "Tadayuki", "last_name": "Ito", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 15, "first_name": "Nobuyuki", "last_name": "Ueyama", "is_starter": true, "position": "arriere", "is_captain": false}
+    ]
+  },
+  "events": [
+    {"team_side": "france", "type": "essai", "player_last_name": "Aguirre", "player_first_name": "Jean-Michel", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Bertranne", "player_first_name": "Roland", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Skrela", "player_first_name": "Jean-Claude", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Barrau", "player_first_name": "Max", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Saisset", "player_first_name": "Olivier", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Delaigue", "player_first_name": "Gilles", "minute": null},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Cabrol", "player_first_name": "Henri", "minute": null},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Cabrol", "player_first_name": "Henri", "minute": null},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Cabrol", "player_first_name": "Henri", "minute": null},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Ueyama", "player_first_name": "Nobuyuki", "minute": null},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Shimazaki", "player_first_name": "Bunji", "minute": null},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Ohigashi", "player_first_name": "Kazumi", "minute": null},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Sakata", "player_first_name": "Yoshihiro", "minute": null},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Shimazaki", "player_first_name": "Bunji", "minute": null}
+  ],
+  "substitutions": []
+}

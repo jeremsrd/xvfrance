@@ -1,0 +1,49 @@
+{
+  "match_date": "1945-12-22",
+  "opponent_code": "WAL",
+  "france_score": 0,
+  "opponent_score": 8,
+  "referee": "As Bean",
+  "lineups": {
+    "france": [
+      {"jersey": 1, "first_name": "Jean", "last_name": "Massare", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
+      {"jersey": 2, "first_name": "Marcel", "last_name": "Volot", "is_starter": true, "position": "talonneur", "is_captain": false},
+      {"jersey": 3, "first_name": "Jean", "last_name": "Prin-Clary", "is_starter": true, "position": "pilier_droit", "is_captain": false},
+      {"jersey": 4, "first_name": "Alban", "last_name": "Moga", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 5, "first_name": "Robert", "last_name": "Soro", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 6, "first_name": "Jean", "last_name": "Matheu-Cambas", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 7, "first_name": "Jean", "last_name": "Prat", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 8, "first_name": "Guy", "last_name": "Basquet", "is_starter": true, "position": "numero_huit", "is_captain": false},
+      {"jersey": 9, "first_name": "Yves", "last_name": "Bergougnan", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
+      {"jersey": 10, "first_name": "Maurice", "last_name": "Terreau", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
+      {"jersey": 11, "first_name": "Henri", "last_name": "Dutrain", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 12, "first_name": "Louis", "last_name": "Junquas", "is_starter": true, "position": "centre", "is_captain": true},
+      {"jersey": 13, "first_name": "Georges", "last_name": "Baladie", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 14, "first_name": "Elie", "last_name": "Pebeyre", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 15, "first_name": "Lucien", "last_name": "Rouffia", "is_starter": true, "position": "arriere", "is_captain": false}
+    ],
+    "adversaire": [
+      {"jersey": 1, "first_name": "M", "last_name": "Jammes", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
+      {"jersey": 2, "first_name": "Elwyn", "last_name": "Gwyther", "is_starter": true, "position": "talonneur", "is_captain": false},
+      {"jersey": 3, "first_name": "Griff", "last_name": "Bevan", "is_starter": true, "position": "pilier_droit", "is_captain": false},
+      {"jersey": 4, "first_name": "Wilf", "last_name": "Evans", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 5, "first_name": "S", "last_name": "Davies", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 6, "first_name": "Les", "last_name": "Manfield", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 7, "first_name": "Bob", "last_name": "Evans", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 8, "first_name": "E", "last_name": "Jones", "is_starter": true, "position": "numero_huit", "is_captain": false},
+      {"jersey": 9, "first_name": "Haydn", "last_name": "Tanner", "is_starter": true, "position": "demi_de_melee", "is_captain": true},
+      {"jersey": 10, "first_name": "Billy", "last_name": "Cleaver", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
+      {"jersey": 11, "first_name": "Graham", "last_name": "Hale", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 12, "first_name": "Bleddyn", "last_name": "Williams", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 13, "first_name": "Jack", "last_name": "Matthews", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 14, "first_name": "Glyn", "last_name": "Jones", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 15, "first_name": "R", "last_name": "Lloyd-Davies", "is_starter": true, "position": "arriere", "is_captain": false}
+    ]
+  },
+  "events": [
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Jammes", "player_first_name": "M", "minute": null},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Davies", "player_first_name": "S", "minute": null},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Matthews", "player_first_name": "Jack", "minute": null}
+  ],
+  "substitutions": []
+}

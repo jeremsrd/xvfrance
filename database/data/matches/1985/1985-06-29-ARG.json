@@ -1,0 +1,58 @@
+{
+  "match_date": "1985-06-29",
+  "opponent_code": "ARG",
+  "france_score": 23,
+  "opponent_score": 15,
+  "lineups": {
+    "france": [
+      {"jersey": 1, "first_name": "Hervé", "last_name": "Chabowski", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
+      {"jersey": 2, "first_name": "Philippe", "last_name": "Dintrans", "is_starter": true, "position": "talonneur", "is_captain": true},
+      {"jersey": 3, "first_name": "Daniel", "last_name": "Dubroca", "is_starter": true, "position": "pilier_droit", "is_captain": false},
+      {"jersey": 4, "first_name": "Thierry", "last_name": "Picard", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 5, "first_name": "Jean", "last_name": "Condom", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 6, "first_name": "Eric", "last_name": "Champ", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 7, "first_name": "Jacques", "last_name": "Gratton", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 8, "first_name": "Dominique", "last_name": "Erbani", "is_starter": true, "position": "numero_huit", "is_captain": false},
+      {"jersey": 9, "first_name": "Pierre", "last_name": "Berbizier", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
+      {"jersey": 10, "first_name": "Jean-Patrick", "last_name": "Lescarboura", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
+      {"jersey": 11, "first_name": "Laurent", "last_name": "Pardo", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 12, "first_name": "Philippe", "last_name": "Sella", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 13, "first_name": "Didier", "last_name": "Codorniou", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 14, "first_name": "Jean-Baptiste", "last_name": "Lafond", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 15, "first_name": "Serge", "last_name": "Blanco", "is_starter": true, "position": "arriere", "is_captain": false},
+      {"jersey": 16, "first_name": "Alain", "last_name": "Lorieux", "is_starter": false, "position": null, "is_captain": false}
+    ],
+    "adversaire": [
+      {"jersey": 1, "first_name": "Fernando", "last_name": "Morel", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
+      {"jersey": 2, "first_name": "Alejandro", "last_name": "Cubelli", "is_starter": true, "position": "talonneur", "is_captain": false},
+      {"jersey": 3, "first_name": "Diego", "last_name": "Cash", "is_starter": true, "position": "pilier_droit", "is_captain": false},
+      {"jersey": 4, "first_name": "Gustavo", "last_name": "Milano", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 5, "first_name": "Eliseo", "last_name": "Branca", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 6, "first_name": "Tomas", "last_name": "Petersen", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 7, "first_name": "Jorge", "last_name": "Allen", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 8, "first_name": "Ernesto", "last_name": "Ure", "is_starter": true, "position": "numero_huit", "is_captain": false},
+      {"jersey": 9, "first_name": "Javier", "last_name": "Miguens", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
+      {"jersey": 10, "first_name": "Hugo", "last_name": "Porta", "is_starter": true, "position": "demi_ouverture", "is_captain": true},
+      {"jersey": 11, "first_name": "Pedro", "last_name": "Lanza", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 12, "first_name": "Fabian", "last_name": "Turnes", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 13, "first_name": "Diego", "last_name": "Cuesta Silva", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 14, "first_name": "Alejandro", "last_name": "Scolni", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 15, "first_name": "Bernardo", "last_name": "Miguens", "is_starter": true, "position": "arriere", "is_captain": false}
+    ]
+  },
+  "events": [
+    {"team_side": "france", "type": "transformation", "player_last_name": "Lescarboura", "player_first_name": "Jean-Patrick", "minute": 24},
+    {"team_side": "france", "type": "essai", "player_last_name": "Codorniou", "player_first_name": "Didier", "minute": 24},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Porta", "player_first_name": "Hugo", "minute": 26},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Porta", "player_first_name": "Hugo", "minute": 30},
+    {"team_side": "france", "type": "essai", "player_last_name": "Erbani", "player_first_name": "Dominique", "minute": 38},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Lescarboura", "player_first_name": "Jean-Patrick", "minute": 38},
+    {"team_side": "france", "type": "essai", "player_last_name": "Berbizier", "player_first_name": "Pierre", "minute": 42},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Porta", "player_first_name": "Hugo", "minute": 45},
+    {"team_side": "france", "type": "essai", "player_last_name": "Blanco", "player_first_name": "Serge", "minute": 51},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Porta", "player_first_name": "Hugo", "minute": 71},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Cuesta Silva", "player_first_name": "Diego", "minute": 71},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Lescarboura", "player_first_name": "Jean-Patrick", "minute": 92}
+  ],
+  "substitutions": []
+}

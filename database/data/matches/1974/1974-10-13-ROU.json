@@ -1,0 +1,58 @@
+{
+  "match_date": "1974-10-13",
+  "opponent_code": "ROU",
+  "france_score": 10,
+  "opponent_score": 15,
+  "referee": "Ka Pattinson",
+  "lineups": {
+    "france": [
+      {"jersey": 1, "first_name": "Armand", "last_name": "Vaquerin", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
+      {"jersey": 2, "first_name": "Alain", "last_name": "Paco", "is_starter": true, "position": "talonneur", "is_captain": false},
+      {"jersey": 3, "first_name": "Jean-Louis", "last_name": "Azarete", "is_starter": true, "position": "pilier_droit", "is_captain": false},
+      {"jersey": 4, "first_name": "Georges", "last_name": "Senal", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 5, "first_name": "Alain", "last_name": "Esteve", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 6, "first_name": "Jean-Claude", "last_name": "Skrela", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 7, "first_name": "Claude", "last_name": "Spanghero", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 8, "first_name": "Victor", "last_name": "Boffelli", "is_starter": true, "position": "numero_huit", "is_captain": false},
+      {"jersey": 9, "first_name": "Jacques", "last_name": "Fouroux", "is_starter": true, "position": "demi_de_melee", "is_captain": true},
+      {"jersey": 10, "first_name": "Jean-Pierre", "last_name": "Romeu", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
+      {"jersey": 11, "first_name": "Laurent", "last_name": "Desnoyer", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 12, "first_name": "Jean-Martin", "last_name": "Etchenique", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 13, "first_name": "Roland", "last_name": "Bertranne", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 14, "first_name": "Jean-François", "last_name": "Gourdon", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 15, "first_name": "Jean-Michel", "last_name": "Aguirre", "is_starter": true, "position": "arriere", "is_captain": false}
+    ],
+    "adversaire": [
+      {"jersey": 1, "first_name": "Constantin", "last_name": "Dinu", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
+      {"jersey": 2, "first_name": "Mircea", "last_name": "Munteanu", "is_starter": true, "position": "talonneur", "is_captain": false},
+      {"jersey": 3, "first_name": "Mircea", "last_name": "Ciornei", "is_starter": true, "position": "pilier_droit", "is_captain": false},
+      {"jersey": 4, "first_name": "Gheorghe", "last_name": "Daraban", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 5, "first_name": "Niculai", "last_name": "Postolache", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 6, "first_name": "Alexandru", "last_name": "Pop", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": true},
+      {"jersey": 7, "first_name": "Gheorghe", "last_name": "Dumitru", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 8, "first_name": "Ion", "last_name": "Tatucu", "is_starter": true, "position": "numero_huit", "is_captain": false},
+      {"jersey": 9, "first_name": "Petre", "last_name": "Florescu", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
+      {"jersey": 10, "first_name": "Mihai", "last_name": "Nicolescu", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
+      {"jersey": 11, "first_name": "Marian", "last_name": "Burghelea", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 12, "first_name": "Ion", "last_name": "Marica", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 13, "first_name": "Gheorghe", "last_name": "Nica", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 14, "first_name": "Ion", "last_name": "Constantin", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 15, "first_name": "Raducu", "last_name": "Durbac", "is_starter": true, "position": "arriere", "is_captain": false},
+      {"jersey": 16, "first_name": "Niculae", "last_name": "Baciu", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 17, "first_name": "Dumitru", "last_name": "Musat", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 18, "first_name": "Sergiu", "last_name": "Bargaunas", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 19, "first_name": "Valeriu", "last_name": "Falcusanu", "is_starter": false, "position": null, "is_captain": false}
+    ]
+  },
+  "events": [
+    {"team_side": "france", "type": "essai", "player_last_name": "Gourdon", "player_first_name": "Jean-François", "minute": null},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": null},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": null},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Durbac", "player_first_name": "Raducu", "minute": null},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Durbac", "player_first_name": "Raducu", "minute": null},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Nica", "player_first_name": "Gheorghe", "minute": null},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Durbac", "player_first_name": "Raducu", "minute": null},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Marica", "player_first_name": "Ion", "minute": null}
+  ],
+  "substitutions": []
+}

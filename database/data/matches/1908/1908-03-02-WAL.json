@@ -1,0 +1,60 @@
+{
+  "match_date": "1908-03-02",
+  "opponent_code": "WAL",
+  "france_score": 4,
+  "opponent_score": 36,
+  "referee": "W Williams",
+  "lineups": {
+    "france": [
+      {"jersey": 1, "first_name": "Marcel", "last_name": "Communeau", "is_starter": true, "position": "pilier_gauche", "is_captain": true},
+      {"jersey": 2, "first_name": "René", "last_name": "Duval", "is_starter": true, "position": "talonneur", "is_captain": false},
+      {"jersey": 3, "first_name": "Paul", "last_name": "Mauriat", "is_starter": true, "position": "pilier_droit", "is_captain": false},
+      {"jersey": 4, "first_name": "René", "last_name": "De Malmann", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 5, "first_name": "Albert", "last_name": "Branlat", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 6, "first_name": "Pierre", "last_name": "Guillemin", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 7, "first_name": "Alphonse", "last_name": "Masse", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 8, "first_name": "Jacques", "last_name": "Dufourcq", "is_starter": true, "position": "numero_huit", "is_captain": false},
+      {"jersey": 9, "first_name": "Albert", "last_name": "Hubert", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
+      {"jersey": 10, "first_name": "Alfred", "last_name": "Mayssonnie", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
+      {"jersey": 11, "first_name": "Maurice", "last_name": "Leuvielle", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 12, "first_name": "Gaston", "last_name": "Lane", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 13, "first_name": "Charles", "last_name": "Vareilles", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 14, "first_name": "Émile", "last_name": "Lesieur", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 15, "first_name": "Henri", "last_name": "Martin", "is_starter": true, "position": "arriere", "is_captain": false}
+    ],
+    "adversaire": [
+      {"jersey": 1, "first_name": "Jim", "last_name": "Webb", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
+      {"jersey": 2, "first_name": "Twyber", "last_name": "Travers", "is_starter": true, "position": "talonneur", "is_captain": false},
+      {"jersey": 3, "first_name": "Dick", "last_name": "Thomas", "is_starter": true, "position": "pilier_droit", "is_captain": false},
+      {"jersey": 4, "first_name": "Billy", "last_name": "O'Neil", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 5, "first_name": "John", "last_name": "Brown", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 6, "first_name": "James", "last_name": "Watts", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 7, "first_name": "William", "last_name": "Dowell", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 8, "first_name": "George", "last_name": "Hayward", "is_starter": true, "position": "numero_huit", "is_captain": false},
+      {"jersey": 9, "first_name": "Dicky", "last_name": "Owen", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
+      {"jersey": 10, "first_name": "Dick", "last_name": "Jones", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
+      {"jersey": 11, "first_name": "Teddy", "last_name": "Morgan", "is_starter": true, "position": "ailier", "is_captain": true},
+      {"jersey": 12, "first_name": "Rhys", "last_name": "Gabe", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 13, "first_name": "Billy", "last_name": "Trew", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 14, "first_name": "Reggie", "last_name": "Gibbs", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 15, "first_name": "Bert", "last_name": "Winfield", "is_starter": true, "position": "arriere", "is_captain": false}
+    ]
+  },
+  "events": [
+    {"team_side": "france", "type": "drop", "player_last_name": "Vareilles", "player_first_name": "Charles", "minute": null},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Trew", "player_first_name": "Billy", "minute": null},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Trew", "player_first_name": "Billy", "minute": null},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Jones", "player_first_name": "Dick", "minute": null},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Morgan", "player_first_name": "Teddy", "minute": null},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Morgan", "player_first_name": "Teddy", "minute": null},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Gibbs", "player_first_name": "Reggie", "minute": null},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Gibbs", "player_first_name": "Reggie", "minute": null},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Gibbs", "player_first_name": "Reggie", "minute": null},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Gibbs", "player_first_name": "Reggie", "minute": null},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Winfield", "player_first_name": "Bert", "minute": null},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Winfield", "player_first_name": "Bert", "minute": null},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Gibbs", "player_first_name": "Reggie", "minute": null},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Winfield", "player_first_name": "Bert", "minute": null}
+  ],
+  "substitutions": []
+}

@@ -1,0 +1,63 @@
+{
+  "match_date": "1972-02-26",
+  "opponent_code": "ENG",
+  "france_score": 37,
+  "opponent_score": 12,
+  "referee": "Tfe Grierson",
+  "lineups": {
+    "france": [
+      {"jersey": 1, "first_name": "Jean", "last_name": "Iracabal", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
+      {"jersey": 2, "first_name": "René", "last_name": "Benesis", "is_starter": true, "position": "talonneur", "is_captain": false},
+      {"jersey": 3, "first_name": "Jean-Louis", "last_name": "Azarete", "is_starter": true, "position": "pilier_droit", "is_captain": false},
+      {"jersey": 4, "first_name": "Alain", "last_name": "Esteve", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 5, "first_name": "Claude", "last_name": "Spanghero", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 6, "first_name": "Jean-Claude", "last_name": "Skrela", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 7, "first_name": "Pierre", "last_name": "Biemouret", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 8, "first_name": "Walter", "last_name": "Spanghero", "is_starter": true, "position": "numero_huit", "is_captain": true},
+      {"jersey": 9, "first_name": "Max", "last_name": "Barrau", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
+      {"jersey": 10, "first_name": "Jean-Louis", "last_name": "Berot", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
+      {"jersey": 11, "first_name": "Jean", "last_name": "Sillieres", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 12, "first_name": "Jean-Pierre", "last_name": "Lux", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 13, "first_name": "Jo", "last_name": "Maso", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 14, "first_name": "Bernard", "last_name": "Duprat", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 15, "first_name": "Pierre", "last_name": "Villepreux", "is_starter": true, "position": "arriere", "is_captain": false}
+    ],
+    "adversaire": [
+      {"jersey": 1, "first_name": "Stack", "last_name": "Stevens", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
+      {"jersey": 2, "first_name": "John", "last_name": "Pullin", "is_starter": true, "position": "talonneur", "is_captain": false},
+      {"jersey": 3, "first_name": "Mike", "last_name": "Burton", "is_starter": true, "position": "pilier_droit", "is_captain": false},
+      {"jersey": 4, "first_name": "John", "last_name": "Barton", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 5, "first_name": "Chris", "last_name": "Ralston", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 6, "first_name": "Peter", "last_name": "Dixon", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": true},
+      {"jersey": 7, "first_name": "Tony", "last_name": "Neary", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 8, "first_name": "Andy", "last_name": "Ripley", "is_starter": true, "position": "numero_huit", "is_captain": false},
+      {"jersey": 9, "first_name": "Lionel", "last_name": "Weston", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
+      {"jersey": 10, "first_name": "Alan", "last_name": "Old", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
+      {"jersey": 11, "first_name": "Rod", "last_name": "Webb", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 12, "first_name": "David", "last_name": "Duckham", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 13, "first_name": "Mike", "last_name": "Beese", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 14, "first_name": "Keith", "last_name": "Fielding", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 15, "first_name": "Peter", "last_name": "Knight", "is_starter": true, "position": "arriere", "is_captain": false},
+      {"jersey": 16, "first_name": "Nick", "last_name": "Martin", "is_starter": false, "position": null, "is_captain": false}
+    ]
+  },
+  "events": [
+    {"team_side": "france", "type": "essai", "player_last_name": "Spanghero", "player_first_name": "Walter", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Biemouret", "player_first_name": "Pierre", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Lux", "player_first_name": "Jean-Pierre", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Duprat", "player_first_name": "Bernard", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Duprat", "player_first_name": "Bernard", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Sillieres", "player_first_name": "Jean", "minute": null},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Villepreux", "player_first_name": "Pierre", "minute": null},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Villepreux", "player_first_name": "Pierre", "minute": null},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Villepreux", "player_first_name": "Pierre", "minute": null},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Villepreux", "player_first_name": "Pierre", "minute": null},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Villepreux", "player_first_name": "Pierre", "minute": null},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Villepreux", "player_first_name": "Pierre", "minute": null},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Beese", "player_first_name": "Mike", "minute": null},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Old", "player_first_name": "Alan", "minute": null},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Old", "player_first_name": "Alan", "minute": null},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Old", "player_first_name": "Alan", "minute": null}
+  ],
+  "substitutions": []
+}

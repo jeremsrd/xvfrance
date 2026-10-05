@@ -1,0 +1,63 @@
+{
+  "match_date": "2014-06-14",
+  "opponent_code": "AUS",
+  "france_score": 0,
+  "opponent_score": 6,
+  "lineups": {
+    "france": [
+      {"jersey": 1, "first_name": "Alexandre", "last_name": "Menini", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
+      {"jersey": 2, "first_name": "Guilhem", "last_name": "Guirado", "is_starter": true, "position": "talonneur", "is_captain": false},
+      {"jersey": 3, "first_name": "Rabah", "last_name": "Slimani", "is_starter": true, "position": "pilier_droit", "is_captain": false},
+      {"jersey": 4, "first_name": "Alexandre", "last_name": "Flanquart", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 5, "first_name": "Yoann", "last_name": "Maestri", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 6, "first_name": "Thierry", "last_name": "Dusautoir", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": true},
+      {"jersey": 7, "first_name": "Yannick", "last_name": "Nyanga", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 8, "first_name": "Damien", "last_name": "Chouly", "is_starter": true, "position": "numero_huit", "is_captain": false},
+      {"jersey": 9, "first_name": "Morgan", "last_name": "Parra", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
+      {"jersey": 10, "first_name": "Rémi", "last_name": "Tales", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
+      {"jersey": 11, "first_name": "Maxime", "last_name": "Médard", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 12, "first_name": "Wesley", "last_name": "Fofana", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 13, "first_name": "Mathieu", "last_name": "Bastareaud", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 14, "first_name": "Yoann", "last_name": "Huget", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 15, "first_name": "Brice", "last_name": "Dulin", "is_starter": true, "position": "arriere", "is_captain": false},
+      {"jersey": 16, "first_name": "Brice", "last_name": "Mach", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 17, "first_name": "Thomas", "last_name": "Domingo", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 18, "first_name": "Nicolas", "last_name": "Mas", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 19, "first_name": "Bernard", "last_name": "Le Roux", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 20, "first_name": "Louis", "last_name": "Picamoles", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 21, "first_name": "Antoine", "last_name": "Burban", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 22, "first_name": "Frédéric", "last_name": "Michalak", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 23, "first_name": "Rémi", "last_name": "Lamerat", "is_starter": false, "position": null, "is_captain": false}
+    ],
+    "adversaire": [
+      {"jersey": 1, "first_name": "James", "last_name": "Slipper", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
+      {"jersey": 2, "first_name": "Tatafu", "last_name": "Polota-Nau", "is_starter": true, "position": "talonneur", "is_captain": false},
+      {"jersey": 3, "first_name": "Sekope", "last_name": "Kepu", "is_starter": true, "position": "pilier_droit", "is_captain": false},
+      {"jersey": 4, "first_name": "Rob", "last_name": "Simmons", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 5, "first_name": "James", "last_name": "Horwill", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 6, "first_name": "Scott", "last_name": "Fardy", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 7, "first_name": "Michael", "last_name": "Hooper", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": true},
+      {"jersey": 8, "first_name": "Ben", "last_name": "McCalman", "is_starter": true, "position": "numero_huit", "is_captain": false},
+      {"jersey": 9, "first_name": "Nic", "last_name": "White", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
+      {"jersey": 10, "first_name": "Bernard", "last_name": "Foley", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
+      {"jersey": 11, "first_name": "Nick", "last_name": "Cummins", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 12, "first_name": "Matt", "last_name": "Toomua", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 13, "first_name": "Tevita", "last_name": "Kuridrani", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 14, "first_name": "Adam", "last_name": "Ashley-Cooper", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 15, "first_name": "Israel", "last_name": "Folau", "is_starter": true, "position": "arriere", "is_captain": false},
+      {"jersey": 16, "first_name": "Nathan", "last_name": "Charles", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 17, "first_name": "Pek", "last_name": "Cowan", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 18, "first_name": "Laurie", "last_name": "Weeks", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 19, "first_name": "Luke", "last_name": "Jones", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 20, "first_name": "Scott", "last_name": "Higginbotham", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 21, "first_name": "Nick", "last_name": "Phipps", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 22, "first_name": "Kurtley", "last_name": "Beale", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 23, "first_name": "Pat", "last_name": "McCabe", "is_starter": false, "position": null, "is_captain": false}
+    ]
+  },
+  "events": [
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Foley", "player_first_name": "Bernard", "minute": 53},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "White", "player_first_name": "Nic", "minute": 65}
+  ],
+  "substitutions": []
+}

@@ -4,11 +4,20 @@ namespace App\Services;
 
 use App\Enums\PlayerPosition;
 use App\Models\Country;
+use App\Models\MatchLineup;
 use App\Models\Player;
+use Carbon\CarbonInterface;
+use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
 
 class PlayerResolverService
 {
+    /**
+     * Un joueur existant qui n'a pas joué à moins de 14 ans du match est un homonyme d'une autre
+     * génération (Tom Voyce 1921 et 2006, Noel Murphy père et fils) : on ne le rattache pas.
+     */
+    private const HOMONYM_GAP_YEARS = 14;
+
     private array $log = [];
     private int $createdCount = 0;
     private array $playerCache = [];
@@ -18,9 +27,10 @@ class PlayerResolverService
         ?string $firstName,
         Country $country,
         ?PlayerPosition $position = null,
+        ?CarbonInterface $matchDate = null,
     ): ?Player {
         $cacheKey = $this->cacheKey($lastName, $firstName, $country->id);
-        if (isset($this->playerCache[$cacheKey])) {
+        if (isset($this->playerCache[$cacheKey]) && $this->sameEra($this->playerCache[$cacheKey], $matchDate)) {
             return $this->playerCache[$cacheKey];
         }
 
@@ -35,7 +45,7 @@ class PlayerResolverService
             $query->whereRaw('LOWER(first_name) = ?', [mb_strtolower(trim($firstName))]);
         }
 
-        $exact = $query->get();
+        $exact = $this->filterEra($query->get(), $matchDate);
 
         if ($exact->count() === 1) {
             return $this->cache($cacheKey, $exact->first());
@@ -48,10 +58,10 @@ class PlayerResolverService
 
         // 2. Recherche fuzzy par nom seul sans accents (même pays, « Jegou » = « Jégou »),
         //    en écartant les homonymes dont le prénom est incompatible (ex: Scott / Beauden / Jordie Barrett)
-        $fuzzy = Player::where('country_id', $country->id)
+        $fuzzy = $this->filterEra(Player::where('country_id', $country->id)
             ->get()
             ->filter(fn (Player $p) => $this->normalize($p->last_name) === $lastNorm
-                && $this->firstNamesCompatible($firstNorm, $p->first_name));
+                && $this->firstNamesCompatible($firstNorm, $p->first_name)), $matchDate);
 
         if ($fuzzy->count() === 1) {
             $this->log[] = ['info', "Joueur trouvé par nom seul : {$fuzzy->first()->fullName()} ({$country->code})"];
@@ -93,6 +103,27 @@ class PlayerResolverService
     public function resetLog(): void
     {
         $this->log = [];
+    }
+
+    private function filterEra(Collection $players, ?CarbonInterface $matchDate): Collection
+    {
+        return $players->filter(fn (Player $p) => $this->sameEra($p, $matchDate))->values();
+    }
+
+    /** Sans date ou sans match connu, le joueur est retenu ; sinon il faut un match à moins de 14 ans */
+    private function sameEra(Player $player, ?CarbonInterface $matchDate): bool
+    {
+        if (!$matchDate) {
+            return true;
+        }
+
+        $dates = MatchLineup::where('player_id', $player->id)
+            ->join('matches', 'matches.id', '=', 'match_lineups.match_id')
+            ->pluck('matches.match_date');
+
+        return $dates->isEmpty() || $dates->contains(
+            fn ($date) => abs($matchDate->diffInYears($date)) < self::HOMONYM_GAP_YEARS
+        );
     }
 
     private function normalize(string $value): string

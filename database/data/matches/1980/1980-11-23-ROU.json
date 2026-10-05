@@ -1,0 +1,51 @@
+{
+  "match_date": "1980-11-23",
+  "opponent_code": "ROU",
+  "france_score": 0,
+  "opponent_score": 15,
+  "referee": "Alun Richards",
+  "lineups": {
+    "france": [
+      {"jersey": 1, "first_name": "Michel", "last_name": "Cremaschi", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
+      {"jersey": 2, "first_name": "Philippe", "last_name": "Dintrans", "is_starter": true, "position": "talonneur", "is_captain": false},
+      {"jersey": 3, "first_name": "Robert", "last_name": "Paparemborde", "is_starter": true, "position": "pilier_droit", "is_captain": true},
+      {"jersey": 4, "first_name": "Alain", "last_name": "Maleig", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 5, "first_name": "Jean-Paul", "last_name": "Wolf", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 6, "first_name": "Eric", "last_name": "Buchet", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 7, "first_name": "Manuel", "last_name": "Carpentier", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 8, "first_name": "Jean", "last_name": "Fauvell", "is_starter": true, "position": "numero_huit", "is_captain": false},
+      {"jersey": 9, "first_name": "Jean Pierre", "last_name": "Elissalde", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
+      {"jersey": 10, "first_name": "Bernard", "last_name": "Vivies", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
+      {"jersey": 11, "first_name": "Laurent", "last_name": "Pardo", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 12, "first_name": "Patrick", "last_name": "Mesny", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 13, "first_name": "Roland", "last_name": "Bertranne", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 14, "first_name": "Daniel", "last_name": "Bustaffa", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 15, "first_name": "Serge", "last_name": "Blanco", "is_starter": true, "position": "arriere", "is_captain": false}
+    ],
+    "adversaire": [
+      {"jersey": 1, "first_name": "Ion", "last_name": "Bucan", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
+      {"jersey": 2, "first_name": "Mircea", "last_name": "Munteanu", "is_starter": true, "position": "talonneur", "is_captain": false},
+      {"jersey": 3, "first_name": "Constantin", "last_name": "Dinu", "is_starter": true, "position": "pilier_droit", "is_captain": false},
+      {"jersey": 4, "first_name": "Gheorghe", "last_name": "Dumitru", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 5, "first_name": "Gheorghe", "last_name": "Caragea", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 6, "first_name": "Florica", "last_name": "Murariu", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 7, "first_name": "Enciu", "last_name": "Stoica", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 8, "first_name": "Pompilie", "last_name": "Bors", "is_starter": true, "position": "numero_huit", "is_captain": false},
+      {"jersey": 9, "first_name": "Mircea", "last_name": "Paraschiv", "is_starter": true, "position": "demi_de_melee", "is_captain": true},
+      {"jersey": 10, "first_name": "Alexandru", "last_name": "Dumitru", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
+      {"jersey": 11, "first_name": "Marian", "last_name": "Aldea", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 12, "first_name": "Ion", "last_name": "Constantin", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 13, "first_name": "Gheorghe", "last_name": "Varzaru", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 14, "first_name": "Sorin", "last_name": "Fuicu", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 15, "first_name": "Ion", "last_name": "Simion", "is_starter": true, "position": "arriere", "is_captain": false}
+    ]
+  },
+  "events": [
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Constantin", "player_first_name": "Ion", "minute": 63},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Constantin", "player_first_name": "Ion", "minute": 81},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Constantin", "player_first_name": "Ion", "minute": 93},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Bors", "player_first_name": "Pompilie", "minute": 97},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Constantin", "player_first_name": "Ion", "minute": 97}
+  ],
+  "substitutions": []
+}

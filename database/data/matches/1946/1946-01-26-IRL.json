@@ -1,0 +1,48 @@
+{
+  "match_date": "1946-01-26",
+  "opponent_code": "IRL",
+  "france_score": 4,
+  "opponent_score": 3,
+  "referee": "Hg Lathwell",
+  "lineups": {
+    "france": [
+      {"jersey": 1, "first_name": "Jean", "last_name": "Massare", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
+      {"jersey": 2, "first_name": "Marcel", "last_name": "Volot", "is_starter": true, "position": "talonneur", "is_captain": false},
+      {"jersey": 3, "first_name": "Jean", "last_name": "Prin-Clary", "is_starter": true, "position": "pilier_droit", "is_captain": false},
+      {"jersey": 4, "first_name": "Alban", "last_name": "Moga", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 5, "first_name": "Robert", "last_name": "Soro", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 6, "first_name": "Jean", "last_name": "Prat", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 7, "first_name": "Jean", "last_name": "Matheu-Cambas", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 8, "first_name": "Guy", "last_name": "Basquet", "is_starter": true, "position": "numero_huit", "is_captain": false},
+      {"jersey": 9, "first_name": "Yves", "last_name": "Bergougnan", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
+      {"jersey": 10, "first_name": "Maurice", "last_name": "Terreau", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
+      {"jersey": 11, "first_name": "Elie", "last_name": "Pebeyre", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 12, "first_name": "Georges", "last_name": "Baladie", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 13, "first_name": "Louis", "last_name": "Junquas", "is_starter": true, "position": "centre", "is_captain": true},
+      {"jersey": 14, "first_name": "Henri", "last_name": "Dutrain", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 15, "first_name": "André", "last_name": "Alvarez", "is_starter": true, "position": "arriere", "is_captain": false}
+    ],
+    "adversaire": [
+      {"jersey": 1, "first_name": "J", "last_name": "Belton", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
+      {"jersey": 2, "first_name": "Karl", "last_name": "Mullen", "is_starter": true, "position": "talonneur", "is_captain": true},
+      {"jersey": 3, "first_name": "Matthew", "last_name": "Neely", "is_starter": true, "position": "pilier_droit", "is_captain": false},
+      {"jersey": 4, "first_name": "Colm", "last_name": "Callan", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 5, "first_name": "Ernie", "last_name": "Keefe", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 6, "first_name": "J", "last_name": "Quinley", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 7, "first_name": "Des", "last_name": "McCourt", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 8, "first_name": "David", "last_name": "O'Loughlin", "is_starter": true, "position": "numero_huit", "is_captain": false},
+      {"jersey": 9, "first_name": "", "last_name": "Thorpe", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
+      {"jersey": 10, "first_name": "Jack", "last_name": "Kyle", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
+      {"jersey": 11, "first_name": "Kevin", "last_name": "O'Flanagan", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 12, "first_name": "Kevin", "last_name": "Quinn", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 13, "first_name": "H", "last_name": "Greer", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 14, "first_name": "Brendan", "last_name": "Quinn", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 15, "first_name": "G", "last_name": "Murphy", "is_starter": true, "position": "arriere", "is_captain": false}
+    ]
+  },
+  "events": [
+    {"team_side": "france", "type": "drop", "player_last_name": "Bergougnan", "player_first_name": "Yves", "minute": null},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Thorpe", "player_first_name": "", "minute": null}
+  ],
+  "substitutions": []
+}

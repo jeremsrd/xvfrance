@@ -1,0 +1,62 @@
+{
+  "match_date": "1992-10-17",
+  "opponent_code": "RSA",
+  "france_score": 15,
+  "opponent_score": 20,
+  "referee": "Brian Kinsey",
+  "lineups": {
+    "france": [
+      {"jersey": 1, "first_name": "Louis", "last_name": "Armary", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
+      {"jersey": 2, "first_name": "Jean-Michel", "last_name": "Gonzales", "is_starter": true, "position": "talonneur", "is_captain": false},
+      {"jersey": 3, "first_name": "Philippe", "last_name": "Gallart", "is_starter": true, "position": "pilier_droit", "is_captain": false},
+      {"jersey": 4, "first_name": "Jean-Marie", "last_name": "Cadieu", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 5, "first_name": "Olivier", "last_name": "Roumat", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 6, "first_name": "Jean-François", "last_name": "Tordo", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 7, "first_name": "Laurent", "last_name": "Cabannes", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 8, "first_name": "Marc", "last_name": "Cecillon", "is_starter": true, "position": "numero_huit", "is_captain": true},
+      {"jersey": 9, "first_name": "Aubin", "last_name": "Hueber", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
+      {"jersey": 10, "first_name": "Alain", "last_name": "Penaud", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
+      {"jersey": 11, "first_name": "Sébastien", "last_name": "Viars", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 12, "first_name": "Christophe", "last_name": "Deylaud", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 13, "first_name": "Franck", "last_name": "Mesnel", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 14, "first_name": "Philippe", "last_name": "Saint-André", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 15, "first_name": "Jean-Luc", "last_name": "Sadourny", "is_starter": true, "position": "arriere", "is_captain": false},
+      {"jersey": 16, "first_name": "Jean-Baptiste", "last_name": "Lafond", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 17, "first_name": "Thierry", "last_name": "Lacroix", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 18, "first_name": "Fabien", "last_name": "Galthié", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 19, "first_name": "Philippe", "last_name": "Benetton", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 20, "first_name": "Abdelatif", "last_name": "Benazzi", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 21, "first_name": "Stéphane", "last_name": "Graou", "is_starter": false, "position": null, "is_captain": false}
+    ],
+    "adversaire": [
+      {"jersey": 1, "first_name": "Johan", "last_name": "Styger", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
+      {"jersey": 2, "first_name": "Willie", "last_name": "Hills", "is_starter": true, "position": "talonneur", "is_captain": false},
+      {"jersey": 3, "first_name": "Heinrich", "last_name": "Rodgers", "is_starter": true, "position": "pilier_droit", "is_captain": false},
+      {"jersey": 4, "first_name": "Adri", "last_name": "Geldenhuys", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 5, "first_name": "Adolf", "last_name": "Malan", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 6, "first_name": "Wahl", "last_name": "Bartmann", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 7, "first_name": "Adriaan", "last_name": "Richter", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 8, "first_name": "Tiaan", "last_name": "Strauss", "is_starter": true, "position": "numero_huit", "is_captain": false},
+      {"jersey": 9, "first_name": "Garth", "last_name": "Wright", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
+      {"jersey": 10, "first_name": "Naas", "last_name": "Botha", "is_starter": true, "position": "demi_ouverture", "is_captain": true},
+      {"jersey": 11, "first_name": "Jacques", "last_name": "Olivier", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 12, "first_name": "Pieter", "last_name": "Muller", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 13, "first_name": "Danie", "last_name": "Gerber", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 14, "first_name": "James", "last_name": "Small", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 15, "first_name": "Hugh", "last_name": "Reece-Edwards", "is_starter": true, "position": "arriere", "is_captain": false}
+    ]
+  },
+  "events": [
+    {"team_side": "france", "type": "penalite", "player_last_name": "Viars", "player_first_name": "Sébastien", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Penaud", "player_first_name": "Alain", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Penaud", "player_first_name": "Alain", "minute": null},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Viars", "player_first_name": "Sébastien", "minute": null},
+    {"team_side": "adversaire", "type": "drop", "player_last_name": "Botha", "player_first_name": "Naas", "minute": null},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Botha", "player_first_name": "Naas", "minute": null},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Botha", "player_first_name": "Naas", "minute": null},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Botha", "player_first_name": "Naas", "minute": null},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Gerber", "player_first_name": "Danie", "minute": null},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Small", "player_first_name": "James", "minute": null}
+  ],
+  "substitutions": []
+}

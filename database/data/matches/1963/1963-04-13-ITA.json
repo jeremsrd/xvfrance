@@ -1,0 +1,55 @@
+{
+  "match_date": "1963-04-13",
+  "opponent_code": "ITA",
+  "france_score": 14,
+  "opponent_score": 12,
+  "referee": "Kevin Kellerher",
+  "lineups": {
+    "france": [
+      {"jersey": 1, "first_name": "Amedee", "last_name": "Domenech", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
+      {"jersey": 2, "first_name": "Jean", "last_name": "de Gregorio", "is_starter": true, "position": "talonneur", "is_captain": false},
+      {"jersey": 3, "first_name": "Jean-Pierre", "last_name": "Saux", "is_starter": true, "position": "pilier_droit", "is_captain": false},
+      {"jersey": 4, "first_name": "Jean", "last_name": "Le Droff", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 5, "first_name": "Roger", "last_name": "Fite", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 6, "first_name": "Michel", "last_name": "Crauste", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": true},
+      {"jersey": 7, "first_name": "Jean", "last_name": "Fabre", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 8, "first_name": "Maurice", "last_name": "Lira", "is_starter": true, "position": "numero_huit", "is_captain": false},
+      {"jersey": 9, "first_name": "Jean-Claude", "last_name": "Lasserre", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
+      {"jersey": 10, "first_name": "Pierre", "last_name": "Albaladejo", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
+      {"jersey": 11, "first_name": "Christian", "last_name": "Darrouy", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 12, "first_name": "André", "last_name": "Boniface", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 13, "first_name": "Guy", "last_name": "Boniface", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 14, "first_name": "Jean", "last_name": "Dupuy", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 15, "first_name": "Paul", "last_name": "Dedieu", "is_starter": true, "position": "arriere", "is_captain": false}
+    ],
+    "adversaire": [
+      {"jersey": 1, "first_name": "Umberto", "last_name": "Levorato", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
+      {"jersey": 2, "first_name": "Lucio", "last_name": "Avigo", "is_starter": true, "position": "talonneur", "is_captain": false},
+      {"jersey": 3, "first_name": "Alfo", "last_name": "Angioli", "is_starter": true, "position": "pilier_droit", "is_captain": false},
+      {"jersey": 4, "first_name": "Sergio", "last_name": "Lanfranchi", "is_starter": true, "position": "deuxieme_ligne", "is_captain": true},
+      {"jersey": 5, "first_name": "Franco", "last_name": "Piccini", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 6, "first_name": "Giancarlo", "last_name": "Degli Antoni", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 7, "first_name": "Franco", "last_name": "Zani", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 8, "first_name": "Marco", "last_name": "Bollesan", "is_starter": true, "position": "numero_huit", "is_captain": false},
+      {"jersey": 9, "first_name": "Elio", "last_name": "Fusco", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
+      {"jersey": 10, "first_name": "Erasmo", "last_name": "Augeri", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
+      {"jersey": 11, "first_name": "Gian Maria", "last_name": "Del Bono", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 12, "first_name": "Giancarlo", "last_name": "Busson", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 13, "first_name": "Giorgio", "last_name": "Troncon", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 14, "first_name": "Vittorio", "last_name": "Ambron", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 15, "first_name": "Franco", "last_name": "Perrini", "is_starter": true, "position": "arriere", "is_captain": false}
+    ]
+  },
+  "events": [
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Levorato", "player_first_name": "Umberto", "minute": 9},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Augeri", "player_first_name": "Erasmo", "minute": 55},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Perrini", "player_first_name": "Franco", "minute": 56},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Perrini", "player_first_name": "Franco", "minute": 85},
+    {"team_side": "france", "type": "essai", "player_last_name": "Darrouy", "player_first_name": "Christian", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Lira", "player_first_name": "Maurice", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Dupuy", "player_first_name": "Jean", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Dupuy", "player_first_name": "Jean", "minute": null},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Dedieu", "player_first_name": "Paul", "minute": null}
+  ],
+  "substitutions": []
+}

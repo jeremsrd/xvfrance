@@ -1,0 +1,62 @@
+{
+  "match_date": "1913-01-11",
+  "opponent_code": "RSA",
+  "france_score": 5,
+  "opponent_score": 38,
+  "referee": "T Williams",
+  "lineups": {
+    "france": [
+      {"jersey": 1, "first_name": "Paul", "last_name": "Tilh", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
+      {"jersey": 2, "first_name": "Jean-René", "last_name": "Pascarel", "is_starter": true, "position": "talonneur", "is_captain": false},
+      {"jersey": 3, "first_name": "Paul", "last_name": "Mauriat", "is_starter": true, "position": "pilier_droit", "is_captain": false},
+      {"jersey": 4, "first_name": "Pierre", "last_name": "Mouniq", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 5, "first_name": "Maurice", "last_name": "Leuvielle", "is_starter": true, "position": "deuxieme_ligne", "is_captain": true},
+      {"jersey": 6, "first_name": "Marcel", "last_name": "Legrain", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 7, "first_name": "Marcel", "last_name": "Communeau", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 8, "first_name": "Fernand", "last_name": "Forgues", "is_starter": true, "position": "numero_huit", "is_captain": false},
+      {"jersey": 9, "first_name": "Albert", "last_name": "Chatau", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
+      {"jersey": 10, "first_name": "Maurice", "last_name": "Hedembaigt", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
+      {"jersey": 11, "first_name": "Jean", "last_name": "Sentilles", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 12, "first_name": "Pierre", "last_name": "Jaureguy", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 13, "first_name": "Maurice", "last_name": "Bruneau", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 14, "first_name": "Geo", "last_name": "André", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 15, "first_name": "Jean", "last_name": "Caujolle", "is_starter": true, "position": "arriere", "is_captain": false}
+    ],
+    "adversaire": [
+      {"jersey": 1, "first_name": "Dougie", "last_name": "Morkel", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
+      {"jersey": 2, "first_name": "Tom", "last_name": "Van Vuuren", "is_starter": true, "position": "talonneur", "is_captain": false},
+      {"jersey": 3, "first_name": "Saturday", "last_name": "Knight", "is_starter": true, "position": "pilier_droit", "is_captain": false},
+      {"jersey": 4, "first_name": "Boy", "last_name": "Morkel", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 5, "first_name": "Sep", "last_name": "Ledger", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 6, "first_name": "Joe", "last_name": "Francis", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 7, "first_name": "Billy", "last_name": "Millar", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": true},
+      {"jersey": 8, "first_name": "John", "last_name": "Luyt", "is_starter": true, "position": "numero_huit", "is_captain": false},
+      {"jersey": 9, "first_name": "John", "last_name": "McCulloch", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
+      {"jersey": 10, "first_name": "Jack", "last_name": "Immelman", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
+      {"jersey": 11, "first_name": "Jan", "last_name": "Stegmann", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 12, "first_name": "Jacky", "last_name": "Morkel", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 13, "first_name": "Dick", "last_name": "Luyt", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 14, "first_name": "Boetie", "last_name": "McHardy", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 15, "first_name": "Gerhard", "last_name": "Morkel", "is_starter": true, "position": "arriere", "is_captain": false}
+    ]
+  },
+  "events": [
+    {"team_side": "france", "type": "transformation", "player_last_name": "André", "player_first_name": "Geo", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Bruneau", "player_first_name": "Maurice", "minute": null},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Morkel", "player_first_name": "Dougie", "minute": null},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Morkel", "player_first_name": "Dougie", "minute": null},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Luyt", "player_first_name": "Dick", "minute": null},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "McHardy", "player_first_name": "Boetie", "minute": null},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "McHardy", "player_first_name": "Boetie", "minute": null},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Morkel", "player_first_name": "Jacky", "minute": null},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Morkel", "player_first_name": "Boy", "minute": null},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Francis", "player_first_name": "Joe", "minute": null},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Ledger", "player_first_name": "Sep", "minute": null},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Morkel", "player_first_name": "Dougie", "minute": null},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Morkel", "player_first_name": "Dougie", "minute": null},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Morkel", "player_first_name": "Jacky", "minute": null},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Morkel", "player_first_name": "Jacky", "minute": null},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Morkel", "player_first_name": "Dougie", "minute": null}
+  ],
+  "substitutions": []
+}

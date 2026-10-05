@@ -1,0 +1,63 @@
+{
+  "match_date": "1957-04-21",
+  "opponent_code": "ITA",
+  "france_score": 38,
+  "opponent_score": 6,
+  "referee": "Waldron",
+  "lineups": {
+    "france": [
+      {"jersey": 1, "first_name": "Amedee", "last_name": "Domenech", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
+      {"jersey": 2, "first_name": "Robert", "last_name": "Vigier", "is_starter": true, "position": "talonneur", "is_captain": false},
+      {"jersey": 3, "first_name": "André", "last_name": "Sanac", "is_starter": true, "position": "pilier_droit", "is_captain": false},
+      {"jersey": 4, "first_name": "Paul", "last_name": "Cassagne", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 5, "first_name": "Michel", "last_name": "Hoche", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 6, "first_name": "Roland", "last_name": "Darracq", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 7, "first_name": "Robert", "last_name": "Baulon", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 8, "first_name": "François", "last_name": "Moncla", "is_starter": true, "position": "numero_huit", "is_captain": false},
+      {"jersey": 9, "first_name": "Gérard", "last_name": "Dufau", "is_starter": true, "position": "demi_de_melee", "is_captain": true},
+      {"jersey": 10, "first_name": "André", "last_name": "Haget", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
+      {"jersey": 11, "first_name": "Gérard", "last_name": "Mauduy", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 12, "first_name": "Jean", "last_name": "Dupuy", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 13, "first_name": "Maurice", "last_name": "Prat", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 14, "first_name": "Christian", "last_name": "Darrouy", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 15, "first_name": "Michel", "last_name": "Vannier", "is_starter": true, "position": "arriere", "is_captain": false}
+    ],
+    "adversaire": [
+      {"jersey": 1, "first_name": "Andrea", "last_name": "Taveggia", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
+      {"jersey": 2, "first_name": "Gennaro", "last_name": "Mancini", "is_starter": true, "position": "talonneur", "is_captain": true},
+      {"jersey": 3, "first_name": "Umberto", "last_name": "Levorato", "is_starter": true, "position": "pilier_droit", "is_captain": false},
+      {"jersey": 4, "first_name": "Franco", "last_name": "Frelich", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 5, "first_name": "Giovanni", "last_name": "Raisi", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 6, "first_name": "Sergio", "last_name": "Lanfranchi", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 7, "first_name": "Giancarlo", "last_name": "Malosti", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 8, "first_name": "Mario", "last_name": "Percudani", "is_starter": true, "position": "numero_huit", "is_captain": false},
+      {"jersey": 9, "first_name": "Ferdinando", "last_name": "Sartorato", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
+      {"jersey": 10, "first_name": "Enrico", "last_name": "Saibene", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
+      {"jersey": 11, "first_name": "Paolo", "last_name": "Pescetto", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 12, "first_name": "Aldo", "last_name": "Mioni", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 13, "first_name": "Gugliemo", "last_name": "Colussi", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 14, "first_name": "Natale", "last_name": "Molari", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 15, "first_name": "Franco", "last_name": "Perrini", "is_starter": true, "position": "arriere", "is_captain": false}
+    ]
+  },
+  "events": [
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Malosti", "player_first_name": "Giancarlo", "minute": 25},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Lanfranchi", "player_first_name": "Sergio", "minute": 35},
+    {"team_side": "france", "type": "essai", "player_last_name": "Haget", "player_first_name": "André", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Mauduy", "player_first_name": "Gérard", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Mauduy", "player_first_name": "Gérard", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Darrouy", "player_first_name": "Christian", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Darrouy", "player_first_name": "Christian", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Dupuy", "player_first_name": "Jean", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Dupuy", "player_first_name": "Jean", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Domenech", "player_first_name": "Amedee", "minute": null},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Vannier", "player_first_name": "Michel", "minute": null},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Vannier", "player_first_name": "Michel", "minute": null},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Cassagne", "player_first_name": "Paul", "minute": null},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Cassagne", "player_first_name": "Paul", "minute": null},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Cassagne", "player_first_name": "Paul", "minute": null},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Cassagne", "player_first_name": "Paul", "minute": null},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Cassagne", "player_first_name": "Paul", "minute": null}
+  ],
+  "substitutions": []
+}

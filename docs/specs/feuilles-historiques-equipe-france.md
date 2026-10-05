@@ -1,6 +1,7 @@
 # Feuilles de match historiques depuis equipe-france.fr
 
-État au 05/10/2026, spec du **prochain chantier**, pas encore commencé.
+État au 05/10/2026 : **feuilles générées et importées en local** (834 matches détaillés sur 839).
+Reste à reprendre à la main les points de 29 matches (voir « Reste à faire »).
 
 ## Objectif
 
@@ -61,7 +62,55 @@ adversaire. Il faut les rapporter à `home` et `away` du relevé.
 Ce que le site ne donne pas : les cartons, les remplacements avec leur minute, et le pays de l'arbitre.
 Les remplaçants sont listés, mais on ne sait pas qui est entré ni quand.
 
-## Plan proposé
+## Réalisé (05/10/2026)
+
+- `scripts/equipe_france/feuilles.py` lit le cache et le relevé, rapproche chaque page d'un match de la base
+  (même adversaire, date à un jour près) et écrit `database/data/matches/{année}/{date}-{code}.json`. Il ne touche
+  pas une feuille qui a déjà des compositions. Une feuille créée sans composition est complétée en gardant ses
+  champs. `--out DIR --all` régénère tout ailleurs, pour l'étalonnage.
+- **811 feuilles** écrites (12 complétées), 0 erreur à `xv:validate-match-data`, importées en local :
+  6 501 joueurs créés, 1 229 joueurs français. Aucun slug du site n'a été fusionné avec un autre.
+- **Compositions.** Les numéros 1 à 15 sont titulaires, avec le poste déduit du numéro. Avant 1920 environ, le site
+  ne numérote pas les avants : un bloc de 15 joueurs ou moins est entièrement titulaire. Un joueur sans numéro, ou
+  dont le numéro est en double ou dépasse 23, reçoit le premier numéro libre, **sans poste**. Le schéma du terrain
+  est alors masqué. Les postes vides sont possibles depuis la migration `2026_10_05_200000` (`position_played` et
+  `primary_position` nullables). `xv:compute-primary-positions` (lancée par `deploy.sh`) donne à chaque joueur
+  son poste le plus joué.
+- **Points.** Le script retient la première version dont le total égale le score de la base, dans cet ordre :
+  déroulement avec minutes (+ drops du résumé), déroulement dédoublonné (le site répète parfois une ligne à une
+  minute d'écart), puis résumé sans minutes. Si aucune version ne colle, la feuille n'a **aucun point** :
+  le validateur refuserait une feuille fausse.
+- **Noms.** Le découpage prénom / nom reprend le nom en base s'il existe, puis les exceptions de
+  `database/data/sources/equipe_france_name_splits.csv` (noms composés argentins, noms à trait d'union), puis les
+  particules (de, van, du…), et sinon le dernier mot. Le script retire aussi « ★ », les surnoms entre guillemets,
+  « Dr » et les parenthèses, et corrige la casse « Mckenzie » / « O'brien ».
+- **Homonymes de générations différentes.** `PlayerResolverService` ne rattache plus un joueur existant qui n'a
+  pas joué à moins de 14 ans du match (Tom Voyce 1921 et 2006, Noel Murphy père et fils, Gareth Davies 1979 et
+  2024).
+- **Arbitre** repris du site (sans pays).
+
+Étalonnage sur les 23 feuilles vérifiées (2024-2026) : compositions justes à quelques inversions près, points
+exacts pour 51 côtés sur 58. Le site se trompe parfois sur le capitaine ou l'ordre des remplaçants.
+
+## Reste à faire
+
+- **Déployer** (commit puis `./deploy.sh` : migration, import `--changed` des 811 JSON, postes principaux).
+- **29 matches sans points** : les points du site ne donnent pas le score de la base (comptes doublés, points
+  manquants, Coupe du monde 2019 vide). À reprendre par les scripts Wikipédia ou à la main :
+  1925-04-13 ENG, 1927-05-15 GER, 1936-05-17 GER, 1954-04-24 ITA, 1963-12-15 ROU, 1976-06-12 USA,
+  1987-06-07 FIJ, 1990-06-24 AUS, 1991-07-13 USA, 1991-07-20 USA, 1995-04-08 ROU, 1996-02-17 IRL,
+  1997-03-22 ITA, 1997-10-22 ROU, 2002-04-06 IRL, 2003-02-23 SCO, 2017-06-10 RSA, 2018-02-23 ITA,
+  2019-02-10 ENG, 2019-08-30 ITA, 2019-09-21 ARG, 2019-10-02 USA, 2019-10-06 TGA, 2019-10-20 WAL,
+  2020-10-31 IRL, 2021-11-14 GEO, 2023-09-08 NZL, 2024-02-02 IRL, 2024-07-13 ARG.
+- **Numéros attribués** (722 joueurs) : ils apparaissent dans le tableau des compositions alors que le site
+  n'en donne pas. On pourrait les masquer quand le poste est inconnu.
+- **Erreurs du site repérées** : Eugène Billac (1920-1923) cité en 1977, Laurent Pardo (1980-1985) cité en
+  1924 (le joueur ancien est donc créé à part, sous le même nom) ; « Roques » remplaçant en 1973 sans prénom
+  (ignoré, ambigu) ; les deux Andy Moore gallois (« (S/H) ») sont confondus.
+- Noms de 3 mots découpés par défaut (prénom = tout sauf le dernier mot) : la liste est affichée par le script ;
+  ajouter une ligne au CSV d'exceptions si besoin.
+
+## Plan initial
 
 1. **Analyseur.** Un script (commande `xv:` ou script Python dans `scripts/`) lit les pages en cache et écrit
    des JSON au format de `docs/specs/import-match-data.md`. Il remplit : `lineups` des deux côtés (numéro,

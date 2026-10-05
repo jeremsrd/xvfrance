@@ -1,0 +1,51 @@
+{
+  "match_date": "1910-03-03",
+  "opponent_code": "ENG",
+  "france_score": 3,
+  "opponent_score": 11,
+  "referee": "G Bowden",
+  "lineups": {
+    "france": [
+      {"jersey": 1, "first_name": "Maurice", "last_name": "Bruneau", "is_starter": true, "position": null, "is_captain": false},
+      {"jersey": 2, "first_name": "Jules", "last_name": "Cadenat", "is_starter": true, "position": null, "is_captain": false},
+      {"jersey": 3, "first_name": "Marcel", "last_name": "Communeau", "is_starter": true, "position": null, "is_captain": true},
+      {"jersey": 4, "first_name": "Jacques", "last_name": "Dedet", "is_starter": true, "position": null, "is_captain": false},
+      {"jersey": 5, "first_name": "René", "last_name": "De Malmann", "is_starter": true, "position": null, "is_captain": false},
+      {"jersey": 6, "first_name": "Pierre", "last_name": "Guillemin", "is_starter": true, "position": null, "is_captain": false},
+      {"jersey": 7, "first_name": "Augustin", "last_name": "Hourdebaigt", "is_starter": true, "position": null, "is_captain": false},
+      {"jersey": 8, "first_name": "Gaston", "last_name": "Lane", "is_starter": true, "position": null, "is_captain": false},
+      {"jersey": 9, "first_name": "Guy", "last_name": "Laterrade", "is_starter": true, "position": null, "is_captain": false},
+      {"jersey": 10, "first_name": "Émile", "last_name": "Lesieur", "is_starter": true, "position": null, "is_captain": false},
+      {"jersey": 11, "first_name": "Alphonse", "last_name": "Masse", "is_starter": true, "position": null, "is_captain": false},
+      {"jersey": 12, "first_name": "Paul", "last_name": "Mauriat", "is_starter": true, "position": null, "is_captain": false},
+      {"jersey": 13, "first_name": "M", "last_name": "Thevenot", "is_starter": true, "position": null, "is_captain": false},
+      {"jersey": 14, "first_name": "Charles", "last_name": "Vareilles", "is_starter": true, "position": null, "is_captain": false},
+      {"jersey": 15, "first_name": "Julien", "last_name": "Combe", "is_starter": true, "position": null, "is_captain": false}
+    ],
+    "adversaire": [
+      {"jersey": 1, "first_name": "Alan", "last_name": "Adams", "is_starter": true, "position": null, "is_captain": false},
+      {"jersey": 2, "first_name": "Lancelot", "last_name": "Barrington-Ward", "is_starter": true, "position": null, "is_captain": false},
+      {"jersey": 3, "first_name": "Henry", "last_name": "Berry", "is_starter": true, "position": null, "is_captain": false},
+      {"jersey": 4, "first_name": "Frederick", "last_name": "Chapman", "is_starter": true, "position": null, "is_captain": false},
+      {"jersey": 5, "first_name": "Harry", "last_name": "Coverdale", "is_starter": true, "position": null, "is_captain": false},
+      {"jersey": 6, "first_name": "Anthony", "last_name": "Gotley", "is_starter": true, "position": null, "is_captain": false},
+      {"jersey": 7, "first_name": "Reginald", "last_name": "Hands", "is_starter": true, "position": null, "is_captain": false},
+      {"jersey": 8, "first_name": "Arthur", "last_name": "Hudson", "is_starter": true, "position": null, "is_captain": false},
+      {"jersey": 9, "first_name": "William", "last_name": "Johns", "is_starter": true, "position": null, "is_captain": false},
+      {"jersey": 10, "first_name": "Edgar", "last_name": "Mobbs", "is_starter": true, "position": null, "is_captain": true},
+      {"jersey": 11, "first_name": "Cherry", "last_name": "Pillman", "is_starter": true, "position": null, "is_captain": false},
+      {"jersey": 12, "first_name": "John", "last_name": "Ritson", "is_starter": true, "position": null, "is_captain": false},
+      {"jersey": 13, "first_name": "Edward", "last_name": "Scorfield", "is_starter": true, "position": null, "is_captain": false},
+      {"jersey": 14, "first_name": "Cyril", "last_name": "Williams", "is_starter": true, "position": null, "is_captain": false},
+      {"jersey": 15, "first_name": "Norman", "last_name": "Wodehouse", "is_starter": true, "position": null, "is_captain": false}
+    ]
+  },
+  "events": [
+    {"team_side": "france", "type": "essai", "player_last_name": "Communeau", "player_first_name": "Marcel", "minute": null},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Hudson", "player_first_name": "Arthur", "minute": null},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Hudson", "player_first_name": "Arthur", "minute": null},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Berry", "player_first_name": "Henry", "minute": null},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Chapman", "player_first_name": "Frederick", "minute": null}
+  ],
+  "substitutions": []
+}

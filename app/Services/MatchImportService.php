@@ -310,6 +310,7 @@ class MatchImportService
                     $entry['first_name'] ?? null,
                     $playerCountry,
                     $position,
+                    $match->match_date,
                 );
 
                 if (!$player) {
@@ -356,6 +357,7 @@ class MatchImportService
                     $event['player_last_name'],
                     $event['player_first_name'] ?? null,
                     $playerCountry,
+                    matchDate: $match->match_date,
                 );
 
                 if (!$player) {
@@ -392,11 +394,13 @@ class MatchImportService
                 $sub['player_off_last_name'],
                 $sub['player_off_first_name'] ?? null,
                 $playerCountry,
+                matchDate: $match->match_date,
             );
             $playerOn = $this->playerResolver->resolve(
                 $sub['player_on_last_name'],
                 $sub['player_on_first_name'] ?? null,
                 $playerCountry,
+                matchDate: $match->match_date,
             );
 
             if (!$playerOff || !$playerOn) {

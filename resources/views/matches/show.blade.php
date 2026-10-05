@@ -246,8 +246,12 @@
                         @if(empty($lineup['starters']) && empty($lineup['bench']))
                             <p class="rounded-xl border border-dashed border-filet p-6 font-serif text-texte-2">La composition de {{ $team['isFrance'] ? 'la France' : $team['name'] }} n'est pas encore saisie pour ce match.</p>
                         @else
-                            <div class="grid gap-8 lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)]">
-                                <x-match.pitch :starters="$lineup['starters']" :france="$team['isFrance']" :sheet="$sheet" :side="$team['side']" />
+                            {{-- Schéma du terrain seulement si chaque titulaire a un poste connu (avant 1920, les avants ne sont pas numérotés) --}}
+                            @php $placeable = collect($lineup['starters'])->every(fn ($row) => $row['position']); @endphp
+                            <div @class(['grid gap-8', 'lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)]' => $placeable])>
+                                @if($placeable)
+                                    <x-match.pitch :starters="$lineup['starters']" :france="$team['isFrance']" :sheet="$sheet" :side="$team['side']" />
+                                @endif
 
                                 <div class="space-y-6">
                                     @foreach(['Titulaires' => $lineup['starters'], 'Remplaçants' => $lineup['bench']] as $title => $rows)

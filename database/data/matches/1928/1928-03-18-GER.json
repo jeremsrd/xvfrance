@@ -1,0 +1,52 @@
+{
+  "match_date": "1928-03-18",
+  "opponent_code": "GER",
+  "france_score": 14,
+  "opponent_score": 3,
+  "referee": "Heb Wilkins",
+  "lineups": {
+    "france": [
+      {"jersey": 1, "first_name": "Jules", "last_name": "Hauc", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
+      {"jersey": 2, "first_name": "Fernand", "last_name": "Camicas", "is_starter": true, "position": "talonneur", "is_captain": false},
+      {"jersey": 3, "first_name": "Joseph", "last_name": "Sayrou", "is_starter": true, "position": "pilier_droit", "is_captain": false},
+      {"jersey": 4, "first_name": "Henri", "last_name": "Lacaze", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 5, "first_name": "André", "last_name": "Camel", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 6, "first_name": "Alex", "last_name": "Bioussa", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 7, "first_name": "Eugène", "last_name": "Ribere", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 8, "first_name": "Albert", "last_name": "Cazenave", "is_starter": true, "position": "numero_huit", "is_captain": false},
+      {"jersey": 9, "first_name": "Clément", "last_name": "Dupont", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
+      {"jersey": 10, "first_name": "André", "last_name": "Verger", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
+      {"jersey": 11, "first_name": "Robert", "last_name": "Houdet", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 12, "first_name": "Henri", "last_name": "Behoteguy", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 13, "first_name": "André", "last_name": "Behoteguy", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 14, "first_name": "Adolphe", "last_name": "Jaureguy", "is_starter": true, "position": "ailier", "is_captain": true},
+      {"jersey": 15, "first_name": "Louis", "last_name": "Pellissier", "is_starter": true, "position": "arriere", "is_captain": false}
+    ],
+    "adversaire": [
+      {"jersey": 1, "first_name": "Willy", "last_name": "Berg", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
+      {"jersey": 2, "first_name": "Karl", "last_name": "Muller", "is_starter": true, "position": "talonneur", "is_captain": false},
+      {"jersey": 3, "first_name": "Richard", "last_name": "Scholle", "is_starter": true, "position": "pilier_droit", "is_captain": false},
+      {"jersey": 4, "first_name": "Georg", "last_name": "Hartleib", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 5, "first_name": "Willy", "last_name": "Lange", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 6, "first_name": "Walter", "last_name": "Lucke", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 7, "first_name": "Adolf", "last_name": "Meyer", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 8, "first_name": "Hans", "last_name": "Leipert", "is_starter": true, "position": "numero_huit", "is_captain": false},
+      {"jersey": 9, "first_name": "Hermannsen", "last_name": "Sander", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
+      {"jersey": 10, "first_name": "Heinrich", "last_name": "Pfersdorf", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
+      {"jersey": 11, "first_name": "", "last_name": "Westermann", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 12, "first_name": "Kurt", "last_name": "Senning", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 13, "first_name": "Hans", "last_name": "Botzong", "is_starter": true, "position": "centre", "is_captain": true},
+      {"jersey": 14, "first_name": "Walter", "last_name": "Unbehauen", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 15, "first_name": "Fritz", "last_name": "Sing", "is_starter": true, "position": "arriere", "is_captain": false}
+    ]
+  },
+  "events": [
+    {"team_side": "france", "type": "essai", "player_last_name": "Houdet", "player_first_name": "Robert", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Houdet", "player_first_name": "Robert", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Bioussa", "player_first_name": "Alex", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Hauc", "player_first_name": "Jules", "minute": null},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Verger", "player_first_name": "André", "minute": null},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Botzong", "player_first_name": "Hans", "minute": null}
+  ],
+  "substitutions": []
+}

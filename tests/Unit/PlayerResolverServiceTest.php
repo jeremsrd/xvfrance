@@ -3,9 +3,12 @@
 namespace Tests\Unit;
 
 use App\Models\Country;
+use App\Models\MatchLineup;
 use App\Models\Player;
+use App\Models\RugbyMatch;
 use App\Services\PlayerResolverService;
 use Illuminate\Foundation\Testing\RefreshDatabase;
+use Illuminate\Support\Carbon;
 use Tests\TestCase;
 
 class PlayerResolverServiceTest extends TestCase
@@ -75,5 +78,23 @@ class PlayerResolverServiceTest extends TestCase
 
         $this->assertSame($this->nzl->id, $created->country_id);
         $this->assertNotNull($created->slug);
+    }
+
+    public function test_homonym_from_another_generation_is_a_distinct_player(): void
+    {
+        $playedOn = fn (Player $player, string $date) => MatchLineup::factory()->create([
+            'player_id' => $player->id,
+            'match_id' => RugbyMatch::factory()->create(['match_date' => $date])->id,
+        ]);
+        $modern = Player::factory()->create(['first_name' => 'Tom', 'last_name' => 'Voyce', 'country_id' => $this->nzl->id]);
+        $playedOn($modern, '2006-02-05');
+
+        $old = $this->resolver->resolve('Voyce', 'Tom', $this->nzl, matchDate: Carbon::parse('1921-03-28'));
+        $this->assertFalse($modern->is($old));
+        $playedOn($old, '1921-03-28');
+
+        $this->assertTrue($old->is($this->resolver->resolve('Voyce', 'Tom', $this->nzl, matchDate: Carbon::parse('1926-01-02'))));
+        $this->assertTrue($modern->is($this->resolver->resolve('Voyce', 'Tom', $this->nzl, matchDate: Carbon::parse('2001-11-24'))));
+        $this->assertSame(1, $this->resolver->getCreatedCount());
     }
 }

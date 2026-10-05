@@ -1,0 +1,55 @@
+{
+  "match_date": "1968-05-05",
+  "opponent_code": "TCH",
+  "france_score": 19,
+  "opponent_score": 6,
+  "referee": "Luigi Tognini",
+  "lineups": {
+    "france": [
+      {"jersey": 1, "first_name": "Michel", "last_name": "Lasserre", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
+      {"jersey": 2, "first_name": "Michel", "last_name": "Yachvili", "is_starter": true, "position": "talonneur", "is_captain": false},
+      {"jersey": 3, "first_name": "Jean-Claude", "last_name": "Noble", "is_starter": true, "position": "pilier_droit", "is_captain": false},
+      {"jersey": 4, "first_name": "Alain", "last_name": "Plantefol", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 5, "first_name": "Elie", "last_name": "Cester", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 6, "first_name": "Jean-Pierre", "last_name": "Salut", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 7, "first_name": "Christian", "last_name": "Carrere", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": true},
+      {"jersey": 8, "first_name": "Michel", "last_name": "Greffe", "is_starter": true, "position": "numero_huit", "is_captain": false},
+      {"jersey": 9, "first_name": "Marcel", "last_name": "Puget", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
+      {"jersey": 10, "first_name": "Claude", "last_name": "Lacaze", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
+      {"jersey": 11, "first_name": "André", "last_name": "Campaes", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 12, "first_name": "Jo", "last_name": "Maso", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 13, "first_name": "Jean-Pierre", "last_name": "Lux", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 14, "first_name": "Jean-Marie", "last_name": "Bonal", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 15, "first_name": "Pierre", "last_name": "Villepreux", "is_starter": true, "position": "arriere", "is_captain": false}
+    ],
+    "adversaire": [
+      {"jersey": 1, "first_name": "", "last_name": "Brejla", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
+      {"jersey": 2, "first_name": "", "last_name": "Krejci", "is_starter": true, "position": "talonneur", "is_captain": false},
+      {"jersey": 3, "first_name": "", "last_name": "Horacek", "is_starter": true, "position": "pilier_droit", "is_captain": false},
+      {"jersey": 4, "first_name": "", "last_name": "Srybrych", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 5, "first_name": "", "last_name": "Cely", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 6, "first_name": "", "last_name": "Kopec", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 7, "first_name": "", "last_name": "Kovrtch", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 8, "first_name": "", "last_name": "Krutzner", "is_starter": true, "position": "numero_huit", "is_captain": false},
+      {"jersey": 9, "first_name": "", "last_name": "Sendler", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
+      {"jersey": 10, "first_name": "", "last_name": "Kourek", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
+      {"jersey": 11, "first_name": "", "last_name": "Fiala", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 12, "first_name": "", "last_name": "Bartos", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 13, "first_name": "", "last_name": "Suchanek", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 14, "first_name": "", "last_name": "Mager", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 15, "first_name": "", "last_name": "Vrba", "is_starter": true, "position": "arriere", "is_captain": false}
+    ]
+  },
+  "events": [
+    {"team_side": "france", "type": "essai", "player_last_name": "Lux", "player_first_name": "Jean-Pierre", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Lux", "player_first_name": "Jean-Pierre", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Villepreux", "player_first_name": "Pierre", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Carrere", "player_first_name": "Christian", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Plantefol", "player_first_name": "Alain", "minute": null},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Villepreux", "player_first_name": "Pierre", "minute": null},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Villepreux", "player_first_name": "Pierre", "minute": null},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Kourek", "player_first_name": "", "minute": null},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Kovrtch", "player_first_name": "", "minute": null}
+  ],
+  "substitutions": []
+}

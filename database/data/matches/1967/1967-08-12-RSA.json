@@ -1,0 +1,50 @@
+{
+  "match_date": "1967-08-12",
+  "opponent_code": "RSA",
+  "france_score": 6,
+  "opponent_score": 6,
+  "referee": "P Robbertse",
+  "lineups": {
+    "france": [
+      {"jersey": 1, "first_name": "Alain", "last_name": "Abadie", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
+      {"jersey": 2, "first_name": "Jean", "last_name": "Malbet", "is_starter": true, "position": "talonneur", "is_captain": false},
+      {"jersey": 3, "first_name": "Jacques", "last_name": "Fort", "is_starter": true, "position": "pilier_droit", "is_captain": false},
+      {"jersey": 4, "first_name": "Alain", "last_name": "Plantefol", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 5, "first_name": "Benoît", "last_name": "Dauga", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 6, "first_name": "Christian", "last_name": "Carrere", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 7, "first_name": "André", "last_name": "Quilis", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 8, "first_name": "Walter", "last_name": "Spanghero", "is_starter": true, "position": "numero_huit", "is_captain": false},
+      {"jersey": 9, "first_name": "Marcel", "last_name": "Puget", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
+      {"jersey": 10, "first_name": "Guy", "last_name": "Camberabero", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
+      {"jersey": 11, "first_name": "Christian", "last_name": "Darrouy", "is_starter": true, "position": "ailier", "is_captain": true},
+      {"jersey": 12, "first_name": "Jean-Pierre", "last_name": "Lux", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 13, "first_name": "Jean", "last_name": "Trillo", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 14, "first_name": "Jacques", "last_name": "Crampagne", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 15, "first_name": "Claude", "last_name": "Lacaze", "is_starter": true, "position": "arriere", "is_captain": false}
+    ],
+    "adversaire": [
+      {"jersey": 1, "first_name": "Tiny", "last_name": "Neethling", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
+      {"jersey": 2, "first_name": "Gys", "last_name": "Pitzer", "is_starter": true, "position": "talonneur", "is_captain": false},
+      {"jersey": 3, "first_name": "Gert", "last_name": "Kotze", "is_starter": true, "position": "pilier_droit", "is_captain": false},
+      {"jersey": 4, "first_name": "Piet", "last_name": "Greyling", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 5, "first_name": "Frik", "last_name": "Du Preez", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 6, "first_name": "Tiny", "last_name": "Naude", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 7, "first_name": "Jan", "last_name": "Ellis", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 8, "first_name": "Albie", "last_name": "De Waal", "is_starter": true, "position": "numero_huit", "is_captain": false},
+      {"jersey": 9, "first_name": "Dawie", "last_name": "De Villiers", "is_starter": true, "position": "demi_de_melee", "is_captain": true},
+      {"jersey": 10, "first_name": "Piet", "last_name": "Visagie", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
+      {"jersey": 11, "first_name": "Jannie", "last_name": "Engelbrecht", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 12, "first_name": "Syd", "last_name": "Nomis", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 13, "first_name": "Eben", "last_name": "Olivier", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 14, "first_name": "Corra", "last_name": "Dirksen", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 15, "first_name": "Ho", "last_name": "De Villiers", "is_starter": true, "position": "arriere", "is_captain": false}
+    ]
+  },
+  "events": [
+    {"team_side": "france", "type": "penalite", "player_last_name": "Camberabero", "player_first_name": "Guy", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Spanghero", "player_first_name": "Walter", "minute": null},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "De Villiers", "player_first_name": "Ho", "minute": null},
+    {"team_side": "adversaire", "type": "drop", "player_last_name": "Visagie", "player_first_name": "Piet", "minute": null}
+  ],
+  "substitutions": []
+}
