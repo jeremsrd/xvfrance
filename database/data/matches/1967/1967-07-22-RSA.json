@@ -7,15 +7,15 @@
   "lineups": {
     "france": [
       {"jersey": 1, "first_name": "Michel", "last_name": "Lasserre", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
-      {"jersey": 2, "first_name": "Jean", "last_name": "Malbet", "is_starter": true, "position": "talonneur", "is_captain": false},
-      {"jersey": 3, "first_name": "Jean", "last_name": "Esponda", "is_starter": true, "position": "pilier_droit", "is_captain": false},
+      {"jersey": 2, "first_name": "Jean-Claude", "last_name": "Malbet", "is_starter": true, "position": "talonneur", "is_captain": false},
+      {"jersey": 3, "first_name": "Jean-Michel", "last_name": "Esponda", "is_starter": true, "position": "pilier_droit", "is_captain": false},
       {"jersey": 4, "first_name": "Walter", "last_name": "Spanghero", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 5, "first_name": "Alain", "last_name": "Plantefol", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 6, "first_name": "Jacques", "last_name": "Fort", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 7, "first_name": "Michel", "last_name": "Sitjar", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 8, "first_name": "Benoît", "last_name": "Dauga", "is_starter": true, "position": "numero_huit", "is_captain": false},
       {"jersey": 9, "first_name": "Gérard", "last_name": "Sutra", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
-      {"jersey": 10, "first_name": "Jean", "last_name": "Dehez", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
+      {"jersey": 10, "first_name": "Jean-Louis", "last_name": "Dehez", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
       {"jersey": 11, "first_name": "Bernard", "last_name": "Duprat", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 12, "first_name": "Claude", "last_name": "Dourthe", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 13, "first_name": "Jean-Pierre", "last_name": "Lux", "is_starter": true, "position": "centre", "is_captain": false},

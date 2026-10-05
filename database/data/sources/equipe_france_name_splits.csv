@@ -1,45 +1,129 @@
-site_name,first_name,last_name
-Alberto Vernet Basualdo,Alberto,Vernet Basualdo
-Arturo Rodriguez Jurado,Arturo,Rodriguez Jurado
-Carlos Ignacio Fernandez Lobbe,Carlos Ignacio,Fernandez Lobbe
-Cristian Viel Temperley,Cristian,Viel Temperley
-Daniel Baetti Sabah,Daniel,Baetti Sabah
-Daniel Beccar Varela,Daniel,Beccar Varela
-Diego Cuesta Silva,Diego,Cuesta Silva
-Enrique Pieretto Heiland,Enrique,Pieretto Heiland
-Federico Martin Aramburu,Federico,Martin Aramburu
-Francisco Javier Leonelli Morey,Francisco Javier,Leonelli Morey
-Gonzalo Beccar Varela,Gonzalo,Beccar Varela
-Gonzalo Longo Elía,Gonzalo,Longo Elía
-Guido Petti Pagadizabal,Guido,Petti Pagadizabal
-Hernan Garcia Simon,Hernan,Garcia Simon
-Javier Ortega Desio,Javier,Ortega Desio
-Jose Maria Nunez Piossek,Jose Maria,Nunez Piossek
-Juan Fernández Miranda,Juan,Fernández Miranda
-Juan Martín Fernandez Lobbe,Juan Martín,Fernandez Lobbe
-Juan Soler Valls,Juan,Soler Valls
-Julio Farias Cabello,Julio,Farias Cabello
-Lucas Gonzalez Amorosino,Lucas,Gonzalez Amorosino
-Nahuel Tetaz Chaparro,Nahuel,Tetaz Chaparro
-Omar Hasan Jalil,Omar,Hasan Jalil
-Oscar Martinez Basante,Oscar,Martinez Basante
-Rimas Álvarez Kairelis,Rimas,Álvarez Kairelis
-Santiago Garcia Botta,Santiago,Garcia Botta
-Santiago Gonzalez Bonorino,Santiago,Gonzalez Bonorino
-Santiago Gonzalez Iglesias,Santiago,Gonzalez Iglesias
-John Newton Thompson,John,Newton-Thompson
-Lancelot Barrington Ward,Lancelot,Barrington-Ward
-Richard Hamilton Wickes,Richard,Hamilton-Wickes
-Cedate Gomes Sa,Cedate,Gomes Sa
-Charles Beaurin Gressier,Charles,Beaurin-Gressier
-Jaques Chaban Delmas,Jacques,Chaban-Delmas
-Jean Prin Clary,Jean,Prin-Clary
-Marcel Lubin Lebrere,Marcel,Lubin-Lebrère
-Arturo Re Garbagnati,Arturo,Re Garbagnati
-Asaeli Ai Valu,Asaeli,Ai Valu
-Hale T Pole,Hale,T-Pole
-Eliota Fuimaono Sapolu,Eliota,Fuimaono-Sapolu
-Ofa Tuungafasi,Ofa,Tu'ungafasi
-Montanna Ioane,Monty,Ioane
-David Cherry,Dave,Cherry
-Alan Muhr,Allan,Muhr
+site_name,first_name,last_name,site_slug,cap_number
+Alberto Vernet Basualdo,Alberto,Vernet Basualdo,,
+Arturo Rodriguez Jurado,Arturo,Rodriguez Jurado,,
+Carlos Ignacio Fernandez Lobbe,Carlos Ignacio,Fernandez Lobbe,,
+Cristian Viel Temperley,Cristian,Viel Temperley,,
+Daniel Baetti Sabah,Daniel,Baetti Sabah,,
+Daniel Beccar Varela,Daniel,Beccar Varela,,
+Diego Cuesta Silva,Diego,Cuesta Silva,,
+Enrique Pieretto Heiland,Enrique,Pieretto Heiland,,
+Federico Martin Aramburu,Federico,Martin Aramburu,,
+Francisco Javier Leonelli Morey,Francisco Javier,Leonelli Morey,,
+Gonzalo Beccar Varela,Gonzalo,Beccar Varela,,
+Gonzalo Longo Elía,Gonzalo,Longo Elía,,
+Guido Petti Pagadizabal,Guido,Petti Pagadizabal,,
+Hernan Garcia Simon,Hernan,Garcia Simon,,
+Javier Ortega Desio,Javier,Ortega Desio,,
+Jose Maria Nunez Piossek,Jose Maria,Nunez Piossek,,
+Juan Fernández Miranda,Juan,Fernández Miranda,,
+Juan Martín Fernandez Lobbe,Juan Martín,Fernandez Lobbe,,
+Juan Soler Valls,Juan,Soler Valls,,
+Julio Farias Cabello,Julio,Farias Cabello,,
+Lucas Gonzalez Amorosino,Lucas,Gonzalez Amorosino,,
+Nahuel Tetaz Chaparro,Nahuel,Tetaz Chaparro,,
+Omar Hasan Jalil,Omar,Hasan Jalil,,
+Oscar Martinez Basante,Oscar,Martinez Basante,,
+Rimas Álvarez Kairelis,Rimas,Álvarez Kairelis,,
+Santiago Garcia Botta,Santiago,Garcia Botta,,
+Santiago Gonzalez Bonorino,Santiago,Gonzalez Bonorino,,
+Santiago Gonzalez Iglesias,Santiago,Gonzalez Iglesias,,
+John Newton Thompson,John,Newton-Thompson,,
+Lancelot Barrington Ward,Lancelot,Barrington-Ward,,
+Richard Hamilton Wickes,Richard,Hamilton-Wickes,,
+Cedate Gomes Sa,Cedate,Gomes Sa,,
+Charles Beaurin Gressier,Charles,Beaurin-Gressier,,
+Jaques Chaban Delmas,Jacques,Chaban-Delmas,,
+Jean Prin Clary,Jean,Prin-Clary,,
+Marcel Lubin Lebrere,Marcel,Lubin-Lebrère,,
+Arturo Re Garbagnati,Arturo,Re Garbagnati,,
+Asaeli Ai Valu,Asaeli,Ai Valu,,
+Hale T Pole,Hale,T-Pole,,
+Eliota Fuimaono Sapolu,Eliota,Fuimaono-Sapolu,,
+Ofa Tuungafasi,Ofa,Tu'ungafasi,,
+Montanna Ioane,Monty,Ioane,,
+David Cherry,Dave,Cherry,,
+Alan Muhr,Allan,Muhr,,
+André Abadie,André,Abadie,andre-abadie,545
+Lewis,Ernest,Lewis,lewis,
+Théo Varvier,Théodore,Varvier,theo-varvier,
+Pierre Gauderman,Pierre,Gaudermen,pierre-gauderman,
+Maurin,Simon,Maurin,maurin,
+Alfred Mayssonnie,Alfred,Mayssonnié,alfred-mayssonnie,
+René De Malmann,René,de Malmann,rene-de-malmann,
+Houblain,Henri,Houblain,houblain,
+Geo Fourcade,Georges,Fourcade,geo-fourcade,
+Icard,Jules,Icard,icard,
+Rémi Laffitte,Pierre-Paul,Laffitte,remi-laffitte,
+Guy Laterrade,Guillaume,Laterrade,guy-laterrade,
+Joseph De Muizon,Joseph,Jourdain de Muizon,de-muizon,
+Roujas,Fernand,Roujas,roujas,
+François Dutour,François-Xavier,Dutour,francois-dutour,
+Charles Du Souich,Charles,du Souich,charles-du-souich,
+René Dufour,René,Duffour,rene-dufour,
+Robert Monnier,Robert,Monier,robert-monnier,
+Jacques Conilh de Beyssac,Jean-Jacques,Conilh de Beyssac,jacques-conilh-de-beyssac,
+Vallot,Édouard,Vallot,vallot,
+Paul Tilh,Hélier,Tilh,paul-tilh,
+Geo André,Géo,André,geo-andre,
+Favre,Marcel,Favre,favre,
+Phillipe Struxiano,Philippe,Struxiano,phillipe-struxiano,
+Podevin,Gustave,Podevin,podevin,
+Clovis Tavernier,Henri,Tavernier,clovis-tavernier,
+Eutrope,Albert,Eutrope,eutrope,
+François Poydebasque,François,Poeydebasque,francois-poydebasque,
+Félix Faure,Paul,Faure,felix-faure,
+Marcel Lubin Lebrere,Marcel-Frédéric,Lubin-Lebrère,marcel-lubin-lebrere,
+Jean Arnal,Jean-Marie,Arnal,jean-arnal,
+Capmau,Jean-Louis,Capmau,capmau,
+Edmund Cayrefourcq,Edmond,Cayrefourcq,edmund-cayrefourcq,
+Jean Baquey,Jacques,Baquey,jean-baquey,
+Henri Jeangrand,Maurice,Jeangrand,henri-jeangrand,
+Jep Pascot,Joseph,Pascot,jep-pascot,
+Jean Etchepare,Albert,Etchepare,jean-etchepare,
+Yves Du Manoir,Yves,du Manoir,yves-du-manoir,
+Laffont,Honoré,Laffont,laffont,
+Rober Hutin,Robert,Hutin,rober-hutin,
+Carbonne,Jean,Carbonne,carbonne,
+Pierre Clement,Georges,Clément,pierre-clement,
+Jean Lefort,Jean-Baptiste,Lefort,jean-lefort,
+Jean Villagra,Jean,Vilagra,jean-villagra,
+Robert Labarthete,Robert,Labarthète,robert-labarthete,
+Jean Bourdeu,Jean-Roger,Bourdeu,jean-bourdeu,
+Bernard Chevalier,Bernard,Chevallier,bernard-chevalier,
+Jean Rouan,Jean-Claude,Rouan,jean-rouan,
+Jean Pargade,Jean-Henri,Pargade,jean-pargade,
+René Normand,Adrien,Normand,rene-normand,
+Roger Gensanne,Roger,Gensane,roger-gensanne,
+Jean Razat,Jean-Pierre,Razat,jean-razat,
+Jean Amestoy,Jean-Baptiste,Amestoy,jean-amestoy,
+Jean Hiquet,Jean-Claude,Hiquet,jean-hiquet,
+Yves Menthiller,Yves,Menthillier,yves-menthiller,
+Alain Abadie,André,Abadie,alain-abadie,552
+Jean Roques,Jean-Claude,Roques,jean-roques,
+Jean Lagrange,Jean-Claude,Lagrange,jean-lagrange,
+Jean-Pierre Salut,Jean,Salut,jean-pierre-salut,
+Jean Esponda,Jean-Michel,Esponda,jean-esponda,
+Jean Dehez,Jean-Louis,Dehez,jean-dehez,
+Jean Malbet,Jean-Claude,Malbet,jean-malbet,
+Jean Capendeguy,Jean-Michel,Capendeguy,jean-capendeguy,
+Jean Lenient,Jean-Jacques,Lénient,jean-lenient,
+Basil Moraitis,Basile,Moraitis,basil-moraitis,
+Jean Martin,Jean-Louis,Martin,jean-martin,
+Jean Hortoland,Jean-Pierre,Hortoland,jean-hortoland,
+Jean Phliponneau,Jean-François,Phliponeau,jean-phliponneau,
+Jean Ugartemendia,Jean-Louis,Ugartemendia,jean-ugartemendia,
+Yres Brunet,Yves,Brunet,yres-brunet,
+Jean Fauvell,Jean-Pierre,Fauvel,jean-fauvell,
+Daniel Revallier,Daniel,Revailler,daniel-revallier,
+Jaques Begu,Jacques,Bégu,jaques-begu,
+Jean-Pierre Garuet,Jean-Pierre,Garuet-Lempirou,jean-pierre-garuet,
+Kail Janik,Karl,Janik,kail-janik,
+Jean Gourragne,Jean-François,Gourragne,jean-gourragne,
+Michel Courtoils,Michel,Courtiols,michel-courtoils,
+Arlettaz,Patrick,Arlettaz,arlettaz,
+Bacque,Nicolas,Bacqué,bacque,
+Matthieu Lievremont,Matthieu,Lièvremont,matthieu-lievremont,
+Pierre Correira,Pierre,Corréia,pierre-correira,
+Jean-Baptiste Peyras,Jean-Baptiste,Peyras-Loustalet,jean-baptiste-peyras,
+Julian Puricelli,Julien,Puricelli,julian-puricelli,
+Jonathon Pelissie,Jonathan,Pélissié,jonathon-pelissie,

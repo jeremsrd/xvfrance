@@ -9,7 +9,7 @@
       {"jersey": 1, "first_name": "Maurice", "last_name": "Boyau", "is_starter": true, "position": null, "is_captain": false},
       {"jersey": 2, "first_name": "Marcel", "last_name": "Burgun", "is_starter": true, "position": null, "is_captain": false},
       {"jersey": 3, "first_name": "Marcel", "last_name": "Communeau", "is_starter": true, "position": null, "is_captain": false},
-      {"jersey": 4, "first_name": "Jacques Conilh", "last_name": "de Beyssac", "is_starter": true, "position": null, "is_captain": false},
+      {"jersey": 4, "first_name": "Jean-Jacques", "last_name": "Conilh de Beyssac", "is_starter": true, "position": null, "is_captain": false},
       {"jersey": 5, "first_name": "Jacques", "last_name": "Dedet", "is_starter": true, "position": null, "is_captain": true},
       {"jersey": 6, "first_name": "Jean", "last_name": "Domercq", "is_starter": true, "position": null, "is_captain": false},
       {"jersey": 7, "first_name": "Julien", "last_name": "Dufau", "is_starter": true, "position": null, "is_captain": false},
@@ -17,10 +17,10 @@
       {"jersey": 9, "first_name": "Daniel", "last_name": "Ihingoue", "is_starter": true, "position": null, "is_captain": false},
       {"jersey": 10, "first_name": "Léon", "last_name": "Larribau", "is_starter": true, "position": null, "is_captain": false},
       {"jersey": 11, "first_name": "Paul", "last_name": "Mauriat", "is_starter": true, "position": null, "is_captain": false},
-      {"jersey": 12, "first_name": "Robert", "last_name": "Monnier", "is_starter": true, "position": null, "is_captain": false},
+      {"jersey": 12, "first_name": "Robert", "last_name": "Monier", "is_starter": true, "position": null, "is_captain": false},
       {"jersey": 13, "first_name": "Raoul", "last_name": "Paoli", "is_starter": true, "position": null, "is_captain": false},
-      {"jersey": 14, "first_name": "", "last_name": "Vallot", "is_starter": true, "position": null, "is_captain": false},
-      {"jersey": 15, "first_name": "François", "last_name": "Dutour", "is_starter": true, "position": "arriere", "is_captain": false}
+      {"jersey": 14, "first_name": "Édouard", "last_name": "Vallot", "is_starter": true, "position": null, "is_captain": false},
+      {"jersey": 15, "first_name": "François-Xavier", "last_name": "Dutour", "is_starter": true, "position": "arriere", "is_captain": false}
     ],
     "adversaire": [
       {"jersey": 1, "first_name": "John", "last_name": "Maccallum", "is_starter": true, "position": null, "is_captain": true},

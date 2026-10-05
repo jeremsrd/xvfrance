@@ -19,8 +19,8 @@
       {"jersey": 11, "first_name": "Jean-René", "last_name": "Pascarel", "is_starter": true, "position": null, "is_captain": false},
       {"jersey": 12, "first_name": "Jean", "last_name": "Sebedio", "is_starter": true, "position": null, "is_captain": false},
       {"jersey": 13, "first_name": "Jean", "last_name": "Sentilles", "is_starter": true, "position": null, "is_captain": false},
-      {"jersey": 14, "first_name": "Paul", "last_name": "Tilh", "is_starter": true, "position": null, "is_captain": false},
-      {"jersey": 15, "first_name": "François", "last_name": "Dutour", "is_starter": true, "position": "arriere", "is_captain": false}
+      {"jersey": 14, "first_name": "Hélier", "last_name": "Tilh", "is_starter": true, "position": null, "is_captain": false},
+      {"jersey": 15, "first_name": "François-Xavier", "last_name": "Dutour", "is_starter": true, "position": "arriere", "is_captain": false}
     ],
     "adversaire": [
       {"jersey": 1, "first_name": "Alexander", "last_name": "Angus", "is_starter": true, "position": null, "is_captain": false},

@@ -208,6 +208,9 @@ class MatchDataValidator
                 if (!array_key_exists('first_name', $entry)) {
                     $this->errors[] = "{$prefix}.first_name requis";
                 }
+                if (isset($entry['cap_number']) && (!is_int($entry['cap_number']) || $entry['cap_number'] < 1)) {
+                    $this->errors[] = "{$prefix}.cap_number invalide";
+                }
                 if (!isset($entry['is_starter']) || !is_bool($entry['is_starter'])) {
                     $this->errors[] = "{$prefix}.is_starter requis (boolean)";
                 }

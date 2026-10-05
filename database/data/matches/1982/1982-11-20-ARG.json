@@ -25,7 +25,7 @@
       {"jersey": 17, "first_name": "Daniel", "last_name": "Dubroca", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 18, "first_name": "Laurent", "last_name": "Rodriguez", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 19, "first_name": "Pierre", "last_name": "Berbizier", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 20, "first_name": "Jaques", "last_name": "Begu", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 20, "first_name": "Jacques", "last_name": "Bégu", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 21, "first_name": "Bernard", "last_name": "Vivies", "is_starter": false, "position": null, "is_captain": false}
     ],
     "adversaire": [
@@ -54,7 +54,7 @@
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Porta", "player_first_name": "Hugo", "minute": 57},
     {"team_side": "france", "type": "transformation", "player_last_name": "Camberabero", "player_first_name": "Didier", "minute": null},
     {"team_side": "france", "type": "penalite", "player_last_name": "Camberabero", "player_first_name": "Didier", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Begu", "player_first_name": "Jaques", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Bégu", "player_first_name": "Jacques", "minute": null},
     {"team_side": "france", "type": "essai", "player_last_name": "Blanco", "player_first_name": "Serge", "minute": null}
   ],
   "substitutions": []

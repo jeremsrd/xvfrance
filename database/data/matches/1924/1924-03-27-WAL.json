@@ -6,7 +6,7 @@
   "referee": "Ra Roberts",
   "lineups": {
     "france": [
-      {"jersey": 1, "first_name": "Marcel", "last_name": "Lubin-Lebrère", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
+      {"jersey": 1, "first_name": "Marcel-Frédéric", "last_name": "Lubin-Lebrère", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
       {"jersey": 2, "first_name": "Jean", "last_name": "Bayard", "is_starter": true, "position": "talonneur", "is_captain": false},
       {"jersey": 3, "first_name": "Alex", "last_name": "Bioussa", "is_starter": true, "position": "pilier_droit", "is_captain": false},
       {"jersey": 4, "first_name": "Aimé", "last_name": "Cassayet-Armagnac", "is_starter": true, "position": "deuxieme_ligne", "is_captain": true},
@@ -42,7 +42,7 @@
   },
   "events": [
     {"team_side": "france", "type": "essai", "player_last_name": "Behoteguy", "player_first_name": "André", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Lubin-Lebrère", "player_first_name": "Marcel", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Lubin-Lebrère", "player_first_name": "Marcel-Frédéric", "minute": null},
     {"team_side": "adversaire", "type": "drop", "player_last_name": "Griffiths", "player_first_name": "Vince", "minute": null},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Finch", "player_first_name": "Ernie", "minute": null},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Rickards", "player_first_name": "Arnold", "minute": null}

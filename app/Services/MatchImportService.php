@@ -17,6 +17,7 @@ use App\Models\RugbyMatch;
 use App\Models\Venue;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Str;
 
 class MatchImportService
 {
@@ -311,6 +312,7 @@ class MatchImportService
                     $playerCountry,
                     $position,
                     $match->match_date,
+                    isset($entry['cap_number']) ? (int) $entry['cap_number'] : null,
                 );
 
                 if (!$player) {
@@ -353,12 +355,7 @@ class MatchImportService
             $player = null;
             if ($eventType !== EventType::ESSAI_PENALITE && !empty($event['player_last_name'])) {
                 $playerCountry = $teamSide === TeamSide::FRANCE ? $france : $opponent;
-                $player = $this->playerResolver->resolve(
-                    $event['player_last_name'],
-                    $event['player_first_name'] ?? null,
-                    $playerCountry,
-                    matchDate: $match->match_date,
-                );
+                $player = $this->resolveInMatch($match, $teamSide, $event['player_last_name'], $event['player_first_name'] ?? null, $playerCountry);
 
                 if (!$player) {
                     $this->warn("Event skippé : joueur non résolu {$event['player_last_name']}");
@@ -390,18 +387,8 @@ class MatchImportService
             $teamSide = TeamSide::from($sub['team_side']);
             $playerCountry = $teamSide === TeamSide::FRANCE ? $france : $opponent;
 
-            $playerOff = $this->playerResolver->resolve(
-                $sub['player_off_last_name'],
-                $sub['player_off_first_name'] ?? null,
-                $playerCountry,
-                matchDate: $match->match_date,
-            );
-            $playerOn = $this->playerResolver->resolve(
-                $sub['player_on_last_name'],
-                $sub['player_on_first_name'] ?? null,
-                $playerCountry,
-                matchDate: $match->match_date,
-            );
+            $playerOff = $this->resolveInMatch($match, $teamSide, $sub['player_off_last_name'], $sub['player_off_first_name'] ?? null, $playerCountry);
+            $playerOn = $this->resolveInMatch($match, $teamSide, $sub['player_on_last_name'], $sub['player_on_first_name'] ?? null, $playerCountry);
 
             if (!$playerOff || !$playerOn) {
                 $this->warn("Substitution skippée : joueur non résolu");
@@ -420,6 +407,24 @@ class MatchImportService
         }
 
         $this->info("{$count} remplacements importés");
+    }
+
+    /**
+     * Joueur d'un événement ou d'un remplacement : d'abord parmi la composition déjà importée du match
+     * (même nom et prénom, accents ignorés), ce qui départage les homonymes ; sinon par le résolveur.
+     */
+    private function resolveInMatch(RugbyMatch $match, TeamSide $side, string $lastName, ?string $firstName, Country $country): ?Player
+    {
+        $key = fn (?string $first, string $last) => Str::lower(Str::ascii(trim($first ?? '') . '|' . trim($last)));
+        $inLineup = MatchLineup::with('player')->where('match_id', $match->id)->where('team_side', $side)->get()
+            ->map->player
+            ->filter(fn (Player $p) => $key($p->first_name, $p->last_name) === $key($firstName, $lastName));
+
+        if ($inLineup->count() === 1) {
+            return $inLineup->first();
+        }
+
+        return $this->playerResolver->resolve($lastName, $firstName, $country, matchDate: $match->match_date);
     }
 
     private function getFranceCountry(): Country

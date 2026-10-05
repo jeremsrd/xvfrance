@@ -97,4 +97,14 @@ class PlayerResolverServiceTest extends TestCase
         $this->assertTrue($modern->is($this->resolver->resolve('Voyce', 'Tom', $this->nzl, matchDate: Carbon::parse('2001-11-24'))));
         $this->assertSame(1, $this->resolver->getCreatedCount());
     }
+
+    public function test_cap_number_separates_namesakes_of_the_same_era(): void
+    {
+        $hooker = $this->resolver->resolve('Abadie', 'André', $this->nzl, matchDate: Carbon::parse('1964-04-11'), capNumber: 545);
+        $prop = $this->resolver->resolve('Abadie', 'André', $this->nzl, matchDate: Carbon::parse('1965-11-28'), capNumber: 552);
+
+        $this->assertFalse($hooker->is($prop));
+        $this->assertSame([545, 552], [$hooker->fresh()->cap_number, $prop->fresh()->cap_number]);
+        $this->assertTrue($prop->is((new PlayerResolverService())->resolve('Abadie', 'André', $this->nzl, capNumber: 552)));
+    }
 }

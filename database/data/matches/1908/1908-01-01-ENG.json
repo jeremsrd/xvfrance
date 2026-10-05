@@ -6,7 +6,7 @@
   "referee": "Cf Rutherford",
   "lineups": {
     "france": [
-      {"jersey": 1, "first_name": "René", "last_name": "De Malmann", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
+      {"jersey": 1, "first_name": "René", "last_name": "de Malmann", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
       {"jersey": 2, "first_name": "Charles", "last_name": "Beaurin-Gressier", "is_starter": true, "position": "talonneur", "is_captain": false},
       {"jersey": 3, "first_name": "Marcel", "last_name": "Communeau", "is_starter": true, "position": "pilier_droit", "is_captain": true},
       {"jersey": 4, "first_name": "Henri", "last_name": "Moure", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
@@ -14,7 +14,7 @@
       {"jersey": 6, "first_name": "Pierre", "last_name": "Guillemin", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 7, "first_name": "Paul", "last_name": "Mauriat", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 8, "first_name": "Georges", "last_name": "Borchard", "is_starter": true, "position": "numero_huit", "is_captain": false},
-      {"jersey": 9, "first_name": "Alfred", "last_name": "Mayssonnie", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
+      {"jersey": 9, "first_name": "Alfred", "last_name": "Mayssonnié", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
       {"jersey": 10, "first_name": "Albert", "last_name": "Hubert", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
       {"jersey": 11, "first_name": "Charles", "last_name": "Vareilles", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 12, "first_name": "Paul", "last_name": "Sagot", "is_starter": true, "position": "centre", "is_captain": false},

@@ -6,7 +6,7 @@
   "referee": "Ray Williams",
   "lineups": {
     "france": [
-      {"jersey": 1, "first_name": "Jean", "last_name": "Amestoy", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
+      {"jersey": 1, "first_name": "Jean-Baptiste", "last_name": "Amestoy", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
       {"jersey": 2, "first_name": "Jean", "last_name": "de Gregorio", "is_starter": true, "position": "talonneur", "is_captain": false},
       {"jersey": 3, "first_name": "Jacques", "last_name": "Bayardon", "is_starter": true, "position": "pilier_droit", "is_captain": false},
       {"jersey": 4, "first_name": "Benoît", "last_name": "Dauga", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},

@@ -21,7 +21,7 @@
       {"jersey": 13, "first_name": "Jean-Martin", "last_name": "Etchenique", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 14, "first_name": "Roland", "last_name": "Bertranne", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 15, "first_name": "Michel", "last_name": "Taffary", "is_starter": true, "position": "arriere", "is_captain": false},
-      {"jersey": 16, "first_name": "Jean", "last_name": "Ugartemendia", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 16, "first_name": "Jean-Louis", "last_name": "Ugartemendia", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 17, "first_name": "Robert", "last_name": "Paparemborde", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 18, "first_name": "Victor", "last_name": "Boffelli", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 19, "first_name": "Gérald", "last_name": "Martinez", "is_starter": false, "position": null, "is_captain": false},

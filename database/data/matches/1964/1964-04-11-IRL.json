@@ -7,7 +7,7 @@
   "lineups": {
     "france": [
       {"jersey": 1, "first_name": "Jean-Claude", "last_name": "Berejnoi", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
-      {"jersey": 2, "first_name": "André", "last_name": "Abadie", "is_starter": true, "position": "talonneur", "is_captain": false},
+      {"jersey": 2, "first_name": "André", "last_name": "Abadie", "is_starter": true, "position": "talonneur", "is_captain": false, "cap_number": 545},
       {"jersey": 3, "first_name": "Arnaldo", "last_name": "Gruarin", "is_starter": true, "position": "pilier_droit", "is_captain": false},
       {"jersey": 4, "first_name": "André", "last_name": "Herrero", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 5, "first_name": "Benoît", "last_name": "Dauga", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},

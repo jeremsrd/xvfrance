@@ -6,21 +6,21 @@
   "referee": "J Games",
   "lineups": {
     "france": [
-      {"jersey": 1, "first_name": "Geo", "last_name": "André", "is_starter": true, "position": null, "is_captain": false},
+      {"jersey": 1, "first_name": "Géo", "last_name": "André", "is_starter": true, "position": null, "is_captain": false},
       {"jersey": 2, "first_name": "Maurice", "last_name": "Bruneau", "is_starter": true, "position": null, "is_captain": false},
       {"jersey": 3, "first_name": "Marcel", "last_name": "Burgun", "is_starter": true, "position": null, "is_captain": false},
       {"jersey": 4, "first_name": "Jean", "last_name": "Caujolle", "is_starter": true, "position": null, "is_captain": false},
       {"jersey": 5, "first_name": "Marcel", "last_name": "Communeau", "is_starter": true, "position": null, "is_captain": false},
       {"jersey": 6, "first_name": "Jacques", "last_name": "Dedet", "is_starter": true, "position": null, "is_captain": false},
       {"jersey": 7, "first_name": "Pierre", "last_name": "Failliot", "is_starter": true, "position": null, "is_captain": false},
-      {"jersey": 8, "first_name": "", "last_name": "Favre", "is_starter": true, "position": null, "is_captain": false},
+      {"jersey": 8, "first_name": "Marcel", "last_name": "Favre", "is_starter": true, "position": null, "is_captain": false},
       {"jersey": 9, "first_name": "Marcel", "last_name": "Legrain", "is_starter": true, "position": null, "is_captain": false},
       {"jersey": 10, "first_name": "Maurice", "last_name": "Leuvielle", "is_starter": true, "position": null, "is_captain": true},
       {"jersey": 11, "first_name": "Pierre", "last_name": "Mouniq", "is_starter": true, "position": null, "is_captain": false},
       {"jersey": 12, "first_name": "Jean-René", "last_name": "Pascarel", "is_starter": true, "position": null, "is_captain": false},
       {"jersey": 13, "first_name": "Jean", "last_name": "Sebedio", "is_starter": true, "position": null, "is_captain": false},
       {"jersey": 14, "first_name": "André", "last_name": "Theuriet", "is_starter": true, "position": null, "is_captain": false},
-      {"jersey": 15, "first_name": "Paul", "last_name": "Tilh", "is_starter": true, "position": null, "is_captain": false}
+      {"jersey": 15, "first_name": "Hélier", "last_name": "Tilh", "is_starter": true, "position": null, "is_captain": false}
     ],
     "adversaire": [
       {"jersey": 1, "first_name": "Bruno", "last_name": "Brown", "is_starter": true, "position": null, "is_captain": false},

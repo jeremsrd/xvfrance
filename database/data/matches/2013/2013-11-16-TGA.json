@@ -25,7 +25,7 @@
       {"jersey": 18, "first_name": "Rabah", "last_name": "Slimani", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 19, "first_name": "Pascal", "last_name": "Papé", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 20, "first_name": "Bernard", "last_name": "Le Roux", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 21, "first_name": "Jonathon", "last_name": "Pelissie", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 21, "first_name": "Jonathan", "last_name": "Pélissié", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 22, "first_name": "Frédéric", "last_name": "Michalak", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 23, "first_name": "Mathieu", "last_name": "Bastareaud", "is_starter": false, "position": null, "is_captain": false}
     ],

@@ -62,10 +62,13 @@ Toutes les commandes du projet sont préfixées `xv:` (`php artisan list xv`).
 | `xv:validate-match-data {path}` | Valide des JSON de feuilles de match (dont points = score selon le barème de l'époque, cohérence des remplacements, noms proches d'un joueur existant) |
 | `xv:import-match-data {path}` | Importe des JSON de feuilles de match (`--changed` : seulement ceux modifiés depuis le dernier import, utilisé par `deploy.sh`) |
 | `xv:import-internationaux` | Numéro d'international et date de naissance des Français d'après `internationaux_encyclo.csv` (liste arrêtée en 2016, `--report` : non rapprochés et noms différents) |
+| `xv:apply-name-corrections` | Renomme les joueurs français d'après les écarts de nom vérifiés (`noms_ecarts.csv`, par numéro d'international) |
 | `xv:compute-primary-positions` | Déduit le poste principal de chaque joueur du poste le plus joué dans ses compositions |
 
 Les feuilles historiques (1906 → 2023) sont générées par `python3 scripts/equipe_france/feuilles.py` à partir des
-pages equipe-france.fr en cache (voir `docs/specs/feuilles-historiques-equipe-france.md`).
+pages equipe-france.fr en cache (voir `docs/specs/feuilles-historiques-equipe-france.md`). Après avoir validé des
+lignes de `noms_ecarts.csv`, `python3 scripts/equipe_france/renommer.py` reporte les noms dans les feuilles JSON et
+dans les exceptions du générateur.
 
 ### Reconstruire la base de zéro
 
@@ -86,6 +89,7 @@ php artisan xv:generate-slugs
 php artisan xv:import-match-data database/data/matches
 php artisan xv:compute-primary-positions
 php artisan xv:import-internationaux
+php artisan xv:apply-name-corrections
 ```
 
 Les commandes `import-historical`, `clean-feminine` et `fix-venues` interrogent

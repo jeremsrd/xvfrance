@@ -6,7 +6,7 @@
   "referee": "M Baise",
   "lineups": {
     "france": [
-      {"jersey": 1, "first_name": "Alain", "last_name": "Abadie", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
+      {"jersey": 1, "first_name": "André", "last_name": "Abadie", "is_starter": true, "position": "pilier_gauche", "is_captain": false, "cap_number": 552},
       {"jersey": 2, "first_name": "Jean-Michel", "last_name": "Cabanier", "is_starter": true, "position": "talonneur", "is_captain": false},
       {"jersey": 3, "first_name": "Jacques", "last_name": "Fort", "is_starter": true, "position": "pilier_droit", "is_captain": true},
       {"jersey": 4, "first_name": "Walter", "last_name": "Spanghero", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},

@@ -46,9 +46,13 @@ class ImportInternationaux extends Command
 
         DB::transaction(function () use ($rows, $mapping, &$stats, &$unmatched, &$ambiguous, &$conflicts, &$changed, &$names, &$used) {
             foreach ($rows as $row) {
-                $candidates = isset($mapping[$row['cap_number']])
-                    ? $this->byExactName($mapping[$row['cap_number']])
-                    : $this->candidates($row);
+                // Joueur déjà numéroté (passage précédent, feuille JSON portant le numéro) : il est sûr
+                $numbered = $this->players->filter(fn ($c) => $c['player']->cap_number === (int) $row['cap_number'])->values();
+                $candidates = match (true) {
+                    $numbered->count() === 1 => $numbered,
+                    isset($mapping[$row['cap_number']]) => $this->byExactName($mapping[$row['cap_number']]),
+                    default => $this->candidates($row),
+                };
 
                 if ($candidates->count() !== 1) {
                     $line = [$row['cap_number'], trim("{$row['first_name']} {$row['last_name']}"), $row['years'],

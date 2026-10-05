@@ -6,7 +6,7 @@
   "referee": "Crawford Findlay",
   "lineups": {
     "france": [
-      {"jersey": 1, "first_name": "Robert", "last_name": "Monnier", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
+      {"jersey": 1, "first_name": "Robert", "last_name": "Monier", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
       {"jersey": 2, "first_name": "Paul", "last_name": "Mauriat", "is_starter": true, "position": "talonneur", "is_captain": false},
       {"jersey": 3, "first_name": "Pierre", "last_name": "Mouniq", "is_starter": true, "position": "pilier_droit", "is_captain": false},
       {"jersey": 4, "first_name": "Raoul", "last_name": "Paoli", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
@@ -14,13 +14,13 @@
       {"jersey": 6, "first_name": "Marcel", "last_name": "Legrain", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 7, "first_name": "Georges", "last_name": "Borchard", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 8, "first_name": "Marcel", "last_name": "Communeau", "is_starter": true, "position": "numero_huit", "is_captain": true},
-      {"jersey": 9, "first_name": "Guy", "last_name": "Laterrade", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
+      {"jersey": 9, "first_name": "Guillaume", "last_name": "Laterrade", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
       {"jersey": 10, "first_name": "René", "last_name": "Duval", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
       {"jersey": 11, "first_name": "Émile", "last_name": "Lesieur", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 12, "first_name": "Jacques", "last_name": "Dedet", "is_starter": true, "position": "centre", "is_captain": false},
-      {"jersey": 13, "first_name": "Charles", "last_name": "Du Souich", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 13, "first_name": "Charles", "last_name": "du Souich", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 14, "first_name": "Pierre", "last_name": "Failliot", "is_starter": true, "position": "ailier", "is_captain": false},
-      {"jersey": 15, "first_name": "François", "last_name": "Dutour", "is_starter": true, "position": "arriere", "is_captain": false}
+      {"jersey": 15, "first_name": "François-Xavier", "last_name": "Dutour", "is_starter": true, "position": "arriere", "is_captain": false}
     ],
     "adversaire": [
       {"jersey": 1, "first_name": "Charles", "last_name": "Adams", "is_starter": true, "position": null, "is_captain": false},
@@ -41,7 +41,7 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "transformation", "player_last_name": "Dutour", "player_first_name": "François", "minute": null},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Dutour", "player_first_name": "François-Xavier", "minute": null},
     {"team_side": "france", "type": "essai", "player_last_name": "Failliot", "player_first_name": "Pierre", "minute": null},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Quinn", "player_first_name": "Joseph", "minute": null},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Jackson", "player_first_name": "Arv", "minute": null},

@@ -113,8 +113,10 @@ du même projet.
   `internationaux_correspondances.csv` tranche les cas que le nom ne résout pas.
 - **Noms** : `--report` liste 108 écarts entre la base (noms d'equipe-france.fr) et la liste. Ce sont surtout des
   fautes du site (« Kail » Janik, « Yres » Brunet, prénoms composés abrégés), mais la liste a aussi ses coquilles
-  (« Merqury », « Vahaamina »). **Pas encore appliqués** : à trier, puis à corriger à la fois en base et dans
-  les feuilles JSON, sans quoi un réimport recréerait l'ancien nom. Décisions dans `noms_ecarts.csv`, vérifiées le
+  (« Merqury », « Vahaamina »). **Appliqués le 06/10/2026** (83 joueurs renommés) : en base par
+  `xv:apply-name-corrections`, dans les feuilles JSON et les exceptions du générateur (par slug equipe-france.fr)
+  par `scripts/equipe_france/renommer.py`. Les deux André Abadie (n° 545 et 552) portent leur numéro
+  (`cap_number`) dans les feuilles, ce qui les départage à l'import. Décisions dans `noms_ecarts.csv`, vérifiées le
   06/10/2026 sur Wikipédia ([Liste des sélectionnés en équipe de France de rugby à XV](https://fr.wikipedia.org/wiki/Liste_des_s%C3%A9lectionn%C3%A9s_en_%C3%A9quipe_de_France_de_rugby_%C3%A0_XV)
   et articles des joueurs) : le nom retenu est celui de Wikipédia, sauf Géo André (nom d'usage) et René de Malmann
   (graphie FFR). Cette page Wikipédia numérote autrement (date de première sélection, titulaire puis remplaçant,

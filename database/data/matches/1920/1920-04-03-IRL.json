@@ -5,7 +5,7 @@
   "opponent_score": 7,
   "lineups": {
     "france": [
-      {"jersey": 1, "first_name": "Marcel", "last_name": "Lubin-Lebrère", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
+      {"jersey": 1, "first_name": "Marcel-Frédéric", "last_name": "Lubin-Lebrère", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
       {"jersey": 2, "first_name": "William", "last_name": "Gayraud", "is_starter": true, "position": "talonneur", "is_captain": false},
       {"jersey": 3, "first_name": "Maurice", "last_name": "Biraben", "is_starter": true, "position": "pilier_droit", "is_captain": false},
       {"jersey": 4, "first_name": "Eugène", "last_name": "Soulie", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
@@ -13,7 +13,7 @@
       {"jersey": 6, "first_name": "Jean", "last_name": "Sebedio", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 7, "first_name": "Jean", "last_name": "Larrieu", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 8, "first_name": "Pierre", "last_name": "Moureu", "is_starter": true, "position": "numero_huit", "is_captain": false},
-      {"jersey": 9, "first_name": "Phillipe", "last_name": "Struxiano", "is_starter": true, "position": "demi_de_melee", "is_captain": true},
+      {"jersey": 9, "first_name": "Philippe", "last_name": "Struxiano", "is_starter": true, "position": "demi_de_melee", "is_captain": true},
       {"jersey": 10, "first_name": "Eugène", "last_name": "Billac", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
       {"jersey": 11, "first_name": "Raoul", "last_name": "Got", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 12, "first_name": "René", "last_name": "Crabos", "is_starter": true, "position": "centre", "is_captain": false},

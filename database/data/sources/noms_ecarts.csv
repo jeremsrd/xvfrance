@@ -70,7 +70,7 @@ cap_number,base_first_name,base_last_name,liste_first_name,liste_last_name,annee
 539,Jean,Amestoy,Jean-Baptiste,AMESTOY,1964-1964,Jean-Baptiste Amestoy,liste,Jean-Baptiste,Amestoy,Wikipédia,vérifié
 540,Jean,Hiquet,Jean-Claude,HIQUET,1964-1964,Jean-Claude Hiquet,liste,Jean-Claude,Hiquet,Wikipédia,vérifié
 542,Yves,Menthiller,Yves,MENTHILLIER,1964-1965,Yves Menthillier,liste,Yves,Menthillier,Wikipédia,vérifié
-552,Alain,Abadie,André,ABADIE,1965-1968,André Abadie,liste,André,Abadie,"Wikipédia : André Abadie (1934-2020), homonyme du n° 545 André Abadie (1932-2014)",à valider : homonyme du n° 545
+552,Alain,Abadie,André,ABADIE,1965-1968,André Abadie,liste,André,Abadie,"Wikipédia : André Abadie (1934-2020), homonyme du n° 545 André Abadie (1932-2014) ; distingué par son numéro (cap_number) dans les feuilles JSON",vérifié
 553,Jean,Roques,Jean-Claude,ROQUES,1966-1966,Jean-Claude Roques,liste,Jean-Claude,Roques,Wikipédia,vérifié
 555,Jean,Lagrange,Jean-Claude,LAGRANGE,1966-1966,Jean-Claude Lagrange,liste,Jean-Claude,Lagrange,Wikipédia,vérifié
 556,Jo,Maso,Joseph,MASO,1966-1973,Jo Maso,base,Jo,Maso,Wikipédia,vérifié

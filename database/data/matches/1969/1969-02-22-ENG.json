@@ -8,7 +8,7 @@
     "france": [
       {"jersey": 1, "first_name": "Michel", "last_name": "Lasserre", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
       {"jersey": 2, "first_name": "Christian", "last_name": "Swierczinski", "is_starter": true, "position": "talonneur", "is_captain": false},
-      {"jersey": 3, "first_name": "Jean", "last_name": "Esponda", "is_starter": true, "position": "pilier_droit", "is_captain": false},
+      {"jersey": 3, "first_name": "Jean-Michel", "last_name": "Esponda", "is_starter": true, "position": "pilier_droit", "is_captain": false},
       {"jersey": 4, "first_name": "Elie", "last_name": "Cester", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 5, "first_name": "Alain", "last_name": "Plantefol", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 6, "first_name": "Pierre", "last_name": "Biemouret", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
@@ -19,7 +19,7 @@
       {"jersey": 11, "first_name": "Jean-Marie", "last_name": "Bonal", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 12, "first_name": "Jean", "last_name": "Trillo", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 13, "first_name": "Jean-Pierre", "last_name": "Lux", "is_starter": true, "position": "centre", "is_captain": false},
-      {"jersey": 14, "first_name": "Basil", "last_name": "Moraitis", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 14, "first_name": "Basile", "last_name": "Moraitis", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 15, "first_name": "Pierre", "last_name": "Villepreux", "is_starter": true, "position": "arriere", "is_captain": false},
       {"jersey": 16, "first_name": "Michel", "last_name": "Yachvili", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 17, "first_name": "Jean", "last_name": "Iracabal", "is_starter": false, "position": null, "is_captain": false},

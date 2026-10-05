@@ -7,19 +7,19 @@
   "lineups": {
     "france": [
       {"jersey": 1, "first_name": "Fernand", "last_name": "Forgues", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
-      {"jersey": 2, "first_name": "Paul", "last_name": "Tilh", "is_starter": true, "position": "talonneur", "is_captain": false},
+      {"jersey": 2, "first_name": "Hélier", "last_name": "Tilh", "is_starter": true, "position": "talonneur", "is_captain": false},
       {"jersey": 3, "first_name": "Maurice", "last_name": "Boyau", "is_starter": true, "position": "pilier_droit", "is_captain": false},
       {"jersey": 4, "first_name": "Maurice", "last_name": "Leuvielle", "is_starter": true, "position": "deuxieme_ligne", "is_captain": true},
       {"jersey": 5, "first_name": "Paul", "last_name": "Mauriat", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
-      {"jersey": 6, "first_name": "", "last_name": "Favre", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 6, "first_name": "Marcel", "last_name": "Favre", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 7, "first_name": "Marcel", "last_name": "Communeau", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
-      {"jersey": 8, "first_name": "", "last_name": "Podevin", "is_starter": true, "position": "numero_huit", "is_captain": false},
-      {"jersey": 9, "first_name": "Phillipe", "last_name": "Struxiano", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
+      {"jersey": 8, "first_name": "Gustave", "last_name": "Podevin", "is_starter": true, "position": "numero_huit", "is_captain": false},
+      {"jersey": 9, "first_name": "Philippe", "last_name": "Struxiano", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
       {"jersey": 10, "first_name": "Clovis", "last_name": "Bioussa", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
       {"jersey": 11, "first_name": "Pierre", "last_name": "Failliot", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 12, "first_name": "Pierre", "last_name": "Jaureguy", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 13, "first_name": "Antoine", "last_name": "Francquenelle", "is_starter": true, "position": "centre", "is_captain": false},
-      {"jersey": 14, "first_name": "Geo", "last_name": "André", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 14, "first_name": "Géo", "last_name": "André", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 15, "first_name": "Jean", "last_name": "Semmartin", "is_starter": true, "position": "arriere", "is_captain": false}
     ],
     "adversaire": [
@@ -41,9 +41,9 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "essai", "player_last_name": "André", "player_first_name": "Geo", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "André", "player_first_name": "Géo", "minute": null},
     {"team_side": "france", "type": "essai", "player_last_name": "Failliot", "player_first_name": "Pierre", "minute": null},
-    {"team_side": "france", "type": "transformation", "player_last_name": "Struxiano", "player_first_name": "Phillipe", "minute": null},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Struxiano", "player_first_name": "Philippe", "minute": null},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Lewis", "player_first_name": "Clem", "minute": null},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Lewis", "player_first_name": "Clem", "minute": null},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Williams", "player_first_name": "Tom", "minute": null},

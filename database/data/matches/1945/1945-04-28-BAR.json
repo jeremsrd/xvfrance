@@ -7,7 +7,7 @@
   "lineups": {
     "france": [
       {"jersey": 1, "first_name": "Jean", "last_name": "Massare", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
-      {"jersey": 2, "first_name": "Jean", "last_name": "Villagra", "is_starter": true, "position": "talonneur", "is_captain": false},
+      {"jersey": 2, "first_name": "Jean", "last_name": "Vilagra", "is_starter": true, "position": "talonneur", "is_captain": false},
       {"jersey": 3, "first_name": "Jean", "last_name": "Prin-Clary", "is_starter": true, "position": "pilier_droit", "is_captain": false},
       {"jersey": 4, "first_name": "Robert", "last_name": "Soro", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 5, "first_name": "Alban", "last_name": "Moga", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},

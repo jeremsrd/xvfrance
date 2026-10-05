@@ -28,9 +28,19 @@ class PlayerResolverService
         Country $country,
         ?PlayerPosition $position = null,
         ?CarbonInterface $matchDate = null,
+        ?int $capNumber = null,
     ): ?Player {
+        // Numéro d'international : identifiant sûr, il départage les homonymes de la même époque (André Abadie ×2)
+        if ($capNumber !== null) {
+            $byCap = Player::where('country_id', $country->id)->where('cap_number', $capNumber)->first();
+            if ($byCap) {
+                return $byCap;
+            }
+        }
+
         $cacheKey = $this->cacheKey($lastName, $firstName, $country->id);
-        if (isset($this->playerCache[$cacheKey]) && $this->sameEra($this->playerCache[$cacheKey], $matchDate)) {
+        if (isset($this->playerCache[$cacheKey]) && $this->sameEra($this->playerCache[$cacheKey], $matchDate)
+            && ($capNumber === null || in_array($this->playerCache[$cacheKey]->cap_number, [null, $capNumber], true))) {
             return $this->playerCache[$cacheKey];
         }
 
@@ -45,10 +55,10 @@ class PlayerResolverService
             $query->whereRaw('LOWER(first_name) = ?', [mb_strtolower(trim($firstName))]);
         }
 
-        $exact = $this->filterEra($query->get(), $matchDate);
+        $exact = $this->filterCap($this->filterEra($query->get(), $matchDate), $capNumber);
 
         if ($exact->count() === 1) {
-            return $this->cache($cacheKey, $exact->first());
+            return $this->cache($cacheKey, $this->withCap($exact->first(), $capNumber));
         }
 
         if ($exact->count() > 1) {
@@ -62,10 +72,11 @@ class PlayerResolverService
             ->get()
             ->filter(fn (Player $p) => $this->normalize($p->last_name) === $lastNorm
                 && $this->firstNamesCompatible($firstNorm, $p->first_name)), $matchDate);
+        $fuzzy = $this->filterCap($fuzzy, $capNumber);
 
         if ($fuzzy->count() === 1) {
             $this->log[] = ['info', "Joueur trouvé par nom seul : {$fuzzy->first()->fullName()} ({$country->code})"];
-            return $this->cache($cacheKey, $fuzzy->first());
+            return $this->cache($cacheKey, $this->withCap($fuzzy->first(), $capNumber));
         }
 
         if ($fuzzy->count() > 1) {
@@ -81,6 +92,7 @@ class PlayerResolverService
             'last_name' => trim($lastName),
             'country_id' => $country->id,
             'primary_position' => $position,
+            'cap_number' => $capNumber,
             'is_active' => true,
         ], fn ($value) => $value !== null));
 
@@ -103,6 +115,22 @@ class PlayerResolverService
     public function resetLog(): void
     {
         $this->log = [];
+    }
+
+    /** Avec un numéro d'international, on écarte les homonymes qui en ont un autre */
+    private function filterCap(Collection $players, ?int $capNumber): Collection
+    {
+        return $capNumber === null ? $players
+            : $players->filter(fn (Player $p) => $p->cap_number === null || $p->cap_number === $capNumber)->values();
+    }
+
+    private function withCap(Player $player, ?int $capNumber): Player
+    {
+        if ($capNumber !== null && $player->cap_number === null) {
+            $player->update(['cap_number' => $capNumber]);
+        }
+
+        return $player;
     }
 
     private function filterEra(Collection $players, ?CarbonInterface $matchDate): Collection

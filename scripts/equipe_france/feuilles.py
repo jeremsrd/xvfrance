@@ -142,11 +142,14 @@ class Names:
         self.known = collections.defaultdict(dict)
         for code, first, last in db.execute('select c.code, p.first_name, p.last_name from players p join countries c on c.id = p.country_id'):
             self.known[code][norm(f'{first} {last}')] = (first, last)
-        self.overrides = {}
+        self.overrides, self.by_slug = {}, {}
         if os.path.exists(SPLITS):
             with open(SPLITS, encoding='utf-8') as f:
                 for row in csv.DictReader(f):
-                    self.overrides[norm(row['site_name'])] = (row['first_name'], row['last_name'])
+                    if row.get('site_slug'):  # joueur français : le slug du site l'identifie, homonymes compris
+                        self.by_slug[row['site_slug']] = (row['first_name'], row['last_name'], row.get('cap_number') or None)
+                    else:
+                        self.overrides[norm(row['site_name'])] = (row['first_name'], row['last_name'])
         self.guessed = collections.Counter()  # noms de 3 mots ou plus découpés par défaut, pour relecture
 
     def split(self, full, code):
@@ -231,8 +234,14 @@ def build_sheet(match, page, names, report, mismatches):
                 used.add(jersey)
                 report['numéros attribués'] += 1
             first, last = names.split(p['name'], code)
-            rows.append({'jersey': jersey, 'first_name': first, 'last_name': last, 'is_starter': starter,
-                         'position': POSITIONS.get(jersey) if starter and known else None, 'is_captain': p['captain']})
+            cap = None
+            if p['slug'] in names.by_slug:  # nom vérifié (noms_ecarts.csv)
+                first, last, cap = names.by_slug[p['slug']]
+            row = {'jersey': jersey, 'first_name': first, 'last_name': last, 'is_starter': starter,
+                   'position': POSITIONS.get(jersey) if starter and known else None, 'is_captain': p['captain']}
+            if cap:
+                row['cap_number'] = int(cap)
+            rows.append(row)
             by_name[(side, norm(p['name']))] = (first, last)
         rows.sort(key=lambda r: r['jersey'])
         lineups[team] = rows

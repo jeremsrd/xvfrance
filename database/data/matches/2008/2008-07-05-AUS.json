@@ -5,12 +5,12 @@
   "opponent_score": 40,
   "lineups": {
     "france": [
-      {"jersey": 1, "first_name": "Pierre", "last_name": "Correira", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
+      {"jersey": 1, "first_name": "Pierre", "last_name": "Corréia", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
       {"jersey": 2, "first_name": "Sébastien", "last_name": "Bruno", "is_starter": true, "position": "talonneur", "is_captain": false},
       {"jersey": 3, "first_name": "Renaud", "last_name": "Boyoud", "is_starter": true, "position": "pilier_droit", "is_captain": false},
       {"jersey": 4, "first_name": "Sébastien", "last_name": "Chabal", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 5, "first_name": "Lionel", "last_name": "Nallet", "is_starter": true, "position": "deuxieme_ligne", "is_captain": true},
-      {"jersey": 6, "first_name": "Matthieu", "last_name": "Lievremont", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 6, "first_name": "Matthieu", "last_name": "Lièvremont", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 7, "first_name": "Fulgence", "last_name": "Ouedraogo", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 8, "first_name": "Imanol", "last_name": "Harinordoquy", "is_starter": true, "position": "numero_huit", "is_captain": false},
       {"jersey": 9, "first_name": "Sébastien", "last_name": "Tillous-Borde", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
@@ -26,7 +26,7 @@
       {"jersey": 19, "first_name": "Louis", "last_name": "Picamoles", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 20, "first_name": "Yannick", "last_name": "Caballero", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 21, "first_name": "Dimitri", "last_name": "Yachvili", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 22, "first_name": "Jean-Baptiste", "last_name": "Peyras", "is_starter": false, "position": null, "is_captain": false}
+      {"jersey": 22, "first_name": "Jean-Baptiste", "last_name": "Peyras-Loustalet", "is_starter": false, "position": null, "is_captain": false}
     ],
     "adversaire": [
       {"jersey": 1, "first_name": "Benn", "last_name": "Robinson", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
