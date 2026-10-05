@@ -1,7 +1,22 @@
 # État du site et pistes de reprise
 
-État au 06/10/2026, après le chantier des feuilles historiques et la reprise des données de l'ancien projet
-« This Is Rugby ». Tout est commité et déployé (dernier commit déployé : 22fc565).
+État au 06/10/2026 au soir, après les remplacements et sélections (finalesrugby.fr), la minute des points et les
+sélectionneurs. Tout est commité et déployé (dernier commit déployé : de3a973).
+
+## Prochaine séance
+
+Fait le 06/10/2026 : 27 des 29 matches sans points ; sélections justes (remplaçants restés sur le banc,
+Ibañez 98) ; 1 932 remplacements et 1 323 minutes de points français ; 13 sélectionneurs (piste 5).
+
+À faire, dans l'ordre proposé :
+1. **Fiches joueurs plus riches** (piste 4) : lieu de naissance, taille, poids, club depuis les fiches
+   equipe-france.fr ; dates de décès depuis Wikipédia. Prochain gros chantier utile.
+2. **Matches de novembre 2026** (piste 2) : 07/11 Fidji, 13/11 Afrique du Sud, 21/11 Argentine, finales 27-29/11.
+3. **Reste des sélections** : 27 matches aux remplacements non appariés (liste : `python3 scripts/finalesrugby/apply.py --dry`),
+   Traille +2, Szarzewski et Michalak +1 face à la page des records ; remplaçants adverses inconnus.
+4. **Numéros d'international après 2016** (piste 3) : trancher la source d'abord.
+5. Plus tard : 2 matches sans points (presse d'époque), adjoints des sélectionneurs, photos du zip, qualité des
+   données, PHP 8.3 avant le 31/12/2026, session design.
 
 ## Où on en est
 
