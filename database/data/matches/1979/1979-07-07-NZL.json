@@ -21,12 +21,12 @@
       {"jersey": 13, "first_name": "Patrick", "last_name": "Mesny", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 14, "first_name": "Frédéric", "last_name": "Costes", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 15, "first_name": "Jean-Michel", "last_name": "Aguirre", "is_starter": true, "position": "arriere", "is_captain": false},
-      {"jersey": 16, "first_name": "Jean", "last_name": "Perche", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 17, "first_name": "Daniel", "last_name": "Dubroca", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 18, "first_name": "Yves", "last_name": "Malquier", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 19, "first_name": "Jérôme", "last_name": "Gallion", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 20, "first_name": "Guy", "last_name": "Laporte", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 21, "first_name": "Michel", "last_name": "Duffranc", "is_starter": false, "position": null, "is_captain": false}
+      {"jersey": 16, "first_name": "Jean", "last_name": "Perche", "is_starter": false, "position": null, "is_captain": false, "played": false},
+      {"jersey": 17, "first_name": "Daniel", "last_name": "Dubroca", "is_starter": false, "position": null, "is_captain": false, "played": false},
+      {"jersey": 18, "first_name": "Yves", "last_name": "Malquier", "is_starter": false, "position": null, "is_captain": false, "played": false},
+      {"jersey": 19, "first_name": "Jérôme", "last_name": "Gallion", "is_starter": false, "position": null, "is_captain": false, "played": false},
+      {"jersey": 20, "first_name": "Guy", "last_name": "Laporte", "is_starter": false, "position": null, "is_captain": false, "played": false},
+      {"jersey": 21, "first_name": "Michel", "last_name": "Duffranc", "is_starter": false, "position": null, "is_captain": false, "played": false}
     ],
     "adversaire": [
       {"jersey": 1, "first_name": "Brad", "last_name": "Johnstone", "is_starter": true, "position": "pilier_gauche", "is_captain": false},

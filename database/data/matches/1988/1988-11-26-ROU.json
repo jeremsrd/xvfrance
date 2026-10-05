@@ -53,5 +53,7 @@
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Ignat", "player_first_name": "Gelu", "minute": 79},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Neaga", "player_first_name": "Daniel", "minute": 79}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Armary", "player_off_first_name": "Louis", "player_on_last_name": "Dal Maso", "player_on_first_name": "Marc", "minute": 41, "is_tactical": true}
+  ]
 }

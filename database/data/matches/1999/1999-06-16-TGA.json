@@ -62,5 +62,12 @@
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Tuipulotu", "player_first_name": "Sateki", "minute": null},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Tuipulotu", "player_first_name": "Sateki", "minute": null}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Marconnet", "player_off_first_name": "Sylvain", "player_on_last_name": "Califano", "player_on_first_name": "Christian", "minute": 42, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Labit", "player_off_first_name": "Christian", "player_on_last_name": "Costes", "player_on_first_name": "Arnaud", "minute": 50, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Gerard", "player_off_first_name": "David", "player_on_last_name": "Pelous", "player_on_first_name": "Fabien", "minute": 50, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Dal Maso", "player_off_first_name": "Marc", "player_on_last_name": "Ibañez", "player_on_first_name": "Raphaël", "minute": 65, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Bernat-Salles", "player_off_first_name": "Philippe", "player_on_last_name": "Mola", "player_on_first_name": "Ugo", "minute": 66, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Merceron", "player_off_first_name": "Gérald", "player_on_last_name": "Castaignede", "player_on_first_name": "Thomas", "minute": 66, "is_tactical": true}
+  ]
 }

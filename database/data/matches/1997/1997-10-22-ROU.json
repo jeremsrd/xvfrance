@@ -63,5 +63,11 @@
     {"team_side": "france", "type": "essai", "player_last_name": "Benazzi", "player_first_name": "Abdelatif", "minute": 76},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Tofan", "player_first_name": "Ionut", "minute": null}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Sadourny", "player_off_first_name": "Jean-Luc", "player_on_last_name": "Brusque", "player_on_first_name": "Nicolas", "minute": 41, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Lacroix", "player_off_first_name": "Thierry", "player_on_last_name": "Aucagne", "player_on_first_name": "David", "minute": 51, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Pelous", "player_off_first_name": "Fabien", "player_on_last_name": "Benazzi", "player_on_first_name": "Abdelatif", "minute": 51, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Cazalbou", "player_off_first_name": "Jérôme", "player_on_last_name": "Mignoni", "player_on_first_name": "Pierre", "minute": 65, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Tournaire", "player_off_first_name": "Franck", "player_on_last_name": "Califano", "player_on_first_name": "Christian", "minute": 65, "is_tactical": true}
+  ]
 }

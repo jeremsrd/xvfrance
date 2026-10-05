@@ -75,5 +75,13 @@
     {"team_side": "france", "type": "transformation", "player_last_name": "Skrela", "player_first_name": "David", "minute": 77},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Taione", "player_first_name": "Epeli", "minute": 78}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Elissalde", "player_off_first_name": "Jean-Baptiste", "player_on_last_name": "Tillous-Borde", "player_on_first_name": "Sébastien", "minute": 18, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Nallet", "player_off_first_name": "Lionel", "player_on_last_name": "Chabal", "player_on_first_name": "Sébastien", "minute": 46, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Szarzewski", "player_off_first_name": "Dimitri", "player_on_last_name": "Kayser", "player_on_first_name": "Benjamin", "minute": 46, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Jauzion", "player_off_first_name": "Yannick", "player_on_last_name": "Traille", "player_on_first_name": "Damien", "minute": 57, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Dusautoir", "player_off_first_name": "Thierry", "player_on_last_name": "Picamoles", "player_on_first_name": "Louis", "minute": 70, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Heymans", "player_off_first_name": "Cédric", "player_on_last_name": "Palisson", "player_on_first_name": "Alexis", "minute": 72, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Mas", "player_off_first_name": "Nicolas", "player_on_last_name": "Lecouls", "player_on_first_name": "Benoît", "minute": 72, "is_tactical": true}
+  ]
 }

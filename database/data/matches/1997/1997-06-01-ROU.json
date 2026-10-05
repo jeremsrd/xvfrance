@@ -70,5 +70,12 @@
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Radoi", "player_first_name": "Margarit", "minute": null},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Gontineac", "player_first_name": "Romeo Stefan", "minute": null}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Venditti", "player_off_first_name": "David", "player_on_last_name": "Viars", "player_on_first_name": "Sébastien", "minute": 41, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Lièvremont", "player_off_first_name": "Marc", "player_on_last_name": "Magne", "player_on_first_name": "Olivier", "minute": 61, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Penaud", "player_off_first_name": "Alain", "player_on_last_name": "Aucagne", "player_on_first_name": "David", "minute": 66, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Torossian", "player_off_first_name": "Frédéric", "player_on_last_name": "Carbonneau", "player_on_first_name": "Philippe", "minute": 66, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Tournaire", "player_off_first_name": "Franck", "player_on_last_name": "Laperne", "player_on_first_name": "David", "minute": 66, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Ibañez", "player_off_first_name": "Raphaël", "player_on_last_name": "Dal Maso", "player_on_first_name": "Marc", "minute": 66, "is_tactical": true}
+  ]
 }

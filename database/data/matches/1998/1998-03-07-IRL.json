@@ -21,13 +21,13 @@
       {"jersey": 13, "first_name": "Stéphane", "last_name": "Glas", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 14, "first_name": "Philippe", "last_name": "Bernat-Salles", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 15, "first_name": "Jean-Luc", "last_name": "Sadourny", "is_starter": true, "position": "arriere", "is_captain": false},
-      {"jersey": 16, "first_name": "Marc", "last_name": "Dal Maso", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 16, "first_name": "Marc", "last_name": "Dal Maso", "is_starter": false, "position": null, "is_captain": false, "played": false},
       {"jersey": 17, "first_name": "Cédric", "last_name": "Soulette", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 18, "first_name": "Thierry", "last_name": "Cleda", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 19, "first_name": "Philippe", "last_name": "Benetton", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 20, "first_name": "Fabien", "last_name": "Galthié", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 21, "first_name": "Jean-Marc", "last_name": "Aue", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 22, "first_name": "Richard", "last_name": "Dourthe", "is_starter": false, "position": null, "is_captain": false}
+      {"jersey": 20, "first_name": "Fabien", "last_name": "Galthié", "is_starter": false, "position": null, "is_captain": false, "played": false},
+      {"jersey": 21, "first_name": "Jean-Marc", "last_name": "Aue", "is_starter": false, "position": null, "is_captain": false, "played": false},
+      {"jersey": 22, "first_name": "Richard", "last_name": "Dourthe", "is_starter": false, "position": null, "is_captain": false, "played": false}
     ],
     "adversaire": [
       {"jersey": 1, "first_name": "Reggie", "last_name": "Corrigan", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
@@ -66,5 +66,9 @@
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Elwood", "player_first_name": "Eric", "minute": null},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Hickie", "player_first_name": "Denis", "minute": null}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Lièvremont", "player_off_first_name": "Marc", "player_on_last_name": "Benetton", "player_on_first_name": "Philippe", "minute": 54, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Pelous", "player_off_first_name": "Fabien", "player_on_last_name": "Cleda", "player_on_first_name": "Thierry", "minute": 62, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Tournaire", "player_off_first_name": "Franck", "player_on_last_name": "Soulette", "player_on_first_name": "Cédric", "minute": 66, "is_tactical": true}
+  ]
 }

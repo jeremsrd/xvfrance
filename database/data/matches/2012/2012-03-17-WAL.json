@@ -63,5 +63,13 @@
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Halfpenny", "player_first_name": "Leigh", "minute": 66},
     {"team_side": "france", "type": "penalite", "player_last_name": "Yachvili", "player_first_name": "Dimitri", "minute": 74}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Poitrenaud", "player_off_first_name": "Clément", "player_on_last_name": "Buttin", "player_on_first_name": "Jean-Marcellin", "minute": 36, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Servat", "player_off_first_name": "William", "player_on_last_name": "Szarzewski", "player_on_first_name": "Dimitri", "minute": 45, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Poux", "player_off_first_name": "Jean-Baptiste", "player_on_last_name": "Debaty", "player_on_first_name": "Vincent", "minute": 45, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Palisson", "player_off_first_name": "Alexis", "player_on_last_name": "Trinh-Duc", "player_on_first_name": "François", "minute": 54, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Bonnaire", "player_off_first_name": "Julien", "player_on_last_name": "Picamoles", "player_on_first_name": "Louis", "minute": 60, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Papé", "player_off_first_name": "Pascal", "player_on_last_name": "Pierre", "player_on_first_name": "Julien", "minute": 68, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Beauxis", "player_off_first_name": "Lionel", "player_on_last_name": "Parra", "player_on_first_name": "Morgan", "minute": 72, "is_tactical": true}
+  ]
 }

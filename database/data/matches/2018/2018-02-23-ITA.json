@@ -71,5 +71,14 @@
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Minozzi", "player_first_name": "Matteo", "minute": 78},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Canna", "player_first_name": "Carlo", "minute": 78}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Camara", "player_off_first_name": "Yacouba", "player_on_last_name": "Galletier", "player_on_first_name": "Kelian", "minute": 57, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Poirot", "player_off_first_name": "Jefferson", "player_on_last_name": "Priso", "player_on_first_name": "Dany", "minute": 62, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Doumayrou", "player_off_first_name": "Geoffrey", "player_on_last_name": "Fickou", "player_on_first_name": "Gaël", "minute": 66, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Vahaamahina", "player_off_first_name": "Sébastien", "player_on_last_name": "Taofifénua", "player_on_first_name": "Romain", "minute": 66, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Beauxis", "player_off_first_name": "Lionel", "player_on_last_name": "Trinh-Duc", "player_on_first_name": "François", "minute": 71, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Machenaud", "player_off_first_name": "Maxime", "player_on_last_name": "Couilloud", "player_on_first_name": "Baptiste", "minute": 71, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Slimani", "player_off_first_name": "Rabah", "player_on_last_name": "Gomes Sa", "player_on_first_name": "Cedate", "minute": 71, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Guirado", "player_off_first_name": "Guilhem", "player_on_last_name": "Pelissie", "player_on_first_name": "Adrien", "minute": 71, "is_tactical": true}
+  ]
 }

@@ -65,5 +65,14 @@
     {"team_side": "france", "type": "transformation", "player_last_name": "Serin", "player_first_name": "Baptiste", "minute": 63},
     {"team_side": "france", "type": "essai", "player_last_name": "Goujon", "player_first_name": "Loann", "minute": 63}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Camara", "player_off_first_name": "Djibril", "player_on_last_name": "Rey", "player_on_first_name": "Julien", "minute": 36, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Atonio", "player_off_first_name": "Uini", "player_on_last_name": "Slimani", "player_on_first_name": "Rabah", "minute": 58, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Serin", "player_off_first_name": "Baptiste", "player_on_last_name": "Bezy", "player_on_first_name": "Sébastien", "minute": 64, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Le Devedec", "player_off_first_name": "Julien", "player_on_last_name": "Jedrasiak", "player_on_first_name": "Paul", "minute": 68, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Bonfils", "player_off_first_name": "Rémi", "player_on_last_name": "Maynadier", "player_on_first_name": "Clément", "minute": 68, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Gourdon", "player_off_first_name": "Kévin", "player_on_last_name": "Galletier", "player_on_first_name": "Kelian", "minute": 71, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Poirot", "player_off_first_name": "Jefferson", "player_on_last_name": "Pointud", "player_on_first_name": "Lucas", "minute": 71, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Trinh-Duc", "player_off_first_name": "François", "player_on_last_name": "Plisson", "player_on_first_name": "Jules", "minute": 73, "is_tactical": true}
+  ]
 }

@@ -67,5 +67,13 @@
     {"team_side": "france", "type": "essai", "player_last_name": "Ntamack", "player_first_name": "Émile", "minute": 80},
     {"team_side": "france", "type": "drop", "player_last_name": "Lamaison", "player_first_name": "Christophe", "minute": null}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Dourthe", "player_off_first_name": "Richard", "player_on_last_name": "Venditti", "player_on_first_name": "David", "minute": 20, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Matiu", "player_off_first_name": "Legi", "player_on_last_name": "Lievremont", "player_on_first_name": "Thomas", "minute": 45, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Tournaire", "player_off_first_name": "Franck", "player_on_last_name": "De Villiers", "player_on_first_name": "Pieter", "minute": 74, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Dal Maso", "player_off_first_name": "Marc", "player_on_last_name": "Ibañez", "player_on_first_name": "Raphaël", "minute": 74, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Magne", "player_off_first_name": "Olivier", "player_on_last_name": "Betsen", "player_on_first_name": "Serge", "minute": 75, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Galthié", "player_off_first_name": "Fabien", "player_on_last_name": "Laussucq", "player_on_first_name": "Christophe", "minute": 78, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Lamaison", "player_off_first_name": "Christophe", "player_on_last_name": "Penaud", "player_on_first_name": "Alain", "minute": 79, "is_tactical": true}
+  ]
 }

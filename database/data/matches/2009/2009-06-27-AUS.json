@@ -64,5 +64,13 @@
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Giteau", "player_first_name": "Matt", "minute": 57},
     {"team_side": "france", "type": "penalite", "player_last_name": "Yachvili", "player_first_name": "Dimitri", "minute": 61}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Beauxis", "player_off_first_name": "Lionel", "player_on_last_name": "Clerc", "player_on_first_name": "Vincent", "minute": 52, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Marconnet", "player_off_first_name": "Sylvain", "player_on_last_name": "Mas", "player_on_first_name": "Nicolas", "minute": 53, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Fritz", "player_off_first_name": "Florian", "player_on_last_name": "Arias", "player_on_first_name": "Julien", "minute": 55, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Millo-Chluski", "player_off_first_name": "Romain", "player_on_last_name": "Martin", "player_on_first_name": "Rémy", "minute": 60, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Szarzewski", "player_off_first_name": "Dimitri", "player_on_last_name": "Guirado", "player_on_first_name": "Guilhem", "minute": 60, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Puricelli", "player_off_first_name": "Julien", "player_on_last_name": "Chouly", "player_on_first_name": "Damien", "minute": 67, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Yachvili", "player_off_first_name": "Dimitri", "player_on_last_name": "Dupuy", "player_on_first_name": "Julien", "minute": 76, "is_tactical": true}
+  ]
 }

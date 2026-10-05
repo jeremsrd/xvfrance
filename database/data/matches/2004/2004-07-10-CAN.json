@@ -73,5 +73,13 @@
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Barker", "player_first_name": "Jared", "minute": null},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Barker", "player_first_name": "Jared", "minute": null}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Nyanga", "player_off_first_name": "Yannick", "player_on_last_name": "Rabadan", "player_on_first_name": "Pierre", "minute": 44, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Loustau", "player_off_first_name": "Ludovic", "player_on_last_name": "Barrau", "player_on_first_name": "Mathieu", "minute": 60, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Martinez", "player_off_first_name": "Arnaud", "player_on_last_name": "Milloud", "player_on_first_name": "Olivier", "minute": 64, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Poitrenaud", "player_off_first_name": "Clément", "player_on_last_name": "Peyrelongue", "player_on_first_name": "Julien", "minute": 66, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Bidabe", "player_off_first_name": "Philippe", "player_on_last_name": "Heymans", "player_on_first_name": "Cédric", "minute": 68, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Pelous", "player_off_first_name": "Fabien", "player_on_last_name": "Couzinet", "player_on_first_name": "David", "minute": 68, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Servat", "player_off_first_name": "William", "player_on_last_name": "Szarzewski", "player_on_first_name": "Dimitri", "minute": 68, "is_tactical": true}
+  ]
 }

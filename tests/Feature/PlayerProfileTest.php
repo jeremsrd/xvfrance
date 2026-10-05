@@ -63,6 +63,19 @@ class PlayerProfileTest extends TestCase
         $this->assertSame('Angleterre', $profile->opponents()->first()['name']);
     }
 
+    public function test_bench_without_playing_is_not_a_cap(): void
+    {
+        $player = Player::factory()->create(['country_id' => $this->france->id]);
+        $played = RugbyMatch::factory()->create(['match_date' => '1997-01-01', 'opponent_id' => $this->england->id]);
+        $bench = RugbyMatch::factory()->create(['match_date' => '1997-02-01', 'opponent_id' => $this->england->id]);
+        $this->play($player, $played, 20, starter: false);
+        $this->play($player, $bench, 20, starter: false);
+        MatchLineup::where('match_id', $bench->id)->update(['played' => false]);
+
+        $this->assertSame(1, (new PlayerProfile($player))->totals()['matches']);
+        $this->assertSame(1, $player->lineups()->played()->count());
+    }
+
     public function test_opponent_player_sees_results_from_his_side(): void
     {
         $smith = Player::factory()->create(['country_id' => $this->england->id]);

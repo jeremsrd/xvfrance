@@ -20,11 +20,11 @@
       {"jersey": 13, "first_name": "David", "last_name": "Marty", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 14, "first_name": "Vincent", "last_name": "Clerc", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 15, "first_name": "Clément", "last_name": "Poitrenaud", "is_starter": true, "position": "arriere", "is_captain": false},
-      {"jersey": 16, "first_name": "Sébastien", "last_name": "Bruno", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 17, "first_name": "Nicolas", "last_name": "Mas", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 16, "first_name": "Sébastien", "last_name": "Bruno", "is_starter": false, "position": null, "is_captain": false, "played": false},
+      {"jersey": 17, "first_name": "Nicolas", "last_name": "Mas", "is_starter": false, "position": null, "is_captain": false, "played": false},
       {"jersey": 18, "first_name": "Pascal", "last_name": "Papé", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 19, "first_name": "Elvis", "last_name": "Vermeulen", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 20, "first_name": "Jean-Baptiste", "last_name": "Elissalde", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 20, "first_name": "Jean-Baptiste", "last_name": "Elissalde", "is_starter": false, "position": null, "is_captain": false, "played": false},
       {"jersey": 21, "first_name": "Damien", "last_name": "Traille", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 22, "first_name": "Christophe", "last_name": "Dominici", "is_starter": false, "position": null, "is_captain": false}
     ],
@@ -73,5 +73,10 @@
     {"team_side": "france", "type": "essai", "player_last_name": "Vermeulen", "player_first_name": "Elvis", "minute": 80},
     {"team_side": "france", "type": "transformation", "player_last_name": "Beauxis", "player_first_name": "Lionel", "minute": 80}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Nallet", "player_off_first_name": "Lionel", "player_on_last_name": "Papé", "player_on_first_name": "Pascal", "minute": 56, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Poitrenaud", "player_off_first_name": "Clément", "player_on_last_name": "Traille", "player_on_first_name": "Damien", "minute": 74, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Clerc", "player_off_first_name": "Vincent", "player_on_last_name": "Dominici", "player_on_first_name": "Christophe", "minute": 78, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Harinordoquy", "player_off_first_name": "Imanol", "player_on_last_name": "Vermeulen", "player_on_first_name": "Elvis", "minute": 78, "is_tactical": true}
+  ]
 }

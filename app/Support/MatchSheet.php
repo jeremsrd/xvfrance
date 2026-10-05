@@ -138,7 +138,8 @@ final class MatchSheet
                     'starter' => $l->is_starter,
                     'on' => $subs->firstWhere('player_on_id', $l->player_id)?->minute,
                     'off' => $subs->firstWhere('player_off_id', $l->player_id)?->minute,
-                    'minutes' => $this->minutesPlayed($l->is_starter, $on, $off, $subsComplete),
+                    // Remplaçant resté sur le banc : 0 minute, même sans remplacements saisis
+                    'minutes' => $l->played ? $this->minutesPlayed($l->is_starter, $on, $off, $subsComplete) : 0,
                     'tries' => $own->where('event_type', EventType::ESSAI)->count(),
                     'points' => $own->sum(fn (MatchEvent $e) => $e->event_type->points($this->match->match_date)),
                     'cards' => $own->filter(fn ($e) => in_array($e->event_type, [EventType::CARTON_JAUNE, EventType::CARTON_ROUGE]))

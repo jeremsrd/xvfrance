@@ -70,5 +70,13 @@
     {"team_side": "adversaire", "type": "essai", "player_last_name": "So'oialo", "player_first_name": "Rodney", "minute": 73},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Evans", "player_first_name": "Nick", "minute": 74}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Grandclaude", "player_off_first_name": "Jean Philippe", "player_on_last_name": "Valbon", "player_on_first_name": "Ludovic", "minute": 17, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Pierre", "player_off_first_name": "Julien", "player_on_last_name": "Olibeau", "player_on_first_name": "Olivier", "minute": 56, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Mas", "player_off_first_name": "Nicolas", "player_on_last_name": "Montanella", "player_on_first_name": "Franck", "minute": 56, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Le Corvec", "player_off_first_name": "Grégory", "player_on_last_name": "Chouly", "player_on_first_name": "Damien", "minute": 63, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Coux", "player_off_first_name": "Jean-François", "player_on_last_name": "Laharrague", "player_on_first_name": "Nicolas", "minute": 76, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Thiery", "player_off_first_name": "Benjamin", "player_on_last_name": "Forest", "player_on_first_name": "Mikael", "minute": 76, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Papé", "player_off_first_name": "Pascal", "player_on_last_name": "Ibañez", "player_on_first_name": "Raphaël", "minute": 76, "is_tactical": true}
+  ]
 }

@@ -22,7 +22,7 @@ final class PlayerProfile
     public function __construct(public readonly Player $player)
     {
         $matches = RugbyMatch::query()
-            ->whereHas('lineups', fn ($q) => $q->where('player_id', $player->id))
+            ->whereHas('lineups', fn ($q) => $q->where('player_id', $player->id)->played())
             ->with(['opponent', 'venue', 'edition.competition', 'lineups.player', 'events.player', 'substitutions'])
             ->orderByDesc('match_date')
             ->get();

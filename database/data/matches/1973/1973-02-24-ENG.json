@@ -21,12 +21,12 @@
       {"jersey": 13, "first_name": "Claude", "last_name": "Dourthe", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 14, "first_name": "Roland", "last_name": "Bertranne", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 15, "first_name": "Michel", "last_name": "Droitecourt", "is_starter": true, "position": "arriere", "is_captain": false},
-      {"jersey": 16, "first_name": "", "last_name": "Clerc", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 17, "first_name": "Jean-Claude", "last_name": "Rossignol", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 18, "first_name": "Jean-Claude", "last_name": "Skrela", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 16, "first_name": "", "last_name": "Clerc", "is_starter": false, "position": null, "is_captain": false, "played": false},
+      {"jersey": 17, "first_name": "Jean-Claude", "last_name": "Rossignol", "is_starter": false, "position": null, "is_captain": false, "played": false},
+      {"jersey": 18, "first_name": "Jean-Claude", "last_name": "Skrela", "is_starter": false, "position": null, "is_captain": false, "played": false},
       {"jersey": 19, "first_name": "Richard", "last_name": "Astre", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 20, "first_name": "", "last_name": "Roques", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 21, "first_name": "", "last_name": "Puydebois", "is_starter": false, "position": null, "is_captain": false}
+      {"jersey": 20, "first_name": "", "last_name": "Roques", "is_starter": false, "position": null, "is_captain": false, "played": false},
+      {"jersey": 21, "first_name": "", "last_name": "Puydebois", "is_starter": false, "position": null, "is_captain": false, "played": false}
     ],
     "adversaire": [
       {"jersey": 1, "first_name": "Stack", "last_name": "Stevens", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
@@ -60,5 +60,7 @@
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Duckham", "player_first_name": "David", "minute": null},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Duckham", "player_first_name": "David", "minute": null}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Barrau", "player_off_first_name": "Max", "player_on_last_name": "Astre", "player_on_first_name": "Richard", "minute": 17, "is_tactical": true}
+  ]
 }

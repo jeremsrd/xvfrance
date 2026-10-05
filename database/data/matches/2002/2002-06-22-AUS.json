@@ -24,8 +24,8 @@
       {"jersey": 17, "first_name": "Jean-Baptiste", "last_name": "Poux", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 18, "first_name": "Olivier", "last_name": "Brouzet", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 19, "first_name": "Christian", "last_name": "Labit", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 20, "first_name": "Pierre", "last_name": "Mignoni", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 21, "first_name": "Gérald", "last_name": "Merceron", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 20, "first_name": "Pierre", "last_name": "Mignoni", "is_starter": false, "position": null, "is_captain": false, "played": false},
+      {"jersey": 21, "first_name": "Gérald", "last_name": "Merceron", "is_starter": false, "position": null, "is_captain": false, "played": false},
       {"jersey": 22, "first_name": "Yannick", "last_name": "Jauzion", "is_starter": false, "position": null, "is_captain": false}
     ],
     "adversaire": [
@@ -69,5 +69,11 @@
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Burke", "player_first_name": "Matt", "minute": null},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Burke", "player_first_name": "Matt", "minute": null}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Traille", "player_off_first_name": "Damien", "player_on_last_name": "Jauzion", "player_on_first_name": "Yannick", "minute": 56, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Porcu", "player_off_first_name": "Christophe", "player_on_last_name": "Brouzet", "player_on_first_name": "Olivier", "minute": 65, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Marconnet", "player_off_first_name": "Sylvain", "player_on_last_name": "Poux", "player_on_first_name": "Jean-Baptiste", "minute": 65, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Harinordoquy", "player_off_first_name": "Imanol", "player_on_last_name": "Labit", "player_on_first_name": "Christian", "minute": 82, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Martinez", "player_off_first_name": "Arnaud", "player_on_last_name": "Ibañez", "player_on_first_name": "Raphaël", "minute": 84, "is_tactical": true}
+  ]
 }

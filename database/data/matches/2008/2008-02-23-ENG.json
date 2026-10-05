@@ -66,5 +66,13 @@
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Wigglesworth", "player_first_name": "Richard", "minute": 79},
     {"team_side": "adversaire", "type": "drop", "player_last_name": "Wilkinson", "player_first_name": "Jonny", "minute": null}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Mas", "player_off_first_name": "Nicolas", "player_on_last_name": "Poux", "player_on_first_name": "Jean-Baptiste", "minute": 55, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Papé", "player_off_first_name": "Pascal", "player_on_last_name": "Thion", "player_on_first_name": "Jérôme", "minute": 58, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Szarzewski", "player_off_first_name": "Dimitri", "player_on_last_name": "Servat", "player_on_first_name": "William", "minute": 58, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Rougerie", "player_off_first_name": "Aurélien", "player_on_last_name": "Floch", "player_on_first_name": "Anthony", "minute": 66, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Trinh-Duc", "player_off_first_name": "François", "player_on_last_name": "Skrela", "player_on_first_name": "David", "minute": 66, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Parra", "player_off_first_name": "Morgan", "player_on_last_name": "Yachvili", "player_on_first_name": "Dimitri", "minute": 66, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Picamoles", "player_off_first_name": "Louis", "player_on_last_name": "Ouedraogo", "player_on_first_name": "Fulgence", "minute": 75, "is_tactical": true}
+  ]
 }

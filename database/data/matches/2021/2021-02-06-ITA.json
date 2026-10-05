@@ -75,5 +75,14 @@
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Garbisi", "player_first_name": "Paolo", "minute": 66},
     {"team_side": "france", "type": "essai", "player_last_name": "Thomas", "player_first_name": "Teddy", "minute": 74}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Marchand", "player_off_first_name": "Julien", "player_on_last_name": "Bourgarit", "player_on_first_name": "Pierre", "minute": 46, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Haouas", "player_off_first_name": "Mohamed", "player_on_last_name": "Aldegheri", "player_on_first_name": "Dorian", "minute": 53, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Baille", "player_off_first_name": "Cyril", "player_on_last_name": "Gros", "player_on_first_name": "Jean-Baptiste", "minute": 53, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Alldritt", "player_off_first_name": "Grégory", "player_on_last_name": "Jelonch", "player_on_first_name": "Anthony", "minute": 58, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Willemse", "player_off_first_name": "Paul", "player_on_last_name": "Taofifénua", "player_on_first_name": "Romain", "minute": 58, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Fickou", "player_off_first_name": "Gaël", "player_on_last_name": "Penaud", "player_on_first_name": "Damian", "minute": 59, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Jalibert", "player_off_first_name": "Matthieu", "player_on_last_name": "Carbonel", "player_on_first_name": "Louis", "minute": 59, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Dupont", "player_off_first_name": "Antoine", "player_on_last_name": "Serin", "player_on_first_name": "Baptiste", "minute": 59, "is_tactical": true}
+  ]
 }

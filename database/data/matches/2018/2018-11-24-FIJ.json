@@ -21,9 +21,9 @@
       {"jersey": 13, "first_name": "Mathieu", "last_name": "Bastareaud", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 14, "first_name": "Teddy", "last_name": "Thomas", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 15, "first_name": "Benjamin", "last_name": "Fall", "is_starter": true, "position": "arriere", "is_captain": false},
-      {"jersey": 16, "first_name": "Julien", "last_name": "Marchand", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 16, "first_name": "Julien", "last_name": "Marchand", "is_starter": false, "position": null, "is_captain": false, "played": false},
       {"jersey": 17, "first_name": "Dany", "last_name": "Priso", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 18, "first_name": "Demba", "last_name": "Bamba", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 18, "first_name": "Demba", "last_name": "Bamba", "is_starter": false, "position": null, "is_captain": false, "played": false},
       {"jersey": 19, "first_name": "Félix", "last_name": "Lambey", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 20, "first_name": "Kelian", "last_name": "Galletier", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 21, "first_name": "Antoine", "last_name": "Dupont", "is_starter": false, "position": null, "is_captain": false},
@@ -68,5 +68,13 @@
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Volavola", "player_first_name": "Ben", "minute": 57},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Volavola", "player_first_name": "Ben", "minute": 81}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Serin", "player_off_first_name": "Baptiste", "player_on_last_name": "Dupont", "player_on_first_name": "Antoine", "minute": 52, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Vahaamahina", "player_off_first_name": "Sébastien", "player_on_last_name": "Lambey", "player_on_first_name": "Félix", "minute": 52, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Iturria", "player_off_first_name": "Arthur", "player_on_last_name": "Galletier", "player_on_first_name": "Kelian", "minute": 60, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Poirot", "player_off_first_name": "Jefferson", "player_on_last_name": "Priso", "player_on_first_name": "Dany", "minute": 60, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Picamoles", "player_off_first_name": "Louis", "player_on_last_name": "Iturria", "player_on_first_name": "Arthur", "minute": 69, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Fickou", "player_off_first_name": "Gaël", "player_on_last_name": "Doumayrou", "player_on_first_name": "Geoffrey", "minute": 70, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Lopez", "player_off_first_name": "Camille", "player_on_last_name": "Belleau", "player_on_first_name": "Anthony", "minute": 77, "is_tactical": true}
+  ]
 }

@@ -75,5 +75,13 @@
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Urjukashvili", "player_first_name": "Malkhaz", "minute": 73},
     {"team_side": "france", "type": "essai", "player_last_name": "Bonnaire", "player_first_name": "Julien", "minute": 80}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Mignoni", "player_off_first_name": "Pierre", "player_on_last_name": "Elissalde", "player_on_first_name": "Jean-Baptiste", "minute": 21, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Thion", "player_off_first_name": "Jérôme", "player_on_last_name": "Pelous", "player_on_first_name": "Fabien", "minute": 53, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Marty", "player_off_first_name": "David", "player_on_last_name": "Skrela", "player_on_first_name": "David", "minute": 58, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Bruno", "player_off_first_name": "Sébastien", "player_on_last_name": "Mas", "player_on_first_name": "Nicolas", "minute": 58, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Milloud", "player_off_first_name": "Olivier", "player_on_last_name": "Szarzewski", "player_on_first_name": "Dimitri", "minute": 58, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Betsen", "player_off_first_name": "Serge", "player_on_last_name": "Martin", "player_on_first_name": "Rémy", "minute": 63, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Poitrenaud", "player_off_first_name": "Clément", "player_on_last_name": "Clerc", "player_on_first_name": "Vincent", "minute": 73, "is_tactical": true}
+  ]
 }

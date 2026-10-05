@@ -25,7 +25,7 @@
       {"jersey": 18, "first_name": "Loïc", "last_name": "Jacquet", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 19, "first_name": "Serge", "last_name": "Betsen", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 20, "first_name": "Dimitri", "last_name": "Yachvili", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 21, "first_name": "David", "last_name": "Marty", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 21, "first_name": "David", "last_name": "Marty", "is_starter": false, "position": null, "is_captain": false, "played": false},
       {"jersey": 22, "first_name": "Christophe", "last_name": "Dominici", "is_starter": false, "position": null, "is_captain": false}
     ],
     "adversaire": [
@@ -65,5 +65,12 @@
     {"team_side": "france", "type": "penalite", "player_last_name": "Yachvili", "player_first_name": "Dimitri", "minute": 56},
     {"team_side": "france", "type": "penalite", "player_last_name": "Yachvili", "player_first_name": "Dimitri", "minute": 80}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Elissalde", "player_off_first_name": "Jean-Baptiste", "player_on_last_name": "Yachvili", "player_on_first_name": "Dimitri", "minute": 26, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Martin", "player_off_first_name": "Rémy", "player_on_last_name": "Betsen", "player_on_first_name": "Serge", "minute": 56, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "De Villiers", "player_off_first_name": "Pieter", "player_on_last_name": "Marconnet", "player_on_first_name": "Sylvain", "minute": 56, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Ibañez", "player_off_first_name": "Raphaël", "player_on_last_name": "Szarzewski", "player_on_first_name": "Dimitri", "minute": 56, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Elhorga", "player_off_first_name": "Pepito", "player_on_last_name": "Dominici", "player_on_first_name": "Christophe", "minute": 69, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Papé", "player_off_first_name": "Pascal", "player_on_last_name": "Jacquet", "player_on_first_name": "Loïc", "minute": 69, "is_tactical": true}
+  ]
 }

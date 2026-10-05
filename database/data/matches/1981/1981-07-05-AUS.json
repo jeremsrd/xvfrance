@@ -21,12 +21,12 @@
       {"jersey": 13, "first_name": "Laurent", "last_name": "Pardo", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 14, "first_name": "Michel", "last_name": "Fabre", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 15, "first_name": "Serge", "last_name": "Gabernet", "is_starter": true, "position": "arriere", "is_captain": false},
-      {"jersey": 16, "first_name": "Jean-Louis", "last_name": "Dupont", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 17, "first_name": "Omar", "last_name": "Derghali", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 18, "first_name": "Jean-Luc", "last_name": "Averous", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 16, "first_name": "Jean-Louis", "last_name": "Dupont", "is_starter": false, "position": null, "is_captain": false, "played": false},
+      {"jersey": 17, "first_name": "Omar", "last_name": "Derghali", "is_starter": false, "position": null, "is_captain": false, "played": false},
+      {"jersey": 18, "first_name": "Jean-Luc", "last_name": "Averous", "is_starter": false, "position": null, "is_captain": false, "played": false},
       {"jersey": 19, "first_name": "Adrien", "last_name": "Mournet", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 20, "first_name": "Didier", "last_name": "Codorniou", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 21, "first_name": "Marc", "last_name": "Sallefranque", "is_starter": false, "position": null, "is_captain": false}
+      {"jersey": 20, "first_name": "Didier", "last_name": "Codorniou", "is_starter": false, "position": null, "is_captain": false, "played": false},
+      {"jersey": 21, "first_name": "Marc", "last_name": "Sallefranque", "is_starter": false, "position": null, "is_captain": false, "played": false}
     ],
     "adversaire": [
       {"jersey": 1, "first_name": "Tony", "last_name": "D'arcy", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
@@ -64,5 +64,7 @@
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "McLean", "player_first_name": "Paul", "minute": null},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Richards", "player_first_name": "Geoffrey", "minute": null}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Elissalde", "player_off_first_name": "Jean Pierre", "player_on_last_name": "Mournet", "player_on_first_name": "Adrien", "minute": 67, "is_tactical": true}
+  ]
 }

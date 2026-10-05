@@ -27,7 +27,7 @@
       {"jersey": 19, "first_name": "Olivier", "last_name": "Magne", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 20, "first_name": "Jean-Baptiste", "last_name": "Elissalde", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 21, "first_name": "Benoît", "last_name": "Baby", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 22, "first_name": "Julien", "last_name": "Laharrague", "is_starter": false, "position": null, "is_captain": false}
+      {"jersey": 22, "first_name": "Julien", "last_name": "Laharrague", "is_starter": false, "position": null, "is_captain": false, "played": false}
     ],
     "adversaire": [
       {"jersey": 1, "first_name": "Lawrence", "last_name": "Sephaka", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
@@ -68,5 +68,12 @@
     {"team_side": "france", "type": "essai", "player_last_name": "Michalak", "player_first_name": "Frédéric", "minute": 81},
     {"team_side": "france", "type": "transformation", "player_last_name": "Michalak", "player_first_name": "Frédéric", "minute": 82}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Nyanga", "player_off_first_name": "Yannick", "player_on_last_name": "Magne", "player_on_first_name": "Olivier", "minute": 46, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Privat", "player_off_first_name": "Thibault", "player_on_last_name": "Lamboley", "player_on_first_name": "Grégory", "minute": 46, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Servat", "player_off_first_name": "William", "player_on_last_name": "Bruno", "player_on_first_name": "Sébastien", "minute": 54, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Marconnet", "player_off_first_name": "Sylvain", "player_on_last_name": "Milloud", "player_on_first_name": "Olivier", "minute": 54, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Traille", "player_off_first_name": "Damien", "player_on_last_name": "Baby", "player_on_first_name": "Benoît", "minute": 80, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Yachvili", "player_off_first_name": "Dimitri", "player_on_last_name": "Elissalde", "player_on_first_name": "Jean-Baptiste", "minute": 80, "is_tactical": true}
+  ]
 }

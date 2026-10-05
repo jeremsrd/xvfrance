@@ -57,6 +57,36 @@ Limites constatées : la liste du site n'est **pas** la liste officielle.
 - Il oublie des matches officiels : Angleterre 1907 et Allemagne 1932, 1933 et 1934.
 - Il donne un score faux pour le quart de finale de 1987 contre les Fidji (34-16 au lieu de 31-16).
 
+## finalesrugby.fr : remplacements et sélections
+
+[finalesrugby.fr/xv-de-france](https://finalesrugby.fr/xv-de-france/) : une page par match (803 en cache dans
+`storage/app/finalesrugby/`, hors git), adresse `/{ville}-{domicile}-{extérieur}-{année}[-n]`.
+Elle donne la composition française, les points français avec minute, et surtout :
+
+- les **remplaçants restés sur le banc**, marqués « * » ;
+- les **remplacements**, définitifs (D) ou temporaires (T), avec la minute quand elle est connue.
+
+Une **sélection** ne compte que si le joueur est entré en jeu. equipe-france.fr liste les remplaçants sans dire qui
+est entré : avant cette source, chaque passage sur le banc comptait comme une sélection (102 pour Ibañez au lieu
+de 98). Le champ `played: false` d'une composition JSON marque un remplaçant resté sur le banc.
+
+```bash
+python3 scripts/finalesrugby/fetch.py          # met les pages en cache (≈ 25 min la première fois)
+python3 scripts/finalesrugby/apply.py --dry    # bilan, puis sans --dry pour réécrire les JSON
+```
+
+Règles de `apply.py` : le match est reconnu par la date (à 3 jours près) et vérifié sur les titulaires ;
+un remplaçant marqué « * », ou que le site ne cite pas alors qu'il liste un banc, reçoit `played: false` ;
+les remplacements définitifs sont ajoutés s'il n'y a encore aucun remplacement français (27 matches non
+appariés, ignorés). Les réservistes « * » d'avant 1969, absents des JSON, sont sans effet.
+
+Contrôle le 06/10/2026 sur les 975 internationaux de la liste « This Is Rugby » dont la carrière finit avant
+2015 : 825 ont exactement leur nombre de sélections (646 avant). Les 14 recordmen de la page
+[Records en équipe de France](https://fr.wikipedia.org/wiki/Records_en_%C3%A9quipe_de_France_masculine_de_rugby_%C3%A0_XV)
+sont justes, sauf Traille (+2), Szarzewski (+1) et Michalak (+1). Les écarts restants sont souvent des désaccords
+entre sources (Berbizier : 56 selon Wikipédia et nous, 60 selon la liste) ou des erreurs du site (Brouzet en 1994).
+Pas de remplacements adverses sur ce site.
+
 ## results.csv
 
 `database/data/sources/results.csv` est un CSV de résultats internationaux de 1950 à 2026, lu par

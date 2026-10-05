@@ -72,5 +72,14 @@
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Jantjies", "player_first_name": "Elton", "minute": 79},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Jantjies", "player_first_name": "Elton", "minute": 80}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Huget", "player_off_first_name": "Yoann", "player_on_last_name": "Ducuing", "player_on_first_name": "Nans", "minute": 14, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Picamoles", "player_off_first_name": "Louis", "player_on_last_name": "Le Roux", "player_on_first_name": "Bernard", "minute": 23, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Serin", "player_off_first_name": "Baptiste", "player_on_last_name": "Dupont", "player_on_first_name": "Antoine", "minute": 56, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Slimani", "player_off_first_name": "Rabah", "player_on_last_name": "Atonio", "player_on_first_name": "Uini", "minute": 59, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Poirot", "player_off_first_name": "Jefferson", "player_on_last_name": "Ben Arous", "player_on_first_name": "Eddy", "minute": 59, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Trinh-Duc", "player_off_first_name": "François", "player_on_last_name": "Doussain", "player_on_first_name": "Jean Marc", "minute": 73, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Maestri", "player_off_first_name": "Yoann", "player_on_last_name": "Le Devedec", "player_on_first_name": "Julien", "minute": 75, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Guirado", "player_off_first_name": "Guilhem", "player_on_last_name": "Maynadier", "player_on_first_name": "Clément", "minute": 75, "is_tactical": true}
+  ]
 }

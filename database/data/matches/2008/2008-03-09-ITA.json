@@ -67,5 +67,12 @@
     {"team_side": "france", "type": "transformation", "player_last_name": "Yachvili", "player_first_name": "Dimitri", "minute": 66},
     {"team_side": "france", "type": "essai", "player_last_name": "Rougerie", "player_first_name": "Aurélien", "minute": 66}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Diarra", "player_off_first_name": "Ibrahim", "player_on_last_name": "Bonnaire", "player_on_first_name": "Julien", "minute": 50, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "David", "player_off_first_name": "Yann", "player_on_last_name": "Traille", "player_on_first_name": "Damien", "minute": 60, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Mas", "player_off_first_name": "Nicolas", "player_on_last_name": "Poux", "player_on_first_name": "Jean-Baptiste", "minute": 62, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Szarzewski", "player_off_first_name": "Dimitri", "player_on_last_name": "Guirado", "player_on_first_name": "Guilhem", "minute": 63, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Thion", "player_off_first_name": "Jérôme", "player_on_last_name": "Mela", "player_on_first_name": "Arnaud", "minute": 68, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Yachvili", "player_off_first_name": "Dimitri", "player_on_last_name": "Tomas", "player_on_first_name": "Julien", "minute": 71, "is_tactical": true}
+  ]
 }

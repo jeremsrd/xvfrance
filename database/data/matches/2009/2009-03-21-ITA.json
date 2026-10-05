@@ -70,5 +70,13 @@
     {"team_side": "france", "type": "essai", "player_last_name": "Médard", "player_first_name": "Maxime", "minute": 70},
     {"team_side": "france", "type": "essai", "player_last_name": "Malzieu", "player_first_name": "Julien", "minute": 76}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Barcella", "player_off_first_name": "Fabien", "player_on_last_name": "Domingo", "player_on_first_name": "Thomas", "minute": 49, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Parra", "player_off_first_name": "Morgan", "player_on_last_name": "Michalak", "player_on_first_name": "Frédéric", "minute": 52, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Szarzewski", "player_off_first_name": "Dimitri", "player_on_last_name": "Servat", "player_on_first_name": "William", "minute": 52, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Harinordoquy", "player_off_first_name": "Imanol", "player_on_last_name": "Picamoles", "player_on_first_name": "Louis", "minute": 56, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Fritz", "player_off_first_name": "Florian", "player_on_last_name": "Bastareaud", "player_on_first_name": "Mathieu", "minute": 61, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Heymans", "player_off_first_name": "Cédric", "player_on_last_name": "Malzieu", "player_on_first_name": "Julien", "minute": 70, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Nallet", "player_off_first_name": "Lionel", "player_on_last_name": "Thion", "player_on_first_name": "Jérôme", "minute": 70, "is_tactical": true}
+  ]
 }

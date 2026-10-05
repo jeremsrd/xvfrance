@@ -26,8 +26,8 @@
       {"jersey": 19, "first_name": "Bastien", "last_name": "Chalureau", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 20, "first_name": "Sekou", "last_name": "Macalou", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 21, "first_name": "Maxime", "last_name": "Lucu", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 22, "first_name": "Yoram", "last_name": "Moefana", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 23, "first_name": "Melvyn", "last_name": "Jaminet", "is_starter": false, "position": null, "is_captain": false}
+      {"jersey": 22, "first_name": "Yoram", "last_name": "Moefana", "is_starter": false, "position": null, "is_captain": false, "played": false},
+      {"jersey": 23, "first_name": "Melvyn", "last_name": "Jaminet", "is_starter": false, "position": null, "is_captain": false, "played": false}
     ],
     "adversaire": [
       {"jersey": 1, "first_name": "Wyn", "last_name": "Jones", "is_starter": true, "position": "pilier_gauche", "is_captain": false},

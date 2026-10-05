@@ -66,5 +66,14 @@
     {"team_side": "france", "type": "essai", "player_last_name": "Bastareaud", "player_first_name": "Mathieu", "minute": 82},
     {"team_side": "france", "type": "transformation", "player_last_name": "Plisson", "player_first_name": "Jules", "minute": 83}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Lopez", "player_off_first_name": "Camille", "player_on_last_name": "Plisson", "player_on_first_name": "Jules", "minute": 41, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Mas", "player_off_first_name": "Nicolas", "player_on_last_name": "Slimani", "player_on_first_name": "Rabah", "minute": 51, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Guirado", "player_off_first_name": "Guilhem", "player_on_last_name": "Kayser", "player_on_first_name": "Benjamin", "minute": 53, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Ben Arous", "player_off_first_name": "Eddy", "player_on_last_name": "Debaty", "player_on_first_name": "Vincent", "minute": 58, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Tillous-Borde", "player_off_first_name": "Sébastien", "player_on_last_name": "Kockott", "player_on_first_name": "Rory", "minute": 64, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Maestri", "player_off_first_name": "Yoann", "player_on_last_name": "Taofifénua", "player_on_first_name": "Romain", "minute": 64, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Fickou", "player_off_first_name": "Gaël", "player_on_last_name": "Bastareaud", "player_on_first_name": "Mathieu", "minute": 70, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Goujon", "player_off_first_name": "Loann", "player_on_last_name": "Chouly", "player_on_first_name": "Damien", "minute": 73, "is_tactical": true}
+  ]
 }

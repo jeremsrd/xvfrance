@@ -21,9 +21,9 @@
       {"jersey": 13, "first_name": "Olivier", "last_name": "Campan", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 14, "first_name": "Émile", "last_name": "Ntamack", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 15, "first_name": "Jean-Luc", "last_name": "Sadourny", "is_starter": true, "position": "arriere", "is_captain": false},
-      {"jersey": 16, "first_name": "Philippe", "last_name": "Bernat-Salles", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 16, "first_name": "Philippe", "last_name": "Bernat-Salles", "is_starter": false, "position": null, "is_captain": false, "played": false},
       {"jersey": 17, "first_name": "Stéphane", "last_name": "Glas", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 18, "first_name": "Philippe", "last_name": "Carbonneau", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 18, "first_name": "Philippe", "last_name": "Carbonneau", "is_starter": false, "position": null, "is_captain": false, "played": false},
       {"jersey": 19, "first_name": "Sylvain", "last_name": "Dispagne", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 20, "first_name": "Marc", "last_name": "de Rougemont", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 21, "first_name": "Michel", "last_name": "Perie", "is_starter": false, "position": null, "is_captain": false}

@@ -26,7 +26,7 @@
       {"jersey": 19, "first_name": "Louis", "last_name": "Picamoles", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 20, "first_name": "Morgan", "last_name": "Parra", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 21, "first_name": "François", "last_name": "Trinh-Duc", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 22, "first_name": "Anthony", "last_name": "Floch", "is_starter": false, "position": null, "is_captain": false}
+      {"jersey": 22, "first_name": "Anthony", "last_name": "Floch", "is_starter": false, "position": null, "is_captain": false, "played": false}
     ],
     "adversaire": [
       {"jersey": 1, "first_name": "Marcus", "last_name": "Horan", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
@@ -68,5 +68,12 @@
     {"team_side": "adversaire", "type": "essai_penalite", "player_last_name": null, "player_first_name": null, "minute": 61},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "O'Gara", "player_first_name": "Ronan", "minute": 75}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Szarzewski", "player_off_first_name": "Dimitri", "player_on_last_name": "Servat", "player_on_first_name": "William", "minute": 46, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Faure", "player_off_first_name": "Lionel", "player_on_last_name": "Brugnaut", "player_on_first_name": "Julien", "minute": 46, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Mela", "player_off_first_name": "Arnaud", "player_on_last_name": "Jacquet", "player_on_first_name": "Loïc", "minute": 51, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Elissalde", "player_off_first_name": "Jean-Baptiste", "player_on_last_name": "Parra", "player_on_first_name": "Morgan", "minute": 62, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Ouedraogo", "player_off_first_name": "Fulgence", "player_on_last_name": "Picamoles", "player_on_first_name": "Louis", "minute": 62, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Skrela", "player_off_first_name": "David", "player_on_last_name": "Trinh-Duc", "player_on_first_name": "François", "minute": 75, "is_tactical": true}
+  ]
 }

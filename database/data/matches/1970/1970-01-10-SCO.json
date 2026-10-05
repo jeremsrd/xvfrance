@@ -21,10 +21,10 @@
       {"jersey": 13, "first_name": "Jean-Pierre", "last_name": "Lux", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 14, "first_name": "Jean", "last_name": "Sillieres", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 15, "first_name": "Pierre", "last_name": "Villepreux", "is_starter": true, "position": "arriere", "is_captain": false},
-      {"jersey": 16, "first_name": "", "last_name": "Dargeles", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 17, "first_name": "Michel", "last_name": "Lasserre", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 18, "first_name": "Marcel", "last_name": "Puget", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 19, "first_name": "", "last_name": "Saby", "is_starter": false, "position": null, "is_captain": false}
+      {"jersey": 16, "first_name": "", "last_name": "Dargeles", "is_starter": false, "position": null, "is_captain": false, "played": false},
+      {"jersey": 17, "first_name": "Michel", "last_name": "Lasserre", "is_starter": false, "position": null, "is_captain": false, "played": false},
+      {"jersey": 18, "first_name": "Marcel", "last_name": "Puget", "is_starter": false, "position": null, "is_captain": false, "played": false},
+      {"jersey": 19, "first_name": "", "last_name": "Saby", "is_starter": false, "position": null, "is_captain": false, "played": false}
     ],
     "adversaire": [
       {"jersey": 1, "first_name": "Ian", "last_name": "McLauchlan", "is_starter": true, "position": "pilier_gauche", "is_captain": false},

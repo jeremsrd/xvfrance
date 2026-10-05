@@ -22,10 +22,10 @@
       {"jersey": 14, "first_name": "Jean-Baptiste", "last_name": "Lafond", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 15, "first_name": "Serge", "last_name": "Blanco", "is_starter": true, "position": "arriere", "is_captain": true},
       {"jersey": 16, "first_name": "Thierry", "last_name": "Lacroix", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 18, "first_name": "Henri", "last_name": "Sanz", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 19, "first_name": "Marc", "last_name": "Cecillon", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 20, "first_name": "Michel", "last_name": "Tachdjian", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 21, "first_name": "Philippe", "last_name": "Gimbert", "is_starter": false, "position": null, "is_captain": false}
+      {"jersey": 18, "first_name": "Henri", "last_name": "Sanz", "is_starter": false, "position": null, "is_captain": false, "played": false},
+      {"jersey": 19, "first_name": "Marc", "last_name": "Cecillon", "is_starter": false, "position": null, "is_captain": false, "played": false},
+      {"jersey": 20, "first_name": "Michel", "last_name": "Tachdjian", "is_starter": false, "position": null, "is_captain": false, "played": false},
+      {"jersey": 21, "first_name": "Philippe", "last_name": "Gimbert", "is_starter": false, "position": null, "is_captain": false, "played": false}
     ],
     "adversaire": [
       {"jersey": 1, "first_name": "Mike", "last_name": "Griffiths", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
@@ -65,5 +65,7 @@
     {"team_side": "france", "type": "penalite", "player_last_name": "Camberabero", "player_first_name": "Didier", "minute": null},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Thorburn", "player_first_name": "Paul", "minute": null}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Sella", "player_off_first_name": "Philippe", "player_on_last_name": "Lacroix", "player_on_first_name": "Thierry", "minute": null, "is_tactical": true}
+  ]
 }

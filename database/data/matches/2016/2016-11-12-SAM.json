@@ -73,5 +73,15 @@
     {"team_side": "france", "type": "essai_penalite", "player_last_name": null, "player_first_name": null, "minute": 78},
     {"team_side": "france", "type": "transformation", "player_last_name": "Serin", "player_first_name": "Baptiste", "minute": 79}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Goujon", "player_off_first_name": "Loann", "player_on_last_name": "Ollivon", "player_on_first_name": "Charles", "minute": 11, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Poirot", "player_off_first_name": "Jefferson", "player_on_last_name": "Baille", "player_on_first_name": "Cyril", "minute": 36, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Lamerat", "player_off_first_name": "Rémi", "player_on_last_name": "Fickou", "player_on_first_name": "Gaël", "minute": 48, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Trinh-Duc", "player_off_first_name": "François", "player_on_last_name": "Doussain", "player_on_first_name": "Jean Marc", "minute": 49, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Le Devedec", "player_off_first_name": "Julien", "player_on_last_name": "Vahaamahina", "player_on_first_name": "Sébastien", "minute": 50, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Atonio", "player_off_first_name": "Uini", "player_on_last_name": "Slimani", "player_on_first_name": "Rabah", "minute": 50, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Guirado", "player_off_first_name": "Guilhem", "player_on_last_name": "Chat", "player_on_first_name": "Camille", "minute": 55, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Machenaud", "player_off_first_name": "Maxime", "player_on_last_name": "Serin", "player_on_first_name": "Baptiste", "minute": 66, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Gourdon", "player_off_first_name": "Kévin", "player_on_last_name": "Le Devedec", "player_on_first_name": "Julien", "minute": 68, "is_tactical": true}
+  ]
 }

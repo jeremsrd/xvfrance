@@ -68,5 +68,14 @@
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Moriarty", "player_first_name": "Ross", "minute": 74},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Biggar", "player_first_name": "Dan", "minute": 75}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Ntamack", "player_off_first_name": "Romain", "player_on_last_name": "Lopez", "player_on_first_name": "Camille", "minute": 41, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Guirado", "player_off_first_name": "Guilhem", "player_on_last_name": "Chat", "player_on_first_name": "Camille", "minute": 50, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Alldritt", "player_off_first_name": "Grégory", "player_on_last_name": "Gabrillagues", "player_on_first_name": "Paul", "minute": 55, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Le Roux", "player_off_first_name": "Bernard", "player_on_last_name": "Picamoles", "player_on_first_name": "Louis", "minute": 66, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Poirot", "player_off_first_name": "Jefferson", "player_on_last_name": "Baille", "player_on_first_name": "Cyril", "minute": 68, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Dupont", "player_off_first_name": "Antoine", "player_on_last_name": "Serin", "player_on_first_name": "Baptiste", "minute": 73, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Slimani", "player_off_first_name": "Rabah", "player_on_last_name": "Setiano", "player_on_first_name": "Emerick", "minute": 73, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Médard", "player_off_first_name": "Maxime", "player_on_last_name": "Rattez", "player_on_first_name": "Vincent", "minute": 78, "is_tactical": true}
+  ]
 }

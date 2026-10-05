@@ -21,9 +21,9 @@
       {"jersey": 13, "first_name": "Roland", "last_name": "Bertranne", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 14, "first_name": "Alain", "last_name": "Caussade", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 15, "first_name": "Serge", "last_name": "Gabernet", "is_starter": true, "position": "arriere", "is_captain": false},
-      {"jersey": 16, "first_name": "Dominique", "last_name": "Sagarzazu", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 17, "first_name": "Jean-Paul", "last_name": "Wolf", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 18, "first_name": "Pierre", "last_name": "Lacans", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 16, "first_name": "Dominique", "last_name": "Sagarzazu", "is_starter": false, "position": null, "is_captain": false, "played": false},
+      {"jersey": 17, "first_name": "Jean-Paul", "last_name": "Wolf", "is_starter": false, "position": null, "is_captain": false, "played": false},
+      {"jersey": 18, "first_name": "Pierre", "last_name": "Lacans", "is_starter": false, "position": null, "is_captain": false, "played": false},
       {"jersey": 19, "first_name": "Yves", "last_name": "Lafarge", "is_starter": false, "position": null, "is_captain": false}
     ],
     "adversaire": [
@@ -62,5 +62,7 @@
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Campbell", "player_first_name": "Ollie", "minute": null},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Campbell", "player_first_name": "Ollie", "minute": null}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Mesny", "player_off_first_name": "Patrick", "player_on_last_name": "Lafarge", "player_on_first_name": "Yves", "minute": 67, "is_tactical": true}
+  ]
 }

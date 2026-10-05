@@ -58,5 +58,7 @@
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Fraumann", "player_first_name": "Bill", "minute": null},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Fraumann", "player_first_name": "Bill", "minute": null}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Dubertrand", "player_off_first_name": "André", "player_on_last_name": "Cimarosti", "player_on_first_name": "Jacques", "minute": null, "is_tactical": true}
+  ]
 }

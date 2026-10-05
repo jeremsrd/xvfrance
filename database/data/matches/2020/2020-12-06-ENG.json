@@ -70,5 +70,14 @@
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Farrell", "player_first_name": "Owen", "minute": 81},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Farrell", "player_first_name": "Owen", "minute": 96}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Aldegheri", "player_off_first_name": "Dorian", "player_on_last_name": "Atonio", "player_on_first_name": "Uini", "minute": 39, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Danty", "player_off_first_name": "Jonathan", "player_on_last_name": "Barassi", "player_on_first_name": "Pierre-Louis", "minute": 47, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Bourgarit", "player_off_first_name": "Pierre", "player_on_last_name": "Mauvaka", "player_on_first_name": "Peato", "minute": 52, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Kolingar", "player_off_first_name": "Hassane", "player_on_last_name": "Neti", "player_on_first_name": "Rodrigue", "minute": 52, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Woki", "player_off_first_name": "Cameron", "player_on_last_name": "Macalou", "player_on_first_name": "Sekou", "minute": 55, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Pesenti", "player_off_first_name": "Baptiste", "player_on_last_name": "Ducat", "player_on_first_name": "Guillaume", "minute": 55, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Jalibert", "player_off_first_name": "Matthieu", "player_on_last_name": "Carbonel", "player_on_first_name": "Louis", "minute": 61, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Couilloud", "player_off_first_name": "Baptiste", "player_on_last_name": "Bezy", "player_on_first_name": "Sébastien", "minute": 80, "is_tactical": true}
+  ]
 }

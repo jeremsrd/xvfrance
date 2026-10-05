@@ -27,7 +27,7 @@
       {"jersey": 19, "first_name": "Lionel", "last_name": "Mallier", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 20, "first_name": "Olivier", "last_name": "Brouzet", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 21, "first_name": "Cédric", "last_name": "Soulette", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 22, "first_name": "Pieter", "last_name": "De Villiers", "is_starter": false, "position": null, "is_captain": false}
+      {"jersey": 22, "first_name": "Pieter", "last_name": "De Villiers", "is_starter": false, "position": null, "is_captain": false, "played": false}
     ],
     "adversaire": [
       {"jersey": 1, "first_name": "Rod", "last_name": "Snow", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
@@ -71,5 +71,12 @@
     {"team_side": "france", "type": "essai", "player_last_name": "Ntamack", "player_first_name": "Émile", "minute": 76},
     {"team_side": "france", "type": "transformation", "player_last_name": "Dourthe", "player_first_name": "Richard", "minute": 77}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Mola", "player_off_first_name": "Ugo", "player_on_last_name": "Lamaison", "player_on_first_name": "Christophe", "minute": 56, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Garbajosa", "player_off_first_name": "Xavier", "player_on_last_name": "Ntamack", "player_on_first_name": "Émile", "minute": 73, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Pelous", "player_off_first_name": "Fabien", "player_on_last_name": "Brouzet", "player_on_first_name": "Olivier", "minute": 73, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Mignoni", "player_off_first_name": "Pierre", "player_on_last_name": "Castaignede", "player_on_first_name": "Stéphane", "minute": 77, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Califano", "player_off_first_name": "Christian", "player_on_last_name": "Soulette", "player_on_first_name": "Cédric", "minute": 78, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Lièvremont", "player_off_first_name": "Marc", "player_on_last_name": "Mallier", "player_on_first_name": "Lionel", "minute": 79, "is_tactical": true}
+  ]
 }

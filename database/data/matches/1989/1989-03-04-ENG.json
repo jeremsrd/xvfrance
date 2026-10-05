@@ -21,10 +21,10 @@
       {"jersey": 14, "first_name": "Jean-Baptiste", "last_name": "Lafond", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 15, "first_name": "Serge", "last_name": "Blanco", "is_starter": true, "position": "arriere", "is_captain": false},
       {"jersey": 16, "first_name": "Jean-Pierre", "last_name": "Garuet-Lempirou", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 17, "first_name": "Louis", "last_name": "Armary", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 18, "first_name": "Alain", "last_name": "Carminati", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 19, "first_name": "Henri", "last_name": "Sanz", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 20, "first_name": "Didier", "last_name": "Camberabero", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 17, "first_name": "Louis", "last_name": "Armary", "is_starter": false, "position": null, "is_captain": false, "played": false},
+      {"jersey": 18, "first_name": "Alain", "last_name": "Carminati", "is_starter": false, "position": null, "is_captain": false, "played": false},
+      {"jersey": 19, "first_name": "Henri", "last_name": "Sanz", "is_starter": false, "position": null, "is_captain": false, "played": false},
+      {"jersey": 20, "first_name": "Didier", "last_name": "Camberabero", "is_starter": false, "position": null, "is_captain": false, "played": false},
       {"jersey": 21, "first_name": "Denis", "last_name": "Charvet", "is_starter": false, "position": null, "is_captain": false}
     ],
     "adversaire": [
@@ -56,5 +56,8 @@
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Carling", "player_first_name": "Will", "minute": null},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Andrew", "player_first_name": "Rob", "minute": null}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Portolan", "player_off_first_name": "Claude", "player_on_last_name": "Garuet-Lempirou", "player_on_first_name": "Jean-Pierre", "minute": 25, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Lagisquet", "player_off_first_name": "Patrice", "player_on_last_name": "Charvet", "player_on_first_name": "Denis", "minute": 43, "is_tactical": true}
+  ]
 }

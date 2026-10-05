@@ -55,7 +55,7 @@ class PlayerList extends Component
     {
         $franceId = Country::where('code', 'FRA')->value('id');
 
-        $query = Player::with('country')->withCount('lineups');
+        $query = Player::with('country')->withCount(['lineups' => fn ($q) => $q->played()]);
 
         match ($this->team) {
             'adversaires' => $query->where('country_id', '!=', $franceId),

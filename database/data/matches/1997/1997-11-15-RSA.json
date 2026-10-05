@@ -63,5 +63,7 @@
     {"team_side": "france", "type": "essai", "player_last_name": "Glas", "player_first_name": "Stéphane", "minute": 79},
     {"team_side": "france", "type": "transformation", "player_last_name": "Lamaison", "player_first_name": "Christophe", "minute": 79}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Pelous", "player_off_first_name": "Fabien", "player_on_last_name": "Merle", "player_on_first_name": "Olivier", "minute": 60, "is_tactical": true}
+  ]
 }

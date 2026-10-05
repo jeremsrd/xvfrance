@@ -15,12 +15,13 @@ class MatchLineup extends Model
 
     protected $fillable = [
         'match_id', 'player_id', 'jersey_number', 'is_starter',
-        'position_played', 'is_captain', 'team_side',
+        'position_played', 'is_captain', 'played', 'team_side',
     ];
 
     protected $casts = [
         'is_starter' => 'boolean',
         'is_captain' => 'boolean',
+        'played' => 'boolean',
         'position_played' => PlayerPosition::class,
         'team_side' => TeamSide::class,
     ];
@@ -53,5 +54,11 @@ class MatchLineup extends Model
     public function scopeSubstitutes(Builder $query): Builder
     {
         return $query->where('is_starter', false);
+    }
+
+    /** Joueurs entrés en jeu : une sélection (les remplaçants restés sur le banc n'en sont pas). */
+    public function scopePlayed(Builder $query): Builder
+    {
+        return $query->where('played', true);
     }
 }

@@ -75,5 +75,14 @@
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Lolesio", "player_first_name": "Noah", "minute": 75},
     {"team_side": "france", "type": "penalite", "player_last_name": "Jaminet", "player_first_name": "Melvyn", "minute": 78}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Cazeaux", "player_off_first_name": "Cyril", "player_on_last_name": "Taofifénua", "player_on_first_name": "Romain", "minute": 51, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Hounkpatin", "player_off_first_name": "Wilfrid", "player_on_last_name": "Bamba", "player_on_first_name": "Demba", "minute": 51, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Azagoh", "player_off_first_name": "Pierre-Henri", "player_on_last_name": "Geraci", "player_on_first_name": "Killian", "minute": 63, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Gros", "player_off_first_name": "Jean-Baptiste", "player_on_last_name": "Forletta", "player_on_first_name": "Enzo", "minute": 63, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Diallo", "player_off_first_name": "Ibrahim", "player_on_last_name": "Macalou", "player_on_first_name": "Sekou", "minute": 67, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Barlot", "player_off_first_name": "Gaëtan", "player_on_last_name": "Étrillard", "player_on_first_name": "Anthony", "minute": 67, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Geraci", "player_off_first_name": "Killian", "player_on_last_name": "Bouthier", "player_on_first_name": "Anthony", "minute": 72, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Couilloud", "player_off_first_name": "Baptiste", "player_on_last_name": "Iribaren", "player_on_first_name": "Teddy", "minute": 76, "is_tactical": true}
+  ]
 }

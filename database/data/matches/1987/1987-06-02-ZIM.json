@@ -21,10 +21,10 @@
       {"jersey": 13, "first_name": "Eric", "last_name": "Bonneval", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 14, "first_name": "Marc", "last_name": "Andrieu", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 15, "first_name": "Didier", "last_name": "Camberabero", "is_starter": true, "position": "arriere", "is_captain": false},
-      {"jersey": 16, "first_name": "Philippe", "last_name": "Dintrans", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 17, "first_name": "Jean-Pierre", "last_name": "Garuet-Lempirou", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 18, "first_name": "Dominique", "last_name": "Erbani", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 19, "first_name": "Pierre", "last_name": "Berbizier", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 16, "first_name": "Philippe", "last_name": "Dintrans", "is_starter": false, "position": null, "is_captain": false, "played": false},
+      {"jersey": 17, "first_name": "Jean-Pierre", "last_name": "Garuet-Lempirou", "is_starter": false, "position": null, "is_captain": false, "played": false},
+      {"jersey": 18, "first_name": "Dominique", "last_name": "Erbani", "is_starter": false, "position": null, "is_captain": false, "played": false},
+      {"jersey": 19, "first_name": "Pierre", "last_name": "Berbizier", "is_starter": false, "position": null, "is_captain": false, "played": false},
       {"jersey": 20, "first_name": "Philippe", "last_name": "Sella", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 21, "first_name": "Guy", "last_name": "Laporte", "is_starter": false, "position": null, "is_captain": false}
     ],
@@ -80,5 +80,9 @@
     {"team_side": "france", "type": "essai", "player_last_name": "Camberabero", "player_first_name": "Didier", "minute": 75},
     {"team_side": "france", "type": "essai", "player_last_name": "Laporte", "player_first_name": "Guy", "minute": 77}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Bonneval", "player_off_first_name": "Eric", "player_on_last_name": "Sella", "player_on_first_name": "Philippe", "minute": 20, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Andrieu", "player_off_first_name": "Marc", "player_on_last_name": "Mesnel", "player_on_first_name": "Franck", "minute": 46, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Mesnel", "player_off_first_name": "Franck", "player_on_last_name": "Laporte", "player_on_first_name": "Guy", "minute": 75, "is_tactical": true}
+  ]
 }

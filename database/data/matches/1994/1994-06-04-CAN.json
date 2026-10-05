@@ -22,11 +22,11 @@
       {"jersey": 14, "first_name": "Émile", "last_name": "Ntamack", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 15, "first_name": "Jean-Luc", "last_name": "Sadourny", "is_starter": true, "position": "arriere", "is_captain": false},
       {"jersey": 16, "first_name": "Sébastien", "last_name": "Viars", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 17, "first_name": "Franck", "last_name": "Mesnel", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 18, "first_name": "Guy", "last_name": "Accoceberry", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 19, "first_name": "Olivier", "last_name": "Brouzet", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 20, "first_name": "Christian", "last_name": "Califano", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 21, "first_name": "Jean-François", "last_name": "Tordo", "is_starter": false, "position": null, "is_captain": false}
+      {"jersey": 17, "first_name": "Franck", "last_name": "Mesnel", "is_starter": false, "position": null, "is_captain": false, "played": false},
+      {"jersey": 18, "first_name": "Guy", "last_name": "Accoceberry", "is_starter": false, "position": null, "is_captain": false, "played": false},
+      {"jersey": 19, "first_name": "Olivier", "last_name": "Brouzet", "is_starter": false, "position": null, "is_captain": false, "played": false},
+      {"jersey": 20, "first_name": "Christian", "last_name": "Califano", "is_starter": false, "position": null, "is_captain": false, "played": false},
+      {"jersey": 21, "first_name": "Jean-François", "last_name": "Tordo", "is_starter": false, "position": null, "is_captain": false, "played": false}
     ],
     "adversaire": [
       {"jersey": 1, "first_name": "Eddie", "last_name": "Evans", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
@@ -65,5 +65,7 @@
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Rees", "player_first_name": "Gareth", "minute": null},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Rees", "player_first_name": "Gareth", "minute": null}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Saint-André", "player_off_first_name": "Philippe", "player_on_last_name": "Viars", "player_on_first_name": "Sébastien", "minute": 67, "is_tactical": true}
+  ]
 }

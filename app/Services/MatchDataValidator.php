@@ -214,6 +214,12 @@ class MatchDataValidator
                 if (!isset($entry['is_starter']) || !is_bool($entry['is_starter'])) {
                     $this->errors[] = "{$prefix}.is_starter requis (boolean)";
                 }
+                if (array_key_exists('played', $entry) && !is_bool($entry['played'])) {
+                    $this->errors[] = "{$prefix}.played invalide (boolean)";
+                }
+                if (($entry['played'] ?? true) === false && ($entry['is_starter'] ?? false) === true) {
+                    $this->errors[] = "{$prefix} : un titulaire a forcément joué (played: false)";
+                }
 
                 if (!empty($entry['position'])) {
                     $valid = array_column(PlayerPosition::cases(), 'value');
@@ -391,6 +397,9 @@ class MatchDataValidator
                     $this->warnings[] = "{$label} : l'entrant est un titulaire qui revient";
                 } elseif (!$byName[$on]['is_starter'] && $byName[$on]['jersey'] < 16) {
                     $this->errors[] = "{$label} : l'entrant n'est pas un remplaçant";
+                }
+                if (($byName[$on]['played'] ?? true) === false || ($byName[$off]['played'] ?? true) === false) {
+                    $this->errors[] = "{$label} : joueur marqué comme resté sur le banc (played: false)";
                 }
                 if (!in_array($off, $onField, true)) {
                     $this->warnings[] = "{$label} : le sortant n'est pas sur le terrain à ce moment-là";

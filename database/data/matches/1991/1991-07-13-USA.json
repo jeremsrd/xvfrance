@@ -62,5 +62,8 @@
     {"team_side": "france", "type": "essai", "player_last_name": "Cecillon", "player_first_name": "Marc", "minute": null},
     {"team_side": "france", "type": "essai", "player_last_name": "Mesnel", "player_first_name": "Franck", "minute": null}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Courtiols", "player_off_first_name": "Michel", "player_on_last_name": "Tordo", "player_on_first_name": "Jean-François", "minute": 73, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Cadieu", "player_off_first_name": "Jean-Marie", "player_on_last_name": "Benazzi", "player_on_first_name": "Abdelatif", "minute": null, "is_tactical": true}
+  ]
 }

@@ -26,7 +26,7 @@
       {"jersey": 19, "first_name": "Rémy", "last_name": "Martin", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 20, "first_name": "Dimitri", "last_name": "Yachvili", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 21, "first_name": "Benjamin", "last_name": "Boyet", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 22, "first_name": "Ludovic", "last_name": "Valbon", "is_starter": false, "position": null, "is_captain": false}
+      {"jersey": 22, "first_name": "Ludovic", "last_name": "Valbon", "is_starter": false, "position": null, "is_captain": false, "played": false}
     ],
     "adversaire": [
       {"jersey": 1, "first_name": "Reggie", "last_name": "Corrigan", "is_starter": true, "position": "pilier_gauche", "is_captain": false},

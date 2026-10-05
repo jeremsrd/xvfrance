@@ -66,5 +66,14 @@
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Jackson", "player_first_name": "Paddy", "minute": 76},
     {"team_side": "adversaire", "type": "drop", "player_last_name": "Sexton", "player_first_name": "Johnny", "minute": null}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Vahaamahina", "player_off_first_name": "Sébastien", "player_on_last_name": "Le Devedec", "player_on_first_name": "Julien", "minute": 51, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Slimani", "player_off_first_name": "Rabah", "player_on_last_name": "Atonio", "player_on_first_name": "Uini", "minute": 51, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Baille", "player_off_first_name": "Cyril", "player_on_last_name": "Ben Arous", "player_on_first_name": "Eddy", "minute": 51, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Lamerat", "player_off_first_name": "Rémi", "player_on_last_name": "Chavancy", "player_on_first_name": "Henry", "minute": 60, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Le Roux", "player_off_first_name": "Bernard", "player_on_last_name": "Ollivon", "player_on_first_name": "Charles", "minute": 60, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Serin", "player_off_first_name": "Baptiste", "player_on_last_name": "Machenaud", "player_on_first_name": "Maxime", "minute": 62, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Guirado", "player_off_first_name": "Guilhem", "player_on_last_name": "Tolofua", "player_on_first_name": "Christopher", "minute": 62, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Spedding", "player_off_first_name": "Scott", "player_on_last_name": "Camara", "player_on_first_name": "Djibril", "minute": 74, "is_tactical": true}
+  ]
 }

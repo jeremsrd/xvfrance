@@ -24,7 +24,7 @@
       {"jersey": 17, "first_name": "Vincent", "last_name": "Debaty", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 18, "first_name": "Romain", "last_name": "Taofifénua", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 19, "first_name": "Alexandre", "last_name": "Lapandry", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 20, "first_name": "Maxime", "last_name": "Machenaud", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 20, "first_name": "Maxime", "last_name": "Machenaud", "is_starter": false, "position": null, "is_captain": false, "played": false},
       {"jersey": 21, "first_name": "Frédéric", "last_name": "Michalak", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 22, "first_name": "Maxime", "last_name": "Mermoz", "is_starter": false, "position": null, "is_captain": false}
     ],
@@ -68,5 +68,12 @@
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Montero", "player_first_name": "Manuel", "minute": 77},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Contepomi", "player_first_name": "Felipe", "minute": 77}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Watremez", "player_off_first_name": "Yvan", "player_on_last_name": "Debaty", "player_on_first_name": "Vincent", "minute": 41, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Trinh-Duc", "player_off_first_name": "François", "player_on_last_name": "Michalak", "player_on_first_name": "Frédéric", "minute": 59, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Picamoles", "player_off_first_name": "Louis", "player_on_last_name": "Lapandry", "player_on_first_name": "Alexandre", "minute": 67, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Szarzewski", "player_off_first_name": "Dimitri", "player_on_last_name": "Tolofua", "player_on_first_name": "Christopher", "minute": 67, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Maestri", "player_off_first_name": "Yoann", "player_on_last_name": "Taofifénua", "player_on_first_name": "Romain", "minute": 75, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Fritz", "player_off_first_name": "Florian", "player_on_last_name": "Mermoz", "player_on_first_name": "Maxime", "minute": 78, "is_tactical": true}
+  ]
 }

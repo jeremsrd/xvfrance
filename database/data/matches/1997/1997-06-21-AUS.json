@@ -23,10 +23,10 @@
       {"jersey": 15, "first_name": "Jean-Luc", "last_name": "Sadourny", "is_starter": true, "position": "arriere", "is_captain": false},
       {"jersey": 16, "first_name": "Sébastien", "last_name": "Viars", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 17, "first_name": "Richard", "last_name": "Castel", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 18, "first_name": "Guy", "last_name": "Accoceberry", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 19, "first_name": "Hugues", "last_name": "Miorin", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 20, "first_name": "Pierre", "last_name": "Triep-Capdeville", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 21, "first_name": "Raphaël", "last_name": "Ibañez", "is_starter": false, "position": null, "is_captain": false}
+      {"jersey": 18, "first_name": "Guy", "last_name": "Accoceberry", "is_starter": false, "position": null, "is_captain": false, "played": false},
+      {"jersey": 19, "first_name": "Hugues", "last_name": "Miorin", "is_starter": false, "position": null, "is_captain": false, "played": false},
+      {"jersey": 20, "first_name": "Pierre", "last_name": "Triep-Capdeville", "is_starter": false, "position": null, "is_captain": false, "played": false},
+      {"jersey": 21, "first_name": "Raphaël", "last_name": "Ibañez", "is_starter": false, "position": null, "is_captain": false, "played": false}
     ],
     "adversaire": [
       {"jersey": 1, "first_name": "Richard", "last_name": "Harry", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
@@ -67,5 +67,8 @@
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Eales", "player_first_name": "John", "minute": null},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Eales", "player_first_name": "John", "minute": null}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Venditti", "player_off_first_name": "David", "player_on_last_name": "Viars", "player_on_first_name": "Sébastien", "minute": 39, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Magne", "player_off_first_name": "Olivier", "player_on_last_name": "Castel", "player_on_first_name": "Richard", "minute": 71, "is_tactical": true}
+  ]
 }

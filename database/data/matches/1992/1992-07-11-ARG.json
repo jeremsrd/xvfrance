@@ -21,12 +21,12 @@
       {"jersey": 13, "first_name": "Christian", "last_name": "Coeurveille", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 14, "first_name": "Philippe", "last_name": "Saint-André", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 15, "first_name": "Jean-Luc", "last_name": "Sadourny", "is_starter": true, "position": "arriere", "is_captain": false},
-      {"jersey": 16, "first_name": "Fabrice", "last_name": "Landreau", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 16, "first_name": "Fabrice", "last_name": "Landreau", "is_starter": false, "position": null, "is_captain": false, "played": false},
       {"jersey": 17, "first_name": "Thierry", "last_name": "Devergie", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 18, "first_name": "Philippe", "last_name": "Benetton", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 19, "first_name": "Fabien", "last_name": "Galthié", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 20, "first_name": "Christophe", "last_name": "Reigt", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 21, "first_name": "Michel", "last_name": "Marfaing", "is_starter": false, "position": null, "is_captain": false}
+      {"jersey": 18, "first_name": "Philippe", "last_name": "Benetton", "is_starter": false, "position": null, "is_captain": false, "played": false},
+      {"jersey": 19, "first_name": "Fabien", "last_name": "Galthié", "is_starter": false, "position": null, "is_captain": false, "played": false},
+      {"jersey": 20, "first_name": "Christophe", "last_name": "Reigt", "is_starter": false, "position": null, "is_captain": false, "played": false},
+      {"jersey": 21, "first_name": "Michel", "last_name": "Marfaing", "is_starter": false, "position": null, "is_captain": false, "played": false}
     ],
     "adversaire": [
       {"jersey": 1, "first_name": "Diego", "last_name": "Cash", "is_starter": true, "position": "pilier_gauche", "is_captain": false},

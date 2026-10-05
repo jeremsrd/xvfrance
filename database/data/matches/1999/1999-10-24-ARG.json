@@ -78,5 +78,13 @@
     {"team_side": "france", "type": "essai", "player_last_name": "Garbajosa", "player_first_name": "Xavier", "minute": 78},
     {"team_side": "france", "type": "transformation", "player_last_name": "Lamaison", "player_first_name": "Christophe", "minute": 79}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Soulette", "player_off_first_name": "Cédric", "player_on_last_name": "De Villiers", "player_on_first_name": "Pieter", "minute": 60, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Juillet", "player_off_first_name": "Christophe", "player_on_last_name": "Costes", "player_on_first_name": "Arnaud", "minute": 70, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Galthié", "player_off_first_name": "Fabien", "player_on_last_name": "Castaignede", "player_on_first_name": "Stéphane", "minute": 71, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Ibañez", "player_off_first_name": "Raphaël", "player_on_last_name": "Dal Maso", "player_on_first_name": "Marc", "minute": 77, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Garbajosa", "player_off_first_name": "Xavier", "player_on_last_name": "Mola", "player_on_first_name": "Ugo", "minute": 80, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Dourthe", "player_off_first_name": "Richard", "player_on_last_name": "Glas", "player_on_first_name": "Stéphane", "minute": 80, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Benazzi", "player_off_first_name": "Abdelatif", "player_on_last_name": "Auradou", "player_on_first_name": "David", "minute": 80, "is_tactical": true}
+  ]
 }

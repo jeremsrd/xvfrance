@@ -73,5 +73,14 @@
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Savea", "player_first_name": "Ardie", "minute": 79},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Barrett", "player_first_name": "Beauden", "minute": 80}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Atonio", "player_off_first_name": "Uini", "player_on_last_name": "Slimani", "player_on_first_name": "Rabah", "minute": 46, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Priso", "player_off_first_name": "Dany", "player_on_last_name": "Baille", "player_on_first_name": "Cyril", "minute": 55, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Grosso", "player_off_first_name": "Rémy", "player_on_last_name": "Fickou", "player_on_first_name": "Gaël", "minute": 59, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Belleau", "player_off_first_name": "Anthony", "player_on_last_name": "Plisson", "player_on_first_name": "Jules", "minute": 61, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Parra", "player_off_first_name": "Morgan", "player_on_last_name": "Serin", "player_on_first_name": "Baptiste", "minute": 61, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Cancoriet", "player_off_first_name": "Judicael", "player_on_last_name": "Lapandry", "player_on_first_name": "Alexandre", "minute": 61, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Chat", "player_off_first_name": "Camille", "player_on_last_name": "Pelissie", "player_on_first_name": "Adrien", "minute": 61, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Gabrillagues", "player_off_first_name": "Paul", "player_on_last_name": "Le Roux", "player_on_first_name": "Bernard", "minute": 69, "is_tactical": true}
+  ]
 }

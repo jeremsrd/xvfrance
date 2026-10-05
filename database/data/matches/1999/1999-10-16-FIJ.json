@@ -21,11 +21,11 @@
       {"jersey": 14, "first_name": "Philippe", "last_name": "Bernat-Salles", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 15, "first_name": "Ugo", "last_name": "Mola", "is_starter": true, "position": "arriere", "is_captain": false},
       {"jersey": 16, "first_name": "Xavier", "last_name": "Garbajosa", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 17, "first_name": "Cédric", "last_name": "Desbrosse", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 17, "first_name": "Cédric", "last_name": "Desbrosse", "is_starter": false, "position": null, "is_captain": false, "played": false},
       {"jersey": 18, "first_name": "Fabien", "last_name": "Galthié", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 19, "first_name": "Arnaud", "last_name": "Costes", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 20, "first_name": "Olivier", "last_name": "Brouzet", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 21, "first_name": "Pieter", "last_name": "De Villiers", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 21, "first_name": "Pieter", "last_name": "De Villiers", "is_starter": false, "position": null, "is_captain": false, "played": false},
       {"jersey": 22, "first_name": "Marc", "last_name": "Dal Maso", "is_starter": false, "position": null, "is_captain": false}
     ],
     "adversaire": [
@@ -69,5 +69,11 @@
     {"team_side": "france", "type": "penalite", "player_last_name": "Lamaison", "player_first_name": "Christophe", "minute": 78},
     {"team_side": "france", "type": "essai_penalite", "player_last_name": null, "player_first_name": null, "minute": 83}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Ibañez", "player_off_first_name": "Raphaël", "player_on_last_name": "Dal Maso", "player_on_first_name": "Marc", "minute": 51, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Mola", "player_off_first_name": "Ugo", "player_on_last_name": "Garbajosa", "player_on_first_name": "Xavier", "minute": 56, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Castaignede", "player_off_first_name": "Stéphane", "player_on_last_name": "Galthié", "player_on_first_name": "Fabien", "minute": 72, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Magne", "player_off_first_name": "Olivier", "player_on_last_name": "Costes", "player_on_first_name": "Arnaud", "minute": 72, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Juillet", "player_off_first_name": "Christophe", "player_on_last_name": "Brouzet", "player_on_first_name": "Olivier", "minute": 80, "is_tactical": true}
+  ]
 }

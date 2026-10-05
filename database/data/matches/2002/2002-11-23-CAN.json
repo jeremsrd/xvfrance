@@ -66,5 +66,14 @@
     {"team_side": "france", "type": "penalite", "player_last_name": "Merceron", "player_first_name": "Gérald", "minute": null},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Ross", "player_first_name": "Bobby", "minute": null}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Crenca", "player_off_first_name": "Jean-Jacques", "player_on_last_name": "Marconnet", "player_on_first_name": "Sylvain", "minute": 67, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Magne", "player_off_first_name": "Olivier", "player_on_last_name": "Chabal", "player_on_first_name": "Sébastien", "minute": 70, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Ibañez", "player_off_first_name": "Raphaël", "player_on_last_name": "Rue", "player_on_first_name": "Jean-Baptiste", "minute": 70, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Castaignede", "player_off_first_name": "Thomas", "player_on_last_name": "Garbajosa", "player_on_first_name": "Xavier", "minute": 73, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Galthié", "player_off_first_name": "Fabien", "player_on_last_name": "Yachvili", "player_on_first_name": "Dimitri", "minute": 73, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Merceron", "player_off_first_name": "Gérald", "player_on_last_name": "Gelez", "player_on_first_name": "François", "minute": 76, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Chabal", "player_off_first_name": "Sébastien", "player_on_last_name": "Auradou", "player_on_first_name": "David", "minute": 77, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Pelous", "player_off_first_name": "Fabien", "player_on_last_name": "Auradou", "player_on_first_name": "David", "minute": 77, "is_tactical": true}
+  ]
 }

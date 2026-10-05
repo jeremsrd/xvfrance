@@ -76,5 +76,14 @@
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Fifita", "player_first_name": "Siosaia", "minute": 83},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Lee", "player_first_name": "Seungshin", "minute": 84}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Jolmes", "player_off_first_name": "Thomas", "player_on_last_name": "Lavault", "player_on_first_name": "Thomas", "minute": 44, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Bamba", "player_off_first_name": "Demba", "player_on_last_name": "Falatea", "player_on_first_name": "Sipili", "minute": 46, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Gros", "player_off_first_name": "Jean-Baptiste", "player_on_last_name": "Priso", "player_on_first_name": "Dany", "minute": 46, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Mauvaka", "player_off_first_name": "Peato", "player_on_last_name": "Bourgarit", "player_on_first_name": "Pierre", "minute": 49, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Vakatawa", "player_off_first_name": "Virimi", "player_on_last_name": "Macalou", "player_on_first_name": "Sekou", "minute": 63, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Lucu", "player_off_first_name": "Maxime", "player_on_last_name": "Couilloud", "player_on_first_name": "Baptiste", "minute": 63, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Tanga", "player_off_first_name": "Yoan", "player_on_last_name": "Tolofua", "player_on_first_name": "Selevasio", "minute": 63, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Jalibert", "player_off_first_name": "Matthieu", "player_on_last_name": "Hastoy", "player_on_first_name": "Antoine", "minute": 70, "is_tactical": true}
+  ]
 }

@@ -66,5 +66,14 @@
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Barrett", "player_first_name": "Beauden", "minute": 77},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Cruden", "player_first_name": "Aaron", "minute": 78}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Médard", "player_off_first_name": "Maxime", "player_on_last_name": "Dulin", "player_on_first_name": "Brice", "minute": 41, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Szarzewski", "player_off_first_name": "Dimitri", "player_on_last_name": "Kayser", "player_on_first_name": "Benjamin", "minute": 50, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Picamoles", "player_off_first_name": "Louis", "player_on_last_name": "Nyanga", "player_on_first_name": "Yannick", "minute": 54, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Fritz", "player_off_first_name": "Florian", "player_on_last_name": "Bastareaud", "player_on_first_name": "Mathieu", "minute": 60, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Machenaud", "player_off_first_name": "Maxime", "player_on_last_name": "Tales", "player_on_first_name": "Rémi", "minute": 65, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Samson", "player_off_first_name": "Christophe", "player_on_last_name": "Vahaamahina", "player_on_first_name": "Sébastien", "minute": 65, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Mas", "player_off_first_name": "Nicolas", "player_on_last_name": "Ducalcon", "player_on_first_name": "Luc", "minute": 67, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Domingo", "player_off_first_name": "Thomas", "player_on_last_name": "Debaty", "player_on_first_name": "Vincent", "minute": 67, "is_tactical": true}
+  ]
 }

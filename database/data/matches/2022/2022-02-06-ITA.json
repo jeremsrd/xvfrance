@@ -26,7 +26,7 @@
       {"jersey": 19, "first_name": "Romain", "last_name": "Taofifénua", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 20, "first_name": "François", "last_name": "Cros", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 21, "first_name": "Maxime", "last_name": "Lucu", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 22, "first_name": "Yoram", "last_name": "Moefana", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 22, "first_name": "Yoram", "last_name": "Moefana", "is_starter": false, "position": null, "is_captain": false, "played": false},
       {"jersey": 23, "first_name": "Thomas", "last_name": "Ramos", "is_starter": false, "position": null, "is_captain": false}
     ],
     "adversaire": [

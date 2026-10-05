@@ -160,6 +160,8 @@ Tous les champs dans `lineups`, `events` et `substitutions` peuvent être absent
 - `lineups.adversaire` peut être un tableau vide `[]` (composition adverse inconnue)
 - `position` peut être `null` si inconnue
 - `is_captain` est optionnel (défaut: `false`)
+- `played` est optionnel (défaut : `true`) : `false` pour un remplaçant resté sur le banc, qui ne compte pas comme
+  sélection (voir `docs/sources.md`, finalesrugby.fr)
 - `cap_number` (optionnel, joueurs français) : numéro d'international ; il identifie le joueur avant son nom et
   départage les homonymes de la même époque (André Abadie n° 545 et n° 552)
 - les joueurs des points et des remplacements sont d'abord cherchés dans la composition du match

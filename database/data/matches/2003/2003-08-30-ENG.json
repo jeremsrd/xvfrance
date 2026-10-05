@@ -25,7 +25,7 @@
       {"jersey": 18, "first_name": "David", "last_name": "Auradou", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 19, "first_name": "Sébastien", "last_name": "Chabal", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 20, "first_name": "Patrick", "last_name": "Tabacco", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 21, "first_name": "Xavier", "last_name": "Garbajosa", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 21, "first_name": "Xavier", "last_name": "Garbajosa", "is_starter": false, "position": null, "is_captain": false, "played": false},
       {"jersey": 22, "first_name": "Brian", "last_name": "Liebenberg", "is_starter": false, "position": null, "is_captain": false}
     ],
     "adversaire": [

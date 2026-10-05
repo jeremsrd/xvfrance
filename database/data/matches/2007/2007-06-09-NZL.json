@@ -74,5 +74,13 @@
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Rokocoko", "player_first_name": "Josevata", "minute": null},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Collins", "player_first_name": "Jerry", "minute": null}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Mazars", "player_off_first_name": "Lionel", "player_on_last_name": "Thiery", "player_on_first_name": "Benjamin", "minute": 23, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Papé", "player_off_first_name": "Pascal", "player_on_last_name": "Olibeau", "player_on_first_name": "Olivier", "minute": 31, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Chabal", "player_off_first_name": "Sébastien", "player_on_last_name": "Ouedraogo", "player_on_first_name": "Fulgence", "minute": 54, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Sourgens", "player_off_first_name": "Olivier", "player_on_last_name": "Mas", "player_on_first_name": "Nicolas", "minute": 57, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Boyet", "player_off_first_name": "Benjamin", "player_on_last_name": "Laharrague", "player_on_first_name": "Nicolas", "minute": 61, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Durand", "player_off_first_name": "Nicolas", "player_on_last_name": "Forest", "player_on_first_name": "Mikael", "minute": 67, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Mignardi", "player_off_first_name": "Arnaud", "player_on_last_name": "Ibañez", "player_on_first_name": "Raphaël", "minute": 76, "is_tactical": true}
+  ]
 }

@@ -21,12 +21,12 @@
       {"jersey": 13, "first_name": "Michel", "last_name": "Marfaing", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 14, "first_name": "Philippe", "last_name": "Saint-André", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 15, "first_name": "Stéphane", "last_name": "Ougier", "is_starter": true, "position": "arriere", "is_captain": false},
-      {"jersey": 16, "first_name": "Philippe", "last_name": "Bernat-Salles", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 16, "first_name": "Philippe", "last_name": "Bernat-Salles", "is_starter": false, "position": null, "is_captain": false, "played": false},
       {"jersey": 17, "first_name": "David", "last_name": "Berty", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 18, "first_name": "Alain", "last_name": "Macabiau", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 19, "first_name": "Sylvain", "last_name": "Dispagne", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 18, "first_name": "Alain", "last_name": "Macabiau", "is_starter": false, "position": null, "is_captain": false, "played": false},
+      {"jersey": 19, "first_name": "Sylvain", "last_name": "Dispagne", "is_starter": false, "position": null, "is_captain": false, "played": false},
       {"jersey": 20, "first_name": "Thierry", "last_name": "Devergie", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 21, "first_name": "Jean-Michel", "last_name": "Gonzales", "is_starter": false, "position": null, "is_captain": false}
+      {"jersey": 21, "first_name": "Jean-Michel", "last_name": "Gonzales", "is_starter": false, "position": null, "is_captain": false, "played": false}
     ],
     "adversaire": [
       {"jersey": 1, "first_name": "Gheorghe", "last_name": "Leonte", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
@@ -64,5 +64,8 @@
     {"team_side": "france", "type": "essai_penalite", "player_last_name": null, "player_first_name": null, "minute": 80},
     {"team_side": "france", "type": "transformation", "player_last_name": "Ougier", "player_first_name": "Stéphane", "minute": 80}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Viars", "player_off_first_name": "Sébastien", "player_on_last_name": "Berty", "player_on_first_name": "David", "minute": 37, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Deslandes", "player_off_first_name": "Christophe", "player_on_last_name": "Devergie", "player_on_first_name": "Thierry", "minute": 49, "is_tactical": true}
+  ]
 }

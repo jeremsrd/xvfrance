@@ -75,5 +75,14 @@
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Laidlaw", "player_first_name": "Greig", "minute": 71},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Laidlaw", "player_first_name": "Greig", "minute": 77}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Machenaud", "player_off_first_name": "Maxime", "player_on_last_name": "Serin", "player_on_first_name": "Baptiste", "minute": 41, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Tauleigne", "player_off_first_name": "Marco", "player_on_last_name": "Picamoles", "player_on_first_name": "Louis", "minute": 58, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Guirado", "player_off_first_name": "Guilhem", "player_on_last_name": "Pelissie", "player_on_first_name": "Adrien", "minute": 58, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Poirot", "player_off_first_name": "Jefferson", "player_on_last_name": "Ben Arous", "player_on_first_name": "Eddy", "minute": 58, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Vakatawa", "player_off_first_name": "Virimi", "player_on_last_name": "Fall", "player_on_first_name": "Benjamin", "minute": 71, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Beauxis", "player_off_first_name": "Lionel", "player_on_last_name": "Belleau", "player_on_first_name": "Anthony", "minute": 71, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Vahaamahina", "player_off_first_name": "Sébastien", "player_on_last_name": "Gabrillagues", "player_on_first_name": "Paul", "minute": 71, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Slimani", "player_off_first_name": "Rabah", "player_on_last_name": "Gomes Sa", "player_on_first_name": "Cedate", "minute": 75, "is_tactical": true}
+  ]
 }

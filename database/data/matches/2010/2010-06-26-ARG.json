@@ -71,5 +71,13 @@
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Contepomi", "player_first_name": "Felipe", "minute": 69},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Contepomi", "player_first_name": "Felipe", "minute": 70}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Mazars", "player_off_first_name": "Lionel", "player_on_last_name": "Mermoz", "player_on_first_name": "Maxime", "minute": 51, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Picamoles", "player_off_first_name": "Louis", "player_on_last_name": "Lamboley", "player_on_first_name": "Grégory", "minute": 51, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Nallet", "player_off_first_name": "Lionel", "player_on_last_name": "Pierre", "player_on_first_name": "Julien", "minute": 51, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Parra", "player_off_first_name": "Morgan", "player_on_last_name": "Yachvili", "player_on_first_name": "Dimitri", "minute": 61, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Szarzewski", "player_off_first_name": "Dimitri", "player_on_last_name": "Guirado", "player_on_first_name": "Guilhem", "minute": 61, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Mas", "player_off_first_name": "Nicolas", "player_on_last_name": "Poux", "player_on_first_name": "Jean-Baptiste", "minute": 74, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Fritz", "player_off_first_name": "Florian", "player_on_last_name": "Poitrenaud", "player_on_first_name": "Clément", "minute": 77, "is_tactical": true}
+  ]
 }

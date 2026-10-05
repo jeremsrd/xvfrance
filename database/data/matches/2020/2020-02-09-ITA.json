@@ -72,5 +72,14 @@
     {"team_side": "france", "type": "essai", "player_last_name": "Serin", "player_first_name": "Baptiste", "minute": 75},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Bellini", "player_first_name": "Mattia", "minute": 80}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Willemse", "player_off_first_name": "Paul", "player_on_last_name": "Taofifénua", "player_on_first_name": "Romain", "minute": 44, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Haouas", "player_off_first_name": "Mohamed", "player_on_last_name": "Bamba", "player_on_first_name": "Demba", "minute": 58, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Baille", "player_off_first_name": "Cyril", "player_on_last_name": "Poirot", "player_on_first_name": "Jefferson", "minute": 59, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Cros", "player_off_first_name": "François", "player_on_last_name": "Woki", "player_on_first_name": "Cameron", "minute": 60, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Marchand", "player_off_first_name": "Julien", "player_on_last_name": "Mauvaka", "player_on_first_name": "Peato", "minute": 60, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Ntamack", "player_off_first_name": "Romain", "player_on_last_name": "Jalibert", "player_on_first_name": "Matthieu", "minute": 70, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Le Roux", "player_off_first_name": "Bernard", "player_on_last_name": "Palu", "player_on_first_name": "Boris", "minute": 71, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Dupont", "player_off_first_name": "Antoine", "player_on_last_name": "Serin", "player_on_first_name": "Baptiste", "minute": 72, "is_tactical": true}
+  ]
 }

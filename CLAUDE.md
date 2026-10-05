@@ -158,6 +158,7 @@ matches ──┬── match_lineups (match_id)
 - id (PK), match_id (FK matches), player_id (FK players),
   jersey_number (INT 1-23), is_starter (BOOLEAN),
   position_played (ENUM PlayerPosition), is_captain (BOOLEAN DEFAULT FALSE),
+  played (BOOLEAN DEFAULT TRUE, FALSE = remplaçant resté sur le banc, pas une sélection),
   team_side (ENUM: FRANCE, ADVERSAIRE)
 - UNIQUE(match_id, team_side, jersey_number)
 - UNIQUE(match_id, player_id)
@@ -171,7 +172,7 @@ matches ──┬── match_lineups (match_id)
 
 #### match_substitutions
 - id (PK), match_id (FK matches), player_off_id (FK players),
-  player_on_id (FK players), minute (INT),
+  player_on_id (FK players), minute (INT NULL),
   is_tactical (BOOLEAN DEFAULT TRUE),
   team_side (ENUM: FRANCE, ADVERSAIRE)
 

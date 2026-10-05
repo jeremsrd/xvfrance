@@ -77,5 +77,15 @@
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Vusec", "player_first_name": "Roland", "minute": null},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Vusec", "player_first_name": "Roland", "minute": null}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Cermeno", "player_off_first_name": "Frédéric", "player_on_last_name": "Cistacq", "player_on_first_name": "Jean-Charles", "minute": 46, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Lalanne", "player_off_first_name": "Fabrice", "player_on_last_name": "Labit", "player_on_first_name": "Christian", "minute": 46, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Collazo", "player_off_first_name": "Patrice", "player_on_last_name": "Califano", "player_on_first_name": "Christian", "minute": 46, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Ibañez", "player_off_first_name": "Raphaël", "player_on_last_name": "Califano", "player_on_first_name": "Christian", "minute": 46, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Merceron", "player_off_first_name": "Gérald", "player_on_last_name": "Elissalde", "player_on_first_name": "Jean-Baptiste", "minute": 54, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Dominici", "player_off_first_name": "Christophe", "player_on_last_name": "Bondouy", "player_on_first_name": "Pierre", "minute": 56, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Magne", "player_off_first_name": "Olivier", "player_on_last_name": "Miorin", "player_on_first_name": "Hugues", "minute": 56, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Califano", "player_off_first_name": "Christian", "player_on_last_name": "Milloud", "player_on_first_name": "Olivier", "minute": 56, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Califano", "player_off_first_name": "Christian", "player_on_last_name": "Galasso", "player_on_first_name": "Alessio", "minute": 56, "is_tactical": true}
+  ]
 }

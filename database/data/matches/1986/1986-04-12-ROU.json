@@ -57,5 +57,8 @@
     {"team_side": "france", "type": "essai", "player_last_name": "Erbani", "player_first_name": "Dominique", "minute": 61},
     {"team_side": "france", "type": "essai", "player_last_name": "Lagisquet", "player_first_name": "Patrice", "minute": 91}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Lafond", "player_off_first_name": "Jean-Baptiste", "player_on_last_name": "Lagisquet", "player_on_first_name": "Patrice", "minute": 19, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Champ", "player_off_first_name": "Eric", "player_on_last_name": "Picard", "player_on_first_name": "Thierry", "minute": 66, "is_tactical": true}
+  ]
 }

@@ -69,5 +69,14 @@
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Biggar", "player_first_name": "Dan", "minute": 73},
     {"team_side": "france", "type": "drop", "player_last_name": "Lopez", "player_first_name": "Camille", "minute": null}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Atonio", "player_off_first_name": "Uini", "player_on_last_name": "Bamba", "player_on_first_name": "Demba", "minute": 48, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Parra", "player_off_first_name": "Morgan", "player_on_last_name": "Serin", "player_on_first_name": "Baptiste", "minute": 58, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Willemse", "player_off_first_name": "Paul", "player_on_last_name": "Lambey", "player_on_first_name": "Félix", "minute": 58, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Guirado", "player_off_first_name": "Guilhem", "player_on_last_name": "Marchand", "player_on_first_name": "Julien", "minute": 58, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Poirot", "player_off_first_name": "Jefferson", "player_on_last_name": "Priso", "player_on_first_name": "Dany", "minute": 61, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Penaud", "player_off_first_name": "Damian", "player_on_last_name": "Fickou", "player_on_first_name": "Gaël", "minute": 63, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Fofana", "player_off_first_name": "Wesley", "player_on_last_name": "Doumayrou", "player_on_first_name": "Geoffrey", "minute": 67, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Picamoles", "player_off_first_name": "Louis", "player_on_last_name": "Alldritt", "player_on_first_name": "Grégory", "minute": 71, "is_tactical": true}
+  ]
 }

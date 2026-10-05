@@ -66,5 +66,13 @@
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Paterson", "player_first_name": "Chris", "minute": 70},
     {"team_side": "france", "type": "penalite", "player_last_name": "Beauxis", "player_first_name": "Lionel", "minute": 73}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Mas", "player_off_first_name": "Nicolas", "player_on_last_name": "Boyoud", "player_on_first_name": "Renaud", "minute": 40, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Szarzewski", "player_off_first_name": "Dimitri", "player_on_last_name": "Kayser", "player_on_first_name": "Benjamin", "minute": 55, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Jauzion", "player_off_first_name": "Yannick", "player_on_last_name": "Mermoz", "player_on_first_name": "Maxime", "minute": 60, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Millo-Chluski", "player_off_first_name": "Romain", "player_on_last_name": "Chabal", "player_on_first_name": "Sébastien", "minute": 60, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Tillous-Borde", "player_off_first_name": "Sébastien", "player_on_last_name": "Parra", "player_on_first_name": "Morgan", "minute": 66, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Harinordoquy", "player_off_first_name": "Imanol", "player_on_last_name": "Picamoles", "player_on_first_name": "Louis", "minute": 70, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Médard", "player_off_first_name": "Maxime", "player_on_last_name": "Malzieu", "player_on_first_name": "Julien", "minute": 79, "is_tactical": true}
+  ]
 }

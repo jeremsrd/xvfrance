@@ -22,11 +22,11 @@
       {"jersey": 14, "first_name": "Philippe", "last_name": "Bernat-Salles", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 15, "first_name": "Jean-Luc", "last_name": "Sadourny", "is_starter": true, "position": "arriere", "is_captain": false},
       {"jersey": 16, "first_name": "Stéphane", "last_name": "Graou", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 17, "first_name": "Xavier", "last_name": "Blond", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 18, "first_name": "Léon", "last_name": "Loppy", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 19, "first_name": "Fabien", "last_name": "Galthié", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 20, "first_name": "Pierre", "last_name": "Montlaur", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 21, "first_name": "Olivier", "last_name": "Campan", "is_starter": false, "position": null, "is_captain": false}
+      {"jersey": 17, "first_name": "Xavier", "last_name": "Blond", "is_starter": false, "position": null, "is_captain": false, "played": false},
+      {"jersey": 18, "first_name": "Léon", "last_name": "Loppy", "is_starter": false, "position": null, "is_captain": false, "played": false},
+      {"jersey": 19, "first_name": "Fabien", "last_name": "Galthié", "is_starter": false, "position": null, "is_captain": false, "played": false},
+      {"jersey": 20, "first_name": "Pierre", "last_name": "Montlaur", "is_starter": false, "position": null, "is_captain": false, "played": false},
+      {"jersey": 21, "first_name": "Olivier", "last_name": "Campan", "is_starter": false, "position": null, "is_captain": false, "played": false}
     ],
     "adversaire": [
       {"jersey": 1, "first_name": "Tony", "last_name": "Daly", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
@@ -62,5 +62,7 @@
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Roebuck", "player_first_name": "Marty", "minute": null},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Roebuck", "player_first_name": "Marty", "minute": null}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Seigne", "player_off_first_name": "Laurent", "player_on_last_name": "Graou", "player_on_first_name": "Stéphane", "minute": 78, "is_tactical": true}
+  ]
 }

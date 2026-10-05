@@ -26,7 +26,7 @@
       {"jersey": 19, "first_name": "Julien", "last_name": "Le Devedec", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 20, "first_name": "Damien", "last_name": "Chouly", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 21, "first_name": "Maxime", "last_name": "Machenaud", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 22, "first_name": "Jean Marc", "last_name": "Doussain", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 22, "first_name": "Jean Marc", "last_name": "Doussain", "is_starter": false, "position": null, "is_captain": false, "played": false},
       {"jersey": 23, "first_name": "Yoann", "last_name": "Huget", "is_starter": false, "position": null, "is_captain": false}
     ],
     "adversaire": [
@@ -68,5 +68,13 @@
     {"team_side": "france", "type": "penalite", "player_last_name": "Lopez", "player_first_name": "Camille", "minute": 72},
     {"team_side": "france", "type": "penalite", "player_last_name": "Lopez", "player_first_name": "Camille", "minute": 77}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Atonio", "player_off_first_name": "Uini", "player_on_last_name": "Slimani", "player_on_first_name": "Rabah", "minute": 45, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Vakatawa", "player_off_first_name": "Virimi", "player_on_last_name": "Huget", "player_on_first_name": "Yoann", "minute": 53, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Serin", "player_off_first_name": "Baptiste", "player_on_last_name": "Machenaud", "player_on_first_name": "Maxime", "minute": 56, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Maestri", "player_off_first_name": "Yoann", "player_on_last_name": "Le Devedec", "player_on_first_name": "Julien", "minute": 59, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Baille", "player_off_first_name": "Cyril", "player_on_last_name": "Chiocci", "player_on_first_name": "Xavier", "minute": 59, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Goujon", "player_off_first_name": "Loann", "player_on_last_name": "Chouly", "player_on_first_name": "Damien", "minute": 60, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Guirado", "player_off_first_name": "Guilhem", "player_on_last_name": "Tolofua", "player_on_first_name": "Christopher", "minute": 72, "is_tactical": true}
+  ]
 }

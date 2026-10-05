@@ -74,5 +74,13 @@
     {"team_side": "france", "type": "transformation", "player_last_name": "Michalak", "player_first_name": "Frédéric", "minute": 80},
     {"team_side": "france", "type": "essai", "player_last_name": "Magne", "player_first_name": "Olivier", "minute": 80}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Bru", "player_off_first_name": "Yannick", "player_on_last_name": "Ibañez", "player_on_first_name": "Raphaël", "minute": 47, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Galthié", "player_off_first_name": "Fabien", "player_on_last_name": "Yachvili", "player_on_first_name": "Dimitri", "minute": 63, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Pelous", "player_off_first_name": "Fabien", "player_on_last_name": "Auradou", "player_on_first_name": "David", "minute": 63, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Michalak", "player_off_first_name": "Frédéric", "player_on_last_name": "Merceron", "player_on_first_name": "Gérald", "minute": 72, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Marconnet", "player_off_first_name": "Sylvain", "player_on_last_name": "Milloud", "player_on_first_name": "Olivier", "minute": 72, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Elhorga", "player_off_first_name": "Pepito", "player_on_last_name": "Liebenberg", "player_on_first_name": "Brian", "minute": null, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Harinordoquy", "player_off_first_name": "Imanol", "player_on_last_name": "Labit", "player_on_first_name": "Christian", "minute": null, "is_tactical": true}
+  ]
 }

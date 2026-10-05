@@ -82,5 +82,13 @@
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Losper", "player_first_name": "Tc", "minute": 80},
     {"team_side": "adversaire", "type": "drop", "player_last_name": "Wessels", "player_first_name": "Emile", "minute": null}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "De Villiers", "player_off_first_name": "Pieter", "player_on_last_name": "Mas", "player_on_first_name": "Nicolas", "minute": 41, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Traille", "player_off_first_name": "Damien", "player_on_last_name": "Jauzion", "player_on_first_name": "Yannick", "minute": 51, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Nyanga", "player_off_first_name": "Yannick", "player_on_last_name": "Harinordoquy", "player_on_first_name": "Imanol", "minute": 55, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Chabal", "player_off_first_name": "Sébastien", "player_on_last_name": "Pelous", "player_on_first_name": "Fabien", "minute": 58, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Szarzewski", "player_off_first_name": "Dimitri", "player_on_last_name": "Ibañez", "player_on_first_name": "Raphaël", "minute": 58, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Michalak", "player_off_first_name": "Frédéric", "player_on_last_name": "Beauxis", "player_on_first_name": "Lionel", "minute": 63, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Heymans", "player_off_first_name": "Cédric", "player_on_last_name": "Rougerie", "player_on_first_name": "Aurélien", "minute": 66, "is_tactical": true}
+  ]
 }

@@ -21,10 +21,10 @@
       {"jersey": 13, "first_name": "Jean-Pierre", "last_name": "Lux", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 14, "first_name": "Basile", "last_name": "Moraitis", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 15, "first_name": "Pierre", "last_name": "Villepreux", "is_starter": true, "position": "arriere", "is_captain": false},
-      {"jersey": 16, "first_name": "Michel", "last_name": "Yachvili", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 17, "first_name": "Jean", "last_name": "Iracabal", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 18, "first_name": "Gérard", "last_name": "Sutra", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 19, "first_name": "Henri", "last_name": "Magois", "is_starter": false, "position": null, "is_captain": false}
+      {"jersey": 16, "first_name": "Michel", "last_name": "Yachvili", "is_starter": false, "position": null, "is_captain": false, "played": false},
+      {"jersey": 17, "first_name": "Jean", "last_name": "Iracabal", "is_starter": false, "position": null, "is_captain": false, "played": false},
+      {"jersey": 18, "first_name": "Gérard", "last_name": "Sutra", "is_starter": false, "position": null, "is_captain": false, "played": false},
+      {"jersey": 19, "first_name": "Henri", "last_name": "Magois", "is_starter": false, "position": null, "is_captain": false, "played": false}
     ],
     "adversaire": [
       {"jersey": 1, "first_name": "Piggy", "last_name": "Powell", "is_starter": true, "position": "pilier_gauche", "is_captain": false},

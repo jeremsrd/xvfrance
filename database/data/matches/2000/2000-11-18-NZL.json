@@ -25,7 +25,7 @@
       {"jersey": 18, "first_name": "Olivier", "last_name": "Brouzet", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 19, "first_name": "Serge", "last_name": "Betsen", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 20, "first_name": "Philippe", "last_name": "Carbonneau", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 21, "first_name": "Yann", "last_name": "Delaigue", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 21, "first_name": "Yann", "last_name": "Delaigue", "is_starter": false, "position": null, "is_captain": false, "played": false},
       {"jersey": 22, "first_name": "Mathieu", "last_name": "Dourthe", "is_starter": false, "position": null, "is_captain": false}
     ],
     "adversaire": [
@@ -78,5 +78,11 @@
     {"team_side": "france", "type": "drop", "player_last_name": "Lamaison", "player_first_name": "Christophe", "minute": null},
     {"team_side": "france", "type": "drop", "player_last_name": "Lamaison", "player_first_name": "Christophe", "minute": null}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Auradou", "player_off_first_name": "David", "player_on_last_name": "Brouzet", "player_on_first_name": "Olivier", "minute": 52, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Marconnet", "player_off_first_name": "Sylvain", "player_on_last_name": "Califano", "player_on_first_name": "Christian", "minute": 52, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Moni", "player_off_first_name": "Christophe", "player_on_last_name": "Betsen", "player_on_first_name": "Serge", "minute": 70, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Galthié", "player_off_first_name": "Fabien", "player_on_last_name": "Carbonneau", "player_on_first_name": "Philippe", "minute": 73, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Landreau", "player_off_first_name": "Fabrice", "player_on_last_name": "Azam", "player_on_first_name": "Olivier", "minute": 81, "is_tactical": true}
+  ]
 }

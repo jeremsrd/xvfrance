@@ -66,5 +66,15 @@
     {"team_side": "france", "type": "essai", "player_last_name": "Szarzewski", "player_first_name": "Dimitri", "minute": 56},
     {"team_side": "france", "type": "essai", "player_last_name": "Malzieu", "player_first_name": "Julien", "minute": 64}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Bastareaud", "player_off_first_name": "Mathieu", "player_on_last_name": "Fritz", "player_on_first_name": "Florian", "minute": 48, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Trinh-Duc", "player_off_first_name": "François", "player_on_last_name": "Traille", "player_on_first_name": "Damien", "minute": 48, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Thion", "player_off_first_name": "Jérôme", "player_on_last_name": "Picamoles", "player_on_first_name": "Louis", "minute": 48, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Marconnet", "player_off_first_name": "Sylvain", "player_on_last_name": "Domingo", "player_on_first_name": "Thomas", "minute": 51, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Faure", "player_off_first_name": "Lionel", "player_on_last_name": "Domingo", "player_on_first_name": "Thomas", "minute": 51, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Parra", "player_off_first_name": "Morgan", "player_on_last_name": "Tillous-Borde", "player_on_first_name": "Sébastien", "minute": 59, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Szarzewski", "player_off_first_name": "Dimitri", "player_on_last_name": "Kayser", "player_on_first_name": "Benjamin", "minute": 59, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Harinordoquy", "player_off_first_name": "Imanol", "player_on_last_name": "Bonnaire", "player_on_first_name": "Julien", "minute": 68, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Domingo", "player_off_first_name": "Thomas", "player_on_last_name": "Faure", "player_on_first_name": "Lionel", "minute": 73, "is_tactical": true}
+  ]
 }

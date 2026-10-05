@@ -326,6 +326,7 @@ class MatchImportService
                     'is_starter' => $entry['is_starter'],
                     'position_played' => $position,
                     'is_captain' => $entry['is_captain'] ?? false,
+                    'played' => $entry['played'] ?? true,
                     'team_side' => $teamSide,
                 ]);
 

@@ -70,5 +70,15 @@
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Farrell", "player_first_name": "Owen", "minute": 55},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Farrell", "player_first_name": "Owen", "minute": 56}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Huget", "player_off_first_name": "Yoann", "player_on_last_name": "Ramos", "player_on_first_name": "Thomas", "minute": 41, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Parra", "player_off_first_name": "Morgan", "player_on_last_name": "Dupont", "player_on_first_name": "Antoine", "minute": 47, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Lopez", "player_off_first_name": "Camille", "player_on_last_name": "Ntamack", "player_on_first_name": "Romain", "minute": 57, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Vahaamahina", "player_off_first_name": "Sébastien", "player_on_last_name": "Willemse", "player_on_first_name": "Paul", "minute": 57, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Bamba", "player_off_first_name": "Demba", "player_on_last_name": "Aldegheri", "player_on_first_name": "Dorian", "minute": 57, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Poirot", "player_off_first_name": "Jefferson", "player_on_last_name": "Priso", "player_on_first_name": "Dany", "minute": 65, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Priso", "player_off_first_name": "Dany", "player_on_last_name": "Poirot", "player_on_first_name": "Jefferson", "minute": 70, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Lambey", "player_off_first_name": "Félix", "player_on_last_name": "Alldritt", "player_on_first_name": "Grégory", "minute": 70, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Guirado", "player_off_first_name": "Guilhem", "player_on_last_name": "Bourgarit", "player_on_first_name": "Pierre", "minute": 76, "is_tactical": true}
+  ]
 }

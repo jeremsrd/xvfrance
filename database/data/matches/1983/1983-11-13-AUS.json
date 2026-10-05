@@ -55,5 +55,8 @@
     {"team_side": "adversaire", "type": "drop", "player_last_name": "Ella", "player_first_name": "Mark", "minute": null},
     {"team_side": "adversaire", "type": "drop", "player_last_name": "Hawker", "player_first_name": "Mike", "minute": null}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Lafond", "player_off_first_name": "Jean-Baptiste", "player_on_last_name": "Vivies", "player_on_first_name": "Bernard", "minute": 42, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Vivies", "player_off_first_name": "Bernard", "player_on_last_name": "Pardo", "player_on_first_name": "Laurent", "minute": 78, "is_tactical": true}
+  ]
 }

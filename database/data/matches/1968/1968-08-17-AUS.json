@@ -51,5 +51,7 @@
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "McGill", "player_first_name": "Arthur", "minute": null},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Smith", "player_first_name": "Philip", "minute": null}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Villepreux", "player_off_first_name": "Pierre", "player_on_last_name": "Boujet", "player_on_first_name": "Christian", "minute": 16, "is_tactical": true}
+  ]
 }

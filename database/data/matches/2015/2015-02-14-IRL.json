@@ -66,5 +66,14 @@
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Sexton", "player_first_name": "Johnny", "minute": 68},
     {"team_side": "france", "type": "essai", "player_last_name": "Taofifénua", "player_first_name": "Romain", "minute": 71}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Thomas", "player_off_first_name": "Teddy", "player_on_last_name": "Lamerat", "player_on_first_name": "Rémi", "minute": 32, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Bastareaud", "player_off_first_name": "Mathieu", "player_on_last_name": "Tales", "player_on_first_name": "Rémi", "minute": 45, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Slimani", "player_off_first_name": "Rabah", "player_on_last_name": "Debaty", "player_on_first_name": "Vincent", "minute": 50, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Guirado", "player_off_first_name": "Guilhem", "player_on_last_name": "Kayser", "player_on_first_name": "Benjamin", "minute": 50, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Ben Arous", "player_off_first_name": "Eddy", "player_on_last_name": "Atonio", "player_on_first_name": "Uini", "minute": 50, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Papé", "player_off_first_name": "Pascal", "player_on_last_name": "Taofifénua", "player_on_first_name": "Romain", "minute": 63, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Kockott", "player_off_first_name": "Rory", "player_on_last_name": "Parra", "player_on_first_name": "Morgan", "minute": 69, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Chouly", "player_off_first_name": "Damien", "player_on_last_name": "Goujon", "player_on_first_name": "Loann", "minute": 71, "is_tactical": true}
+  ]
 }

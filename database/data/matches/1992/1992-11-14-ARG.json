@@ -59,5 +59,7 @@
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Meson", "player_first_name": "Santiago", "minute": null},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Meson", "player_first_name": "Santiago", "minute": null}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Gallart", "player_off_first_name": "Philippe", "player_on_last_name": "Graou", "player_on_first_name": "Stéphane", "minute": 41, "is_tactical": true}
+  ]
 }

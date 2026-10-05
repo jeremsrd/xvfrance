@@ -74,5 +74,14 @@
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Simmons", "player_first_name": "Rob", "minute": 76},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Foley", "player_first_name": "Bernard", "minute": 77}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Dumoulin", "player_off_first_name": "Alexandre", "player_on_last_name": "Bastareaud", "player_on_first_name": "Mathieu", "minute": 41, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Mas", "player_off_first_name": "Nicolas", "player_on_last_name": "Atonio", "player_on_first_name": "Uini", "minute": 41, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Guirado", "player_off_first_name": "Guilhem", "player_on_last_name": "Kayser", "player_on_first_name": "Benjamin", "minute": 50, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Tillous-Borde", "player_off_first_name": "Sébastien", "player_on_last_name": "Kockott", "player_on_first_name": "Rory", "minute": 54, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Papé", "player_off_first_name": "Pascal", "player_on_last_name": "Vahaamahina", "player_on_first_name": "Sébastien", "minute": 59, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Menini", "player_off_first_name": "Alexandre", "player_on_last_name": "Chiocci", "player_on_first_name": "Xavier", "minute": 59, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Lopez", "player_off_first_name": "Camille", "player_on_last_name": "Tales", "player_on_first_name": "Rémi", "minute": 70, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Le Roux", "player_off_first_name": "Bernard", "player_on_last_name": "Nyanga", "player_on_first_name": "Yannick", "minute": 75, "is_tactical": true}
+  ]
 }

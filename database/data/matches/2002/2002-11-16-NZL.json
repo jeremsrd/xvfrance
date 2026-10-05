@@ -21,13 +21,13 @@
       {"jersey": 13, "first_name": "Thomas", "last_name": "Castaignede", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 14, "first_name": "Vincent", "last_name": "Clerc", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 15, "first_name": "Nicolas", "last_name": "Brusque", "is_starter": true, "position": "arriere", "is_captain": false},
-      {"jersey": 16, "first_name": "Sylvain", "last_name": "Marconnet", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 17, "first_name": "Jean-Baptiste", "last_name": "Rue", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 16, "first_name": "Sylvain", "last_name": "Marconnet", "is_starter": false, "position": null, "is_captain": false, "played": false},
+      {"jersey": 17, "first_name": "Jean-Baptiste", "last_name": "Rue", "is_starter": false, "position": null, "is_captain": false, "played": false},
       {"jersey": 18, "first_name": "Sébastien", "last_name": "Chabal", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 19, "first_name": "Thibault", "last_name": "Privat", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 20, "first_name": "Gérald", "last_name": "Merceron", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 21, "first_name": "Xavier", "last_name": "Garbajosa", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 22, "first_name": "Dimitri", "last_name": "Yachvili", "is_starter": false, "position": null, "is_captain": false}
+      {"jersey": 19, "first_name": "Thibault", "last_name": "Privat", "is_starter": false, "position": null, "is_captain": false, "played": false},
+      {"jersey": 20, "first_name": "Gérald", "last_name": "Merceron", "is_starter": false, "position": null, "is_captain": false, "played": false},
+      {"jersey": 21, "first_name": "Xavier", "last_name": "Garbajosa", "is_starter": false, "position": null, "is_captain": false, "played": false},
+      {"jersey": 22, "first_name": "Dimitri", "last_name": "Yachvili", "is_starter": false, "position": null, "is_captain": false, "played": false}
     ],
     "adversaire": [
       {"jersey": 1, "first_name": "Joe", "last_name": "McDonnell", "is_starter": true, "position": "pilier_gauche", "is_captain": false},

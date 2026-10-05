@@ -21,10 +21,10 @@
       {"jersey": 13, "first_name": "Alain", "last_name": "Marot", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 14, "first_name": "Jack", "last_name": "Cantoni", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 15, "first_name": "Pierre", "last_name": "Villepreux", "is_starter": true, "position": "arriere", "is_captain": false},
-      {"jersey": 16, "first_name": "Jean-Louis", "last_name": "Ugartemendia", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 17, "first_name": "Michel", "last_name": "Lasserre", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 18, "first_name": "Michel", "last_name": "Pebeyre", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 19, "first_name": "Jean", "last_name": "Trillo", "is_starter": false, "position": null, "is_captain": false}
+      {"jersey": 16, "first_name": "Jean-Louis", "last_name": "Ugartemendia", "is_starter": false, "position": null, "is_captain": false, "played": false},
+      {"jersey": 17, "first_name": "Michel", "last_name": "Lasserre", "is_starter": false, "position": null, "is_captain": false, "played": false},
+      {"jersey": 18, "first_name": "Michel", "last_name": "Pebeyre", "is_starter": false, "position": null, "is_captain": false, "played": false},
+      {"jersey": 19, "first_name": "Jean", "last_name": "Trillo", "is_starter": false, "position": null, "is_captain": false, "played": false}
     ],
     "adversaire": [
       {"jersey": 1, "first_name": "John", "last_name": "Lloyd", "is_starter": true, "position": "pilier_gauche", "is_captain": false},

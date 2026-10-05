@@ -24,9 +24,9 @@
       {"jersey": 17, "first_name": "Christian", "last_name": "Califano", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 18, "first_name": "Lionel", "last_name": "Nallet", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 19, "first_name": "Elvis", "last_name": "Vermeulen", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 20, "first_name": "Pierre", "last_name": "Mignoni", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 21, "first_name": "David", "last_name": "Skrela", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 22, "first_name": "Pepito", "last_name": "Elhorga", "is_starter": false, "position": null, "is_captain": false}
+      {"jersey": 20, "first_name": "Pierre", "last_name": "Mignoni", "is_starter": false, "position": null, "is_captain": false, "played": false},
+      {"jersey": 21, "first_name": "David", "last_name": "Skrela", "is_starter": false, "position": null, "is_captain": false, "played": false},
+      {"jersey": 22, "first_name": "Pepito", "last_name": "Elhorga", "is_starter": false, "position": null, "is_captain": false, "played": false}
     ],
     "adversaire": [
       {"jersey": 1, "first_name": "Ollie", "last_name": "Le Roux", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
@@ -66,5 +66,10 @@
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "James", "player_first_name": "Butch", "minute": null},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Krige", "player_first_name": "Corne", "minute": null}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Ibañez", "player_off_first_name": "Raphaël", "player_on_last_name": "Azam", "player_on_first_name": "Olivier", "minute": 64, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Crenca", "player_off_first_name": "Jean-Jacques", "player_on_last_name": "Califano", "player_on_first_name": "Christian", "minute": 64, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Chabal", "player_off_first_name": "Sébastien", "player_on_last_name": "Vermeulen", "player_on_first_name": "Elvis", "minute": 71, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Auradou", "player_off_first_name": "David", "player_on_last_name": "Nallet", "player_on_first_name": "Lionel", "minute": 73, "is_tactical": true}
+  ]
 }

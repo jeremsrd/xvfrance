@@ -73,5 +73,13 @@
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Leaupepe", "player_first_name": "George", "minute": null},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Schuster", "player_first_name": "John", "minute": null}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Pelous", "player_off_first_name": "Fabien", "player_on_last_name": "Auradou", "player_on_first_name": "David", "minute": 25, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Garbajosa", "player_off_first_name": "Xavier", "player_on_last_name": "Sarramea", "player_on_first_name": "Olivier", "minute": 32, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Mola", "player_off_first_name": "Ugo", "player_on_last_name": "Lamaison", "player_on_first_name": "Christophe", "minute": 45, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Costes", "player_off_first_name": "Arnaud", "player_on_last_name": "Labit", "player_on_first_name": "Christian", "minute": 58, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Califano", "player_off_first_name": "Christian", "player_on_last_name": "Crenca", "player_on_first_name": "Jean-Jacques", "minute": 64, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Mignoni", "player_off_first_name": "Pierre", "player_on_last_name": "Galthié", "player_on_first_name": "Fabien", "minute": 69, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Ibañez", "player_off_first_name": "Raphaël", "player_on_last_name": "Dal Maso", "player_on_first_name": "Marc", "minute": 69, "is_tactical": true}
+  ]
 }

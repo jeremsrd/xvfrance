@@ -29,7 +29,7 @@
       {"jersey": 19, "first_name": "Julien", "last_name": "Puricelli", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 20, "first_name": "Dimitri", "last_name": "Yachvili", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 21, "first_name": "Yannick", "last_name": "Jauzion", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 22, "first_name": "Alexis", "last_name": "Palisson", "is_starter": false, "position": null, "is_captain": false}
+      {"jersey": 22, "first_name": "Alexis", "last_name": "Palisson", "is_starter": false, "position": null, "is_captain": false, "played": false}
     ],
     "adversaire": [
       {"jersey": 1, "first_name": "Tony", "last_name": "Woodcock", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
@@ -72,5 +72,12 @@
     {"team_side": "france", "type": "transformation", "player_last_name": "Dupuy", "player_first_name": "Julien", "minute": 72},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Nonu", "player_first_name": "Ma'a", "minute": 75}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Servat", "player_off_first_name": "William", "player_on_last_name": "Szarzewski", "player_on_first_name": "Dimitri", "minute": 51, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Papé", "player_off_first_name": "Pascal", "player_on_last_name": "Chabal", "player_on_first_name": "Sébastien", "minute": 53, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Marconnet", "player_off_first_name": "Sylvain", "player_on_last_name": "Mas", "player_on_first_name": "Nicolas", "minute": 59, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Picamoles", "player_off_first_name": "Louis", "player_on_last_name": "Puricelli", "player_on_first_name": "Julien", "minute": 62, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Bastareaud", "player_off_first_name": "Mathieu", "player_on_last_name": "Jauzion", "player_on_first_name": "Yannick", "minute": 69, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Dupuy", "player_off_first_name": "Julien", "player_on_last_name": "Yachvili", "player_on_first_name": "Dimitri", "minute": 73, "is_tactical": true}
+  ]
 }
