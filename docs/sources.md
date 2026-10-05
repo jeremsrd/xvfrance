@@ -111,7 +111,7 @@ du même projet.
   rapprochés ont joué des matches sans composition en base (Allemagne 1932-1934, Armée britannique 1940) ou
   manquent sur equipe-france.fr (Serin, Vidal et Bianco en 1961, Halçarren 1964, Cardebat 1967…).
   `internationaux_correspondances.csv` tranche les cas que le nom ne résout pas.
-- **Noms** : `--report` liste 104 écarts entre la base (noms d'equipe-france.fr) et la liste. Ce sont surtout des
+- **Noms** : `--report` liste 108 écarts entre la base (noms d'equipe-france.fr) et la liste. Ce sont surtout des
   fautes du site (« Kail » Janik, « Yres » Brunet, prénoms composés abrégés), mais la liste a aussi ses coquilles
   (« Merqury », « Vahaamina »). **Pas encore appliqués** : à trier, puis à corriger à la fois en base et dans
-  les feuilles JSON, sans quoi un réimport recréerait l'ancien nom.
+  les feuilles JSON, sans quoi un réimport recréerait l'ancien nom. Décisions dans `noms_ecarts.csv`.
