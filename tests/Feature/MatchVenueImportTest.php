@@ -97,6 +97,22 @@ class MatchVenueImportTest extends TestCase
         $this->assertSame(4, Country::count());
     }
 
+    public function test_temporary_home_ground_is_not_neutral(): void
+    {
+        $wal = Country::factory()->create(['name' => 'Pays de Galles', 'code' => 'WAL']);
+        $wembley = Venue::factory()->create(['name' => 'Wembley Stadium', 'country_id' => $this->eng->id]);
+
+        // Stade de repli du pays de Galles en 1998 (venue_home_grounds.csv), terrain neutre ensuite
+        $exile = RugbyMatch::factory()->create(['match_date' => '1998-04-05', 'opponent_id' => $wal->id, 'venue_id' => $wembley->id, 'is_home' => true]);
+        $later = RugbyMatch::factory()->create(['match_date' => '2005-06-01', 'opponent_id' => $wal->id, 'venue_id' => $wembley->id]);
+
+        $this->artisan('xv:compute-venue-flags')->assertSuccessful();
+
+        $this->assertFalse($exile->fresh()->is_neutral);
+        $this->assertFalse($exile->fresh()->is_home);
+        $this->assertTrue($later->fresh()->is_neutral);
+    }
+
     public function test_venue_flags_follow_the_venue_country(): void
     {
         $sydney = Venue::factory()->create(['country_id' => $this->aus->id]);

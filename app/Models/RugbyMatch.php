@@ -3,6 +3,7 @@
 namespace App\Models;
 
 use App\Enums\MatchStage;
+use App\Support\HomeGrounds;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
@@ -58,10 +59,11 @@ class RugbyMatch extends Model
     /**
      * Domicile et terrain neutre déduits du pays du stade : en France = domicile, chez l'adversaire = extérieur,
      * ailleurs = terrain neutre (is_home garde alors l'ordre d'affichage des équipes). Sans stade ni pays : inchangé.
+     * Un stade de repli (venue_home_grounds.csv) compte comme le stade du pays qui y reçoit.
      */
     public function applyVenueFlags(int $franceId): void
     {
-        $countryId = $this->venue?->country_id;
+        $countryId = $this->venue ? HomeGrounds::hostCountryId($this->venue, $this->match_date) : null;
         if ($countryId === null) {
             return;
         }
