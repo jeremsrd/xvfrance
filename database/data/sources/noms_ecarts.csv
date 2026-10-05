@@ -1,109 +1,109 @@
-cap_number,base_first_name,base_last_name,liste_first_name,liste_last_name,annees,choix,first_name,last_name,motif,statut
-9,Henri,Lacassagne,Pierre,LACASSAGNE,1906-1906,base,Henri,Lacassagne,l'index de la liste dit aussi Henri,à valider
-16,André,Vergès,Saint-Amand,VERGES,1906-1906,à vérifier,André,Vergès,Saint-Amand dans la liste,à valider
-19,,Lewis,Ernest,LEWIS,1906-1906,liste,Ernest,Lewis,prénom absent sur le site,à valider
-22,Théo,Varvier,Théodore,VARVIER,1906-1912,liste,Théodore,Varvier,prénom complet,à valider
-23,Pierre,Gauderman,Pierre,GAUDERMEN,1906-1906,liste,Pierre,Gaudermen,graphie de la liste,à valider
-24,,Maurin,G,MAURIN,1906-1906,liste,G.,Maurin,seule l'initiale est connue,à valider
-32,Alfred,Mayssonnie,Alfred,MAYSSONIE,1908-1910,à vérifier,Alfred,Mayssonnié,Mayssonnie / Mayssonnié,à valider
-34,René,De Malmann,René,RITTER VON MALLMANN,1908-1910,base,René,de Malmann,nom d'usage (Ritter von Mallmann à l'état civil),à valider
-38,Maurice,Leuvielle,Marcel,LEUVIELLE,1908-1914,base,Maurice,Leuvielle,Marcel dans la liste,à valider
-41,,Houblain,Henri,HOUBLAIN,1909-1910,liste,Henri,Houblain,prénom absent sur le site,à valider
-43,Geo,Fourcade,Georges,FOURCADE,1909-1909,base,Géo,Fourcade,diminutif d'usage (Georges),à valider
-44,,Icard,Jules,ICARD,1909-1909,liste,Jules,Icard,prénom absent sur le site,à valider
-57,Rémi,Laffitte,Pierre,LAFITTE,1910-1910,à vérifier,Pierre,Lafitte,"Rémi Laffitte sur le site, Pierre Laffitte dans l'index",à valider
-58,Joe,Anduran,Joseph,ANDURAN,1910-1910,base,Joé,Anduran,diminutif d'usage (Joseph),à valider
-62,Guy,Laterrade,Guillaume,LATERRADE,1910-1911,liste,Guillaume,Laterrade,Guy sur le site,à valider
-63,Joseph,De Muizon,Joseph,JOURDAIN DE MUIZON,1910-1910,base,Joseph,de Muizon,nom d'usage (Jourdain de Muizon),à valider
-64,,Roujas,Fernand,ROUJAS,1910-1910,liste,Fernand,Roujas,prénom absent sur le site,à valider
-73,François,Dutour,François-Xavier,DUTOUR,1911-1913,liste,François-Xavier,Dutour,prénom complet,à valider
-74,Charles,Du Souich,Charles,JUDAS du SOUICH,1911-1911,base,Charles,du Souich,nom d'usage (Judas du Souich),à valider
-75,René,Dufour,René,DUFFOUR,1911-1911,à vérifier,René,Duffour,Dufour / Duffour,à valider
-76,Raoul,Paoli,Raoul,SIMONPAOLI,1911-1912,base,Raoul,Paoli,nom d'usage (Simonpaoli),à valider
-77,Robert,Monnier,Robert,MONIER,1911-1912,à vérifier,Robert,Monier,Monnier / Monier,à valider
-78,Daniel,Ihingoue,David,IHINGOUE,1912-1912,à vérifier,David,Ihingoué,Daniel / David,à valider
-81,Jacques Conilh,de Beyssac,Jean-Jacques,CONILH de BEYSSAC,1912-1914,liste,Jean-Jacques,Conilh de Beyssac,prénom et nom mal découpés sur le site,à valider
-84,,Vallot,Charles,VALLOT,1912-1912,liste,Charles,Vallot,prénom absent sur le site,à valider
-89,Paul,Tilh,Hélier,TILH,1912-1913,à vérifier,Hélier,Tilh,Paul / Hélier,à valider
-93,Geo,André,Georges,ANDRE,1913-1914,base,Géo,André,diminutif d'usage (Georges),à valider
-95,,Favre,Marcel,FAVRE,1913-1913,liste,Marcel,Favre,prénom absent sur le site,à valider
-97,Phillipe,Struxiano,Philippe,STRUXIANO,1913-1920,liste,Philippe,Struxiano,faute du site (Phillipe),à valider
-99,,Podevin,Gustave,PODEVIN,1913-1913,liste,Gustave,Podevin,prénom absent sur le site,à valider
-100,Clovis,Tavernier,Henri,TAVERNIER,1913-1913,à vérifier,Henri,Tavernier,Clovis / Henri,à valider
-101,,Eutrope,Albert,EUTROPE,1913-1913,liste,Albert,Eutrope,prénom absent sur le site,à valider
-104,François,Poydebasque,François,POEYDEBASQUE,1914-1914,liste,François,Poeydebasque,faute du site (Poydebasque),à valider
-105,Robert,Lacoste,Raoul,LACOSTE,1914-1914,base,Robert,Lacoste,"Raoul dans la liste, Robert dans l'index",à valider
-106,Félix,Faure,Paul,FAURE,1914-1914,liste,Paul,Faure,faute du site (Félix Faure),à valider
-107,Marcel,Lubin-Lebrère,Marcel-Frédéric,LUBIN-LEBRERE,1914-1925,liste,Marcel-Frédéric,Lubin-Lebrère,prénom complet,à valider
-108,Jean,Arnal,Jean-Marie,ARNAL,1914-1914,liste,Jean-Marie,Arnal,prénom complet,à valider
-114,,Capmau,Jean-Louis,CAPMAU,1914-1914,liste,Jean-Louis,Capmau,prénom absent sur le site,à valider
-122,Aimé,Cassayet-Armagnac,Laurent,CASSAYET-ARMAGNAC,1920-1927,base,Aimé,Cassayet-Armagnac,prénom d'usage (Laurent à l'état civil),à valider
-134,William,Gayraud,William,GAYRAUD-HIRIGOYEN,1920-1920,à vérifier,William,Gayraud,Gayraud / Gayraud-Hirigoyen,à valider
-143,Edmund,Cayrefourcq,Edmond,CAYREFOURCQ,1921-1921,liste,Edmond,Cayrefourcq,faute du site (Edmund),à valider
-146,Jean,Baquey,Jacques,BAQUEY,1921-1921,liste,Jacques,Baquey,Jean sur le site,à valider
-147,Henri,Jeangrand,Maurice-Henri,JEANGRAND,1921-1921,liste,Maurice-Henri,Jeangrand,prénom complet,à valider
-149,Jep,Pascot,Joseph,PASCOT,1922-1927,base,Jep,Pascot,diminutif d'usage (Joseph),à valider
-156,Jean,Etchepare,Albert,ETCHEPARE,1922-1922,à vérifier,Albert,Etchepare,Jean / Albert,à valider
-182,Alex,Bioussa,Alexandre,BIOUSSA,1924-1930,liste,Alexandre,Bioussa,prénom complet,à valider
-187,Yves,Du Manoir,Yves,LE PELLEY du MANOIR,1925-1927,base,Yves,du Manoir,nom d'usage (Le Pelley du Manoir),à valider
-208,,Laffont,Honoré,LAFFONT,1926-1926,liste,Honoré,Laffont,prénom absent sur le site,à valider
-215,Edmond,Vellat,Pierre-Edmond,VELLAT,1927-1928,liste,Pierre-Edmond,Vellat,prénom complet,à valider
-216,Rober,Hutin,Robert,HUTIN,1927-1927,liste,Robert,Hutin,faute du site (Rober),à valider
-219,,Carbonne,Jean,CARBONNE,1927-1927,liste,Jean,Carbonne,prénom absent sur le site,à valider
-268,Pierre,Clement,Georges,CLEMENT,1931-1931,à vérifier,Georges,Clément,Pierre / Georges,à valider
-272,Henri,Buisson,Henri,EMPEREUR-BUISSON,1931-1931,liste,Henri,Empereur-Buisson,nom complet,à valider
-324,Jean,Lefort,Jean-Baptiste,LEFORT,1938-1938,liste,Jean-Baptiste,Lefort,prénom complet,à valider
-358,Jean,Villagra,Jean,VILAGRA,1945-1945,à vérifier,Jean,Villagra,Villagra / Vilagra,à valider
-366,Michel,Sorondo,Michel,SORRONDO,1946-1948,à vérifier,Michel,Sorrondo,Sorondo / Sorrondo,à valider
-386,Jacques,Merquey,Jacques,MERQURY,1950-1950,base,Jacques,Merquey,faute de la liste (Merqury),à valider
-406,Robert,Labarthete,Robert,LABARTHETTE,1952-1952,à vérifier,Robert,Labarthète,Labarthete / Labarthette,à valider
-409,Jean,Bourdeu,Jean-Roger,BOURDEU,1952-1953,liste,Jean-Roger,Bourdeu,prénom complet,à valider
-411,Bernard,Chevalier,Bernard,CHEVALLIER,1952-1957,liste,Bernard,Chevallier,Chevalier sur le site,à valider
-421,Jean,Rouan,Jean-Claude,ROUAN,1953-1953,liste,Jean-Claude,Rouan,prénom complet,à valider
-432,Jean,Pargade,Jean-Henri,PARGADE,1953-1953,liste,Jean-Henri,Pargade,prénom complet,à valider
-433,Jean,Darrieussecq,Jean,DARRIEUSECQ,1953-1953,base,Jean,Darrieussecq,faute de la liste (Darrieusecq),à valider
-459,Jean,Dupuy,Jean-Vincent,DUPUY,1956-1964,base,Jean,Dupuy,prénom d'usage (Jean-Vincent),à valider
-474,René,Normand,Adrien,NORMAND,1957-1957,à vérifier,Adrien,Normand,René / Adrien,à valider
-488,Louis,Casaux,Louis,CAZAUX,1959-1962,à vérifier,Louis,Casaux,Casaux / Cazaux,à valider
-517,Roger,Gensanne,Roger,GENSANE,1962-1963,à vérifier,Roger,Gensane,Gensanne / Gensane,à valider
-520,Jean,Razat,Jean-Pierre,RAZAT,1962-1963,liste,Jean-Pierre,Razat,prénom complet,à valider
-539,Jean,Amestoy,Jean-Baptiste,AMESTOY,1964-1964,liste,Jean-Baptiste,Amestoy,prénom complet,à valider
-540,Jean,Hiquet,Jean-Claude,HIQUET,1964-1964,liste,Jean-Claude,Hiquet,prénom complet,à valider
-542,Yves,Menthiller,Yves,MENTHILLIER,1964-1965,à vérifier,Yves,Menthiller,Menthiller / Menthillier,à valider
-552,Alain,Abadie,André,ABADIE,1965-1968,à vérifier,André,Abadie,"Alain sur le site, André dans la liste (pilier, Graulhet)",à valider
-553,Jean,Roques,Jean-Claude,ROQUES,1966-1966,liste,Jean-Claude,Roques,prénom complet,à valider
-555,Jean,Lagrange,Jean-Claude,LAGRANGE,1966-1966,liste,Jean-Claude,Lagrange,prénom complet,à valider
-556,Jo,Maso,Joseph,MASO,1966-1973,base,Jo,Maso,diminutif d'usage (Joseph),à valider
-559,Jean-Pierre,Salut,Jean,SALUT,1966-1969,liste,Jean,Salut,Jean-Pierre sur le site,à valider
-565,Jean,Esponda,Jean-Michel,ESPONDA,1967-1969,liste,Jean-Michel,Esponda,prénom complet,à valider
-566,Jean,Dehez,Jean-Louis,DEHEZ,1967-1969,liste,Jean-Louis,Dehez,prénom complet,à valider
-569,Jean,Malbet,Jean-Claude,MALBET,1967-1967,liste,Jean-Claude,Malbet,prénom complet,à valider
-577,Jean,Capendeguy,Jean-Michel,CAPENDEGUY,1967-1967,liste,Jean-Michel,Capendeguy,prénom complet,à valider
-578,Jean,Lenient,Jean-Jacques,LENIENT,1967-1967,liste,Jean-Jacques,Lenient,prénom complet,à valider
-585,Basil,Moraitis,Basile,MORAITIS,1969-1969,liste,Basile,Moraitis,Basil sur le site,à valider
-624,Jean,Martin,Jean-Louis,MARTIN,1971-1972,liste,Jean-Louis,Martin,prénom complet,à valider
-629,Jean,Hortoland,Jean-Pierre,HORTOLAND,1971-1971,liste,Jean-Pierre,Hortoland,prénom complet,à valider
-638,André,Darrieussecq,André,DARRIEUSECQ,1973-1973,base,André,Darrieussecq,faute de la liste (Darrieusecq),à valider
-639,Jean,Phliponneau,Jean-François,PHLIPONNEAU,1973-1973,liste,Jean-François,Phliponneau,prénom complet,à valider
-645,Jean,Costantino,Jean,CONSTANTINO,1973-1973,à vérifier,Jean,Costantino,Costantino / Constantino,à valider
-653,Jean,Ugartemendia,Jean-Louis,UGARTEMENDIA,1970-1975,liste,Jean-Louis,Ugartemendia,prénom complet,à valider
-670,Yres,Brunet,Yves,BRUNET,1975-1980,liste,Yves,Brunet,faute du site (Yres),à valider
-710,Jean,Fauvell,Jean-Pierre,FAUVEL,1980-1980,liste,Jean-Pierre,Fauvel,faute du site (Fauvell),à valider
-712,Daniel,Revallier,Daniel,REVAILLER,1980-1982,à vérifier,Daniel,Revallier,Revallier / Revailler,à valider
-730,Jaques,Begu,Jacques,BEGU,1982-1984,liste,Jacques,Bégu,faute du site (Jaques),à valider
-734,Jean-Pierre,Garuet,Jean-Pierre,GARUET-LEMPIROU,1983-1990,base,Jean-Pierre,Garuet,nom d'usage (Garuet-Lempirou),à valider
-757,Kail,Janik,Karl,JANIK,1987-1987,liste,Karl,Janik,faute du site (Kail),à valider
-787,Jean,Gourragne,Jean-François,GOURRAGNE,1990-1991,liste,Jean-François,Gourragne,prénom complet,à valider
-792,Michel,Courtoils,Michel,COURTIOLS,1991-1991,liste,Michel,Courtiols,faute du site (Courtoils),à valider
-819,Émile,Ntamack,Emile,N'TAMACK-MUYENGA,1994-2000,base,Émile,Ntamack,nom d'usage (N'Tamack-Muyenga),à valider
-834,,Arlettaz,Patrick,ARLETTAZ,1995-1995,liste,Patrick,Arlettaz,prénom absent sur le site,à valider
-869,,Bacque,Nicolas,BACQUE,1997-1997,liste,Nicolas,Bacqué,prénom absent sur le site,à valider
-926,Francis,Ntamack,Francis,N'TAMACK-MUYENGA,2001-2001,base,Francis,Ntamack,nom d'usage (N'Tamack-Muyenga),à valider
-1013,Matthieu,Lievremont,Mathieu,LIEVREMONT,2008-2008,base,Matthieu,Lièvremont,faute de la liste (Mathieu),à valider
-1015,Pierre,Correira,Pierre,CORREIA,2008-2008,à vérifier,Pierre,Correia,Correira / Correia,à valider
-1017,Jean-Baptiste,Peyras,Jean-Baptiste,PEYRAS-LOUSTALET,2008-2008,liste,Jean-Baptiste,Peyras-Loustalet,nom complet,à valider
-1023,Julian,Puricelli,Julien,PURICELLI,2009-2009,liste,Julien,Puricelli,faute du site (Julian),à valider
-1038,Yoann,Maestri,Yoan,MAESTRI,2012-2018,base,Yoann,Maestri,faute de la liste (Yoan),à valider
-1042,Christopher,Tolofua,Christopher-Eric,TOLOFUA,2012-2017,base,Christopher,Tolofua,prénom d'usage,à valider
-1048,Sébastien,Vahaamahina,Sébastien,VAHAAMINA,2012-2019,base,Sébastien,Vahaamahina,faute de la liste (Vahaamina),à valider
-1060,Jonathon,Pelissie,Jonathan,PELISSIE,2013-2013,liste,Jonathan,Pélissié,faute du site (Jonathon),à valider
+cap_number,base_first_name,base_last_name,liste_first_name,liste_last_name,annees,wikipedia,choix,first_name,last_name,verification,statut
+9,Henri,Lacassagne,Pierre,LACASSAGNE,1906-1906,Henri Lacassagne,base,Henri,Lacassagne,Wikipédia,vérifié
+16,André,Vergès,Saint-Amand,VERGES,1906-1906,André Vergès,base,André,Vergès,Wikipédia,vérifié
+19,,Lewis,Ernest,LEWIS,1906-1906,Ernest William Lewis,liste,Ernest,Lewis,Wikipédia : Ernest William Lewis,vérifié
+22,Théo,Varvier,Théodore,VARVIER,1906-1912,Théodore Varvier,liste,Théodore,Varvier,Wikipédia,vérifié
+23,Pierre,Gauderman,Pierre,GAUDERMEN,1906-1906,Pierre Gaudermen,liste,Pierre,Gaudermen,Wikipédia,vérifié
+24,,Maurin,G,MAURIN,1906-1906,Simon Maurin,autre,Simon,Maurin,"Wikipédia : Simon (ni G. dans la liste, ni prénom sur le site)",vérifié
+32,Alfred,Mayssonnie,Alfred,MAYSSONIE,1908-1910,Alfred Mayssonnié,autre,Alfred,Mayssonnié,Wikipédia,vérifié
+34,René,De Malmann,René,RITTER VON MALLMANN,1908-1910,René de Mallemann,autre,René,de Malmann,graphie de la FFR (fiche de_malmann_rene) ; Wikipédia donne aussi Mallemann et Mallmann,vérifié
+38,Maurice,Leuvielle,Marcel,LEUVIELLE,1908-1914,Maurice Leuvielle,base,Maurice,Leuvielle,Wikipédia,vérifié
+41,,Houblain,Henri,HOUBLAIN,1909-1910,Henri Houblain,liste,Henri,Houblain,Wikipédia,vérifié
+43,Geo,Fourcade,Georges,FOURCADE,1909-1909,Georges Fourcade,liste,Georges,Fourcade,Wikipédia,vérifié
+44,,Icard,Jules,ICARD,1909-1909,Jules Icard,liste,Jules,Icard,Wikipédia,vérifié
+57,Rémi,Laffitte,Pierre,LAFITTE,1910-1910,Pierre-Paul Laffitte,autre,Pierre-Paul,Laffitte,"Wikipédia (Rémi sur le site, Pierre Lafitte dans la liste)",vérifié
+58,Joe,Anduran,Joseph,ANDURAN,1910-1910,Joe Anduran,base,Joe,Anduran,Wikipédia,vérifié
+62,Guy,Laterrade,Guillaume,LATERRADE,1910-1911,Guillaume Laterrade,liste,Guillaume,Laterrade,Wikipédia,vérifié
+63,Joseph,De Muizon,Joseph,JOURDAIN DE MUIZON,1910-1910,Joseph Jourdain de Muizon,liste,Joseph,Jourdain de Muizon,Wikipédia,vérifié
+64,,Roujas,Fernand,ROUJAS,1910-1910,Fernand Roujas,liste,Fernand,Roujas,Wikipédia,vérifié
+73,François,Dutour,François-Xavier,DUTOUR,1911-1913,François-Xavier Dutour,liste,François-Xavier,Dutour,Wikipédia,vérifié
+74,Charles,Du Souich,Charles,JUDAS du SOUICH,1911-1911,Charles du Souich,autre,Charles,du Souich,Wikipédia,vérifié
+75,René,Dufour,René,DUFFOUR,1911-1911,René Duffour,liste,René,Duffour,Wikipédia,vérifié
+76,Raoul,Paoli,Raoul,SIMONPAOLI,1911-1912,Raoul Paoli,base,Raoul,Paoli,Wikipédia,vérifié
+77,Robert,Monnier,Robert,MONIER,1911-1912,Robert Monier,liste,Robert,Monier,Wikipédia,vérifié
+78,Daniel,Ihingoue,David,IHINGOUE,1912-1912,Daniel Ihingoue,base,Daniel,Ihingoue,"Wikipédia : Daniel, comme le site (David dans la liste)",vérifié
+81,Jacques Conilh,de Beyssac,Jean-Jacques,CONILH de BEYSSAC,1912-1914,Jean Jacques Conilh de Beyssac,liste,Jean-Jacques,Conilh de Beyssac,Wikipédia (Jean Jacques Conilh de Beyssac),vérifié
+84,,Vallot,Charles,VALLOT,1912-1912,Édouard Vallot,autre,Édouard,Vallot,Wikipédia : Édouard (Charles dans la liste),vérifié
+89,Paul,Tilh,Hélier,TILH,1912-1913,Hélier Thil,liste,Hélier,Tilh,"Wikipédia : Hélier Thil, aussi orthographié Tilh",vérifié
+93,Geo,André,Georges,ANDRE,1913-1914,Georges André,autre,Géo,André,"nom d'usage, employé par l'article Wikipédia (né Georges André)",vérifié
+95,,Favre,Marcel,FAVRE,1913-1913,Marcel Favre,liste,Marcel,Favre,Wikipédia,vérifié
+97,Phillipe,Struxiano,Philippe,STRUXIANO,1913-1920,Philippe Struxiano,liste,Philippe,Struxiano,Wikipédia,vérifié
+99,,Podevin,Gustave,PODEVIN,1913-1913,Gustave Podevin,liste,Gustave,Podevin,Wikipédia,vérifié
+100,Clovis,Tavernier,Henri,TAVERNIER,1913-1913,Henri Tavernier,liste,Henri,Tavernier,Wikipédia,vérifié
+101,,Eutrope,Albert,EUTROPE,1913-1913,Albert Eutrope,liste,Albert,Eutrope,Wikipédia,vérifié
+104,François,Poydebasque,François,POEYDEBASQUE,1914-1914,François Poeydebasque,liste,François,Poeydebasque,Wikipédia,vérifié
+105,Robert,Lacoste,Raoul,LACOSTE,1914-1914,Robert Lacoste,base,Robert,Lacoste,Wikipédia,vérifié
+106,Félix,Faure,Paul,FAURE,1914-1914,Paul Faure,liste,Paul,Faure,Wikipédia,vérifié
+107,Marcel,Lubin-Lebrère,Marcel-Frédéric,LUBIN-LEBRERE,1914-1925,Marcel-Frédéric Lubin-Lebrère,liste,Marcel-Frédéric,Lubin-Lebrère,Wikipédia,vérifié
+108,Jean,Arnal,Jean-Marie,ARNAL,1914-1914,Jean-Marie Arnal,liste,Jean-Marie,Arnal,Wikipédia,vérifié
+114,,Capmau,Jean-Louis,CAPMAU,1914-1914,Jean-Louis Capmau,liste,Jean-Louis,Capmau,Wikipédia,vérifié
+122,Aimé,Cassayet-Armagnac,Laurent,CASSAYET-ARMAGNAC,1920-1927,Aimé Cassayet-Armagnac,base,Aimé,Cassayet-Armagnac,Wikipédia,vérifié
+134,William,Gayraud,William,GAYRAUD-HIRIGOYEN,1920-1920,William Gayraud,base,William,Gayraud,Wikipédia,vérifié
+143,Edmund,Cayrefourcq,Edmond,CAYREFOURCQ,1921-1921,Edmond Cayrefourcq,liste,Edmond,Cayrefourcq,Wikipédia,vérifié
+146,Jean,Baquey,Jacques,BAQUEY,1921-1921,Jacques Baquey,liste,Jacques,Baquey,Wikipédia,vérifié
+147,Henri,Jeangrand,Maurice-Henri,JEANGRAND,1921-1921,Maurice Jeangrand,autre,Maurice,Jeangrand,Wikipédia,vérifié
+149,Jep,Pascot,Joseph,PASCOT,1922-1927,Joseph Pascot,liste,Joseph,Pascot,Wikipédia (Jep sur le site),vérifié
+156,Jean,Etchepare,Albert,ETCHEPARE,1922-1922,Albert Etchepare,liste,Albert,Etchepare,Wikipédia,vérifié
+182,Alex,Bioussa,Alexandre,BIOUSSA,1924-1930,Alex Bioussa,base,Alex,Bioussa,Wikipédia,vérifié
+187,Yves,Du Manoir,Yves,LE PELLEY du MANOIR,1925-1927,Yves du Manoir,autre,Yves,du Manoir,Wikipédia,vérifié
+208,,Laffont,Honoré,LAFFONT,1926-1926,Honoré Laffont,liste,Honoré,Laffont,Wikipédia,vérifié
+215,Edmond,Vellat,Pierre-Edmond,VELLAT,1927-1928,Edmond Vellat,base,Edmond,Vellat,Wikipédia,vérifié
+216,Rober,Hutin,Robert,HUTIN,1927-1927,Robert Hutin,liste,Robert,Hutin,Wikipédia,vérifié
+219,,Carbonne,Jean,CARBONNE,1927-1927,Jean Carbonne,liste,Jean,Carbonne,Wikipédia,vérifié
+268,Pierre,Clement,Georges,CLEMENT,1931-1931,Georges Clément,liste,Georges,Clément,Wikipédia,vérifié
+272,Henri,Buisson,Henri,EMPEREUR-BUISSON,1931-1931,Henri Buisson,base,Henri,Buisson,Wikipédia,vérifié
+324,Jean,Lefort,Jean-Baptiste,LEFORT,1938-1938,Jean-Baptiste Lefort,liste,Jean-Baptiste,Lefort,Wikipédia,vérifié
+358,Jean,Villagra,Jean,VILAGRA,1945-1945,Jean Vilagra,liste,Jean,Vilagra,Wikipédia,vérifié
+366,Michel,Sorondo,Michel,SORRONDO,1946-1948,Michel Sorondo,base,Michel,Sorondo,Wikipédia,vérifié
+386,Jacques,Merquey,Jacques,MERQURY,1950-1950,Jacques Merquey,base,Jacques,Merquey,Wikipédia,vérifié
+406,Robert,Labarthete,Robert,LABARTHETTE,1952-1952,Robert Labarthète,autre,Robert,Labarthète,Wikipédia,vérifié
+409,Jean,Bourdeu,Jean-Roger,BOURDEU,1952-1953,Jean-Roger Bourdeu,liste,Jean-Roger,Bourdeu,Wikipédia,vérifié
+411,Bernard,Chevalier,Bernard,CHEVALLIER,1952-1957,Bernard Chevallier,liste,Bernard,Chevallier,Wikipédia,vérifié
+421,Jean,Rouan,Jean-Claude,ROUAN,1953-1953,Jean-Claude Rouan,liste,Jean-Claude,Rouan,Wikipédia,vérifié
+432,Jean,Pargade,Jean-Henri,PARGADE,1953-1953,Jean-Henri Pargade,liste,Jean-Henri,Pargade,Wikipédia,vérifié
+433,Jean,Darrieussecq,Jean,DARRIEUSECQ,1953-1953,Jean Darrieussecq,base,Jean,Darrieussecq,Wikipédia,vérifié
+459,Jean,Dupuy,Jean-Vincent,DUPUY,1956-1964,Jean Dupuy,base,Jean,Dupuy,Wikipédia,vérifié
+474,René,Normand,Adrien,NORMAND,1957-1957,Adrien Normand,liste,Adrien,Normand,Wikipédia,vérifié
+488,Louis,Casaux,Louis,CAZAUX,1959-1962,Louis Casaux,base,Louis,Casaux,Wikipédia,vérifié
+517,Roger,Gensanne,Roger,GENSANE,1962-1963,Roger Gensane,liste,Roger,Gensane,Wikipédia,vérifié
+520,Jean,Razat,Jean-Pierre,RAZAT,1962-1963,Jean-Pierre Razat,liste,Jean-Pierre,Razat,Wikipédia,vérifié
+539,Jean,Amestoy,Jean-Baptiste,AMESTOY,1964-1964,Jean-Baptiste Amestoy,liste,Jean-Baptiste,Amestoy,Wikipédia,vérifié
+540,Jean,Hiquet,Jean-Claude,HIQUET,1964-1964,Jean-Claude Hiquet,liste,Jean-Claude,Hiquet,Wikipédia,vérifié
+542,Yves,Menthiller,Yves,MENTHILLIER,1964-1965,Yves Menthillier,liste,Yves,Menthillier,Wikipédia,vérifié
+552,Alain,Abadie,André,ABADIE,1965-1968,André Abadie,liste,André,Abadie,"Wikipédia : André Abadie (1934-2020), homonyme du n° 545 André Abadie (1932-2014)",à valider : homonyme du n° 545
+553,Jean,Roques,Jean-Claude,ROQUES,1966-1966,Jean-Claude Roques,liste,Jean-Claude,Roques,Wikipédia,vérifié
+555,Jean,Lagrange,Jean-Claude,LAGRANGE,1966-1966,Jean-Claude Lagrange,liste,Jean-Claude,Lagrange,Wikipédia,vérifié
+556,Jo,Maso,Joseph,MASO,1966-1973,Jo Maso,base,Jo,Maso,Wikipédia,vérifié
+559,Jean-Pierre,Salut,Jean,SALUT,1966-1969,Jean Salut,liste,Jean,Salut,Wikipédia,vérifié
+565,Jean,Esponda,Jean-Michel,ESPONDA,1967-1969,Jean-Michel Esponda,liste,Jean-Michel,Esponda,Wikipédia,vérifié
+566,Jean,Dehez,Jean-Louis,DEHEZ,1967-1969,Jean-Louis Dehez,liste,Jean-Louis,Dehez,Wikipédia,vérifié
+569,Jean,Malbet,Jean-Claude,MALBET,1967-1967,Jean-Claude Malbet,liste,Jean-Claude,Malbet,Wikipédia,vérifié
+577,Jean,Capendeguy,Jean-Michel,CAPENDEGUY,1967-1967,Jean-Michel Capendeguy,liste,Jean-Michel,Capendeguy,Wikipédia,vérifié
+578,Jean,Lenient,Jean-Jacques,LENIENT,1967-1967,Jean-Jacques Lénient,liste,Jean-Jacques,Lénient,Wikipédia,vérifié
+585,Basil,Moraitis,Basile,MORAITIS,1969-1969,Basile Moraitis,liste,Basile,Moraitis,Wikipédia,vérifié
+624,Jean,Martin,Jean-Louis,MARTIN,1971-1972,Jean-Louis Martin,liste,Jean-Louis,Martin,Wikipédia,vérifié
+629,Jean,Hortoland,Jean-Pierre,HORTOLAND,1971-1971,Jean-Pierre Hortoland,liste,Jean-Pierre,Hortoland,Wikipédia,vérifié
+638,André,Darrieussecq,André,DARRIEUSECQ,1973-1973,André Darrieussecq,base,André,Darrieussecq,Wikipédia,vérifié
+639,Jean,Phliponneau,Jean-François,PHLIPONNEAU,1973-1973,Jean-François Phliponeau,autre,Jean-François,Phliponeau,Wikipédia,vérifié
+645,Jean,Costantino,Jean,CONSTANTINO,1973-1973,Jean Costantino,base,Jean,Costantino,Wikipédia,vérifié
+653,Jean,Ugartemendia,Jean-Louis,UGARTEMENDIA,1970-1975,Jean-Louis Ugartemendia,liste,Jean-Louis,Ugartemendia,Wikipédia,vérifié
+670,Yres,Brunet,Yves,BRUNET,1975-1980,Yves Brunet,liste,Yves,Brunet,Wikipédia,vérifié
+710,Jean,Fauvell,Jean-Pierre,FAUVEL,1980-1980,Jean-Pierre Fauvel,liste,Jean-Pierre,Fauvel,Wikipédia,vérifié
+712,Daniel,Revallier,Daniel,REVAILLER,1980-1982,Daniel Revailler,liste,Daniel,Revailler,Wikipédia,vérifié
+730,Jaques,Begu,Jacques,BEGU,1982-1984,Jacques Bégu,liste,Jacques,Bégu,Wikipédia,vérifié
+734,Jean-Pierre,Garuet,Jean-Pierre,GARUET-LEMPIROU,1983-1990,Jean-Pierre Garuet-Lempirou,liste,Jean-Pierre,Garuet-Lempirou,Wikipédia,vérifié
+757,Kail,Janik,Karl,JANIK,1987-1987,Karl Janik,liste,Karl,Janik,Wikipédia,vérifié
+787,Jean,Gourragne,Jean-François,GOURRAGNE,1990-1991,Jean-François Gourragne,liste,Jean-François,Gourragne,Wikipédia,vérifié
+792,Michel,Courtoils,Michel,COURTIOLS,1991-1991,Michel Courtiols,liste,Michel,Courtiols,Wikipédia,vérifié
+819,Émile,Ntamack,Emile,N'TAMACK-MUYENGA,1994-2000,Émile Ntamack,base,Émile,Ntamack,Wikipédia,vérifié
+834,,Arlettaz,Patrick,ARLETTAZ,1995-1995,Patrick Arlettaz,liste,Patrick,Arlettaz,Wikipédia,vérifié
+869,,Bacque,Nicolas,BACQUE,1997-1997,Nicolas Bacqué,liste,Nicolas,Bacqué,Wikipédia,vérifié
+926,Francis,Ntamack,Francis,N'TAMACK-MUYENGA,2001-2001,Francis Ntamack,base,Francis,Ntamack,Wikipédia,vérifié
+1013,Matthieu,Lievremont,Mathieu,LIEVREMONT,2008-2008,Matthieu Lièvremont,autre,Matthieu,Lièvremont,Wikipédia,vérifié
+1015,Pierre,Correira,Pierre,CORREIA,2008-2008,Pierre Corréia,liste,Pierre,Corréia,Wikipédia,vérifié
+1017,Jean-Baptiste,Peyras,Jean-Baptiste,PEYRAS-LOUSTALET,2008-2008,Jean-Baptiste Peyras-Loustalet,liste,Jean-Baptiste,Peyras-Loustalet,Wikipédia,vérifié
+1023,Julian,Puricelli,Julien,PURICELLI,2009-2009,Julien Puricelli,liste,Julien,Puricelli,Wikipédia,vérifié
+1038,Yoann,Maestri,Yoan,MAESTRI,2012-2018,Yoann Maestri,base,Yoann,Maestri,Wikipédia,vérifié
+1042,Christopher,Tolofua,Christopher-Eric,TOLOFUA,2012-2017,Christopher Tolofua,base,Christopher,Tolofua,Wikipédia,vérifié
+1048,Sébastien,Vahaamahina,Sébastien,VAHAAMINA,2012-2019,Sébastien Vahaamahina,base,Sébastien,Vahaamahina,Wikipédia,vérifié
+1060,Jonathon,Pelissie,Jonathan,PELISSIE,2013-2013,Jonathan Pélissié,liste,Jonathan,Pélissié,Wikipédia,vérifié
