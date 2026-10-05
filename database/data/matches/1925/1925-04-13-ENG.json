@@ -40,6 +40,16 @@
       {"jersey": 15, "first_name": "Toff", "last_name": "Holliday", "is_starter": true, "position": "arriere", "is_captain": false}
     ]
   },
-  "events": [],
+  "events": [
+    {"team_side": "france", "type": "essai", "player_last_name": "Barthe", "player_first_name": "Fernand", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Cluchague", "player_first_name": "Louis", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Besson", "player_first_name": "Marcel", "minute": null},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Ducousso", "player_first_name": "Jean", "minute": null},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Wakefield", "player_first_name": "Wavell", "minute": null},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Hamilton-Wickes", "player_first_name": "Richard", "minute": null},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Luddington", "player_first_name": "William", "minute": null},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Luddington", "player_first_name": "William", "minute": null},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Luddington", "player_first_name": "William", "minute": null}
+  ],
   "substitutions": []
 }

@@ -48,6 +48,22 @@
       {"jersey": 17, "first_name": "Aisake", "last_name": "Nadolo", "is_starter": false, "position": null, "is_captain": false}
     ]
   },
-  "events": [],
+  "events": [
+    {"team_side": "france", "type": "penalite", "player_last_name": "Laporte", "player_first_name": "Guy", "minute": 9},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Qoro", "player_first_name": "Manasa", "minute": 15},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Laporte", "player_first_name": "Guy", "minute": 17},
+    {"team_side": "france", "type": "essai", "player_last_name": "Lorieux", "player_first_name": "Alain", "minute": 20},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Laporte", "player_first_name": "Guy", "minute": 20},
+    {"team_side": "france", "type": "essai", "player_last_name": "Rodriguez", "player_first_name": "Laurent", "minute": 30},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Koroduadua", "player_first_name": "Severo", "minute": 38},
+    {"team_side": "france", "type": "essai", "player_last_name": "Rodriguez", "player_first_name": "Laurent", "minute": 41},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Laporte", "player_first_name": "Guy", "minute": 41},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Koroduadua", "player_first_name": "Severo", "minute": 64},
+    {"team_side": "france", "type": "essai", "player_last_name": "Lagisquet", "player_first_name": "Patrice", "minute": 76},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Laporte", "player_first_name": "Guy", "minute": 76},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Damu", "player_first_name": "Jimi", "minute": 78},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Koroduadua", "player_first_name": "Severo", "minute": 78},
+    {"team_side": "france", "type": "drop", "player_last_name": "Laporte", "player_first_name": "Guy", "minute": 80}
+  ],
   "substitutions": []
 }

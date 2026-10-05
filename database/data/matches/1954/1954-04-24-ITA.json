@@ -40,6 +40,26 @@
       {"jersey": 15, "first_name": "Nando", "last_name": "Barbini", "is_starter": true, "position": "arriere", "is_captain": false}
     ]
   },
-  "events": [],
+  "events": [
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Dari", "player_first_name": "Paolo", "minute": 23},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Dari", "player_first_name": "Paolo", "minute": 59},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Lanfranchi", "player_first_name": "Sergio", "minute": 77},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Gabrielli", "player_first_name": "Piero", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Boniface", "player_first_name": "André", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Lepatey", "player_first_name": "Jacques", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Lepatey", "player_first_name": "Jacques", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Murillo", "player_first_name": "Gérard", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Murillo", "player_first_name": "Gérard", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Prat", "player_first_name": "Maurice", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Larreguy", "player_first_name": "Gilbert", "minute": null},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Prat", "player_first_name": "Jean", "minute": null},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Prat", "player_first_name": "Jean", "minute": null},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Prat", "player_first_name": "Jean", "minute": null},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Prat", "player_first_name": "Jean", "minute": null},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Prat", "player_first_name": "Jean", "minute": null},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Prat", "player_first_name": "Jean", "minute": null},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Prat", "player_first_name": "Jean", "minute": null},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Prat", "player_first_name": "Jean", "minute": null}
+  ],
   "substitutions": []
 }

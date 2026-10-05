@@ -1,7 +1,7 @@
 # Feuilles de match historiques depuis equipe-france.fr
 
 État au 06/10/2026 : **feuilles générées, importées et déployées** (834 matches détaillés sur 839).
-Reste à reprendre à la main les points de 8 matches (voir « Reste à faire »).
+Reste à reprendre à la main les points de 2 matches (voir « Reste à faire »).
 
 ## Objectif
 
@@ -94,9 +94,8 @@ exacts pour 51 côtés sur 58. Le site se trompe parfois sur le capitaine ou l'o
 
 ## Reste à faire
 
-- **8 matches sans points** (29 au départ ; 21 repris le 05/10/2026, voir `pistes-de-reprise.md`) :
-  1925-04-13 ENG, 1927-05-15 GER, 1936-05-17 GER, 1954-04-24 ITA, 1963-12-15 ROU, 1987-06-07 FIJ,
-  1990-06-24 AUS, 1995-04-08 ROU. Ce qui manque pour chacun est détaillé dans `pistes-de-reprise.md`.
+- **2 matches sans points** (29 au départ, 27 repris les 05 et 06/10/2026) : 1927-05-15 GER et 1963-12-15 ROU,
+  voir `pistes-de-reprise.md`.
 - **Numéros attribués** (722 joueurs) : ils apparaissent dans le tableau des compositions alors que le site
   n'en donne pas. On pourrait les masquer quand le poste est inconnu.
 - **Erreurs du site repérées** : Eugène Billac (1920-1923) cité en 1977, Laurent Pardo (1980-1985) cité en

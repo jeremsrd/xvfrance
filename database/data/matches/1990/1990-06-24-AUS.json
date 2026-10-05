@@ -51,6 +51,33 @@
       {"jersey": 21, "first_name": "Matthew", "last_name": "Ryan", "is_starter": false, "position": null, "is_captain": false}
     ]
   },
-  "events": [],
+  "events": [
+    {"team_side": "france", "type": "essai", "player_last_name": "Armary", "player_first_name": "Louis", "minute": 23},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Camberabero", "player_first_name": "Didier", "minute": 23},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Camberabero", "player_first_name": "Didier", "minute": 34},
+    {"team_side": "france", "type": "essai", "player_last_name": "Lacombe", "player_first_name": "Bernard", "minute": 37},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Camberabero", "player_first_name": "Didier", "minute": 37},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Camberabero", "player_first_name": "Didier", "minute": 50},
+    {"team_side": "france", "type": "essai", "player_last_name": "Blanco", "player_first_name": "Serge", "minute": 61},
+    {"team_side": "france", "type": "essai", "player_last_name": "Blanco", "player_first_name": "Serge", "minute": 71},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Camberabero", "player_first_name": "Didier", "minute": 71},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Camberabero", "player_first_name": "Didier", "minute": 74},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Carozza", "player_first_name": "Paul", "minute": null},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Cornish", "player_first_name": "Paul", "minute": null},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Gavin", "player_first_name": "Tim", "minute": null},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Little", "player_first_name": "Jason", "minute": null},
+    {"team_side": "adversaire", "type": "essai_penalite", "player_last_name": null, "player_first_name": null, "minute": null},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Campese", "player_first_name": "David", "minute": null},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Lynagh", "player_first_name": "Michael", "minute": null},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Lynagh", "player_first_name": "Michael", "minute": null},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Lynagh", "player_first_name": "Michael", "minute": null},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Lynagh", "player_first_name": "Michael", "minute": null},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Lynagh", "player_first_name": "Michael", "minute": null},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Lynagh", "player_first_name": "Michael", "minute": null},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Lynagh", "player_first_name": "Michael", "minute": null},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Lynagh", "player_first_name": "Michael", "minute": null},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Lynagh", "player_first_name": "Michael", "minute": null},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Lynagh", "player_first_name": "Michael", "minute": null}
+  ],
   "substitutions": []
 }
