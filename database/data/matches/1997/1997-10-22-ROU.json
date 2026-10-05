@@ -49,6 +49,19 @@
       {"jersey": 19, "first_name": "Dorin", "last_name": "Talaba", "is_starter": false, "position": null, "is_captain": false}
     ]
   },
-  "events": [],
+  "events": [
+    {"team_side": "france", "type": "penalite", "player_last_name": "Lamaison", "player_first_name": "Christophe", "minute": 6},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Lamaison", "player_first_name": "Christophe", "minute": 10},
+    {"team_side": "france", "type": "essai", "player_last_name": "Saint-André", "player_first_name": "Philippe", "minute": 16},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Lamaison", "player_first_name": "Christophe", "minute": 16},
+    {"team_side": "france", "type": "essai", "player_last_name": "Tournaire", "player_first_name": "Franck", "minute": 27},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Lamaison", "player_first_name": "Christophe", "minute": 27},
+    {"team_side": "france", "type": "essai", "player_last_name": "Merle", "player_first_name": "Olivier", "minute": 35},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Lamaison", "player_first_name": "Christophe", "minute": 35},
+    {"team_side": "france", "type": "essai_penalite", "player_last_name": null, "player_first_name": null, "minute": 72},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Lamaison", "player_first_name": "Christophe", "minute": 72},
+    {"team_side": "france", "type": "essai", "player_last_name": "Benazzi", "player_first_name": "Abdelatif", "minute": 76},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Tofan", "player_first_name": "Ionut", "minute": null}
+  ],
   "substitutions": []
 }

@@ -55,6 +55,21 @@
       {"jersey": 23, "first_name": "Dillyn", "last_name": "Leyds", "is_starter": false, "position": null, "is_captain": false}
     ]
   },
-  "events": [],
+  "events": [
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Jantjies", "player_first_name": "Elton", "minute": 10},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Jantjies", "player_first_name": "Elton", "minute": 14},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Kriel", "player_first_name": "Jesse", "minute": 30},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Jantjies", "player_first_name": "Elton", "minute": 32},
+    {"team_side": "france", "type": "essai", "player_last_name": "Chavancy", "player_first_name": "Henry", "minute": 34},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Plisson", "player_first_name": "Jules", "minute": 36},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Jantjies", "player_first_name": "Elton", "minute": 39},
+    {"team_side": "france", "type": "essai", "player_last_name": "Serin", "player_first_name": "Baptiste", "minute": 54},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Plisson", "player_first_name": "Jules", "minute": 55},
+    {"team_side": "adversaire", "type": "essai_penalite", "player_last_name": null, "player_first_name": null, "minute": 59},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Cronje", "player_first_name": "Ross", "minute": 60},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Jantjies", "player_first_name": "Elton", "minute": 61},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Serfontein", "player_first_name": "Jan", "minute": 67},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Jantjies", "player_first_name": "Elton", "minute": 68}
+  ],
   "substitutions": []
 }

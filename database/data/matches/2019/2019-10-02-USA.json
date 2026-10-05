@@ -56,6 +56,19 @@
       {"jersey": 23, "first_name": "Thretton", "last_name": "Palamo", "is_starter": false, "position": null, "is_captain": false}
     ]
   },
-  "events": [],
+  "events": [
+    {"team_side": "france", "type": "essai", "player_last_name": "Huget", "player_first_name": "Yoann", "minute": 6},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Ramos", "player_first_name": "Thomas", "minute": 8},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Macginty", "player_first_name": "Aj", "minute": 19},
+    {"team_side": "france", "type": "essai", "player_last_name": "Raka", "player_first_name": "Alivereti", "minute": 24},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Macginty", "player_first_name": "Aj", "minute": 31},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Macginty", "player_first_name": "Aj", "minute": 65},
+    {"team_side": "france", "type": "essai", "player_last_name": "Fickou", "player_first_name": "Gaël", "minute": 67},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Lopez", "player_first_name": "Camille", "minute": 68},
+    {"team_side": "france", "type": "essai", "player_last_name": "Serin", "player_first_name": "Baptiste", "minute": 70},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Lopez", "player_first_name": "Camille", "minute": 71},
+    {"team_side": "france", "type": "essai", "player_last_name": "Poirot", "player_first_name": "Jefferson", "minute": 79},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Lopez", "player_first_name": "Camille", "minute": 81}
+  ],
   "substitutions": []
 }

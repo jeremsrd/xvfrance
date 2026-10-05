@@ -42,6 +42,7 @@ def parse(field,typ):
     ev=[]
     s=re.sub(r'\(\d+/\d+\)','',field)
     s=re.sub(r'<!--.*?-->','',s)
+    s=re.sub(r"(\d+)'\s*\+\s*(\d+)",r"\1+\2'",s)  # « 40'+1 » → « 40+1' »
     for m in re.finditer(r"([A-Za-zÀ-ÿ'.\- ]+?)\s*(?:\(\d+\))?\s*((?:\d+(?:\+\d+)?'\s*[cm]?\s*,?\s*)+)",s):
         name=m.group(1).strip()
         for mi in minutes(m.group(2)): ev.append((name,mi,typ))

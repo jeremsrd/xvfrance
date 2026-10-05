@@ -33,7 +33,8 @@ enum EventType: string
      * 1971-1992     : Essai=4
      * depuis 1992   : Essai=5
      * Essai de pénalité : valeur d'un essai (transformation à part), puis 7 points
-     * sans transformation depuis juillet 2017.
+     * sans transformation depuis juillet 2017 (dès juin 2017 pour la France : les essais de règles
+     * s'appliquaient dans l'hémisphère sud, où se jouait la tournée en Afrique du Sud).
      */
     public function points(\DateTimeInterface|null $matchDate = null): int
     {
@@ -44,7 +45,7 @@ enum EventType: string
             self::TRANSFORMATION => 2,
             self::PENALITE => 3,
             self::DROP => $date < '1948-07-01' ? 4 : 3,
-            self::ESSAI_PENALITE => $date >= '2017-07-01' ? 7 : self::ESSAI->points($matchDate),
+            self::ESSAI_PENALITE => $date >= '2017-06-01' ? 7 : self::ESSAI->points($matchDate),
             self::ESSAI => match (true) {
                 $date < '1971-07-01' => 3,
                 $date < '1992-07-01' => 4,

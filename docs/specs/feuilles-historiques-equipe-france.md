@@ -1,7 +1,7 @@
 # Feuilles de match historiques depuis equipe-france.fr
 
 État au 06/10/2026 : **feuilles générées, importées et déployées** (834 matches détaillés sur 839).
-Reste à reprendre à la main les points de 29 matches (voir « Reste à faire »).
+Reste à reprendre à la main les points de 8 matches (voir « Reste à faire »).
 
 ## Objectif
 
@@ -94,13 +94,9 @@ exacts pour 51 côtés sur 58. Le site se trompe parfois sur le capitaine ou l'o
 
 ## Reste à faire
 
-- **29 matches sans points** : les points du site ne donnent pas le score de la base (comptes doublés, points
-  manquants, Coupe du monde 2019 vide). À reprendre par les scripts Wikipédia ou à la main :
-  1925-04-13 ENG, 1927-05-15 GER, 1936-05-17 GER, 1954-04-24 ITA, 1963-12-15 ROU, 1976-06-12 USA,
-  1987-06-07 FIJ, 1990-06-24 AUS, 1991-07-13 USA, 1991-07-20 USA, 1995-04-08 ROU, 1996-02-17 IRL,
-  1997-03-22 ITA, 1997-10-22 ROU, 2002-04-06 IRL, 2003-02-23 SCO, 2017-06-10 RSA, 2018-02-23 ITA,
-  2019-02-10 ENG, 2019-08-30 ITA, 2019-09-21 ARG, 2019-10-02 USA, 2019-10-06 TGA, 2019-10-20 WAL,
-  2020-10-31 IRL, 2021-11-14 GEO, 2023-09-08 NZL, 2024-02-02 IRL, 2024-07-13 ARG.
+- **8 matches sans points** (29 au départ ; 21 repris le 05/10/2026, voir `pistes-de-reprise.md`) :
+  1925-04-13 ENG, 1927-05-15 GER, 1936-05-17 GER, 1954-04-24 ITA, 1963-12-15 ROU, 1987-06-07 FIJ,
+  1990-06-24 AUS, 1995-04-08 ROU. Ce qui manque pour chacun est détaillé dans `pistes-de-reprise.md`.
 - **Numéros attribués** (722 joueurs) : ils apparaissent dans le tableau des compositions alors que le site
   n'en donne pas. On pourrait les masquer quand le poste est inconnu.
 - **Erreurs du site repérées** : Eugène Billac (1920-1923) cité en 1977, Laurent Pardo (1980-1985) cité en

@@ -8,7 +8,7 @@
 | Domaine | État |
 |---------|------|
 | Matches | 839 matches officiels (référence : liste Wikipédia, voir `docs/sources.md`) |
-| Feuilles de match | 834 détaillées : compositions des deux équipes, capitaines, arbitre ; points pour 805 (29 sans points) |
+| Feuilles de match | 834 détaillées : compositions des deux équipes, capitaines, arbitre ; points pour 826 (8 sans points) |
 | Joueurs | ~7 000, dont 1 229 Français ; 1 051 numéros d'international, 1 036 dates de naissance |
 | Noms | 83 noms français corrigés d'après Wikipédia (`noms_ecarts.csv`) |
 | Portraits | 116 joueurs d'avant 1930 |
@@ -23,14 +23,33 @@ et de leurs limites est dans `docs/sources.md`.
 Classées de la plus utile à la plus accessoire. Chaque piste se fait par script, sans modèle de langage, sauf
 mention contraire.
 
-### 1. Points des 29 matches sans points
+### 1. Points des 8 derniers matches sans points
 
-Les compositions sont là, mais pas les points : le site equipe-france.fr donnait un total différent du score
-(comptes doublés, points manquants, Coupe du monde 2019 vide). Liste dans
-`docs/specs/feuilles-historiques-equipe-france.md`, « Reste à faire ».
-**Méthode** : wikitext Wikipédia (`scripts/wikipedia/rugbybox.py`, voir `feuilles-de-match-suite.md`), surtout
-fiable pour 1987 et après ; pour 1925-1976, articles des matches ou ESPN. Le contrôle points = score de
-`xv:validate-match-data` dit quand c'est juste.
+21 des 29 matches ont été repris le 05/10/2026 :
+- 15 matches de 2002 à 2024 par les encadrés Wikipédia (`scripts/wikipedia/apply_wiki.py`, qui lit maintenant
+  aussi les encadrés `home`/`away`, `{{#invoke:rugby box}}` et `homescore`/`awayscore`) ;
+- Irlande 1996 par l'encadré Wikipédia, USA 1991 (×2) par equipe-france.fr en divisant par deux les comptes doublés ;
+- USA 1976, Italie et Roumanie 1997 : marqueurs français (avec minutes) de **finalesrugby.fr**
+  (`/xv-de-france/{ville}-{domicile}-{extérieur}-{année}`, ex. `chicago-etats-unis-france-1976`), points adverses
+  d'equipe-france.fr. finalesrugby.fr ne donne que le côté français, mais aussi les remplacements avec minute.
+
+Barème : l'essai de pénalité vaut 7 points dès juin 2017 (tournée en Afrique du Sud, où les essais de règles
+de World Rugby s'appliquaient), et non plus juillet (`EventType::points()`).
+
+Restent 8 matches, avec ce qui manque (FR = points français connus et justes, sauf mention) :
+
+| Match | Ce qui manque |
+|-------|---------------|
+| 1925-04-13 ENG 11-13 | Angleterre : equipe-france.fr donne 2 essais, 2 transformations et 1 drop = 14 ; un drop ou une pénalité en trop ? |
+| 1927-05-15 GER 16-17 | Allemagne : aucun marqueur |
+| 1936-05-17 GER 19-14 | Allemagne : 1 pénalité, 2 essais, 1 transformation = 11, il manque 3 points |
+| 1954-04-24 ITA 39-12 | Italie : 3 pénalités + 2 essais = 15 pour 12. FR : equipe-france.fr doublé (7 essais, 6 transf., 2 pén.) |
+| 1963-12-15 ROU 6-6 | Roumanie : 1 essai (Dragomirescu), il manque 3 points |
+| 1987-06-07 FIJ 31-16 | France : 4 essais sûrs ; buteur Laporte, mais les sources donnent 30 ou 34 points |
+| 1990-06-24 AUS 31-48 | Australie : les 6 marqueurs d'essais (Lynagh : 4 pén., 6 transf.) |
+| 1995-04-08 ROU 24-15 | France : 2 essais (Lacroix : 4 pén., 1 transf.) ; pas de page finalesrugby.fr trouvée |
+
+Sources essayées sans succès : ESPN (pages et API bloquées), rugbydatabase.co.nz (Cloudflare).
 
 ### 2. Matches à venir de novembre 2026
 

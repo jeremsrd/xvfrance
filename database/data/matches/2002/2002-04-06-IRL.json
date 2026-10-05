@@ -53,6 +53,20 @@
       {"jersey": 22, "first_name": "John", "last_name": "Kelly", "is_starter": false, "position": null, "is_captain": false}
     ]
   },
-  "events": [],
+  "events": [
+    {"team_side": "france", "type": "essai", "player_last_name": "Betsen", "player_first_name": "Serge", "minute": 2},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Merceron", "player_first_name": "Gérald", "minute": 3},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Wood", "player_first_name": "Keith", "minute": 10},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Merceron", "player_first_name": "Gérald", "minute": 13},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Merceron", "player_first_name": "Gérald", "minute": 23},
+    {"team_side": "france", "type": "essai", "player_last_name": "Brusque", "player_first_name": "Nicolas", "minute": 26},
+    {"team_side": "france", "type": "essai", "player_last_name": "Rougerie", "player_first_name": "Aurélien", "minute": 31},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Merceron", "player_first_name": "Gérald", "minute": 31},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Merceron", "player_first_name": "Gérald", "minute": 38},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Merceron", "player_first_name": "Gérald", "minute": 48},
+    {"team_side": "france", "type": "essai", "player_last_name": "Betsen", "player_first_name": "Serge", "minute": 56},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Gelez", "player_first_name": "François", "minute": 77},
+    {"team_side": "france", "type": "essai", "player_last_name": "Brusque", "player_first_name": "Nicolas", "minute": 78}
+  ],
   "substitutions": []
 }

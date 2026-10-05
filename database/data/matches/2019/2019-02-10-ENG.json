@@ -55,6 +55,20 @@
       {"jersey": 23, "first_name": "Jack", "last_name": "Nowell", "is_starter": false, "position": null, "is_captain": false}
     ]
   },
-  "events": [],
+  "events": [
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "May", "player_first_name": "Jonny", "minute": 2},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Farrell", "player_first_name": "Owen", "minute": 7},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Parra", "player_first_name": "Morgan", "minute": 10},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Farrell", "player_first_name": "Owen", "minute": 13},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "May", "player_first_name": "Jonny", "minute": 24},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "May", "player_first_name": "Jonny", "minute": 29},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Farrell", "player_first_name": "Owen", "minute": 31},
+    {"team_side": "france", "type": "essai", "player_last_name": "Penaud", "player_first_name": "Damian", "minute": 35},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Slade", "player_first_name": "Henry", "minute": 40},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Farrell", "player_first_name": "Owen", "minute": 40},
+    {"team_side": "adversaire", "type": "essai_penalite", "player_last_name": null, "player_first_name": null, "minute": 49},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Farrell", "player_first_name": "Owen", "minute": 55},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Farrell", "player_first_name": "Owen", "minute": 56}
+  ],
   "substitutions": []
 }

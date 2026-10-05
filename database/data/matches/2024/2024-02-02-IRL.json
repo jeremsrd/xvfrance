@@ -61,6 +61,23 @@
       {"jersey": 23, "first_name": "Ciaran", "last_name": "Frawley", "is_starter": false, "position": null, "is_captain": false}
     ]
   },
-  "events": [],
+  "events": [
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Crowley", "player_first_name": "Jack", "minute": 6},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Gibson-Park", "player_first_name": "Jamison", "minute": 15},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Crowley", "player_first_name": "Jack", "minute": 17},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Ramos", "player_first_name": "Thomas", "minute": 26},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Beirne", "player_first_name": "Tadhg", "minute": 29},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Crowley", "player_first_name": "Jack", "minute": 30},
+    {"team_side": "france", "type": "essai", "player_last_name": "Penaud", "player_first_name": "Damian", "minute": 39},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Ramos", "player_first_name": "Thomas", "minute": 41},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Nash", "player_first_name": "Calvin", "minute": 45},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Crowley", "player_first_name": "Jack", "minute": 46},
+    {"team_side": "france", "type": "essai", "player_last_name": "Gabrillagues", "player_first_name": "Paul", "minute": 52},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Ramos", "player_first_name": "Thomas", "minute": 52},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Sheehan", "player_first_name": "Dan", "minute": 61},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Crowley", "player_first_name": "Jack", "minute": 62},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Kelleher", "player_first_name": "Ronan", "minute": 77},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Crowley", "player_first_name": "Jack", "minute": 78}
+  ],
   "substitutions": []
 }

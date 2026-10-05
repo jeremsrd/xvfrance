@@ -55,6 +55,21 @@
       {"jersey": 23, "first_name": "Jayden", "last_name": "Hayward", "is_starter": false, "position": null, "is_captain": false}
     ]
   },
-  "events": [],
+  "events": [
+    {"team_side": "france", "type": "essai", "player_last_name": "Gabrillagues", "player_first_name": "Paul", "minute": 4},
+    {"team_side": "adversaire", "type": "essai_penalite", "player_last_name": null, "player_first_name": null, "minute": 9},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Machenaud", "player_first_name": "Maxime", "minute": 28},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Machenaud", "player_first_name": "Maxime", "minute": 39},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Machenaud", "player_first_name": "Maxime", "minute": 45},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Allan", "player_first_name": "Tommaso", "minute": 49},
+    {"team_side": "france", "type": "essai", "player_last_name": "Bonneval", "player_first_name": "Hugo", "minute": 59},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Machenaud", "player_first_name": "Maxime", "minute": 60},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Machenaud", "player_first_name": "Maxime", "minute": 64},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Machenaud", "player_first_name": "Maxime", "minute": 70},
+    {"team_side": "france", "type": "essai", "player_last_name": "Bastareaud", "player_first_name": "Mathieu", "minute": 72},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Trinh-Duc", "player_first_name": "François", "minute": 73},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Minozzi", "player_first_name": "Matteo", "minute": 78},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Canna", "player_first_name": "Carlo", "minute": 78}
+  ],
   "substitutions": []
 }

@@ -56,6 +56,20 @@
       {"jersey": 23, "first_name": "Atieli", "last_name": "Pakalani", "is_starter": false, "position": null, "is_captain": false}
     ]
   },
-  "events": [],
+  "events": [
+    {"team_side": "france", "type": "penalite", "player_last_name": "Ntamack", "player_first_name": "Romain", "minute": 4},
+    {"team_side": "france", "type": "essai", "player_last_name": "Vakatawa", "player_first_name": "Virimi", "minute": 6},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Ntamack", "player_first_name": "Romain", "minute": 7},
+    {"team_side": "france", "type": "essai", "player_last_name": "Raka", "player_first_name": "Alivereti", "minute": 32},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Ntamack", "player_first_name": "Romain", "minute": 34},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Takulua", "player_first_name": "Sonatane", "minute": 40},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Takulua", "player_first_name": "Sonatane", "minute": 41},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Hingano", "player_first_name": "Mali", "minute": 47},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Takulua", "player_first_name": "Sonatane", "minute": 49},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Ntamack", "player_first_name": "Romain", "minute": 52},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Ntamack", "player_first_name": "Romain", "minute": 60},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Kapeli", "player_first_name": "Zane", "minute": 79},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Fosita", "player_first_name": "Latiume", "minute": 80}
+  ],
   "substitutions": []
 }

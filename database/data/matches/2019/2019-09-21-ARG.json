@@ -56,6 +56,20 @@
       {"jersey": 23, "first_name": "Santiago", "last_name": "Carreras", "is_starter": false, "position": null, "is_captain": false}
     ]
   },
-  "events": [],
+  "events": [
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Sánchez", "player_first_name": "Nicolás", "minute": 15},
+    {"team_side": "france", "type": "essai", "player_last_name": "Fickou", "player_first_name": "Gaël", "minute": 18},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Ntamack", "player_first_name": "Romain", "minute": 19},
+    {"team_side": "france", "type": "essai", "player_last_name": "Dupont", "player_first_name": "Antoine", "minute": 22},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Ntamack", "player_first_name": "Romain", "minute": 23},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Ntamack", "player_first_name": "Romain", "minute": 30},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Ntamack", "player_first_name": "Romain", "minute": 41},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Petti", "player_first_name": "Guido", "minute": 42},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Sánchez", "player_first_name": "Nicolás", "minute": 43},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Montoya", "player_first_name": "Julian", "minute": 54},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Urdapilleta", "player_first_name": "Benjamín", "minute": 61},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Urdapilleta", "player_first_name": "Benjamín", "minute": 69},
+    {"team_side": "france", "type": "drop", "player_last_name": "Lopez", "player_first_name": "Camille", "minute": 70}
+  ],
   "substitutions": []
 }

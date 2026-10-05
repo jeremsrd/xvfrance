@@ -56,6 +56,18 @@
       {"jersey": 23, "first_name": "Leicester", "last_name": "Fainga'anuku", "is_starter": false, "position": null, "is_captain": false}
     ]
   },
-  "events": [],
+  "events": [
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Telea", "player_first_name": "Mark", "minute": 2},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Ramos", "player_first_name": "Thomas", "minute": 5},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Ramos", "player_first_name": "Thomas", "minute": 20},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Mo'unga", "player_first_name": "Richie", "minute": 25},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Ramos", "player_first_name": "Thomas", "minute": 29},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Telea", "player_first_name": "Mark", "minute": 43},
+    {"team_side": "france", "type": "essai", "player_last_name": "Penaud", "player_first_name": "Damian", "minute": 55},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Ramos", "player_first_name": "Thomas", "minute": 57},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Ramos", "player_first_name": "Thomas", "minute": 65},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Ramos", "player_first_name": "Thomas", "minute": 74},
+    {"team_side": "france", "type": "essai", "player_last_name": "Jaminet", "player_first_name": "Melvyn", "minute": 78}
+  ],
   "substitutions": []
 }

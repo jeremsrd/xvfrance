@@ -56,6 +56,21 @@
       {"jersey": 23, "first_name": "Demur", "last_name": "Tapladze", "is_starter": false, "position": null, "is_captain": false}
     ]
   },
-  "events": [],
+  "events": [
+    {"team_side": "france", "type": "penalite", "player_last_name": "Jaminet", "player_first_name": "Melvyn", "minute": 8},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Niniashvili", "player_first_name": "Davit", "minute": 21},
+    {"team_side": "france", "type": "essai_penalite", "player_last_name": null, "player_first_name": null, "minute": 23},
+    {"team_side": "france", "type": "essai", "player_last_name": "Jalibert", "player_first_name": "Matthieu", "minute": 31},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Jaminet", "player_first_name": "Melvyn", "minute": 32},
+    {"team_side": "france", "type": "essai", "player_last_name": "Penaud", "player_first_name": "Damian", "minute": 35},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Jaminet", "player_first_name": "Melvyn", "minute": 36},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Lobzhanidze", "player_first_name": "Vasil", "minute": 47},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Abzhandadze", "player_first_name": "Tedo", "minute": 48},
+    {"team_side": "france", "type": "essai", "player_last_name": "Mauvaka", "player_first_name": "Peato", "minute": 50},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Jaminet", "player_first_name": "Melvyn", "minute": 51},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Tabutsadze", "player_first_name": "Akaki", "minute": 63},
+    {"team_side": "france", "type": "essai", "player_last_name": "Penaud", "player_first_name": "Damian", "minute": 72},
+    {"team_side": "france", "type": "essai", "player_last_name": "Mauvaka", "player_first_name": "Peato", "minute": 79}
+  ],
   "substitutions": []
 }

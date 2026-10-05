@@ -41,6 +41,22 @@
       {"jersey": 15, "first_name": "Rob", "last_name": "Bordley", "is_starter": true, "position": "arriere", "is_captain": true}
     ]
   },
-  "events": [],
+  "events": [
+    {"team_side": "france", "type": "essai", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": 24},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": 24},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": 36},
+    {"team_side": "france", "type": "essai", "player_last_name": "Rousset", "player_first_name": "Gérard", "minute": 40},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": 40},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": 47},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": 53},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": 63},
+    {"team_side": "france", "type": "essai", "player_last_name": "Averous", "player_first_name": "Jean-Luc", "minute": 77},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": 77},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": 79},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Scott", "player_first_name": "Terry", "minute": null},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Scott", "player_first_name": "Terry", "minute": null},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Fraumann", "player_first_name": "Bill", "minute": null},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Fraumann", "player_first_name": "Bill", "minute": null}
+  ],
   "substitutions": []
 }

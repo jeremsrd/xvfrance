@@ -43,6 +43,28 @@
       {"jersey": 17, "first_name": "Francesco", "last_name": "Mazzariol", "is_starter": false, "position": null, "is_captain": false}
     ]
   },
-  "events": [],
+  "events": [
+    {"team_side": "france", "type": "essai_penalite", "player_last_name": null, "player_first_name": null, "minute": 15},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Aucagne", "player_first_name": "David", "minute": 15},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Aucagne", "player_first_name": "David", "minute": 20},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Aucagne", "player_first_name": "David", "minute": 25},
+    {"team_side": "france", "type": "essai", "player_last_name": "Bondouy", "player_first_name": "Pierre", "minute": 52},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Aucagne", "player_first_name": "David", "minute": 52},
+    {"team_side": "france", "type": "essai", "player_last_name": "Sadourny", "player_first_name": "Jean-Luc", "minute": 79},
+    {"team_side": "france", "type": "essai", "player_last_name": "Bondouy", "player_first_name": "Pierre", "minute": 80},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Aucagne", "player_first_name": "David", "minute": 80},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Francescato", "player_first_name": "Ivan", "minute": null},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Gardner", "player_first_name": "Julian", "minute": null},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Croci", "player_first_name": "Giambatista", "minute": null},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Vaccari", "player_first_name": "Paolo", "minute": null},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Dominguez", "player_first_name": "Diego", "minute": null},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Dominguez", "player_first_name": "Diego", "minute": null},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Dominguez", "player_first_name": "Diego", "minute": null},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Dominguez", "player_first_name": "Diego", "minute": null},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Dominguez", "player_first_name": "Diego", "minute": null},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Dominguez", "player_first_name": "Diego", "minute": null},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Dominguez", "player_first_name": "Diego", "minute": null},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Dominguez", "player_first_name": "Diego", "minute": null}
+  ],
   "substitutions": []
 }

@@ -56,6 +56,24 @@
       {"jersey": 23, "first_name": "Tommaso", "last_name": "Benvenuti", "is_starter": false, "position": null, "is_captain": false}
     ]
   },
-  "events": [],
+  "events": [
+    {"team_side": "france", "type": "essai", "player_last_name": "Huget", "player_first_name": "Yoann", "minute": 3},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Bellini", "player_first_name": "Mattia", "minute": 20},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Allan", "player_first_name": "Tommaso", "minute": 20},
+    {"team_side": "france", "type": "essai_penalite", "player_last_name": null, "player_first_name": null, "minute": 24},
+    {"team_side": "france", "type": "essai", "player_last_name": "Chat", "player_first_name": "Camille", "minute": 31},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Ntamack", "player_first_name": "Romain", "minute": 32},
+    {"team_side": "france", "type": "essai", "player_last_name": "Dupont", "player_first_name": "Antoine", "minute": 44},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Ntamack", "player_first_name": "Romain", "minute": 45},
+    {"team_side": "france", "type": "essai", "player_last_name": "Iturria", "player_first_name": "Arthur", "minute": 46},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Ntamack", "player_first_name": "Romain", "minute": 47},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Polledri", "player_first_name": "Jake", "minute": 51},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Allan", "player_first_name": "Tommaso", "minute": 52},
+    {"team_side": "france", "type": "essai", "player_last_name": "Taofifénua", "player_first_name": "Romain", "minute": 59},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Ntamack", "player_first_name": "Romain", "minute": 60},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Bellini", "player_first_name": "Mattia", "minute": 67},
+    {"team_side": "france", "type": "essai", "player_last_name": "Ramos", "player_first_name": "Thomas", "minute": 75},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Ntamack", "player_first_name": "Romain", "minute": 76}
+  ],
   "substitutions": []
 }

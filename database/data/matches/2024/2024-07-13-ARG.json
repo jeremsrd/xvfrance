@@ -56,6 +56,22 @@
       {"jersey": 23, "first_name": "Matias", "last_name": "Orlando", "is_starter": false, "position": null, "is_captain": false}
     ]
   },
-  "events": [],
+  "events": [
+    {"team_side": "france", "type": "essai", "player_last_name": "Serin", "player_first_name": "Baptiste", "minute": 9},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Hastoy", "player_first_name": "Antoine", "minute": 10},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Bello", "player_first_name": "Eduardo", "minute": 16},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Carreras", "player_first_name": "Santiago", "minute": 18},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Hastoy", "player_first_name": "Antoine", "minute": 24},
+    {"team_side": "adversaire", "type": "essai_penalite", "player_last_name": null, "player_first_name": null, "minute": 29},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Carreras", "player_first_name": "Santiago", "minute": 36},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Carreras", "player_first_name": "Santiago", "minute": 38},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Hastoy", "player_first_name": "Antoine", "minute": 41},
+    {"team_side": "france", "type": "essai", "player_last_name": "Gailleton", "player_first_name": "Emilien", "minute": 45},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Hastoy", "player_first_name": "Antoine", "minute": 46},
+    {"team_side": "france", "type": "essai", "player_last_name": "Attissogbe", "player_first_name": "Théo", "minute": 49},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Gallo", "player_first_name": "Thomas", "minute": 57},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Gallo", "player_first_name": "Thomas", "minute": 66},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Carreras", "player_first_name": "Santiago", "minute": 66}
+  ],
   "substitutions": []
 }
