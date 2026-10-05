@@ -9,6 +9,7 @@ use App\Models\Venue;
 use Illuminate\Console\Command;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Collection;
+use App\Support\ExcludedMatches;
 
 /**
  * Complète les matches en base d'après database/data/sources/equipe_france_matches.csv (xv:fetch-equipe-france) :
@@ -58,6 +59,9 @@ class ApplyEquipeFrance extends Command
             }
 
             $match = $this->findMatch($row['date'], $opponent);
+            if (!$match && $this->isExcluded($row['date'], $opponent)) {
+                continue;
+            }
             if (!$match) {
                 $missing[] = [$row['date'], $opponentName, "{$row['home_score']}-{$row['away_score']}", "{$row['competition']} {$row['round']}"];
                 continue;
@@ -116,6 +120,16 @@ class ApplyEquipeFrance extends Command
     private function country(string $name): ?Country
     {
         return $this->countries[Venue::normalizeName(self::COUNTRY_ALIASES[$name] ?? $name)] ?? null;
+    }
+
+    /** Match sans sélection officielle (excluded_matches.csv), à un jour près comme pour l'appariement */
+    private function isExcluded(string $date, Country $opponent): bool
+    {
+        $day = Carbon::parse($date);
+
+        return collect([-1, 0, 1])->contains(
+            fn (int $shift) => ExcludedMatches::contains($day->copy()->addDays($shift)->format('Y-m-d'), $opponent->code)
+        );
     }
 
     /** Même adversaire, à la date du site ou à un jour près (décalage horaire des matches lointains) */

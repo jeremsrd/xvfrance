@@ -42,6 +42,7 @@ Toutes les commandes du projet sont préfixées `xv:` (`php artisan list xv`).
 | `xv:import-csv {file}` | Importe les matches depuis le CSV de résultats (`--sync-venues` : corrige seulement le stade des matches déjà en base) |
 | `xv:import-historical` | Importe les matches 1906-1949 depuis equipe-france.fr |
 | `xv:clean-feminine` | Supprime les matches féminins importés par erreur |
+| `xv:remove-excluded-matches` | Retire les matches sans sélection officielle de `excluded_matches.csv` (ignorés aussi par les imports). Lancé par `deploy.sh` |
 | `xv:fix-venues` | Corrige les stades mal attribués |
 | `xv:geocode-venues` | Complète le CSV des coordonnées via OpenStreetMap (ne touche pas la base) |
 | `xv:import-venue-names` | Applique `venue_names.csv` : nom actuel, anciens noms datés, variantes (sponsors, graphies), fusion des doublons. Lancé par `deploy.sh` |
@@ -63,6 +64,7 @@ php artisan xv:import-venue-names
 php artisan xv:import-csv database/data/sources/results.csv
 php artisan xv:import-historical
 php artisan xv:clean-feminine
+php artisan xv:remove-excluded-matches
 php artisan xv:fix-venues
 php artisan xv:apply-equipe-france
 php artisan xv:compute-venue-flags

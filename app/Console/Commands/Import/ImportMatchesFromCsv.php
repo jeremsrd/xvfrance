@@ -10,6 +10,7 @@ use App\Models\RugbyMatch;
 use App\Models\Venue;
 use Illuminate\Console\Command;
 use Illuminate\Support\Carbon;
+use App\Support\ExcludedMatches;
 
 class ImportMatchesFromCsv extends Command
 {
@@ -263,6 +264,11 @@ class ImportMatchesFromCsv extends Command
             $opponent = $this->findOrCreateCountry($opponentName, $dryRun || $syncOnly);
             if (!$opponent) {
                 $this->warn("Ligne {$lineNumber}: Impossible de gérer le pays '{$opponentName}', ignoré.");
+                continue;
+            }
+
+            if (ExcludedMatches::contains($matchDate->format('Y-m-d'), $opponent->code)) {
+                $bar->advance();
                 continue;
             }
 

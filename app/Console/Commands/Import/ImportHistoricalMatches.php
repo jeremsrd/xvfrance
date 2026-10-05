@@ -12,6 +12,7 @@ use Illuminate\Console\Command;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Http;
 use Symfony\Component\DomCrawler\Crawler;
+use App\Support\ExcludedMatches;
 
 class ImportHistoricalMatches extends Command
 {
@@ -254,6 +255,11 @@ class ImportHistoricalMatches extends Command
 
             if (!$opponent) {
                 $this->warn("    Pays '{$opponentName}' non trouvable, match ignoré.");
+                continue;
+            }
+
+            if (ExcludedMatches::contains($match['date']->format('Y-m-d'), $opponent->code)) {
+                $this->line("    → Sans sélection officielle (excluded_matches.csv), ignoré.");
                 continue;
             }
 
