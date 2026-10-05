@@ -44,6 +44,7 @@ Toutes les commandes du projet sont préfixées `xv:` (`php artisan list xv`).
 | `xv:clean-feminine` | Supprime les matches féminins importés par erreur |
 | `xv:fix-venues` | Corrige les stades mal attribués |
 | `xv:geocode-venues` | Complète le CSV des coordonnées via OpenStreetMap (ne touche pas la base) |
+| `xv:import-venue-names` | Applique `venue_names.csv` : nom actuel, anciens noms datés, variantes (sponsors, graphies), fusion des doublons. Lancé par `deploy.sh` |
 | `xv:import-venue-coordinates` | Applique le CSV des coordonnées aux stades |
 | `xv:seed-1906` | Feuille de match complète du premier match (1906) |
 | `xv:generate-slugs` | Génère les slugs manquants (matches, joueurs) |
@@ -59,6 +60,7 @@ php artisan xv:import-csv database/data/sources/results.csv
 php artisan xv:import-historical
 php artisan xv:clean-feminine
 php artisan xv:fix-venues
+php artisan xv:import-venue-names
 php artisan xv:import-venue-coordinates
 php artisan xv:seed-1906
 php artisan xv:generate-slugs

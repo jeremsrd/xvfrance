@@ -12,7 +12,7 @@ class MatchController extends Controller
     {
         $rugbyMatch->load([
             'opponent',
-            'venue',
+            'venue.names',
             'edition.competition',
             'refereeCountry',
             'lineups.player',

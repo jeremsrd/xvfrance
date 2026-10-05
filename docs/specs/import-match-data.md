@@ -130,7 +130,7 @@ Un champ présent à `null` efface la valeur.
 
 | Champ | Format |
 |-------|--------|
-| `venue` | nom exact d'un stade en base ; sinon le stade est créé |
+| `venue` | nom d'un stade en base : nom actuel, ancien nom ou variante de `venue_names.csv` (accents, casse et tirets ignorés) ; sinon le stade est créé |
 | `venue_city`, `venue_country_code` | requis seulement si le stade n'est pas en base |
 | `competition` | `short_name` d'une compétition en base ; l'édition (compétition + année) est créée si besoin |
 | `stage` | valeur de `MatchStage` |

@@ -102,7 +102,7 @@
                         </div>
                     </div>
                     <div class="flex flex-wrap items-center justify-between gap-3 bg-papier px-6 py-3 text-sm sm:px-8">
-                        <span class="text-texte-2">@if($lm->venue){{ $lm->venue->name }}, {{ $lm->venue->city }}@endif</span>
+                        <span class="text-texte-2">@if($lm->venue){{ $lm->venue->nameOn($lm->match_date) }}, {{ $lm->venue->city }}@endif</span>
                         <span class="font-semibold text-bleu-france group-hover:underline">Voir la feuille de match →</span>
                     </div>
                 </a>

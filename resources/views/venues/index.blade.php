@@ -52,7 +52,12 @@
                     <tbody class="divide-y divide-filet">
                         @foreach($venues as $venue)
                             <tr>
-                                <th scope="row" class="px-5 py-2.5 text-left font-medium text-encre">{{ $venue->name }}</th>
+                                <th scope="row" class="px-5 py-2.5 text-left font-medium text-encre">
+                                    {{ $venue->name }}
+                                    @if($venue->formerNames()->isNotEmpty())
+                                        <span class="block text-xs font-normal text-texte-2">anciennement {{ $venue->formerNames()->pluck('name')->reverse()->implode(', ') }}</span>
+                                    @endif
+                                </th>
                                 <td class="px-3 py-2.5 text-texte-2">
                                     @if($venue->country)<span aria-hidden="true">{{ $venue->country->flag_emoji }}</span>@endif
                                     {{ $venue->city }}

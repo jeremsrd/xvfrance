@@ -141,7 +141,7 @@ class MatchDataValidator
         if (isset($data['venue'])) {
             if (!is_string($data['venue']) || trim($data['venue']) === '') {
                 $this->errors[] = 'venue doit être un texte non vide';
-            } elseif (!Venue::where('name', $data['venue'])->exists()) {
+            } elseif (!Venue::findByAnyName($data['venue'])) {
                 // Nouveau stade : il sera créé, avec sa ville et son pays
                 if (empty($data['venue_city'])) {
                     $this->errors[] = "venue_city requis pour un stade absent de la base ({$data['venue']})";

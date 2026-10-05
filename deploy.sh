@@ -168,6 +168,7 @@ mkdir -p storage/app/public storage/framework/cache/data storage/framework/sessi
 [ -f .env ] || { echo ".env absent sur le serveur : à créer avant le premier déploiement." >&2; exit 1; }
 $DEPLOY_COMPOSER install --no-dev --optimize-autoloader --no-interaction --no-progress
 $DEPLOY_PHP artisan migrate --force
+$DEPLOY_PHP artisan xv:import-venue-names --no-interaction
 # Feuilles de match versionnées : seuls les JSON nouveaux ou modifiés depuis le dernier import sont (ré)importés
 $DEPLOY_PHP artisan xv:import-match-data database/data/matches --changed --no-interaction
 $DEPLOY_PHP artisan optimize

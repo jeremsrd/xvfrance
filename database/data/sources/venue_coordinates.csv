@@ -3,13 +3,12 @@ name,city,country_code,latitude,longitude,precision,source
 "Gimnasia y Esgrima de Buenos Aires","Buenos Aires",ARG,-34.567971,-58.4190226,stade,nominatim
 "Estadio Mario Alberto Kempes",Cordoba,ARG,-31.3688468,-64.2461451,stade,nominatim
 "Estadio Malvinas Argentinas",Mendoza,ARG,-32.889678,-68.879901,stade,nominatim
-"Estadio José Fierro","San Miguel de Tucumán",ARG,-26.8128875,-65.1995427,stade,nominatim
+"Estadio Monumental José Fierro","San Miguel de Tucumán",ARG,-26.8128875,-65.1995427,stade,nominatim
 "Stadio Atletico","San Miguel de Tucumán",ARG,-26.8303703,-65.2038133,ville,nominatim
-"Stade Monumental Jose Fierro",Tucumán,ARG,-26.8128875,-65.1995427,stade,nominatim
 Ballymore,Brisbane,AUS,-27.4427547,153.0175775,stade,nominatim
 "Suncorp Stadium",Brisbane,AUS,-27.4648602,153.0096055,stade,nominatim
 "AAMI Park",Melbourne,AUS,-37.8251046,144.983743,stade,nominatim
-"Telstra Dome",Melbourne,AUS,-37.8142454,144.9631732,ville,nominatim
+"Marvel Stadium",Melbourne,AUS,-37.816529,144.947517,stade,nominatim
 "Concord Oval",Sydney,AUS,-33.8684377,151.1093031,stade,nominatim
 "Sydney Cricket Ground",Sydney,AUS,-33.8914241,151.2247484,stade,nominatim
 "Kingsland Rugby Park",Calgary,CAN,51.0456064,-114.057541,ville,nominatim
@@ -32,42 +31,33 @@ Suva,Suva,FIJ,-18.1415884,178.4421662,ville,nominatim
 "Stade Jean Alric",Aurillac,FRA,44.9244533,2.4296982,stade,nominatim
 "Stade Leo Lagrange",Besancon,FRA,47.2439432,6.0030961,stade,nominatim
 Matmut-Atlantique,Bordeaux,FRA,44.841225,-0.5800364,ville,nominatim
-"Parc Lescure",Bordeaux,FRA,44.82867,-0.5987814,stade,nominatim
-"Stade Chaban Delmas",Bordeaux,FRA,44.829308,-0.5982638,stade,nominatim
-"Stade Lescure",Bordeaux,FRA,44.829308,-0.5982638,stade,alias:Chaban-Delmas
+"Stade Chaban-Delmas",Bordeaux,FRA,44.829308,-0.5982638,stade,nominatim
 "Parc Sauclieres",Béziers,FRA,43.3315643,3.2236575,stade,nominatim
 "Stade de la Mediterranee",Béziers,FRA,43.3347426,3.2659822,stade,nominatim
 "Stade Pierre Antoine",Castres,FRA,43.6108305,2.2526973,stade,nominatim
 "Stade Pierre de Coubertin",Chateaurenard,FRA,43.8821441,4.8657375,stade,nominatim
 "Stade Marcel Michelin",Clermont-Ferrand,FRA,45.7893711,3.1060253,stade,nominatim
-"Stade Olympique Yves-du-Manoir",Colombes,FRA,48.9280556,2.2505556,stade,base
+"Stade olympique Yves-du-Manoir",Colombes,FRA,48.9280556,2.2505556,stade,base
 "Parc Municipal",Dax,FRA,43.711868,-1.0462393,stade,nominatim
 "Stade Bourillot",Dijon,FRA,47.2976866,5.0495901,stade,nominatim
 "Stade Lesdiguières",Grenoble,FRA,45.1660849,5.7095178,stade,nominatim
 "Stade Jules Deschaseaux","Le Havre",FRA,49.5017357,0.1711773,stade,nominatim
 "Stade Oceane","Le Havre",FRA,49.4987513,0.1694637,stade,nominatim
 "Stade Felix Bollaert",Lens,FRA,50.4328242,2.8149863,stade,nominatim
-"Decathlon Arena",Lille,FRA,50.6119044,3.130508,stade,nominatim
-"Estadio Niort",Lille,FRA,50.6365654,3.0635282,ville,nominatim
-"Grand Stade Lille Metropole",Lille,FRA,50.6127141,3.1278339,stade,alias:Pierre-Mauroy
-"Stade Grimpooris",Lille,FRA,50.6365654,3.0635282,ville,nominatim
 "Stade Municipal",Limoges,FRA,45.8354243,1.2644847,ville,nominatim
 "Stade Antoine-Berguere",Lourdes,FRA,43.0940904,-0.0464975,ville,nominatim
 "Stade de Gerland",Lyon,FRA,45.7237756,4.8322517,stade,nominatim
 "Stade Jean Bouin",Marseille,FRA,43.2581153,5.3872402,stade,nominatim
-"Stade Velodrome",Marseille,FRA,43.2698474,5.3959082,stade,nominatim
 "Stade Vélodrome",Marseille,FRA,43.2698474,5.3959082,stade,nominatim
-"Stade de Marseille",Marseille,FRA,43.2698474,5.3959082,stade,alias:Vélodrome
 "Stade de Sapiac",Montauban,FRA,44.0103249,1.3517761,stade,nominatim
 "Stade de la Mosson",Montpellier,FRA,43.622022,3.8120898,stade,nominatim
-"U Arena",Nanterre,FRA,48.8956767,2.2296581,stade,nominatim
+"Paris La Défense Arena",Nanterre,FRA,48.8956767,2.2296581,stade,nominatim
 "Stade Marcel Saupin",Nantes,FRA,47.2128325,-1.5385972,stade,nominatim
 "Stade de la Beaujoire",Nantes,FRA,47.256005,-1.5247552,stade,nominatim
 "Parc des sports et de l'Amitie",Narbonne,FRA,43.1814038,3.0193583,stade,nominatim
 "Allianz Riviera",Nice,FRA,43.7051477,7.1926033,stade,nominatim
 "Stade des Arboras",Nice,FRA,43.7009358,7.2683912,ville,nominatim
 "Parc des Princes",Paris,FRA,48.8414356,2.2530099,stade,base
-"Stade Colombes",Paris,FRA,48.9280556,2.2505556,stade,alias:Yves-du-Manoir
 "Stade Geoffroy-Guichard","Saint Etienne",FRA,45.4607567,4.3900932,stade,nominatim
 "Stade de France",Saint-Denis,FRA,48.9244592,2.3602144,stade,base
 "Stade Auguste Bonal",Sochaux,FRA,47.512408,6.8111753,stade,nominatim
@@ -76,7 +66,7 @@ Matmut-Atlantique,Bordeaux,FRA,44.841225,-0.5800364,ville,nominatim
 "Stade 7 Derniers",Toulouse,FRA,43.6044638,1.4442433,ville,nominatim
 "Stade des Ponts Jumeaux",Toulouse,FRA,43.6044638,1.4442433,ville,nominatim
 "Stade Pierre-Mauroy",Villeneuve-d'Ascq,FRA,50.6127141,3.1278339,stade,nominatim
-"Stade du Nord",Villeneuve-d'Ascq,FRA,50.6193174,3.1314002,ville,nominatim
+"Stadium Lille Métropole",Villeneuve-d'Ascq,FRA,50.6311492,3.1375115,stade,nominatim
 Ravenhill,Belfast,IRL,54.5766545,-5.9045234,stade,nominatim
 "Aviva Stadium",Dublin,IRL,53.3352,-6.2286,stade,base
 "Croke Park",Dublin,IRL,53.3603576,-6.2509812,stade,nominatim
@@ -107,7 +97,6 @@ Carisbrook,Dunedin,NZL,-45.8740984,170.5035755,ville,nominatim
 "Olympia Park",Rustenburg,RSA,-25.6578844,27.225394,stade,nominatim
 "Murrayfield Stadium",Édimbourg,SCO,55.9422,-3.2406,stade,base
 "Carrasco Polo Club",Montevideo,URU,-34.8627617,-56.0641586,stade,nominatim
-"Estadio Charrua",Montevideo,URU,-34.8784878,-56.0894011,stade,nominatim
 "Estadio Charrúa",Montevideo,URU,-34.8784878,-56.0894011,stade,nominatim
 "Oxnard College",California,USA,34.165713,-119.1555256,stade,nominatim
 "StubHub Center","Carson, California",USA,33.8642391,-118.2610795,stade,nominatim

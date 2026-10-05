@@ -217,7 +217,7 @@ class MatchImportService
     private function applyMatchContext(RugbyMatch $match, array $data, Country $opponent): void
     {
         if (isset($data['venue'])) {
-            $venue = Venue::where('name', $data['venue'])->first();
+            $venue = Venue::findByAnyName($data['venue']);
             if (!$venue) {
                 $venue = Venue::create([
                     'name' => $data['venue'],

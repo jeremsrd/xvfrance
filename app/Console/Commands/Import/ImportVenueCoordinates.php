@@ -25,8 +25,11 @@ class ImportVenueCoordinates extends Command
         $rows = (new VenueCoordinatesFile($path))->read();
         $updated = 0;
 
-        foreach (Venue::with('country')->get() as $venue) {
-            $row = $rows[VenueCoordinatesFile::key($venue->name, $venue->city, $venue->country?->code)] ?? null;
+        foreach (Venue::with(['country', 'names'])->get() as $venue) {
+            // Ligne du CSV au nom actuel du stade, sinon à l'un de ses autres noms
+            $row = $venue->names->pluck('name')->prepend($venue->name)
+                ->map(fn (string $name) => $rows[VenueCoordinatesFile::key($name, $venue->city, $venue->country?->code)] ?? null)
+                ->filter()->first();
             if (!$row) {
                 continue;
             }

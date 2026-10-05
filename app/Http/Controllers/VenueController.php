@@ -12,7 +12,7 @@ class VenueController extends Controller
     {
         $records = RecordSummary::groupedBy(RugbyMatch::whereNotNull('venue_id'), 'venue_id');
 
-        $venues = Venue::with('country')
+        $venues = Venue::with(['country', 'names'])
             ->whereIn('id', $records->keys())
             ->get()
             ->each(fn (Venue $venue) => $venue->record = $records[$venue->id])

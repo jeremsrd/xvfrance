@@ -15,7 +15,7 @@ class HomeController extends Controller
     public function index()
     {
         // Le dernier match est mis en avant, la liste affiche les 5 précédents
-        $matches = RugbyMatch::with(['opponent', 'venue', 'edition.competition'])
+        $matches = RugbyMatch::with(['opponent', 'venue.names', 'edition.competition'])
             ->orderBy('match_date', 'desc')
             ->take(6)
             ->get();

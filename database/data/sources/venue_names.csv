@@ -1,0 +1,28 @@
+venue,city,country_code,name,kind,used_until,source
+"Stade Pierre-Mauroy",Villeneuve-d'Ascq,FRA,"Grand Stade Lille Métropole",former,2013-06-01,"fr.wikipedia Stade Pierre-Mauroy"
+"Stade Pierre-Mauroy",Villeneuve-d'Ascq,FRA,"Decathlon Arena",variant,,"nommage depuis 2022"
+"Stadium Lille Métropole",Villeneuve-d'Ascq,FRA,"Stadium Nord",variant,,"fr.wikipedia Stadium Lille Métropole"
+"Stadium Lille Métropole",Villeneuve-d'Ascq,FRA,"Stade du Nord",variant,,
+"Stadium Lille Métropole",Villeneuve-d'Ascq,FRA,"Le Stadium",variant,,
+"Stadium Lille Métropole",Villeneuve-d'Ascq,FRA,"Stade Grimpooris",error,,"FRA-ROU 1986 : Stadium Nord selon en.wikipedia 1985–1987 FIRA Trophy"
+"Stadium Lille Métropole",Villeneuve-d'Ascq,FRA,"Estadio Niort",error,,"FRA-ARG 1988 : Stadium Lille Métropole selon en.wikipedia 1988 Argentina tour of France"
+"Stade Chaban-Delmas",Bordeaux,FRA,"Parc Lescure",former,2001-01-01,"fr.wikipedia Stade Chaban-Delmas"
+"Stade Chaban-Delmas",Bordeaux,FRA,"Stade Lescure",variant,,
+"Stade Vélodrome",Marseille,FRA,"Stade de Marseille",variant,,"nom pendant la Coupe du Monde 2023"
+"Stade Vélodrome",Marseille,FRA,"Orange Vélodrome",variant,,"nommage"
+"Stade Vélodrome",Marseille,FRA,"CEPAC Vélodrome",variant,,"nommage"
+"Stade olympique Yves-du-Manoir",Colombes,FRA,"Stade olympique de Colombes",former,1928-01-01,"fr.wikipedia Stade olympique Yves-du-Manoir"
+"Stade olympique Yves-du-Manoir",Colombes,FRA,"Stade Colombes",variant,,
+"Stade olympique Yves-du-Manoir",Colombes,FRA,"Stade Yves-du-Manoir",variant,,
+"Paris La Défense Arena",Nanterre,FRA,"U Arena",former,2018-06-01,"fr.wikipedia Paris La Défense Arena"
+"Paris La Défense Arena",Nanterre,FRA,"Plenitude Arena",variant,,"nommage"
+"Principality Stadium",Cardiff,WAL,"Millennium Stadium",former,2016-01-06,"en.wikipedia Millennium Stadium"
+"Twickenham Stadium",Londres,ENG,"Allianz Stadium",variant,,"nommage depuis 2024"
+"Twickenham Stadium",Londres,ENG,"Twickenham",variant,,
+"Marvel Stadium",Melbourne,AUS,"Colonial Stadium",former,2002-01-01,"en.wikipedia Docklands Stadium"
+"Marvel Stadium",Melbourne,AUS,"Telstra Dome",former,2009-03-01,"en.wikipedia Docklands Stadium"
+"Marvel Stadium",Melbourne,AUS,"Etihad Stadium",former,2018-09-01,"en.wikipedia Docklands Stadium"
+"Marvel Stadium",Melbourne,AUS,"Docklands Stadium",variant,,
+"Estadio Monumental José Fierro","San Miguel de Tucumán",ARG,"Estadio José Fierro",variant,,
+"Estadio Monumental José Fierro","San Miguel de Tucumán",ARG,"Stade Monumental José Fierro",variant,,
+"Estadio Charrúa",Montevideo,URU,"Estadio Charrua",variant,,

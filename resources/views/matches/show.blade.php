@@ -22,7 +22,7 @@
     $timeline = $sheet->timeline();
     $competition = $m->edition?->competition;
     $facts = array_filter([
-        'Stade' => $m->venue ? $m->venue->name . ', ' . $m->venue->city : null,
+        'Stade' => $m->venue ? $m->venue->nameOn($m->match_date) . ', ' . $m->venue->city : null,
         'Arbitre' => $m->referee ? $m->referee . ($m->refereeCountry ? ' (' . $m->refereeCountry->name . ')' : '') : null,
         'Affluence' => $m->attendance ? number_format($m->attendance, 0, ',', "\u{202F}") . ' spectateurs' : null,
         'Coup d\'envoi' => $m->kickoff_time ? substr($m->kickoff_time, 0, 5) : null,
