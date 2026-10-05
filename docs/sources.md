@@ -124,7 +124,7 @@ du même projet.
 
 ## Portraits d'avant 1930 (ancien projet « This Is Rugby »)
 
-116 portraits de joueurs ayant joué avant 1930 (41 Français, 30 Anglais, 12 Néo-Zélandais de 1906, 8 Écossais,
+116 portraits de joueurs ayant joué avant 1930 (41 Français, 29 Anglais, 12 Néo-Zélandais de 1906, 8 Écossais,
 9 Sud-Africains de 1913, 13 Gallois, 4 Irlandais), tirés des archives de l'ancien projet (Agence Rol / Gallica,
 cartes postales et photos de presse de l'époque). Prises avant 1930, ces photos sont **présumées dans le domaine
 public** ; les photos récentes de ce même dossier (AFP, sites de presse) ne sont **pas** publiées.
