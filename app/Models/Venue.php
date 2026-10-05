@@ -51,13 +51,13 @@ class Venue extends Model
 
     /**
      * Stade portant ce nom (actuel, ancien ou variante), sans tenir compte des accents,
-     * de la casse ni des tirets : « Stade Velodrome » = « Stade Vélodrome ».
+     * de la casse ni des tirets : « Stade Velodrome » = « Stade Vélodrome ». Limité à un pays si fourni.
      */
-    public static function findByAnyName(string $name): ?self
+    public static function findByAnyName(string $name, ?int $countryId = null): ?self
     {
         $wanted = self::normalizeName($name);
 
-        return self::with('names')->get()->first(
+        return self::with('names')->when($countryId, fn ($q) => $q->where('country_id', $countryId))->get()->first(
             fn (self $venue) => self::normalizeName($venue->name) === $wanted
                 || $venue->names->contains(fn (VenueName $n) => self::normalizeName($n->name) === $wanted)
         );

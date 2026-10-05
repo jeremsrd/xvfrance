@@ -55,6 +55,23 @@ class RugbyMatch extends Model
         return $this->belongsTo(Venue::class);
     }
 
+    /**
+     * Domicile et terrain neutre déduits du pays du stade : en France = domicile, chez l'adversaire = extérieur,
+     * ailleurs = terrain neutre (is_home garde alors l'ordre d'affichage des équipes). Sans stade ni pays : inchangé.
+     */
+    public function applyVenueFlags(int $franceId): void
+    {
+        $countryId = $this->venue?->country_id;
+        if ($countryId === null) {
+            return;
+        }
+
+        $this->is_neutral = !in_array($countryId, [$franceId, $this->opponent_id], true);
+        if (!$this->is_neutral) {
+            $this->is_home = $countryId === $franceId;
+        }
+    }
+
     public function opponent(): BelongsTo
     {
         return $this->belongsTo(Country::class, 'opponent_id');

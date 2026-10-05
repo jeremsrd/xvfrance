@@ -1,4 +1,5 @@
 name,city,country_code,latitude,longitude,precision,source
+"Estadio Ferro Carril Oeste","Buenos Aires",ARG,-34.6187654,-58.4478378,stade,nominatim
 "Estadio José Amalfitani","Buenos Aires",ARG,-34.6353382,-58.5206788,stade,nominatim
 "Gimnasia y Esgrima de Buenos Aires","Buenos Aires",ARG,-34.567971,-58.4190226,stade,nominatim
 "Estadio Mario Alberto Kempes",Cordoba,ARG,-31.3688468,-64.2461451,stade,nominatim
@@ -10,20 +11,29 @@ Ballymore,Brisbane,AUS,-27.4427547,153.0175775,stade,nominatim
 "AAMI Park",Melbourne,AUS,-37.8251046,144.983743,stade,nominatim
 "Marvel Stadium",Melbourne,AUS,-37.816529,144.947517,stade,nominatim
 "Concord Oval",Sydney,AUS,-33.8684377,151.1093031,stade,nominatim
+"Stadium Australia",Sydney,AUS,-33.8471082,151.0633848,stade,nominatim
 "Sydney Cricket Ground",Sydney,AUS,-33.8914241,151.2247484,stade,nominatim
+"Sydney Football Stadium",Sydney,AUS,-33.8891571,151.2251352,stade,nominatim
+"Dairy Farmers Stadium",Townsville,AUS,-19.2569391,146.8239537,ville,nominatim
+"WIN Stadium",Wollongong,AUS,-34.4280583,150.9025111,stade,nominatim
 "Kingsland Rugby Park",Calgary,CAN,51.0456064,-114.057541,ville,nominatim
 "Langley Event Centre",Langley,CAN,49.1039289,-122.657047,ville,nominatim
 "Twin Elms Rugby Park",Ottawa,CAN,45.4208777,-75.6901106,ville,nominatim
 Toronto,Toronto,CAN,43.6534817,-79.3839347,ville,nominatim
+"York Stadium",Toronto,CAN,43.6534817,-79.3839347,stade,base
 "BC Place",Vancouver,CAN,49.2766905,-123.1120062,stade,nominatim
 "Stade Français",Santiago,CHI,-33.4202249,-70.5953852,stade,nominatim
+"London Stadium",Londres,ENG,51.5386207,-0.0166238,stade,nominatim
 "Twickenham Stadium",Londres,ENG,51.4559,-0.3415,stade,base
+"Wembley Stadium",Londres,ENG,51.5560695,-0.2796034,stade,nominatim
+"Stadium MK","Milton Keynes",ENG,52.009625,-0.7335404,stade,nominatim
 "Campo 'Las Cortas'",Barcelona,ESP,41.3825802,2.177073,ville,nominatim
 "Estadi Municipal Foixarda",Barcelona,ESP,41.3825802,2.177073,ville,nominatim
 "Sant Boi de Llobregat",Barcelona,ESP,41.3241016,2.0511278,ville,nominatim
 "Ciudad Universitaria",Madrid,ESP,40.4438005,-3.7264206,stade,nominatim
 "Valle Hermoso",Madrid,ESP,40.4015588,-3.6750831,stade,nominatim
 "Campo de Vallejo",Valencia,ESP,39.4697065,-0.3763353,ville,nominatim
+"National Stadium",Suva,FIJ,-18.1415884,178.4421662,stade,base
 Suva,Suva,FIJ,-18.1415884,178.4421662,ville,nominatim
 "Stade Armandie",Agen,FRA,44.1926029,0.6203083,stade,nominatim
 "Stade Moulias",Auch,FRA,43.6340172,0.5859522,stade,nominatim
@@ -32,6 +42,7 @@ Suva,Suva,FIJ,-18.1415884,178.4421662,ville,nominatim
 "Stade Leo Lagrange",Besancon,FRA,47.2439432,6.0030961,stade,nominatim
 Matmut-Atlantique,Bordeaux,FRA,44.841225,-0.5800364,ville,nominatim
 "Stade Chaban-Delmas",Bordeaux,FRA,44.829308,-0.5982638,stade,nominatim
+"Stade Amédée-Domenech",Brive-la-Gaillarde,FRA,45.1617434,1.5485003,stade,nominatim
 "Parc Sauclieres",Béziers,FRA,43.3315643,3.2236575,stade,nominatim
 "Stade de la Mediterranee",Béziers,FRA,43.3347426,3.2659822,stade,nominatim
 "Stade Pierre Antoine",Castres,FRA,43.6108305,2.2526973,stade,nominatim
@@ -40,6 +51,7 @@ Matmut-Atlantique,Bordeaux,FRA,44.841225,-0.5800364,ville,nominatim
 "Stade olympique Yves-du-Manoir",Colombes,FRA,48.9280556,2.2505556,stade,base
 "Parc Municipal",Dax,FRA,43.711868,-1.0462393,stade,nominatim
 "Stade Bourillot",Dijon,FRA,47.2976866,5.0495901,stade,nominatim
+"Groupama Stadium",Décines-Charpieu,FRA,45.7653624,4.9820543,stade,nominatim
 "Stade Lesdiguières",Grenoble,FRA,45.1660849,5.7095178,stade,nominatim
 "Stade Jules Deschaseaux","Le Havre",FRA,49.5017357,0.1711773,stade,nominatim
 "Stade Oceane","Le Havre",FRA,49.4987513,0.1694637,stade,nominatim
@@ -65,6 +77,7 @@ Matmut-Atlantique,Bordeaux,FRA,44.841225,-0.5800364,ville,nominatim
 "Stade Maurice Trelut",Tarbes,FRA,43.2199011,0.0756324,stade,nominatim
 "Stade 7 Derniers",Toulouse,FRA,43.6044638,1.4442433,ville,nominatim
 "Stade des Ponts Jumeaux",Toulouse,FRA,43.6044638,1.4442433,ville,nominatim
+"Stadium de Toulouse",Toulouse,FRA,43.5832262,1.4340638,stade,nominatim
 "Stade Pierre-Mauroy",Villeneuve-d'Ascq,FRA,50.6127141,3.1278339,stade,nominatim
 "Stadium Lille Métropole",Villeneuve-d'Ascq,FRA,50.6311492,3.1375115,stade,nominatim
 Ravenhill,Belfast,IRL,54.5766545,-5.9045234,stade,nominatim
@@ -75,14 +88,25 @@ Ravenhill,Belfast,IRL,54.5766545,-5.9045234,stade,nominatim
 "Stadio Flaminio",Roma,ITA,41.9269333,12.4723082,stade,nominatim
 "Stadio Olimpico",Rome,ITA,41.9341,12.4547,stade,base
 "Stadio Comunale di Monigo",Treviso,ITA,45.8066913,12.2063158,ville,nominatim
+"Tokyo Stadium",Chōfu,JPN,35.6641865,139.5270752,stade,nominatim
+"Fukuoka Hakatanomori Stadium",Fukuoka,JPN,33.5859056,130.4608372,stade,nominatim
+"Kumamoto Stadium",Kumamoto,JPN,32.8369094,130.8001381,stade,nominatim
 "Japan National Stadium",Tokyo,JPN,35.6768601,139.7638947,ville,nominatim
+"City of Toyota Stadium",Toyota,JPN,35.0845879,137.1708735,stade,nominatim
+"Oita Stadium",Ōita,JPN,33.2007824,131.6574852,stade,nominatim
 "Eden Park",Auckland,NZL,-36.8750352,174.7440567,stade,nominatim
+"North Harbour Stadium",Auckland,NZL,-36.727308,174.7023656,stade,nominatim
+"Christchurch Stadium",Christchurch,NZL,-43.5437826,172.6040684,stade,nominatim
 "Lancaster Park",Christchurch,NZL,-43.542636,172.6538542,stade,nominatim
 "Te Kaha",Christchurch,NZL,-43.5344264,172.6441782,stade,nominatim
 Carisbrook,Dunedin,NZL,-45.8740984,170.5035755,ville,nominatim
+"Forsyth Barr Stadium",Dunedin,NZL,-45.8693722,170.5248953,stade,nominatim
+"FMG Stadium",Hamilton,NZL,-37.781191,175.2681686,stade,nominatim
 "McLean Park",Napier,NZL,-39.5018431,176.9125267,stade,nominatim
 "New Plymouth","New Plymouth",NZL,-39.0579941,174.0806474,ville,nominatim
+"Yarrows Stadium","New Plymouth",NZL,-39.0579941,174.0806474,stade,base
 "Athletic Park",Wellington,NZL,-41.2887953,174.7772114,ville,nominatim
+"Wellington Regional Stadium",Wellington,NZL,-41.2730528,174.7858728,stade,nominatim
 "Northland Events Centre",Whangarei,NZL,-35.7275268,174.3194202,ville,nominatim
 "Estádio Pina Manique",Lisbon,POR,38.7372137,-9.2037646,stade,nominatim
 "Stadionul 23 August",Bucuresti,ROU,44.4361414,26.102684,ville,nominatim
@@ -90,16 +114,20 @@ Carisbrook,Dunedin,NZL,-45.8740984,170.5035755,ville,nominatim
 "Stadionul Giulesti",Bucuresti,ROU,44.4557768,26.057047,stade,nominatim
 "Stadionul Republicii",Bucuresti,ROU,44.4361414,26.102684,ville,nominatim
 "Stadionul 1st May",Constanta,ROU,44.1767161,28.6507598,ville,nominatim
+"Free State Stadium",Bloemfontein,RSA,-29.1172351,26.2087696,stade,nominatim
 "Newlands Stadium","Cape Town",RSA,-33.9705226,18.4685626,stade,nominatim
 "King's Park",Durban,RSA,-29.8618145,31.009909,ville,nominatim
 "Ellis Park",Johannesburg,RSA,-26.199504,28.0597651,stade,nominatim
+"EPRFU Stadium","Port Elizabeth",RSA,-33.9820162,25.6405262,stade,nominatim
 "Loftus Versfeld",Pretoria,RSA,-25.7532404,28.2229489,stade,nominatim
 "Olympia Park",Rustenburg,RSA,-25.6578844,27.225394,stade,nominatim
+"PAM Brink Stadium",Springs,RSA,-26.2518757,28.4278501,stade,nominatim
 "Murrayfield Stadium",Édimbourg,SCO,55.9422,-3.2406,stade,base
 "Carrasco Polo Club",Montevideo,URU,-34.8627617,-56.0641586,stade,nominatim
 "Estadio Charrúa",Montevideo,URU,-34.8784878,-56.0894011,stade,nominatim
 "Oxnard College",California,USA,34.165713,-119.1555256,stade,nominatim
 "StubHub Center","Carson, California",USA,33.8642391,-118.2610795,stade,nominatim
+"Rentschler Stadium",Hartford,USA,41.7596149,-72.6188369,stade,nominatim
 "Cardiff Arms Park",Cardiff,WAL,51.479556,-3.1835998,stade,nominatim
 "Principality Stadium",Cardiff,WAL,51.4783,-3.1828,stade,base
 "St Helen's",Swansea,WAL,51.6120725,-3.9643459,stade,nominatim

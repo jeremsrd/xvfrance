@@ -123,8 +123,9 @@ class MatchList extends Component
 
         if ($this->location) {
             match ($this->location) {
-                'domicile' => $query->where('is_home', true),
-                'exterieur' => $query->where('is_home', false),
+                'domicile' => $query->where('is_home', true)->where('is_neutral', false),
+                'exterieur' => $query->where('is_home', false)->where('is_neutral', false),
+                'neutre' => $query->where('is_neutral', true),
                 default => null,
             };
         }

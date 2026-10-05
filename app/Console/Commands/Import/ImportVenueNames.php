@@ -34,16 +34,25 @@ class ImportVenueNames extends Command
         }
 
         $dryRun = (bool) $this->option('dry-run');
-        $renamed = $merged = $moved = 0;
+        $created = $renamed = $merged = $moved = 0;
 
-        DB::transaction(function () use ($groups, $dryRun, &$renamed, &$merged, &$moved) {
+        DB::transaction(function () use ($groups, $dryRun, &$created, &$renamed, &$merged, &$moved) {
             foreach ($groups as $group) {
                 $country = Country::where('code', $group['country_code'])->first();
                 $candidates = $this->candidates($group, $country);
 
                 if ($candidates->isEmpty()) {
-                    $this->line("  {$group['venue']} : aucun stade en base, ignoré");
-                    continue;
+                    // Stade encore absent : créé pour que l'import du CSV de résultats reconnaisse ses noms
+                    $this->line("  Créé : {$group['venue']} ({$group['city']})");
+                    $created++;
+                    if ($dryRun) {
+                        continue;
+                    }
+                    $candidates = collect([Venue::create([
+                        'name' => $group['venue'],
+                        'city' => $group['city'],
+                        'country_id' => $country?->id,
+                    ])->loadCount('matches')]);
                 }
 
                 // On garde la fiche qui porte déjà le nom actuel, sinon celle qui a le plus de matches,
@@ -85,8 +94,9 @@ class ImportVenueNames extends Command
 
                 $keep->fill(['name' => $group['venue'], 'city' => $group['city']])->save();
 
-                // Le CSV fait foi : les noms absents du CSV sont retirés, les noms erronés ne sont pas gardés
-                $names = collect($group['names'])->where('kind', '!=', 'error');
+                // Le CSV fait foi : les noms absents du CSV sont retirés. Les noms erronés sont gardés comme variantes,
+                // pour que l'import du CSV de résultats, qui les contient, retrouve le bon stade
+                $names = collect($group['names']);
                 $keep->names()->whereNotIn('name', $names->pluck('name'))->delete();
                 foreach ($names as $name) {
                     VenueName::updateOrCreate(
@@ -97,7 +107,7 @@ class ImportVenueNames extends Command
             }
         });
 
-        $this->info("{$renamed} stade(s) renommé(s), {$merged} doublon(s) fusionné(s), {$moved} match(es) déplacé(s)"
+        $this->info("{$created} stade(s) créé(s), {$renamed} stade(s) renommé(s), {$merged} doublon(s) fusionné(s), {$moved} match(es) déplacé(s)"
             . ($dryRun ? ' (dry-run)' : '') . '.');
 
         return self::SUCCESS;

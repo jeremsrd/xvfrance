@@ -26,3 +26,44 @@ venue,city,country_code,name,kind,used_until,source
 "Estadio Monumental José Fierro","San Miguel de Tucumán",ARG,"Estadio José Fierro",variant,,
 "Estadio Monumental José Fierro","San Miguel de Tucumán",ARG,"Stade Monumental José Fierro",variant,,
 "Estadio Charrúa",Montevideo,URU,"Estadio Charrua",variant,,
+"Murrayfield Stadium",Édimbourg,SCO,"Murrayfield",variant,,"nom du CSV de résultats"
+"Murrayfield Stadium",Édimbourg,SCO,"Scottish Gas Murrayfield",variant,,"nommage"
+"Stadium de Toulouse",Toulouse,FRA,"Stadium",variant,,"nom du CSV de résultats"
+"Stadium de Toulouse",Toulouse,FRA,"Stadium municipal de Toulouse",variant,,
+"Stade Amédée-Domenech",Brive-la-Gaillarde,FRA,"Stadium de Brive",variant,,"nom du CSV de résultats"
+"Stade Amédée-Domenech",Brive-la-Gaillarde,FRA,"Stadium municipal de Brive",variant,,
+"Groupama Stadium",Décines-Charpieu,FRA,"OL Stadium",variant,,"nom du CSV de résultats"
+"Groupama Stadium",Décines-Charpieu,FRA,"Parc Olympique Lyonnais",variant,,
+"Groupama Stadium",Décines-Charpieu,FRA,"Stade de Lyon",variant,,"nom pendant la Coupe du Monde 2023"
+"London Stadium",Londres,ENG,"The Stadium, Queen Elizabeth Olympic Park",variant,,"nom du CSV de résultats"
+"London Stadium",Londres,ENG,"Stade olympique de Londres",variant,,
+"Stadium MK",Milton Keynes,ENG,"Stadiummk",variant,,"nom du CSV de résultats"
+"Sydney Football Stadium",Sydney,AUS,"Aussie Stadium",variant,,"nom du CSV de résultats"
+"Sydney Football Stadium",Sydney,AUS,"Allianz Stadium",variant,,"nommage"
+"Stadium Australia",Sydney,AUS,"Telstra Stadium",variant,,"nom du CSV de résultats"
+"Stadium Australia",Sydney,AUS,"ANZ Stadium",variant,,"nom du CSV de résultats"
+"Stadium Australia",Sydney,AUS,"Accor Stadium",variant,,"nommage"
+"Wellington Regional Stadium",Wellington,NZL,"Westpac Trust Stadium",variant,,"nom du CSV de résultats"
+"Wellington Regional Stadium",Wellington,NZL,"Westpac Stadium",variant,,"nom du CSV de résultats"
+"Wellington Regional Stadium",Wellington,NZL,"Sky Stadium",variant,,"nommage"
+"Lancaster Park",Christchurch,NZL,"Jade Stadium",variant,,"nom du CSV de résultats"
+"Lancaster Park",Christchurch,NZL,"AMI Stadium",variant,,"nommage"
+"North Harbour Stadium",Auckland,NZL,"QBE Stadium",variant,,"nom du CSV de résultats"
+"Yarrows Stadium",New Plymouth,NZL,"Rugby Park",variant,,
+"Yarrows Stadium",New Plymouth,NZL,"New Plymouth",error,,"fiche au nom de la ville"
+"National Stadium",Suva,FIJ,"HFC Bank Stadium",variant,,"nommage"
+"National Stadium",Suva,FIJ,"Suva",error,,"fiche au nom de la ville"
+"York Stadium",Toronto,CAN,"York Lions Stadium",variant,,
+"York Stadium",Toronto,CAN,"Toronto",error,,"fiche au nom de la ville"
+"Estadio José Amalfitani","Buenos Aires",ARG,"Velez Sarsfield Stadium",variant,,"nom du CSV de résultats"
+"Estadio José Amalfitani","Buenos Aires",ARG,"Estadio Vélez Sarsfield",variant,,
+"Estadio Ferro Carril Oeste","Buenos Aires",ARG,"Ferro Carril Oeste Stadium",variant,,"nom du CSV de résultats"
+"Japan National Stadium",Tokyo,JPN,"National Olympic Stadium",variant,,"nom du CSV de résultats"
+"Wembley Stadium",Londres,ENG,"Wembley",variant,,
+"Tokyo Stadium",Chōfu,JPN,"Ajinomoto Stadium",variant,,"nommage"
+"Fukuoka Hakatanomori Stadium",Fukuoka,JPN,"Best Denki Stadium",variant,,"nommage"
+"Kumamoto Stadium",Kumamoto,JPN,"Egao Kenko Stadium",variant,,"nommage"
+"Oita Stadium",Ōita,JPN,"Showa Denko Dome Oita",variant,,"nommage"
+"City of Toyota Stadium",Toyota,JPN,"Toyota Stadium",variant,,
+"Forsyth Barr Stadium",Dunedin,NZL,"Otago Stadium",variant,,
+"FMG Stadium",Hamilton,NZL,"Waikato Stadium",variant,,

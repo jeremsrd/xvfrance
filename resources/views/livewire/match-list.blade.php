@@ -80,6 +80,7 @@
                         <option value="">Tous les lieux</option>
                         <option value="domicile">À domicile</option>
                         <option value="exterieur">À l'extérieur</option>
+                        <option value="neutre">Terrain neutre</option>
                     </select>
                 </label>
             </div>

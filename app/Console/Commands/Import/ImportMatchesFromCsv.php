@@ -17,7 +17,8 @@ class ImportMatchesFromCsv extends Command
         {file : Chemin vers le fichier CSV}
         {--dry-run : Affiche ce qui serait importé sans écrire en BDD}
         {--from= : Année de début (ex: 1987)}
-        {--to= : Année de fin (ex: 2024)}';
+        {--to= : Année de fin (ex: 2024)}
+        {--sync-venues : Pour les matches déjà en base, remplacer le stade par celui du CSV}';
 
     protected $description = 'Importe les matches de la France depuis un CSV de résultats internationaux';
 
@@ -30,6 +31,7 @@ class ImportMatchesFromCsv extends Command
     private int $duplicates = 0;
     private array $countriesCreated = [];
     private array $venuesCreated = [];
+    private array $venuesChanged = [];
 
     private array $countryNameMapping = [
         // Noms anglais → noms français (correspondant à la BDD)
@@ -253,10 +255,12 @@ class ImportMatchesFromCsv extends Command
             $opponentName = $isFranceHome ? $data['away_team'] : $data['home_team'];
             $franceScore = $isFranceHome ? (int) $data['home_score'] : (int) $data['away_score'];
             $opponentScore = $isFranceHome ? (int) $data['away_score'] : (int) $data['home_score'];
-            $isNeutral = strtolower($data['neutral'] ?? 'false') === 'true';
-            $isHome = $isFranceHome && !$isNeutral;
 
-            $opponent = $this->findOrCreateCountry($opponentName, $dryRun);
+            // --sync-venues ne crée ni pays ni match : il corrige seulement le stade des matches déjà en base
+            // (la base ne contient pas toutes les lignes du CSV, ex. les matches féminins retirés)
+            $syncOnly = (bool) $this->option('sync-venues');
+
+            $opponent = $this->findOrCreateCountry($opponentName, $dryRun || $syncOnly);
             if (!$opponent) {
                 $this->warn("Ligne {$lineNumber}: Impossible de gérer le pays '{$opponentName}', ignoré.");
                 continue;
@@ -264,14 +268,23 @@ class ImportMatchesFromCsv extends Command
 
             // Vérifier doublon
             if (!$dryRun) {
-                $exists = RugbyMatch::whereDate('match_date', $matchDate->format('Y-m-d'))
+                $existing = RugbyMatch::with('venue')
+                    ->whereDate('match_date', $matchDate->format('Y-m-d'))
                     ->where('opponent_id', $opponent->id)
-                    ->exists();
-                if ($exists) {
+                    ->first();
+                if ($existing) {
+                    if ($syncOnly) {
+                        $this->syncVenue($existing, $data);
+                    }
                     $this->duplicates++;
                     $bar->advance();
                     continue;
                 }
+            }
+
+            if ($syncOnly) {
+                $bar->advance();
+                continue;
             }
 
             $venue = $this->findOrCreateVenue(
@@ -286,17 +299,20 @@ class ImportMatchesFromCsv extends Command
             $stage = $this->mapWorldCupStage($data['competition'] ?? '');
 
             if (!$dryRun) {
-                RugbyMatch::create([
+                $match = new RugbyMatch([
                     'match_date' => $matchDate,
                     'venue_id' => $venue?->id,
                     'opponent_id' => $opponent->id,
                     'edition_id' => $edition?->id,
                     'france_score' => $franceScore,
                     'opponent_score' => $opponentScore,
-                    'is_home' => $isHome,
-                    'is_neutral' => $isNeutral,
+                    'is_home' => $isFranceHome,
                     'stage' => $stage,
                 ]);
+                // La colonne neutral du CSV est peu fiable (fausse pour les Coupes du Monde) : déduite du stade
+                $match->setRelation('venue', $venue);
+                $match->applyVenueFlags($this->countryCache['france']->id);
+                $match->save();
             }
 
             $this->imported++;
@@ -306,6 +322,11 @@ class ImportMatchesFromCsv extends Command
         fclose($handle);
         $bar->finish();
         $this->newLine(2);
+
+        if ($this->option('sync-venues')) {
+            // Pays seulement cherchés, jamais créés, dans ce mode
+            $this->countriesCreated = [];
+        }
 
         $this->displaySummary($dryRun);
 
@@ -321,10 +342,23 @@ class ImportMatchesFromCsv extends Command
         Competition::all()->each(function (Competition $c) {
             $this->competitionCache[$c->short_name] = $c;
         });
+    }
 
-        Venue::all()->each(function (Venue $v) {
-            $this->venueCache[strtolower($v->name)] = $v;
-        });
+    /** Remplace le stade d'un match existant par celui du CSV (option --sync-venues) */
+    private function syncVenue(RugbyMatch $match, array $data): void
+    {
+        $venue = $this->findOrCreateVenue($data['stadium'] ?? null, $data['city'] ?? null, $data['country'] ?? null, false);
+        if (!$venue || $venue->id === $match->venue_id) {
+            return;
+        }
+
+        $this->venuesChanged[] = [
+            $match->match_date->format('Y-m-d'),
+            $match->opponent->code,
+            $match->venue?->name ?? '—',
+            "{$venue->name} ({$venue->city})",
+        ];
+        $match->update(['venue_id' => $venue->id]);
     }
 
     private function findOrCreateCountry(string $name, bool $dryRun): ?Country
@@ -386,25 +420,10 @@ class ImportMatchesFromCsv extends Command
             return null;
         }
 
-        $key = strtolower($stadium);
+        $key = strtolower($stadium . '|' . $city . '|' . $hostCountry);
 
         if (isset($this->venueCache[$key])) {
             return $this->venueCache[$key];
-        }
-
-        // Chercher aussi par correspondance partielle pour les stades connus
-        foreach ($this->venueCache as $cachedKey => $cachedVenue) {
-            if (str_contains($key, $cachedKey) || str_contains($cachedKey, $key)) {
-                $this->venueCache[$key] = $cachedVenue;
-                return $cachedVenue;
-            }
-        }
-
-        if ($dryRun) {
-            $placeholder = new Venue(['id' => 0, 'name' => $stadium, 'city' => $city]);
-            $this->venueCache[$key] = $placeholder;
-            $this->venuesCreated[] = "{$stadium}" . ($city ? ", {$city}" : '');
-            return $placeholder;
         }
 
         $countryId = null;
@@ -415,6 +434,20 @@ class ImportMatchesFromCsv extends Command
             if ($country && $country->id) {
                 $countryId = $country->id;
             }
+        }
+
+        // Nom exact, ancien nom ou variante (venue_names.csv) dans le pays du stade. Pas de correspondance
+        // partielle : « Stadium » (Toulouse) rattachait à Twickenham Stadium tout nom contenant « stadium »
+        $existing = Venue::findByAnyName($stadium, $countryId);
+        if ($existing) {
+            return $this->venueCache[$key] = $existing;
+        }
+
+        if ($dryRun) {
+            $placeholder = new Venue(['id' => 0, 'name' => $stadium, 'city' => $city]);
+            $this->venueCache[$key] = $placeholder;
+            $this->venuesCreated[] = "{$stadium}" . ($city ? ", {$city}" : '');
+            return $placeholder;
         }
 
         $venue = Venue::create([
@@ -560,6 +593,12 @@ class ImportMatchesFromCsv extends Command
             foreach ($this->countriesCreated as $c) {
                 $this->line("  → {$c}");
             }
+        }
+
+        if (!empty($this->venuesChanged)) {
+            $this->newLine();
+            $this->warn(count($this->venuesChanged) . ' stade(s) de match remplacé(s) par celui du CSV :');
+            $this->table(['Date', 'Adversaire', 'Ancien stade', 'Nouveau stade'], $this->venuesChanged);
         }
 
         if (!empty($this->venuesCreated)) {

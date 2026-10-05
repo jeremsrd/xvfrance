@@ -116,7 +116,7 @@ class VenueNamesTest extends TestCase
         $this->assertNull(Venue::findByAnyName('Stade de France'));
     }
 
-    public function test_error_names_are_merged_but_not_kept(): void
+    public function test_error_names_are_merged_and_resolve_to_the_right_venue(): void
     {
         $stadium = Venue::factory()->create(['name' => 'Stade du Nord', 'city' => "Villeneuve-d'Ascq", 'country_id' => $this->fra->id]);
         $wrong = Venue::factory()->create(['name' => 'Estadio Niort', 'city' => 'Lille', 'country_id' => $this->fra->id]);
@@ -130,6 +130,6 @@ class VenueNamesTest extends TestCase
 
         $this->assertSame($stadium->id, $match->fresh()->venue_id);
         $this->assertSame('Stadium Lille Métropole', $stadium->fresh()->name);
-        $this->assertNull(Venue::findByAnyName('Estadio Niort'));
+        $this->assertTrue($stadium->is(Venue::findByAnyName('Estadio Niort')));
     }
 }

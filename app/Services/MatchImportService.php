@@ -201,6 +201,8 @@ class MatchImportService
             'opponent_id' => $opponent->id,
             'france_score' => $data['france_score'],
             'opponent_score' => $data['opponent_score'],
+            // Remplacé par le pays du stade, sauf sur terrain neutre
+            'is_home' => false,
         ]);
         $this->applyMatchContext($match, $data, $opponent);
         $match->save();
@@ -227,11 +229,9 @@ class MatchImportService
                 $this->warn("Stade créé : {$venue->name}, {$venue->city} (coordonnées à ajouter dans venue_coordinates.csv)");
             }
 
-            $france = $this->getFranceCountry();
-            $match->venue_id = $venue->id;
-            $match->is_home = $venue->country_id === $france->id;
-            $match->is_neutral = $venue->country_id !== null
-                && !in_array($venue->country_id, [$france->id, $opponent->id], true);
+            $match->venue()->associate($venue);
+            $match->opponent()->associate($opponent);
+            $match->applyVenueFlags($this->getFranceCountry()->id);
         }
 
         if (isset($data['competition'])) {
