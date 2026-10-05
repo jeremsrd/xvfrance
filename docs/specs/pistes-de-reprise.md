@@ -8,14 +8,14 @@
 | Domaine | État |
 |---------|------|
 | Matches | 839 matches officiels (référence : liste Wikipédia, voir `docs/sources.md`) |
-| Feuilles de match | 834 détaillées : compositions des deux équipes, capitaines, arbitre ; points pour 832 (2 sans points) |
+| Feuilles de match | 834 détaillées : compositions des deux équipes, capitaines, arbitre ; points pour 832 (2 sans points), minute connue pour 80 % des points français ; remplacements français et remplaçants restés sur le banc (finalesrugby.fr) |
 | Joueurs | ~7 000, dont 1 229 Français ; 1 051 numéros d'international, 1 036 dates de naissance |
 | Noms | 83 noms français corrigés d'après Wikipédia (`noms_ecarts.csv`) |
 | Portraits | 116 joueurs d'avant 1930 |
-| Sélectionneurs | table `coaches` vide |
+| Sélectionneurs | 13 depuis 1963, avec leurs mandats (`selectionneurs.csv`) |
 
 Chaînage des données au déploiement (`deploy.sh`) : `xv:apply-name-corrections` → `xv:import-match-data --changed`
-→ `xv:compute-primary-positions` → `xv:import-internationaux` → `xv:import-player-photos`. Le détail des sources
+→ `xv:compute-primary-positions` → `xv:import-internationaux` → `xv:import-player-photos` → `xv:import-coaches`. Le détail des sources
 et de leurs limites est dans `docs/sources.md`.
 
 ## Pistes
@@ -73,11 +73,14 @@ Aucun joueur n'a de ville de naissance, de date de décès, de taille ni de poid
 - **Clubs** : la liste « This Is Rugby » donne les clubs de 1 090 internationaux (colonne `clubs` de
   `internationaux_encyclo.csv`). Il faudrait une colonne ou une table des clubs.
 
-### 5. Sélectionneurs
+### 5. Sélectionneurs (fait le 06/10/2026)
 
-La table `coaches` / `coach_tenures` est vide alors que la page `/selectionneurs` existe. Une trentaine de
-sélectionneurs depuis 1964 : saisie dans un CSV source (Wikipédia « Équipe de France de rugby à XV », section
-sélectionneurs), puis une commande d'import. Permet le bilan par sélectionneur.
+13 sélectionneurs depuis 1963 dans `database/data/sources/selectionneurs.csv`, importés par `xv:import-coaches`.
+Les mandats sont bornés pour reproduire exactement le nombre de matches du tableau « Entraîneurs » de l'article
+Wikipédia « Équipe de France de rugby à XV » (Fouroux jusqu'à Roumanie–France du 24/05/1990, Dubroca dès la
+tournée de juin 1990 en Australie). Victoires, nuls et défaites concordent aussi, sauf Desclaux : 35-4-21 chez
+nous, 36-4-20 dans le tableau, alors que nos scores 1973-1980 sont ceux de la liste des matches de Wikipédia.
+Reste possible : les adjoints (entraîneurs des avants, des arrières…), et les comités de sélection d'avant 1963.
 
 ### 6. Photos restantes de l'ancien projet
 
