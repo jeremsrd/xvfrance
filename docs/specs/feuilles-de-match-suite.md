@@ -64,6 +64,5 @@ Les **compositions et remplacements** ne figurent pas dans les encadrés Wikipé
 2. **Matches historiques (~800)** : trouver une source structurée à récupérer automatiquement
    (ESPN Statsguru, allrugby…), car la méthode au cas par cas ne tient pas à cette échelle.
 3. Points connus mais non corrigés :
-   - `PlayerResolverService` cherche le nom de famille avec accents. « Jegou » créerait donc un doublon
-     de « Jégou », ce que la validation signale désormais par un avertissement.
+   - ~~Accents dans `PlayerResolverService`~~ : corrigé le 05/10/2026, « Jegou » retrouve « Jégou ».
    - Pas de classement aux points dans les records individuels, en attendant d'avoir plus de feuilles complètes.

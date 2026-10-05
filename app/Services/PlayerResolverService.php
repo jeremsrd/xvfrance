@@ -46,12 +46,12 @@ class PlayerResolverService
             return null;
         }
 
-        // 2. Recherche fuzzy par nom seul (même pays), en écartant les homonymes
-        //    dont le prénom est incompatible (ex: Scott / Beauden / Jordie Barrett)
+        // 2. Recherche fuzzy par nom seul sans accents (même pays, « Jegou » = « Jégou »),
+        //    en écartant les homonymes dont le prénom est incompatible (ex: Scott / Beauden / Jordie Barrett)
         $fuzzy = Player::where('country_id', $country->id)
-            ->whereRaw('LOWER(last_name) = ?', [mb_strtolower(trim($lastName))])
             ->get()
-            ->filter(fn (Player $p) => $this->firstNamesCompatible($firstNorm, $p->first_name));
+            ->filter(fn (Player $p) => $this->normalize($p->last_name) === $lastNorm
+                && $this->firstNamesCompatible($firstNorm, $p->first_name));
 
         if ($fuzzy->count() === 1) {
             $this->log[] = ['info', "Joueur trouvé par nom seul : {$fuzzy->first()->fullName()} ({$country->code})"];

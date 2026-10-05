@@ -50,6 +50,15 @@ class PlayerResolverServiceTest extends TestCase
         $this->assertTrue($existing->is((new PlayerResolverService())->resolve('Alldritt', null, $this->nzl)));
     }
 
+    public function test_last_name_without_accents_finds_existing_player(): void
+    {
+        $existing = Player::factory()->create(['first_name' => 'Oscar', 'last_name' => 'Jégou', 'country_id' => $this->nzl->id]);
+
+        $this->assertTrue($existing->is($this->resolver->resolve('Jegou', 'Oscar', $this->nzl)));
+        $this->assertTrue($existing->is((new PlayerResolverService())->resolve('JEGOU', null, $this->nzl)));
+        $this->assertSame(0, $this->resolver->getCreatedCount());
+    }
+
     public function test_ambiguous_last_name_returns_null(): void
     {
         Player::factory()->count(2)->sequence(['first_name' => 'Scott'], ['first_name' => 'Beauden'])
