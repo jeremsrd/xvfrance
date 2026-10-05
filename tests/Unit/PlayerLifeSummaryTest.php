@@ -45,4 +45,12 @@ class PlayerLifeSummaryTest extends TestCase
         $this->assertSame(29, $player->age());
         Carbon::setTestNow();
     }
+
+    public function test_no_age_beyond_100_without_known_death(): void
+    {
+        $pioneer = Player::factory()->make(['birth_date' => '1881-12-15', 'death_date' => null]);
+
+        $this->assertNull($pioneer->age());
+        $this->assertSame(102, Player::factory()->make(['birth_date' => '1900-01-01', 'death_date' => '2002-06-01'])->age());
+    }
 }

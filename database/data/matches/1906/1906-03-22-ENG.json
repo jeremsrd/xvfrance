@@ -12,7 +12,7 @@
       {"jersey": 4, "first_name": "Pierre", "last_name": "Gauderman", "is_starter": true, "position": null, "is_captain": false},
       {"jersey": 5, "first_name": "Georges", "last_name": "Jérome", "is_starter": true, "position": null, "is_captain": false},
       {"jersey": 6, "first_name": "", "last_name": "Maurin", "is_starter": true, "position": null, "is_captain": false},
-      {"jersey": 7, "first_name": "Alan", "last_name": "Muhr", "is_starter": true, "position": null, "is_captain": false},
+      {"jersey": 7, "first_name": "Allan", "last_name": "Muhr", "is_starter": true, "position": null, "is_captain": false},
       {"jersey": 8, "first_name": "André", "last_name": "Vergès", "is_starter": true, "position": null, "is_captain": false},
       {"jersey": 9, "first_name": "Albert", "last_name": "Hubert", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
       {"jersey": 10, "first_name": "Théo", "last_name": "Varvier", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
@@ -43,7 +43,7 @@
   "events": [
     {"team_side": "france", "type": "transformation", "player_last_name": "Branlat", "player_first_name": "Albert", "minute": null},
     {"team_side": "france", "type": "essai", "player_last_name": "Lesieur", "player_first_name": "Émile", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Muhr", "player_first_name": "Alan", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Muhr", "player_first_name": "Allan", "minute": null},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Hogarth", "player_first_name": "Thomas", "minute": null},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Hudson", "player_first_name": "Arthur", "minute": null},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Hudson", "player_first_name": "Arthur", "minute": null},

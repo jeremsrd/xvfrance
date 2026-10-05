@@ -93,3 +93,25 @@ Pièges connus :
 
 Les feuilles de match détaillées sont dans `database/data/matches/{année}/*.json`
 (format : `docs/specs/import-match-data.md`). Une feuille peut aussi créer un match absent de la base.
+
+## Liste des internationaux (ancien projet « This Is Rugby »)
+
+`database/data/sources/internationaux_encyclo.csv` : liste chronologique des internationaux français saisie vers
+2015 pour un ancien projet, **arrêtée au 31/12/2016** (n° 1 Henri Amand → n° 1098 Cyril Baille). Pour chaque
+joueur : numéro d'international, NOM et prénom, date de naissance, postes, nombre de sélections, années, clubs.
+Convertie du document Word d'origine par `scripts/encyclo/convertir.py`, qui la contrôle avec l'index alphabétique
+du même projet.
+
+- **Numérotation** : n° 1 à 3 pour Amand, Reichel et Dedet (1893-1900), puis les joueurs de 1906 dans l'ordre de la
+  feuille de match. Elle fait foi pour `players.cap_number` (elle a remplacé les numéros de `xv:seed-1906`).
+- **Manques** : 8 numéros absents (423, 498, 593, 596, 608, 788, 880, 961, sans doute une page de noms en T) et
+  7 autres connus seulement par l'index (Triviaux, Clarac, Tourte, Tucoo-Chala, Trillo, Tournaire, Traille). Le
+  n° 571 de Marc Pujolle est corrigé en 771.
+- **Rapprochement** (`xv:import-internationaux`) : 1 051 joueurs sur 1 090, 1 036 dates de naissance. Les non
+  rapprochés ont joué des matches sans composition en base (Allemagne 1932-1934, Armée britannique 1940) ou
+  manquent sur equipe-france.fr (Serin, Vidal et Bianco en 1961, Halçarren 1964, Cardebat 1967…).
+  `internationaux_correspondances.csv` tranche les cas que le nom ne résout pas.
+- **Noms** : `--report` liste 104 écarts entre la base (noms d'equipe-france.fr) et la liste. Ce sont surtout des
+  fautes du site (« Kail » Janik, « Yres » Brunet, prénoms composés abrégés), mais la liste a aussi ses coquilles
+  (« Merqury », « Vahaamina »). **Pas encore appliqués** : à trier, puis à corriger à la fois en base et dans
+  les feuilles JSON, sans quoi un réimport recréerait l'ancien nom.

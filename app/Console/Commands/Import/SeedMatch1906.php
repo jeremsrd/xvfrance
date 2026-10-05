@@ -97,22 +97,24 @@ class SeedMatch1906 extends Command
 
     private function createFrenchPlayers(Country $france, Country $angleterre, Country $usa): array
     {
+        // Numéros d'international de la liste chronologique (internationaux_encyclo.csv) ; Crichton (né en
+        // Angleterre) et Muhr (né aux États-Unis) jouent pour la France : pays de naissance à part
         $players = [
-            ['jersey' => 15, 'last' => 'Crichton',   'first' => 'William',  'pos' => PlayerPosition::ARRIERE,              'country' => $angleterre, 'cap' => 10, 'captain' => false],
-            ['jersey' => 14, 'last' => 'Lane',        'first' => 'Gaston',   'pos' => PlayerPosition::AILIER,               'country' => $france,     'cap' => 14, 'captain' => false],
-            ['jersey' => 13, 'last' => 'Levée',       'first' => 'Henri',    'pos' => PlayerPosition::CENTRE,               'country' => $france,     'cap' => 6,  'captain' => false],
-            ['jersey' => 12, 'last' => 'Sagot',       'first' => 'Paul',     'pos' => PlayerPosition::CENTRE,               'country' => $france,     'cap' => 12, 'captain' => false],
-            ['jersey' => 11, 'last' => 'Pujol',       'first' => 'Augustin', 'pos' => PlayerPosition::AILIER,               'country' => $france,     'cap' => 9,  'captain' => false],
-            ['jersey' => 10, 'last' => 'Amand',       'first' => 'Henri',    'pos' => PlayerPosition::DEMI_OUVERTURE,       'country' => $france,     'cap' => 1,  'captain' => true, 'nickname' => 'le Barby'],
-            ['jersey' => 9,  'last' => 'Lacassagne',  'first' => 'Henri',    'pos' => PlayerPosition::DEMI_DE_MELEE,        'country' => $france,     'cap' => 5,  'captain' => false],
-            ['jersey' => 8,  'last' => 'Dufourcq',    'first' => 'Jacques',  'pos' => PlayerPosition::NUMERO_HUIT,          'country' => $france,     'cap' => 7,  'captain' => false],
-            ['jersey' => 7,  'last' => 'Cessieux',    'first' => 'Noël',     'pos' => PlayerPosition::TROISIEME_LIGNE_AILE, 'country' => $france,     'cap' => 8,  'captain' => false],
-            ['jersey' => 6,  'last' => 'Communeau',   'first' => 'Marcel',   'pos' => PlayerPosition::TROISIEME_LIGNE_AILE, 'country' => $france,     'cap' => 4,  'captain' => false],
-            ['jersey' => 5,  'last' => 'Muhr',        'first' => 'Allan',    'pos' => PlayerPosition::DEUXIEME_LIGNE,       'country' => $usa,        'cap' => 2,  'captain' => false],
-            ['jersey' => 4,  'last' => 'Jérome',      'first' => 'Georges',  'pos' => PlayerPosition::DEUXIEME_LIGNE,       'country' => $france,     'cap' => 3,  'captain' => false],
-            ['jersey' => 3,  'last' => 'Branlat',     'first' => 'Albert',   'pos' => PlayerPosition::PILIER_DROIT,         'country' => $france,     'cap' => 13, 'captain' => false],
-            ['jersey' => 2,  'last' => 'Dedeyn',      'first' => 'Paul',     'pos' => PlayerPosition::TALONNEUR,            'country' => $france,     'cap' => 11, 'captain' => false],
-            ['jersey' => 1,  'last' => 'Vergès',      'first' => 'André',    'pos' => PlayerPosition::PILIER_GAUCHE,        'country' => $france,     'cap' => 15, 'captain' => false],
+            ['jersey' => 15, 'last' => 'Crichton',   'first' => 'William',  'pos' => PlayerPosition::ARRIERE,              'country' => $france, 'born' => $angleterre, 'cap' => 4, 'captain' => false],
+            ['jersey' => 14, 'last' => 'Lane',        'first' => 'Gaston',   'pos' => PlayerPosition::AILIER,               'country' => $france,     'cap' => 8, 'captain' => false],
+            ['jersey' => 13, 'last' => 'Levée',       'first' => 'Henri',    'pos' => PlayerPosition::CENTRE,               'country' => $france,     'cap' => 7, 'captain' => false],
+            ['jersey' => 12, 'last' => 'Sagot',       'first' => 'Paul',     'pos' => PlayerPosition::CENTRE,               'country' => $france,     'cap' => 6, 'captain' => false],
+            ['jersey' => 11, 'last' => 'Pujol',       'first' => 'Augustin', 'pos' => PlayerPosition::AILIER,               'country' => $france,     'cap' => 5, 'captain' => false],
+            ['jersey' => 10, 'last' => 'Amand',       'first' => 'Henri',    'pos' => PlayerPosition::DEMI_OUVERTURE,       'country' => $france,     'cap' => 1, 'captain' => true, 'nickname' => 'le Barby'],
+            ['jersey' => 9,  'last' => 'Lacassagne',  'first' => 'Henri',    'pos' => PlayerPosition::DEMI_DE_MELEE,        'country' => $france,     'cap' => 9, 'captain' => false],
+            ['jersey' => 8,  'last' => 'Dufourcq',    'first' => 'Jacques',  'pos' => PlayerPosition::NUMERO_HUIT,          'country' => $france,     'cap' => 10, 'captain' => false],
+            ['jersey' => 7,  'last' => 'Cessieux',    'first' => 'Noël',     'pos' => PlayerPosition::TROISIEME_LIGNE_AILE, 'country' => $france,     'cap' => 11, 'captain' => false],
+            ['jersey' => 6,  'last' => 'Communeau',   'first' => 'Marcel',   'pos' => PlayerPosition::TROISIEME_LIGNE_AILE, 'country' => $france,     'cap' => 12, 'captain' => false],
+            ['jersey' => 5,  'last' => 'Muhr',        'first' => 'Allan',    'pos' => PlayerPosition::DEUXIEME_LIGNE,       'country' => $france, 'born' => $usa, 'cap' => 13, 'captain' => false],
+            ['jersey' => 4,  'last' => 'Jérome',      'first' => 'Georges',  'pos' => PlayerPosition::DEUXIEME_LIGNE,       'country' => $france,     'cap' => 14, 'captain' => false],
+            ['jersey' => 3,  'last' => 'Branlat',     'first' => 'Albert',   'pos' => PlayerPosition::PILIER_DROIT,         'country' => $france,     'cap' => 15, 'captain' => false],
+            ['jersey' => 2,  'last' => 'Dedeyn',      'first' => 'Paul',     'pos' => PlayerPosition::TALONNEUR,            'country' => $france,     'cap' => 17, 'captain' => false],
+            ['jersey' => 1,  'last' => 'Vergès',      'first' => 'André',    'pos' => PlayerPosition::PILIER_GAUCHE,        'country' => $france,     'cap' => 16, 'captain' => false],
         ];
 
         $result = [];
@@ -123,6 +125,7 @@ class SeedMatch1906 extends Command
                     'primary_position' => $p['pos'],
                     'is_active' => false,
                     'cap_number' => $p['cap'],
+                    'birth_country_id' => isset($p['born']) ? $p['born']->id : null,
                     'nickname' => $p['nickname'] ?? null,
                 ]
             );

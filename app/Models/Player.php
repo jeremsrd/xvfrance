@@ -49,6 +49,25 @@ class Player extends Model
         'is_active' => 'boolean',
     ];
 
+    /**
+     * Fusionne ce joueur (doublon) dans $keep : compositions, événements et remplacements passent à $keep,
+     * qui garde ses champs et complète les vides ; le doublon est supprimé.
+     */
+    public function mergeInto(Player $keep): void
+    {
+        \Illuminate\Support\Facades\DB::transaction(function () use ($keep) {
+            $this->lineups()->update(['player_id' => $keep->id]);
+            $this->events()->update(['player_id' => $keep->id]);
+            $this->substitutionsOff()->update(['player_off_id' => $keep->id]);
+            $this->substitutionsOn()->update(['player_on_id' => $keep->id]);
+            foreach (['birth_date', 'birth_city', 'birth_country_id', 'death_date', 'death_city', 'height_cm', 'weight_kg', 'nickname', 'photo_path', 'primary_position'] as $field) {
+                $keep->{$field} ??= $this->{$field};
+            }
+            $keep->save();
+            $this->delete();
+        });
+    }
+
     public function fullName(): string
     {
         return $this->first_name . ' ' . $this->last_name;
@@ -84,11 +103,17 @@ class Player extends Model
     }
 
     /**
-     * Âge actuel, ou âge au décès.
+     * Âge actuel, ou âge au décès. Sans date de décès connue, pas d'âge au-delà de 100 ans
+     * (les internationaux d'avant-guerre ne sont pas encore vivants pour autant).
      */
     public function age(): ?int
     {
-        return $this->birth_date ? (int) $this->birth_date->diffInYears($this->death_date ?? now()) : null;
+        if (!$this->birth_date) {
+            return null;
+        }
+        $age = (int) $this->birth_date->diffInYears($this->death_date ?? now());
+
+        return $this->death_date || $age < 100 ? $age : null;
     }
 
 

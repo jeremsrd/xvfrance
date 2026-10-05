@@ -1,0 +1,1091 @@
+cap_number,last_name,first_name,birth_date,positions,caps,years,clubs
+1,AMAND,Henri,1873-09-17,"Trois-quarts aile, demi d'ouverture",2,1893-1906,Stade Français
+2,REICHEL,Frantz,1871-03-16,"Trois-quarts centre, trois-quarts aile",1,1893-00,Racing Club de France
+3,DEDET,Louis,1875-03-06,Avant,1,1893-00,Stade Français
+4,CRICHTON,William,1881-12-15,Arrière,2,1906,Le Havre Athlétic Club
+5,PUJOL,Augustin,1883-05-10,Trois-quarts aile,1,1906,Stade Français
+6,SAGOT,Paul,1881-04-02,Trois-quarts centre,3,1906-09,Stade Français
+7,LEVEE,Henri,1885-03-17,Trois-quarts centre,1,1906,Racing Club de France
+8,LANE,Gaston,1883-01-31,"Trois-quarts aile, trois-quarts centre",15,1906-13,Racing Club de France
+9,LACASSAGNE,Pierre,1883-12-27,Demi de mêlée,2,1906-07,Stade Bordelais Université Club
+10,DUFOURCQ,Jacques,1881-08-19,Troisième ligne aile,4,1906-08,Stade Bordelais Université Club
+11,CESSIEUX,Noël,1879-12-22,Troisième ligne centre,1,1906,Football Club de Lyon
+12,COMMUNEAU,Marcel,1885-09-11,"Troisième ligne aile, deuxième ligne, troisième ligne centre",21,1906-13,"Stade Français, Vélo Club Beauvaisien"
+13,MUHR,Allan,1881-06-04,Trois-quarts centre,1,1909,Stade Français
+14,JEROME,Georges,1883-02-09,Deuxième ligne,2,1906,Stade Français
+15,BRANLAT,Albert,1879-11-15,Pilier,3,1906-08,"Racing Club de France, Stade Bordelais Université Club"
+16,VERGES,Saint-Amand,1877-12-28,Pilier,3,1906-07,Stade Français
+17,DEDEYN,Paul,1880-12-11,Talonneur,1,1906,Racing Club de France
+18,LESIEUR,Emile,1885-09-16,Trois-quarts aile,12,1906-12,Stade Français
+19,LEWIS,Ernest,1876-07-28,Trois-quarts centre,1,1906,Le Havre Athletic Club
+20,MACLOS,Paul,1883-08-19,Trois-quarts centre,2,1906-07,Stade Français
+21,HUBERT,Albert,1884-12-06,"Demi de mêlée, demi d'ouverture",7,1906-09,Association Sportive Française
+22,VARVIER,Théodore,1884-04-29,"Demi d'ouverture, trois-quarts centre, arrière",6,1906-12,Racing Club de France
+23,GAUDERMEN,Pierre,1882-10-20,Troisième ligne centre,1,1906,Racing Club de France
+24,MAURIN,G,,Troisième ligne aile,1,1906,Association Sportive Française
+25,ISAAC,Henri,1883-05-07,Arrière,2,1907-08,Racing Club de France
+26,MARTIN,Henri,1888-08-29,"Trois-quarts centre, arrière",2,1907-08,Stade Bordelais Université Club
+27,VAREILLES,Charles,1886-07-01,"Trois-quarts aile, trois-quarts centre",5,1907-10,Stade Français
+28,BEAURIN-GRESSIER,Charles,1879-10-25,Troisième ligne centre,2,1907-08,Stade Français
+29,GIACARDY,Marc,1881-02-15,Troisième ligne aile,1,1907,Stade Bordelais Université Club
+30,POIRIER,A,,Talonneur,1,1907,Sporting Club Universitaire de France
+31,MAURIAT,Paul,1887-05-27,"Pilier, talonneur, deuxième ligne",19,1907-13,Football Club Lyonnais
+32,MAYSSONIE,Alfred,1884-02-10,Demi de mêlée,3,1908-10,Stade Olympien Véto Sports Toulousain
+33,GUILLEMIN,Pierre,1886-06-14,"Pilier, troisième ligne centre, troisième ligne aile",11,1908-11,Racing Club de France
+34,RITTER VON MALLMANN,René,1885-11-02,"Deuxième ligne, Pilier",7,1908-10,Racing Club de France
+35,BORCHARD,Georges,1885-12-25,"Talonneur, deuxième ligne, troisième ligne aile",5,1908-11,Racing Club de France
+36,DUVAL,René,1886-09-07,"Troisième ligne aile, demi d'ouverture",6,1908-11,Stade Français
+37,MOURE,Henri,1882-12-09,Troisième ligne aile,1,1908,Sporting Club Universitaire de France
+38,LEUVIELLE,Marcel,1881-06-28,"Trois-quarts centre, troisième ligne centre, deuxième ligne",7,1908-14,Stade Bordelais Université Club
+39,MASSE,Alphonse,1883-05-23,"Deuxième ligne, troisième ligne aile",7,1908-10,Stade Bordelais Université Club
+40,CAUJOLLE,Jean,1888-07-31,Arrière,5,1909-14,Stadoceste Tarbais
+41,HOUBLAIN,Henri,1883-07-31,Trois-quarts centre,2,1909-10,Sporting Club Universitaire Français
+42,THEURIET,André,1887-03-29,Demi de mêlée,5,1909-13,Sporting Club Universitaire de France
+43,FOURCADE,Georges,1885-04-26,"Troisième ligne aile, talonneur",2,1909,Bordeaux Etudiant Club
+44,ICARD,Jules,,"?, Deuxième ligne",2,1909,Stade Français
+45,DE JOUVENCEL,Etienne,1889-02-28,Arrière,2,1909,Stade Français
+46,DUPRE,Paul,1888-06-29,Troisième ligne aile,1,1909,Racing Club de France
+47,BURGUN,Marcel,1890-01-18,"Trois-quarts centre, demi d'ouverture, trois-quarts aile",11,1909-14,"Racing Club de France, Castres Olympique"
+48,MOURONVAL,Francis,1881-06-04,Trois-quarts centre,1,1909,Stade Français
+49,MARTIN,Claude,1888-06-16,Demi d'ouverture,3,1909-10,Football Club Lyonnais
+50,HOURDEBAIGT,Augustin,1884-09-12,Deuxième ligne,5,1909-10,Stade Bordelais Université Club
+51,LEGRAIN,Marcel,1880-06-14,"Troisième ligne aile deuxième ligne, troisième ligne centre",12,1909-14,"Stade Français, Racing Club de France"
+52,GOMMES,Jacques,1881-07-06,Troisième ligne aile,1,1909,Racing Club de France
+53,MENRATH,René,1889-12-13,Arrière,1,1910,Sporting Club Universitaire de France
+54,BRUNEAU,Maurice,1883-12-01,"Trois-quarts aile, trois-quarts centre, demi d'ouverture",4,1910-13,Stade Bordelais Université Club
+55,THEVENOT,M,,"1883, Pilier, deuxième ligne",3,1910,Sporting Club Universitaire de France
+56,BOUDREAUX,René,1880-11-27,Pilier,2,1910,Sporting Club Universitaire de France
+57,LAFITTE,Pierre,1885-06-29,Troisième ligne aile,2,1910,Sporting Club Universitaire de France
+58,ANDURAN,Joseph,1882-04-24,Talonneur,1,1910,Sporting Club Universitaire de France
+59,COMBE,Julien,,"1887, Arrière",4,1910-11,Stade Français
+60,DEDET,Jacques,1887-03-04,"Trois-quarts centre, demi d'ouverture",8,1910-13,Stade Français
+61,CADENAT,Jules,1885-09-18,"Deuxième ligne, pilier",7,1910-13,Sporting Club Universitaire de France
+62,LATERRADE,Guillaume,1889-05-19,Demi de mêlée,5,1910-11,Stadoceste Tarbais
+63,JOURDAIN DE MUIZON,Joseph,1890-12-29,Trois-quarts aile,1,1910,Stade Français
+64,ROUJAS,Fernand,1885-02-17,Demi d'ouverture,1,1910,Stadoceste Tarbais
+65,FRANCQUENELLE,Antoine,1889-08-15,Trois-quarts centre,3,1911-13,Sporting Club de Vaugirard
+66,FAILLIOT,Pierre,1889-02-25,Trois-quarts aile,8,1911-13,Racing Club de France
+67,PEYROUTOU,Georges,1888-07-15,Demi d'ouverture,2,1911,Club Athlétique Périgourdin
+68,MOUNIQ,Pierre,1887-02-09,"Pilier, deuxième ligne",9,1911-13,Stade Toulousain
+69,FORGUES,Fernand,1884-11-30,"Deuxième ligne, troisième ligne aile",11,1911-14,Aviron Bayonnais
+70,DECAMPS,Paul,1884-01-14,Deuxième ligne,1,1911,Racing Club de France
+71,BAVOZET,Joseph,1887-05-26,Troisième ligne aile,3,1911,Football Club de Lyon
+72,CHARPENTIER,Gilbert,1886-11-01,"Trois-quarts aile, demi d'ouverture",3,1911-12,Stade Français
+73,DUTOUR,François-Xavier,1886-12-06,Arrière,6,1911-13,Stade Toulousain
+74,JUDAS du SOUICH,Charles,1890-05-07,Trois-quarts centre,2,1911,Sporting Club Universitaire de France
+75,DUFFOUR,René,1881-08-13,Talonneur,1,1911,Stadoceste Tarbais
+76,SIMONPAOLI,Raoul,1887-11-24,Deuxième ligne,3,1911-12,Stade Français
+77,MONIER,Robert,1885-02-20,Pilier,2,1911-12,Stade Bordelais Université Club
+78,IHINGOUE,David,1889-01-13,Trois-quarts centre,2,1912,Bordeaux Etudiant Club
+79,DUFAU,Julien,1888-02-16,"Trois-quarts centre, trois-quarts aile",4,1912,Biarritz Stade
+80,LARRIBAU,Léon,1889-03-02,"Demi de mêlée, trois-quarts aile",7,1912-14,"Club Athlétique Périgourdin, Biarritz Olympique"
+81,CONILH de BEYSSAC,Jean-Jacques,1890-04-12,"Pilier, troisième ligne centre",5,1912-14,Stade Bordelais Université Club
+82,DOMERCQ,Jean,1886-12-20,"Troisième ligne centre, troisième ligne aile",2,1912,Aviron Bayonnais
+83,BOYAU,Maurice,1888-05-08,Troisième ligne aile,6,1912-13,Stade Bordelais Université Club
+84,VALLOT,Charles,1884-09-15,Talonneur,1,1912,Sporting Club Universitaire de France
+85,SENTILLES,Jean,1886-02-14,Trois-quarts centre,4,1912-13,Stadoceste Tarbais
+86,FORESTIER,Jacques,1890-07-27,Pilier,1,1912,Sporting Club Universitaire de France
+87,PASCAREL,Jean-René,1890-02-20,Talonneur,6,1912-13,Stade Toulousain
+88,MONNIOT,Marcel,1885-03-17,Pilier,2,1912,Racing Club de France
+89,TILH,Hélier,1881-02-10,"Deuxième ligne, pilier",6,1912-13,Stade Nantais Université Club
+90,JAUREGUY,Pierre,1891-05-28,"Trois-quarts aile, trois-quarts centre",4,1913,Stade Toulousain
+91,HEDEMBAIGT,Maurice,1891-02-03,Demi de mêlée,3,1913-14,Aviron Bayonnais
+92,SEBEDIO,Jean,1890-12-12,"Pilier, troisième ligne aile, troisième ligne centre",9,1913-23,"Stadoceste Tarbais, Biarritz Olympique, Association Sportive Biterroise, Association Sportive Carcassonnaise"
+93,ANDRE,Georges,1889-08-13,Trois-quarts aile,7,1913-14,Racing Club de France
+94,CHATAU,Albert,1893-02-11,Demi d'ouverture,1,1913,Aviron Bayonnais
+95,FAVRE,Marcel,1888-08-31,Pilier,2,1913,Football Club de Lyon
+96,SEMMARTIN,Jean,1892-04-30,Arrière,2,1913,Sporting Club Universitaire de France
+97,STRUXIANO,Philippe,1891-03-11,Demi de mêlée,7,1913-20,Stade Toulousain
+98,BIOUSSA,Clovis,1893-10-09,Demi d'ouverture,3,1913-14,Stade Toulousain
+99,PODEVIN,Gustave,1884-12-14,Deuxième ligne,2,1913,Stade Français
+100,TAVERNIER,Henri,1888-06-16,Pilier,1,1913,Stade Toulousain
+101,EUTROPE,Albert,1888-01-10,Troisième ligne aile,1,1913,Sporting Club Universitaire de France
+102,LASSERRE,Félix,1895-10-09,"Arrière, trois-quarts centre, troisième ligne aile",15,1914-24,"Aviron Bayonnais, Union Sportive Cognaçaise, Football Club de Grenoble."
+103,PIERROT,Gilbert,1889-02-03,Trois-quarts centre,3,1914,Section Paloise
+104,POEYDEBASQUE,François,1891-01-07,"Trois-quarts centre, demi d’ouverture",2,1914,Aviron Bayonnais
+105,LACOSTE,Raoul,1893-10-22,Trois-quarts aile,3,1914,Stadoceste Tarbais
+106,FAURE,Paul,1890-01-04,"Talonneur, pilier",3,1914,Stadoceste Tarbais
+107,LUBIN-LEBRERE,Marcel-Frédéric,1891-07-21,"Pilier, deuxième ligne",15,1914-25,Stade Toulousain
+108,ARNAL,Jean-Marie,1892-11-15,Deuxième ligne,2,1914,Racing Club de France
+109,LAVAUD,Raphaël,1888-01-18,"Deuxième ligne, troisième ligne aile",2,1914,Association Sportive Carcassonnaise
+110,BESSET,Lucien,1892-01-04,Trois-quarts centre,2,1914,Sporting Club Universitaire de France
+111,DESVOUGES,Robert,1894-11-10,Deuxième ligne,1,1914,Stade Français
+112,IGUINIZ,Emmanuel,1889-12-09,Talonneur,1,1914,Aviron Bayonnais
+113,BASCOU,Paulin,1889-03-15,Deuxième ligne,1,1914,Aviron Bayonnais
+114,CAPMAU,Jean-Louis,1889-03-17,Troisième ligne aile,1,1914,Stade Toulousain
+115,CHILO,André,1898-07-05,"Arrière, trois-quarts aile",4,1920-25,Racing Club de France
+116,JAUREGUY,Adolphe,1898-02-18,Trois-quarts aile,31,1920-29,"Racing Club de France, Stade Toulousain, Stade Français"
+117,CRABOS,René,1899-02-07,Trois-quarts centre,17,1920-24,"Racing Club de France, Sport Athlétique Saint-Séverin"
+118,SERRE,Paul,1895-12-13,Trois-quarts aile,2,1920,Association Sportive Perpignanaise
+119,BILLAC,Eugène,1898-03-16,Demi d'ouverture,9,1920-23,Aviron Bayonnais
+120,PONS,Pierre,1894-09-16,Talonneur,6,1920-22,Stade Toulousain
+121,PUECH,Louis,1894-12-04,Deuxième ligne,5,1920-21,Stade Toulousain
+122,CASSAYET-ARMAGNAC,Laurent,1893-05-09,"Deuxième ligne, troisième ligne centre",31,1920-27,"Stadoceste Tarbais, Stade Saint-Gaudinois, Racing Club Narbonnais"
+123,MARCHAND,Robert,1892-02-16,Troisième ligne centre,2,1920,Stade Poitevin
+124,THIERRY,Robert,1893-06-23,"Troisième ligne aile, troisième ligne centre, deuxième ligne",4,1920,Racing Club de France
+125,LAURENT,Joseph,1894-03-21,Troisième ligne aile,3,1920,Aviron Bayonnais
+126,CAMBRE,Théophile,1894-03-24,Arrière,4,1920,"Football Club Oloronais, Aviron Bayonnais"
+127,LAVIGNE,Jean,1894-03-27,Trois-quarts centre,2,1920,Union Sportive Dacquoise
+128,GUICHEMERRE,Abel,1889-08-23,Troisième ligne aile,4,1920-23,Union Sportive Dacquoise
+129,SOULIE,Eugène,,"1898, Pilier, deuxième ligne, troisième ligne aile, troisième ligne centre",9,1920-22,Club Athlétique des Sports Généraux
+130,BIRABEN,Maurice,1892-05-20,Pilier,10,1920-22,Union Sportive Dacquoise
+131,CONSTANT,Georges,1899-04-03,Troisième ligne aile,1,1920,Union Sportive Perpignanaise
+132,BORDE,François,1899-12-08,Trois-quarts centre,12,1920-26,"Racing Club de France, Stade Toulousain"
+133,GOT,Raoul,1900-02-11,Trois-quarts aile,13,1920-24,Union Sportive Perpignanaise
+134,GAYRAUD-HIRIGOYEN,William,1898-05-01,Talonneur,1,1920,Stade Toulousain
+135,LARRIEU,Jean,1895-06-02,"Troisième ligne aile, talonneur",7,1920-23,"Stade Toulousain, Stadoceste Tarbais"
+136,MOUREU,Pierre,1895-08-24,"Troisième ligne centre, deuxième ligne, pilier",17,1920-25,Association Sportive Biterroise
+137,CLEMENT,Jean,1899-09-25,Arrière,10,1921-23,"Racing Club de France, Valence Sportif"
+138,LOBIES,Jean,1900-11-28,Trois-quarts aile,3,1921,Racing Club de France
+139,PITEU,Roger,1899-05-14,Demi de mêlée,15,1921-26,"Section Paloise, Toulouse Olympique Employé Club"
+140,BOUBEE,Jean,1900-10-11,"Troisième ligne aile, troisième ligne centre",9,1921-25,"Stadoceste Tarbais, Biarritz Olympique, Sporting Union Agenais"
+141,VAQUER,Fernand,1889-06-22,Troisième ligne centre,3,1921-22,Union Sportive Perpignanaise
+142,COSCOLLA,Gilbert,1900-12-18,"Deuxième ligne, pilier",2,1921,Association Sportive Biterroise
+143,CAYREFOURCQ,Edmond,1898-07-01,Trois-quarts aile,1,1920,Stadoceste Tarbais
+144,BOUSQUET,Adolphe,1899-08-14,Demi d'ouverture,3,1921-24,Association Sportive Biterroise
+145,GONNET,Charles-Anthoine,1897-11-03,Talonneur,16,1921-27,"Sporting Club Albigeois, Racing Club de France"
+146,BAQUEY,Jacques,1895-11-25,Trois-quarts aile,1,1921,Stade Toulousain
+147,JEANGRAND,Maurice-Henri,1899-01-08,Trois-quarts centre,1,1921,Stadoceste Tarbais
+148,DE LABORDERIE,Marcel,1899-01-11,"Trois-quarts aile, Trois-quarts centre",4,1921-25,Racing Club de France
+149,PASCOT,Joseph,1897-11-11,Demi d’ouverture,6,1922-27,Union Sportive Perpignanaise
+150,CAHUC,François,1892-07-04,Troisième ligne aile,1,1922,Saint-Girons Sporting Club
+151,RAMIS,Roger,1902-03-29,Trois-quarts centre,3,1922-23,Union Sportive Perpignanaise
+152,LAFOND,André,1902-07-31,Trois-quarts aile,1,1922,Aviron Bayonnais
+153,BEGUET,Louis,1894-12-07,"Talonneur, pilier",10,1922-24,Racing Club de France
+154,BERNON,Jean,1893-06-04,"Deuxième ligne, pilier",2,1922-23,Football Club Lourdais
+155,SICART,Noël,1899-12-25,Troisième ligne centre,1,1922,Union Sportive Perpignanaise
+156,ETCHEPARE,Albert,1898-11-08,Troisième ligne aile,1,1922,Aviron Bayonnais
+157,LALANDE,Max,1901-09-28,Trois-quarts aile,3,1923,Racing Club de France
+158,DUPONT,Clément,1899-04-18,Demi de mêlée,16,1923-29,"Football Club Lourdais, Racing Club de Rouen, Stade Bordelais Université Club"
+159,BAYARD,Jean,1897-10-23,Talonneur,6,1923-24,Stade Toulousain
+160,LACAZEDIEU,Charles,1901-03-04,"Demi d'ouverture, demi de mêlée",5,1923-29,Union Sportive Dacquoise
+161,CASTETS,Jean,1900-09-07,Deuxième ligne,3,1923,Rugby Club Toulonnais
+162,ETCHEBERRY,Jean,1901-08-27,"Troisième ligne centre, troisième ligne aile, pilier",16,1923-27,"Stade Athlétique de Rochefort, Union Sportive Cognaçaise, Club Sportif de Vienne"
+163,BEHOTEGUY,Henri,1898-10-18,Trois-quarts centre,6,1923-28,"Racing Club de France, Union Sportive Cognaçaise"
+164,MAGNANOU,Christian,1903-01-15,"Arrière, trois-quarts centre, demi d'ouverture",10,1923-30,"Racing Club de France, Aviron Bayonnais"
+165,BEHOTEGUY,André,1900-10-19,Trois-quarts centre,19,1923-29,"Aviron Bayonnais, Union Sportive Cognaçaise"
+166,SALINIE,René,1897-02-04,Trois-quarts centre,1,1923,Union Sportive Perpignanaise
+167,LOUSTAU,Marcel,1900-02-10,Trois-quarts aile,1,1923,Union Sportive Dacquoise
+168,FARGUES,Hector,1892-05-14,Troisième ligne aile,1,1923,Union Sportive Dacquoise
+169,BESSET,Edmond,1901-07-14,Arrière,1,1924,Football Club de Grenoble
+170,CLUCHAGUE,Louis,1902-08-20,Trois-quarts aile,2,1924-25,Biarritz Olympique
+171,GALAU,Henri,1897-07-18,Demi d'ouverture,5,1924,Stade Toulousain
+172,PIQUIRAL,Etienne,1901-06-15,"Troisième ligne centre, deuxième ligne, troisième ligne aile",19,1924-28,"Racing Club de France, Football Club de Lyon"
+173,LEPATEY,Louis,1898-08-29,Pilier,3,1924,Sporting Club Mazamétain
+174,PARDO,Laurent,1897-11-14,Arrière,2,1924,Stade Hendayais
+175,BESSON,Marcel,1901-03-31,"Trois-quarts aile, trois-quarts centre",6,1924-27,Club Athlétique des Sports Généraux
+176,RIBERE,Eugène,1902-06-14,"Troisième ligne aile, troisième ligne centre",34,1924-33,"Union Sportive Perpignanaise, Union Sportive Quillanaise."
+177,DANION,Jean,1902-01-03,Pilier,1,1924,Rugby Club Toulonnais
+178,BALLARIN,Jacques,1902-04-11,"Trois-quarts aile, trois-quarts centre",3,1924-25,"Stadoceste Tarbais, Stade Toulousain"
+179,CLAUZEL,François,1900-03-19,Troisième ligne aile,3,1924-25,"Association Sportive Biterroise, Racing Club Narbonnais"
+180,BONNES,Etienne,1894-09-16,Arrière,3,1924,Racing Club Narbonnais
+181,DUPOUY,Albert,1901-02-21,Trois-quarts centre,2,1924,Sports Athlétiques Bordelais
+182,BIOUSSA,Alexandre,1901-03-17,Troisième ligne aile,21,1924-30,Stade Toulousain
+183,ARAOU,René,1902-10-18,Pilier,1,1924,Racing Club Narbonnais
+184,GERINTES,Gilbert,1902-08-16,Troisième ligne aile,3,1924-26,Club Athlétique des Sports Généraux
+185,VAYSSE,Jean,1900-04-28,Trois-quarts centre,2,1924-26,Sporting Club Albigeois
+186,BAILLETTE,Marcel,1904-10-12,Trois-quarts centre,17,1925-32,"Union Sportive Perpignanaise, Union Sportive Quillanaise, Rugby Club Toulonnais"
+187,LE PELLEY du MANOIR,Yves,1904-08-11,Demi d’ouverture,8,1925-27,Racing Club de France
+188,MONTADE,Camille,1901-04-01,Pilier,5,1925-26,Union Sportive Perpignanaise
+189,MAURY,André,1898-05-31,Pilier,8,1925-26,Stade Toulousain
+190,MARCET,Jean,,"1896, Talonneur, pilier",7,1925-26,Sporting Club Albigeois
+191,LAURENT,Auguste,1901-04-18,Deuxième ligne,5,1925-26,Biarritz Olympique
+192,HALET,René,1899-03-17,Trois-quarts aile,3,1925,Association Sportive de Strasbourg
+193,DUCOUSSO,Jean,1900-05-12,Arrière,3,1925,Stadoceste Tarbais
+194,RAYMOND,François,1902-01-08,Trois-quarts aile,3,1925-28,Stade Toulousain
+195,BRINGEON,Adolphe,1898-01-23,Trois-quarts aile,1,1925,Biarritz Olympique
+196,LEVASSEUR,Robert,1898-01-27,Deuxième ligne,2,1925,Stade Français
+197,BARTHE,Fernand,1898-12-12,Troisième ligne aile,2,1925,Stade Bordelais Université Club
+198,DESTARAC,Louis,1902-09-01,Arrière,9,1926-27,"Stadoceste Tarbais, Union Sportive Quillanaise"
+199,PUIG,Alphonse,1901-04-03,Deuxième ligne,2,1926,Arlequins Club Perpignanais
+200,GRAULE,Vincent,1904-01-22,"Trois-quarts centre, demi d'ouverture",6,1926-31,"Arlequin Club Perpignanais, Lyon Olympique Universitaire"
+201,LLARI,Roger,1903-04-05,Demi de mêlée,1,1926,Association Sportive Carcassonnaise
+202,GRACIET,René,1904-07-24,"Trois-quarts centre, demi d'ouverture",6,1926-30,"Stade Bordelais Université Club, Association Sportive de la Bourse"
+203,CHAPUY,Léon,,"1902, Trois-quarts centre",1,1926,Stade Français
+204,DULAURENS,Clément,1902-07-17,Trois-quarts aile,3,1926-29,Stade Toulousain
+205,REVILLON,Jean,,"1899, Trois-quarts aile",3,1926-27,"Racing Club de France, Club Athlétique des Sports Généraux"
+206,BERGES,Bernard,1900-02-01,Demi de mêlée,1,1926,Stade Toulousain
+207,SAYROU,Joseph,1898-08-12,Pilier,9,1926-29,Union Sportive Perpignanaise
+208,LAFFONT,Honoré,1901-10-06,Demi de mêlée,1,1926,Racing Club Narbonnais
+209,VILA,Ernest,1898-07-07,Trois-quarts aile,1,1926,Stadoceste Tarbais
+210,SOURGENS,Joseph,1903-09-03,Demi d'ouverture,1,1926,Club Athlétique Béglais
+211,BADER,Edouard,1899-07-26,Demi de mêlée,3,1926-27,S.S. Primevères
+212,PREVOST,Alfred,1894-05-05,Troisième ligne aile,4,1926-27,Sporting Club Albigeois
+213,BOUSQUET,René,1903-03-19,"Deuxième ligne, pilier",9,1926-30,Sporting Club Albigeois
+214,PIQUEMAL,Maixent,1907-02-18,Arrière,9,1927-30,Stadoceste Tarbais
+215,VELLAT,Pierre-Edmond,1897-02-14,Trois-quarts aile,5,1927-28,Football Club de Grenoble
+216,HUTIN,Robert,1903-09-23,Pilier,3,1927,Club Athlétique des Sports Généraux
+217,HOUDET,Robert,1905-01-12,Trois-quarts aile,10,1927-30,Stade Français
+218,VERGER,André,1906-05-28,Demi d'ouverture,7,1927-28,Stade Français
+219,CARBONNE,Jean,1902-11-06,Demi de mêlée,1,1927,Union Sportive Perpignanaise
+220,GERALD,Georges,1904-03-17,"Trois-quarts centre, trois-quarts aile",17,1927-31,Racing Club de France
+221,CAZENAVE,Albert,1902-03-07,"Troisième ligne aile, troisième ligne centre",5,1927-28,Section Paloise
+222,GALIA,Jean,1905-03-20,"Deuxième ligne, troisième ligne centre",20,1927-31,"Union Sportive Quillanaise, Club Athlétique Villeneuvois"
+223,LOURY,André,1900-05-11,Pilier,6,1927-28,Racing Club de France
+224,MORERE,Jean,1902-05-08,Pilier,4,1927-28,"Stade Toulousain, Olympique de Marseille"
+225,DESCAMPS,Paul,1903-04-28,Troisième ligne centre,1,1927,Stade Bordelais Université Club
+226,LARRIEUX,Maurice,1899-04-18,Deuxième ligne,1,1927,Stade Bordelais Université Club
+227,CAMICAS,Fernand,1899-05-07,Talonneur,10,1927-29,Stadoceste Tarbais
+228,MAGNOL,Louis,1904-10-29,Arrière,4,1928-29,Stade Toulousain
+229,COULON,Edouard,1902-10-11,Trois-quarts centre,1,1928,Football Club de Grenoble
+230,HAGET,Henri,1905-20-13,Demi d'ouverture,2,1928-30,"Club Athlétique des Sports Généraux, Biarritz Olympique"
+231,DAUDIGNON,Georges,1905-10-24,Demi de mêlée,1,1928,Stade Français
+232,BRANCA,Gérald,1903-12-29,Troisième ligne centre,3,1928-29,Stade Français
+233,CAMEL,André,1905-01-09,Deuxième ligne,16,1928-35,"Stade Toulousain, Toulouse Olympique Employés Club"
+234,PELLISSIER,Louis,1906-02-22,Arrière,5,1928,Racing Club de France
+235,BONAMY,Raoul,1905-12-13,Troisième ligne aile,2,1928,Sport Athlétique Bordelais
+236,VAILLS,Georges,1903-12-06,Talonneur,2,1928-29,Union Sportive Perpignanaise
+237,JARDEL,Jean,1906-02-24,Trois-quarts aile,2,1928,Stade Athlétique Bordelais
+238,LACAZE,Henri,1898-04-11,"Deuxième ligne, pilier",5,1928-29,Club Athlétique Périgourdin
+239,DUHAU,Jean,1906-01-05,"Pilier, talonneur, troisième ligne aile, troisième ligne centre",7,1928-33,"Stade Français, Sports Athlétiques Bordelais"
+240,HAUC,Jules,1905-05-20,Pilier,5,1928-29,Rugby Club Toulonnais
+241,SERIN,Lucien,1902-11-08,Demi de mêlée,12,1928-31,Association Sportive Biterroise
+242,MAJERUS,Richard,1905-06-10,Deuxième ligne,8,1928-30,Stade Français
+243,CAUSSARIEU,Georges,1906-07-04,Trois-quarts centre,1,1929,Section Paloise
+244,SARRADE,Robert,1904-02-19,Demi d'ouverture,1,1929,Section Paloise
+245,AUGE,Joseph,1904-03-19,"Troisième ligne aile, troisième ligne centre",2,1929,Union Sportive Dacquoise
+246,DOMEC,Albert,1910-10-07,Trois-quarts aile,1,1929,Association Sportive Carcassonnaise
+247,CAMEL,Marcel,1903-07-27,"Troisième ligne aile, troisième ligne centre",2,1929,Stade Toulousain
+248,DUCHE,André,1907-03-13,Trois-quarts aile,1,1929,Sports Athlétiques Universitaires de Limoges
+249,SOLER,Marcel,1905-04-22,Trois-quarts aile,1,1929,Union Sportive Quillanaise
+250,CUTZACH,Amédée,1904-06-04,Demi d'ouverture,1,1929,Union Sportive Quillanaise
+251,CLADY,André,1905-03-31,"Troisième ligne aile, deuxième ligne",5,1929-31,Football Club Lézignanais
+252,BARRERE,Paul,1905-10-09,Deuxième ligne,2,1929-31,Rugby Club Toulonnais
+253,SAMATAN,Robert,1909-04-16,Trois-quarts aile,10,1930-31,Sporting Union Agenais
+254,CHOY,Joseph,1905-08-19,"Pilier, deuxième ligne",10,1930-36,"Racing Club Narbonnais, Association Sportive Carcassonnaise"
+255,BIGOT,Charles,1906-02-04,"Talonneur, troisième ligne aile",4,1930-31,"Union Sportive Quillanaise, Football Club Lézignanais, 255 bis, PORRA, Maurice, 17.05.1906, Talonneur, 1, 1931, Football Club de Lyon"
+256,AMBERT,Albert,1902-03-15,"Pilier, Talonneur",5,1930,Stade Toulousain
+257,TAILLANTOU,Jean,1905-02-17,Trois-quarts aile,3,1930,Section Paloise
+258,FABRE,Léopold,1907-02-06,Talonneur,1,1930,Football Club Lézignanais
+259,SAVY,Maurice,1906-09-22,Arrière,5,1931-36,Association Sportive Montferrandaise
+260,AUGRAS-FABRE,Lucien,1912-08-13,Trois-quarts aile,3,1931,Sporting Union Agenais
+261,SERVOLE,Léopold,1906-09-22,Demi d'ouverture,7,1931-35,"Rugby Club Toulonnais, Racing Club Hyérois"
+262,CAMO,Ernest,1902-05-29,"Troisième ligne aile, troisième ligne centre, deuxième ligne",6,1931-32,Club Athlétique Villeneuvois
+263,RODRIGO,Marius,1908-03-16,"Deuxième ligne, pilier",2,1931,Sport Athlétique Mauléonais
+264,ROUSIE,Max,1912-07-18,Demi de mêlée,4,1931-33,Club Athlétique Villeneuvois
+265,DUCLOS,Antoine,1900-02-05,Pilier,1,1931,Football Club Lourdais
+266,SCOHY,Robert,1909-04-28,"Talonneur, pilier",4,1931,Bordeaux Etudiants Club
+267,VIGERIE,Max,1906-11-28,Trois-quarts centre,1,1931,Sporting Union Agenais
+268,CLEMENT,Georges,1902-05-17,Trois-quarts centre,1,1931,Racing Club de France
+269,PETIT,Charles,1903-01-06,Deuxième ligne,1,1931,Stade Universitaire Lorrain
+270,GUELORGET,Pierre,1906-03-10,Trois-quarts aile,2,1932,Racing Club de France
+271,TRIVIAUX,Roger,,,,,
+272,EMPEREUR-BUISSON,Henri,1904-08-04,Pilier,2,1931,Association Sportive Biterroise
+273,NAMUR,René,1909-12-12,Talonneur,2,1931,Rugby Club Toulonnais
+274,GUIRAL,Marius,1904-12-16,Arrière,3,1931-33,Sporting Union Agenais
+275,CHAUD,Eugène,1906-03-02,"Trois-quarts aile, arrière",3,1932-35,Rugby Club Toulonnais
+276,CODERC,Jean,1909-08-10,Trois-quarts centre,5,1932-36,Racing Club Chalonnais
+277,FINAT,René,1909-06-15,Trois-quarts aile,2,1932-33,Club Athlétique des Sports Généraux
+278,BARBAZANGES,Antonin,1907-04-15,"Demi d'ouverture, trois-quarts centre",2,1932-33,N.A.C. Roanne
+279,DE MALHERBE,Henri,1910-02-09,"Troisième ligne aile, Troisième ligne centre",2,1932-33,Club Athlétique des Sports Généraux
+280,CLAUDEL,Roger,1911-04-10,Troisième ligne aile,2,1932-34,Lyon Olympique Universitaire
+281,COGNET,Lucien,1909-05-22,"Deuxième ligne, troisième ligne aile, troisième ligne centre",5,1932-37,Association Sportive Montferrandaise
+282,GRIFFARD,Joseph,1905-11-13,"Pilier, deuxième ligne",3,1932-34,Lyon Olympique Universitaire
+283,LAURENT,Marcel,1909-04-17,Pilier,5,1932-36,"Football Club Auscitain, Avenir Valencien"
+284,POTEL,Albert,1903-09-18,Talonneur,1,1932,Club Athlétique Béglais
+285,RAYNAUD,Firmin,1912-04-24,Trois-quarts aile,1,1933,Association Sportive Carcassonnaise
+286,DAGUERRE,Jean,1907-09-12,Demi d'ouverture,1,1933,Club Athlétique des Sports Généraux
+287,AINCIART,Edouard,1908-12-21,Talonneur,6,1933-38,Aviron Bayonnais
+288,ESCAFFRE,Pierre,1911-02-01,Pilier,2,1933-34,Racing Club Narbonnais
+289,CUSSAC,Pierre,1909-08-21,Trois-quarts aile,1,1934,Biarritz Olympique
+290,DESCLAUX,Joseph,1912-02-01,"Trois-quarts centre, demi d'ouverture",10,1934-45,Union Sportive Arlequins Perpignanais
+291,DULUC,André,1911-07-02,Trois-quarts aile,1,1934,Association Sportive Bitteroise
+292,LOMBARD,François,1906-02-10,"Demi de mêlée, troisième ligne aile",2,1934-37,Racing Club Narbonnais
+293,BLAIN,Antoine,1911-12-24,Troisième ligne aile,1,1934,Association Sportive Carcassonnaise
+294,DUPONT,Louis,1910-11-14,Troisième ligne centre,6,1934-38,Racing Club de France
+295,CELHAY,Maurice,1911-05-17,Trois-quarts aile,6,1935-40,Aviron Bayonnais
+296,BOYER,Paul,1908-05-19,Demi de mêlée,1,1935,Rugby Club Toulonnais
+297,BLOND,Jean,1909-04-11,Troisième ligne aile,6,1935-38,Stade Français
+298,RAYNAL,François,1904-02-16,Troisième ligne aile,5,1935-37,Union Sportive Arlequins Perpignanais
+299,DOROT,Jacques,1906-11-04,Deuxième ligne,1,1935,Racing Club de France
+300,VIGNEAU,Armand,1914-07-02,Trois-quarts aile,1,1935,Aviron Bayonnais
+301,GESCHWIND,Pierre,1911-03-31,Trois-quarts aile,2,1936,Racing Club de France
+302,LIBAROS,Georges,1912-02-29,"Demi d'ouverture, trois-quarts centre",2,1936-40,Stadoceste Tarbais
+303,THIERS,Pierre,1914-04-16,"Demi de mêlée, troisième ligne aile",9,1936-45,"Association Sportive Montferrandaise, S. A. Thiers"
+304,ITHURRA,Etienne,1905-05-17,Deuxième ligne,3,1936-37,Biarritz Olympique
+305,GOYARD,André,1910-06-27,"Deuxième ligne, pilier",7,1936-38,Lyon Olympique Universitaire
+306,DAGUERRE,Francis,1908-10-31,Pilier,1,1936,Biarritz Olympique
+307,ROCHON,Aimé,1906-03-29,Talonneur,1,1936,Association Sportive Montferrandaise
+308,SAHUC,Frantz,1910-11-13,Arrière,1,1936,Stade Toulousain
+309,BERGESE,Félix,1914-01-11,Trois-quarts centre,6,1936-38,Aviron Bayonnais
+310,MILLIAND,Pierre,1913-03-27,Trois-quarts aile,3,1936-37,Football Club de Grenoble
+311,ELISSALDE,Edmond,1908-01-30,"Demi d'ouverture, trois-quarts centre",2,1936-40,Aviron Bayonnais
+312,CLAVE,Jean,1915-03-02,Talonneur,3,1936-38,Sporting Union Agenais
+313,MASSE,Henri,1908-11-07,Arrière,1,1937,Football Club de Grenoble
+314,LAVAIL,Gilbert,1917-07-12,Demi d’ouverture,2,1937-40,Union Sportive Arlequins Perpignanais
+315,AGUILAR,David,1905-11-25,Deuxième ligne,1,1937,Section Paloise
+316,DAULOUEDE,Pierre,1909-07-27,Pilier,4,1937-40,Union Sportive Tyrossaise
+317,BONNUS,Michel,1915-03-23,Arrière,5,1937-40,Rugby Club Toulonnais
+318,DEYGAS,Marcel,1908-08-28,Trois-quarts centre,1,1937,Club Sportif de Vienne
+319,FABRE,Emile,1916-04-09,Deuxième ligne,3,1937-38,Stade Toulousain
+320,DELQUE,Antonin,1911-07-07,Deuxième ligne,4,1937-38,Stade Toulousain
+321,CALS,Robert,1913-03-19,Trois-quarts aile,1,1938,Racing Club de France
+322,CHASSAGNE,Jean,1914-05-07,Demi d'ouverture,1,1938,Association Sportive Montferrandaise
+323,CLARAC,Henri,,,,,
+324,LEFORT,Jean-Baptiste,1908-02-22,Deuxième ligne,1,1938,Biarritz Olympique
+325,CAUNEGRE,Robert,1913-01-30,Trois-quarts aile,2,1938,Stade Bordelais Université Club
+326,LE GOFF,Raymond,1913-07-04,Trois-quarts aile,2,1938,Union Sportive Métropolitaine
+327,VASSAL,Guy,1914-11-12,"Demi de mêlée, demi d'ouverture",2,1938,Association Sportive Carcassonnaise
+328,PALAT,Jacques,1915-05-25,Troisième ligne aile,1,1938,Union Sportive Arlequins Perpignanais
+329,LOMBARTEIX,René,1913-02-22,"Deuxième ligne, pilier",2,1938,Association Sportive Montferrandaise
+330,RAPIN,André,1911-04-18,Trois-quarts centre,1,1938,Stade Bordelais Université Club
+331,AROTÇA,René,1914-02-28,Troisième ligne aile,1,1938,Aviron Bayonnais
+332,DOUSSAU,Emile,1909-03-07,Pilier,1,1938,Sporting Club d’Angoulême
+333,TOURTE,Robert,,,,,
+334,PEYRELADE,Henri,1917-12-30,Demi de mêlée,1,1940,Stadoceste Tarbais
+335,FERRAND,Lucien,1909-01-04,Troisième ligne aile,1,1940,Racing Club Chalonnais
+336,CHARTON,Pierre,1913-12-13,Troisième ligne centre,1,1940,Association Sportive Montferrrandaise
+337,TUCOO-CHALA,Marcel,,,,,
+338,DUTREY,Joseph,1914-09-17,Deuxième ligne,1,1940,Football Club Lourdais
+339,MERET,François,1914-05-08,Pilier,1,1940,Stadoceste Tarbais
+340,PAUL,Roger,1911-06-15,Talonneur,1,1940,Association Sportive Montferrandaise
+341,MINJAT,Roger,1920-08-03,Arrière,1,1945,Football Club Lyonnais
+342,GENESTE,Robert,1921-03-12,Trois-quarts aile,2,1945-49,"Bordeaux Etudiants Club, Club Athlétique Béglais"
+343,JUNQUAS,Louis,1920-09-11,Trois-quarts centre,13,1945-48,"Union Sportive Tyrossaise, Aviron Bayonnais"
+344,DAUGER,Jean,1919-11-12,Trois-quarts centre,3,1945-53,Aviron Bayonnais
+345,BALADIE,Georges,1917-05-20,"Trois-quarts aile, trois-quarts centre",6,1945-46,"Sporting Union Agenais, Union Sportive Bergeracoise"
+346,BERGOUGNAN,Yves,1924-05-08,Demi de mêlée,17,1945-49,Stade Toulousain
+347,SAHUC,André,1914-08-04,Troisième ligne centre,2,1945,Union Sportive Métropolitaine
+348,PRAT,Jean,1923-08-01,Troisième ligne aile,51,1945-55,Football Club Lourdais
+349,MOGA,Alban,1923-05-01,Deuxième ligne,22,1945-49,Cercle Athlétique Béglais
+350,SORO,Robert,1922-11-28,Deuxième ligne,21,1945-49,"Football Club Lourdais, Union Sportive Romanaise et Péageoise"
+351,PRIN-CLARY,Jean,1912-07-15,"Pilier, deuxième ligne",10,1945-47,"Sporting Union Cavaillonnais, Club Athlétique Briviste"
+352,JARASSE,Auguste,1915-02-12,Talonneur,1,1945,Club Athlétique Briviste
+353,MASSARE,Jean,1922-08-29,Pilier,6,1945-46,Paris Université Club
+354,ROUFFIA,Lucien,1924-01-06,Arrière,4,1945-48,"Racing Club Narbonnais, Union Sportive Romanaise et Péageoise"
+355,CHABAN-DELMAS,Jacques,1915-03-07,Trois-quarts aile,1,1945,Club Athlétique des Sports Généraux
+356,ALVAREZ,André,1923-05-26,"Demi d'ouverture, arrière",20,1945-51,"Aviron Bayonnais, Racing Club de France, Union Sportive Tyrossaise"
+357,COMBES,Gaston,1920-02-29,Demi de mêlée,1,1945,Union Sportive Fuméloise Libossienne
+358,VILAGRA,Jean,1918-06-21,Talonneur,1,1945,Club Sportif de Vienne
+359,DUTRAIN,Henri,1922-07-03,"Trois-quarts aile, trois-quarts centre",8,1945-49,Stade Toulousain
+360,PEBEYRE,Elie,1923-01-27,Trois quarts aile,8,1945-47,"Union Sportive Fumeloise et Libossienne, Club Athlétique Briviste"
+361,TERREAU,Maurice,1923-01-30,"Demi d'ouverture, trois-quarts centre",17,1945-51,Union Sportive Bressane
+362,MATHEU-CAMBAS,Jean,1920-06-23,Troisième ligne aile,24,1945-51,"Sporting Union Agenais, Castres Olympique"
+363,BASQUET,Guy,1921-07-13,Troisième ligne centre,33,1945-52,Sporting Union Agenais
+364,VOLOT,Marcel,1917-06-27,Talonneur,5,1945-46,Stade Français
+365,KAEMPF,Albert,1921-03-31,Trois-quarts aile,1,1946,Saint-Jean-de-Luz Olympique
+366,SORRONDO,Michel,1919-07-16,"Trois-quarts centre, arrière",6,1946-48,Union Sportive Montalbanaise
+367,BUZY,Eugène,1917-02-13,Pilier,17,1946-49,Football Club Lourdais
+368,LASSEGUE,Jean,1924-02-15,Trois-quarts aile,9,1946-49,Stade Toulousain
+369,JOL,Marcel,1923-03-16,Talonneur,10,1947-49,Biarritz Olympique
+370,CARON,Lucien,1916-12-13,Pilier,10,1947-49,"Lyon Olympique Universitaire, Castres Olympique"
+371,JEANJEAN,Pierre,1924-02-03,Trois-quarts aile,1,1948,Rugby Club Toulonnais
+372,POMATHIOS,Michel,1924-03-18,Trois-quarts aile,24,1948-54,"Sporting Union Agenais, Lyon Olympique Universitaire, Union Sportive Bressane"
+373,MARTIN,Lucien,1920-09-28,Talonneur,6,1948-50,Section Paloise
+374,DUFAU,Gérard,1924-08-27,Demi de mêlée,38,1948-57,Racing Club de France
+375,DIZABO,Pierre,1929-10-04,"Trois-quarts centre, demi d'ouverture",11,1948-60,"Union Sportive Tyrossaise, Racing Club de France"
+376,LACAUSSADE,Roger,1922-01-30,Trois-quarts aile,2,1948,Club Athlétique Béglais
+377,BORDENAVE,Léon,1920-05-11,Demi d'ouverture,5,1948-49,Rugby Club Toulonnais
+378,ARISTOUY,Pierre,1920-10-18,"Pilier, deuxième ligne",6,1948-50,Section Paloise
+379,SIMAN,Maurice,1924-07-12,Trois-quarts aile,6,1948-50,"Association Sportive Montferrandaise, Castres Olympique"
+380,BAUDRY,Noël,1914-04-01,Arrière,5,1949,Association Sportive Montferrandaise
+381,PILON,Jean,1925-10-14,Demi d’ouverture,2,1949-50,Club Athlétique Périgourdin
+382,DESCLAUX,Francis,1926-02-09,Trois-quarts centre,3,1949-53,Racing Club de France
+383,LACRAMPE,Félix,1924-12-12,Troisième ligne centre,1,1949,Association Sportive Biterroise
+384,ARCALIS,Roger,1927-06-01,Arrière,5,1950-51,Club Athlétique Briviste
+385,LAUGA,Pierre,1922-01-17,"Demi d’ouverture, trois-quarts centre",4,1950,Racing Club de Vichy
+386,MERQURY,Jacques,1929-09-26,Trois-quarts centre,4,1950,Rugby Club Toulonnais
+387,BIENES,René,1923-08-02,"Troisième ligne aile, pilier, troisième ligne centre",29,1950-56,Union Sportive Cognaçaise
+388,BONNUS,Firmin,1924-08-25,Deuxième ligne,4,1950,Rugby Club Toulonnais
+389,LAVERGNE,Pierre,1922-03-18,Pilier,1,1950,Union Sportive Athlétique de Limoges
+390,FERRIEN,Roger,1924-11-09,Pilier,4,1950,Stadoceste Tarbais
+391,LASAOSA,Paul,1927-07-13,"Demi de mêlée, trois-quarts centre",6,1950-55,Union Sportive Dacquoise
+392,HERICE,Daniel,1921-09-07,Troisième ligne aile,1,1950,Club Athlétique Béglais
+393,PASCALIN,Pierre,1926-09-21,Talonneur,7,1950-51,Stade Montois
+394,BRUN,Georges,1922-12-23,"Arrière, trois-quarts centre, trois-quarts aile",14,1950-53,Club Sportif de Vienne
+395,CAZENAVE,Fernand,1924-11-26,Trois-quarts aile,6,1950-54,"Racing Club de France, Stade Montois"
+396,FOURNET,Franck,1922-11-26,Demi d'ouverture,1,1950,Association Sportive Montferrandaise
+397,PORTHAULT,Alain,1929-07-15,Trois-quarts aile,7,1951-53,Racing Club de France
+398,CARABIGNAC,Georges,1929-10-10,Demi d'ouverture,7,1951-53,Sporting Union Agenais
+399,FOURES,Henri,1925-08-29,Deuxième ligne,4,1951,Stade Toulousain
+400,MIAS,Lucien,1930-09-28,Deuxième ligne,29,1951-59,Sporting Club Mazamétain
+401,BERNARD,René,1925-05-11,Pilier,4,1951,Union Sportive Bergeracoise
+402,BELLETANTE,Guy,1927-03-13,Trois-quarts centre,3,1951,Stade Nantais
+403,PRAT,Maurice,1928-11-17,Trois-quarts centre,32,1951-58,Football Club Lourdais
+404,OLIVE,Dacien,1924-07-12,Trois-quarts aile,2,1951-52,Association Sportive Montferrandaise
+405,BERTRAND,Pierre,1927-10-27,Pilier,8,1951-53,Union Sportive Bressane
+406,LABARTHETTE,Robert,1924-10-05,Arrière,1,1952,Section Paloise
+407,MARTINE,Roger,1930-01-03,"Trois-quarts centre, demi d'ouverture, arrière",25,1952-61,Football Club Lourdais
+408,FURCADE,Roger,1928-01-22,Demi d'ouverture,1,1952,Union des Sports Athlétiques Perpignanais
+409,BOURDEU,Jean-Roger,1927-03-06,"Troisième ligne aile, trois-quarts aile",9,1952-53,Football Club Lourdais
+410,VARENNE,François,1926-07-26,Deuxième ligne,1,1952,Racing Club de France
+411,CHEVALLIER,Bernard,1925-12-07,Deuxième ligne,26,1952-57,Association Sportive Montferrandaise
+412,LABADIE,Paul,1928-04-27,Talonneur,21,1952-57,Aviron Bayonnais
+413,BREJASSOU,René,1929-08-12,"Pilier, deuxième ligne",15,1952-55,Stadoceste Tarbais
+414,LABAZUY,Antoine,1929-02-09,Demi d'ouverture,11,1952-59,Football Club Lourdais
+415,GUILLEUX,Pierre,1924-12-15,Arrière,2,1952,Sporting Union Agenais
+416,COLOMBIER,Jean,1928-09-23,Trois-quarts aile,3,1952,Association Sportive de Saint Junien
+417,MAURAN,Jacques,1937-12-10,Trois-quarts aile,7,1957-61,Club Athlétique Périgourdin
+418,ROGE,Lucien,1932-10-19,"Trois-quarts aile, trois-quarts centre",16,1952-60,Association Sportive Biterroise
+419,SANAC,André,1929-08-04,"Pilier, deuxième ligne",10,1952-57,Union des Sports Athlétiques Perpignanais
+420,LECOINTRE,Michel,1926-07-03,Demi d’ouverture,1,1952,Stade Nantais Université Club
+421,ROUAN,Jean-Claude,1933-10-30,Arrière,2,1953,Racing Club Narbonnais
+422,TIGNOL,Paul,1933-05-26,"Deuxième ligne, troisième ligne centre",2,1953,Stade Toulousain
+424,HAGET,André,1931-04-26,Demi d'ouverture,14,1953-58,Paris Université Club
+425,CELAYA,Michel,1930-07-04,"Troisième ligne centre, deuxième ligne",48,1953-61,"Biarritz Olympique, Stade Bordelais Université Club"
+426,CARRERE,Robert,1921-03-13,Pilier,2,1953,Stade Montois
+427,ARRIETA,Julien,1924-09-11,Talonneur,2,1953,Stade Français
+428,VANNIER,Michel,1931-07-21,Arrière,43,1953-61,"Racing Club de France, Racing Club Chalonnais"
+429,GALY,Joseph,1929-12-22,Trois-quarts centre,1,1953,Union des Sports Athlétiques Perpignanais
+430,BIDART,Laurent,1930-01-11,Demi d'ouverture,1,1953,Stade Rochelais
+431,DOMEC,Henri,1932-08-09,Troisième ligne aile,20,1953-58,Football Club Lourdais
+432,PARGADE,Jean-Henri,1928-09-21,Trois quarts centre,1,1953,Lyon Olympique Universitaire
+433,DARRIEUSECQ,Jean,1924-03-06,Demi de mêlée,1,1953,Stade Montois
+434,BOUQUET,Jacques,1933-06-03,"Trois-quarts centre, demi d'ouverture",35,1954-62,"Club Sportif de Bourgoin-Jallieu, Club Sportif de Vienne"
+435,BAULON,Robert,1930-10-21,"Troisième ligne centre, deuxième ligne, troisième ligne aile",19,1954-58,"Club Sportif de Vienne, Aviron Bayonnais"
+436,BONIFACE,André,1934-08-14,"Trois-quarts aile, trois-quarts centre",48,1954-66,Stade Montois
+437,CLAVERIE,Henri,1925-01-21,Arrière,2,1954,Football Club Lourdais
+438,DOMENECH,Amédée,1933-05-03,Pilier,50,1954-63,"Racing Club de Vichy, Club Athlétique Briviste"
+439,ALBALADEJO,Pierre,1933-12-14,"Arrière, demi d'ouverture",30,1954-64,Union Sportive Dacquoise
+440,LEPATEY,Jacques,1929-09-25,Trois-quarts aile,6,1954-58,Sporting Club Mazamétain
+441,MURILLO,Gérard,1932-02-09,"Trois-quarts aile, trois-quarts centre",2,1954,Stade Dijonnais
+442,LARREGUY,Gilbert,1931-05-06,Troisième ligne aile,1,1954,Aviron Bayonnais
+443,BICHINDARITZ,Jean,1928-05-03,Pilier,3,1954,Biarritz Olympique
+444,BENETIERE,Jean,1928-10-02,Talonneur,2,1954,Association Sportive Roannaise
+445,MEYNARD,Jacques,1935-09-28,"Trois-quarts centre, arrière",3,1954-61,Union Sportive Cognaçaise
+446,BASAURI,Robert,1934-08-30,Demi d'ouverture,1,1954,Sporting Club Albigeois
+447,DANOS,Pierre,1929-06-04,Demi de mêlée,17,1954-60,"Rugby Club Toulonnais, Association Sportive Biterroise"
+448,DUFFAUT,Yves,1932-12-24,Troisième ligne aile,2,1954,Sporting Union Agenais
+449,BARTHE,Jean,1932-07-22,"Troisième ligne aile, deuxième ligne, troisième ligne centre",26,1954-59,"Stade Bordelais Université Club, Football Club Lourdais"
+450,CAPITANI,Philibert,1928-07-31,Deuxième ligne,2,1954,Rugby Club Toulonnais
+451,MOREL,André,1927-11-20,Trois-quarts aile,1,1954,Football Club de Grenoble
+452,LAZIES,Henri,1929-11-01,"Deuxième ligne, pilier, troisième ligne centre",4,1954-57,"Football Club Auscitain, Stade Toulousain"
+453,RANCOULE,Henri,1933-02-06,Trois-quarts aile,26,1955-62,"Football Club Lourdais, Rugby Club Toulonnais, Stadoceste Tarbais"
+454,CHIBERRY,Jacques,1929-09-07,Trois-quarts aile,1,1955,Stade Olympique Chambérien
+455,ESCOMMIER,Marcel,1933-10-12,Talonneur,1,1955,Union Sportive Montilienne
+456,MANTEROLA,Thomas,1927-12-19,"Troisième ligne centre, pilier",2,1955-57,Football Club Lourdais
+457,TORREILLES,Serge,1931-12-31,Trois-quarts aile,1,1956,Union Sportive Athlétique Perpignanaise
+458,STENER,Guy,1931-02-11,"Trois-quarts centre, trois-quarts aile",5,1956-58,Paris Université Club
+459,DUPUY,Jean-Vincent,1934-05-25,"Trois-quarts aile, trois-quarts centre",41,1956-64,Stadoceste Tarbais
+460,CARRERE,Jean,1930-04-05,Troisième ligne aile,9,1956-60,"Racing Club de Vichy, Rugby Club Toulonnais"
+461,ROUCARIES,Gérard,1932-08-13,Deuxième ligne,1,1956,Union des Sports Athlétiques Perpignanais
+462,VIGIER,Robert,1926-12-05,Talonneur,24,1956-59,Association Sportive Montferrandaise
+463,PAUTHE,Guy,1932-10-24,Demi de mêlée,1,1956,Sporting Club Graulhetois
+464,MONIE,René,1934-01-02,Trois-quarts centre,2,1956-57,Union des Sports Athlétiques Perpignanais
+465,GAUBY,Georges,1933-06-27,Demi de mêlée,1,1956,Union des Sports Athlétiques Perpignanais
+466,MONCLA,François,1932-04-01,"Deuxième ligne, troisième ligne aile",29,1956-61,"Racing Club de France, Section Paloise"
+467,DARROUY,Christian,1937-01-13,Trois-quarts aile,40,1957-67,Stade Montois
+468,HOCHE,Michel,1932-09-20,Deuxième ligne,5,1957,Paris Université Club
+469,MAUDUY,Gérard,1937-12-10,Trois-quarts aile,7,1957-61,Club Athlétique Périgourdin
+470,DARRACQ,Roland,1933-01-20,Troisième ligne aile,1,1957,Union Sportive Dacquoise
+471,CASSAGNE,Paul,1931-01-22,Deuxième ligne,1,1957,Section Paloise
+472,VIGNES,Christian,1934-06-05,"Trois-quarts centre, demi d'ouverture",4,1957-58,Racing Club de France
+473,CRAUSTE,Michel,1934-07-06,"Troisième ligne centre, troisième ligne aile",62,1957-66,"Racing Club de France, Football Club Lourdais"
+474,NORMAND,Adrien,1932-10-11,Deuxième ligne,1,1957,Stade Toulousain
+475,QUAGLIO,Aldo,1932-02-17,Pilier,13,1957-59,Sporting Club Mazamétain
+476,TARRICQ,Pierre,1929-05-18,Trois-quarts aile,4,1958,Football Club Lourdais
+477,LACROIX,Pierre,1935-01-23,Demi de mêlée,28,1958-63,"Stade Montois, Sporting Union Agenais."
+478,ROQUES,Alfred,1925-02-17,Pilier,28,1958-63,Stade Cadurcien
+479,MARQUESUZAA,Arnaud,1934-07-14,Trois-quarts centre,10,1958-60,Racing Club de France
+480,MOMMEJAT,Bernard,1934-05-18,Deuxième ligne,22,1958-63,"Stade Cadurcien, Sporting Club Albigeois"
+481,LACAZE,Pierre,1934-05-04,Arrière,7,1958-59,Football Club Lourdais
+482,ECHAVE,Louis,1934-06-18,"Troisième ligne aile, deuxième ligne",2,1958-61,Sporting Union Agenais
+483,FREMEAUX,André,1928-11-06,"Deuxième ligne, troisième ligne centre",1,1958,Paris Université Club
+484,BARRIERE,Raoul,1928-03-03,Pilier,2,1958-60,Association Sportive Biterroise
+485,DE GREGORIO,Jean,1935-12-09,Talonneur,22,1958-64,Football Club de Grenoble
+486,MERICQ,Serge,1937-07-16,Trois-quarts aile,5,1959-61,Sporting Union Agenais
+487,MANTOULAN,Claude,1936-03-05,Demi d'ouverture,1,1959,Section Paloise
+488,CAZAUX,Louis,1938-07-15,"Trois-quarts centre, arrière",3,1959-62,Stadoceste Tarbais
+489,MEYER,Sylvain,1934-06-01,"Troisième ligne aile, trois-quarts aile",6,1960-61,Club Athlétique Périgourdin
+490,BONIFACE,Guy,1937-03-06,Trois-quarts centre,35,1960-66,Stade Montois
+491,LARRUE,Hervé,1935-07-05,Deuxième ligne,5,1960,Union Sportive Carmausine
+492,SAUX,Jean-Pierre,1928-11-13,"Deuxième ligne, pilier",21,1960-63,Section Paloise
+493,OTHATS,Jean,1937-05-06,Trois-quarts centre,1,1960,Union Sportive Dacquoise
+494,LACOME,Michel,1935-09-28,Trois-quarts centre,1,1960,Section Paloise
+495,BRETHES,Roger,1936-01-31,Arrière,1,1960,Sport Athlétique Saint-Séverin
+496,CRANCEE,Roland,1932-09-24,Troisième ligne centre,2,1960-61,Football Club Lourdais
+497,ROLLET,Jacques,1934-08-18,Talonneur,5,1960-63,Aviron Bayonnais
+499,GACHASSIN,Jean,1941-12-23,"Trois-quarts aile, demi d'ouverture, arrière, trois-quarts centre",32,1961-69,Football Club Lourdais
+500,BOUGUYON,Gérard,1935-11-24,"Deuxième ligne, pilier",9,1961,Football Club de Grenoble
+501,PUGET,Marcel,1940-09-28,Demi de mêlée,17,1961-70,"Stade Toulousain, Club Athlétique Briviste"
+502,CALVO,Guy,1933-05-13,Trois-quarts aile,2,1961,Football Club Lourdais
+503,CAZALS,Pierre,1931-02-08,Pilier,3,1961,Stade Montois
+504,LAUDOUAR,Jean,1934-01-03,Talonneur,5,1961-62,"Association Sportive Soustonnaise, Stade Bordelais Université Club"
+505,LACAZE,Claude,1940-03-05,"Arrière, trois-quarts aile, demi d'ouverture",33,1961-69,"Football Club Lourdais, Sporting Club d'Angoulême."
+506,PIQUE,Jean,1935-09-17,"Trois-quarts centre, trois-quarts aile",18,1961-65,Section Paloise
+507,LEFEVRE,Roland,1936-09-19,Troisième ligne centre,1,1961,Club Athlétique Briviste
+508,CAMBERABERO,Guy,1936-05-17,Demi d'ouverture,14,1961-68,La Voulte Sportif
+509,CASSIEDE,Marcel,1934-01-01,Deuxième ligne,3,1961,Union Sportive Dacquoise
+510,PLANTEY,Serge,1940-02-14,"Trois-quarts aile, Demi d’ouverture",2,1961-62,Racing Club de France
+511,CAMBERABERO,Lilian,1937-07-15,Demi de mêlée,14,1961-68,La Voulte Sportif
+512,SERIN,Jacques,1934-08-01,Demi de Mêlée,1,1961,Sporting Club Mazamétain
+513,VIDAL,Claude,1937-04-17,Deuxième ligne,1,1961,Sporting Club Mazamétain
+514,BIANCO,Antoine,1936-11-08,Pilier,1,1961,Football Club Auscitain
+515,MARRACQ,Henri,1937-11-21,Troisième ligne aile,1,1961,Section Paloise
+516,LE BOURHIS,René,1932-04-17,Deuxième ligne,1,1961,Stade Rochelais
+517,GENSANE,Roger,1934-02-04,Troisième ligne aile,7,1962-63,Association Sportive Biterroise
+518,ROMERO,Henri,1935-09-21,"Troisième ligne centre, troisième ligne aile",7,1962-63,Union Sportive Montalbanaise
+519,LABORDE,Claude,1940-08-25,"Demi de mêlée, trois-quarts aile",5,1962-65,Racing Club de France
+520,RAZAT,Jean-Pierre,1940-10-15,Arrière,4,1962-63,Sporting Union Agenais
+521,ARINO,Michel,1934-02-08,Trois quarts aile,1,1962,Sporting Union Agenais
+522,LIRA,Maurice,1941-04-30,"Deuxième ligne, troisième ligne centre, troisième ligne aile",13,1962-65,La Voulte Sportif
+523,MAS,Francis,1936-11-08,Pilier,5,1962-63,Association Sportive Biterroise
+524,BESSON,Pierre,1940-04-11,Trois-quarts aile,6,1963-68,Club Athlétique Briviste
+525,FABRE,Jean,1935-11-07,Troisième ligne centre,8,1963-64,Stade Toulousain
+526,ZAGO,Fernand,1942-02-27,Pilier,2,1963,Union Sportive Montalbanaise
+527,DEDIEU,Paul,1933-05-08,Arrière,12,1963-65,Association Sportive biterroise
+528,REBUJENT,Raymond,1942-09-27,Talonneur,1,1963,Racing Club de France
+529,FITE,Roger,1938-10-13,Deuxième ligne,2,1963,Club Athlétique Briviste
+530,LASSERRE,Jean-Claude,1938-05-12,Demi de mêlée,14,1963-67,Union Sportive Dacquoise
+531,LE DROFF,Jean,1939-07-22,Deuxième ligne,10,1963-71,Football Club Auscitain
+532,HERRERO,André,1938-01-28,"Troisième ligne centre, troisième ligne aile, deuxième ligne",22,1963-67,Rugby Club Toulonnais
+533,RUPERT,Jean-Joseph,1938-03-07,Troisième ligne aile,15,1963-68,Union Sportive Tyrossaise
+534,ABADIE,Lucien,1937-08-17,Pilier,1,1963,Stadoceste Tarbais
+535,CABANIER,Jean-Michel,1936-05-13,Talonneur,28,1963-68,Union Sportive Montalbanaise
+536,BEREJNOI,Jean-Claude,1939-04-20,Pilier,27,1963-67,Sporting Club Tulliste
+537,DAUGA,Benoît,1942-05-08,"Deuxième ligne, Troisième ligne centre",63,1964-72,Stade Montois
+538,BAYARDON,Jacques,1934-01-25,Pilier,3,1964,Racing Club Chalonnais
+539,AMESTOY,Jean-Baptiste,1935-08-28,Pilier,2,1964,Stade Montois
+540,HIQUET,Jean-Claude,1939-11-04,Demi d'ouverture,2,1964,Sporting Union Agenais
+541,SITJAR,Michel,1942-09-13,Troisième ligne aile,14,1964-67,Sporting Union Agenais
+542,MENTHILLIER,Yves,1941-12-07,Talonneur,5,1964-65,Union Sportive Romanaise et Péageoise
+543,GRUARIN,Arnaldo,1938-02-05,Pilier,27,1964-68,Rugby Club Toulonnais
+544,ARNAUDET,Michel,1943-03-11,"Trois-quarts centre, trois-quarts aile",4,1964-67,Football Club Lourdais
+545,ABADIE,André,1932-01-31,Talonneur,1,1964,Section Paloise
+546,CAPDOUZE,Jean,1942-08-31,"Trois-quarts centre, demi d'ouverture",6,1964-65,Section Paloise
+547,SPANGHERO,Walter,1943-12-21,"Deuxième ligne, troisième ligne centre, troisième ligne aile",51,1964-73,Racing Club Narbonnais
+548,HALÇARREN,Raymond,1944-05-28,Trois-quarts centre,1,1964,Football Club Lourdais
+549,CESTER,Elie,1942-07-27,Deuxième ligne,36,1964-74,"Toulouse Olympique Employés Club, Valence Sportif"
+550,ETCHEVERRY,Marc,1942-08-23,Pilier,4,1964-71,Section Paloise
+551,CAMPAES,André,1944-03-30,Trois-quarts aile,14,1965-73,Football Club Lourdais
+552,ABADIE,André,1934-07-27,Pilier,7,1965-68,Sporting Club Graulhetois
+553,ROQUES,Jean-Claude,1943-03-19,Demi d'ouverture,5,1966-67,Club Athlétique Briviste
+554,DUPRAT,Bernard,1943-07-17,Trois-quarts aile,15,1966-72,Aviron Bayonnais
+555,LAGRANGE,Jean-Claude,1942-12-04,Trois-quarts centre,1,1966,Racing Club de France
+556,MASO,Joseph,1944-12-27,"Trois-quarts centre, demi d'ouverture",25,1966-73,"Union des Sports Athlétiques Perpignanais, Racing Club Narbonnais"
+557,DOURTHE,Claude,1948-11-20,Trois-quarts centre,33,1966-75,Union Sportive Dacquoise
+558,CARRERE,Christian,1943-07-27,Troisième ligne aile,28,1966-71,Rugby Club Toulonnais
+559,SALUT,Jean,1943-04-14,"Troisième ligne aile, trois-quarts centre",7,1966-69,Toulouse Olympique Employé Club
+560,MIR,Jean-Pierre,1947-07-06,Trois-quarts centre,2,1967,Football Club Lourdais
+561,LUX,Jean-Pierre,1946-01-09,"Trois-quarts centre, trois-quarts aile",47,1967-75,"Union Sportive Tyrossaise, Union Sportive Dacquoise"
+562,FORT,Jacques,1938-01-16,"Deuxième ligne, pilier",7,1967,Sporting Union Agenais
+563,VILLEPREUX,Pierre,1943-07-05,Arrière,34,1967-71,Stade Toulousain
+564,QUILIS,André,1941-10-28,"Troisième ligne aile, trois-quarts aile",5,1967-71,Racing Club Narbonnais
+565,ESPONDA,Jean-Michel,1943-04-24,Pilier,10,1967-69,"Racing Club de France, Union des Sports Athlétiques Perpignanais"
+566,DEHEZ,Jean-Louis,1944-05-06,Demi d'ouverture,2,1967-69,Sporting Union Agenais
+567,SUTRA,Gérard,1936-03-21,Demi de mêlée,4,1967-70,Racing Club Narbonnais
+568,PLANTEFOL,Alain,1942-12-26,Deuxième ligne,11,1967-69,"Racing Club de France, Sporting Union Agenais"
+569,MALBET,Jean-Claude,1937-08-28,Talonneur,2,1967,Sporting Union Agenais
+570,LASSERRE,Michel,1940-01-21,"Pilier, troisième ligne centre, deuxième ligne",15,1967-71,Sporting Union Agenais
+571,TRILLO,Jean,,,,,
+572,LONDIOS,Jacques,1946-01-14,Trois-quarts aile,1,1967,Union Sportive Montalbanaise
+573,CRAMPAGNE,Jacques,1944-04-07,Trois-quarts aile,1,1967,Cercle Athlétique Béglais
+574,SABY,Jean,1945-06-13,Trois-quarts centre,1,1967,Sporting Club Graulhétois
+575,VIARD,Gérard,1945-05-19,Troisième ligne aile,6,1967-71,Racing Club Narbonnais
+576,CARDEBAT,Bernard,1945-10-28,Pilier,1,1967,Union Sportive Montalbanaise
+577,CAPENDEGUY,Jean-Michel,1941-03-05,Trois-quarts aile,2,1967,Cercle Athlétique Béglais
+578,LENIENT,Jean-Jacques,1943-03-23,Trois-quarts aile,1,1967,Racing Club de Vichy
+579,MIR,Jean-Henri,1945-02-21,Demi de mêlée,2,1967-68,Football Club Lourdais
+580,BONAL,Jean-Marie,1943-05-31,Trois-quarts aile,14,1968-70,Stade Toulousain
+581,NOBLE,Jean-Claude,1944-12-29,Pilier,6,1968,La Voulte Sportif
+582,YACHVILI,Michel,1946-07-25,"Talonneur, troisième ligne aile",13,1968-74,"Sporting Club Tulliste, Club Athlétique Briviste"
+583,GREFFE,Michel,1940-10-27,"Troisième ligne centre, troisième ligne aile",5,1968,Football Club de Grenoble
+584,PARIES,Lucien,1947-08-04,Demi d’ouverture,8,1968-75,"Biarritz Olympique, Racing Club de Narbonne"
+585,MORAITIS,Basile,1946-01-02,Trois-quarts aile,2,1969,Rugby Club Toulonnais
+586,BOUJET,Christian,1942-08-29,Ouverture Arrière,3,1968,Football Club de Grenoble
+587,BEROT,Jean-Louis,1947-07-28,"Demi de mêlée, demi d'ouverture",21,1968-74,"Stade Toulousain, Union Sportive Dacquoise"
+588,IRAÇABAL,Jean,1941-07-06,Pilier,35,1968-74,Aviron Bayonnais
+589,BIEMOURET,Pierre,1943-04-11,Troisième ligne aile,19,1969-73,Sporting Union Agenais
+590,CHENEVAY,Claude,1943-02-09,Troisième ligne aile,2,1968,Football Club de Grenoble
+591,ANDRIEU,Jean,1942-04-09,Demi d'ouverture,1,1968,Sporting Club Graulhetois
+592,SWIERCZINSKI,Christian,1947-07-28,Talonneur,3,1969-77,Club Athlétique Béglais
+594,HAUSER,Michel,1945-05-10,Troisième ligne aile,1,1969,Football Club Lourdais
+595,DUTIN,Bernard,1944-12-09,Troisième ligne aile,4,1968,Stade Montois
+597,MAGOIS,Henri,1947-01-01,Arrière,3,1968,Stade Rochelais
+598,BONTEMPS,Dominique,1946-05-27,Troisième ligne aile,1,1968,Stade Rochelais
+599,BAUX,Jean-Paul,1946-06-16,Talonneur,4,1968,Cercle Amical Lannemezanais
+600,BILLIERE,Michel,1943-07-16,Troisième ligne aile,1,1968,Stade Toulousain
+601,PIAZZA,André,1947-12-01,Trois-quarts aile,2,1968,Union Sportive Montalbanaise
+602,RUIZ,André,1947-03-30,Trois-quarts centre,2,1968,Stadoceste Tarbais
+603,SILLIERES,Jean,1946-11-15,Trois-quarts aile,8,1968-72,Stadoceste Tarbais
+604,BENESIS,René,1944-08-29,Talonneur,30,1969-74,"Racing Club Narbonnais, Sporting Union Agenais"
+605,AZARETE,Jean-Louis,1945-05-08,Pilier,25,1969-75,"Union Sportive Dacquoise, Saint-Jean-de-Luz Olympique"
+606,BOURGAREL,Roger,1947-04-21,Trois-quarts aile,9,1969-73,Stade Toulousain
+607,MAROT,Alain,1948-03-11,"Trois-quarts centre, arrière, demi d'ouverture",9,1969-76,Club Athlétique Briviste
+609,DARBOS,Pierre,1939-12-10,Troisième ligne aile,1,1969,Union Sportive Dacquoise
+610,BASTIAT,Jean-Pierre,1949-04-11,"Deuxième ligne, troisième ligne centre",32,1969-78,Union Sportive Dacquoise
+611,SAVITSKY,Michel,1946-10-21,Deuxième ligne,1,1969,La Voulte Sportif
+612,PEBEYRE,Michel,1948-06-21,Demi de mêlée,7,1970-73,"Racing Club de Vichy, Association Sportive Montferrandaise"
+613,CANTONI,Jack,1948-05-11,"Arrière, trois-quarts aile",17,1970-75,Association Sportive Biterroise
+614,BARRAU,Max,1950-11-20,Demi de mêlée,16,1971-74,"Stade Beaumontois, Stade Toulousain, Sporting Union Agenais"
+615,DUBOIS,Daniel,1944-06-17,Troisième ligne aile,1,1971,Club Athlétique Béglais
+616,BERTRANNE,Roland,1949-12-06,"Trois-quarts centre, trois-quarts aile",69,1971-81,"Stade Bagnérais, Rugby Club Toulonnais"
+617,SPANGHERO,Claude,1948-06-16,"Deuxième ligne, troisième ligne centre",22,1971-75,Racing Club Narbonnais
+618,ESTEVE,Alain,1946-09-15,Deuxième ligne,19,1971-75,Association Sportive Biterroise
+619,SKRELA,Jean-Claude,1949-10-01,Troisième ligne aile,46,1971-78,Stade Toulousain
+620,DUBERTRAND,André,1950-04-25,Trois-quarts aile,13,1971-76,Association Sportive Montferrandaise
+621,PARDIES,Guy,1948-08-30,Demi de mêlée,1,1971,Sporting Union Agenais
+622,BUONOMO,Yvan,1946-09-19,Troisième ligne centre,3,1971-72,Association Sportive Biterroise
+623,BOFFELLI,Victor,1947-03-20,"Troisième ligne aile, troisième ligne centre",18,1971-75,Stade Aurillacois
+624,MARTIN,Jean-Louis,1948-07-17,Pilier,4,1971-72,Association Sportive Biterroise
+625,ASTRE,Richard,1948-08-28,Demi de mêlée,12,1971-76,Association Sportive Biterroise
+626,SAISSET,Olivier,1949-06-07,"Troisième ligne aile, troisième ligne centre",17,1971-75,Association Sportive Biterroise
+627,VAQUERIN,Armand,1951-02-21,Pilier,23,1971-80,Association Sportive Biterroise
+628,AGUIRRE,Jean-Michel,1951-11-02,"Demi de mêlée, arrière",39,1971-80,Stade Bagnérais
+629,HORTOLAND,Jean-Pierre,1947-05-28,Pilier,1,1971,Association Sportive Biterroise
+630,FOUROUX,Jacques,1947-07-24,Demi de mêlée,27,1972-77,"La Voulte Sportif, Football Club Auscitain"
+631,VINSONNEAU,Bertrand,1952-06-06,Troisième ligne centre,1,1972,Union Sportive Dacquoise
+632,ROSSIGNOL,Jean-Claude,1945-08-10,"Deuxième ligne, pilier",2,1972-74,Club Athlétique Briviste
+633,LAVAGNE,Gérard,1947-10-02,Trois-quarts aile,1,1972,Association Sportive Biterroise
+634,CABROL,Henri,1947-02-11,Demi d'ouverture,5,1972-74,Association Sportive Biterroise
+635,LUBRANO,André,1946-09-19,Talonneur,2,1972-73,Association Sportive Biterroise
+636,DROITECOURT,Michel,1949-10-30,"Arrière, trois-quarts aile",17,1972-77,Association Sportive Montferrandaise
+637,ROMEU,Jean-Pierre,1948-04-15,Demi d'ouverture,35,1972-77,Association Sportive Montferrandaise
+638,DARRIEUSECQ,André,1947-06-04,Pilier,1,1973,Biarritz Olympique
+639,PHLIPONNEAU,Jean-François,1950-11-23,Trois-quarts aile,2,1973,Association Sportive Montferrandaise
+640,BADIN,Christian,1949-09-11,Trois-quarts centre,3,1973-75,"Racing Club Chalonnais, Club Athlétique Briviste"
+641,SEGUIER,Noël,1949-09-08,Trois-quarts aile,2,1973,Association Sportive Biterroise
+642,DELAIGUE,Gilles,1949-11-23,Trois-quarts centre,2,1973,Rugby Club Toulonnais
+643,ROUGERIE,Jacques,1945-06-21,Pilier,1,1973,Association Sportive Montferrandaise
+644,SAPPA,Michel,1943-03-19,Deuxième ligne,3,1973-77,Racing Rugby Club de Nice
+645,CONSTANTINO,Jean,1944-09-28,Talonneur,1,1973,Association Sportive Montferrandaise
+646,KACZOROWSKI,Daniel,1952-10-31,Troisième ligne aile,1,1974,Club Olympique Creusotin
+647,PECUNE,Joël,1951-03-03,"Trois quarts centre, trois quarts aile",10,1974-76,Stadoceste Tarbais
+648,GOURDON,Jean-François,1954-09-28,Trois-quarts aile,22,1974-80,"Racing Club de France, Stade Bagnérais"
+649,PACO,Alain,1952-05-01,Talonneur,35,1974-80,Association Sportive Biterroise
+650,SENAL,Georges,1947-04-21,Deuxième ligne,6,1974-75,Association Sportive Biterroise
+651,ETCHENIQUE,Jean-Martin,1954-01-17,Trois-quarts centre,5,1975,Biarritz Olympique
+652,HAGET,Francis,1949-10-01,Deuxième ligne,40,1974-87,"Sporting Union Agenais, Biarritz Olympique"
+653,UGARTEMENDIA,Jean-Louis,1943-07-10,Talonneur,3,1974-75,Saint-Jean-de-Luz Olympique
+654,DOSPITAL,Pierre,1950-05-15,Pilier,25,1974-85,Aviron Bayonnais
+655,PAUL,Christian,1950-07-02,Troisième ligne centre,1,1974,Stadoceste Tarbais
+656,LASSOUJADE,Serge,1945-10-26,Troisième ligne aile,1,1974,Sporting Union Agenais
+657,DESNOYER,Laurent,1948-05-19,Trois-quarts aile,2,1974,Club Athlétique Briviste
+658,TAFFARY,Michel,1950-04-25,Arrière,4,1975,Racing Club de France
+659,GUILBERT,Alain,1950-09-28,"Deuxième ligne, troisième ligne centre",14,1975-79,Rugby Club Toulonnais
+660,RIVES,Jean-Pierre,1952-12-31,Troisième ligne aile,59,1975-84,Stade Toulousain
+661,CHOLLEY,Gérard,1945-06-06,"Pilier, deuxième ligne",31,1975-79,Castres Olympique
+662,SANGALLI,François,1952-09-08,Trois-quarts centre,15,1975-77,Racing Club Narbonnais
+663,AVEROUS,Jean-Luc,1954-10-22,Trois-quarts aile,25,1975-81,La Voulte Sportif
+664,HARIZE,Dominique,1956-02-26,Trois-quarts aile,9,1975-77,Stade Toulousain
+665,PESTEIL,Jean-Pierre,1954-11-12,Demi d’ouverture,3,1975-76,Association Sportive Biterroise
+666,PERON,Patrice,1949-06-20,Troisième ligne aile,2,1975,Racing Club de France
+667,ROUSSET,Gérard,1953-01-21,Troisième ligne centre,2,1975-76,Association Sportive Biterroise
+668,PALMIE,Michel,1951-12-01,Deuxième ligne,23,1975-78,Association Sportive Biterroise
+669,PAPAREMBORDE,Robert,1948-07-05,Pilier,55,1975-83,Section Paloise
+670,BRUNET,Yves,1950-08-25,Talonneur,2,1975-77,Union des Sports Athlétiques Perpignanais
+671,IMBERNON,Jean-François,1951-10-17,Deuxième ligne,23,1976-83,Union des Sports Athlétiques Perpignanais
+672,BERGES-CAU,René,1949-10-28,Arrière,1,1976,Football Club Lourdais
+673,GASPAROTTO,Guy,1948-06-02,Deuxième ligne,2,1976,Association Sportive Montferrandaise
+674,BUSTAFFA,Daniel,1956-01-11,Trois-quarts aile,11,1977-80,Union Sportive Carcassonnaise
+675,JOINEL,Jean-Luc,1953-09-21,"Troisième ligne aile, troisième ligne centre",51,1977-87,Club Athlétique Briviste
+676,NOVES,Guy,1954-02-05,Trois-quarts aile,7,1977-79,Stade Toulousain
+677,GASC,Jacques,1949-12-24,Troisième ligne aile,1,1978,Sporting Club Graulhetois
+678,CIMAROSTI,Jacques,1950-10-23,Trois-quarts centre,1,1976,Castres Olympique
+679,BELASCAIN,Christian,1953-11-01,Trois-quarts centre,18,1977-82,Aviron Bayonnais
+680,GALLION,Jérôme,1955-04-04,Demi de mêlée,27,1978-86,Rugby Club Toulonnais
+681,VIVIES,Bernard,1953-09-03,"Demi d'ouverture, arrière",10,1978-83,Sporting Union Agenais
+682,BILBAO,Louis,1956-09-14,Trois-quarts aile,2,1978-79,Saint-Jean-de-Luz Olympique
+683,MALEIG,Alain,1952-07-10,Deuxième ligne,7,1979-80,"Football Club Oloronais, Stadoceste Tarbais."
+684,CLEMENTE,Michel,1955-11-03,Troisième ligne centre,3,1978-80,Football Club Oloronais
+685,CAUSSADE,Alain,1952-07-27,"Demi d'ouverture, trois-quarts aile",12,1978-81,Football Club Lourdais
+686,LAFARGE,Yves,1953-01-16,"Demi de mêlée, trois-quarts centre",3,1978-81,Association Sportive Montferrandaise
+687,COSTES,Frédéric,1957-06-27,Trois-quarts aile,7,1979-80,Association Sportive Montferrandaise
+688,AGUERRE,Roger,1957-03-13,Demi d'ouverture,1,1979,Biarritz Olympique
+689,MALQUIER,Yves,1956-05-07,Troisième ligne centre,1,1979,Racing Club Narbonnais
+690,MARCHAL,Jean-François,1949-12-16,Deuxième ligne,5,1979-80,Football Club Lourdais
+691,CODORNIOU,Didier,1958-02-13,Trois-quarts centre,31,1979-85,Racing Club Narbonnais
+692,BEGUERIE,Christian,1955-07-26,Troisième ligne centre,1,1979,Sporting Union Agenais
+693,COLOMINE,Guy,1955-07-11,Pilier,1,1979,Racing Club Narbonnais
+694,DINTRANS,Philippe,1957-01-29,Talonneur,50,1979-90,Stadoceste Tarbais
+695,DUBROCA,Daniel,1954-04-25,"Pilier, talonneur",33,1979-88,Sporting Union Agenais
+696,MESNY,Patrick,1954-08-19,Trois-quarts centre,14,1979-82,"Racing Club de France, Football Club de Grenoble"
+697,SALAS,Patrick,1954-03-03,"Deuxième ligne, troisième ligne centre, pilier",7,1979-82,Racing Club Narbonnais
+698,CRISTINA,Jacques,1948-07-07,Troisième ligne centre,1,1979,Association Sportive Montferrandaise
+699,CARPENTIER,Manuel,1959-15-15,"Troisième ligne centre, deuxième ligne",8,1980-82,Football Club Lourdais
+700,DUHARD,Yves,1955-07-11,Deuxième ligne,1,1980,Stade Bagnérais
+701,GABERNET,Serge,1955-02-06,Arrière,12,1980-82,Stade Toulousain
+702,PEDEUTOUR,Pierre,1955-03-30,Demi d’ouverture,1,1980,Cercle Athlétique Béglais
+703,BLANCO,Serge,1958-08-31,"Arrière, trois-quarts aile",93,1980-91,Biarritz Olympique
+704,ELISSALDE,Jean-Pierre,1953-12-31,Demi de mêlée,5,1980-81,Stade Rochelais
+705,LACANS,Pierre,1957-04-23,Troisième ligne aile,6,1980-82,Association Sportive Biterroise
+706,PARDO,Laurent,1958-02-19,"Trois quarts aile, trois quarts centre, arrière",14,1980-85,"Aviron Bayonnais, Association Sportive Montferrandaise"
+707,WOLF,Jean-Paul,1960-11-07,"Pilier, deuxième ligne",4,1980-82,Association Sportive Biterroise
+708,BUCHET,Eric,1957-11-28,Troisième ligne aile,5,1980-82,Racing Rugby Club de Nice
+709,CREMASCHI,Michel,1956-04-26,Pilier,11,1980-84,Football Club Lourdais
+710,FAUVEL,Jean-Pierre,1956-02-09,Troisième ligne aile,1,1980,Sporting Club Tulliste
+711,BERBIZIER,Pierre,1958-06-17,Demi de mêlée,60,1981-91,"Football Club Lourdais, Sporting Union Agenais"
+712,REVAILLER,Daniel,1948-08-20,Deuxième ligne,14,1981-82,Sporting Club Graulhetois
+713,LAPORTE,Guy,1952-12-15,Demi d’ouverture,16,1981-87,Sporting Club Graulhetois
+714,ERBANI,Dominique,1956-08-16,"Troisième ligne centre, troisième ligne aile, deuxième ligne",44,1981-89,Sporting Union Agenais
+715,FABRE,Michel,1956-09-11,Trois-quarts aile,5,1981-82,Association Sportive Biterroise
+716,LORIEUX,Alain,1956-03-26,Deuxième ligne,30,1981-89,"Football Club de Grenoble, Football Club d'Aix-les-Bains"
+717,MOURNET,Adrien,1953-07-05,Demi de mêlée,1,1981,Stade Bagnérais
+718,RODRIGUEZ,Laurent,1960-06-25,"Troisième ligne aile, troisième ligne centre, deuxième ligne",56,1981-90,"Stade Montois, Association Sportive Montferrandaise, Union Sportive Dacquoise"
+719,SALLEFRANQUE,Marc,1960-04-06,"Demi d'ouverture, arrière",4,1981-82,Union Sportive Dacquoise
+720,LESCARBOURA,Jean-Patrick,1961-01-19,Demi d'ouverture,28,1982-90,Union Sportive Dacquoise
+721,MARTINEZ,Gérald,1955-03-30,Demi de mêlée,7,1982-83,Stade Toulousain
+722,PERRIER,Patrick,1957-01-20,Trois quarts centre,4,1982,Aviron Bayonnais
+723,CAMBERABERO,Didier,1961-01-09,"Demi d'ouverture, arrière, trois-quarts aile",36,1982-93,"La Voulte Sportif, Association Sportive Biterroise"
+724,CHADEBECH,Pierre,1959-05-03,Trois-quarts centre,5,1982-86,Club Athlétique Briviste
+725,CONDOM,Jean,1960-08-15,Deuxième ligne,61,1982-90,"Boucau Stade, Biarritz Olympique"
+726,ESTEVE,Patrick,1959-02-14,Trois-quarts aile,25,1982-87,"Racing Club Narbonnais, Stade Lavelanetien"
+727,SELLA,Philippe,1962-02-14,"Trois-quarts centre, trois-quarts aile, arrière",111,1982-95,Sporting Union Agenais
+728,JANECZEK,Thierry,1959-08-06,Troisième ligne aile,3,1982-90,Stadoceste Tarbais
+729,ORSO,Jean-Charles,1958-01-06,"Deuxième ligne, troisième ligne centre",11,1982-88,"Racing Rugby Club de Nice, Rugby Club Toulonnais"
+730,BEGU,Jacques,1957-10-22,Trois-quarts aile,3,1982-84,Union Sportive Dacquoise
+731,DELAGE,Christian,1954-01-16,Demi d'ouverture,2,1983,Sporting Union Agenais
+732,DUPONT,Jean-Louis,1956-03-17,Talonneur,1,1983,Sporting Union Agenais
+733,HERRERO,Bernard,1957-09-19,Talonneur,2,1983-86,"Racing Rugby Club de Nice, Rugby Club Toulonnais"
+734,GARUET-LEMPIROU,Jean-Pierre,1953-06-15,Pilier,40,1983-89,Football Club Lourdais
+735,LAFOND,Jean-Baptiste,1961-12-29,"Arrière, trois-quarts aile",36,1983-93,Racing Club de France
+736,LAGISQUET,Patrice,1962-09-04,Trois-quarts aile,46,1983-91,Aviron Bayonnais
+737,DETREZ,Pierre-Edouard,1956-06-17,Pilier,5,1983-86,"Association Sportive Montferrandaise, Racing Club de Nîmes"
+738,BONNEVAL,Eric,1963-11-19,"Trois-quarts centre, trois-quarts aile",18,1984-88,Stade Toulousain
+739,GRATTON,Jacques,1957-11-29,Troisième ligne aile,10,1984-86,Sporting Union Agenais
+740,LAVIGNE,Bernard,1954-08-23,Trois-quarts aile,2,1984-85,Sporting Union Agenais
+741,CHAMP,Eric,1962-06-08,Troisième ligne aile,44,1985-91,Rugby Club Toulonnais
+742,PICARD,Thierry,1956-11-10,"Deuxième ligne, troisième ligne aile",3,1985-86,Association Sportive Montferrandaise
+743,CHABOWSKI,Hervé,1959-08-20,Pilier,4,1985-89,"Racing Rugby Club de Nice, Club Sportif de Bourgoin-Jallieu, Racing Club de Nîmes"
+744,MAROCCO,Philippe,1960-06-14,"Pilier, talonneur",21,1986-91,Association Sportive Montferrandaise
+745,CHARVET,Denis,1962-05-12,"Trois-quarts centre, trois-quarts aile",23,1985-1991,"Stade Toulousain, Racing Club de France"
+746,BIANCHI,Jérôme,1961-07-31,Arrière,1,1986,Rugby Club Toulonnais
+747,ANDRIEU,Marc,1959-09-19,"Trois-quarts centre, trois-quarts aile",26,1986-90,Racing Club de Nîmes
+748,PORTOLAN,Claude,1960-12-16,Pilier,3,1986-89,Stade Toulousain
+749,SERRIERE,Patrick,1960-07-07,Deuxième ligne,3,1986-88,Racing Club de France
+750,BEROT,Philippe,1965-01-29,Trois-quarts aile,19,1986-89,Sporting Union Agenais
+751,CARMINATI,Alain,1966-08-17,"Troisième ligne centre, troisième ligne aile",20,1986-95,"Association Sportive Biterroise, Club Athlétique Brive Corrèze"
+752,MESNEL,Franck,1961-06-30,"Demi d'ouverture, trois-quarts centre",56,1986-95,Racing Club de France
+753,ONDARTS,Pascal,1956-04-01,Pilier,42,1986-91,Biarritz Olympique
+754,ARMARY,Louis,1963-07-24,"Pilier, talonneur",46,1987-95,Football Club Lourdais
+755,MODIN,Rodolphe,1959-03-26,Demi de Mêlée,1,1987,Club Athlétique Briviste
+756,TOLOT,Jean-Louis,1957-06-13,Pilier,1,1987,Sporting Union Agenais
+757,JANIK,Karl,1960-01-12,Troisième ligne aile,1,1987,Stade Toulousain
+758,CECILLON,Marc,1959-07-30,"Troisième ligne aile, troisième ligne centre, deuxième ligne",46,1988-95,Club Sportif de Bourgoin-Jallieu
+759,HONDAGNE-MONGE,Michel,1961-03-10,Demi de mêlée,1,1988,Stadoceste Tarbais
+760,SANZ,Henri,1963-01-17,Demi de mêlée,11,1988-91,Racing Club Narbonnais
+761,BOURGUIGNON,Gilles,1964-01-31,Deuxième ligne,6,1988-90,Racing Club Narbonnais
+762,HARISLUR-ARTHAPIGNET,Pierre,1963-04-02,Talonneur,1,1988,Stadoceste Tarbais
+763,DEVERGIE,Thierry,1966-07-27,"Deuxième ligne, troisième ligne centre",17,1988-92,Racing Club de Nîmes
+764,DALMASO,Marc,1967-02-14,Talonneur,33,1988-2000,"Stade Montois, Sporting Union Agenais, Union Sportive Columérine"
+765,ROUGE-THOMAS,Philippe,1961-08-01,Demi d'ouverture,2,1989,Stade Toulousain
+766,BOUET,Dominique,1964-03-31,"Talonneur, pilier",5,1989-90,Union Sportive Dacquoise
+767,ROUMAT,Olivier,1966-06-16,"Troisième ligne aile, troisième ligne centre, deuxième ligne",61,1989-96,Union Sportive Dacquoise
+768,LACOMBE,Bernard,1963-02-08,Trois-quarts aile,3,1989-90,Sporting Union Agenais
+769,BENETTON,Philippe,1968-05-17,"Troisième ligne aile, troisième ligne centre",59,1989-99,Sporting Union Agenais
+770,SEIGNE,Laurent,1960-08-12,Pilier,14,1989-95,"Sporting Union Agenais, Sports Atlhlétiques de Mérignac, Club Athlétique Briviste"
+771,PUJOLLE,Marc,1962-09-18,Pilier,8,1989-90,Racing Rugby Club de Nice
+772,WELLER,Stéphane,1966-06-13,Trois-quarts aile,4,1989-90,Football Club de Grenoble
+773,LACROIX,Thierry,1967-03-02,"Demi d'ouverture, trois-quarts centre",43,1989-97,"Union Sportive Dacquoise, Harlequins de Londres"
+774,HONTAS,Pierre,1966-07-19,Trois-quarts aile,9,1990-93,Biarritz Olympique
+775,LHERMET,Jean-Marc,1967-08-14,Troisième ligne aile,3,1990-93,Association Sportive Montferrandaise
+776,MELVILLE,Eric,1961-06-27,"Troisième ligne aile, troisième ligne centre",6,1990-91,Rugby Club Toulonnais
+777,LANGLADE,Jean-Claude,1963-02-02,Trois-quarts centre,3,1990,"Rugby Club Hyérois, Racing Club de Nîmes."
+778,SAINT-ANDRE,Philippe,1967-04-19,"Trois-quarts centre, trois-quarts aile",69,1990-97,"Association Sportive Montferrandaise, Gloucester Rugby Football Club"
+779,GALLART,Philippe,1962-12-18,Pilier,18,1990-95,Association Sportive Biterroise
+780,BENAZZI,Abdelatif,1968-08-20,"Troisième ligne aile, deuxième ligne, troisième ligne centre",78,1990-2001,Sporting Union Agenais
+781,DESLANDES,Christophe,1965-01-02,"Troisième ligne centre, deuxième ligne",6,1990-92,Racing Club de France
+782,HEYER,Fabrice,1965-11-05,Pilier,1,1990,Association Sportive Montferrandaise
+783,HUEBER,Aubin,1967-04-05,Demi de mêlée,23,1990-2000,"Football Club Lourdais, Rugby Club Toulonnais"
+784,BLOND,Xavier,1967-08-28,"Troisième ligne aile, troisième ligne centre",6,1990-94,Racing Club de France
+785,BERTY,David,1970-06-11,Trois-quarts aile,6,1990-95,Stade Toulousain
+786,CABANNES,Laurent,1964-02-06,Troisième ligne aile,49,1990-97,"Racing Club de France, Harlequins de Londres"
+787,GOURRAGNE,Jean-François,1963-11-20,Deuxième ligne,2,1990-91,Association Sportive Biterroise
+789,TACHDJIAN,Michel,1962-06-06,Deuxième ligne,3,1991,Racing Club de France
+790,LASCUBE,Grégoire,1962-04-03,Pilier,12,1991-92,Sporting Union Agenais
+791,GALTHIE,Fabien,1969-03-20,Demi de mêlée,64,1991-2003,"Union Sportive Columérine, Stade Français – Club Athlétique des Sports Généraux"
+792,COURTIOLS,Michel,1965-04-27,Troisième ligne aile,3,1991,Club Athlétique de Bègles Bordeaux Gironde
+793,CADIEU,Jean-Marie,1963-10-16,Deuxième ligne,12,1991-92,Stade Toulousain
+794,GIMBERT,Philippe,1966-03-20,Pilier,4,1991-92,Club Athlétique de Bègles Bordeaux Gironde
+795,MOSCATO,Vincent,1966-03-20,"Talonneur, pilier",4,1991-92,Club Athlétique de Bègles Bordeaux Gironde
+796,SIMON,Serge,1967-07-03,Pilier,2,1991,Cercle Athlétique Béglais
+797,TORDO,Jean-François,1964-08-01,"Troisième ligne aile, talonneur",15,1991-93,"Rugby Club Toulonnais, Racing Rugby Club de Nice"
+798,SADOURNY,Jean-Luc,1966-06-28,"Arrière, trois-quarts aile, trois-quarts centre",71,1991-2001,Union Sportive Columérine
+799,VIARS,Sébastien,1971-06-24,"Trois-quarts aile, arrière",16,1992-97,Club Athlétique Briviste
+800,PENAUD,Alain,1969-07-19,"Demi d’ouverture, trois quarts centre",32,1992-2000,"Club Athlétique Briviste, Stade Toulousain"
+801,MONTLAUR,Pierre,1963-02-07,"Trois-quarts centre, demi d'ouverture",2,1992-94,Sporting Union Agenais
+802,VAN HEERDEN,Andries,1961-10-06,Troisième ligne centre,2,1991,Stadoceste Tarbais
+803,MOUGEOT,Christophe,1963-11-22,Deuxième ligne,3,1992,Club Athlétique de Bègles Bordeaux Gironde
+804,GENET,Jean-Pierre,1962-10-15,Talonneur,3,1992,Racing Club de France
+805,OUGIER,Stéphane,1967-10-05,"Arrière, trois-quarts aile",4,1992-97,Stade Toulousain
+806,MARFAING,Michel,1970-03-06,Trois-quarts centre,2,1992,Stade Toulousain
+807,DEYLAUD,Christophe,1964-10-02,"Trois-quarts centre, demi d'ouverture",16,1992-95,Stade Toulousain
+808,COEURVEILLE,Christian,1968-03-26,Trois-quarts centre,2,1992,Sporting Union Agenais
+809,GONZALES,Jean-Michel,1967-07-10,"Talonneur, pilier",35,1992-96,Aviron Bayonnais
+810,BERNAT-SALLES,Philippe,1970-02-17,Trois-quarts aile,41,1992-2001,"Section Paloise, Cercle Athlétique Bègles Bordeaux Gironde, Biarritz Olympique"
+811,MAZAS,Laurent,1970-12-19,Demi d'ouverture,2,1992-96,"Union Sportive Columérine, Biarritz Olympique"
+812,GRAOU,Stéphane,1966-05-01,Pilier,6,1992-95,"Football Club Auscitain, Union Sportive Columérine"
+813,COUFFIGNAL,Hervé,1965-09-28,Trois-quarts centre,1,1993,Union Sportive Columérine
+814,LEMEUR,Yann,1967-03-29,Deuxième ligne,1,1993,Racing Club de France
+815,VERGE,Laurent,1965-10-21,Pilier,1,1993,Club Athlétique Bègles Bordeaux Gironde
+816,CAMPAN,Olivier,1970-03-15,"Trois-quarts aile, arrière, trois-quarts centre",6,1993-96,Sporting Union Agenais
+817,MERLE,Olivier,1965-11-14,Deuxième ligne,45,1993-97,"Football Club de Grenoble, Association Sportive Montferrandaise"
+818,LOPPY,Léon,1966-04-19,Troisième ligne aile,1,1993,Rugby Club Toulonnais
+819,N'TAMACK-MUYENGA,Emile,1970-06-25,"Trois-quarts aile, arrière, trois-quarts centre",46,1994-2000,Stade Toulousain
+820,BENEZECH,Laurent,1966-12-19,Pilier,15,1994-95,Racing Club de France
+821,TECHOUEYRES,William,1966-02-12,Trois-quarts aile,3,1994-95,Stade Bordelais Université Club
+822,BROUZET,Olivier,1972-11-22,"Deuxième ligne, troisième ligne centre",71,1994-2003,"Football Club de Grenoble, Cercle Athlétique de Bègles Bordeaux Gironde, Northampton Rugby Football Club, Association Sportive Montferrandaise"
+823,DELAIGUE,Yann,1973-04-05,"Trois-quarts centre, demi d'ouverture",20,1994-2005,"Rugby Club Toulonnais, Stade Toulousain, Castres Olympique"
+824,MACABIAU,Alain,1966-05-15,Demi de mêlée,2,1994,Union des Sports Athlétiques Perpignanais
+825,ACCOCEBERRY,Guy,1967-05-05,Demi de mêlée,19,1994-97,Cercle Athlétique de Bègles Bordeaux Gironde
+826,CALIFANO,Christian,1972-05-16,"Pilier, talonneur",72,1994-2007,"Stade Toulousain, Gloucester Rugby Football Club"
+827,COSTES,Arnaud,1973-06-16,Troisième ligne aile,9,1994-2000,Association Sportive Montferrandaise
+828,DE ROUGEMONT,Marc,1972-05-24,"Talonneur, pilier",12,1995-97,Rugby Club Toulonnais
+829,CIGAGNA,Albert,1960-09-25,Troisième ligne centre,1,1995,Stade Toulousain
+830,HYARDET,Alain,1965-11-28,Trois-quarts centre,2,1995,Castres Olympique
+831,LIEVREMONT,Marc,1968-10-28,Troisième ligne aile,25,1995-99,"Union des Sports Athlétiques Perpignanais, Stade Français - Club Athlétique des Sports Généraux"
+832,TOURNAIRE,Franck,,,,,
+833,DOURTHE,Richard,1974-12-13,"Trois-quarts centre, arrière, trois-quarts aile",31,1995-2001,"Union Sportive Dacquoise, Stade Français – Club Athlétique des Sports Généraux"
+834,ARLETTAZ,Patrick,1972-04-04,Trois-quarts centre,1,1995,Union Sportive Athlétique Perpignan Roussillon
+835,CASTAIGNEDE,Thomas,1975-01-21,"Demi d'ouverture, trois-quarts centre, arrière",54,1995-2007,"Stade Toulousain, Castres Olympique, Saracens de Londres"
+836,CARBONNEAU,Philippe,1971-04-15,"Trois-quarts centre, demi de mêlée",31,1995-99,"Stade Toulousain, Club Athlétique Brive Corrèze, Section Paloise"
+837,JUILLET,Christophe,1969-03-20,Troisième ligne centre,18,1995-2001,"Association Sportive Montferrandaise, Stade Français – Club Athlétique des Sports Généraux."
+838,PELOUS,Fabien,1973-12-07,"Deuxième ligne, troisième ligne centre",118,1995-2007,"Union Sportive Dacquoise, Stade Toulousain"
+839,AZAM,Olivier,1974-10-21,"Talonneur, troisième ligne centre, troisième ligne aile, pilier",10,1995-2002,"Association Sportive Montferrandaise, Gloucester Rugby Football Club"
+840,PERIE,Michel,1969-09-20,Pilier,3,1996,Rugby Club Toulonnais
+841,CASTEL,Richard,1972-12-31,Troisième ligne aile,15,1996-99,"Stade Toulousain, Association Sportive Biterroise"
+842,DISPAGNE,Sylvain,1968-02-08,Troisième ligne centre,2,1996,Stade Toulousain
+843,GLAS,Stéphane,1973-11-12,Trois-quarts centre,37,1996-2001,Club Sportif de Bourgoin-Jallieu
+844,IBANEZ,Raphaël,1973-02-17,"Troisième ligne aile, talonneur",98,1996-2007,"Union Sportive Dacquoise, Union des Sports Athlétiques Perpignanais, Castres Olympique, Saracens de Londres, Wasps de Londres"
+845,VENDITTI,David,1973-06-01,"Trois-quarts aile, trois-quarts centre",14,1996-2000,"Club Sportif de Bourgoin-Jallieu, Club Athlétique Brive Corrèze"
+846,GUIRAUD,Hervé,1966-11-25,Talonneur,1,1996,Racing Club de Nîmes
+847,MIORIN,Hugues,1968-10-30,Deuxième ligne,9,1996-2000,Stade Toulousain
+848,MONI,Christophe,1972-01-15,Troisième ligne aile,8,1996-2001,"Racing Rugby Club de Nice, Stade Français – Club Athlétique des Sports Généraux"
+849,LABROUSSE,Thierry,1970-05-04,Troisième ligne centre,2,1996,Club Athlétique Brive Corrèze
+850,JORDANA,Jean-Louis,1968-11-07,Pilier,7,1996-97,"Section Paloise, Stade Toulousain"
+851,LIEVREMONT,Thomas,1973-11-06,"Troisième ligne centre, troisième ligne aile",34,1998-2006,"Union des Sports Athlétiques Perpignan Roussillon, Biarritz Olympique Pays Basque"
+852,BOUIC,Guillaume,1970-03-21,Demi d'ouverture,1,1996,Sporting Union Agenais
+853,LAMAISON,Christophe,1971-01-08,"Trois-quarts centre, demi d'ouverture, arrière",37,1996-2001,"Club Athlétique Brive Corrèze, Sporting Union Agen Lot et Garonne"
+854,LEFLAMAND,Laurent,1968-04-04,Trois-quarts aile,8,1996-97,Club Sportif de Bourgoin-Jallieu
+855,CRENCA,Jean-Jacques,1969-04-03,Pilier,39,1996-2004,Sporting Union Agenais
+856,AUCAGNE,David,1973-02-14,Demi d'ouverture,15,1997-99,Section Paloise
+857,MAGNE,Olivier,1973-04-11,"Troisième ligne aile, trois-quarts centre, troisième ligne centre",89,1997-2007,"Union Sportive Dacquoise, Club Athlétique Brive Corrèze, Association Sportive Montferrandaise, London Irish"
+858,CASADEI,Didier,1971-04-10,Pilier,3,1997,Club Athlétique Brive Corrèze
+859,MOLA,Ugo,1973-05-14,"Trois-quarts aile, arrière, demi d'ouverture",12,1997-99,"Union Sportive Dacquoise, Castres Olympique"
+860,BONDOUY,Pierre,1970-07-30,"Trois-quarts aile, trois-quarts centre",5,1997-2000,"Racing Club Narbonne Corbières, Stade Toulousain"
+861,BETSEN,Serge,1974-03-25,Troisième ligne aile,63,1997-2007,Biarritz Olympique
+862,TOROSSIAN,Frédéric,1966-05-15,Demi de mêlée,1,1997,Section Paloise
+863,DANTIACQ,David,1970-01-10,Trois-quarts centre,1,1997,Section Paloise
+864,LAPERNE,David,1972-09-13,Pilier,1,1997,Union Sportive Dacquoise
+865,BRUSQUE,Nicolas,1976-08-07,Arrière,27,1997-2006,"Section Paloise, Biarritz Olympique Pays Basque"
+866,CAZALBOU,Jérôme,1969-04-30,Demi de mêlée,4,1997,Stade Toulousain
+867,MIGNONI,Pierre,1976-02-28,Demi de mêlée,28,1997-2007,"Association Sportive Biterroise, Rugby Club Toulonnais, Association Sportive Montferrandaise Clermont Auvergne"
+868,SOULETTE,Cédric,1972-05-30,Pilier,13,1997-99,Association Sportive Biterroise
+869,BACQUE,Nicolas,1973-12-17,Troisième ligne aile,1,1997,Section Paloise
+870,DOMINICI,Christophe,1972-05-20,"Trois-quarts aile, arrière",67,1998-2007,Stade Français – Club Athlétique des Sports Généraux
+871,CLEDA,Thierry,1971-01-12,Deuxième ligne,9,1998-99,Section Paloise
+872,GARBAJOSA,Xavier,1976-12-05,"Trois-quarts aile, arrière, trois-quarts centre",32,1998-2003,Stade Toulousain
+873,AUE,Jean-Marc,1973-05-10,Trois-quarts centre,1,1998,Castres Olympique
+874,GOMES,Arthur,1969-10-05,"Arrière, trois-quarts aile",6,1998-99,Stade Français Club Athlétique des Sports Généraux
+875,DE BESOMBES,Stéphane,1972-01-02,Pilier,2,1998,Union Sports Athlétiques Perpignan Roussillon
+876,MARLU,Jimmy,1977-05-25,"Trois-quarts aile, arrière",4,1998-2005,"Association Sportive Montferrandaise, Biarritz Olympique Pays Basque"
+877,COMBA,Franck,1971-03-16,Trois-quarts centre,12,1998-2001,Stade Français – Club Athlétique des Sports Généraux
+878,LOMBARD,Thomas,1975-06-05,"Trois-quarts aile, trois-quarts centre",12,1998-2001,Stade Français – Club Athlétique des Sports Généraux
+879,MARCONNET,Sylvain,1976-04-08,Pilier,84,1998-2011,"Stade Français – Club Athlétique des Sports Généraux, Biarritz Olympique Pays Basque"
+881,RAYNAUD,Marc,1973-03-19,Troisième ligne aile,2,1999,Racing Club Narbonne Méditerranée
+882,AURADOU,David,1973-11-13,Deuxième ligne,41,1999-2004,Stade Français – Club Athlétique des Sports Généraux
+883,GIORDANI,Pascal,1974-06-01,Trois-quarts centre,2,1999,Union Sportive Dacquoise
+884,LAUSSUCQ,Christophe,1973-05-20,Demi de mêlée,4,1999-2000,Stade Français - Club Athlétique des Sports Généraux
+885,LABIT,Christian,1971-02-11,"Troisième ligne aile, troisième ligne centre",17,1999-2003,Stade Toulousain
+886,AQUA,Jean-Luc,1968-03-03,Troisième ligne centre,3,1999,Rugby Club Toulonnais
+887,DELMOTTE,Guillaume,1977-10-25,Trois-quarts centre,2,1999,Rugby Club Toulonnais
+888,SARRAMEA,Olivier,1975-10-20,Trois-quarts aile,4,1999,Castres Olympique
+889,MALLIER,Lionel,1974-03-06,Troisième ligne aile,5,1999-2000,Club Athlétique Brive Corrèze
+890,MERCERON,Gérald,1973-02-25,"Demi d'ouverture, trois-quarts centre",32,1999-2003,Association Sportive Montferrandaise
+891,ARTIGUSTE,Eric,1970-07-16,Trois-quarts centre,1,1999,Castres Olympique
+892,CHAZALET,Alexandre,,"13.031972, Troisième ligne aile",1,1999,Club Sportif de Bourgoin-Jallieu
+893,DAVID,Gérard,1977-11-26,Deuxième ligne,1,1999,Club Athlétique de Bègles Bordeaux Gironde
+894,CASTAIGNEDE,Stéphane,1969-09-30,Demi de mêlée,7,1999,Stade Montois
+895,DESBROSSE,Cédric,1971-11-09,Trois-quarts centre,2,1999-2000,Stade Toulousain
+896,DE VILLIERS,Pieter,1972-07-03,Pilier,69,1999-2007,Stade Français – Club Athlétique des Sports Généraux
+897,MATIU,Legi,1969-01-17,Deuxième ligne,2,2000,Biarritz Olympique Pays Basque
+898,DAUDE,Jean,1973-10-20,Deuxième ligne,1,2000,Club Sportif de Bourgoin-Jallieu
+899,CHABAL,Sébastien,1977-12-08,"Troisième ligne aile, troisième ligne centre, deuxième ligne",62,2000-11,"Club Sportif de Bourgoin-Jallieu, Sale Sharks, Racing Métro 92"
+900,ELISSALDE,Jean-Baptiste,1977-11-23,"Demi d'ouverture, demi de mêlée",35,2000-09,"Stade Rochelais, Stade Toulousain"
+901,BORY,David,1976-03-08,Trois-quarts aile,18,2000-02,Association Sportive Montferrandaise
+902,BELOT,Franck,1972-03-18,Deuxième ligne,1,2000,Stade Toulousain
+903,HEYMANS,Cédric,1978-07-22,"Trois-quarts aile, trois quarts centre, arrière",59,2000-11,"Sporting Union Agen Lot et Garonne, Stade Toulousain, Aviron Bayonnais"
+904,COLLAZO,Patrice,1974-04-27,Pilier,1,2000,Club Athlétique de Bègles Bordeaux Gironde
+905,NALLET,Lionel,1976-09-14,"Deuxième ligne, troisième ligne aile",74,2000-12,"Club Sportif de Bourgoin-Jallieu, Castres Olympique, Racing Métro 92"
+906,AUDEBERT,Alexandre,1977-08-04,Troisième ligne aile,2,2000-02,Association Sportive Montferrandaise
+907,LALANNE,Fabrice,1971-02-09,Troisième ligne centre,1,2000,Stade Montois
+908,CERMENO,Frédéric,1979-06-20,Trois-quarts centre,1,2000,Union Sportive Athlétique Perpignan Roussillon
+909,SOUVERBIE,Jean-Marc,1975-04-09,Arrière,1,2000,Club Athlétique de Bègles Bordeaux Gironde
+910,MILLOUD,Olivier,1975-12-09,Pilier,50,2000-07,Club Sportif de Bourgoin-Jallieu
+911,CISTACQ,Jean-Charles,1974-07-22,Trois-quarts centre,1,2000,Sporting Union Agen Lot-et-Garonne
+912,GALASSO,Alessio,1974-05-29,Pilier,2,2000-01,"Rugby Club Toulonnais, Association Sportive Montferrandaise"
+913,LANDREAU,Fabrice,1968-08-01,Talonneur,4,2000-01,Stade Français – Club Athlétique des Sports Généraux
+914,DOURTHE,Mathieu,1974-12-26,Trois-quarts aile,1,2000,Union Sportive Dacquoise
+915,BONETTI,Sébastien,1977-09-22,"Trois-quarts centre, arrière",3,2001,Biarritz Olympique
+916,MILHERES,Christophe,1972-01-03,Troisième ligne aile,1,2001,Biarritz Olympique Pays Basque
+917,TABACCO,Patrick,1974-03-23,"Troisième ligne centre, troisième ligne aile, deuxième ligne",17,2001-04,Stade Français – Club Athlétique des Sports Généraux
+918,JAUZION,Yannick,1978-07-28,"Trois-quarts centre, trois-quarts aile",72,2001-11,"Colomiers Rugby, Stade Toulousain"
+919,JEANJEAN,Nicolas,1981-05-13,"Arrière, trois-quarts aile",9,2001-02,Stade Toulousain
+920,VERMEULEN,Elvis,1979-04-05,Troisième ligne centre,10,2001-08,"Club Athlétique Brive Corrèze, Association Sportive Montferrandaise Clermont Auvergne"
+921,BOUILHOU,Jean,1978-12-07,Troisième ligne aile,2,2001-03,Stade Toulousain
+922,SKRELA,David,1975-03-02,Demi d'ouverture,23,2001-11,"Colomiers Rugby, Stade Français Paris, Stade Toulousain"
+923,ELHORGA,Pépito,1978-01-06,"Arrière, trois-quarts aile",18,2001-08,"Sporting Union Agenais, Aviron Bayonnais"
+924,GELEZ,François,1979-01-15,Demi d'ouverture,8,2001-03,Sporting Union Agen Lot et Garonne
+925,MARSH,Tony,1972-08-12,Trois-quarts centre,21,2001-04,Association Sportive Montferrandaise
+926,N'TAMACK-MUYENGA,Francis,1972-01-15,Troisième ligne centre,1,2001,Colomiers Rugby
+927,POITRENAUD,Clément,1982-05-20,"Arrière, trois-quarts aile, trois quarts centre",47,2001-12,Stade Toulousain
+928,PRIVAT,Thibault,1979-02-06,Deuxième ligne,10,2001-05,"Association Sportive Biterroise, Association Sportive Montferrandaise"
+929,ROUGERIE,Aurélien,1980-09-26,"Trois-quarts aile, troisième ligne aile, trois-quarts centre",76,2001-12,Association Sportive Montferrandaise
+930,TRAILLE,Damien,,,,,
+931,MICHALAK,Frédéric,1982-10-16,"Demi d'ouverture, demi de mêlée",78,2001-15,"Stade Toulousain, Natal Sharks, Rugby Club Toulonnais"
+932,BRU,Yannick,1973-05-22,Talonneur,18,2001-04,Stade Toulousain
+933,POUX,Jean-Baptiste,1979-09-26,Pilier,42,2001-12,"Racing Club Narbonne Méditerranée, Stade Toulousain"
+934,HALL,Steven,1972-09-17,Troisième ligne centre,2,2002,Association Sportive Béziers Hérault
+935,ALBOUY,Alexandre,1979-05-26,Demi de mêlée,1,2002,Castres Olympique
+936,HARINORDOQUY,Imanol,1980-02-20,"Troisième ligne aile, troisième ligne centre",82,2002-12,"Section Paloise, Biarritz Olympique Pays Basque"
+937,BRUNO,Sébastien,1974-08-26,Talonneur,26,2002-08,"Association Sportive Béziers Hérault, Sale Sharks"
+938,MARTIN,Rémy,1979-08-10,"Troisième ligne aile, troisième ligne centre, deuxième ligne",23,2002-09,"Stade Français – Club Athlétique des Sports Généraux, Aviron Bayonnais"
+939,PORCU,Christophe,1971-05-05,Deuxième ligne,3,2002,Sporting Union Agen Lot et Garonne
+940,MARTINEZ,Arnaud,1976-02-24,Pilier,2,2002-04,Racing Club Narbonne Méditerranée
+941,CLERC,Vincent,1981-05-07,Trois-quarts aile,67,2002-13,Stade Toulousain
+942,RUE,Jean-Baptiste,1974-07-06,Talonneur,8,2002-03,Sporting Union Agen Lot et Garonne
+943,YACHVILI,Dimitri,1980-09-19,Demi de mêlée,58,2002-12,Biarritz Olympique Pays Basque
+944,THION,Jérôme,1977-12-02,Deuxième ligne,54,2003-11,"Union Sportive Arlequins Perpignan Roussillon, Biarritz Olympique Pays Basque"
+945,MAS,Nicolas,1980-05-25,Pilier,85,2003-15,"Union Sportive Arlequins Perpignan Roussillon, Montpellier Hérault Rugby"
+946,LIEBENBERG,Brian,1979-09-19,Trois quarts centre,13,2003-05,Stade Français Paris
+947,PAPE,Pascal,1980-01-05,Deuxième ligne,65,2004-15,"Club Sportif de Bourgoin-Jallieu, Castres Olympique, Stade Français Paris"
+948,SERVAT,William,1978-12-09,Talonneur,49,2004-12,Stade Toulousain
+949,PEYRELONGUE,Julien,1981-04-02,Demi d’ouverture,6,2004,Biarritz Olympique Pays Basque
+950,BONNAIRE,Julien,1978-09-20,"Troisième ligne aile, troisième ligne centre",75,2004-12,"Club Sportif de Bourgoin-Jallieu, Association Sportive Montferrandaise Clermont Auvergne"
+951,BARRAU,Mathieu,1977-09-03,Demi de mêlée,3,2004,Sporting Union Agen Lot et Garonne
+952,COUZINET,David,1975-06-07,Deuxième ligne,3,2004-08,Biarritz Olympique Pays Basque
+953,FROMENT,Romain,1977-05-26,Troisième ligne aile,1,2004,Castres Olympique
+954,NYANGA,Yannick,1983-12-19,"Troisième ligne aile, troisième ligne centre",46,2004-15,"Association Sportive Béziers Hérault, Stade Toulousain, Racing 92"
+955,PECLIER,Alexandre,1975-01-26,"Demi d’ouverture, arrière",2,2004,Club Sportif de Bourgoin-Jallieu
+956,RABADAN,Pierre,1980-07-03,Troisième ligne aile,2,2004,Stade Français Paris
+957,VALBON,Ludovic,1976-05-22,"Trois quarts centre, trois quarts aile",5,2004-07,Club Athlétique Brive Corrèze
+958,BIDABE,Philippe,1978-01-13,Trois quarts aile,2,2004-06,Biarritz Olympique Pays Basque
+959,GOUTTA,Bernard,1972-09-28,Troisième ligne aile,1,2004,Union Sportive Arlequins Perpignan Roussillon
+960,LOUSTAU,Ludovic,1973-08-15,Demi de mêlée,1,2004,Union Sportive Arlequins Perpignan Roussillon
+962,SZARZEWSKI,Dimitri,1983-01-26,"Talonneur, troisième ligne centre",83,2004-15,"Association Sportive Béziers Hérault, Stade Français Paris, Racing Métro 92"
+963,LAMBOLEY,Grégory,1982-01-12,"Deuxième ligne, troisième ligne aile",14,2005-10,Stade Toulousain
+964,GRANDCLAUDE,Jean-Philippe,1982-08-04,Trois quarts centre,3,2005-07,Union Sportive Arlequins Perpignan Roussillon
+965,BABY,Benoît,1983-09-07,"Trois quarts centre, demi d’ouverture",9,2005-09,"Stade Toulousain, Association Sportive Montferrandaise Clermont Auvergne"
+966,LAHARRAGUE,Julien,1978-07-21,"Arrière, trois quarts aile",11,2005-07,"Club Athlétique de Brive Corrèze, Union Sportive Arlequins Perpignan Roussillon, Sale Sharks"
+967,MARTY,David,1982-12-30,Trois-quarts centre,37,2005-11,Union Sportive Arlequins Perpignan Roussillon
+968,MILLO-CHLUSKI,Romain,1983-04-20,Deuxième ligne,18,2005-11,Stade Toulousain
+969,FRITZ,Florian,1984-01-17,Trois quarts centre,34,2005-13,Stade Toulousain
+970,CANDELON,Julien,1980-07-08,Trois quarts aile,2,2005,Racing Club Narbonne Méditerranée
+971,AVRIL,Denis,1972-09-28,Pilier,1,2005,Biarritz Olympique Pays Basque
+972,BOUSSES,Guillaume,1981-10-12,Trois quarts centre,1,2006,Club Sportif Bourgoin-Jallieu
+973,BOYET,Benjamin,1979-08-08,"Demi d'ouverture, arrière",5,2006-08,Club Sportif Bourgoin-Jallieu
+974,DUSAUTOIR,Thierry,1981-11-18,Troisième ligne aile,80,2006-15,"Biarritz Olympique Pays Basque, Stade Toulousain"
+975,ATTOUB,David,1981-06-07,Pilier,4,2006-12,"Castres Olympique, Stade Français Paris"
+976,DEBATY,Vincent,1981-01-02,Pilier,37,2006-15,"Union Sportive Arlequins Perpignan Roussillon, Association Sportive Montferrandaise Clermont Auvergne"
+977,JACQUET,Loïc,1985-03-31,Deuxième ligne,4,2006-08,Association Sportive Montferrandaise Clermont Auvergne
+978,BEAUXIS,Lionel,1985-10-24,Demi d'ouverture,20,2007-12,"Stade Français Paris, Stade Toulousain"
+979,AUGUST,Benoît,1976-12-20,Talonneur,1,2007,Biarritz Olympique Pays Basque
+980,COUX,Jean-François,1980-12-28,Trois quarts aile,2,2007,Club Sportif de Bourgoin-Jallieu
+981,MIGNARDI,Arnaud,1986-11-01,Trois quarts centre,2,2007,Sporting Union Agenais Lot et Garonne
+982,THIERY,Benjamin,1984-06-02,"Trois quarts aile, arrière",4,2007-08,"Aviron Bayonnais, Biarritz Olympique Pays Basque"
+983,DURAND,Nicolas,1982-10-04,Demi de mêlée,2,2007,Union Sportive Arlequins Perpignanais
+984,LE CORVEC,Grégory,1977-03-04,Troisième ligne aile,1,2007,Union Sportive Arlequins Perpignanais
+985,PIERRE,Julien,1981-07-31,Deuxième ligne,27,2007-12,"Club Sportif de Bourgoin-Jallieu, Association Sportive Montferrandaise Clermont Auvergne"
+986,OLIBEAU,Olivier,1977-04-13,Deuxième ligne,2,2007,Union Sportive Arlequins Perpignanais
+987,MONTANELLA,Franck,1982-03-26,Pilier,1,2007,Football Club Auch Gers
+988,CHOULY,Damien,1985-11-27,"Troisième ligne aile, troisième ligne centre",42,2007-16,"Club Athlétique Brive Corrèze, Union Sportive Arlequins Perpignanais, Association Sportive Montferrandaise Clermont Auvergne"
+989,FOREST,Mikaël,1975-08-09,"Trois quarts aile, demi de mêlée",2,2007,Club Sportif de Bourgoin-Jallieu
+990,LAHARRAGUE,Nicolas,1981-10-30,"Trois-quarts centre, demi d'ouverture",2,2007,Union Sportive Arlequins Perpignanais
+991,MAZARS,Lionel,1984-06-26,Trois quarts centre,2,2007-10,"Racing Club Narbonne Méditerranée, Aviron Bayonnais"
+992,OUEDRAOGO,Fulgence,1986-07-21,Troisième ligne aile,39,2007-15,Montpellier Hérault Rugby Club
+993,SOURGENS,Olivier,1972-01-17,Pilier,1,2007,Club Sportif de Bourgoin-Jallieu
+994,BRUGNAUT,Julien,1981-11-17,Pilier,2,2008,Union Sportive Dacquoise
+995,FAURE,Lionel,1977-11-26,Pilier,8,2008-09,Sale Rugby Football Club
+996,MALZIEU,Julien,1983-05-04,"Trois quarts aile, arrière",20,2008-12,Association Sportive Montferrand Clermont Auvergne
+997,TRINH-DUC,François,1986-11-11,"Demi d'ouverture, trois-quarts centre, arrière",55,2008-15,"Montpellier Hérault Rugby Club, Rugby Club Toulonnais"
+998,MELA,Arnaud,1980-01-19,Deuxième ligne,4,2008,Sporting Club Albigeois
+999,PARRA,Morgan,1988-11-15,"Demi de mêlée, demi d’ouverture",66,2008-15,"Club Sportif de Bourgoin-Jallieu, Association Sportive Montferrandaise Clermont Auvergne"
+1000,PICAMOLES,Louis,1986-02-05,"Troisième ligne centre, troisième ligne aile, deuxième ligne",57,2008-16,"Montpellier Hérault Rugby Club, Stade Toulousain, Northampton Rugby Football Club"
+1001,FLOCH,Anthony,1983-03-12,Arrière,3,2008,Association Sportive Montferrand Clermont Auvergne
+1002,BARCELLA,Fabien,1983-10-20,Pilier,20,2008-11,"Football Club Auch Gers, Biarritz Olympique Pays Basque"
+1003,DIARRA,Ibrahim,1983-05-25,Troisième ligne aile,1,2008,Union Sportive Montauban Tarn et Garonne XV
+1004,DAVID,Yann,1988-04-15,Trois quarts centre,4,2008-09,"Club Sportif de Bourgoin-Jallieu, Stade Toulousain"
+1005,GUIRADO,Guilhem,1986-06-17,Talonneur,46,2008-16,"Union Sportive Arlequins Perpignan, Rugby Club Toulonnais"
+1006,TOMAS,Julien,1985-04-21,Demi de mêlée,3,2008-11,Montpellier Hérault Rugby Club
+1007,PALISSON,Alexis,1986-09-09,"Trois-quarts aile, arrière",21,2008-12,"Club Athlétique Brive Corrèze Limousin, Rugby Club Toulon"
+1008,LECOULS,Benoît,1978-03-22,Pilier,6,2008-09,"Biarritz Olympique Pays Basque, Stade Toulousain"
+1009,JANIN,David,1977-05-09,"Trois quarts aile, trois quarts centre",2,2008,Club Sportif de Bourgoin-Jallieu
+1010,BOYOUD,Renaud,1980-05-07,Pilier,3,2008-09,Union Sportive Dacquoise
+1011,KAYSER,Benjamin,1984-07-26,Talonneur,37,2008-15,"Leicester Rugby Football Club, Association Sportive Montferrandaise Clermont Auvergne"
+1012,LACROIX,Thibault,1985-05-14,Trois quarts centre,2,2008,Sporting Club Albigeois
+1013,LIEVREMONT,Mathieu,1975-11-06,Troisième ligne aile,2,2008,Union Sportive Dacquoise
+1014,TILLOUS-BORDE,Sébastien,1985-04-29,Demi de mêlée,19,2008-15,"Castres Olympique, Rugby Club Toulonnais"
+1015,CORREIA,Pierre,1983-12-04,Pilier,1,2008,Sporting Club Albigeois
+1016,MERMOZ,Maxime,1986-07-28,Trois-quarts centre,35,2008-16,"Stade Toulousain, Union Sportive Arlequins Perpignanais, Rugby Club Toulonnais"
+1017,PEYRAS-LOUSTALET,Jean-Baptiste,1984-01-05,Trois quarts aile,1,2008,Aviron Bayonnais
+1018,CABALLERO,Yannick,1983-04-03,Troisième ligne aile,1,2008,Union Sportive Montauban Tarn et Garonne XV
+1019,MEDARD,Maxime,1986-11-16,"Arrière, trois quarts aile, trois-quarts centre",47,2008-16,Stade Toulousain
+1020,BASTAREAUD,Mathieu,1988-09-17,Trois-quarts centre,39,2010-15,"Stade Français Paris, Rugby Club de Toulon"
+1021,DOMINGO,Thomas,1985-08-20,Pilier,36,2009-14,Association Sportive Montferrandaise Clermont Auvergne
+1022,DUPUY,Julien,1983-12-19,Demi de mêlée,8,2009-12,"Leicester Rugby Football Club, Stade Français Paris"
+1023,PURICELLI,Julien,1981-08-01,Troisième ligne centre,4,2009,Aviron Bayonnais
+1024,ARIAS,Julien,,"26/10/1983, Trois quarts aile",2,2009-10,Stade Français Paris
+1025,FALL,Benjamin,1989-04-29,Trois quarts aile,6,2009-13,"Aviron Bayonnais, Racing Métro 92"
+1026,LAPANDRY,Alexandre,1989-03-13,"Troisième ligne aile, troisième ligne centre",10,2009-14,Association Sportive Monferrandaise Clermont Auvergne
+1027,DUCALCON,Luc,1984-02-01,Pilier,17,2010-13,"Castres Olympique, Racing Métro 92"
+1028,ANDREU,Marc,1985-12-27,"Trois quarts aile, trois-quarts centre",7,2010-13,Castres Olympique
+1029,LAURET,Wenceslas,1989-03-28,"Troisième ligne aile, troisième ligne centre",12,2010-16,"Biarritz Olympique Pays Basque, Racing Métro 92"
+1030,PORICAL,Jérôme,1985-09-20,Arrière,4,2010,Union Sportive Arlequins Perpignan
+1031,ESTEBANEZ,Fabrice,1981-12-26,"Trois-quarts centre, demi d’ouverture",8,2010-11,"Club Athlétique Brive Corrèze Limousin, Racing Métro 92"
+1032,SCHUSTER,Jérôme,1985-06-29,Pilier,2,2010,Union Sportive Arlequins Perpignan
+1033,NOIROT,Benjamin,1980-12-17,Talonneur,1,2010,Racing Métro 92
+1034,HUGET,Yoann,1987-06-02,"Trois quarts aile, arrière",42,2010-16,"Aviron Bayonnais, Stade Toulousain"
+1035,LAKAFIA,Raphaël,1988-10-28,Troisième ligne centre,4,2011-16,"Biarritz Olympique Pays Basque, Stade Français Paris"
+1036,DOUSSAIN,Jean-Marc,1991-02-12,"Demi de mêlée, demi d'ouverture, trois-quarts centre",14,2011-16,Stade Toulousain
+1037,FOFANA,Wesley,1988-01-20,"Trois-quarts centre, trois-quarts aile",44,2012-16,Association Sportive Montferrand Clermont Auvergne
+1038,MAESTRI,Yoan,1988-01-14,Deuxième ligne,51,2012-16,Stade Toulousain
+1039,BUTTIN,Jean-Marcellin,1991-12-16,"Arrière, trois-quarts aile",2,2012,Association Sportive Montferrandaise Clermont Auvergne
+1040,DULIN,Brice,1990-04-13,"Arrière, trois-quarts aile",1,2012-16,"Sporting Union Agenais, Castres Olympique, Racing 92"
+1041,WATREMEZ,Yvan,1989-04-21,Pilier,1,2012,Biarritz Olympique Pays Basque
+1042,TOLOFUA,Christopher-Eric,1993-12-31,Talonneur,4,2012-14,Stade Toulousain
+1043,TAOFIFENUA,Romain,1990-09-14,Deuxième ligne,8,2012-15,"Union Sportive Arlequins Perpignan, Rugby Club Toulonnais"
+1044,SAMSON,Christophe,1984-03-01,Deuxième ligne,5,2012-13,"Rugby Club Toulonnais, Castres Olympique"
+1045,MACHENAUD,Maxime,1988-12-30,Demi de mêlée,26,2012-16,"Sporting Union Agenais, Racing Club Métro 92"
+1046,FORESTIER,Yannick,1982-01-02,Pilier,11,2012-14,Castres Olympique
+1047,SUTA,Jocelino,1982-11-18,"Deuxième ligne, troisième ligne aile",6,2012-15,Rugby Club Toulonnais
+1048,VAHAAMINA,Sébastien,1991-10-21,"Deuxième ligne, troisième ligne aile",21,2012-15,"Union Sportive Arlequins Perpignanais, Association Sportive Montferrandaise Clermont Auvergne"
+1049,CLAASSEN,Antonie,1984-10-20,"Troisième ligne aile, troisième ligne centre",6,2013-14,Castres Olympique
+1050,FICKOU,Gaël,1994-03-26,"Trois-quarts centre, trois-quarts aile",24,2013-16,Stade Toulousain
+1051,LOPEZ,Camille,1989-04-03,"Demi d'ouverture, arrière",11,2013-16,"Union Bordeaux Bègles, Association Sportive Montferrandaise Clermont Auvergne"
+1052,PLANTE,Adrien,1985-04-21,Trois-quarts aile,2,2013,Union Sportive Arlequins Perpignanais
+1053,KOTZE,Daniel,1987-03-28,Pilier,1,2013,Castres Olympique
+1054,FLANQUART,Alexandre,1989-10-09,Deuxième ligne,22,2013-16,Stade Français Paris
+1055,LE ROUX,Bernard,1989-06-04,"Troisième ligne aile, troisième ligne centre, deuxième ligne",24,2013-16,Racing Métro 92
+1056,TALES,Rémi,1981-06-03,"Demi d'ouverture, arrière",24,2013-15,"Castres Olympique, Racing 92"
+1057,BEN AROUS,Eddy,1990-08-25,Pilier,14,2013-16,Racing Métro 92
+1058,SLIMANI,Rabah,1989-10-18,Pilier,31,2013-16,Stade Français Paris
+1059,GUITOUNE,Sofiane,1989-03-27,Trois-quarts aile,5,2013-15,"Union Sportive Arlequins Perpignanais, Union Bordeaux - Bègles"
+1060,PELISSIE,Jonathan,1988-06-06,Demi de mêlée,1,2013,Montpellier Hérault Rugby Club
+1061,PLISSON,Jules,1991-08-20,"Demi d'ouverture, arrière",13,2014-16,Stade Français Paris
+1062,BURBAN,Antoine,1987-07-22,Troisième ligne aile,4,2014-16,Stade Français Paris
+1063,BONNEVAL,Hugo,1990-11-19,"Trois-quarts aile, arrière",8,2014,Stade Français Paris
+1064,MACH,Brice,1986-04-02,Talonneur,3,2014,Castres Olympique
+1065,LE BOURHIS,Félix,1988-04-07,Trois-quarts aile,1,2014,Union Bordeaux Bègles
+1066,LAMERAT,Rémi,1990-01-14,"Trois quarts centre, trois-quarts aile",11,2014-16,"Castres Olympique, Association Sportive Montferrand Clermont Auvergne"
+1067,MENINI,Alexandre,1983-08-05,Pilier,6,2014-15,Rugby Club Toulonnais
+1068,DUMOULIN,Alexandre,1989-08-24,Trois-quarts centre,8,2014-15,Racing Métro 92
+1069,SPEDDING,Scott,1986-05-04,Arrière,18,2014-16,"Aviron Bayonnais, Association Sportive Clermont Auvergne"
+1070,THOMAS,Teddy,1993-09-18,Trois-quarts aile,5,2014-16,Racing Métro 92
+1071,ATONIO,Uini,1990-03-26,Pilier,20,2014-16,Atlantique Stade Rochelais
+1072,CHIOCCI,Xavier,1990-12-13,Pilier,7,2014-16,Rugby Club Toulonnais
+1073,KOCKOTT,Rory,1986-06-25,Demi de mêlée,11,2014-15,Castres Olympique
+1074,OLLIVON,Charles,1993-05-11,"Troisième ligne centre, troisième ligne aile",5,2014-16,"Aviron Bayonnais, Rugby Club Toulonnais"
+1075,GOUJON,Loann,1989-04-23,"Troisième ligne aile, troisième ligne centre.",13,2015-16,"Atlantique Stade Rochelais, Union Bordeaux Bègles"
+1076,NAKAITACI,Noa,1990-07-11,Trois-quarts aile,10,2015-16,Association Sportive Montferrandaise Clermont Auvergne
+1077,GROSSO,Rémy,1988-12-04,Trois-quarts aile,1,2015,Castres Olympique
+1078,DANTY,Jonathan,1992-10-07,Trois-quarts centre,4,2016,Stade Français Paris
+1079,VAKATAWA,Virimi,1992-05-01,Trois-quarts aile,8,2016,Fédération Française de Rugby
+1080,BEZY,Sébastien,1991-11-22,"Demi de mêlée, arrière",7,2016,Stade Toulousain
+1081,JEDRASIAK,Paul,1993-02-06,Deuxième ligne,5,2016,Association Sportive Montferrand Clermont Auvergne
+1082,CAMARA,Yacouba,1994-06-02,Troisième ligne aile,3,2016,Stade Toyulousain
+1083,POIROT,Jefferson,1992-11-01,Pilier,8,2016,Union Bordeaux Bègles
+1084,CHAT,Camille,1995-12-18,"Talonneur, troisième ligne aile",7,2016,Racing 92
+1085,PELO,Vincent,1988-04-22,Pilier,2,2016,Atlantique Stade Rochelais
+1086,CAMARA,Djibril,1989-06-22,Trois-quarts aile,3,2016,Stade Français Paris
+1087,MIGNOT,Xavier,1994-01-27,Trois-quarts aile,1,2016,Football Club de Grenoble
+1088,REY,Julien,1986-09-01,"Trois-quarts centre, trois-quarts aile",2,2016,Union Bordeaux Bègles
+1089,SERIN,Baptiste,1994-06-20,Demi de mêlée,5,2016,Union Bordeaux Bègles
+1090,GOURDON,Kévin,1990-01-23,Troisième ligne,5,2016,Atlantique Stade Rochelais
+1091,DEMOTTE,William,1991-05-22,Deuxième ligne,1,2016,Sporting Union Agenais
+1092,LE DEVEDEC,Julien,1987-06-04,Deuxième ligne,5,2016,"Union Bordeaux Bègles, Club Athlétique Brive Corrèze Limousin"
+1093,BONFILS,Rémi,1988-09-26,Talonneur,2,2016,Stade Français Paris
+1094,POINTUD,Lucas,1988-01-18,Pilier,2,2016,Club Athlétique Brive Corrèze Limousin
+1095,MAYNADIER,Clément,1988-10-01,Talonneur,2,2016,Union Bordeaux Bègles
+1096,METZ,Fabrice,1991-01-23,Deuxième ligne,1,2016,Union Sportive Oyonnax
+1097,GALLETIER,Kélian,1992-03-18,Troisième ligne aile,1,2016,Montpellier Hérault Rugby Club
+1098,BAILLE,Cyril,1993-09-15,Pilier,3,2016,Stade Toulousain
