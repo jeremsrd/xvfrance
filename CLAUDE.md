@@ -387,6 +387,7 @@ Japon (JPN), Roumanie (ROU), États-Unis (USA), Canada (CAN), Namibie (NAM).
 - **Scores :** Toujours france_score en premier, opponent_score en second
 - **Commandes Artisan :** préfixe `xv:`, rangées dans `app/Console/Commands/Import/` ou `Maintenance/`
 - **Données sources :** `database/data/sources/` (CSV) et `database/data/matches/{année}/` (JSON) — jamais dans `storage/`
+- **Matches officiels :** la référence est la liste Wikipédia des matchs du XV de France (`docs/sources.md`) ; la base doit en avoir exactement autant (`python3 scripts/wikipedia/liste_matchs.py`)
 - **Docs :** specs en cours dans `docs/specs/`, phases terminées dans `docs/archive/`
 
 ---

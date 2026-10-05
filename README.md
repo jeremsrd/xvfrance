@@ -26,10 +26,17 @@ php artisan serve
 
 ```
 database/data/
-├── sources/results.csv     # Résultats 1950 → 2026 (source de xv:import-csv)
-├── sources/venue_coordinates.csv  # Coordonnées des stades (précision « stade » ou « ville »)
-└── matches/{année}/*.json  # Feuilles de match détaillées (compos, events, remplacements)
+├── sources/results.csv                 # Résultats 1950 → 2026 (source de xv:import-csv)
+├── sources/equipe_france_matches.csv   # Relevé d'equipe-france.fr (compétition, journée, lieu)
+├── sources/excluded_matches.csv        # Matches sans sélection officielle, ignorés
+├── sources/venue_names.csv             # Anciens noms et variantes des stades
+├── sources/venue_home_grounds.csv      # Stades de repli (domicile hors frontières)
+├── sources/venue_coordinates.csv       # Coordonnées des stades (précision « stade » ou « ville »)
+└── matches/{année}/*.json              # Feuilles de match (compos, events, remplacements)
 ```
+
+Sources et référence des matches officiels (liste Wikipédia, 839 matches au 05/10/2026, contrôle par
+`scripts/wikipedia/liste_matchs.py`) : voir `docs/sources.md`.
 
 Format des JSON : voir `docs/specs/import-match-data.md`. Méthode de saisie et de correction (scripts Wikipédia dans `scripts/wikipedia/`) : voir `docs/specs/feuilles-de-match-suite.md`.
 
