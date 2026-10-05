@@ -8,7 +8,7 @@
 
 @section('title', $coach->fullName() . ' — Sélectionneur du XV de France')
 
-@section('meta_description', $coach->fullName() . ', sélectionneur du XV de France' . ($t ? ' depuis ' . $t->start_date->year : '') . ' : ' . $record->total . ' matches, ' . $record->wins . ' victoires.')
+@section('meta_description', $coach->fullName() . ', sélectionneur du XV de France' . ($t ? ($t->end_date ? ' de ' . $t->start_date->year . ' à ' . $t->end_date->year : ' depuis ' . $t->start_date->year) : '') . ' : ' . $record->total . ' matches, ' . $record->wins . ' victoires.')
 
 @section('breadcrumb')
     <x-breadcrumb :items="['Sélectionneurs' => route('coaches.index'), $coach->fullName() => null]" />
@@ -24,7 +24,7 @@
             </h1>
             @if($t)
                 <p class="mt-4 font-serif text-lg text-blue-100">
-                    Du {{ FrenchDate::long($t->start_date) }} {{ $t->end_date ? 'au ' . FrenchDate::long($t->end_date) : 'à aujourd\'hui' }}
+                    {{ $t->end_date ? 'De ' . $t->start_date->year . ' à ' . $t->end_date->year : 'Depuis ' . $t->start_date->year }}
                     @if($coach->country && $coach->country->code !== 'FRA') · {{ $coach->country->name }}@endif
                 </p>
             @endif
