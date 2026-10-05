@@ -120,7 +120,8 @@ class MatchImportService
         $checksum = hash('sha256', json_encode($data));
 
         if ($changedOnly) {
-            if ($hasExisting && $match?->source_checksum === $checksum) {
+            // Empreinte identique : rien à faire, y compris pour une feuille sans composition
+            if ($match !== null && $match->source_checksum === $checksum) {
                 $this->info("Feuille de match inchangée — skippée (--changed)");
                 $this->matchesSkipped++;
                 return;

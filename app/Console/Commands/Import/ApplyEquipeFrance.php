@@ -27,6 +27,8 @@ class ApplyEquipeFrance extends Command
     private const COUNTRY_ALIASES = [
         "Allemagne de l'Ouest" => 'Allemagne',
         "Fédération de l'Armée de terre britannique" => 'Armée britannique',
+        'Lions britanniques et irlandais' => 'Lions Britanniques',
+        'Îles du Pacifique' => 'Pacific Islanders',
     ];
 
     private Collection $countries;
