@@ -41,11 +41,11 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "essai", "player_last_name": "Moureu", "player_first_name": "Pierre", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Beguet", "player_first_name": "Louis", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Jaureguy", "player_first_name": "Adolphe", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Jaureguy", "player_first_name": "Adolphe", "minute": null},
-    {"team_side": "france", "type": "transformation", "player_last_name": "Beguet", "player_first_name": "Louis", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Beguet", "player_first_name": "Louis", "minute": 12},
+    {"team_side": "france", "type": "essai", "player_last_name": "Jaureguy", "player_first_name": "Adolphe", "minute": 38},
+    {"team_side": "france", "type": "essai", "player_last_name": "Jaureguy", "player_first_name": "Adolphe", "minute": 70},
+    {"team_side": "france", "type": "essai", "player_last_name": "Moureu", "player_first_name": "Pierre", "minute": 75},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Beguet", "player_first_name": "Louis", "minute": 75},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Douglas", "player_first_name": "Arthur", "minute": null},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "McClelland", "player_first_name": "Thomas", "minute": null},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Crawford", "player_first_name": "William", "minute": null}

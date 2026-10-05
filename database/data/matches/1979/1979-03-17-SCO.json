@@ -53,12 +53,12 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "essai", "player_last_name": "Malquier", "player_first_name": "Yves", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Malquier", "player_first_name": "Yves", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Belascain", "player_first_name": "Christian", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Aguirre", "player_first_name": "Jean-Michel", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Aguerre", "player_first_name": "Roger", "minute": null},
-    {"team_side": "france", "type": "drop", "player_last_name": "Aguerre", "player_first_name": "Roger", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Belascain", "player_first_name": "Christian", "minute": 13},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Aguerre", "player_first_name": "Roger", "minute": 23},
+    {"team_side": "france", "type": "drop", "player_last_name": "Aguerre", "player_first_name": "Roger", "minute": 25},
+    {"team_side": "france", "type": "essai", "player_last_name": "Malquier", "player_first_name": "Yves", "minute": 61},
+    {"team_side": "france", "type": "essai", "player_last_name": "Malquier", "player_first_name": "Yves", "minute": 66},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Aguirre", "player_first_name": "Jean-Michel", "minute": 75},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Robertson", "player_first_name": "Keith", "minute": null},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Irvine", "player_first_name": "Andy", "minute": null},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Dickson", "player_first_name": "Gordon", "minute": null},

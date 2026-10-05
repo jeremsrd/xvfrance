@@ -43,7 +43,7 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "penalite", "player_last_name": "Camberabero", "player_first_name": "Didier", "minute": null},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Camberabero", "player_first_name": "Didier", "minute": 34},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Innes", "player_first_name": "Craig", "minute": null},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Whetton", "player_first_name": "Alan", "minute": null},
     {"team_side": "adversaire", "type": "drop", "player_last_name": "Fox", "player_first_name": "Grant", "minute": null},

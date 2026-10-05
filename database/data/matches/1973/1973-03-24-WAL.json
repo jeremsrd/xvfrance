@@ -42,10 +42,10 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "drop", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": null},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": 1},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": 28},
+    {"team_side": "france", "type": "drop", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": 39},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": 76},
     {"team_side": "adversaire", "type": "drop", "player_last_name": "Bennett", "player_first_name": "Phil", "minute": null}
   ],
   "substitutions": []

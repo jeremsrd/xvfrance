@@ -47,10 +47,10 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "penalite", "player_last_name": "Viars", "player_first_name": "Sébastien", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Penaud", "player_first_name": "Alain", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Penaud", "player_first_name": "Alain", "minute": null},
-    {"team_side": "france", "type": "transformation", "player_last_name": "Viars", "player_first_name": "Sébastien", "minute": null},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Viars", "player_first_name": "Sébastien", "minute": 43},
+    {"team_side": "france", "type": "essai", "player_last_name": "Penaud", "player_first_name": "Alain", "minute": 54},
+    {"team_side": "france", "type": "essai", "player_last_name": "Penaud", "player_first_name": "Alain", "minute": 74},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Viars", "player_first_name": "Sébastien", "minute": 74},
     {"team_side": "adversaire", "type": "drop", "player_last_name": "Botha", "player_first_name": "Naas", "minute": null},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Botha", "player_first_name": "Naas", "minute": null},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Botha", "player_first_name": "Naas", "minute": null},

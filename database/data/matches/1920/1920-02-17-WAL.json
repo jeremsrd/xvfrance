@@ -41,8 +41,8 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "essai", "player_last_name": "Jaureguy", "player_first_name": "Adolphe", "minute": null},
-    {"team_side": "france", "type": "transformation", "player_last_name": "Struxiano", "player_first_name": "Philippe", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Jaureguy", "player_first_name": "Adolphe", "minute": 57},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Struxiano", "player_first_name": "Philippe", "minute": 58},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Powell", "player_first_name": "Wick", "minute": null},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Williams", "player_first_name": "Brinley", "minute": null}
   ],

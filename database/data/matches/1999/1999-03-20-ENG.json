@@ -54,9 +54,9 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "transformation", "player_last_name": "Castaignede", "player_first_name": "Thomas", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Castaignede", "player_first_name": "Thomas", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Comba", "player_first_name": "Franck", "minute": null},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Castaignede", "player_first_name": "Thomas", "minute": 42},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Castaignede", "player_first_name": "Thomas", "minute": 83},
+    {"team_side": "france", "type": "essai", "player_last_name": "Comba", "player_first_name": "Franck", "minute": 83},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Wilkinson", "player_first_name": "Jonny", "minute": null},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Wilkinson", "player_first_name": "Jonny", "minute": null},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Wilkinson", "player_first_name": "Jonny", "minute": null},

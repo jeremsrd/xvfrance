@@ -43,11 +43,11 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "transformation", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Trillo", "player_first_name": "Jean", "minute": null},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": 2},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": 5},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": 13},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": 28},
+    {"team_side": "france", "type": "essai", "player_last_name": "Trillo", "player_first_name": "Jean", "minute": 28},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Nica", "player_first_name": "Gheorghe", "minute": null},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Nica", "player_first_name": "Gheorghe", "minute": null}
   ],

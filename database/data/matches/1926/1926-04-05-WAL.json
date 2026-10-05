@@ -41,8 +41,8 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "essai", "player_last_name": "Gerintes", "player_first_name": "Gilbert", "minute": null},
-    {"team_side": "france", "type": "transformation", "player_last_name": "Gonnet", "player_first_name": "Charles-Anthoine", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Gerintes", "player_first_name": "Gilbert", "minute": 25},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Gonnet", "player_first_name": "Charles-Anthoine", "minute": 25},
     {"team_side": "adversaire", "type": "drop", "player_last_name": "Cornish", "player_first_name": "Arthur", "minute": null},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Watkins", "player_first_name": "Emlyn", "minute": null}
   ],

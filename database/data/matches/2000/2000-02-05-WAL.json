@@ -55,6 +55,7 @@
   },
   "events": [
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Jenkins", "player_first_name": "Neil", "minute": 13},
+    {"team_side": "france", "type": "drop", "player_last_name": "Lamaison", "player_first_name": "Christophe", "minute": 25},
     {"team_side": "france", "type": "penalite", "player_last_name": "Lamaison", "player_first_name": "Christophe", "minute": 27},
     {"team_side": "france", "type": "penalite", "player_last_name": "Lamaison", "player_first_name": "Christophe", "minute": 35},
     {"team_side": "france", "type": "penalite", "player_last_name": "Lamaison", "player_first_name": "Christophe", "minute": 49},
@@ -64,8 +65,7 @@
     {"team_side": "france", "type": "transformation", "player_last_name": "Lamaison", "player_first_name": "Christophe", "minute": 58},
     {"team_side": "france", "type": "penalite", "player_last_name": "Lamaison", "player_first_name": "Christophe", "minute": 77},
     {"team_side": "france", "type": "transformation", "player_last_name": "Lamaison", "player_first_name": "Christophe", "minute": 78},
-    {"team_side": "france", "type": "essai", "player_last_name": "Ntamack", "player_first_name": "Émile", "minute": 80},
-    {"team_side": "france", "type": "drop", "player_last_name": "Lamaison", "player_first_name": "Christophe", "minute": null}
+    {"team_side": "france", "type": "essai", "player_last_name": "Ntamack", "player_first_name": "Émile", "minute": 80}
   ],
   "substitutions": [
     {"team_side": "france", "player_off_last_name": "Dourthe", "player_off_first_name": "Richard", "player_on_last_name": "Venditti", "player_on_first_name": "David", "minute": 20, "is_tactical": true},

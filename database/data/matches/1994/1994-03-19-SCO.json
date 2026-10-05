@@ -53,12 +53,12 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "penalite", "player_last_name": "Lacroix", "player_first_name": "Thierry", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Lacroix", "player_first_name": "Thierry", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Sadourny", "player_first_name": "Jean-Luc", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Saint-André", "player_first_name": "Philippe", "minute": null},
-    {"team_side": "france", "type": "transformation", "player_last_name": "Lacroix", "player_first_name": "Thierry", "minute": null},
-    {"team_side": "france", "type": "transformation", "player_last_name": "Montlaur", "player_first_name": "Pierre", "minute": null},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Lacroix", "player_first_name": "Thierry", "minute": 3},
+    {"team_side": "france", "type": "essai", "player_last_name": "Sadourny", "player_first_name": "Jean-Luc", "minute": 19},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Lacroix", "player_first_name": "Thierry", "minute": 19},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Lacroix", "player_first_name": "Thierry", "minute": 35},
+    {"team_side": "france", "type": "essai", "player_last_name": "Saint-André", "player_first_name": "Philippe", "minute": 55},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Montlaur", "player_first_name": "Pierre", "minute": 55},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Hastings", "player_first_name": "Gavin", "minute": null},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Hastings", "player_first_name": "Gavin", "minute": null},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Hastings", "player_first_name": "Gavin", "minute": null},

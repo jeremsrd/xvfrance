@@ -41,8 +41,8 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "penalite", "player_last_name": "Lescarboura", "player_first_name": "Jean-Patrick", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Lescarboura", "player_first_name": "Jean-Patrick", "minute": null},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Lescarboura", "player_first_name": "Jean-Patrick", "minute": 57},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Lescarboura", "player_first_name": "Jean-Patrick", "minute": 65},
     {"team_side": "adversaire", "type": "drop", "player_last_name": "Ignat", "player_first_name": "Gelu", "minute": null},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Ignat", "player_first_name": "Gelu", "minute": null},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Ignat", "player_first_name": "Gelu", "minute": null},

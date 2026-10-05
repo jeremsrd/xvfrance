@@ -49,9 +49,12 @@
   },
   "events": [
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Dominguez", "player_first_name": "Diego", "minute": 7},
+    {"team_side": "france", "type": "essai", "player_last_name": "Califano", "player_first_name": "Christian", "minute": 10},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Dominguez", "player_first_name": "Diego", "minute": 29},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Vaccari", "player_first_name": "Paolo", "minute": 48},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Dominguez", "player_first_name": "Diego", "minute": 48},
+    {"team_side": "france", "type": "essai", "player_last_name": "Saint-André", "player_first_name": "Philippe", "minute": 59},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Lamaison", "player_first_name": "Christophe", "minute": 59},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Dominguez", "player_first_name": "Diego", "minute": 63},
     {"team_side": "france", "type": "penalite", "player_last_name": "Lamaison", "player_first_name": "Christophe", "minute": null},
     {"team_side": "france", "type": "penalite", "player_last_name": "Lamaison", "player_first_name": "Christophe", "minute": null},
@@ -59,9 +62,6 @@
     {"team_side": "france", "type": "penalite", "player_last_name": "Lamaison", "player_first_name": "Christophe", "minute": null},
     {"team_side": "france", "type": "penalite", "player_last_name": "Lamaison", "player_first_name": "Christophe", "minute": null},
     {"team_side": "france", "type": "penalite", "player_last_name": "Lamaison", "player_first_name": "Christophe", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Saint-André", "player_first_name": "Philippe", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Califano", "player_first_name": "Christian", "minute": null},
-    {"team_side": "france", "type": "transformation", "player_last_name": "Lamaison", "player_first_name": "Christophe", "minute": null},
     {"team_side": "adversaire", "type": "drop", "player_last_name": "Dominguez", "player_first_name": "Diego", "minute": null}
   ],
   "substitutions": [

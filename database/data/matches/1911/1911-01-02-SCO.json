@@ -41,12 +41,12 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "transformation", "player_last_name": "Decamps", "player_first_name": "Paul", "minute": null},
-    {"team_side": "france", "type": "transformation", "player_last_name": "Decamps", "player_first_name": "Paul", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Failliot", "player_first_name": "Pierre", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Failliot", "player_first_name": "Pierre", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Laterrade", "player_first_name": "Guillaume", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Peyroutou", "player_first_name": "Georges", "minute": null},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Decamps", "player_first_name": "Paul", "minute": 25},
+    {"team_side": "france", "type": "essai", "player_last_name": "Laterrade", "player_first_name": "Guillaume", "minute": 25},
+    {"team_side": "france", "type": "essai", "player_last_name": "Failliot", "player_first_name": "Pierre", "minute": 34},
+    {"team_side": "france", "type": "essai", "player_last_name": "Peyroutou", "player_first_name": "Georges", "minute": 36},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Decamps", "player_first_name": "Paul", "minute": 46},
+    {"team_side": "france", "type": "essai", "player_last_name": "Failliot", "player_first_name": "Pierre", "minute": 46},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Munro", "player_first_name": "Pat", "minute": null},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Maccallum", "player_first_name": "John", "minute": null},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Abercrombie", "player_first_name": "Cecil", "minute": null},

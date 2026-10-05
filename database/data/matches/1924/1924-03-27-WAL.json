@@ -41,7 +41,7 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "essai", "player_last_name": "Behoteguy", "player_first_name": "André", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Behoteguy", "player_first_name": "André", "minute": 16},
     {"team_side": "france", "type": "essai", "player_last_name": "Lubin-Lebrère", "player_first_name": "Marcel-Frédéric", "minute": null},
     {"team_side": "adversaire", "type": "drop", "player_last_name": "Griffiths", "player_first_name": "Vince", "minute": null},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Finch", "player_first_name": "Ernie", "minute": null},

@@ -53,13 +53,13 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "essai", "player_last_name": "Harize", "player_first_name": "Dominique", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Paparemborde", "player_first_name": "Robert", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Bertranne", "player_first_name": "Roland", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Paco", "player_first_name": "Alain", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": null},
-    {"team_side": "france", "type": "transformation", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": null},
-    {"team_side": "france", "type": "transformation", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Paco", "player_first_name": "Alain", "minute": 17},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": 17},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": 38},
+    {"team_side": "france", "type": "essai", "player_last_name": "Harize", "player_first_name": "Dominique", "minute": 44},
+    {"team_side": "france", "type": "essai", "player_last_name": "Bertranne", "player_first_name": "Roland", "minute": 71},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": 71},
+    {"team_side": "france", "type": "essai", "player_last_name": "Paparemborde", "player_first_name": "Robert", "minute": 77},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Irvine", "player_first_name": "Andy", "minute": null}
   ],
   "substitutions": []

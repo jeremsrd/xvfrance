@@ -60,6 +60,7 @@
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Montgomery", "player_first_name": "Percy", "minute": 12},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Habana", "player_first_name": "Bryan", "minute": 13},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Montgomery", "player_first_name": "Percy", "minute": 14},
+    {"team_side": "france", "type": "drop", "player_last_name": "Michalak", "player_first_name": "Frédéric", "minute": 21},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Montgomery", "player_first_name": "Percy", "minute": 36},
     {"team_side": "france", "type": "penalite", "player_last_name": "Elissalde", "player_first_name": "Jean-Baptiste", "minute": 39},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Habana", "player_first_name": "Bryan", "minute": 45},
@@ -70,7 +71,6 @@
     {"team_side": "adversaire", "type": "essai", "player_last_name": "De Villiers", "player_first_name": "Jean", "minute": 60},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Montgomery", "player_first_name": "Percy", "minute": 61},
     {"team_side": "france", "type": "essai", "player_last_name": "Candelon", "player_first_name": "Julien", "minute": 79},
-    {"team_side": "france", "type": "drop", "player_last_name": "Michalak", "player_first_name": "Frédéric", "minute": null},
     {"team_side": "adversaire", "type": "drop", "player_last_name": "Montgomery", "player_first_name": "Percy", "minute": null}
   ],
   "substitutions": []

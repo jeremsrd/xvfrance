@@ -41,11 +41,11 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "essai", "player_last_name": "Laffitte", "player_first_name": "Pierre-Paul", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Mauriat", "player_first_name": "Paul", "minute": null},
-    {"team_side": "france", "type": "transformation", "player_last_name": "Menrath", "player_first_name": "René", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Menrath", "player_first_name": "René", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Menrath", "player_first_name": "René", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Laffitte", "player_first_name": "Pierre-Paul", "minute": 5},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Menrath", "player_first_name": "René", "minute": 5},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Menrath", "player_first_name": "René", "minute": 16},
+    {"team_side": "france", "type": "essai", "player_last_name": "Mauriat", "player_first_name": "Paul", "minute": 37},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Menrath", "player_first_name": "René", "minute": 38},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Bancroft", "player_first_name": "Jack", "minute": null},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Bancroft", "player_first_name": "Jack", "minute": null},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Bancroft", "player_first_name": "Jack", "minute": null},

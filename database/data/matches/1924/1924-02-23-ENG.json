@@ -41,8 +41,8 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "essai", "player_last_name": "Ballarin", "player_first_name": "Jacques", "minute": null},
-    {"team_side": "france", "type": "drop", "player_last_name": "Behoteguy", "player_first_name": "André", "minute": null},
+    {"team_side": "france", "type": "drop", "player_last_name": "Behoteguy", "player_first_name": "André", "minute": 45},
+    {"team_side": "france", "type": "essai", "player_last_name": "Ballarin", "player_first_name": "Jacques", "minute": 79},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Young", "player_first_name": "Arthur", "minute": null},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Catcheside", "player_first_name": "Howard", "minute": null},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Jacob", "player_first_name": "Herbert", "minute": null},

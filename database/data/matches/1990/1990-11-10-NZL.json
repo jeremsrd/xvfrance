@@ -58,14 +58,14 @@
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Fox", "player_first_name": "Grant", "minute": 22},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Fox", "player_first_name": "Grant", "minute": 32},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Crowley", "player_first_name": "Kieran", "minute": 32},
+    {"team_side": "france", "type": "drop", "player_last_name": "Camberabero", "player_first_name": "Didier", "minute": 39},
     {"team_side": "france", "type": "penalite", "player_last_name": "Camberabero", "player_first_name": "Didier", "minute": 42},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Fox", "player_first_name": "Grant", "minute": 44},
     {"team_side": "france", "type": "penalite", "player_last_name": "Camberabero", "player_first_name": "Didier", "minute": 51},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Fox", "player_first_name": "Grant", "minute": 54},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Fox", "player_first_name": "Grant", "minute": 58},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Jones", "player_first_name": "Michael", "minute": 58},
-    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Fox", "player_first_name": "Grant", "minute": 72},
-    {"team_side": "france", "type": "drop", "player_last_name": "Camberabero", "player_first_name": "Didier", "minute": null}
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Fox", "player_first_name": "Grant", "minute": 72}
   ],
   "substitutions": [
     {"team_side": "france", "player_off_last_name": "Benazzi", "player_off_first_name": "Abdelatif", "player_on_last_name": "Cabannes", "player_on_first_name": "Laurent", "minute": 68, "is_tactical": true}

@@ -53,10 +53,10 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "essai", "player_last_name": "Rives", "player_first_name": "Jean-Pierre", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Averous", "player_first_name": "Jean-Luc", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Rives", "player_first_name": "Jean-Pierre", "minute": 2},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Caussade", "player_first_name": "Alain", "minute": 15},
+    {"team_side": "france", "type": "essai", "player_last_name": "Averous", "player_first_name": "Jean-Luc", "minute": 74},
     {"team_side": "france", "type": "transformation", "player_last_name": "Caussade", "player_first_name": "Alain", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Caussade", "player_first_name": "Alain", "minute": null},
     {"team_side": "adversaire", "type": "drop", "player_last_name": "Horton", "player_first_name": "John", "minute": null},
     {"team_side": "adversaire", "type": "drop", "player_last_name": "Horton", "player_first_name": "John", "minute": null},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Carleton", "player_first_name": "John", "minute": null},

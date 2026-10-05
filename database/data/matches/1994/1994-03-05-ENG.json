@@ -40,10 +40,10 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "essai", "player_last_name": "Benazzi", "player_first_name": "Abdelatif", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Lacroix", "player_first_name": "Thierry", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Lacroix", "player_first_name": "Thierry", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Lacroix", "player_first_name": "Thierry", "minute": null},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Lacroix", "player_first_name": "Thierry", "minute": 49},
+    {"team_side": "france", "type": "essai", "player_last_name": "Benazzi", "player_first_name": "Abdelatif", "minute": 51},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Lacroix", "player_first_name": "Thierry", "minute": 70},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Lacroix", "player_first_name": "Thierry", "minute": 75},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Andrew", "player_first_name": "Rob", "minute": null},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Andrew", "player_first_name": "Rob", "minute": null},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Andrew", "player_first_name": "Rob", "minute": null},

@@ -41,7 +41,7 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "essai", "player_last_name": "Galau", "player_first_name": "Henri", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Galau", "player_first_name": "Henri", "minute": 71},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Doe", "player_first_name": "Charles", "minute": null},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Rogers", "player_first_name": "Wl", "minute": null},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Farrish", "player_first_name": "L", "minute": null},

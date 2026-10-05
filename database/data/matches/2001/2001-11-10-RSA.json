@@ -55,12 +55,12 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "penalite", "player_last_name": "Traille", "player_first_name": "Damien", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Gelez", "player_first_name": "François", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Gelez", "player_first_name": "François", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Gelez", "player_first_name": "François", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Gelez", "player_first_name": "François", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Ibañez", "player_first_name": "Raphaël", "minute": null},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Gelez", "player_first_name": "François", "minute": 9},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Gelez", "player_first_name": "François", "minute": 12},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Gelez", "player_first_name": "François", "minute": 36},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Traille", "player_first_name": "Damien", "minute": 60},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Gelez", "player_first_name": "François", "minute": 67},
+    {"team_side": "france", "type": "essai", "player_last_name": "Ibañez", "player_first_name": "Raphaël", "minute": 75},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Rossouw", "player_first_name": "Pieter", "minute": null},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Van Straaten", "player_first_name": "Braam", "minute": null},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Van Straaten", "player_first_name": "Braam", "minute": null}

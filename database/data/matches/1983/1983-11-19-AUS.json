@@ -53,11 +53,11 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "penalite", "player_last_name": "Gabernet", "player_first_name": "Serge", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Lescarboura", "player_first_name": "Jean-Patrick", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Lescarboura", "player_first_name": "Jean-Patrick", "minute": null},
-    {"team_side": "france", "type": "transformation", "player_last_name": "Lescarboura", "player_first_name": "Jean-Patrick", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Esteve", "player_first_name": "Patrick", "minute": null},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Lescarboura", "player_first_name": "Jean-Patrick", "minute": 7},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Lescarboura", "player_first_name": "Jean-Patrick", "minute": 12},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Gabernet", "player_first_name": "Serge", "minute": 50},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Lescarboura", "player_first_name": "Jean-Patrick", "minute": 82},
+    {"team_side": "france", "type": "essai", "player_last_name": "Esteve", "player_first_name": "Patrick", "minute": 82},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Campese", "player_first_name": "David", "minute": null},
     {"team_side": "adversaire", "type": "drop", "player_last_name": "Ella", "player_first_name": "Mark", "minute": null}
   ],

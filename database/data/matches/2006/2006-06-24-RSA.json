@@ -57,6 +57,7 @@
     {"team_side": "france", "type": "essai", "player_last_name": "Heymans", "player_first_name": "Cédric", "minute": 4},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Montgomery", "player_first_name": "Percy", "minute": 7},
     {"team_side": "france", "type": "penalite", "player_last_name": "Yachvili", "player_first_name": "Dimitri", "minute": 12},
+    {"team_side": "france", "type": "drop", "player_last_name": "Fritz", "player_first_name": "Florian", "minute": 18},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Montgomery", "player_first_name": "Percy", "minute": 21},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Montgomery", "player_first_name": "Percy", "minute": 26},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Montgomery", "player_first_name": "Percy", "minute": 28},
@@ -67,11 +68,10 @@
     {"team_side": "france", "type": "transformation", "player_last_name": "Yachvili", "player_first_name": "Dimitri", "minute": 53},
     {"team_side": "france", "type": "transformation", "player_last_name": "Yachvili", "player_first_name": "Dimitri", "minute": 58},
     {"team_side": "france", "type": "essai", "player_last_name": "Traille", "player_first_name": "Damien", "minute": 58},
+    {"team_side": "france", "type": "drop", "player_last_name": "Traille", "player_first_name": "Damien", "minute": 65},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Montgomery", "player_first_name": "Percy", "minute": 66},
     {"team_side": "france", "type": "essai", "player_last_name": "Clerc", "player_first_name": "Vincent", "minute": 73},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Yachvili", "player_first_name": "Dimitri", "minute": 80},
-    {"team_side": "france", "type": "drop", "player_last_name": "Fritz", "player_first_name": "Florian", "minute": null},
-    {"team_side": "france", "type": "drop", "player_last_name": "Traille", "player_first_name": "Damien", "minute": null}
+    {"team_side": "france", "type": "penalite", "player_last_name": "Yachvili", "player_first_name": "Dimitri", "minute": 80}
   ],
   "substitutions": [
     {"team_side": "france", "player_off_last_name": "Dusautoir", "player_off_first_name": "Thierry", "player_on_last_name": "Martin", "player_on_first_name": "Rémy", "minute": 14, "is_tactical": true},

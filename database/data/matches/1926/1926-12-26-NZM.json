@@ -41,7 +41,7 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "essai", "player_last_name": "Ribere", "player_first_name": "Eugène", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Ribere", "player_first_name": "Eugène", "minute": 13},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Rika", "player_first_name": "Billy", "minute": null},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Barclay", "player_first_name": "Wattie", "minute": null},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Barclay", "player_first_name": "Wattie", "minute": null},

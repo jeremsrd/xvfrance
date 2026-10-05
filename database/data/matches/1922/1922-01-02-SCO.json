@@ -41,7 +41,7 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "essai", "player_last_name": "Jaureguy", "player_first_name": "Adolphe", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Jaureguy", "player_first_name": "Adolphe", "minute": 10},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Browning", "player_first_name": "Arthur", "minute": null}
   ],
   "substitutions": []

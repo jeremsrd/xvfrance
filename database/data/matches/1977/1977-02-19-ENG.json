@@ -53,7 +53,7 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "essai", "player_last_name": "Sangalli", "player_first_name": "François", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Sangalli", "player_first_name": "François", "minute": 48},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Hignell", "player_first_name": "Alastair", "minute": null}
   ],
   "substitutions": []

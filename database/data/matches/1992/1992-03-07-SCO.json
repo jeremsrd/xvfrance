@@ -52,8 +52,8 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "penalite", "player_last_name": "Lafond", "player_first_name": "Jean-Baptiste", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Lafond", "player_first_name": "Jean-Baptiste", "minute": null},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Lafond", "player_first_name": "Jean-Baptiste", "minute": 12},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Lafond", "player_first_name": "Jean-Baptiste", "minute": 55},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Hastings", "player_first_name": "Gavin", "minute": null},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Hastings", "player_first_name": "Gavin", "minute": null},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Edwards", "player_first_name": "Neil", "minute": null}

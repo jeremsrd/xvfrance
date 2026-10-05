@@ -53,7 +53,7 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "essai", "player_last_name": "Phliponeau", "player_first_name": "Jean-François", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Phliponeau", "player_first_name": "Jean-François", "minute": 78},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Ensor", "player_first_name": "Tony", "minute": null},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Gibson", "player_first_name": "Mike", "minute": null}
   ],

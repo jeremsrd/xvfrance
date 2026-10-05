@@ -41,7 +41,7 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "essai", "player_last_name": "Dufau", "player_first_name": "Julien", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Dufau", "player_first_name": "Julien", "minute": 25},
     {"team_side": "france", "type": "essai", "player_last_name": "Paoli", "player_first_name": "Raoul", "minute": null},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Lloyd", "player_first_name": "Dicky", "minute": null},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Foster", "player_first_name": "Alexander", "minute": null},

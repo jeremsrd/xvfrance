@@ -53,7 +53,7 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "penalite", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": null},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": 35},
     {"team_side": "adversaire", "type": "drop", "player_last_name": "McKechnie", "player_first_name": "Brian", "minute": null},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "McKechnie", "player_first_name": "Brian", "minute": null},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "McKechnie", "player_first_name": "Brian", "minute": null},

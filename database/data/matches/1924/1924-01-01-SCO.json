@@ -41,10 +41,10 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "essai", "player_last_name": "Piquiral", "player_first_name": "Étienne", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Galau", "player_first_name": "Henri", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Jaureguy", "player_first_name": "Adolphe", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Moureu", "player_first_name": "Pierre", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Jaureguy", "player_first_name": "Adolphe", "minute": 10},
+    {"team_side": "france", "type": "essai", "player_last_name": "Piquiral", "player_first_name": "Étienne", "minute": 12},
+    {"team_side": "france", "type": "essai", "player_last_name": "Galau", "player_first_name": "Henri", "minute": 56},
+    {"team_side": "france", "type": "essai", "player_last_name": "Moureu", "player_first_name": "Pierre", "minute": 74},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Davies", "player_first_name": "Douglas", "minute": null},
     {"team_side": "adversaire", "type": "drop", "player_last_name": "Waddell", "player_first_name": "Herbert", "minute": null},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Wallace", "player_first_name": "Johnnie", "minute": null}

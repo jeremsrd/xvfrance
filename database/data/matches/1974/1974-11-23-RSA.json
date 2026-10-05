@@ -41,7 +41,7 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "essai", "player_last_name": "Bertranne", "player_first_name": "Roland", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Bertranne", "player_first_name": "Roland", "minute": 74},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Bosch", "player_first_name": "Gerald", "minute": null},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Bosch", "player_first_name": "Gerald", "minute": null},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Fourie", "player_first_name": "Carel", "minute": null},

@@ -56,14 +56,14 @@
     ]
   },
   "events": [
+    {"team_side": "france", "type": "drop", "player_last_name": "Trinh-Duc", "player_first_name": "François", "minute": 3},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Williams", "player_first_name": "Liam", "minute": 4},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Halfpenny", "player_first_name": "Leigh", "minute": 10},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Halfpenny", "player_first_name": "Leigh", "minute": 16},
     {"team_side": "france", "type": "essai", "player_last_name": "Fickou", "player_first_name": "Gaël", "minute": 21},
     {"team_side": "france", "type": "transformation", "player_last_name": "Machenaud", "player_first_name": "Maxime", "minute": 22},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Halfpenny", "player_first_name": "Leigh", "minute": 32},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Machenaud", "player_first_name": "Maxime", "minute": 49},
-    {"team_side": "france", "type": "drop", "player_last_name": "Trinh-Duc", "player_first_name": "François", "minute": null}
+    {"team_side": "france", "type": "penalite", "player_last_name": "Machenaud", "player_first_name": "Maxime", "minute": 49}
   ],
   "substitutions": [
     {"team_side": "france", "player_off_last_name": "Camara", "player_off_first_name": "Yacouba", "player_on_last_name": "Babillot", "player_on_first_name": "Mathieu", "minute": 26, "is_tactical": true},

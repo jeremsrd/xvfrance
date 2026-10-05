@@ -63,12 +63,12 @@
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Carter", "player_first_name": "Daniel", "minute": 30},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Kaino", "player_first_name": "Jerome", "minute": 33},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Carter", "player_first_name": "Daniel", "minute": 34},
+    {"team_side": "france", "type": "drop", "player_last_name": "Trinh-Duc", "player_first_name": "François", "minute": 35},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Carter", "player_first_name": "Daniel", "minute": 52},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Jane", "player_first_name": "Cory", "minute": 62},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Carter", "player_first_name": "Daniel", "minute": 63},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Smith", "player_first_name": "Conrad", "minute": 71},
-    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Carter", "player_first_name": "Daniel", "minute": 72},
-    {"team_side": "france", "type": "drop", "player_last_name": "Trinh-Duc", "player_first_name": "François", "minute": null}
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Carter", "player_first_name": "Daniel", "minute": 72}
   ],
   "substitutions": [
     {"team_side": "france", "player_off_last_name": "Servat", "player_off_first_name": "William", "player_on_last_name": "Szarzewski", "player_on_first_name": "Dimitri", "minute": 48, "is_tactical": true},

@@ -53,11 +53,11 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "penalite", "player_last_name": "Sallefranque", "player_first_name": "Marc", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Sallefranque", "player_first_name": "Marc", "minute": null},
-    {"team_side": "france", "type": "drop", "player_last_name": "Lescarboura", "player_first_name": "Jean-Patrick", "minute": null},
-    {"team_side": "france", "type": "transformation", "player_last_name": "Sallefranque", "player_first_name": "Marc", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Pardo", "player_first_name": "Laurent", "minute": null},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Sallefranque", "player_first_name": "Marc", "minute": 25},
+    {"team_side": "france", "type": "essai", "player_last_name": "Pardo", "player_first_name": "Laurent", "minute": 25},
+    {"team_side": "france", "type": "drop", "player_last_name": "Lescarboura", "player_first_name": "Jean-Patrick", "minute": 50},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Sallefranque", "player_first_name": "Marc", "minute": 55},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Sallefranque", "player_first_name": "Marc", "minute": 60},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Hare", "player_first_name": "Dusty", "minute": null},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Hare", "player_first_name": "Dusty", "minute": null},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Hare", "player_first_name": "Dusty", "minute": null},

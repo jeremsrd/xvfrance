@@ -52,11 +52,11 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "drop", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Dourthe", "player_first_name": "Claude", "minute": null},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": 3},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": 9},
+    {"team_side": "france", "type": "essai", "player_last_name": "Dourthe", "player_first_name": "Claude", "minute": 22},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": 60},
+    {"team_side": "france", "type": "drop", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": 73},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Lawson", "player_first_name": "Alan", "minute": null},
     {"team_side": "adversaire", "type": "drop", "player_last_name": "McGeechan", "player_first_name": "Ian", "minute": null},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Brown", "player_first_name": "Peter", "minute": null},

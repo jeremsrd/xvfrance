@@ -87,6 +87,12 @@ sont justes, sauf Traille (+2), Szarzewski (+1) et Michalak (+1). Les écarts re
 entre sources (Berbizier : 56 selon Wikipédia et nous, 60 selon la liste) ou des erreurs du site (Brouzet en 1994).
 Pas de remplacements adverses sur ce site.
 
+Le même cache complète la **minute des points français** : `python3 scripts/finalesrugby/points.py [--dry]`. Une minute
+n'est remplie que si le site donne, pour le même joueur et le même type, autant de points que la feuille ; les points
+ne sont jamais ajoutés ni retirés. Le 06/10/2026 : 1 323 minutes ajoutées sur 281 feuilles (2 337 points sans minute
+avant, 1014 après, surtout avant 1980, où le site écrit « 2e mi-temps » ou rien). Les blocs « cartons » du site sont
+toujours vides.
+
 ## results.csv
 
 `database/data/sources/results.csv` est un CSV de résultats internationaux de 1950 à 2026, lu par

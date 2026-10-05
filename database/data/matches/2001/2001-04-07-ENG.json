@@ -54,12 +54,12 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "drop", "player_last_name": "Merceron", "player_first_name": "Gérald", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Merceron", "player_first_name": "Gérald", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Merceron", "player_first_name": "Gérald", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Merceron", "player_first_name": "Gérald", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Bernat-Salles", "player_first_name": "Philippe", "minute": null},
-    {"team_side": "france", "type": "transformation", "player_last_name": "Merceron", "player_first_name": "Gérald", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Bernat-Salles", "player_first_name": "Philippe", "minute": 14},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Merceron", "player_first_name": "Gérald", "minute": 14},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Merceron", "player_first_name": "Gérald", "minute": 17},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Merceron", "player_first_name": "Gérald", "minute": 29},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Merceron", "player_first_name": "Gérald", "minute": 34},
+    {"team_side": "france", "type": "drop", "player_last_name": "Merceron", "player_first_name": "Gérald", "minute": 57},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Catt", "player_first_name": "Mike", "minute": null},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Greening", "player_first_name": "Phil", "minute": null},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Greenwood", "player_first_name": "Will", "minute": null},

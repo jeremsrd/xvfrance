@@ -54,11 +54,11 @@
   },
   "events": [
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Hewson", "player_first_name": "Alan", "minute": 8},
+    {"team_side": "france", "type": "drop", "player_last_name": "Lescarboura", "player_first_name": "Jean-Patrick", "minute": 31},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Hewson", "player_first_name": "Alan", "minute": 50},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Taylor", "player_first_name": "Warwick", "minute": 57},
     {"team_side": "france", "type": "transformation", "player_last_name": "Lescarboura", "player_first_name": "Jean-Patrick", "minute": 68},
-    {"team_side": "france", "type": "essai", "player_last_name": "Blanco", "player_first_name": "Serge", "minute": 68},
-    {"team_side": "france", "type": "drop", "player_last_name": "Lescarboura", "player_first_name": "Jean-Patrick", "minute": null}
+    {"team_side": "france", "type": "essai", "player_last_name": "Blanco", "player_first_name": "Serge", "minute": 68}
   ],
   "substitutions": []
 }

@@ -41,10 +41,10 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "transformation", "player_last_name": "Aguirre", "player_first_name": "Jean-Michel", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Aguirre", "player_first_name": "Jean-Michel", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Aguirre", "player_first_name": "Jean-Michel", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Bastiat", "player_first_name": "Jean-Pierre", "minute": null},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Aguirre", "player_first_name": "Jean-Michel", "minute": 9},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Aguirre", "player_first_name": "Jean-Michel", "minute": 20},
+    {"team_side": "france", "type": "essai", "player_last_name": "Bastiat", "player_first_name": "Jean-Pierre", "minute": 20},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Aguirre", "player_first_name": "Jean-Michel", "minute": 43},
     {"team_side": "adversaire", "type": "drop", "player_last_name": "Bucos", "player_first_name": "Mihai", "minute": null},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Murariu", "player_first_name": "Florica", "minute": null},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Dumitru", "player_first_name": "Alexandru", "minute": null},

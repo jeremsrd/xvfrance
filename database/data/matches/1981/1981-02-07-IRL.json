@@ -51,12 +51,12 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "drop", "player_last_name": "Laporte", "player_first_name": "Guy", "minute": null},
-    {"team_side": "france", "type": "drop", "player_last_name": "Laporte", "player_first_name": "Guy", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Laporte", "player_first_name": "Guy", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Laporte", "player_first_name": "Guy", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Gabernet", "player_first_name": "Serge", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Pardo", "player_first_name": "Laurent", "minute": null},
+    {"team_side": "france", "type": "drop", "player_last_name": "Laporte", "player_first_name": "Guy", "minute": 1},
+    {"team_side": "france", "type": "drop", "player_last_name": "Laporte", "player_first_name": "Guy", "minute": 7},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Laporte", "player_first_name": "Guy", "minute": 26},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Laporte", "player_first_name": "Guy", "minute": 33},
+    {"team_side": "france", "type": "essai", "player_last_name": "Pardo", "player_first_name": "Laurent", "minute": 65},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Gabernet", "player_first_name": "Serge", "minute": 74},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Macneill", "player_first_name": "Hugo", "minute": null},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Campbell", "player_first_name": "Ollie", "minute": null},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Campbell", "player_first_name": "Ollie", "minute": null},

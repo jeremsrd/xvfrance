@@ -52,10 +52,10 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "drop", "player_last_name": "Sallefranque", "player_first_name": "Marc", "minute": null},
-    {"team_side": "france", "type": "drop", "player_last_name": "Elissalde", "player_first_name": "Jean Pierre", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Lacans", "player_first_name": "Pierre", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Elissalde", "player_first_name": "Jean Pierre", "minute": null},
+    {"team_side": "france", "type": "drop", "player_last_name": "Elissalde", "player_first_name": "Jean Pierre", "minute": 3},
+    {"team_side": "france", "type": "drop", "player_last_name": "Sallefranque", "player_first_name": "Marc", "minute": 35},
+    {"team_side": "france", "type": "essai", "player_last_name": "Elissalde", "player_first_name": "Jean Pierre", "minute": 63},
+    {"team_side": "france", "type": "essai", "player_last_name": "Lacans", "player_first_name": "Pierre", "minute": 71},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "O'Connor", "player_first_name": "Michael", "minute": null},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Hall", "player_first_name": "Duncan", "minute": null},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "McLean", "player_first_name": "Paul", "minute": null},

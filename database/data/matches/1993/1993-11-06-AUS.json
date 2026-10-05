@@ -53,7 +53,7 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "penalite", "player_last_name": "Lacroix", "player_first_name": "Thierry", "minute": null},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Lacroix", "player_first_name": "Thierry", "minute": 40},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Roebuck", "player_first_name": "Marty", "minute": null},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Roebuck", "player_first_name": "Marty", "minute": null},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Roebuck", "player_first_name": "Marty", "minute": null},

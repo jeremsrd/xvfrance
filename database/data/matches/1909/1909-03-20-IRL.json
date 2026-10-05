@@ -41,9 +41,9 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "essai", "player_last_name": "Hourdebaigt", "player_first_name": "Augustin", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Lane", "player_first_name": "Gaston", "minute": null},
-    {"team_side": "france", "type": "transformation", "player_last_name": "Mauriat", "player_first_name": "Paul", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Hourdebaigt", "player_first_name": "Augustin", "minute": 70},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Mauriat", "player_first_name": "Paul", "minute": 70},
+    {"team_side": "france", "type": "essai", "player_last_name": "Lane", "player_first_name": "Gaston", "minute": 80},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Thompson", "player_first_name": "Charles", "minute": null},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Thompson", "player_first_name": "Charles", "minute": null},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Gardiner", "player_first_name": "Fred", "minute": null},

@@ -54,6 +54,7 @@
   },
   "events": [
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Wilson", "player_first_name": "Bevan", "minute": 6},
+    {"team_side": "france", "type": "drop", "player_last_name": "Caussade", "player_first_name": "Alain", "minute": 10},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Donaldson", "player_first_name": "Mark", "minute": 12},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Wilson", "player_first_name": "Bevan", "minute": 40},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Wilson", "player_first_name": "Stu", "minute": 66},
@@ -61,8 +62,7 @@
     {"team_side": "france", "type": "essai", "player_last_name": "Mesny", "player_first_name": "Patrick", "minute": 69},
     {"team_side": "france", "type": "transformation", "player_last_name": "Aguirre", "player_first_name": "Jean-Michel", "minute": 69},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Watts", "player_first_name": "Murray", "minute": 70},
-    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Wilson", "player_first_name": "Bevan", "minute": 80},
-    {"team_side": "france", "type": "drop", "player_last_name": "Caussade", "player_first_name": "Alain", "minute": null}
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Wilson", "player_first_name": "Bevan", "minute": 80}
   ],
   "substitutions": []
 }

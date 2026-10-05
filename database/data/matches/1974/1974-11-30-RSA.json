@@ -44,8 +44,8 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "essai", "player_last_name": "Gourdon", "player_first_name": "Jean-François", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Dourthe", "player_first_name": "Claude", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Gourdon", "player_first_name": "Jean-François", "minute": 18},
+    {"team_side": "france", "type": "essai", "player_last_name": "Dourthe", "player_first_name": "Claude", "minute": 84},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Bosch", "player_first_name": "Gerald", "minute": null},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Bosch", "player_first_name": "Gerald", "minute": null},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Stapelberg", "player_first_name": "Willem", "minute": null}

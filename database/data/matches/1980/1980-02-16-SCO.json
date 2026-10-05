@@ -57,13 +57,13 @@
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Rutherford", "player_first_name": "John", "minute": 21},
     {"team_side": "france", "type": "penalite", "player_last_name": "Gabernet", "player_first_name": "Serge", "minute": 29},
     {"team_side": "france", "type": "essai", "player_last_name": "Gabernet", "player_first_name": "Serge", "minute": 43},
+    {"team_side": "france", "type": "drop", "player_last_name": "Caussade", "player_first_name": "Alain", "minute": 54},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Irvine", "player_first_name": "Andy", "minute": 69},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Irvine", "player_first_name": "Andy", "minute": 69},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Renwick", "player_first_name": "Jim", "minute": 77},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Irvine", "player_first_name": "Andy", "minute": 77},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Irvine", "player_first_name": "Andy", "minute": 78},
-    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Irvine", "player_first_name": "Andy", "minute": 91},
-    {"team_side": "france", "type": "drop", "player_last_name": "Caussade", "player_first_name": "Alain", "minute": null}
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Irvine", "player_first_name": "Andy", "minute": 91}
   ],
   "substitutions": []
 }

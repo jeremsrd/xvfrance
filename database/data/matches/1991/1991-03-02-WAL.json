@@ -52,17 +52,17 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "essai", "player_last_name": "Mesnel", "player_first_name": "Franck", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Saint-André", "player_first_name": "Philippe", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Roumat", "player_first_name": "Olivier", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Sella", "player_first_name": "Philippe", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Lafond", "player_first_name": "Jean-Baptiste", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Blanco", "player_first_name": "Serge", "minute": null},
-    {"team_side": "france", "type": "transformation", "player_last_name": "Blanco", "player_first_name": "Serge", "minute": null},
-    {"team_side": "france", "type": "transformation", "player_last_name": "Camberabero", "player_first_name": "Didier", "minute": null},
-    {"team_side": "france", "type": "transformation", "player_last_name": "Camberabero", "player_first_name": "Didier", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Camberabero", "player_first_name": "Didier", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Camberabero", "player_first_name": "Didier", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Blanco", "player_first_name": "Serge", "minute": 3},
+    {"team_side": "france", "type": "essai", "player_last_name": "Saint-André", "player_first_name": "Philippe", "minute": 11},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Camberabero", "player_first_name": "Didier", "minute": 32},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Camberabero", "player_first_name": "Didier", "minute": 36},
+    {"team_side": "france", "type": "essai", "player_last_name": "Mesnel", "player_first_name": "Franck", "minute": 52},
+    {"team_side": "france", "type": "essai", "player_last_name": "Roumat", "player_first_name": "Olivier", "minute": 59},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Camberabero", "player_first_name": "Didier", "minute": 59},
+    {"team_side": "france", "type": "essai", "player_last_name": "Sella", "player_first_name": "Philippe", "minute": 73},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Camberabero", "player_first_name": "Didier", "minute": 73},
+    {"team_side": "france", "type": "essai", "player_last_name": "Lafond", "player_first_name": "Jean-Baptiste", "minute": 80},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Blanco", "player_first_name": "Serge", "minute": 80},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Thorburn", "player_first_name": "Paul", "minute": null}
   ],
   "substitutions": [

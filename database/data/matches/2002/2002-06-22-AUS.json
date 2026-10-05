@@ -54,11 +54,11 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "penalite", "player_last_name": "Gelez", "player_first_name": "François", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Gelez", "player_first_name": "François", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Gelez", "player_first_name": "François", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Traille", "player_first_name": "Damien", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Poux", "player_first_name": "Jean-Baptiste", "minute": null},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Traille", "player_first_name": "Damien", "minute": 3},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Gelez", "player_first_name": "François", "minute": 25},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Gelez", "player_first_name": "François", "minute": 30},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Gelez", "player_first_name": "François", "minute": 44},
+    {"team_side": "france", "type": "essai", "player_last_name": "Poux", "player_first_name": "Jean-Baptiste", "minute": 81},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Burke", "player_first_name": "Matt", "minute": null},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Burke", "player_first_name": "Matt", "minute": null},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Burke", "player_first_name": "Matt", "minute": null},

@@ -60,14 +60,14 @@
     {"team_side": "france", "type": "penalite", "player_last_name": "Ramos", "player_first_name": "Thomas", "minute": 10},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Weir", "player_first_name": "Duncan", "minute": 17},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Weir", "player_first_name": "Duncan", "minute": 21},
+    {"team_side": "france", "type": "drop", "player_last_name": "Jalibert", "player_first_name": "Matthieu", "minute": 24},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Weir", "player_first_name": "Duncan", "minute": 29},
     {"team_side": "france", "type": "penalite", "player_last_name": "Ramos", "player_first_name": "Thomas", "minute": 31},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Weir", "player_first_name": "Duncan", "minute": 38},
     {"team_side": "france", "type": "essai", "player_last_name": "Vakatawa", "player_first_name": "Virimi", "minute": 42},
     {"team_side": "france", "type": "transformation", "player_last_name": "Ramos", "player_first_name": "Thomas", "minute": 43},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Weir", "player_first_name": "Duncan", "minute": 47},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Ramos", "player_first_name": "Thomas", "minute": 61},
-    {"team_side": "france", "type": "drop", "player_last_name": "Jalibert", "player_first_name": "Matthieu", "minute": null}
+    {"team_side": "france", "type": "penalite", "player_last_name": "Ramos", "player_first_name": "Thomas", "minute": 61}
   ],
   "substitutions": [
     {"team_side": "france", "player_off_last_name": "Chat", "player_off_first_name": "Camille", "player_on_last_name": "Marchand", "player_on_first_name": "Julien", "minute": 54, "is_tactical": true},

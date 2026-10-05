@@ -57,6 +57,7 @@
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Sexton", "player_first_name": "Johnny", "minute": 3},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Healy", "player_first_name": "Cian", "minute": 9},
     {"team_side": "france", "type": "penalite", "player_last_name": "Parra", "player_first_name": "Morgan", "minute": 26},
+    {"team_side": "france", "type": "drop", "player_last_name": "Trinh-Duc", "player_first_name": "François", "minute": 28},
     {"team_side": "france", "type": "essai", "player_last_name": "Heymans", "player_first_name": "Cédric", "minute": 30},
     {"team_side": "france", "type": "transformation", "player_last_name": "Parra", "player_first_name": "Morgan", "minute": 32},
     {"team_side": "france", "type": "penalite", "player_last_name": "Parra", "player_first_name": "Morgan", "minute": 39},
@@ -66,8 +67,7 @@
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Sexton", "player_first_name": "Johnny", "minute": 73},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "O'Gara", "player_first_name": "Ronan", "minute": 75},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "O'Brien", "player_first_name": "Sean", "minute": 82},
-    {"team_side": "adversaire", "type": "transformation", "player_last_name": "O'Gara", "player_first_name": "Ronan", "minute": 83},
-    {"team_side": "france", "type": "drop", "player_last_name": "Trinh-Duc", "player_first_name": "François", "minute": null}
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "O'Gara", "player_first_name": "Ronan", "minute": 83}
   ],
   "substitutions": [
     {"team_side": "france", "player_off_last_name": "Poux", "player_off_first_name": "Jean-Baptiste", "player_on_last_name": "Barcella", "player_on_first_name": "Fabien", "minute": 41, "is_tactical": true},

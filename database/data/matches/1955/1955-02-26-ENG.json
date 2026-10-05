@@ -41,12 +41,12 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "essai", "player_last_name": "Baulon", "player_first_name": "Robert", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Celaya", "player_first_name": "Michel", "minute": null},
+    {"team_side": "france", "type": "drop", "player_last_name": "Prat", "player_first_name": "Jean", "minute": 33},
+    {"team_side": "france", "type": "essai", "player_last_name": "Celaya", "player_first_name": "Michel", "minute": 54},
+    {"team_side": "france", "type": "essai", "player_last_name": "Baulon", "player_first_name": "Robert", "minute": 73},
+    {"team_side": "france", "type": "drop", "player_last_name": "Prat", "player_first_name": "Jean", "minute": 78},
     {"team_side": "france", "type": "transformation", "player_last_name": "Vannier", "player_first_name": "Michel", "minute": null},
     {"team_side": "france", "type": "transformation", "player_last_name": "Vannier", "player_first_name": "Michel", "minute": null},
-    {"team_side": "france", "type": "drop", "player_last_name": "Prat", "player_first_name": "Jean", "minute": null},
-    {"team_side": "france", "type": "drop", "player_last_name": "Prat", "player_first_name": "Jean", "minute": null},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Higgins", "player_first_name": "Reginald", "minute": null},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Hazell", "player_first_name": "David", "minute": null},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Hazell", "player_first_name": "David", "minute": null}

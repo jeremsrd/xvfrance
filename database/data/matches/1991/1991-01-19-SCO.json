@@ -53,11 +53,11 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "drop", "player_last_name": "Camberabero", "player_first_name": "Didier", "minute": null},
-    {"team_side": "france", "type": "drop", "player_last_name": "Camberabero", "player_first_name": "Didier", "minute": null},
-    {"team_side": "france", "type": "drop", "player_last_name": "Blanco", "player_first_name": "Serge", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Camberabero", "player_first_name": "Didier", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Camberabero", "player_first_name": "Didier", "minute": null},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Camberabero", "player_first_name": "Didier", "minute": 3},
+    {"team_side": "france", "type": "drop", "player_last_name": "Blanco", "player_first_name": "Serge", "minute": 11},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Camberabero", "player_first_name": "Didier", "minute": 20},
+    {"team_side": "france", "type": "drop", "player_last_name": "Camberabero", "player_first_name": "Didier", "minute": 57},
+    {"team_side": "france", "type": "drop", "player_last_name": "Camberabero", "player_first_name": "Didier", "minute": 74},
     {"team_side": "adversaire", "type": "drop", "player_last_name": "Chalmers", "player_first_name": "Craig", "minute": null},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Chalmers", "player_first_name": "Craig", "minute": null},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Chalmers", "player_first_name": "Craig", "minute": null}

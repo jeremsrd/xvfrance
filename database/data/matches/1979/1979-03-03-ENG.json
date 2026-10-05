@@ -53,8 +53,8 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "transformation", "player_last_name": "Aguirre", "player_first_name": "Jean-Michel", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Costes", "player_first_name": "Frédéric", "minute": null},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Aguirre", "player_first_name": "Jean-Michel", "minute": 71},
+    {"team_side": "france", "type": "essai", "player_last_name": "Costes", "player_first_name": "Frédéric", "minute": 71},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Bennett", "player_first_name": "Nellie", "minute": null},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Bennett", "player_first_name": "Nellie", "minute": null}
   ],

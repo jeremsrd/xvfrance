@@ -65,6 +65,8 @@
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Mehrtens", "player_first_name": "Andrew", "minute": 40},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Lomu", "player_first_name": "Jonah", "minute": 45},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Mehrtens", "player_first_name": "Andrew", "minute": 46},
+    {"team_side": "france", "type": "drop", "player_last_name": "Lamaison", "player_first_name": "Christophe", "minute": 47},
+    {"team_side": "france", "type": "drop", "player_last_name": "Lamaison", "player_first_name": "Christophe", "minute": 49},
     {"team_side": "france", "type": "penalite", "player_last_name": "Lamaison", "player_first_name": "Christophe", "minute": 51},
     {"team_side": "france", "type": "penalite", "player_last_name": "Lamaison", "player_first_name": "Christophe", "minute": 55},
     {"team_side": "france", "type": "essai", "player_last_name": "Dominici", "player_first_name": "Christophe", "minute": 56},
@@ -74,9 +76,7 @@
     {"team_side": "france", "type": "essai", "player_last_name": "Bernat-Salles", "player_first_name": "Philippe", "minute": 74},
     {"team_side": "france", "type": "transformation", "player_last_name": "Lamaison", "player_first_name": "Christophe", "minute": 75},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Wilson", "player_first_name": "Jeff", "minute": 80},
-    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Mehrtens", "player_first_name": "Andrew", "minute": 80},
-    {"team_side": "france", "type": "drop", "player_last_name": "Lamaison", "player_first_name": "Christophe", "minute": null},
-    {"team_side": "france", "type": "drop", "player_last_name": "Lamaison", "player_first_name": "Christophe", "minute": null}
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Mehrtens", "player_first_name": "Andrew", "minute": 80}
   ],
   "substitutions": [
     {"team_side": "france", "player_off_last_name": "Juillet", "player_off_first_name": "Christophe", "player_on_last_name": "Brouzet", "player_on_first_name": "Olivier", "minute": 32, "is_tactical": true},

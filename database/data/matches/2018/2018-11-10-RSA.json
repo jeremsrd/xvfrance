@@ -61,6 +61,7 @@
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Pollard", "player_first_name": "Handre", "minute": 13},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Pollard", "player_first_name": "Handre", "minute": 22},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Pollard", "player_first_name": "Handre", "minute": 29},
+    {"team_side": "france", "type": "drop", "player_last_name": "Lopez", "player_first_name": "Camille", "minute": 34},
     {"team_side": "france", "type": "essai", "player_last_name": "Guirado", "player_first_name": "Guilhem", "minute": 37},
     {"team_side": "france", "type": "transformation", "player_last_name": "Serin", "player_first_name": "Baptiste", "minute": 39},
     {"team_side": "france", "type": "essai", "player_last_name": "Bastareaud", "player_first_name": "Mathieu", "minute": 42},
@@ -71,8 +72,7 @@
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Pollard", "player_first_name": "Handre", "minute": 61},
     {"team_side": "france", "type": "penalite", "player_last_name": "Serin", "player_first_name": "Baptiste", "minute": 67},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Mbonambi", "player_first_name": "Mbongeni", "minute": 85},
-    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Pollard", "player_first_name": "Handre", "minute": 87},
-    {"team_side": "france", "type": "drop", "player_last_name": "Lopez", "player_first_name": "Camille", "minute": null}
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Pollard", "player_first_name": "Handre", "minute": 87}
   ],
   "substitutions": []
 }

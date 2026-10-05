@@ -56,6 +56,7 @@
   "events": [
     {"team_side": "france", "type": "penalite", "player_last_name": "Gelez", "player_first_name": "François", "minute": 8},
     {"team_side": "france", "type": "penalite", "player_last_name": "Gelez", "player_first_name": "François", "minute": 17},
+    {"team_side": "france", "type": "drop", "player_last_name": "Castaignede", "player_first_name": "Thomas", "minute": 29},
     {"team_side": "france", "type": "penalite", "player_last_name": "Gelez", "player_first_name": "François", "minute": 35},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Pretorius", "player_first_name": "Andre", "minute": 36},
     {"team_side": "france", "type": "essai", "player_last_name": "Heymans", "player_first_name": "Cédric", "minute": 45},
@@ -64,8 +65,7 @@
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Pretorius", "player_first_name": "Andre", "minute": 69},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Van Niekerk", "player_first_name": "Joe", "minute": 69},
     {"team_side": "france", "type": "penalite", "player_last_name": "Gelez", "player_first_name": "François", "minute": 72},
-    {"team_side": "france", "type": "essai", "player_last_name": "Clerc", "player_first_name": "Vincent", "minute": 77},
-    {"team_side": "france", "type": "drop", "player_last_name": "Castaignede", "player_first_name": "Thomas", "minute": null}
+    {"team_side": "france", "type": "essai", "player_last_name": "Clerc", "player_first_name": "Vincent", "minute": 77}
   ],
   "substitutions": [
     {"team_side": "france", "player_off_last_name": "De Villiers", "player_off_first_name": "Pieter", "player_on_last_name": "Marconnet", "player_on_first_name": "Sylvain", "minute": 68, "is_tactical": true},

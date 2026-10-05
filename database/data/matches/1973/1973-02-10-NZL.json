@@ -42,10 +42,10 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "essai", "player_last_name": "Bertranne", "player_first_name": "Roland", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Dourthe", "player_first_name": "Claude", "minute": null},
-    {"team_side": "france", "type": "transformation", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Dourthe", "player_first_name": "Claude", "minute": 25},
+    {"team_side": "france", "type": "essai", "player_last_name": "Bertranne", "player_first_name": "Roland", "minute": 42},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": 42},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": 59},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Karam", "player_first_name": "Joe", "minute": null},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Karam", "player_first_name": "Joe", "minute": null}
   ],

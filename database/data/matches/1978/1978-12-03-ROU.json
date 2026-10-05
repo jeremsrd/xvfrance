@@ -44,9 +44,9 @@
   "events": [
     {"team_side": "france", "type": "penalite", "player_last_name": "Aguirre", "player_first_name": "Jean-Michel", "minute": 12},
     {"team_side": "france", "type": "penalite", "player_last_name": "Aguirre", "player_first_name": "Jean-Michel", "minute": 16},
+    {"team_side": "france", "type": "drop", "player_last_name": "Caussade", "player_first_name": "Alain", "minute": 29},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Constantin", "player_first_name": "Ion", "minute": 42},
-    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Constantin", "player_first_name": "Ion", "minute": 55},
-    {"team_side": "france", "type": "drop", "player_last_name": "Caussade", "player_first_name": "Alain", "minute": null}
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Constantin", "player_first_name": "Ion", "minute": 55}
   ],
   "substitutions": []
 }

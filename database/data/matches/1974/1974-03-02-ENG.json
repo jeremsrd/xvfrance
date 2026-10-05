@@ -41,10 +41,10 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "transformation", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": null},
-    {"team_side": "france", "type": "drop", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": null},
+    {"team_side": "france", "type": "drop", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": 22},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": 25},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": 46},
+    {"team_side": "france", "type": "essai", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": 46},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Old", "player_first_name": "Alan", "minute": null},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Duckham", "player_first_name": "David", "minute": null},
     {"team_side": "adversaire", "type": "drop", "player_last_name": "Evans", "player_first_name": "Geoff", "minute": null},

@@ -41,8 +41,8 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "transformation", "player_last_name": "Dutour", "player_first_name": "François-Xavier", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Failliot", "player_first_name": "Pierre", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Failliot", "player_first_name": "Pierre", "minute": 30},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Dutour", "player_first_name": "François-Xavier", "minute": 31},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Quinn", "player_first_name": "Joseph", "minute": null},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Jackson", "player_first_name": "Arv", "minute": null},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Jackson", "player_first_name": "Arv", "minute": null},

@@ -41,11 +41,11 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "essai", "player_last_name": "Prat", "player_first_name": "Jean", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Boniface", "player_first_name": "André", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Domenech", "player_first_name": "Amedee", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Dufau", "player_first_name": "Gérard", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Vannier", "player_first_name": "Michel", "minute": null}
+    {"team_side": "france", "type": "essai", "player_last_name": "Boniface", "player_first_name": "André", "minute": 5},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Vannier", "player_first_name": "Michel", "minute": 29},
+    {"team_side": "france", "type": "essai", "player_last_name": "Prat", "player_first_name": "Jean", "minute": 33},
+    {"team_side": "france", "type": "essai", "player_last_name": "Domenech", "player_first_name": "Amedee", "minute": 54},
+    {"team_side": "france", "type": "essai", "player_last_name": "Dufau", "player_first_name": "Gérard", "minute": 62}
   ],
   "substitutions": []
 }

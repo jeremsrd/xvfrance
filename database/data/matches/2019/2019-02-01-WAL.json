@@ -59,6 +59,7 @@
     {"team_side": "france", "type": "essai", "player_last_name": "Picamoles", "player_first_name": "Louis", "minute": 7},
     {"team_side": "france", "type": "essai", "player_last_name": "Huget", "player_first_name": "Yoann", "minute": 23},
     {"team_side": "france", "type": "penalite", "player_last_name": "Lopez", "player_first_name": "Camille", "minute": 34},
+    {"team_side": "france", "type": "drop", "player_last_name": "Lopez", "player_first_name": "Camille", "minute": 41},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Williams", "player_first_name": "Tomos", "minute": 47},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Anscombe", "player_first_name": "Gareth", "minute": 48},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "North", "player_first_name": "George", "minute": 52},
@@ -66,8 +67,7 @@
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Biggar", "player_first_name": "Dan", "minute": 63},
     {"team_side": "france", "type": "penalite", "player_last_name": "Lopez", "player_first_name": "Camille", "minute": 70},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "North", "player_first_name": "George", "minute": 72},
-    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Biggar", "player_first_name": "Dan", "minute": 73},
-    {"team_side": "france", "type": "drop", "player_last_name": "Lopez", "player_first_name": "Camille", "minute": null}
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Biggar", "player_first_name": "Dan", "minute": 73}
   ],
   "substitutions": [
     {"team_side": "france", "player_off_last_name": "Atonio", "player_off_first_name": "Uini", "player_on_last_name": "Bamba", "player_on_first_name": "Demba", "minute": 48, "is_tactical": true},

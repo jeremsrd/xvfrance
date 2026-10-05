@@ -56,6 +56,7 @@
     ]
   },
   "events": [
+    {"team_side": "france", "type": "drop", "player_last_name": "Fritz", "player_first_name": "Florian", "minute": 8},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Carter", "player_first_name": "Daniel", "minute": 16},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Smith", "player_first_name": "Ben", "minute": 36},
     {"team_side": "france", "type": "penalite", "player_last_name": "Doussain", "player_first_name": "Jean Marc", "minute": 39},
@@ -64,8 +65,7 @@
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Carter", "player_first_name": "Daniel", "minute": 59},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Carter", "player_first_name": "Daniel", "minute": 73},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Barrett", "player_first_name": "Beauden", "minute": 81},
-    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Carter", "player_first_name": "Daniel", "minute": 82},
-    {"team_side": "france", "type": "drop", "player_last_name": "Fritz", "player_first_name": "Florian", "minute": null}
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Carter", "player_first_name": "Daniel", "minute": 82}
   ],
   "substitutions": [
     {"team_side": "france", "player_off_last_name": "Doussain", "player_off_first_name": "Jean Marc", "player_on_last_name": "Machenaud", "player_on_first_name": "Maxime", "minute": 59, "is_tactical": true},

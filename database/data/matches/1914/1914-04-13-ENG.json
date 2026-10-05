@@ -41,11 +41,11 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "essai", "player_last_name": "André", "player_first_name": "Géo", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Capmau", "player_first_name": "Jean-Louis", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Capmau", "player_first_name": "Jean-Louis", "minute": 5},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Besset", "player_first_name": "Lucien", "minute": 5},
+    {"team_side": "france", "type": "essai", "player_last_name": "André", "player_first_name": "Géo", "minute": 20},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Besset", "player_first_name": "Lucien", "minute": 65},
     {"team_side": "france", "type": "essai", "player_last_name": "Lubin-Lebrère", "player_first_name": "Marcel-Frédéric", "minute": null},
-    {"team_side": "france", "type": "transformation", "player_last_name": "Besset", "player_first_name": "Lucien", "minute": null},
-    {"team_side": "france", "type": "transformation", "player_last_name": "Besset", "player_first_name": "Lucien", "minute": null},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Greenwood", "player_first_name": "Jenny", "minute": null},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Greenwood", "player_first_name": "Jenny", "minute": null},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Greenwood", "player_first_name": "Jenny", "minute": null},

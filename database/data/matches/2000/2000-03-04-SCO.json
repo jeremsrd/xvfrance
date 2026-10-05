@@ -55,19 +55,19 @@
     ]
   },
   "events": [
+    {"team_side": "france", "type": "transformation", "player_last_name": "Merceron", "player_first_name": "Gérald", "minute": 11},
+    {"team_side": "france", "type": "essai", "player_last_name": "Castaignede", "player_first_name": "Thomas", "minute": 11},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Logan", "player_first_name": "Kenny", "minute": 17},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Merceron", "player_first_name": "Gérald", "minute": 20},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Paterson", "player_first_name": "Chris", "minute": 31},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Paterson", "player_first_name": "Chris", "minute": 40},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Paterson", "player_first_name": "Chris", "minute": 42},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Nicol", "player_first_name": "Andy", "minute": 42},
-    {"team_side": "france", "type": "transformation", "player_last_name": "Merceron", "player_first_name": "Gérald", "minute": null},
-    {"team_side": "france", "type": "transformation", "player_last_name": "Merceron", "player_first_name": "Gérald", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Castaignede", "player_first_name": "Thomas", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Magne", "player_first_name": "Olivier", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Magne", "player_first_name": "Olivier", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Merceron", "player_first_name": "Gérald", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Merceron", "player_first_name": "Gérald", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Merceron", "player_first_name": "Gérald", "minute": null}
+    {"team_side": "france", "type": "penalite", "player_last_name": "Merceron", "player_first_name": "Gérald", "minute": 47},
+    {"team_side": "france", "type": "essai", "player_last_name": "Magne", "player_first_name": "Olivier", "minute": 68},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Merceron", "player_first_name": "Gérald", "minute": 73},
+    {"team_side": "france", "type": "essai", "player_last_name": "Magne", "player_first_name": "Olivier", "minute": 73},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Merceron", "player_first_name": "Gérald", "minute": 78}
   ],
   "substitutions": [
     {"team_side": "france", "player_off_last_name": "Daude", "player_off_first_name": "Jean", "player_on_last_name": "Lievremont", "player_on_first_name": "Thomas", "minute": 51, "is_tactical": true},

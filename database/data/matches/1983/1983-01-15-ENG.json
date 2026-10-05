@@ -53,12 +53,12 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "essai", "player_last_name": "Sella", "player_first_name": "Philippe", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Esteve", "player_first_name": "Patrick", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Paparemborde", "player_first_name": "Robert", "minute": null},
-    {"team_side": "france", "type": "transformation", "player_last_name": "Blanco", "player_first_name": "Serge", "minute": null},
-    {"team_side": "france", "type": "transformation", "player_last_name": "Blanco", "player_first_name": "Serge", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Camberabero", "player_first_name": "Didier", "minute": null},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Camberabero", "player_first_name": "Didier", "minute": 10},
+    {"team_side": "france", "type": "essai", "player_last_name": "Esteve", "player_first_name": "Patrick", "minute": 48},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Blanco", "player_first_name": "Serge", "minute": 48},
+    {"team_side": "france", "type": "essai", "player_last_name": "Paparemborde", "player_first_name": "Robert", "minute": 53},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Blanco", "player_first_name": "Serge", "minute": 53},
+    {"team_side": "france", "type": "essai", "player_last_name": "Sella", "player_first_name": "Philippe", "minute": 61},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Hare", "player_first_name": "Dusty", "minute": null},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Hare", "player_first_name": "Dusty", "minute": null},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Hare", "player_first_name": "Dusty", "minute": null},

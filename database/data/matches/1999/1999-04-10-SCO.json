@@ -55,12 +55,12 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "essai", "player_last_name": "Ntamack", "player_first_name": "Émile", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Juillet", "player_first_name": "Christophe", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Dominici", "player_first_name": "Christophe", "minute": null},
-    {"team_side": "france", "type": "transformation", "player_last_name": "Aucagne", "player_first_name": "David", "minute": null},
-    {"team_side": "france", "type": "transformation", "player_last_name": "Aucagne", "player_first_name": "David", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Aucagne", "player_first_name": "David", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Ntamack", "player_first_name": "Émile", "minute": 2},
+    {"team_side": "france", "type": "essai", "player_last_name": "Juillet", "player_first_name": "Christophe", "minute": 21},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Aucagne", "player_first_name": "David", "minute": 21},
+    {"team_side": "france", "type": "essai", "player_last_name": "Dominici", "player_first_name": "Christophe", "minute": 28},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Aucagne", "player_first_name": "David", "minute": 28},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Aucagne", "player_first_name": "David", "minute": 42},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Logan", "player_first_name": "Kenny", "minute": null},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Logan", "player_first_name": "Kenny", "minute": null},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Logan", "player_first_name": "Kenny", "minute": null},

@@ -55,6 +55,7 @@
   },
   "events": [
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "O'Gara", "player_first_name": "Ronan", "minute": 9},
+    {"team_side": "france", "type": "drop", "player_last_name": "Delaigue", "player_first_name": "Yann", "minute": 12},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "O'Gara", "player_first_name": "Ronan", "minute": 21},
     {"team_side": "france", "type": "penalite", "player_last_name": "Yachvili", "player_first_name": "Dimitri", "minute": 23},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "O'Gara", "player_first_name": "Ronan", "minute": 28},
@@ -65,8 +66,7 @@
     {"team_side": "france", "type": "penalite", "player_last_name": "Yachvili", "player_first_name": "Dimitri", "minute": 64},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "O'Driscoll", "player_first_name": "Brian", "minute": 77},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "O'Gara", "player_first_name": "Ronan", "minute": 78},
-    {"team_side": "france", "type": "essai", "player_last_name": "Dominici", "player_first_name": "Christophe", "minute": 83},
-    {"team_side": "france", "type": "drop", "player_last_name": "Delaigue", "player_first_name": "Yann", "minute": null}
+    {"team_side": "france", "type": "essai", "player_last_name": "Dominici", "player_first_name": "Christophe", "minute": 83}
   ],
   "substitutions": [
     {"team_side": "france", "player_off_last_name": "Nyanga", "player_off_first_name": "Yannick", "player_on_last_name": "Lamboley", "player_on_first_name": "Grégory", "minute": 55, "is_tactical": true},

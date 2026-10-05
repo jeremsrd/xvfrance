@@ -52,12 +52,12 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "essai", "player_last_name": "Paparemborde", "player_first_name": "Robert", "minute": null},
-    {"team_side": "france", "type": "drop", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": null},
-    {"team_side": "france", "type": "transformation", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": null},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": 3},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": 6},
+    {"team_side": "france", "type": "drop", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": 13},
+    {"team_side": "france", "type": "essai", "player_last_name": "Paparemborde", "player_first_name": "Robert", "minute": 35},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": 35},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": 76},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Bosch", "player_first_name": "Gerald", "minute": null},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Bosch", "player_first_name": "Gerald", "minute": null},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Bosch", "player_first_name": "Gerald", "minute": null},

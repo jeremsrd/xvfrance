@@ -61,6 +61,7 @@
     {"team_side": "france", "type": "penalite", "player_last_name": "Merceron", "player_first_name": "Gérald", "minute": 22},
     {"team_side": "france", "type": "essai", "player_last_name": "Marsh", "player_first_name": "Tony", "minute": 27},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Jones", "player_first_name": "Stephen", "minute": 29},
+    {"team_side": "france", "type": "drop", "player_last_name": "Merceron", "player_first_name": "Gérald", "minute": 32},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Jones", "player_first_name": "Stephen", "minute": 33},
     {"team_side": "france", "type": "essai", "player_last_name": "Marsh", "player_first_name": "Tony", "minute": 35},
     {"team_side": "france", "type": "transformation", "player_last_name": "Merceron", "player_first_name": "Gérald", "minute": 36},
@@ -73,8 +74,7 @@
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Jones", "player_first_name": "Stephen", "minute": 60},
     {"team_side": "france", "type": "penalite", "player_last_name": "Merceron", "player_first_name": "Gérald", "minute": 70},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Morgan", "player_first_name": "Kevin", "minute": 79},
-    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Jones", "player_first_name": "Stephen", "minute": 80},
-    {"team_side": "france", "type": "drop", "player_last_name": "Merceron", "player_first_name": "Gérald", "minute": null}
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Jones", "player_first_name": "Stephen", "minute": 80}
   ],
   "substitutions": [
     {"team_side": "france", "player_off_last_name": "Privat", "player_off_first_name": "Thibault", "player_on_last_name": "Pelous", "player_on_first_name": "Fabien", "minute": 60, "is_tactical": true},

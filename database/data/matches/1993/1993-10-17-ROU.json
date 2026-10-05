@@ -53,21 +53,21 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "essai", "player_last_name": "Merle", "player_first_name": "Olivier", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Loppy", "player_first_name": "Léon", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Bernat-Salles", "player_first_name": "Philippe", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Bernat-Salles", "player_first_name": "Philippe", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Bernat-Salles", "player_first_name": "Philippe", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Sella", "player_first_name": "Philippe", "minute": null},
-    {"team_side": "france", "type": "transformation", "player_last_name": "Lacroix", "player_first_name": "Thierry", "minute": null},
-    {"team_side": "france", "type": "transformation", "player_last_name": "Lacroix", "player_first_name": "Thierry", "minute": null},
-    {"team_side": "france", "type": "transformation", "player_last_name": "Lacroix", "player_first_name": "Thierry", "minute": null},
-    {"team_side": "france", "type": "transformation", "player_last_name": "Lacroix", "player_first_name": "Thierry", "minute": null},
-    {"team_side": "france", "type": "transformation", "player_last_name": "Lacroix", "player_first_name": "Thierry", "minute": null},
-    {"team_side": "france", "type": "transformation", "player_last_name": "Lacroix", "player_first_name": "Thierry", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Lacroix", "player_first_name": "Thierry", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Lacroix", "player_first_name": "Thierry", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Lacroix", "player_first_name": "Thierry", "minute": null}
+    {"team_side": "france", "type": "penalite", "player_last_name": "Lacroix", "player_first_name": "Thierry", "minute": 13},
+    {"team_side": "france", "type": "essai", "player_last_name": "Sella", "player_first_name": "Philippe", "minute": 20},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Lacroix", "player_first_name": "Thierry", "minute": 20},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Lacroix", "player_first_name": "Thierry", "minute": 32},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Lacroix", "player_first_name": "Thierry", "minute": 39},
+    {"team_side": "france", "type": "essai", "player_last_name": "Merle", "player_first_name": "Olivier", "minute": 43},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Lacroix", "player_first_name": "Thierry", "minute": 43},
+    {"team_side": "france", "type": "essai", "player_last_name": "Bernat-Salles", "player_first_name": "Philippe", "minute": 53},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Lacroix", "player_first_name": "Thierry", "minute": 53},
+    {"team_side": "france", "type": "essai", "player_last_name": "Loppy", "player_first_name": "Léon", "minute": 58},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Lacroix", "player_first_name": "Thierry", "minute": 58},
+    {"team_side": "france", "type": "essai", "player_last_name": "Bernat-Salles", "player_first_name": "Philippe", "minute": 72},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Lacroix", "player_first_name": "Thierry", "minute": 72},
+    {"team_side": "france", "type": "essai", "player_last_name": "Bernat-Salles", "player_first_name": "Philippe", "minute": 76},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Lacroix", "player_first_name": "Thierry", "minute": 76}
   ],
   "substitutions": [
     {"team_side": "france", "player_off_last_name": "Sella", "player_off_first_name": "Philippe", "player_on_last_name": "Campan", "player_on_first_name": "Olivier", "minute": 58, "is_tactical": true}

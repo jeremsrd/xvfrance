@@ -53,9 +53,9 @@
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Constantin", "player_first_name": "Ion", "minute": 63},
     {"team_side": "france", "type": "transformation", "player_last_name": "Aguirre", "player_first_name": "Jean-Michel", "minute": 76},
     {"team_side": "france", "type": "essai", "player_last_name": "Bertranne", "player_first_name": "Roland", "minute": 76},
+    {"team_side": "france", "type": "drop", "player_last_name": "Aguirre", "player_first_name": "Jean-Michel", "minute": 80},
     {"team_side": "france", "type": "transformation", "player_last_name": "Aguirre", "player_first_name": "Jean-Michel", "minute": 93},
     {"team_side": "france", "type": "essai", "player_last_name": "Joinel", "player_first_name": "Jean-Luc", "minute": 93},
-    {"team_side": "france", "type": "drop", "player_last_name": "Aguirre", "player_first_name": "Jean-Michel", "minute": null},
     {"team_side": "adversaire", "type": "drop", "player_last_name": "Constantin", "player_first_name": "Ion", "minute": null}
   ],
   "substitutions": []

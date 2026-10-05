@@ -59,9 +59,9 @@
     {"team_side": "france", "type": "penalite", "player_last_name": "Parra", "player_first_name": "Morgan", "minute": 26},
     {"team_side": "france", "type": "penalite", "player_last_name": "Parra", "player_first_name": "Morgan", "minute": 32},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Contepomi", "player_first_name": "Felipe", "minute": 47},
+    {"team_side": "france", "type": "drop", "player_last_name": "Traille", "player_first_name": "Damien", "minute": 49},
     {"team_side": "france", "type": "penalite", "player_last_name": "Parra", "player_first_name": "Morgan", "minute": 60},
-    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Contepomi", "player_first_name": "Felipe", "minute": 62},
-    {"team_side": "france", "type": "drop", "player_last_name": "Traille", "player_first_name": "Damien", "minute": null}
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Contepomi", "player_first_name": "Felipe", "minute": 62}
   ],
   "substitutions": [
     {"team_side": "france", "player_off_last_name": "Pierre", "player_off_first_name": "Julien", "player_on_last_name": "Thion", "player_on_first_name": "Jérôme", "minute": 56, "is_tactical": true},

@@ -40,7 +40,7 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "penalite", "player_last_name": "Beguet", "player_first_name": "Louis", "minute": null},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Beguet", "player_first_name": "Louis", "minute": 5},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Conway", "player_first_name": "Geoffrey", "minute": null},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Wakefield", "player_first_name": "Wavell", "minute": null},
     {"team_side": "adversaire", "type": "drop", "player_last_name": "Davies", "player_first_name": "Dave", "minute": null},

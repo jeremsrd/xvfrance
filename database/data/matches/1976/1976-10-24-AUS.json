@@ -42,12 +42,12 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "essai", "player_last_name": "Paparemborde", "player_first_name": "Robert", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Bertranne", "player_first_name": "Roland", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Cholley", "player_first_name": "Gérard", "minute": null},
-    {"team_side": "france", "type": "transformation", "player_last_name": "Droitecourt", "player_first_name": "Michel", "minute": null},
-    {"team_side": "france", "type": "transformation", "player_last_name": "Droitecourt", "player_first_name": "Michel", "minute": null},
-    {"team_side": "france", "type": "transformation", "player_last_name": "Droitecourt", "player_first_name": "Michel", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Bertranne", "player_first_name": "Roland", "minute": 4},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Droitecourt", "player_first_name": "Michel", "minute": 4},
+    {"team_side": "france", "type": "essai", "player_last_name": "Paparemborde", "player_first_name": "Robert", "minute": 9},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Droitecourt", "player_first_name": "Michel", "minute": 9},
+    {"team_side": "france", "type": "essai", "player_last_name": "Cholley", "player_first_name": "Gérard", "minute": 54},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Droitecourt", "player_first_name": "Michel", "minute": 54},
     {"team_side": "adversaire", "type": "drop", "player_last_name": "McLean", "player_first_name": "Paul", "minute": null},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "McLean", "player_first_name": "Paul", "minute": null},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "McLean", "player_first_name": "Paul", "minute": null},

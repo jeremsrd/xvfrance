@@ -64,6 +64,7 @@
     {"team_side": "france", "type": "penalite", "player_last_name": "Parra", "player_first_name": "Morgan", "minute": 39},
     {"team_side": "france", "type": "penalite", "player_last_name": "Parra", "player_first_name": "Morgan", "minute": 42},
     {"team_side": "france", "type": "penalite", "player_last_name": "Parra", "player_first_name": "Morgan", "minute": 48},
+    {"team_side": "france", "type": "drop", "player_last_name": "Trinh-Duc", "player_first_name": "François", "minute": 57},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Pritchard", "player_first_name": "James", "minute": 60},
     {"team_side": "france", "type": "essai", "player_last_name": "Traille", "player_first_name": "Damien", "minute": 64},
     {"team_side": "france", "type": "transformation", "player_last_name": "Parra", "player_first_name": "Morgan", "minute": 65},
@@ -71,7 +72,6 @@
     {"team_side": "france", "type": "transformation", "player_last_name": "Parra", "player_first_name": "Morgan", "minute": 80},
     {"team_side": "france", "type": "essai", "player_last_name": "Clerc", "player_first_name": "Vincent", "minute": 82},
     {"team_side": "france", "type": "transformation", "player_last_name": "Parra", "player_first_name": "Morgan", "minute": 83},
-    {"team_side": "france", "type": "drop", "player_last_name": "Trinh-Duc", "player_first_name": "François", "minute": null},
     {"team_side": "adversaire", "type": "drop", "player_last_name": "Monro", "player_first_name": "Ander", "minute": null},
     {"team_side": "adversaire", "type": "drop", "player_last_name": "Monro", "player_first_name": "Ander", "minute": null}
   ],

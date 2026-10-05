@@ -52,11 +52,11 @@
     ]
   },
   "events": [
+    {"team_side": "france", "type": "essai", "player_last_name": "Lux", "player_first_name": "Jean-Pierre", "minute": 7},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": 10},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": 30},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": 35},
     {"team_side": "france", "type": "drop", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Lux", "player_first_name": "Jean-Pierre", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Romeu", "player_first_name": "Jean-Pierre", "minute": null},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Bennett", "player_first_name": "Phil", "minute": null},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Bennett", "player_first_name": "Phil", "minute": null},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Bennett", "player_first_name": "Phil", "minute": null},

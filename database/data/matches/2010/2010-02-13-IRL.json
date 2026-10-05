@@ -62,11 +62,11 @@
     {"team_side": "france", "type": "transformation", "player_last_name": "Parra", "player_first_name": "Morgan", "minute": 32},
     {"team_side": "france", "type": "essai", "player_last_name": "Poitrenaud", "player_first_name": "Clément", "minute": 59},
     {"team_side": "france", "type": "transformation", "player_last_name": "Parra", "player_first_name": "Morgan", "minute": 60},
+    {"team_side": "france", "type": "drop", "player_last_name": "Parra", "player_first_name": "Morgan", "minute": 62},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Wallace", "player_first_name": "David", "minute": 64},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "O'Gara", "player_first_name": "Ronan", "minute": 65},
     {"team_side": "france", "type": "penalite", "player_last_name": "Parra", "player_first_name": "Morgan", "minute": 70},
-    {"team_side": "france", "type": "drop", "player_last_name": "Parra", "player_first_name": "Morgan", "minute": null},
-    {"team_side": "france", "type": "drop", "player_last_name": "Michalak", "player_first_name": "Frédéric", "minute": null}
+    {"team_side": "france", "type": "drop", "player_last_name": "Michalak", "player_first_name": "Frédéric", "minute": 78}
   ],
   "substitutions": [
     {"team_side": "france", "player_off_last_name": "Palisson", "player_off_first_name": "Alexis", "player_on_last_name": "Malzieu", "player_on_first_name": "Julien", "minute": 24, "is_tactical": true},

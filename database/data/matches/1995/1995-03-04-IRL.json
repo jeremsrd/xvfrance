@@ -53,14 +53,14 @@
     ]
   },
   "events": [
+    {"team_side": "france", "type": "penalite", "player_last_name": "Ntamack", "player_first_name": "Émile", "minute": 26},
+    {"team_side": "france", "type": "essai", "player_last_name": "Delaigue", "player_first_name": "Yann", "minute": 41},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Ntamack", "player_first_name": "Émile", "minute": 58},
+    {"team_side": "france", "type": "essai", "player_last_name": "Cecillon", "player_first_name": "Marc", "minute": 58},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Geoghegan", "player_first_name": "Simon", "minute": 63},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Elwood", "player_first_name": "Eric", "minute": 63},
-    {"team_side": "france", "type": "transformation", "player_last_name": "Ntamack", "player_first_name": "Émile", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Ntamack", "player_first_name": "Émile", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Ntamack", "player_first_name": "Émile", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Saint-André", "player_first_name": "Philippe", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Delaigue", "player_first_name": "Yann", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Cecillon", "player_first_name": "Marc", "minute": null}
+    {"team_side": "france", "type": "essai", "player_last_name": "Ntamack", "player_first_name": "Émile", "minute": 80},
+    {"team_side": "france", "type": "essai", "player_last_name": "Saint-André", "player_first_name": "Philippe", "minute": 82}
   ],
   "substitutions": []
 }

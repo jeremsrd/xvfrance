@@ -54,11 +54,11 @@
   "events": [
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Grayson", "player_first_name": "Paul", "minute": 29},
     {"team_side": "france", "type": "penalite", "player_last_name": "Lacroix", "player_first_name": "Thierry", "minute": 35},
+    {"team_side": "france", "type": "drop", "player_last_name": "Lacroix", "player_first_name": "Thierry", "minute": 55},
     {"team_side": "france", "type": "penalite", "player_last_name": "Lacroix", "player_first_name": "Thierry", "minute": 64},
     {"team_side": "france", "type": "penalite", "player_last_name": "Lacroix", "player_first_name": "Thierry", "minute": 76},
+    {"team_side": "france", "type": "drop", "player_last_name": "Castaignede", "player_first_name": "Thomas", "minute": 80},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Grayson", "player_first_name": "Paul", "minute": 81},
-    {"team_side": "france", "type": "drop", "player_last_name": "Lacroix", "player_first_name": "Thierry", "minute": null},
-    {"team_side": "france", "type": "drop", "player_last_name": "Castaignede", "player_first_name": "Thomas", "minute": null},
     {"team_side": "adversaire", "type": "drop", "player_last_name": "Grayson", "player_first_name": "Paul", "minute": null},
     {"team_side": "adversaire", "type": "drop", "player_last_name": "Grayson", "player_first_name": "Paul", "minute": null}
   ],

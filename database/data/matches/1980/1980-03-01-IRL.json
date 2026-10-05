@@ -53,12 +53,12 @@
     ]
   },
   "events": [
+    {"team_side": "france", "type": "drop", "player_last_name": "Pedeutour", "player_first_name": "Pierre", "minute": 36},
+    {"team_side": "france", "type": "essai", "player_last_name": "Gourdon", "player_first_name": "Jean-François", "minute": 42},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Aguirre", "player_first_name": "Jean-Michel", "minute": 47},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Aguirre", "player_first_name": "Jean-Michel", "minute": 53},
+    {"team_side": "france", "type": "essai", "player_last_name": "Gourdon", "player_first_name": "Jean-François", "minute": 58},
     {"team_side": "france", "type": "transformation", "player_last_name": "Aguirre", "player_first_name": "Jean-Michel", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Aguirre", "player_first_name": "Jean-Michel", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Aguirre", "player_first_name": "Jean-Michel", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Gourdon", "player_first_name": "Jean-François", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Gourdon", "player_first_name": "Jean-François", "minute": null},
-    {"team_side": "france", "type": "drop", "player_last_name": "Pedeutour", "player_first_name": "Pierre", "minute": null},
     {"team_side": "adversaire", "type": "drop", "player_last_name": "Campbell", "player_first_name": "Ollie", "minute": null},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Campbell", "player_first_name": "Ollie", "minute": null},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Campbell", "player_first_name": "Ollie", "minute": null},

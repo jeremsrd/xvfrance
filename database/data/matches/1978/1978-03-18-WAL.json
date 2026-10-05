@@ -52,8 +52,8 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "drop", "player_last_name": "Vivies", "player_first_name": "Bernard", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Skrela", "player_first_name": "Jean-Claude", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Skrela", "player_first_name": "Jean-Claude", "minute": 18},
+    {"team_side": "france", "type": "drop", "player_last_name": "Vivies", "player_first_name": "Bernard", "minute": 24},
     {"team_side": "adversaire", "type": "drop", "player_last_name": "Edwards", "player_first_name": "Gareth", "minute": null},
     {"team_side": "adversaire", "type": "drop", "player_last_name": "Fenwick", "player_first_name": "Steve", "minute": null},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Bennett", "player_first_name": "Phil", "minute": null},

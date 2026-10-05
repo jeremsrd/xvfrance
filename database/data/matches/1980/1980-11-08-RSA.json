@@ -53,11 +53,11 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "essai", "player_last_name": "Dintrans", "player_first_name": "Philippe", "minute": null},
-    {"team_side": "france", "type": "transformation", "player_last_name": "Vivies", "player_first_name": "Bernard", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Vivies", "player_first_name": "Bernard", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Vivies", "player_first_name": "Bernard", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Vivies", "player_first_name": "Bernard", "minute": null},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Vivies", "player_first_name": "Bernard", "minute": 43},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Vivies", "player_first_name": "Bernard", "minute": 55},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Vivies", "player_first_name": "Bernard", "minute": 63},
+    {"team_side": "france", "type": "essai", "player_last_name": "Dintrans", "player_first_name": "Philippe", "minute": 74},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Vivies", "player_first_name": "Bernard", "minute": 74},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Stofberg", "player_first_name": "Theuns", "minute": null},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Serfontein", "player_first_name": "Divan", "minute": null},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Germishuys", "player_first_name": "Gerrie", "minute": null},

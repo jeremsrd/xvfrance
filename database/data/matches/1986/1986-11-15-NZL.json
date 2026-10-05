@@ -43,10 +43,10 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "penalite", "player_last_name": "Berot", "player_first_name": "Philippe", "minute": null},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Berot", "player_first_name": "Philippe", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Charvet", "player_first_name": "Denis", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Lorieux", "player_first_name": "Alain", "minute": null},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Berot", "player_first_name": "Philippe", "minute": 20},
+    {"team_side": "france", "type": "essai", "player_last_name": "Charvet", "player_first_name": "Denis", "minute": 58},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Berot", "player_first_name": "Philippe", "minute": 72},
+    {"team_side": "france", "type": "essai", "player_last_name": "Lorieux", "player_first_name": "Alain", "minute": 78},
     {"team_side": "france", "type": "transformation", "player_last_name": "Berot", "player_first_name": "Philippe", "minute": null},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Crowley", "player_first_name": "Kieran", "minute": null}
   ],
