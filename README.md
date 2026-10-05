@@ -45,6 +45,8 @@ Toutes les commandes du projet sont préfixées `xv:` (`php artisan list xv`).
 | `xv:fix-venues` | Corrige les stades mal attribués |
 | `xv:geocode-venues` | Complète le CSV des coordonnées via OpenStreetMap (ne touche pas la base) |
 | `xv:import-venue-names` | Applique `venue_names.csv` : nom actuel, anciens noms datés, variantes (sponsors, graphies), fusion des doublons. Lancé par `deploy.sh` |
+| `xv:fetch-equipe-france` | Relève les matches sur equipe-france.fr (compétition, journée ou phase, lieu avec `--venues`) dans `equipe_france_matches.csv`, pages en cache dans `storage/app/equipe-france` (ne touche pas la base) |
+| `xv:apply-equipe-france` | Complète phase, numéro de journée et stade des matches d'après ce relevé (champs vides seulement) ; liste les matches du site absents de la base |
 | `xv:compute-venue-flags` | Déduit domicile, extérieur et terrain neutre du pays du stade de chaque match, ou du pays qui y reçoit pour un stade de repli (`venue_home_grounds.csv`, ex. Galles à Wembley en 1998). Lancé par `deploy.sh` |
 | `xv:import-venue-coordinates` | Applique le CSV des coordonnées aux stades |
 | `xv:seed-1906` | Feuille de match complète du premier match (1906) |
@@ -62,6 +64,7 @@ php artisan xv:import-csv database/data/sources/results.csv
 php artisan xv:import-historical
 php artisan xv:clean-feminine
 php artisan xv:fix-venues
+php artisan xv:apply-equipe-france
 php artisan xv:compute-venue-flags
 php artisan xv:import-venue-coordinates
 php artisan xv:seed-1906

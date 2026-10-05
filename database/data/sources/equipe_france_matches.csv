@@ -1,0 +1,845 @@
+site_id,date,home,away,home_score,away_score,competition,round,venue,city,url
+4944,1906-01-01,France,Nouvelle-Zélande,8,38,"Test match",,"Parc des Princes",Paris,/rugby/masculin/test-match/france-nouvelle-zelande-1-janvier-1906
+5714,1906-01-01,France,Nouvelle-Zélande,8,38,Tournée,,"Parc des Princes",Paris,/rugby/masculin/tournee-1905/france-nouvelle-zelande-1-janvier-1906
+4945,1906-03-22,France,Angleterre,8,35,"Test match",,"Parc des Princes",Paris,/rugby/masculin/test-match/france-angleterre-22-mars-1906
+5024,1908-01-01,France,Angleterre,0,19,"Test match",,"Stade du Matin",Colombes,/rugby/masculin/test-match/france-angleterre-1-janvier-1908
+4946,1908-03-02,"Pays de Galles",France,36,4,"Test match",,"Cardiff Arms Park",,/rugby/masculin/test-match/france-pays-de-galles-2-mars-1908
+5025,1909-01-30,Angleterre,France,22,0,"Test match",,,Leicester,/rugby/masculin/test-match/france-angleterre-30-janvier-1909
+4947,1909-02-23,France,"Pays de Galles",5,47,"Test match",,"Stade du Matin",Colombes,/rugby/masculin/test-match/france-pays-de-galles-23-fevrier-1909
+5291,1909-03-20,Irlande,France,19,8,"Test match",,"Lansdowne Road",Dublin,/rugby/masculin/test-match/france-irlande-20-mars-1909
+4948,1910-01-01,"Pays de Galles",France,49,14,"Tournoi des Cinq Nations","1re journée","St Helen's Rugby and Cricket Ground",Swansea,/rugby/masculin/tournoi-des-cinq-nations-1910/1-france-pays-de-galles
+5097,1910-01-22,Écosse,France,27,0,"Tournoi des Cinq Nations","2e journée","Inverleith Sports Ground",Edinburgh,/rugby/masculin/tournoi-des-cinq-nations-1910/2-france-ecosse
+5026,1910-03-03,France,Angleterre,3,11,"Tournoi des Cinq Nations","3e journée","Parc des Princes",Paris,/rugby/masculin/tournoi-des-cinq-nations-1910/3-france-angleterre
+5098,1910-03-28,France,Irlande,3,8,"Tournoi des Cinq Nations","4e journée","Parc des Princes",Paris,/rugby/masculin/tournoi-des-cinq-nations-1910/4-france-irlande
+5099,1911-01-02,France,Écosse,16,15,"Tournoi des Cinq Nations","1re journée","Stade du Matin",Colombes,/rugby/masculin/tournoi-des-cinq-nations-1911/1-france-ecosse
+5027,1911-01-28,Angleterre,France,37,0,"Tournoi des Cinq Nations","2e journée","Twickenham Stadium",,/rugby/masculin/tournoi-des-cinq-nations-1911/2-france-angleterre
+4949,1911-02-28,France,"Pays de Galles",0,15,"Tournoi des Cinq Nations","3e journée","Parc des Princes",Paris,/rugby/masculin/tournoi-des-cinq-nations-1911/3-france-pays-de-galles
+5100,1911-03-25,Irlande,France,25,5,"Tournoi des Cinq Nations","4e journée",,Cork,/rugby/masculin/tournoi-des-cinq-nations-1911/4-france-irlande
+5101,1912-01-01,France,Irlande,6,11,"Tournoi des Cinq Nations","1re journée","Parc des Princes",Paris,/rugby/masculin/tournoi-des-cinq-nations-1912/1-france-irlande
+5102,1912-01-20,Écosse,France,31,3,"Tournoi des Cinq Nations","2e journée","Inverleith Sports Ground",Edinburgh,/rugby/masculin/tournoi-des-cinq-nations-1912/2-france-ecosse
+4950,1912-03-25,"Pays de Galles",France,14,8,"Tournoi des Cinq Nations","3e journée",,,/rugby/masculin/tournoi-des-cinq-nations-1912/3-france-pays-de-galles
+5028,1912-04-08,France,Angleterre,8,18,"Tournoi des Cinq Nations","4e journée","Parc des Princes",Paris,/rugby/masculin/tournoi-des-cinq-nations-1912/4-france-angleterre
+5103,1913-01-01,France,Écosse,3,21,"Tournoi des Cinq Nations","1re journée","Parc des Princes",Paris,/rugby/masculin/tournoi-des-cinq-nations-1913/1-france-ecosse
+5762,1913-01-11,France,"Afrique du Sud",5,38,Tournée,,,,/rugby/masculin/tournee-1912/france-afrique-du-sud-11-janvier-1913
+5029,1913-01-25,Angleterre,France,20,0,"Tournoi des Cinq Nations","2e journée","Twickenham Stadium",,/rugby/masculin/tournoi-des-cinq-nations-1913/2-france-angleterre
+4951,1913-02-27,France,"Pays de Galles",8,11,"Tournoi des Cinq Nations","3e journée","Parc des Princes",Paris,/rugby/masculin/tournoi-des-cinq-nations-1913/3-france-pays-de-galles
+5104,1913-03-24,Irlande,France,24,0,"Tournoi des Cinq Nations","4e journée",,Cork,/rugby/masculin/tournoi-des-cinq-nations-1913/4-france-irlande
+5105,1914-01-01,France,Irlande,6,8,"Tournoi des Cinq Nations","1re journée","Parc des Princes",Paris,/rugby/masculin/tournoi-des-cinq-nations-1914/1-france-irlande
+4952,1914-03-02,"Pays de Galles",France,31,0,"Tournoi des Cinq Nations","2e journée","St Helen's Rugby and Cricket Ground",Swansea,/rugby/masculin/tournoi-des-cinq-nations-1914/2-france-pays-de-galles
+5030,1914-04-13,France,Angleterre,13,39,"Tournoi des Cinq Nations","3e journée","Stade du Matin",Colombes,/rugby/masculin/tournoi-des-cinq-nations-1914/3-france-angleterre
+5106,1920-01-01,France,Écosse,0,5,"Tournoi des Cinq Nations","1re journée","Parc des Princes",Paris,/rugby/masculin/tournoi-des-cinq-nations-1920/1-france-ecosse
+5031,1920-01-31,Angleterre,France,8,3,"Tournoi des Cinq Nations","2e journée","Twickenham Stadium",,/rugby/masculin/tournoi-des-cinq-nations-1920/2-france-angleterre
+4953,1920-02-17,France,"Pays de Galles",5,6,"Tournoi des Cinq Nations","3e journée","Stade du Matin",Colombes,/rugby/masculin/tournoi-des-cinq-nations-1920/3-france-pays-de-galles
+5107,1920-04-03,Irlande,France,7,15,"Tournoi des Cinq Nations","4e journée","Lansdowne Road",Dublin,/rugby/masculin/tournoi-des-cinq-nations-1920/4-france-irlande
+5837,1920-10-10,France,États-Unis,14,5,"Test match",,"Stade de Colombes",,/rugby/masculin/test-match/france-etats-unis-10-octobre-1920
+5108,1921-01-22,Écosse,France,0,3,"Tournoi des Cinq Nations","1re journée","Inverleith Sports Ground",Edinburgh,/rugby/masculin/tournoi-des-cinq-nations-1921/1-france-ecosse
+4954,1921-02-26,"Pays de Galles",France,12,4,"Tournoi des Cinq Nations","2e journée","Cardiff Arms Park",,/rugby/masculin/tournoi-des-cinq-nations-1921/2-france-pays-de-galles
+5032,1921-03-28,France,Angleterre,6,10,"Tournoi des Cinq Nations","3e journée","Stade de Colombes",,/rugby/masculin/tournoi-des-cinq-nations-1921/3-france-angleterre
+5109,1921-04-09,France,Irlande,20,10,"Tournoi des Cinq Nations","4e journée","Stade de Colombes",,/rugby/masculin/tournoi-des-cinq-nations-1921/4-france-irlande
+5110,1922-01-02,France,Écosse,3,3,"Tournoi des Cinq Nations","1re journée","Stade de Colombes",,/rugby/masculin/tournoi-des-cinq-nations-1922/1-france-ecosse
+5033,1922-02-25,Angleterre,France,11,11,"Tournoi des Cinq Nations","2e journée","Twickenham Stadium",,/rugby/masculin/tournoi-des-cinq-nations-1922/2-france-angleterre
+4955,1922-03-23,France,"Pays de Galles",3,11,"Tournoi des Cinq Nations","3e journée","Stade de Colombes",,/rugby/masculin/tournoi-des-cinq-nations-1922/3-france-pays-de-galles
+5111,1922-04-08,Irlande,France,8,3,"Tournoi des Cinq Nations","4e journée","Lansdowne Road",Dublin,/rugby/masculin/tournoi-des-cinq-nations-1922/4-france-irlande
+5112,1923-01-20,Écosse,France,16,3,"Tournoi des Cinq Nations","1re journée","Inverleith Sports Ground",Edinburgh,/rugby/masculin/tournoi-des-cinq-nations-1923/1-france-ecosse
+4956,1923-02-24,"Pays de Galles",France,16,8,"Tournoi des Cinq Nations","2e journée","St Helen's Rugby and Cricket Ground",Swansea,/rugby/masculin/tournoi-des-cinq-nations-1923/2-france-pays-de-galles
+5034,1923-04-02,France,Angleterre,3,12,"Tournoi des Cinq Nations","3e journée","Stade de Colombes",,/rugby/masculin/tournoi-des-cinq-nations-1923/3-france-angleterre
+5113,1923-04-14,France,Irlande,14,8,"Tournoi des Cinq Nations","4e journée","Stade de Colombes",,/rugby/masculin/tournoi-des-cinq-nations-1923/4-france-irlande
+5114,1924-01-01,France,Écosse,12,10,"Tournoi des Cinq Nations","1re journée","Stade Pershing",Paris,/rugby/masculin/tournoi-des-cinq-nations-1924/1-france-ecosse
+5115,1924-01-26,Irlande,France,6,0,"Tournoi des Cinq Nations","2e journée","Lansdowne Road",Dublin,/rugby/masculin/tournoi-des-cinq-nations-1924/2-france-irlande
+5035,1924-02-23,Angleterre,France,19,7,"Tournoi des Cinq Nations","3e journée","Twickenham Stadium",,/rugby/masculin/tournoi-des-cinq-nations-1924/3-france-angleterre
+4957,1924-03-27,France,"Pays de Galles",6,10,"Tournoi des Cinq Nations","4e journée","Stade de Colombes",,/rugby/masculin/tournoi-des-cinq-nations-1924/4-france-pays-de-galles
+5741,1924-05-04,France,Roumanie,59,3,"Jeux olympiques d'été",Demi-finale,"Stade de Colombes",,/rugby/masculin/jeux-olympiques-d-ete-1924/1-france-roumanie
+5836,1924-05-18,France,États-Unis,3,17,"Jeux olympiques d'été",Finale,"Stade de Colombes",,/rugby/masculin/jeux-olympiques-d-ete-1924/finale-france-etats-unis
+5116,1925-01-01,France,Irlande,3,9,"Tournoi des Cinq Nations","1re journée","Stade olympique de Colombes",,/rugby/masculin/tournoi-des-cinq-nations-1925/1-france-irlande
+5738,1925-01-18,France,Nouvelle-Zélande,6,30,Tournée,,"Stade des Ponts-Jumeaux",Toulouse,/rugby/masculin/tournee-1924/france-nouvelle-zelande-18-janvier-1925
+5117,1925-01-24,Écosse,France,25,4,"Tournoi des Cinq Nations","2e journée","Inverleith Sports Ground",Edinburgh,/rugby/masculin/tournoi-des-cinq-nations-1925/2-france-ecosse
+4958,1925-02-28,"Pays de Galles",France,11,5,"Tournoi des Cinq Nations","3e journée","Cardiff Arms Park",,/rugby/masculin/tournoi-des-cinq-nations-1925/3-france-pays-de-galles
+5036,1925-04-13,France,Angleterre,11,13,"Tournoi des Cinq Nations","4e journée","Stade olympique de Colombes",,/rugby/masculin/tournoi-des-cinq-nations-1925/4-france-angleterre
+5118,1926-01-02,France,Écosse,6,20,"Tournoi des Cinq Nations","1re journée","Stade olympique de Colombes",,/rugby/masculin/tournoi-des-cinq-nations-1926/1-france-ecosse
+5119,1926-01-23,Irlande,France,11,0,"Tournoi des Cinq Nations","2e journée",,,/rugby/masculin/tournoi-des-cinq-nations-1926/2-france-irlande
+5037,1926-02-27,Angleterre,France,11,0,"Tournoi des Cinq Nations","3e journée","Twickenham Stadium",,/rugby/masculin/tournoi-des-cinq-nations-1926/3-france-angleterre
+4959,1926-04-05,France,"Pays de Galles",5,7,"Tournoi des Cinq Nations","4e journée","Stade olympique de Colombes",,/rugby/masculin/tournoi-des-cinq-nations-1926/4-france-pays-de-galles
+5835,1926-12-26,France,"Māori de Nouvelle-Zélande",3,12,Tournée,,"Stade olympique de Colombes",,/rugby/masculin/tournee-1926/france-maori-de-nouvelle-zelande-26-decembre-1926
+5120,1927-01-01,France,Irlande,3,8,"Tournoi des Cinq Nations","1re journée","Stade olympique de Colombes",,/rugby/masculin/tournoi-des-cinq-nations-1927/1-france-irlande
+5121,1927-01-22,Écosse,France,23,6,"Tournoi des Cinq Nations","2e journée","Murrayfield Stadium",Edinburgh,/rugby/masculin/tournoi-des-cinq-nations-1927/2-france-ecosse
+4960,1927-02-26,"Pays de Galles",France,25,7,"Tournoi des Cinq Nations","3e journée","St Helen's Rugby and Cricket Ground",Swansea,/rugby/masculin/tournoi-des-cinq-nations-1927/3-france-pays-de-galles
+5038,1927-04-02,France,Angleterre,3,0,"Tournoi des Cinq Nations","4e journée","Stade olympique de Colombes",,/rugby/masculin/tournoi-des-cinq-nations-1927/4-france-angleterre
+5338,1927-04-17,France,Allemagne,30,5,"Test match",,"Stade olympique de Colombes",,/rugby/masculin/test-match/france-allemagne-17-avril-1927
+5339,1927-05-15,Allemagne,France,17,16,"Test match",,,,/rugby/masculin/test-match/france-allemagne-15-mai-1927
+5122,1928-01-02,France,Écosse,6,15,"Tournoi des Cinq Nations","1re journée","Stade olympique de Colombes",,/rugby/masculin/tournoi-des-cinq-nations-1928/1-france-ecosse
+5590,1928-01-22,France,Australie,8,11,Tournée,,"Stade olympique de Colombes",,/rugby/masculin/tournee-1927/france-australie-22-janvier-1928
+5123,1928-01-28,Irlande,France,12,8,"Tournoi des Cinq Nations","2e journée",,,/rugby/masculin/tournoi-des-cinq-nations-1928/2-france-irlande
+5039,1928-02-25,Angleterre,France,18,8,"Tournoi des Cinq Nations","3e journée","Twickenham Stadium",,/rugby/masculin/tournoi-des-cinq-nations-1928/3-france-angleterre
+5340,1928-03-18,Allemagne,France,3,14,"Test match",,,Hannover,/rugby/masculin/test-match/france-allemagne-18-mars-1928
+4961,1928-04-09,France,"Pays de Galles",8,3,"Tournoi des Cinq Nations","4e journée","Stade olympique de Colombes",,/rugby/masculin/tournoi-des-cinq-nations-1928/4-france-pays-de-galles
+5124,1928-12-31,France,Irlande,0,6,"Tournoi des Cinq Nations","5e journée","Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournoi-des-cinq-nations-1928/5-france-irlande
+5125,1929-01-19,Écosse,France,6,3,"Tournoi des Cinq Nations","1re journée","Murrayfield Stadium",Edinburgh,/rugby/masculin/tournoi-des-cinq-nations-1929/1-france-ecosse
+4962,1929-02-25,"Pays de Galles",France,8,3,"Tournoi des Cinq Nations","2e journée","Cardiff Arms Park",,/rugby/masculin/tournoi-des-cinq-nations-1929/2-france-pays-de-galles
+5040,1929-04-01,France,Angleterre,6,16,"Tournoi des Cinq Nations","3e journée","Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournoi-des-cinq-nations-1929/3-france-angleterre
+5341,1929-04-28,France,Allemagne,24,0,"Test match",,"Stade Yves-du-Manoir",Colombes,/rugby/masculin/test-match/france-allemagne-28-avril-1929
+5126,1930-01-01,France,Écosse,7,3,"Tournoi des Cinq Nations","1re journée","Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournoi-des-cinq-nations-1930/1-france-ecosse
+5127,1930-01-25,Irlande,France,0,5,"Tournoi des Cinq Nations","2e journée",,,/rugby/masculin/tournoi-des-cinq-nations-1930/2-france-irlande
+5041,1930-02-22,Angleterre,France,11,5,"Tournoi des Cinq Nations","3e journée","Twickenham Stadium",,/rugby/masculin/tournoi-des-cinq-nations-1930/3-france-angleterre
+5342,1930-04-06,Allemagne,France,0,31,"Test match",,,,/rugby/masculin/test-match/france-allemagne-6-avril-1930
+4963,1930-04-21,France,"Pays de Galles",0,11,"Tournoi des Cinq Nations","4e journée","Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournoi-des-cinq-nations-1930/4-france-pays-de-galles
+5128,1931-01-01,France,Irlande,3,0,"Tournoi des Cinq Nations","1re journée","Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournoi-des-cinq-nations-1931/1-france-irlande
+5129,1931-01-24,Écosse,France,6,4,"Tournoi des Cinq Nations","2e journée","Murrayfield Stadium",Edinburgh,/rugby/masculin/tournoi-des-cinq-nations-1931/2-france-ecosse
+4964,1931-02-28,"Pays de Galles",France,35,3,"Tournoi des Cinq Nations","3e journée","St Helen's Rugby and Cricket Ground",Swansea,/rugby/masculin/tournoi-des-cinq-nations-1931/3-france-pays-de-galles
+5042,1931-04-06,France,Angleterre,14,13,"Tournoi des Cinq Nations","4e journée","Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournoi-des-cinq-nations-1931/4-france-angleterre
+5343,1931-04-19,France,Allemagne,34,0,"Test match",,"Stade Yves-du-Manoir",Colombes,/rugby/masculin/test-match/france-allemagne-19-avril-1931
+5347,1935-03-24,France,Allemagne,18,3,"Test match",,"Parc des Princes",Paris,/rugby/masculin/test-match/france-allemagne-24-mars-1935
+5337,1935-04-22,Italie,France,6,44,"Test match",,,,/rugby/masculin/test-match/france-italie-22-avril-1935
+5834,1936-05-17,Allemagne,France,14,19,"Test match",,,Berlin,/rugby/masculin/test-match/france-allemagne-17-mai-1936
+5348,1936-11-01,Allemagne,France,3,6,"Test match",,,Hannover,/rugby/masculin/test-match/france-allemagne-1-novembre-1936
+5349,1937-04-18,France,Allemagne,27,6,"Test match",,"Parc des Princes",Paris,/rugby/masculin/test-match/france-allemagne-18-avril-1937
+5292,1937-10-14,France,Roumanie,27,11,"Coupe d'Europe",Demi-finale,,,/rugby/masculin/test-match/france-roumanie-14-octobre-1937
+5271,1937-10-17,France,Italie,43,5,"Coupe d'Europe",Finale,"Parc des Princes",Paris,/rugby/masculin/test-match/france-italie-17-octobre-1937
+5350,1938-03-27,Allemagne,France,3,0,"Test match",,,,/rugby/masculin/test-match/france-allemagne-27-mars-1938
+5833,1938-05-15,Roumanie,France,8,11,"Test match",,,Bucarest,/rugby/masculin/test-match/france-roumanie-15-mai-1938
+5259,1938-05-16,Roumanie,France,8,11,"Test match",,,,/rugby/masculin/test-match/france-roumanie-16-mai-1938
+5351,1938-05-22,France,Allemagne,8,5,"Test match",,,,/rugby/masculin/test-match/france-allemagne-22-mai-1938
+5830,1945-01-01,France,"Fédération de l'Armée de terre britannique",21,9,"Test match",,"Parc des Princes",Paris,/rugby/masculin/test-match/france-federation-de-l-armee-de-terre-britannique-1-janvier-1945
+5831,1945-04-28,"Fédération de l'Armée de terre britannique",France,27,6,"Test match",,,"Richmond sur la Tamise",/rugby/masculin/test-match/france-federation-de-l-armee-de-terre-britannique-28-avril-1945
+5352,1945-12-22,"Pays de Galles",France,8,0,"Test match",,"St Helen's Rugby and Cricket Ground",Swansea,/rugby/masculin/test-match/france-pays-de-galles-22-decembre-1945
+5829,1946-01-01,France,"Fédération de l'Armée de terre britannique",10,0,"Test match",,"Parc des Princes",Paris,/rugby/masculin/test-match/france-federation-de-l-armee-de-terre-britannique-1-janvier-1946
+5353,1946-01-26,Irlande,France,3,4,"Test match",,"Lansdowne Road",Dublin,/rugby/masculin/test-match/france-irlande-26-janvier-1946
+5739,1946-03-10,France,Nouvelle-Zélande,9,14,Tournée,,"Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournee-1945/france-nouvelle-zelande-10-mars-1946
+5354,1946-04-22,France,"Pays de Galles",12,0,"Test match",,"Stade Yves-du-Manoir",Colombes,/rugby/masculin/test-match/france-pays-de-galles-22-avril-1946
+5131,1947-01-01,France,Écosse,8,3,"Tournoi des Cinq Nations","1re journée","Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournoi-des-cinq-nations-1947/1-france-ecosse
+5132,1947-01-25,Irlande,France,8,12,"Tournoi des Cinq Nations","2e journée","Lansdowne Road",Dublin,/rugby/masculin/tournoi-des-cinq-nations-1947/2-france-irlande
+4965,1947-03-22,France,"Pays de Galles",0,3,"Tournoi des Cinq Nations","3e journée","Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournoi-des-cinq-nations-1947/3-france-pays-de-galles
+5043,1947-04-19,Angleterre,France,6,3,"Tournoi des Cinq Nations","4e journée","Twickenham Stadium",,/rugby/masculin/tournoi-des-cinq-nations-1947/4-france-angleterre
+5133,1948-01-01,France,Irlande,6,13,"Tournoi des Cinq Nations","1re journée","Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournoi-des-cinq-nations-1948/1-france-irlande
+5574,1948-01-11,France,Australie,13,6,Tournée,,"Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournee-1947/france-australie-11-janvier-1948
+5134,1948-01-24,Écosse,France,9,8,"Tournoi des Cinq Nations","2e journée","Murrayfield Stadium",Edinburgh,/rugby/masculin/tournoi-des-cinq-nations-1948/2-france-ecosse
+4966,1948-02-21,"Pays de Galles",France,3,11,"Tournoi des Cinq Nations","3e journée","St Helen's Rugby and Cricket Ground",Swansea,/rugby/masculin/tournoi-des-cinq-nations-1948/3-france-pays-de-galles
+5044,1948-03-29,France,Angleterre,15,0,"Tournoi des Cinq Nations","4e journée","Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournoi-des-cinq-nations-1948/4-france-angleterre
+5135,1949-01-15,France,Écosse,0,8,"Tournoi des Cinq Nations","1re journée","Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournoi-des-cinq-nations-1949/1-france-ecosse
+5136,1949-01-29,Irlande,France,9,16,"Tournoi des Cinq Nations","2e journée","Lansdowne Road",Dublin,/rugby/masculin/tournoi-des-cinq-nations-1949/2-france-irlande
+5045,1949-02-26,Angleterre,France,8,3,"Tournoi des Cinq Nations","3e journée","Twickenham Stadium",,/rugby/masculin/tournoi-des-cinq-nations-1949/3-france-angleterre
+4967,1949-03-26,France,"Pays de Galles",5,3,"Tournoi des Cinq Nations","4e journée","Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournoi-des-cinq-nations-1949/4-france-pays-de-galles
+5297,1949-08-28,Argentine,France,0,5,"Test match",,"Estadio Arquitecto Ricardo Etcheverri","Buenos Aires",/rugby/masculin/test-match/france-argentine-28-aout-1949
+5296,1949-09-04,Argentine,France,3,12,"Test match",,"Estadio GEBA","Buenos Aires",/rugby/masculin/test-match/france-argentine-4-septembre-1949
+5137,1950-01-14,Écosse,France,8,5,"Tournoi des Cinq Nations","1re journée","Murrayfield Stadium",Edinburgh,/rugby/masculin/tournoi-des-cinq-nations-1950/1-france-ecosse
+5138,1950-01-28,France,Irlande,3,3,"Tournoi des Cinq Nations","2e journée","Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournoi-des-cinq-nations-1950/2-france-irlande
+5046,1950-02-25,France,Angleterre,6,3,"Tournoi des Cinq Nations","3e journée","Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournoi-des-cinq-nations-1950/3-france-angleterre
+4968,1950-03-25,"Pays de Galles",France,21,0,"Tournoi des Cinq Nations","4e journée","Cardiff Arms Park",,/rugby/masculin/tournoi-des-cinq-nations-1950/4-france-pays-de-galles
+5139,1951-01-13,France,Écosse,14,12,"Tournoi des Cinq Nations","1re journée","Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournoi-des-cinq-nations-1951/1-france-ecosse
+5140,1951-01-27,Irlande,France,9,8,"Tournoi des Cinq Nations","2e journée","Lansdowne Road",Dublin,/rugby/masculin/tournoi-des-cinq-nations-1951/2-france-irlande
+5047,1951-02-24,Angleterre,France,3,11,"Tournoi des Cinq Nations","3e journée","Twickenham Stadium",,/rugby/masculin/tournoi-des-cinq-nations-1951/3-france-angleterre
+4969,1951-04-07,France,"Pays de Galles",8,3,"Tournoi des Cinq Nations","4e journée","Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournoi-des-cinq-nations-1951/4-france-pays-de-galles
+5141,1952-01-12,Écosse,France,11,13,"Tournoi des Cinq Nations","1re journée","Murrayfield Stadium",Edinburgh,/rugby/masculin/tournoi-des-cinq-nations-1952/1-france-ecosse
+5142,1952-01-26,France,Irlande,8,11,"Tournoi des Cinq Nations","2e journée","Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournoi-des-cinq-nations-1952/2-france-irlande
+5763,1952-02-16,France,"Afrique du Sud",3,25,Tournée,,"Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournee-1951/france-afrique-du-sud-16-fevrier-1952
+4970,1952-03-22,"Pays de Galles",France,9,5,"Tournoi des Cinq Nations","3e journée","St Helen's Rugby and Cricket Ground",Swansea,/rugby/masculin/tournoi-des-cinq-nations-1952/3-france-pays-de-galles
+5048,1952-04-05,France,Angleterre,3,6,"Tournoi des Cinq Nations","4e journée","Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournoi-des-cinq-nations-1952/4-france-angleterre
+5272,1952-05-17,Italie,France,8,17,"Test match",,,,/rugby/masculin/test-match/france-italie-17-mai-1952
+5143,1953-01-10,France,Écosse,11,5,"Tournoi des Cinq Nations","1re journée","Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournoi-des-cinq-nations-1953/1-france-ecosse
+5144,1953-01-24,Irlande,France,16,3,"Tournoi des Cinq Nations","2e journée",,,/rugby/masculin/tournoi-des-cinq-nations-1953/2-france-irlande
+5049,1953-02-28,Angleterre,France,11,0,"Tournoi des Cinq Nations","3e journée","Twickenham Stadium",,/rugby/masculin/tournoi-des-cinq-nations-1953/3-france-angleterre
+4971,1953-03-28,France,"Pays de Galles",3,6,"Tournoi des Cinq Nations","4e journée","Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournoi-des-cinq-nations-1953/4-france-pays-de-galles
+5273,1953-04-26,France,Italie,22,8,"Test match",,,,/rugby/masculin/test-match/france-italie-26-avril-1953
+5145,1954-01-09,Écosse,France,0,3,"Tournoi des Cinq Nations","1re journée","Murrayfield Stadium",Edinburgh,/rugby/masculin/tournoi-des-cinq-nations-1954/1-france-ecosse
+5146,1954-01-23,France,Irlande,8,0,"Tournoi des Cinq Nations","2e journée","Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournoi-des-cinq-nations-1954/2-france-irlande
+5718,1954-02-27,France,Nouvelle-Zélande,3,0,Tournée,,"Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournee-1953/france-nouvelle-zelande-27-fevrier-1954
+4972,1954-03-27,"Pays de Galles",France,19,13,"Tournoi des Cinq Nations","3e journée","Cardiff Arms Park",,/rugby/masculin/tournoi-des-cinq-nations-1954/3-france-pays-de-galles
+5050,1954-04-10,France,Angleterre,11,3,"Tournoi des Cinq Nations","4e journée","Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournoi-des-cinq-nations-1954/4-france-angleterre
+5548,1954-04-18,"Allemagne de l'Ouest",France,3,28,"Coupe d'Europe",Demi-finale,,,/rugby/masculin/test-match/france-allemagne-de-l-ouest-18-avril-1954
+5828,1954-04-24,Italie,France,12,39,"Coupe d'Europe",Finale,,Rome,/rugby/masculin/coupe-d-europe-1954/finale-france-italie
+5295,1954-08-29,Argentine,France,8,22,"Test match",,"Estadio GEBA","Buenos Aires",/rugby/masculin/test-match/france-argentine-29-aout-1954
+5294,1954-09-12,Argentine,France,3,30,"Test match",,"Estadio GEBA","Buenos Aires",/rugby/masculin/test-match/france-argentine-12-septembre-1954
+5147,1955-01-08,France,Écosse,15,0,"Tournoi des Cinq Nations","1re journée","Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournoi-des-cinq-nations-1955/1-france-ecosse
+5148,1955-01-22,Irlande,France,3,5,"Tournoi des Cinq Nations","2e journée","Lansdowne Road",Dublin,/rugby/masculin/tournoi-des-cinq-nations-1955/2-france-irlande
+5051,1955-02-26,Angleterre,France,9,16,"Tournoi des Cinq Nations","3e journée","Twickenham Stadium",,/rugby/masculin/tournoi-des-cinq-nations-1955/3-france-angleterre
+4973,1955-03-26,France,"Pays de Galles",11,16,"Tournoi des Cinq Nations","4e journée","Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournoi-des-cinq-nations-1955/4-france-pays-de-galles
+5274,1955-04-10,France,Italie,24,0,"Test match",,,,/rugby/masculin/test-match/france-italie-10-avril-1955
+5149,1956-01-14,Écosse,France,12,0,"Tournoi des Cinq Nations","1re journée","Murrayfield Stadium",Edinburgh,/rugby/masculin/tournoi-des-cinq-nations-1956/1-france-ecosse
+5150,1956-01-28,France,Irlande,14,8,"Tournoi des Cinq Nations","2e journée","Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournoi-des-cinq-nations-1956/2-france-irlande
+4974,1956-03-24,"Pays de Galles",France,5,3,"Tournoi des Cinq Nations","3e journée","Cardiff Arms Park",,/rugby/masculin/tournoi-des-cinq-nations-1956/3-france-pays-de-galles
+5275,1956-04-02,Italie,France,3,16,"Test match",,,,/rugby/masculin/test-match/france-italie-2-avril-1956
+5052,1956-04-14,France,Angleterre,14,9,"Tournoi des Cinq Nations","4e journée","Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournoi-des-cinq-nations-1956/4-france-angleterre
+5827,1956-12-16,France,Tchécoslovaquie,28,3,"Test match",,,Toulouse,/rugby/masculin/test-match/france-tchecoslovaquie-16-decembre-1956
+5151,1957-01-12,France,Écosse,0,6,"Tournoi des Cinq Nations","1re journée","Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournoi-des-cinq-nations-1957/1-france-ecosse
+5152,1957-01-26,Irlande,France,11,6,"Tournoi des Cinq Nations","2e journée","Lansdowne Road",Dublin,/rugby/masculin/tournoi-des-cinq-nations-1957/2-france-irlande
+5053,1957-02-23,Angleterre,France,9,5,"Tournoi des Cinq Nations","3e journée","Twickenham Stadium",,/rugby/masculin/tournoi-des-cinq-nations-1957/3-france-angleterre
+4975,1957-03-23,France,"Pays de Galles",13,19,"Tournoi des Cinq Nations","4e journée","Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournoi-des-cinq-nations-1957/4-france-pays-de-galles
+5276,1957-04-21,France,Italie,38,6,"Test match",,,,/rugby/masculin/test-match/france-italie-21-avril-1957
+5258,1957-05-19,Roumanie,France,15,18,"Test match",,,,/rugby/masculin/test-match/france-roumanie-19-mai-1957
+5257,1957-12-15,France,Roumanie,39,0,"Test match",,,,/rugby/masculin/test-match/france-roumanie-15-decembre-1957
+5153,1958-01-11,Écosse,France,11,9,"Tournoi des Cinq Nations","1re journée","Murrayfield Stadium",Edinburgh,/rugby/masculin/tournoi-des-cinq-nations-1958/1-france-ecosse
+5054,1958-03-01,France,Angleterre,0,14,"Tournoi des Cinq Nations","2e journée","Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournoi-des-cinq-nations-1958/2-france-angleterre
+5591,1958-03-09,France,Australie,19,0,Tournée,,"Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournee-1957/france-australie-9-mars-1958
+4976,1958-03-29,"Pays de Galles",France,6,16,"Tournoi des Cinq Nations","3e journée","Cardiff Arms Park",,/rugby/masculin/tournoi-des-cinq-nations-1958/3-france-pays-de-galles
+5277,1958-04-07,Italie,France,3,11,"Test match",,,,/rugby/masculin/test-match/france-italie-7-avril-1958
+5154,1958-04-19,France,Irlande,11,6,"Tournoi des Cinq Nations","4e journée","Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournoi-des-cinq-nations-1958/4-france-irlande
+5681,1958-07-26,"Afrique du Sud",France,3,3,"Tournée de l'équipe de France",,"Newlands Stadium","Le Cap",/rugby/masculin/tournee-de-l-equipe-de-france-1958/france-afrique-du-sud-26-juillet-1958
+5682,1958-08-16,"Afrique du Sud",France,5,9,"Tournée de l'équipe de France",,"Ellis Park Stadium",Johannesbourg,/rugby/masculin/tournee-de-l-equipe-de-france-1958/france-afrique-du-sud-16-aout-1958
+5155,1959-01-10,France,Écosse,9,0,"Tournoi des Cinq Nations","1re journée","Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournoi-des-cinq-nations-1959/1-france-ecosse
+5055,1959-02-28,Angleterre,France,3,3,"Tournoi des Cinq Nations","2e journée","Twickenham Stadium",,/rugby/masculin/tournoi-des-cinq-nations-1959/2-france-angleterre
+5278,1959-03-29,France,Italie,22,0,"Test match",,"Stade Malakoff",Nantes,/rugby/masculin/test-match/france-italie-29-mars-1959
+4977,1959-04-04,France,"Pays de Galles",11,3,"Tournoi des Cinq Nations","3e journée","Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournoi-des-cinq-nations-1959/3-france-pays-de-galles
+5156,1959-04-18,Irlande,France,9,5,"Tournoi des Cinq Nations","4e journée","Lansdowne Road",Dublin,/rugby/masculin/tournoi-des-cinq-nations-1959/4-france-irlande
+5157,1960-01-09,Écosse,France,11,13,"Tournoi des Cinq Nations","1re journée","Murrayfield Stadium",Edinburgh,/rugby/masculin/tournoi-des-cinq-nations-1960/1-france-ecosse
+5056,1960-02-27,France,Angleterre,3,3,"Tournoi des Cinq Nations","2e journée","Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournoi-des-cinq-nations-1960/2-france-angleterre
+4978,1960-03-26,"Pays de Galles",France,8,16,"Tournoi des Cinq Nations","3e journée","Cardiff Arms Park",,/rugby/masculin/tournoi-des-cinq-nations-1960/3-france-pays-de-galles
+5158,1960-04-09,France,Irlande,23,6,"Tournoi des Cinq Nations","4e journée","Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournoi-des-cinq-nations-1960/4-france-irlande
+5279,1960-04-17,Italie,France,0,26,"Test match",,,,/rugby/masculin/test-match/france-italie-17-avril-1960
+5265,1960-06-05,Roumanie,France,11,5,"Test match",,,,/rugby/masculin/test-match/france-roumanie-5-juin-1960
+5621,1960-07-23,Argentine,France,3,37,"Tournée de l'équipe de France",,"Estadio GEBA","Buenos Aires",/rugby/masculin/tournee-de-l-equipe-de-france-1960/france-argentine-23-juillet-1960
+5620,1960-08-06,Argentine,France,3,12,"Tournée de l'équipe de France",,"Estadio GEBA","Buenos Aires",/rugby/masculin/tournee-de-l-equipe-de-france-1960/france-argentine-6-aout-1960
+5619,1960-08-17,Argentine,France,6,29,"Tournée de l'équipe de France",,"Estadio GEBA","Buenos Aires",/rugby/masculin/tournee-de-l-equipe-de-france-1960/france-argentine-17-aout-1960
+5159,1961-01-07,France,Écosse,11,0,"Tournoi des Cinq Nations","1re journée","Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournoi-des-cinq-nations-1961/1-france-ecosse
+5764,1961-02-18,France,"Afrique du Sud",0,0,Tournée,,"Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournee-1960/france-afrique-du-sud-18-fevrier-1961
+5057,1961-02-25,Angleterre,France,5,5,"Tournoi des Cinq Nations","2e journée","Twickenham Stadium",,/rugby/masculin/tournoi-des-cinq-nations-1961/2-france-angleterre
+4979,1961-03-25,France,"Pays de Galles",8,6,"Tournoi des Cinq Nations","3e journée","Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournoi-des-cinq-nations-1961/3-france-pays-de-galles
+5280,1961-04-02,France,Italie,17,0,"Test match",,,,/rugby/masculin/test-match/france-italie-2-avril-1961
+5160,1961-04-15,Irlande,France,3,15,"Tournoi des Cinq Nations","4e journée","Lansdowne Road",Dublin,/rugby/masculin/tournoi-des-cinq-nations-1961/4-france-irlande
+5667,1961-07-22,Nouvelle-Zélande,France,13,6,"Tournée de l'équipe de France",,"Eden Park",Auckland,/rugby/masculin/tournee-de-l-equipe-de-france-1961/france-nouvelle-zelande-22-juillet-1961
+5668,1961-08-05,Nouvelle-Zélande,France,5,3,"Tournée de l'équipe de France",,,Wellington,/rugby/masculin/tournee-de-l-equipe-de-france-1961/france-nouvelle-zelande-5-aout-1961
+5669,1961-08-19,Nouvelle-Zélande,France,32,3,"Tournée de l'équipe de France",,"Lancaster Park",Christchurch,/rugby/masculin/tournee-de-l-equipe-de-france-1961/france-nouvelle-zelande-19-aout-1961
+5665,1961-08-26,Australie,France,8,15,"Tournée de l'équipe de France",,"Sydney Cricket Ground",,/rugby/masculin/tournee-de-l-equipe-de-france-1961/france-australie-26-aout-1961
+5266,1961-11-12,France,Roumanie,5,5,"Test match",,,,/rugby/masculin/test-match/france-roumanie-12-novembre-1961
+5161,1962-01-13,Écosse,France,3,11,"Tournoi des Cinq Nations","1re journée","Murrayfield Stadium",Edinburgh,/rugby/masculin/tournoi-des-cinq-nations-1962/1-france-ecosse
+5058,1962-02-24,France,Angleterre,13,0,"Tournoi des Cinq Nations","2e journée","Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournoi-des-cinq-nations-1962/2-france-angleterre
+4980,1962-03-24,"Pays de Galles",France,3,0,"Tournoi des Cinq Nations","3e journée","Cardiff Arms Park",,/rugby/masculin/tournoi-des-cinq-nations-1962/3-france-pays-de-galles
+5162,1962-04-14,France,Irlande,11,0,"Tournoi des Cinq Nations","4e journée","Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournoi-des-cinq-nations-1962/4-france-irlande
+5281,1962-04-22,Italie,France,3,6,"Test match",,,,/rugby/masculin/test-match/france-italie-22-avril-1962
+5264,1962-11-11,Roumanie,France,3,0,"Test match",,,,/rugby/masculin/test-match/france-roumanie-11-novembre-1962
+5163,1963-01-12,France,Écosse,6,11,"Tournoi des Cinq Nations","1re journée","Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournoi-des-cinq-nations-1963/1-france-ecosse
+5164,1963-01-26,Irlande,France,5,24,"Tournoi des Cinq Nations","2e journée","Lansdowne Road",Dublin,/rugby/masculin/tournoi-des-cinq-nations-1963/2-france-irlande
+5059,1963-02-23,Angleterre,France,6,5,"Tournoi des Cinq Nations","3e journée","Twickenham Stadium",,/rugby/masculin/tournoi-des-cinq-nations-1963/3-france-angleterre
+4981,1963-03-23,France,"Pays de Galles",5,3,"Tournoi des Cinq Nations","4e journée","Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournoi-des-cinq-nations-1963/4-france-pays-de-galles
+5282,1963-04-13,France,Italie,14,12,"Test match",,,,/rugby/masculin/test-match/france-italie-13-avril-1963
+5267,1963-12-15,France,Roumanie,6,6,"Test match",,Stadium,Toulouse,/rugby/masculin/test-match/france-roumanie-15-decembre-1963
+5165,1964-01-04,Écosse,France,10,0,"Tournoi des Cinq Nations","1re journée","Murrayfield Stadium",Edinburgh,/rugby/masculin/tournoi-des-cinq-nations-1964/1-france-ecosse
+5740,1964-02-08,France,Nouvelle-Zélande,3,12,Tournée,,"Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournee-1963/france-nouvelle-zelande-8-fevrier-1964
+5060,1964-02-22,France,Angleterre,3,6,"Tournoi des Cinq Nations","2e journée","Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournoi-des-cinq-nations-1964/2-france-angleterre
+4982,1964-03-21,"Pays de Galles",France,11,11,"Tournoi des Cinq Nations","3e journée","Cardiff Arms Park",,/rugby/masculin/tournoi-des-cinq-nations-1964/3-france-pays-de-galles
+5283,1964-03-29,Italie,France,3,12,"Test match",,,,/rugby/masculin/test-match/france-italie-29-mars-1964
+5166,1964-04-11,France,Irlande,27,6,"Tournoi des Cinq Nations","4e journée","Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournoi-des-cinq-nations-1964/4-france-irlande
+5683,1964-07-25,"Afrique du Sud",France,6,8,"Tournée de l'équipe de France",,,,/rugby/masculin/tournee-de-l-equipe-de-france-1964/france-afrique-du-sud-25-juillet-1964
+5606,1964-10-17,France,Fidji,21,3,Tournée,,"Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournee-1964/france-fidji-17-octobre-1964
+5263,1964-11-29,Roumanie,France,6,9,"Test match",,,,/rugby/masculin/test-match/france-roumanie-29-novembre-1964
+5167,1965-01-09,France,Écosse,16,8,"Tournoi des Cinq Nations","1re journée","Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournoi-des-cinq-nations-1965/1-france-ecosse
+5168,1965-01-23,Irlande,France,3,3,"Tournoi des Cinq Nations","2e journée","Lansdowne Road",Dublin,/rugby/masculin/tournoi-des-cinq-nations-1965/2-france-irlande
+5061,1965-02-27,Angleterre,France,9,6,"Tournoi des Cinq Nations","3e journée","Twickenham Stadium",,/rugby/masculin/tournoi-des-cinq-nations-1965/3-france-angleterre
+4983,1965-03-27,France,"Pays de Galles",22,13,"Tournoi des Cinq Nations","4e journée","Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournoi-des-cinq-nations-1965/4-france-pays-de-galles
+5284,1965-04-18,France,Italie,21,0,"Test match",,,,/rugby/masculin/test-match/france-italie-18-avril-1965
+5826,1965-11-28,France,Roumanie,8,3,"Test match",,,Lyon,/rugby/masculin/test-match/france-roumanie-28-novembre-1965
+5169,1966-01-15,Écosse,France,3,3,"Tournoi des Cinq Nations","1re journée","Murrayfield Stadium",Edinburgh,/rugby/masculin/tournoi-des-cinq-nations-1966/1-france-ecosse
+5170,1966-01-29,France,Irlande,11,6,"Tournoi des Cinq Nations","2e journée","Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournoi-des-cinq-nations-1966/2-france-irlande
+5062,1966-02-26,France,Angleterre,13,0,"Tournoi des Cinq Nations","3e journée","Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournoi-des-cinq-nations-1966/3-france-angleterre
+4984,1966-03-26,"Pays de Galles",France,9,8,"Tournoi des Cinq Nations","4e journée","Cardiff Arms Park",,/rugby/masculin/tournoi-des-cinq-nations-1966/4-france-pays-de-galles
+5285,1966-04-09,Italie,France,0,21,"Test match",,,,/rugby/masculin/test-match/france-italie-9-avril-1966
+5825,1966-11-27,Roumanie,France,3,9,"Test match",,,Bucarest,/rugby/masculin/test-match/france-roumanie-27-novembre-1966
+5171,1967-01-14,France,Écosse,8,9,"Tournoi des Cinq Nations","1re journée","Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournoi-des-cinq-nations-1967/1-france-ecosse
+5592,1967-02-11,France,Australie,20,14,Tournée,,"Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournee-1966/france-australie-11-fevrier-1967
+5063,1967-02-25,Angleterre,France,12,16,"Tournoi des Cinq Nations","2e journée","Twickenham Stadium",,/rugby/masculin/tournoi-des-cinq-nations-1967/2-france-angleterre
+5286,1967-03-26,France,Italie,60,13,"Test match",,,,/rugby/masculin/test-match/france-italie-26-mars-1967
+4985,1967-04-01,France,"Pays de Galles",20,14,"Tournoi des Cinq Nations","3e journée","Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournoi-des-cinq-nations-1967/3-france-pays-de-galles
+5172,1967-04-15,Irlande,France,6,11,"Tournoi des Cinq Nations","4e journée","Lansdowne Road",Dublin,/rugby/masculin/tournoi-des-cinq-nations-1967/4-france-irlande
+5684,1967-07-15,"Afrique du Sud",France,26,3,"Tournée de l'équipe de France",,"ABSA Stadium",Durban,/rugby/masculin/tournee-de-l-equipe-de-france-1967/france-afrique-du-sud-15-juillet-1967
+5685,1967-07-22,"Afrique du Sud",France,16,3,"Tournée de l'équipe de France",,"Free State Stadium",Bloemfontein,/rugby/masculin/tournee-de-l-equipe-de-france-1967/france-afrique-du-sud-22-juillet-1967
+5686,1967-07-29,"Afrique du Sud",France,14,19,"Tournée de l'équipe de France",,"Ellis Park Stadium",Johannesbourg,/rugby/masculin/tournee-de-l-equipe-de-france-1967/france-afrique-du-sud-29-juillet-1967
+5687,1967-08-12,"Afrique du Sud",France,6,6,"Tournée de l'équipe de France",,"Newlands Stadium","Le Cap",/rugby/masculin/tournee-de-l-equipe-de-france-1967/france-afrique-du-sud-12-aout-1967
+5719,1967-11-25,France,Nouvelle-Zélande,15,21,Tournée,,"Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournee-1967/france-nouvelle-zelande-25-novembre-1967
+5823,1967-12-10,France,Roumanie,11,3,"Test match",,"Stade Marcel-Saupin",Nantes,/rugby/masculin/test-match/france-roumanie-10-decembre-1967
+5173,1968-01-13,Écosse,France,6,8,"Tournoi des Cinq Nations","1re journée","Murrayfield Stadium",Edinburgh,/rugby/masculin/tournoi-des-cinq-nations-1968/1-france-ecosse
+5174,1968-01-27,France,Irlande,16,6,"Tournoi des Cinq Nations","2e journée","Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournoi-des-cinq-nations-1968/2-france-irlande
+5064,1968-02-24,France,Angleterre,14,9,"Tournoi des Cinq Nations","3e journée","Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournoi-des-cinq-nations-1968/3-france-angleterre
+4986,1968-03-23,"Pays de Galles",France,9,14,"Tournoi des Cinq Nations","4e journée","Cardiff Arms Park",,/rugby/masculin/tournoi-des-cinq-nations-1968/4-france-pays-de-galles
+5824,1968-05-05,Tchécoslovaquie,France,6,19,"Test match",,,Prague,/rugby/masculin/test-match/france-tchecoslovaquie-5-mai-1968
+5670,1968-07-13,Nouvelle-Zélande,France,12,9,"Tournée de l'équipe de France",,"Lancaster Park",Christchurch,/rugby/masculin/tournee-de-l-equipe-de-france-1968/france-nouvelle-zelande-13-juillet-1968
+5671,1968-07-27,Nouvelle-Zélande,France,9,3,"Tournée de l'équipe de France",,,Wellington,/rugby/masculin/tournee-de-l-equipe-de-france-1968/france-nouvelle-zelande-27-juillet-1968
+5672,1968-08-10,Nouvelle-Zélande,France,19,12,"Tournée de l'équipe de France",,"Eden Park",Auckland,/rugby/masculin/tournee-de-l-equipe-de-france-1968/france-nouvelle-zelande-10-aout-1968
+5666,1968-08-17,Australie,France,11,10,"Tournée de l'équipe de France",,"Sydney Cricket Ground",,/rugby/masculin/tournee-de-l-equipe-de-france-1968/france-australie-17-aout-1968
+5754,1968-11-09,France,"Afrique du Sud",9,12,Tournée,,"Parc Lescure",Bordeaux,/rugby/masculin/tournee-1968/france-afrique-du-sud-9-novembre-1968
+5755,1968-11-16,France,"Afrique du Sud",11,16,Tournée,,"Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournee-1968/france-afrique-du-sud-16-novembre-1968
+5822,1968-12-01,Roumanie,France,15,14,"Test match",,,Bucarest,/rugby/masculin/test-match/france-roumanie-1-decembre-1968
+5175,1969-01-11,France,Écosse,3,6,"Tournoi des Cinq Nations","1re journée","Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournoi-des-cinq-nations-1969/1-france-ecosse
+5176,1969-01-25,Irlande,France,17,9,"Tournoi des Cinq Nations","2e journée","Lansdowne Road",Dublin,/rugby/masculin/tournoi-des-cinq-nations-1969/2-france-irlande
+5065,1969-02-22,Angleterre,France,22,8,"Tournoi des Cinq Nations","3e journée","Twickenham Stadium",,/rugby/masculin/tournoi-des-cinq-nations-1969/3-france-angleterre
+4987,1969-03-22,France,"Pays de Galles",8,8,"Tournoi des Cinq Nations","4e journée","Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournoi-des-cinq-nations-1969/4-france-pays-de-galles
+5821,1969-12-14,France,Roumanie,14,9,"Test match",,,Tarbes,/rugby/masculin/test-match/france-roumanie-14-decembre-1969
+5177,1970-01-10,Écosse,France,9,11,"Tournoi des Cinq Nations","1re journée","Murrayfield Stadium",Edinburgh,/rugby/masculin/tournoi-des-cinq-nations-1970/1-france-ecosse
+5178,1970-01-24,France,Irlande,8,0,"Tournoi des Cinq Nations","2e journée","Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournoi-des-cinq-nations-1970/2-france-irlande
+4988,1970-04-04,"Pays de Galles",France,11,6,"Tournoi des Cinq Nations","3e journée","Cardiff Arms Park",,/rugby/masculin/tournoi-des-cinq-nations-1970/3-france-pays-de-galles
+5066,1970-04-18,France,Angleterre,35,13,"Tournoi des Cinq Nations","4e journée","Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournoi-des-cinq-nations-1970/4-france-angleterre
+5820,1970-11-29,Roumanie,France,3,14,"Test match",,,Bucarest,/rugby/masculin/test-match/france-roumanie-29-novembre-1970
+5179,1971-01-16,France,Écosse,13,8,"Tournoi des Cinq Nations","1re journée","Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournoi-des-cinq-nations-1971/1-france-ecosse
+5180,1971-01-30,Irlande,France,9,9,"Tournoi des Cinq Nations","2e journée","Lansdowne Road",Dublin,/rugby/masculin/tournoi-des-cinq-nations-1971/2-france-irlande
+5067,1971-02-27,Angleterre,France,14,14,"Tournoi des Cinq Nations","3e journée","Twickenham Stadium",,/rugby/masculin/tournoi-des-cinq-nations-1971/3-france-angleterre
+4989,1971-03-27,France,"Pays de Galles",5,9,"Tournoi des Cinq Nations","4e journée","Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournoi-des-cinq-nations-1971/4-france-pays-de-galles
+5688,1971-06-12,"Afrique du Sud",France,22,9,"Tournée de l'équipe de France",,"Free State Stadium",Bloemfontein,/rugby/masculin/tournee-de-l-equipe-de-france-1971/france-afrique-du-sud-12-juin-1971
+5689,1971-06-19,"Afrique du Sud",France,8,8,"Tournée de l'équipe de France",,"ABSA Stadium",Durban,/rugby/masculin/tournee-de-l-equipe-de-france-1971/france-afrique-du-sud-19-juin-1971
+5580,1971-11-20,France,Australie,11,13,Tournée,,"Stade des Ponts-Jumeaux",Toulouse,/rugby/masculin/tournee-1971/france-australie-20-novembre-1971
+5581,1971-11-27,France,Australie,18,9,Tournée,,"Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournee-1971/france-australie-27-novembre-1971
+5819,1971-12-11,France,Roumanie,31,12,"Test match",,,Béziers,/rugby/masculin/test-match/france-roumanie-11-decembre-1971
+5181,1972-01-15,Écosse,France,20,9,"Tournoi des Cinq Nations","1re journée","Murrayfield Stadium",Edinburgh,/rugby/masculin/tournoi-des-cinq-nations-1972/1-france-ecosse
+5182,1972-01-29,France,Irlande,9,14,"Tournoi des Cinq Nations","2e journée","Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournoi-des-cinq-nations-1972/2-france-irlande
+5068,1972-02-26,France,Angleterre,37,12,"Tournoi des Cinq Nations","3e journée","Stade Yves-du-Manoir",Colombes,/rugby/masculin/tournoi-des-cinq-nations-1972/3-france-angleterre
+4990,1972-03-25,"Pays de Galles",France,20,6,"Tournoi des Cinq Nations","4e journée","Cardiff Arms Park",,/rugby/masculin/tournoi-des-cinq-nations-1972/4-france-pays-de-galles
+5305,1972-04-29,Irlande,France,24,14,"Test match",,"Lansdowne Road",Dublin,/rugby/masculin/test-match/france-irlande-29-avril-1972
+5205,1972-06-17,Australie,France,14,14,"Test match",,"Sydney Cricket Ground",,/rugby/masculin/test-match/france-australie-17-juin-1972
+5206,1972-06-25,Australie,France,15,16,"Test match",,,Brisbane,/rugby/masculin/test-match/france-australie-25-juin-1972
+5818,1972-11-26,Roumanie,France,6,15,"Test match",,,Constanța,/rugby/masculin/test-match/france-roumanie-26-novembre-1972
+5183,1973-01-13,France,Écosse,16,13,"Tournoi des Cinq Nations","1re journée","Parc des Princes",Paris,/rugby/masculin/tournoi-des-cinq-nations-1973/1-france-ecosse
+5720,1973-02-10,France,Nouvelle-Zélande,13,6,Tournée,,"Parc des Princes",Paris,/rugby/masculin/tournee-1972/france-nouvelle-zelande-10-fevrier-1973
+5069,1973-02-24,Angleterre,France,14,6,"Tournoi des Cinq Nations","2e journée","Twickenham Stadium",,/rugby/masculin/tournoi-des-cinq-nations-1973/2-france-angleterre
+4991,1973-03-24,France,"Pays de Galles",12,3,"Tournoi des Cinq Nations","3e journée","Parc des Princes",Paris,/rugby/masculin/tournoi-des-cinq-nations-1973/3-france-pays-de-galles
+5184,1973-04-14,Irlande,France,6,4,"Tournoi des Cinq Nations","4e journée","Lansdowne Road",Dublin,/rugby/masculin/tournoi-des-cinq-nations-1973/4-france-irlande
+5706,1973-10-27,France,Japon,30,18,Tournée,,,,/rugby/masculin/tournee-1973/france-japon-27-octobre-1973
+5817,1973-11-11,France,Roumanie,7,6,"Test match",,,Valence,/rugby/masculin/test-match/france-roumanie-11-novembre-1973
+5185,1974-01-19,France,Irlande,9,6,"Tournoi des Cinq Nations","1re journée","Parc des Princes",Paris,/rugby/masculin/tournoi-des-cinq-nations-1974/1-france-irlande
+4992,1974-02-16,"Pays de Galles",France,16,16,"Tournoi des Cinq Nations","2e journée","Cardiff Arms Park",,/rugby/masculin/tournoi-des-cinq-nations-1974/2-france-pays-de-galles
+5070,1974-03-02,France,Angleterre,12,12,"Tournoi des Cinq Nations","3e journée","Parc des Princes",Paris,/rugby/masculin/tournoi-des-cinq-nations-1974/3-france-angleterre
+5186,1974-03-16,Écosse,France,19,6,"Tournoi des Cinq Nations","4e journée","Murrayfield Stadium",Edinburgh,/rugby/masculin/tournoi-des-cinq-nations-1974/4-france-ecosse
+5618,1974-06-20,Argentine,France,15,20,"Tournée de l'équipe de France",,"Estadio Arquitecto Ricardo Etcheverri","Buenos Aires",/rugby/masculin/tournee-de-l-equipe-de-france-1974/france-argentine-20-juin-1974
+5617,1974-06-29,Argentine,France,27,31,"Tournée de l'équipe de France",,"Estadio Arquitecto Ricardo Etcheverri","Buenos Aires",/rugby/masculin/tournee-de-l-equipe-de-france-1974/france-argentine-29-juin-1974
+5816,1974-10-13,Roumanie,France,15,10,"Test match",,,Bucarest,/rugby/masculin/test-match/france-roumanie-13-octobre-1974
+5756,1974-11-23,France,"Afrique du Sud",4,13,Tournée,,Stadium,Toulouse,/rugby/masculin/tournee-1974/france-afrique-du-sud-23-novembre-1974
+5757,1974-11-30,France,"Afrique du Sud",8,10,Tournée,,"Parc des Princes",Paris,/rugby/masculin/tournee-1974/france-afrique-du-sud-30-novembre-1974
+4993,1975-01-18,France,"Pays de Galles",10,25,"Tournoi des Cinq Nations","1re journée","Parc des Princes",Paris,/rugby/masculin/tournoi-des-cinq-nations-1975/1-france-pays-de-galles
+5071,1975-02-01,Angleterre,France,20,27,"Tournoi des Cinq Nations","2e journée","Twickenham Stadium",,/rugby/masculin/tournoi-des-cinq-nations-1975/2-france-angleterre
+5187,1975-02-15,France,Écosse,10,9,"Tournoi des Cinq Nations","3e journée","Parc des Princes",Paris,/rugby/masculin/tournoi-des-cinq-nations-1975/3-france-ecosse
+5333,1975-02-15,Italie,France,9,16,"Test match",,,,/rugby/masculin/test-match/france-italie-15-fevrier-1975
+5188,1975-03-01,Irlande,France,25,6,"Tournoi des Cinq Nations","4e journée","Lansdowne Road",Dublin,/rugby/masculin/tournoi-des-cinq-nations-1975/4-france-irlande
+5690,1975-06-21,"Afrique du Sud",France,38,25,"Tournée de l'équipe de France",,"Free State Stadium",Bloemfontein,/rugby/masculin/tournee-de-l-equipe-de-france-1975/france-afrique-du-sud-21-juin-1975
+5691,1975-06-28,"Afrique du Sud",France,33,18,"Tournée de l'équipe de France",,,Pretoria,/rugby/masculin/tournee-de-l-equipe-de-france-1975/france-afrique-du-sud-28-juin-1975
+5565,1975-10-19,France,Argentine,29,6,Tournée,,"Stade Gerland",Lyon,/rugby/masculin/tournee-1975/france-argentine-19-octobre-1975
+5564,1975-10-25,France,Argentine,36,21,Tournée,,"Parc des Princes",Paris,/rugby/masculin/tournee-1975/france-argentine-25-octobre-1975
+5814,1975-11-23,France,Roumanie,36,12,"Test match",,,Bordeaux,/rugby/masculin/test-match/france-roumanie-23-novembre-1975
+5189,1976-01-10,Écosse,France,6,13,"Tournoi des Cinq Nations","1re journée","Murrayfield Stadium",Edinburgh,/rugby/masculin/tournoi-des-cinq-nations-1975/5-france-ecosse
+5190,1976-02-07,France,Irlande,26,3,"Tournoi des Cinq Nations","2e journée","Parc des Princes",Paris,/rugby/masculin/tournoi-des-cinq-nations-1975/6-france-irlande
+5332,1976-02-07,Italie,France,11,23,"Test match",,,,/rugby/masculin/test-match/france-italie-7-fevrier-1976
+4994,1976-03-06,"Pays de Galles",France,19,13,"Tournoi des Cinq Nations","3e journée","Cardiff Arms Park",,/rugby/masculin/tournoi-des-cinq-nations-1975/7-france-pays-de-galles
+5072,1976-03-20,France,Angleterre,30,9,"Tournoi des Cinq Nations","4e journée","Parc des Princes",Paris,/rugby/masculin/tournoi-des-cinq-nations-1975/8-france-angleterre
+5815,1976-06-12,États-Unis,France,14,33,"Tournée de l'équipe de France",,,Chicago,/rugby/masculin/tournee-de-l-equipe-de-france-1976/france-etats-unis-12-juin-1976
+5583,1976-10-24,France,Australie,18,15,Tournée,,"Parc Lescure",Bordeaux,/rugby/masculin/tournee-1976/france-australie-24-octobre-1976
+5584,1976-10-30,France,Australie,34,6,Tournée,,"Parc des Princes",Paris,/rugby/masculin/tournee-1976/france-australie-30-octobre-1976
+5813,1976-11-14,Roumanie,France,15,12,"Test match",,,Bucarest,/rugby/masculin/test-match/france-roumanie-14-novembre-1976
+4995,1977-02-05,France,"Pays de Galles",16,9,"Tournoi des Cinq Nations","1re journée","Parc des Princes",Paris,/rugby/masculin/tournoi-des-cinq-nations-1977/1-france-pays-de-galles
+5073,1977-02-19,Angleterre,France,3,4,"Tournoi des Cinq Nations","2e journée","Twickenham Stadium",,/rugby/masculin/tournoi-des-cinq-nations-1977/2-france-angleterre
+5191,1977-03-05,France,Écosse,23,3,"Tournoi des Cinq Nations","3e journée","Parc des Princes",Paris,/rugby/masculin/tournoi-des-cinq-nations-1977/3-france-ecosse
+5192,1977-03-19,Irlande,France,6,15,"Tournoi des Cinq Nations","4e journée","Lansdowne Road",Dublin,/rugby/masculin/tournoi-des-cinq-nations-1977/4-france-irlande
+5607,1977-06-25,Argentine,France,3,26,"Tournée de l'équipe de France",,"Estadio Arquitecto Ricardo Etcheverri","Buenos Aires",/rugby/masculin/tournee-de-l-equipe-de-france-1977/france-argentine-25-juin-1977
+5608,1977-07-02,Argentine,France,18,18,"Tournée de l'équipe de France",,"Estadio Arquitecto Ricardo Etcheverri","Buenos Aires",/rugby/masculin/tournee-de-l-equipe-de-france-1977/france-argentine-2-juillet-1977
+5735,1977-11-11,France,Nouvelle-Zélande,18,13,Tournée,,Stadium,Toulouse,/rugby/masculin/tournee-1977/france-nouvelle-zelande-11-novembre-1977
+5736,1977-11-19,France,Nouvelle-Zélande,3,15,Tournée,,"Parc des Princes",Paris,/rugby/masculin/tournee-1977/france-nouvelle-zelande-19-novembre-1977
+5812,1977-12-10,France,Roumanie,9,6,"Test match",C,,Clermont-Ferrand,/rugby/masculin/test-match/france-roumanie-10-decembre-1977
+5074,1978-01-21,France,Angleterre,15,6,"Tournoi des Cinq Nations","1re journée","Parc des Princes",Paris,/rugby/masculin/tournoi-des-cinq-nations-1978/1-france-angleterre
+5193,1978-02-04,Écosse,France,16,19,"Tournoi des Cinq Nations","2e journée","Murrayfield Stadium",Edinburgh,/rugby/masculin/tournoi-des-cinq-nations-1978/2-france-ecosse
+5330,1978-02-04,Italie,France,9,31,"Test match",,,,/rugby/masculin/test-match/france-italie-4-fevrier-1978
+5194,1978-02-18,France,Irlande,10,9,"Tournoi des Cinq Nations","3e journée","Parc des Princes",Paris,/rugby/masculin/tournoi-des-cinq-nations-1978/3-france-irlande
+4996,1978-03-18,"Pays de Galles",France,16,7,"Tournoi des Cinq Nations","4e journée","Cardiff Arms Park",,/rugby/masculin/tournoi-des-cinq-nations-1978/4-france-pays-de-galles
+5811,1978-12-03,Roumanie,France,6,9,"Test match",C,,,/rugby/masculin/test-match/france-roumanie-3-decembre-1978
+5195,1979-01-20,Irlande,France,9,9,"Tournoi des Cinq Nations","1re journée","Lansdowne Road",Dublin,/rugby/masculin/tournoi-des-cinq-nations-1979/1-france-irlande
+4997,1979-02-17,France,"Pays de Galles",14,13,"Tournoi des Cinq Nations","2e journée","Parc des Princes",Paris,/rugby/masculin/tournoi-des-cinq-nations-1979/2-france-pays-de-galles
+5075,1979-03-03,Angleterre,France,7,6,"Tournoi des Cinq Nations","3e journée","Twickenham Stadium",,/rugby/masculin/tournoi-des-cinq-nations-1979/3-france-angleterre
+5196,1979-03-17,France,Écosse,21,17,"Tournoi des Cinq Nations","4e journée","Parc des Princes",Paris,/rugby/masculin/tournoi-des-cinq-nations-1979/4-france-ecosse
+5651,1979-07-07,Nouvelle-Zélande,France,23,9,"Tournée de l'équipe de France",,"Lancaster Park",Christchurch,/rugby/masculin/tournee-de-l-equipe-de-france-1979/france-nouvelle-zelande-7-juillet-1979
+5652,1979-07-14,Nouvelle-Zélande,France,19,24,"Tournée de l'équipe de France",,"Eden Park",Auckland,/rugby/masculin/tournee-de-l-equipe-de-france-1979/france-nouvelle-zelande-14-juillet-1979
+5810,1979-12-02,France,Roumanie,30,12,"Test match",C,,Montauban,/rugby/masculin/test-match/france-roumanie-2-decembre-1979
+4998,1980-01-19,"Pays de Galles",France,18,9,"Tournoi des Cinq Nations","1re journée","Cardiff Arms Park",,/rugby/masculin/tournoi-des-cinq-nations-1980/1-france-pays-de-galles
+5076,1980-02-02,France,Angleterre,13,17,"Tournoi des Cinq Nations","2e journée","Parc des Princes",Paris,/rugby/masculin/tournoi-des-cinq-nations-1980/2-france-angleterre
+5197,1980-02-16,Écosse,France,22,14,"Tournoi des Cinq Nations","3e journée","Murrayfield Stadium",Edinburgh,/rugby/masculin/tournoi-des-cinq-nations-1980/3-france-ecosse
+5198,1980-03-01,France,Irlande,19,18,"Tournoi des Cinq Nations","4e journée","Parc des Princes",Paris,/rugby/masculin/tournoi-des-cinq-nations-1980/4-france-irlande
+5692,1980-11-08,"Afrique du Sud",France,37,15,"Tournée de l'équipe de France",,,Pretoria,/rugby/masculin/tournee-de-l-equipe-de-france-1980/france-afrique-du-sud-8-novembre-1980
+5809,1980-11-23,Roumanie,France,15,0,"Test match",,,Bucarest,/rugby/masculin/test-match/france-roumanie-23-novembre-1980
+5199,1981-01-17,France,Écosse,16,9,"Tournoi des Cinq Nations","1re journée","Parc des Princes",Paris,/rugby/masculin/tournoi-des-cinq-nations-1981/1-france-ecosse
+5200,1981-02-07,Irlande,France,13,19,"Tournoi des Cinq Nations","2e journée","Lansdowne Road",Dublin,/rugby/masculin/tournoi-des-cinq-nations-1981/2-france-irlande
+4999,1981-03-07,France,"Pays de Galles",19,15,"Tournoi des Cinq Nations","3e journée","Parc des Princes",Paris,/rugby/masculin/tournoi-des-cinq-nations-1981/3-france-pays-de-galles
+5077,1981-03-21,Angleterre,France,12,16,"Tournoi des Cinq Nations","4e journée","Twickenham Stadium",,/rugby/masculin/tournoi-des-cinq-nations-1981/4-france-angleterre
+5639,1981-07-05,Australie,France,17,15,"Tournée de l'équipe de France",,,Brisbane,/rugby/masculin/tournee-de-l-equipe-de-france-1981/france-australie-5-juillet-1981
+5640,1981-07-11,Australie,France,24,14,"Tournée de l'équipe de France",,"Sydney Cricket Ground",,/rugby/masculin/tournee-de-l-equipe-de-france-1981/france-australie-11-juillet-1981
+5808,1981-11-01,France,Roumanie,17,9,"Test match",,,Narbonne,/rugby/masculin/test-match/france-roumanie-1-novembre-1981
+5733,1981-11-14,France,Nouvelle-Zélande,9,13,Tournée,,Stadium,Toulouse,/rugby/masculin/tournee-1981/france-nouvelle-zelande-14-novembre-1981
+5734,1981-11-21,France,Nouvelle-Zélande,6,18,Tournée,,"Parc des Princes",Paris,/rugby/masculin/tournee-1981/france-nouvelle-zelande-21-novembre-1981
+5000,1982-02-06,"Pays de Galles",France,22,12,"Tournoi des Cinq Nations","1re journée","Cardiff Arms Park",,/rugby/masculin/tournoi-des-cinq-nations-1982/1-france-pays-de-galles
+5078,1982-02-20,France,Angleterre,15,27,"Tournoi des Cinq Nations","2e journée","Parc des Princes",Paris,/rugby/masculin/tournoi-des-cinq-nations-1982/2-france-angleterre
+5201,1982-03-06,Écosse,France,16,7,"Tournoi des Cinq Nations","3e journée","Murrayfield Stadium",Edinburgh,/rugby/masculin/tournoi-des-cinq-nations-1982/3-france-ecosse
+5202,1982-03-20,France,Irlande,22,9,"Tournoi des Cinq Nations","4e journée","Parc des Princes",Paris,/rugby/masculin/tournoi-des-cinq-nations-1982/4-france-irlande
+5807,1982-10-31,Roumanie,France,13,9,"Test match",,,,/rugby/masculin/test-match/france-roumanie-31-octobre-1982
+5568,1982-11-14,France,Argentine,25,12,Tournée,,Stadium,Toulouse,/rugby/masculin/tournee-1982/france-argentine-14-novembre-1982
+5567,1982-11-20,France,Argentine,13,6,Tournée,,"Parc des Princes",Paris,/rugby/masculin/tournee-1982/france-argentine-20-novembre-1982
+5079,1983-01-15,Angleterre,France,15,19,"Tournoi des Cinq Nations","1re journée","Twickenham Stadium",,/rugby/masculin/tournoi-des-cinq-nations-1983/1-france-angleterre
+5204,1983-02-05,France,Écosse,19,15,"Tournoi des Cinq Nations","2e journée","Parc des Princes",Paris,/rugby/masculin/tournoi-des-cinq-nations-1983/2-france-ecosse
+5203,1983-02-19,Irlande,France,22,16,"Tournoi des Cinq Nations","3e journée","Lansdowne Road",Dublin,/rugby/masculin/tournoi-des-cinq-nations-1983/3-france-irlande
+5001,1983-03-19,France,"Pays de Galles",16,9,"Tournoi des Cinq Nations","4e journée","Parc des Princes",Paris,/rugby/masculin/tournoi-des-cinq-nations-1983/4-france-pays-de-galles
+5586,1983-11-13,France,Australie,15,15,Tournée,,"Stade Marcel-Michelin",Clermont-Ferrand,/rugby/masculin/tournee-1983/france-australie-13-novembre-1983
+5587,1983-11-19,France,Australie,15,6,Tournée,,"Parc des Princes",Paris,/rugby/masculin/tournee-1983/france-australie-19-novembre-1983
+5806,1983-12-04,France,Roumanie,26,15,"Test match",,,Toulouse,/rugby/masculin/test-match/france-roumanie-4-decembre-1983
+5255,1984-01-21,France,Irlande,25,12,"Tournoi des Cinq Nations","1re journée","Parc des Princes",Paris,/rugby/masculin/tournoi-des-cinq-nations-1984/1-france-irlande
+5002,1984-02-18,"Pays de Galles",France,16,21,"Tournoi des Cinq Nations","2e journée","Cardiff Arms Park",,/rugby/masculin/tournoi-des-cinq-nations-1984/2-france-pays-de-galles
+5080,1984-03-03,France,Angleterre,32,18,"Tournoi des Cinq Nations","3e journée","Parc des Princes",Paris,/rugby/masculin/tournoi-des-cinq-nations-1984/3-france-angleterre
+5256,1984-03-17,Écosse,France,21,12,"Tournoi des Cinq Nations","4e journée","Murrayfield Stadium",Edinburgh,/rugby/masculin/tournoi-des-cinq-nations-1984/4-france-ecosse
+5659,1984-06-16,Nouvelle-Zélande,France,10,9,"Tournée de l'équipe de France",,"Lancaster Park",Christchurch,/rugby/masculin/tournee-de-l-equipe-de-france-1984/france-nouvelle-zelande-16-juin-1984
+5660,1984-06-23,Nouvelle-Zélande,France,31,18,"Tournée de l'équipe de France",,"Eden Park",Auckland,/rugby/masculin/tournee-de-l-equipe-de-france-1984/france-nouvelle-zelande-23-juin-1984
+5805,1984-11-10,Roumanie,France,3,18,"Test match",,,Bucarest,/rugby/masculin/test-match/france-roumanie-10-novembre-1984
+5081,1985-02-02,Angleterre,France,9,9,"Tournoi des Cinq Nations","1re journée","Twickenham Stadium",,/rugby/masculin/tournoi-des-cinq-nations-1985/1-france-angleterre
+5236,1985-02-16,France,Écosse,11,3,"Tournoi des Cinq Nations","2e journée","Parc des Princes",Paris,/rugby/masculin/tournoi-des-cinq-nations-1985/2-france-ecosse
+5212,1985-03-02,Irlande,France,15,15,"Tournoi des Cinq Nations","3e journée","Lansdowne Road",Dublin,/rugby/masculin/tournoi-des-cinq-nations-1985/3-france-irlande
+5003,1985-03-30,France,"Pays de Galles",14,3,"Tournoi des Cinq Nations","4e journée","Parc des Princes",Paris,/rugby/masculin/tournoi-des-cinq-nations-1985/4-france-pays-de-galles
+5633,1985-06-22,Argentine,France,24,16,"Tournée de l'équipe de France",,"Estadio Arquitecto Ricardo Etcheverri","Buenos Aires",/rugby/masculin/tournee-de-l-equipe-de-france-1985/france-argentine-22-juin-1985
+5632,1985-06-29,Argentine,France,15,23,"Tournée de l'équipe de France",,"Estadio Arquitecto Ricardo Etcheverri","Buenos Aires",/rugby/masculin/tournee-de-l-equipe-de-france-1985/france-argentine-29-juin-1985
+5311,1986-01-18,Écosse,France,18,17,"Tournoi des Cinq Nations","1re journée","Murrayfield Stadium",Edinburgh,/rugby/masculin/tournoi-des-cinq-nations-1986/1-france-ecosse
+5304,1986-02-01,France,Irlande,29,9,"Tournoi des Cinq Nations","2e journée","Parc des Princes",Paris,/rugby/masculin/tournoi-des-cinq-nations-1986/2-france-irlande
+5004,1986-03-01,"Pays de Galles",France,15,23,"Tournoi des Cinq Nations","3e journée","Cardiff Arms Park",,/rugby/masculin/tournoi-des-cinq-nations-1986/3-france-pays-de-galles
+5082,1986-03-15,France,Angleterre,29,10,"Tournoi des Cinq Nations","4e journée","Parc des Princes",Paris,/rugby/masculin/tournoi-des-cinq-nations-1986/4-france-angleterre
+5804,1986-04-12,France,Roumanie,25,13,"Test match",,"Stade Grimonprez-Jooris",Lille,/rugby/masculin/test-match/france-roumanie-12-avril-1986
+5638,1986-05-31,Argentine,France,15,13,"Tournée de l'équipe de France",,"Estadio José Amalfitani","Buenos Aires",/rugby/masculin/tournee-de-l-equipe-de-france-1986/france-argentine-31-mai-1986
+5637,1986-06-07,Argentine,France,9,22,"Tournée de l'équipe de France",,"Estadio José Amalfitani","Buenos Aires",/rugby/masculin/tournee-de-l-equipe-de-france-1986/france-argentine-7-juin-1986
+5635,1986-06-21,Australie,France,27,14,"Tournée de l'équipe de France",,"Sydney Cricket Ground",,/rugby/masculin/tournee-de-l-equipe-de-france-1986/france-australie-21-juin-1986
+5636,1986-06-28,Nouvelle-Zélande,France,18,9,"Tournée de l'équipe de France",,"Lancaster Park",Christchurch,/rugby/masculin/tournee-de-l-equipe-de-france-1986/france-nouvelle-zelande-28-juin-1986
+5803,1986-10-25,Roumanie,France,3,20,"Test match",,,Bucarest,/rugby/masculin/test-match/france-roumanie-25-octobre-1986
+5725,1986-11-08,France,Nouvelle-Zélande,7,19,Tournée,,Stadium,Toulouse,/rugby/masculin/tournee-1986/france-nouvelle-zelande-8-novembre-1986
+5726,1986-11-15,France,Nouvelle-Zélande,16,3,Tournée,,"Stade de la Beaujoire",Nantes,/rugby/masculin/tournee-1986/france-nouvelle-zelande-15-novembre-1986
+5005,1987-02-07,France,"Pays de Galles",16,9,"Tournoi des Cinq Nations","1re journée","Parc des Princes",Paris,/rugby/masculin/tournoi-des-cinq-nations-1987/1-france-pays-de-galles
+5083,1987-02-21,Angleterre,France,15,19,"Tournoi des Cinq Nations","2e journée","Twickenham Stadium",,/rugby/masculin/tournoi-des-cinq-nations-1987/2-france-angleterre
+5254,1987-03-07,France,Écosse,28,22,"Tournoi des Cinq Nations","3e journée","Parc des Princes",Paris,/rugby/masculin/tournoi-des-cinq-nations-1987/3-france-ecosse
+5215,1987-03-21,Irlande,France,13,19,"Tournoi des Cinq Nations","4e journée","Lansdowne Road",Dublin,/rugby/masculin/tournoi-des-cinq-nations-1987/4-france-irlande
+5230,1987-05-23,France,Écosse,20,20,"Coupe du monde","Poule 4","Lancaster Park",Christchurch,/rugby/masculin/coupe-du-monde-1987/poule-4-france-ecosse
+5231,1987-05-28,France,Roumanie,55,12,"Coupe du monde","Poule 4",,Wellington,/rugby/masculin/coupe-du-monde-1987/poule-4-france-roumanie
+5232,1987-06-02,France,Zimbabwe,70,12,"Coupe du monde","Poule 4","Eden Park",Auckland,/rugby/masculin/coupe-du-monde-1987/poule-4-france-zimbabwe
+5233,1987-06-07,Fidji,France,16,34,"Coupe du monde",Quart-de-finale,"Eden Park",Auckland,/rugby/masculin/coupe-du-monde-1987/quart-finale-france-fidji
+5234,1987-06-13,Australie,France,24,30,"Coupe du monde",Demi-finale,,Sydney,/rugby/masculin/coupe-du-monde-1987/demi-finale-france-australie
+5235,1987-06-20,Nouvelle-Zélande,France,29,9,"Coupe du monde",Finale,"Eden Park",Auckland,/rugby/masculin/coupe-du-monde-1987/finale-france-nouvelle-zelande
+5802,1987-11-11,France,Roumanie,49,3,"Test match",,"Stade Armandie",Agen,/rugby/masculin/test-match/france-roumanie-11-novembre-1987
+5084,1988-01-16,France,Angleterre,10,9,"Tournoi des Cinq Nations","1re journée","Parc des Princes",Paris,/rugby/masculin/tournoi-des-cinq-nations-1988/1-france-angleterre
+5252,1988-02-06,Écosse,France,23,12,"Tournoi des Cinq Nations","2e journée","Murrayfield Stadium",Edinburgh,/rugby/masculin/tournoi-des-cinq-nations-1988/2-france-ecosse
+5253,1988-02-20,France,Irlande,25,6,"Tournoi des Cinq Nations","3e journée","Parc des Princes",Paris,/rugby/masculin/tournoi-des-cinq-nations-1988/3-france-irlande
+5006,1988-03-19,"Pays de Galles",France,9,10,"Tournoi des Cinq Nations","4e journée","Cardiff Arms Park",,/rugby/masculin/tournoi-des-cinq-nations-1988/4-france-pays-de-galles
+5616,1988-06-18,Argentine,France,15,18,"Tournée de l'équipe de France",,"Estadio José Amalfitani","Buenos Aires",/rugby/masculin/tournee-de-l-equipe-de-france-1988/france-argentine-18-juin-1988
+5615,1988-06-25,Argentine,France,18,6,"Tournée de l'équipe de France",,"Estadio José Amalfitani","Buenos Aires",/rugby/masculin/tournee-de-l-equipe-de-france-1988/france-argentine-25-juin-1988
+5563,1988-11-05,France,Argentine,29,9,Tournée,,"Stade de la Beaujoire",Nantes,/rugby/masculin/tournee-1988/france-argentine-5-novembre-1988
+5562,1988-11-12,France,Argentine,28,18,Tournée,,"Stadium Nord",Villeneuve-d'Ascq,/rugby/masculin/tournee-1988/france-argentine-12-novembre-1988
+5801,1988-11-26,Roumanie,France,12,16,"Test match",,,Bucarest,/rugby/masculin/test-match/france-roumanie-26-novembre-1988
+5214,1989-01-21,Irlande,France,21,26,"Tournoi des Cinq Nations","1re journée","Lansdowne Road",Dublin,/rugby/masculin/tournoi-des-cinq-nations-1989/1-france-irlande
+5007,1989-02-18,France,"Pays de Galles",31,12,"Tournoi des Cinq Nations","2e journée","Parc des Princes",Paris,/rugby/masculin/tournoi-des-cinq-nations-1989/2-france-pays-de-galles
+5085,1989-03-04,Angleterre,France,11,0,"Tournoi des Cinq Nations","3e journée","Twickenham Stadium",,/rugby/masculin/tournoi-des-cinq-nations-1989/3-france-angleterre
+5251,1989-03-18,France,Écosse,19,3,"Tournoi des Cinq Nations","4e journée","Parc des Princes",Paris,/rugby/masculin/tournoi-des-cinq-nations-1989/4-france-ecosse
+5661,1989-06-17,Nouvelle-Zélande,France,25,17,"Tournée de l'équipe de France",,"Lancaster Park",Christchurch,/rugby/masculin/tournee-de-l-equipe-de-france-1989/france-nouvelle-zelande-17-juin-1989
+5662,1989-07-01,Nouvelle-Zélande,France,34,20,"Tournée de l'équipe de France",,"Eden Park",Auckland,/rugby/masculin/tournee-de-l-equipe-de-france-1989/france-nouvelle-zelande-1-juillet-1989
+5800,1989-10-04,France,"Lions britanniques et irlandais",27,29,"Test match",,"Parc des Princes",Paris,/rugby/masculin/test-match/france-lions-britanniques-et-irlandais-4-octobre-1989
+5575,1989-11-04,France,Australie,15,32,Tournée,,"Stade de la Meinau",Strasbourg,/rugby/masculin/tournee-1989/france-australie-4-novembre-1989
+5576,1989-11-11,France,Australie,25,19,Tournée,,"Stadium Nord",Villeneuve-d'Ascq,/rugby/masculin/tournee-1989/france-australie-11-novembre-1989
+5008,1990-01-20,"Pays de Galles",France,19,29,"Tournoi des Cinq Nations","1re journée","Cardiff Arms Park",,/rugby/masculin/tournoi-des-cinq-nations-1990/1-france-pays-de-galles
+5086,1990-02-03,France,Angleterre,7,26,"Tournoi des Cinq Nations","2e journée","Parc des Princes",Paris,/rugby/masculin/tournoi-des-cinq-nations-1990/2-france-angleterre
+5249,1990-02-17,Écosse,France,21,0,"Tournoi des Cinq Nations","3e journée","Murrayfield Stadium",Edinburgh,/rugby/masculin/tournoi-des-cinq-nations-1990/3-france-ecosse
+5250,1990-03-03,France,Irlande,31,12,"Tournoi des Cinq Nations","4e journée","Parc des Princes",Paris,/rugby/masculin/tournoi-des-cinq-nations-1990/4-france-irlande
+5799,1990-05-24,France,Roumanie,6,12,"Test match",,,Auch,/rugby/masculin/test-match/france-roumanie-24-mai-1990
+5641,1990-06-09,Australie,France,21,9,"Tournée de l'équipe de France",,,Sydney,/rugby/masculin/tournee-de-l-equipe-de-france-1990/france-australie-9-juin-1990
+5642,1990-06-24,Australie,France,48,31,"Tournée de l'équipe de France",,,Brisbane,/rugby/masculin/tournee-de-l-equipe-de-france-1990/france-australie-24-juin-1990
+5643,1990-06-30,Australie,France,19,28,"Tournée de l'équipe de France",,,Sydney,/rugby/masculin/tournee-de-l-equipe-de-france-1990/france-australie-30-juin-1990
+5727,1990-11-03,France,Nouvelle-Zélande,3,24,Tournée,,"Stade de la Beaujoire - Louis Fonteneau",Nantes,/rugby/masculin/tournee-1990/france-nouvelle-zelande-3-novembre-1990
+5728,1990-11-10,France,Nouvelle-Zélande,12,30,Tournée,,"Parc des Princes",Paris,/rugby/masculin/tournee-1990/france-nouvelle-zelande-10-novembre-1990
+5248,1991-01-19,France,Écosse,15,9,"Tournoi des Cinq Nations","1re journée","Parc des Princes",Paris,/rugby/masculin/tournoi-des-cinq-nations-1991/1-france-ecosse
+5213,1991-02-02,Irlande,France,13,21,"Tournoi des Cinq Nations","2e journée","Lansdowne Road",Dublin,/rugby/masculin/tournoi-des-cinq-nations-1991/2-france-irlande
+5009,1991-03-02,France,"Pays de Galles",36,3,"Tournoi des Cinq Nations","3e journée","Parc des Princes",Paris,/rugby/masculin/tournoi-des-cinq-nations-1991/3-france-pays-de-galles
+5087,1991-03-16,Angleterre,France,21,19,"Tournoi des Cinq Nations","4e journée","Twickenham Stadium",,/rugby/masculin/tournoi-des-cinq-nations-1991/4-france-angleterre
+5293,1991-06-22,Roumanie,France,21,33,"Test match",,,,/rugby/masculin/test-match/france-roumanie-22-juin-1991
+5796,1991-07-13,États-Unis,France,9,41,"Tournée de l'équipe de France",,,,/rugby/masculin/tournee-de-l-equipe-de-france-1991/france-etats-unis-13-juillet-1991
+5797,1991-07-20,États-Unis,France,3,10,"Tournée de l'équipe de France",,,"Colorado Springs",/rugby/masculin/tournee-de-l-equipe-de-france-1991/france-etats-unis-20-juillet-1991
+5010,1991-09-04,"Pays de Galles",France,9,22,"Test match",,"Cardiff Arms Park",,/rugby/masculin/test-match/france-pays-de-galles-4-septembre-1991
+5226,1991-10-04,France,Roumanie,30,3,"Coupe du monde","Poule 4","Stade de la Méditerranée",Béziers,/rugby/masculin/coupe-du-monde-1991/poule-4-france-roumanie
+5227,1991-10-08,France,Fidji,33,9,"Coupe du monde","Poule 4","Stade Lesdiguières",Grenoble,/rugby/masculin/coupe-du-monde-1991/poule-4-france-fidji
+5228,1991-10-13,France,Canada,19,13,"Coupe du monde","Poule 4","Stade Armandie",Agen,/rugby/masculin/coupe-du-monde-1991/poule-4-france-canada
+5229,1991-10-19,France,Angleterre,10,19,"Coupe du monde",Quart-de-finale,"Parc des Princes",Paris,/rugby/masculin/coupe-du-monde-1991/quart-finale-france-angleterre
+5011,1992-02-01,"Pays de Galles",France,9,12,"Tournoi des Cinq Nations","1re journée","Cardiff Arms Park",,/rugby/masculin/tournoi-des-cinq-nations-1992/1-france-pays-de-galles
+5088,1992-02-15,France,Angleterre,13,31,"Tournoi des Cinq Nations","2e journée","Parc des Princes",Paris,/rugby/masculin/tournoi-des-cinq-nations-1992/2-france-angleterre
+5247,1992-03-07,Écosse,France,10,6,"Tournoi des Cinq Nations","3e journée","Murrayfield Stadium",Edinburgh,/rugby/masculin/tournoi-des-cinq-nations-1992/3-france-ecosse
+5303,1992-03-21,France,Irlande,44,12,"Tournoi des Cinq Nations","4e journée","Parc des Princes",Paris,/rugby/masculin/tournoi-des-cinq-nations-1992/4-france-irlande
+5798,1992-05-28,France,Roumanie,25,6,"Test match",,"Stade Jules-Deschaseaux","Le Havre",/rugby/masculin/test-match/france-roumanie-28-mai-1992
+5614,1992-07-04,Argentine,France,12,27,"Tournée de l'équipe de France",,"Estadio José Amalfitani","Buenos Aires",/rugby/masculin/tournee-de-l-equipe-de-france-1992/france-argentine-4-juillet-1992
+5613,1992-07-11,Argentine,France,9,33,"Tournée de l'équipe de France",,"Estadio José Amalfitani","Buenos Aires",/rugby/masculin/tournee-de-l-equipe-de-france-1992/france-argentine-11-juillet-1992
+5758,1992-10-17,France,"Afrique du Sud",15,20,Tournée,,"Stade Gerland",Lyon,/rugby/masculin/tournee-1992/france-afrique-du-sud-17-octobre-1992
+5759,1992-10-24,France,"Afrique du Sud",29,16,Tournée,,"Parc des Princes",Paris,/rugby/masculin/tournee-1992/france-afrique-du-sud-24-octobre-1992
+5571,1992-11-14,France,Argentine,20,24,Tournée,,"Stade de la Beaujoire - Louis Fonteneau",Nantes,/rugby/masculin/tournee-1992/france-argentine-14-novembre-1992
+5089,1993-01-16,Angleterre,France,16,15,"Tournoi des Cinq Nations","1re journée","Twickenham Stadium",,/rugby/masculin/tournoi-des-cinq-nations-1993/1-france-angleterre
+5310,1993-02-06,France,Écosse,11,3,"Tournoi des Cinq Nations","2e journée","Parc des Princes",Paris,/rugby/masculin/tournoi-des-cinq-nations-1993/2-france-ecosse
+5302,1993-02-20,Irlande,France,6,21,"Tournoi des Cinq Nations","3e journée","Lansdowne Road",Dublin,/rugby/masculin/tournoi-des-cinq-nations-1993/3-france-irlande
+5012,1993-03-20,France,"Pays de Galles",26,10,"Tournoi des Cinq Nations","4e journée","Parc des Princes",Paris,/rugby/masculin/tournoi-des-cinq-nations-1993/4-france-pays-de-galles
+5795,1993-05-20,Roumanie,France,20,37,"Test match",,,Bucarest,/rugby/masculin/test-match/france-roumanie-20-mai-1993
+5693,1993-06-26,"Afrique du Sud",France,20,20,"Tournée de l'équipe de France",,"ABSA Stadium",Durban,/rugby/masculin/tournee-de-l-equipe-de-france-1993/france-afrique-du-sud-26-juin-1993
+5694,1993-07-03,"Afrique du Sud",France,17,18,"Tournée de l'équipe de France",,"Ellis Park Stadium",Johannesbourg,/rugby/masculin/tournee-de-l-equipe-de-france-1993/france-afrique-du-sud-3-juillet-1993
+5794,1993-10-17,France,Roumanie,51,0,"Test match",,"Stadium de Brive",Brive-la-Gaillarde,/rugby/masculin/test-match/france-roumanie-17-octobre-1993
+5594,1993-10-30,France,Australie,16,13,Tournée,,"Parc Lescure",Bordeaux,/rugby/masculin/tournee-1993/france-australie-30-octobre-1993
+5595,1993-11-06,France,Australie,3,24,Tournée,,"Parc des Princes",Paris,/rugby/masculin/tournee-1993/france-australie-6-novembre-1993
+5245,1994-01-15,France,Irlande,35,15,"Tournoi des Cinq Nations","1re journée","Parc des Princes",Paris,/rugby/masculin/tournoi-des-cinq-nations-1994/1-france-irlande
+5013,1994-02-19,"Pays de Galles",France,24,15,"Tournoi des Cinq Nations","2e journée","Cardiff Arms Park",,/rugby/masculin/tournoi-des-cinq-nations-1994/2-france-pays-de-galles
+5246,1994-03-05,France,Angleterre,14,18,"Tournoi des Cinq Nations","3e journée","Parc des Princes",Paris,/rugby/masculin/tournoi-des-cinq-nations-1994/3-france-angleterre
+5210,1994-03-19,Écosse,France,12,20,"Tournoi des Cinq Nations","4e journée","Murrayfield Stadium",Edinburgh,/rugby/masculin/tournoi-des-cinq-nations-1994/4-france-ecosse
+5650,1994-06-04,Canada,France,18,16,"Tournée de l'équipe de France",,,Ottawa,/rugby/masculin/tournee-de-l-equipe-de-france-1994/france-canada-4-juin-1994
+5648,1994-06-26,Nouvelle-Zélande,France,8,22,"Tournée de l'équipe de France",,"Lancaster Park",Christchurch,/rugby/masculin/tournee-de-l-equipe-de-france-1994/france-nouvelle-zelande-26-juin-1994
+5649,1994-07-03,Nouvelle-Zélande,France,20,23,"Tournée de l'équipe de France",,"Eden Park",Auckland,/rugby/masculin/tournee-de-l-equipe-de-france-1994/france-nouvelle-zelande-3-juillet-1994
+5600,1994-12-17,France,Canada,28,9,Tournée,,"Stade Léo Lagrange",Besançon,/rugby/masculin/tournee-1994/france-canada-17-decembre-1994
+5014,1995-01-21,France,"Pays de Galles",21,9,"Tournoi des Cinq Nations","1re journée","Parc des Princes",Paris,/rugby/masculin/tournoi-des-cinq-nations-1995/1-france-pays-de-galles
+5090,1995-02-04,Angleterre,France,31,10,"Tournoi des Cinq Nations","2e journée","Twickenham Stadium",,/rugby/masculin/tournoi-des-cinq-nations-1995/2-france-angleterre
+5243,1995-02-18,France,Écosse,21,23,"Tournoi des Cinq Nations","3e journée","Parc des Princes",Paris,/rugby/masculin/tournoi-des-cinq-nations-1995/3-france-ecosse
+5244,1995-03-04,Irlande,France,7,25,"Tournoi des Cinq Nations","4e journée","Lansdowne Road",Dublin,/rugby/masculin/tournoi-des-cinq-nations-1995/4-france-irlande
+5262,1995-04-08,Roumanie,France,15,24,"Test match",,,,/rugby/masculin/test-match/france-roumanie-8-avril-1995
+5222,1995-05-26,France,Tonga,38,10,"Coupe du monde","1re journée de groupe",,Pretoria,/rugby/masculin/coupe-du-monde-1995/1re-journee-de-groupe-france-tonga
+5223,1995-05-30,France,"Côte d'Ivoire",54,18,"Coupe du monde","2e journée de groupe",,,/rugby/masculin/coupe-du-monde-1995/2eme-journee-de-groupe-france-cote-d-ivoire
+5224,1995-06-03,France,Écosse,22,19,"Coupe du monde","3e journée de groupe",,Pretoria,/rugby/masculin/coupe-du-monde-1995/3eme-journee-de-groupe-france-ecosse
+5221,1995-06-10,France,Irlande,36,12,"Coupe du monde",Quart-de-finale,"ABSA Stadium",Durban,/rugby/masculin/coupe-du-monde-1995/quart-finale-france-irlande
+5225,1995-06-17,"Afrique du Sud",France,19,15,"Coupe du monde",Demi-finale,"ABSA Stadium",Durban,/rugby/masculin/coupe-du-monde-1995/demi-finale-france-afrique-du-sud
+5130,1995-06-22,Angleterre,France,9,19,"Coupe du monde","Match pour la 3e place",,Pretoria,/rugby/masculin/coupe-du-monde-1995/match-pour-la-3eme-place-france-angleterre
+5708,1995-10-14,France,Italie,34,22,"Coupe latine","1re journée","Estadio Arquitecto Ricardo Etcheverri","Buenos Aires",/rugby/masculin/coupe-latine-1995/1-france-italie
+5268,1995-10-17,France,Roumanie,52,8,"Test match",,,"San Miguel de Tucumán",/rugby/masculin/test-match/france-roumanie-17-octobre-1995
+5710,1995-10-21,Argentine,France,12,47,"Coupe latine","2e journée","Estadio Arquitecto Ricardo Etcheverri","Buenos Aires",/rugby/masculin/coupe-latine-1995/2-france-argentine
+5729,1995-11-11,France,Nouvelle-Zélande,22,15,Tournée,,Stadium,Toulouse,/rugby/masculin/tournee-1995/france-nouvelle-zelande-11-novembre-1995
+5730,1995-11-18,France,Nouvelle-Zélande,12,37,Tournée,,"Parc des Princes",Paris,/rugby/masculin/tournee-1995/france-nouvelle-zelande-18-novembre-1995
+5091,1996-01-20,France,Angleterre,15,12,"Tournoi des Cinq Nations","1re journée","Parc des Princes",Paris,/rugby/masculin/tournoi-des-cinq-nations-1996/1-france-angleterre
+5209,1996-02-03,Écosse,France,19,14,"Tournoi des Cinq Nations","2e journée","Murrayfield Stadium",Edinburgh,/rugby/masculin/tournoi-des-cinq-nations-1996/2-france-ecosse
+5242,1996-02-17,France,Irlande,45,10,"Tournoi des Cinq Nations","3e journée","Parc des Princes",Paris,/rugby/masculin/tournoi-des-cinq-nations-1996/3-france-irlande
+5015,1996-03-16,"Pays de Galles",France,16,15,"Tournoi des Cinq Nations","4e journée","Cardiff Arms Park",,/rugby/masculin/tournoi-des-cinq-nations-1996/4-france-pays-de-galles
+5269,1996-04-20,France,Roumanie,64,12,"Test match",,"Stade Jean-Alric",Aurillac,/rugby/masculin/test-match/france-roumanie-20-avril-1996
+5612,1996-06-22,Argentine,France,27,34,"Tournée de l'équipe de France",,"Estadio Arquitecto Ricardo Etcheverri","Buenos Aires",/rugby/masculin/tournee-de-l-equipe-de-france-1996/france-argentine-22-juin-1996
+5611,1996-06-29,Argentine,France,15,34,"Tournée de l'équipe de France",,"Estadio Arquitecto Ricardo Etcheverri","Buenos Aires",/rugby/masculin/tournee-de-l-equipe-de-france-1996/france-argentine-29-juin-1996
+5016,1996-09-25,"Pays de Galles",France,33,40,"Test match",,"Cardiff Arms Park",,/rugby/masculin/test-match/france-pays-de-galles-25-septembre-1996
+5748,1996-11-30,France,"Afrique du Sud",12,22,Tournée,,,,/rugby/masculin/tournee-1996/france-afrique-du-sud-30-novembre-1996
+5749,1996-12-07,France,"Afrique du Sud",12,13,Tournée,,"Parc des Princes",Paris,/rugby/masculin/tournee-1996/france-afrique-du-sud-7-decembre-1996
+5240,1997-01-18,Irlande,France,15,32,"Tournoi des Cinq Nations","1re journée","Lansdowne Road",Dublin,/rugby/masculin/tournoi-des-cinq-nations-1997/1-france-irlande
+5017,1997-02-15,France,"Pays de Galles",27,22,"Tournoi des Cinq Nations","2e journée","Parc des Princes",Paris,/rugby/masculin/tournoi-des-cinq-nations-1997/2-france-pays-de-galles
+5092,1997-03-01,Angleterre,France,20,23,"Tournoi des Cinq Nations","3e journée","Twickenham Stadium",,/rugby/masculin/tournoi-des-cinq-nations-1997/3-france-angleterre
+5241,1997-03-15,France,Écosse,47,20,"Tournoi des Cinq Nations","4e journée","Parc des Princes",Paris,/rugby/masculin/tournoi-des-cinq-nations-1997/4-france-ecosse
+5287,1997-03-22,France,Italie,32,40,"Test match",,"Stade Lesdiguières",Grenoble,/rugby/masculin/test-match/france-italie-22-mars-1997
+5261,1997-06-01,Roumanie,France,20,51,"Test match",,,,/rugby/masculin/test-match/france-roumanie-1-juin-1997
+5644,1997-06-21,Australie,France,29,15,"Tournée de l'équipe de France",,,Sydney,/rugby/masculin/tournee-de-l-equipe-de-france-1997/france-australie-21-juin-1997
+5645,1997-06-28,Australie,France,26,19,"Tournée de l'équipe de France",,,Brisbane,/rugby/masculin/tournee-de-l-equipe-de-france-1997/france-australie-28-juin-1997
+5709,1997-10-18,France,Italie,30,19,"Coupe latine","1re journée","Stade du Moulias",Auch,/rugby/masculin/coupe-latine-1997/1-france-italie
+5707,1997-10-22,France,Roumanie,39,3,"Coupe latine","2e journée","Stade Antoine-Béguère",Lourdes,/rugby/masculin/coupe-latine-1997/2-france-roumanie
+5711,1997-10-26,France,Argentine,32,27,"Coupe latine","3e journée","Stade Maurice Trélut",Tarbes,/rugby/masculin/coupe-latine-1997/3-france-argentine
+5751,1997-11-15,France,"Afrique du Sud",32,36,Tournée,,,,/rugby/masculin/tournee-1997/france-afrique-du-sud-15-novembre-1997
+5752,1997-11-22,France,"Afrique du Sud",10,52,Tournée,,"Parc des Princes",Paris,/rugby/masculin/tournee-1997/france-afrique-du-sud-22-novembre-1997
+5093,1998-02-07,France,Angleterre,24,17,"Tournoi des Cinq Nations","1re journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-cinq-nations-1998/1-france-angleterre
+5309,1998-02-21,Écosse,France,16,51,"Tournoi des Cinq Nations","2e journée","Murrayfield Stadium",Edinburgh,/rugby/masculin/tournoi-des-cinq-nations-1998/2-france-ecosse
+5301,1998-03-07,France,Irlande,18,16,"Tournoi des Cinq Nations","3e journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-cinq-nations-1998/3-france-irlande
+5018,1998-04-05,"Pays de Galles",France,0,51,"Tournoi des Cinq Nations","4e journée",,,/rugby/masculin/tournoi-des-cinq-nations-1998/4-france-pays-de-galles
+5609,1998-06-13,Argentine,France,18,35,"Tournée de l'équipe de France",,"Estadio José Amalfitani","Buenos Aires",/rugby/masculin/tournee-de-l-equipe-de-france-1998/france-argentine-13-juin-1998
+5610,1998-06-20,Argentine,France,12,37,"Tournée de l'équipe de France",,"Estadio José Amalfitani","Buenos Aires",/rugby/masculin/tournee-de-l-equipe-de-france-1998/france-argentine-20-juin-1998
+5622,1998-06-27,Fidji,France,9,34,"Tournée de l'équipe de France",,,Suva,/rugby/masculin/tournee-de-l-equipe-de-france-1998/france-fidji-27-juin-1998
+5570,1998-11-14,France,Argentine,34,14,Tournée,,"Stade de la Beaujoire - Louis Fonteneau",Nantes,/rugby/masculin/tournee-1998/france-argentine-14-novembre-1998
+5582,1998-11-21,France,Australie,21,32,Tournée,,"Stade de France",Saint-Denis,/rugby/masculin/tournee-1998/france-australie-21-novembre-1998
+5211,1999-02-06,Irlande,France,9,10,"Tournoi des Cinq Nations","1re journée","Lansdowne Road",Dublin,/rugby/masculin/tournoi-des-cinq-nations-1999/1-france-irlande
+5019,1999-03-06,France,"Pays de Galles",33,34,"Tournoi des Cinq Nations","2e journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-cinq-nations-1999/2-france-pays-de-galles
+5094,1999-03-20,Angleterre,France,21,10,"Tournoi des Cinq Nations","3e journée","Twickenham Stadium",,/rugby/masculin/tournoi-des-cinq-nations-1999/3-france-angleterre
+5239,1999-04-10,France,Écosse,22,36,"Tournoi des Cinq Nations","4e journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-cinq-nations-1999/4-france-ecosse
+5270,1999-06-03,France,Roumanie,62,8,"Test match",,"Stade Pierre-Antoine",Castres,/rugby/masculin/test-match/france-roumanie-3-juin-1999
+5680,1999-06-12,Samoa,France,22,39,"Tournée de l'équipe de France",,,,/rugby/masculin/tournee-de-l-equipe-de-france-1999/france-samoa-12-juin-1999
+5679,1999-06-16,Tonga,France,20,16,"Tournée de l'équipe de France",,,,/rugby/masculin/tournee-de-l-equipe-de-france-1999/france-tonga-16-juin-1999
+5678,1999-06-26,Nouvelle-Zélande,France,54,7,"Tournée de l'équipe de France",,,Wellington,/rugby/masculin/tournee-de-l-equipe-de-france-1999/france-nouvelle-zelande-26-juin-1999
+5020,1999-08-28,"Pays de Galles",France,34,23,"Test match",,"Millennium Stadium",Cardiff,/rugby/masculin/test-match/france-pays-de-galles-28-aout-1999
+5217,1999-10-02,France,Canada,33,20,"Coupe du monde","1re journée de groupe","Stade de la Méditerranée",Béziers,/rugby/masculin/coupe-du-monde-1999/1re-journee-de-groupe-france-canada
+5218,1999-10-08,France,Namibie,47,13,"Coupe du monde","2e journée de groupe","Parc Lescure",Bordeaux,/rugby/masculin/coupe-du-monde-1999/2eme-journee-de-groupe-france-namibie
+5219,1999-10-16,France,Fidji,28,19,"Coupe du monde","3e journée de groupe",Stadium,Toulouse,/rugby/masculin/coupe-du-monde-1999/3eme-journee-de-groupe-france-fidji
+5220,1999-10-24,Argentine,France,26,47,"Coupe du monde",Quart-de-finale,"Lansdowne Road",Dublin,/rugby/masculin/coupe-du-monde-1999/quart-finale-france-argentine
+5208,1999-10-31,France,Nouvelle-Zélande,43,31,"Coupe du monde",Demi-finale,"Twickenham Stadium",,/rugby/masculin/coupe-du-monde-1999/demi-finale-france-nouvelle-zelande
+5207,1999-11-06,Australie,France,35,12,"Coupe du monde",Finale,"Millennium Stadium",Cardiff,/rugby/masculin/coupe-du-monde-1999/finale-france-australie
+5021,2000-02-05,"Pays de Galles",France,3,36,"Tournoi des Six Nations","1re journée","Millennium Stadium",Cardiff,/rugby/masculin/tournoi-des-six-nations-2000/1-france-pays-de-galles
+5095,2000-02-19,France,Angleterre,9,15,"Tournoi des Six Nations","2e journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-six-nations-2000/2-france-angleterre
+5308,2000-03-04,Écosse,France,16,28,"Tournoi des Six Nations","3e journée","Murrayfield Stadium",Edinburgh,/rugby/masculin/tournoi-des-six-nations-2000/3-france-ecosse
+5300,2000-03-19,France,Irlande,25,27,"Tournoi des Six Nations","4e journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-six-nations-2000/4-france-irlande
+5288,2000-04-01,France,Italie,42,31,"Tournoi des Six Nations","5e journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-six-nations-2000/5-france-italie
+5260,2000-05-28,Roumanie,France,20,67,"Test match",,,,/rugby/masculin/test-match/france-roumanie-28-mai-2000
+5588,2000-11-04,France,Australie,13,18,Tournée,,"Stade de France",Saint-Denis,/rugby/masculin/tournee-2000/france-australie-4-novembre-2000
+5731,2000-11-11,France,Nouvelle-Zélande,26,39,Tournée,,"Stade de France",Saint-Denis,/rugby/masculin/tournee-2000/france-nouvelle-zelande-11-novembre-2000
+5732,2000-11-18,France,Nouvelle-Zélande,42,33,Tournée,,"Stade Vélodrome",Marseille,/rugby/masculin/tournee-2000/france-nouvelle-zelande-18-novembre-2000
+5307,2001-02-04,France,Écosse,16,6,"Tournoi des Six Nations","1re journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-six-nations-2001/1-france-ecosse
+5299,2001-02-17,Irlande,France,22,15,"Tournoi des Six Nations","2e journée","Lansdowne Road",Dublin,/rugby/masculin/tournoi-des-six-nations-2001/2-france-irlande
+5289,2001-03-03,Italie,France,19,30,"Tournoi des Six Nations","3e journée","Stadio Flaminio",Rome,/rugby/masculin/tournoi-des-six-nations-2001/3-france-italie
+5022,2001-03-17,France,"Pays de Galles",35,43,"Tournoi des Six Nations","4e journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-six-nations-2001/4-france-pays-de-galles
+5096,2001-04-07,Angleterre,France,48,19,"Tournoi des Six Nations","5e journée","Twickenham Stadium",,/rugby/masculin/tournoi-des-six-nations-2001/5-france-angleterre
+5699,2001-06-16,"Afrique du Sud",France,23,32,"Tournée de l'équipe de France",,"Ellis Park Stadium",Johannesbourg,/rugby/masculin/tournee-de-l-equipe-de-france-2001/france-afrique-du-sud-16-juin-2001
+5700,2001-06-23,"Afrique du Sud",France,20,15,"Tournée de l'équipe de France",,"ABSA Stadium",Durban,/rugby/masculin/tournee-de-l-equipe-de-france-2001/france-afrique-du-sud-23-juin-2001
+5698,2001-06-30,Nouvelle-Zélande,France,37,12,"Tournée de l'équipe de France",,,Wellington,/rugby/masculin/tournee-de-l-equipe-de-france-2001/france-nouvelle-zelande-30-juin-2001
+5760,2001-11-10,France,"Afrique du Sud",20,10,Tournée,,"Stade de France",Saint-Denis,/rugby/masculin/tournee-2001/france-afrique-du-sud-10-novembre-2001
+5589,2001-11-17,France,Australie,14,13,Tournée,,"Stade Vélodrome",Marseille,/rugby/masculin/tournee-2001/france-australie-17-novembre-2001
+5605,2001-11-24,France,Fidji,77,10,Tournée,,"Stade Geoffroy-Guichard",Saint-Étienne,/rugby/masculin/tournee-2001/france-fidji-24-novembre-2001
+5290,2002-02-02,France,Italie,33,12,"Tournoi des Six Nations","1re journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-six-nations-2002/1-france-italie
+5237,2002-02-16,"Pays de Galles",France,33,37,"Tournoi des Six Nations","2e journée","Millennium Stadium",Cardiff,/rugby/masculin/tournoi-des-six-nations-2002/2-france-pays-de-galles
+5238,2002-03-02,France,Angleterre,20,15,"Tournoi des Six Nations","3e journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-six-nations-2002/3-france-angleterre
+5306,2002-03-23,Écosse,France,10,22,"Tournoi des Six Nations","4e journée","Murrayfield Stadium",Edinburgh,/rugby/masculin/tournoi-des-six-nations-2002/4-france-ecosse
+5298,2002-04-06,France,Irlande,44,5,"Tournoi des Six Nations","5e journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-six-nations-2002/5-france-irlande
+5626,2002-06-15,Argentine,France,28,27,"Tournée de l'équipe de France",,"Estadio José Amalfitani","Buenos Aires",/rugby/masculin/tournee-de-l-equipe-de-france-2002/france-argentine-15-juin-2002
+5625,2002-06-22,Australie,France,29,17,"Tournée de l'équipe de France",,,Melbourne,/rugby/masculin/tournee-de-l-equipe-de-france-2002/france-australie-22-juin-2002
+5624,2002-06-29,Australie,France,31,25,"Tournée de l'équipe de France",,,Sydney,/rugby/masculin/tournee-de-l-equipe-de-france-2002/france-australie-29-juin-2002
+5761,2002-11-09,France,"Afrique du Sud",30,10,Tournée,,"Stade Vélodrome",Marseille,/rugby/masculin/tournee-2002/france-afrique-du-sud-9-novembre-2002
+5721,2002-11-16,France,Nouvelle-Zélande,20,20,Tournée,,"Stade de France",Saint-Denis,/rugby/masculin/tournee-2002/france-nouvelle-zelande-16-novembre-2002
+5601,2002-11-23,France,Canada,35,3,Tournée,,"Stade de France",Saint-Denis,/rugby/masculin/tournee-2002/france-canada-23-novembre-2002
+5355,2003-02-15,Angleterre,France,25,17,"Tournoi des Six Nations","1re journée","Twickenham Stadium",,/rugby/masculin/tournoi-des-six-nations-2003/1-france-angleterre
+5356,2003-02-23,France,Écosse,38,3,"Tournoi des Six Nations","2e journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-six-nations-2003/2-france-ecosse
+5357,2003-03-08,Irlande,France,15,12,"Tournoi des Six Nations","3e journée","Lansdowne Road",Dublin,/rugby/masculin/tournoi-des-six-nations-2003/3-france-irlande
+5358,2003-03-23,Italie,France,27,53,"Tournoi des Six Nations","4e journée","Stadio Flaminio",Rome,/rugby/masculin/tournoi-des-six-nations-2003/4-france-italie
+5359,2003-03-29,France,"Pays de Galles",33,5,"Tournoi des Six Nations","5e journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-six-nations-2003/5-france-pays-de-galles
+5627,2003-06-14,Argentine,France,10,6,"Tournée de l'équipe de France",,"Estadio José Amalfitani","Buenos Aires",/rugby/masculin/tournee-de-l-equipe-de-france-2003/france-argentine-14-juin-2003
+5629,2003-06-20,Argentine,France,33,32,"Tournée de l'équipe de France",,"Estadio José Amalfitani","Buenos Aires",/rugby/masculin/tournee-de-l-equipe-de-france-2003/france-argentine-20-juin-2003
+5628,2003-06-28,Nouvelle-Zélande,France,31,23,"Tournée de l'équipe de France",,,Christchurch,/rugby/masculin/tournee-de-l-equipe-de-france-2003/france-nouvelle-zelande-28-juin-2003
+5389,2003-08-22,France,Roumanie,56,8,"Test match",,"Stade Félix-Bollaert",Lens,/rugby/masculin/test-match/france-roumanie-22-aout-2003
+5390,2003-08-30,France,Angleterre,17,16,"Test match",,"Stade Vélodrome",Marseille,/rugby/masculin/test-match/france-angleterre-30-aout-2003
+5391,2003-09-06,Angleterre,France,45,14,"Test match",,"Twickenham Stadium",,/rugby/masculin/test-match/france-angleterre-6-septembre-2003
+5392,2003-10-11,France,Fidji,61,18,"Coupe du monde","1re journée de groupe","Suncorp Stadium",Brisbane,/rugby/masculin/coupe-du-monde-2003/1re-journee-de-groupe-france-fidji
+5393,2003-10-18,France,Japon,51,29,"Coupe du monde","2e journée de groupe",,Townsville,/rugby/masculin/coupe-du-monde-2003/2eme-journee-de-groupe-france-japon
+5394,2003-10-25,France,Écosse,51,9,"Coupe du monde","3e journée de groupe",,Sydney,/rugby/masculin/coupe-du-monde-2003/3eme-journee-de-groupe-france-ecosse
+5793,2003-10-31,France,États-Unis,41,14,"Coupe du monde","4e journée de groupe",,,/rugby/masculin/coupe-du-monde-2003/4eme-journee-de-groupe-france-etats-unis
+5395,2003-11-09,France,Irlande,43,21,"Coupe du monde",Quart-de-finale,,Melbourne,/rugby/masculin/coupe-du-monde-2003/quart-finale-france-irlande
+5396,2003-11-16,France,Angleterre,7,24,"Coupe du monde",Demi-finale,,Sydney,/rugby/masculin/coupe-du-monde-2003/demi-finale-france-angleterre
+5397,2003-11-20,France,Nouvelle-Zélande,13,40,"Coupe du monde","Match pour la 3e place",,Sydney,/rugby/masculin/coupe-du-monde-2003/match-pour-la-3eme-place-france-nouvelle-zelande
+5398,2004-02-14,France,Irlande,35,17,"Tournoi des Six Nations","1re journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-six-nations-2004/1-france-irlande
+5399,2004-02-21,France,Italie,25,0,"Tournoi des Six Nations","2e journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-six-nations-2004/2-france-italie
+5400,2004-03-07,"Pays de Galles",France,22,29,"Tournoi des Six Nations","3e journée","Millennium Stadium",Cardiff,/rugby/masculin/tournoi-des-six-nations-2004/3-france-pays-de-galles
+5401,2004-03-21,Écosse,France,0,31,"Tournoi des Six Nations","4e journée","Murrayfield Stadium",Edinburgh,/rugby/masculin/tournoi-des-six-nations-2004/4-france-ecosse
+5402,2004-03-27,France,Angleterre,24,21,"Tournoi des Six Nations","5e journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-six-nations-2004/5-france-angleterre
+5792,2004-07-03,États-Unis,France,31,39,"Tournée de l'équipe de France",,,,/rugby/masculin/tournee-de-l-equipe-de-france-2004/france-etats-unis-3-juillet-2004
+5701,2004-07-10,Canada,France,13,47,"Tournée de l'équipe de France",,,Toronto,/rugby/masculin/tournee-de-l-equipe-de-france-2004/france-canada-10-juillet-2004
+5593,2004-11-13,France,Australie,27,14,Tournée,,"Stade de France",Saint-Denis,/rugby/masculin/tournee-2004/france-australie-13-novembre-2004
+5566,2004-11-20,France,Argentine,14,24,Tournée,,"Stade Vélodrome",Marseille,/rugby/masculin/tournee-2004/france-argentine-20-novembre-2004
+5737,2004-11-27,France,Nouvelle-Zélande,6,45,Tournée,,"Stade de France",Saint-Denis,/rugby/masculin/tournee-2004/france-nouvelle-zelande-27-novembre-2004
+5403,2005-02-05,France,Écosse,16,9,"Tournoi des Six Nations","1re journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-six-nations-2005/1-france-ecosse
+5404,2005-02-13,Angleterre,France,17,18,"Tournoi des Six Nations","2e journée","Twickenham Stadium",,/rugby/masculin/tournoi-des-six-nations-2005/2-france-angleterre
+5405,2005-02-26,France,"Pays de Galles",18,24,"Tournoi des Six Nations","3e journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-six-nations-2005/3-france-pays-de-galles
+5406,2005-03-12,Irlande,France,19,26,"Tournoi des Six Nations","4e journée","Lansdowne Road",Dublin,/rugby/masculin/tournoi-des-six-nations-2005/4-france-irlande
+5407,2005-03-19,Italie,France,13,56,"Tournoi des Six Nations","5e journée","Stadio Flaminio",Rome,/rugby/masculin/tournoi-des-six-nations-2005/5-france-italie
+5696,2005-06-18,"Afrique du Sud",France,30,30,"Tournée de l'équipe de France",,"ABSA Stadium",Durban,/rugby/masculin/tournee-de-l-equipe-de-france-2005/france-afrique-du-sud-18-juin-2005
+5697,2005-06-25,"Afrique du Sud",France,27,13,"Tournée de l'équipe de France",,,,/rugby/masculin/tournee-de-l-equipe-de-france-2005/france-afrique-du-sud-25-juin-2005
+5695,2005-07-02,Australie,France,37,31,"Tournée de l'équipe de France",,"Suncorp Stadium",Brisbane,/rugby/masculin/tournee-de-l-equipe-de-france-2005/france-australie-2-juillet-2005
+5585,2005-11-05,France,Australie,26,16,Tournée,,"Stade Vélodrome",Marseille,/rugby/masculin/tournee-2005/france-australie-5-novembre-2005
+5410,2005-11-12,France,Canada,50,6,"Test match",,"Stade de la Beaujoire - Louis Fonteneau",Nantes,/rugby/masculin/test-match/france-canada-12-novembre-2005
+5411,2005-11-19,France,Tonga,43,8,"Test match",,Stadium,Toulouse,/rugby/masculin/test-match/france-tonga-19-novembre-2005
+5750,2005-11-26,France,"Afrique du Sud",26,20,Tournée,,"Stade de France",Saint-Denis,/rugby/masculin/tournee-2005/france-afrique-du-sud-26-novembre-2005
+5412,2006-02-05,Écosse,France,20,16,"Tournoi des Six Nations","1re journée","Murrayfield Stadium",Edinburgh,/rugby/masculin/tournoi-des-six-nations-2006/1-france-ecosse
+5413,2006-02-11,France,Irlande,43,31,"Tournoi des Six Nations","2e journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-six-nations-2006/2-france-irlande
+5414,2006-02-25,France,Italie,37,12,"Tournoi des Six Nations","3e journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-six-nations-2006/3-france-italie
+5415,2006-03-12,France,Angleterre,31,6,"Tournoi des Six Nations","4e journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-six-nations-2006/4-france-angleterre
+5416,2006-03-18,"Pays de Galles",France,16,21,"Tournoi des Six Nations","5e journée","Millennium Stadium",Cardiff,/rugby/masculin/tournoi-des-six-nations-2006/5-france-pays-de-galles
+5676,2006-06-17,Roumanie,France,14,62,"Tournée de l'équipe de France",,,,/rugby/masculin/tournee-de-l-equipe-de-france-2006/france-roumanie-17-juin-2006
+5677,2006-06-24,"Afrique du Sud",France,26,36,"Tournée de l'équipe de France",,"Newlands Stadium","Le Cap",/rugby/masculin/tournee-de-l-equipe-de-france-2006/france-afrique-du-sud-24-juin-2006
+5722,2006-11-11,France,Nouvelle-Zélande,3,47,Tournée,,"Stade Gerland",Lyon,/rugby/masculin/tournee-2006/france-nouvelle-zelande-11-novembre-2006
+5723,2006-11-18,France,Nouvelle-Zélande,11,23,Tournée,,"Stade de France",Saint-Denis,/rugby/masculin/tournee-2006/france-nouvelle-zelande-18-novembre-2006
+5559,2006-11-25,France,Argentine,27,26,Tournée,,"Stade de France",Saint-Denis,/rugby/masculin/tournee-2006/france-argentine-25-novembre-2006
+5417,2007-02-03,Italie,France,3,39,"Tournoi des Six Nations","1re journée","Stadio Flaminio",Rome,/rugby/masculin/tournoi-des-six-nations-2007/1-france-italie
+5418,2007-02-11,Irlande,France,17,20,"Tournoi des Six Nations","2e journée","Croke Park",Dublin,/rugby/masculin/tournoi-des-six-nations-2007/2-france-irlande
+5419,2007-02-24,France,"Pays de Galles",32,21,"Tournoi des Six Nations","3e journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-six-nations-2007/3-france-pays-de-galles
+5420,2007-03-11,Angleterre,France,26,18,"Tournoi des Six Nations","4e journée","Twickenham Stadium",,/rugby/masculin/tournoi-des-six-nations-2007/4-france-angleterre
+5421,2007-03-17,France,Écosse,46,19,"Tournoi des Six Nations","5e journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-six-nations-2007/5-france-ecosse
+5663,2007-06-02,Nouvelle-Zélande,France,42,11,"Tournée de l'équipe de France",,"Eden Park",Auckland,/rugby/masculin/tournee-de-l-equipe-de-france-2007/france-nouvelle-zelande-2-juin-2007
+5664,2007-06-09,Nouvelle-Zélande,France,61,10,"Tournée de l'équipe de France",,,Wellington,/rugby/masculin/tournee-de-l-equipe-de-france-2007/france-nouvelle-zelande-9-juin-2007
+5437,2007-08-11,Angleterre,France,15,21,"Test match",,"Twickenham Stadium",,/rugby/masculin/test-match/france-angleterre-11-aout-2007
+5438,2007-08-18,France,Angleterre,22,9,"Test match",,"Stade Vélodrome",Marseille,/rugby/masculin/test-match/france-angleterre-18-aout-2007
+5439,2007-08-26,"Pays de Galles",France,7,34,"Test match",,"Millennium Stadium",Cardiff,/rugby/masculin/test-match/france-pays-de-galles-26-aout-2007
+5433,2007-09-07,France,Argentine,12,17,"Coupe du monde","1re journée de groupe","Stade de France",Saint-Denis,/rugby/masculin/coupe-du-monde-2007/1re-journee-de-groupe-france-argentine
+5434,2007-09-16,France,Namibie,87,10,"Coupe du monde","2e journée de groupe",Stadium,Toulouse,/rugby/masculin/coupe-du-monde-2007/2eme-journee-de-groupe-france-namibie
+5435,2007-09-21,France,Irlande,25,3,"Coupe du monde","3e journée de groupe","Stade de France",Saint-Denis,/rugby/masculin/coupe-du-monde-2007/3eme-journee-de-groupe-france-irlande
+5436,2007-09-30,France,Géorgie,64,7,"Coupe du monde","4e journée de groupe","Stade Vélodrome",Marseille,/rugby/masculin/coupe-du-monde-2007/4eme-journee-de-groupe-france-georgie
+5445,2007-10-06,Nouvelle-Zélande,France,18,20,"Coupe du monde",Quart-de-finale,"Millennium Stadium",Cardiff,/rugby/masculin/coupe-du-monde-2007/quart-finale-france-nouvelle-zelande
+5446,2007-10-13,Angleterre,France,14,9,"Coupe du monde",Demi-finale,"Stade de France",Saint-Denis,/rugby/masculin/coupe-du-monde-2007/demi-finale-france-angleterre
+5447,2007-10-19,France,Argentine,10,34,"Coupe du monde","Match pour la 3e place","Parc des Princes",Paris,/rugby/masculin/coupe-du-monde-2007/match-pour-la-3eme-place-france-argentine
+5440,2008-02-03,Écosse,France,6,27,"Tournoi des Six Nations","1re journée","Murrayfield Stadium",Edinburgh,/rugby/masculin/tournoi-des-six-nations-2008/1-france-ecosse
+5441,2008-02-09,France,Irlande,26,21,"Tournoi des Six Nations","2e journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-six-nations-2008/2-france-irlande
+5442,2008-02-23,France,Angleterre,13,24,"Tournoi des Six Nations","3e journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-six-nations-2008/3-france-angleterre
+5443,2008-03-09,France,Italie,25,13,"Tournoi des Six Nations","4e journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-six-nations-2008/4-france-italie
+5444,2008-03-15,"Pays de Galles",France,29,12,"Tournoi des Six Nations","5e journée","Millennium Stadium",Cardiff,/rugby/masculin/tournoi-des-six-nations-2008/5-france-pays-de-galles
+5647,2008-06-28,Australie,France,34,13,"Tournée de l'équipe de France",,,Sydney,/rugby/masculin/tournee-de-l-equipe-de-france-2008/france-australie-28-juin-2008
+5646,2008-07-05,Australie,France,40,10,"Tournée de l'équipe de France",,"Suncorp Stadium",Brisbane,/rugby/masculin/tournee-de-l-equipe-de-france-2008/france-australie-5-juillet-2008
+5569,2008-11-08,France,Argentine,12,6,Tournée,,"Stade Vélodrome",Marseille,/rugby/masculin/tournee-2008/france-argentine-8-novembre-2008
+5791,2008-11-15,France,"Îles du Pacifique",42,17,Tournée,,"Stade Auguste-Bonal",Montbéliard,/rugby/masculin/tournee-2008/france-iles-du-pacifique-15-novembre-2008
+5577,2008-11-22,France,Australie,13,18,Tournée,,"Stade de France",Saint-Denis,/rugby/masculin/tournee-2008/france-australie-22-novembre-2008
+5448,2009-02-07,Irlande,France,30,21,"Tournoi des Six Nations","1re journée","Croke Park",Dublin,/rugby/masculin/tournoi-des-six-nations-2009/1-france-irlande
+5449,2009-02-14,France,Écosse,22,13,"Tournoi des Six Nations","2e journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-six-nations-2009/2-france-ecosse
+5450,2009-02-27,France,"Pays de Galles",21,16,"Tournoi des Six Nations","3e journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-six-nations-2009/3-france-pays-de-galles
+5451,2009-03-15,Angleterre,France,34,10,"Tournoi des Six Nations","4e journée","Twickenham Stadium",,/rugby/masculin/tournoi-des-six-nations-2009/4-france-angleterre
+5452,2009-03-21,Italie,France,8,50,"Tournoi des Six Nations","5e journée","Stadio Flaminio",Rome,/rugby/masculin/tournoi-des-six-nations-2009/5-france-italie
+5673,2009-06-13,Nouvelle-Zélande,France,22,27,"Tournée de l'équipe de France",,,Dunedin,/rugby/masculin/tournee-de-l-equipe-de-france-2009/france-nouvelle-zelande-13-juin-2009
+5674,2009-06-20,Nouvelle-Zélande,France,14,10,"Tournée de l'équipe de France",,,Wellington,/rugby/masculin/tournee-de-l-equipe-de-france-2009/france-nouvelle-zelande-20-juin-2009
+5675,2009-06-27,Australie,France,22,6,"Tournée de l'équipe de France",,,Sydney,/rugby/masculin/tournee-de-l-equipe-de-france-2009/france-australie-27-juin-2009
+5753,2009-11-13,France,"Afrique du Sud",20,13,Tournée,,Stadium,Toulouse,/rugby/masculin/tournee-2009/france-afrique-du-sud-13-novembre-2009
+5743,2009-11-21,France,Samoa,43,5,Tournée,,"Stade de France",Saint-Denis,/rugby/masculin/tournee-2009/france-samoa-21-novembre-2009
+5724,2009-11-28,France,Nouvelle-Zélande,12,39,Tournée,,"Stade Vélodrome",Marseille,/rugby/masculin/tournee-2009/france-nouvelle-zelande-28-novembre-2009
+5462,2010-02-07,Écosse,France,9,18,"Tournoi des Six Nations","1re journée","Murrayfield Stadium",Edinburgh,/rugby/masculin/tournoi-des-six-nations-2010/1-france-ecosse
+5463,2010-02-13,France,Irlande,33,10,"Tournoi des Six Nations","2e journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-six-nations-2010/2-france-irlande
+5464,2010-02-26,"Pays de Galles",France,20,26,"Tournoi des Six Nations","3e journée","Millennium Stadium",Cardiff,/rugby/masculin/tournoi-des-six-nations-2010/3-france-pays-de-galles
+5465,2010-03-14,France,Italie,46,20,"Tournoi des Six Nations","4e journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-six-nations-2010/4-france-italie
+5466,2010-03-20,France,Angleterre,12,10,"Tournoi des Six Nations","5e journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-six-nations-2010/5-france-angleterre
+5630,2010-06-12,"Afrique du Sud",France,42,17,"Tournée de l'équipe de France",,"Newlands Stadium","Le Cap",/rugby/masculin/tournee-de-l-equipe-de-france-2010/france-afrique-du-sud-12-juin-2010
+5631,2010-06-26,Argentine,France,41,13,"Tournée de l'équipe de France",,"Estadio José Amalfitani","Buenos Aires",/rugby/masculin/tournee-de-l-equipe-de-france-2010/france-argentine-26-juin-2010
+5604,2010-11-13,France,Fidji,34,12,Tournée,,"Stade de la Beaujoire - Louis Fonteneau",Nantes,/rugby/masculin/tournee-2010/france-fidji-13-novembre-2010
+5560,2010-11-20,France,Argentine,15,9,Tournée,,"Stade de la Mosson-Mondial 98",Montpellier,/rugby/masculin/tournee-2010/france-argentine-20-novembre-2010
+5578,2010-11-27,France,Australie,16,59,Tournée,,"Stade de France",Saint-Denis,/rugby/masculin/tournee-2010/france-australie-27-novembre-2010
+5467,2011-02-05,France,Écosse,34,21,"Tournoi des Six Nations","1re journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-six-nations-2011/1-france-ecosse
+5468,2011-02-13,Irlande,France,22,25,"Tournoi des Six Nations","2e journée","Aviva Stadium",Dublin,/rugby/masculin/tournoi-des-six-nations-2011/2-france-irlande
+5469,2011-02-26,Angleterre,France,17,9,"Tournoi des Six Nations","3e journée","Twickenham Stadium",,/rugby/masculin/tournoi-des-six-nations-2011/3-france-angleterre
+5470,2011-03-12,Italie,France,22,21,"Tournoi des Six Nations","4e journée","Stadio Flaminio",Rome,/rugby/masculin/tournoi-des-six-nations-2011/4-france-italie
+5471,2011-03-19,France,"Pays de Galles",28,9,"Tournoi des Six Nations","5e journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-six-nations-2011/5-france-pays-de-galles
+5770,2011-08-13,France,Irlande,19,12,"Test match",,"Stade Jacques-Chaban-Delmas",Bordeaux,/rugby/masculin/test-match/france-irlande-13-aout-2011
+5771,2011-08-20,Irlande,France,22,26,"Test match",,"Aviva Stadium",Dublin,/rugby/masculin/test-match/france-irlande-20-aout-2011
+5455,2011-09-10,France,Japon,47,21,"Coupe du monde",groupe,,,/rugby/masculin/coupe-du-monde-2011/groupe-france-japon
+5456,2011-09-18,France,Canada,46,19,"Coupe du monde","2e journée de groupe",,Napier,/rugby/masculin/coupe-du-monde-2011/2eme-journee-de-groupe-france-canada
+5457,2011-09-24,Nouvelle-Zélande,France,37,17,"Coupe du monde","3e journée de groupe","Eden Park",Auckland,/rugby/masculin/coupe-du-monde-2011/3eme-journee-de-groupe-france-nouvelle-zelande
+5458,2011-10-01,France,Tonga,14,19,"Coupe du monde","4e journée de groupe",,Wellington,/rugby/masculin/coupe-du-monde-2011/4eme-journee-de-groupe-france-tonga
+5459,2011-10-08,Angleterre,France,12,19,"Coupe du monde",Quart-de-finale,"Eden Park",Auckland,/rugby/masculin/coupe-du-monde-2011/quart-finale-france-angleterre
+5460,2011-10-15,"Pays de Galles",France,8,9,"Coupe du monde",Demi-finale,"Eden Park",Auckland,/rugby/masculin/coupe-du-monde-2011/demi-finale-france-pays-de-galles
+5461,2011-10-23,France,Nouvelle-Zélande,7,8,"Coupe du monde",Finale,"Eden Park",Auckland,/rugby/masculin/coupe-du-monde-2011/finale-france-nouvelle-zelande
+5473,2012-02-04,France,Italie,30,12,"Tournoi des Six Nations","1re journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-six-nations-2012/1-france-italie
+5474,2012-02-26,Écosse,France,17,23,"Tournoi des Six Nations","2e journée","Murrayfield Stadium",Edinburgh,/rugby/masculin/tournoi-des-six-nations-2012/2-france-ecosse
+5484,2012-03-04,France,Irlande,17,17,"Tournoi des Six Nations","3e journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-six-nations-2012/3-france-irlande
+5475,2012-03-11,France,Angleterre,22,24,"Tournoi des Six Nations","4e journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-six-nations-2012/4-france-angleterre
+5476,2012-03-17,"Pays de Galles",France,16,9,"Tournoi des Six Nations","5e journée","Millennium Stadium",Cardiff,/rugby/masculin/tournoi-des-six-nations-2012/5-france-pays-de-galles
+5477,2012-06-16,Argentine,France,23,20,"Tournée de l'équipe de France",,,Córdoba,/rugby/masculin/tournee-de-l-equipe-de-france-2012/france-argentine-16-juin-2012
+5478,2012-06-23,Argentine,France,10,49,"Tournée de l'équipe de France",,,"San Miguel de Tucumán",/rugby/masculin/tournee-de-l-equipe-de-france-2012/france-argentine-23-juin-2012
+5579,2012-11-10,France,Australie,33,6,Tournée,,"Stade de France",Saint-Denis,/rugby/masculin/tournee-2012/france-australie-10-novembre-2012
+5561,2012-11-17,France,Argentine,39,22,Tournée,,"Stadium Lille Métropole",Villeneuve-d'Ascq,/rugby/masculin/tournee-2012/france-argentine-17-novembre-2012
+5744,2012-11-24,France,Samoa,22,14,Tournée,,"Stade de France",Saint-Denis,/rugby/masculin/tournee-2012/france-samoa-24-novembre-2012
+5479,2013-02-03,Italie,France,23,18,"Tournoi des Six Nations","1re journée","Stadio Olimpico",Rome,/rugby/masculin/tournoi-des-six-nations-2013/1-france-italie
+5480,2013-02-09,France,"Pays de Galles",6,16,"Tournoi des Six Nations","2e journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-six-nations-2013/2-france-pays-de-galles
+5481,2013-02-23,Angleterre,France,23,13,"Tournoi des Six Nations","3e journée","Twickenham Stadium",,/rugby/masculin/tournoi-des-six-nations-2013/3-france-angleterre
+5482,2013-03-09,Irlande,France,13,13,"Tournoi des Six Nations","4e journée","Aviva Stadium",Dublin,/rugby/masculin/tournoi-des-six-nations-2013/4-france-irlande
+5483,2013-03-16,France,Écosse,23,16,"Tournoi des Six Nations","5e journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-six-nations-2013/5-france-ecosse
+5502,2013-06-08,Nouvelle-Zélande,France,23,13,"Tournée de l'équipe de France",,"Eden Park",Auckland,/rugby/masculin/tournee-de-l-equipe-de-france-2013/france-nouvelle-zelande-8-juin-2013
+5503,2013-06-15,Nouvelle-Zélande,France,30,0,"Tournée de l'équipe de France",,,Christchurch,/rugby/masculin/tournee-de-l-equipe-de-france-2013/france-nouvelle-zelande-15-juin-2013
+5504,2013-06-22,Nouvelle-Zélande,France,24,9,"Tournée de l'équipe de France",,,"New Plymouth",/rugby/masculin/tournee-de-l-equipe-de-france-2013/france-nouvelle-zelande-22-juin-2013
+5715,2013-11-09,France,Nouvelle-Zélande,19,26,Tournée,,"Stade de France",Saint-Denis,/rugby/masculin/tournee-2013/france-nouvelle-zelande-9-novembre-2013
+5765,2013-11-16,France,Tonga,38,18,Tournée,,"Stade Océane","Le Havre",/rugby/masculin/tournee-2013/france-tonga-16-novembre-2013
+5747,2013-11-23,France,"Afrique du Sud",10,19,Tournée,,"Stade de France",Saint-Denis,/rugby/masculin/tournee-2013/france-afrique-du-sud-23-novembre-2013
+5487,2014-02-01,France,Angleterre,26,24,"Tournoi des Six Nations","1re journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-six-nations-2014/1-france-angleterre
+5488,2014-02-09,France,Italie,30,10,"Tournoi des Six Nations","2e journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-six-nations-2014/2-france-italie
+5489,2014-02-21,"Pays de Galles",France,27,6,"Tournoi des Six Nations","3e journée","Millennium Stadium",Cardiff,/rugby/masculin/tournoi-des-six-nations-2014/3-france-pays-de-galles
+5490,2014-03-08,Écosse,France,17,19,"Tournoi des Six Nations","4e journée","Murrayfield Stadium",Edinburgh,/rugby/masculin/tournoi-des-six-nations-2014/4-france-ecosse
+5491,2014-03-15,France,Irlande,20,22,"Tournoi des Six Nations","5e journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-six-nations-2014/5-france-irlande
+5505,2014-06-07,Australie,France,50,23,"Tournée de l'équipe de France",,"Suncorp Stadium",Brisbane,/rugby/masculin/tournee-de-l-equipe-de-france-2014/france-australie-7-juin-2014
+5506,2014-06-14,Australie,France,6,0,"Tournée de l'équipe de France",,,Melbourne,/rugby/masculin/tournee-de-l-equipe-de-france-2014/france-australie-14-juin-2014
+5507,2014-06-21,Australie,France,39,13,"Tournée de l'équipe de France",,,Sydney,/rugby/masculin/tournee-de-l-equipe-de-france-2014/france-australie-21-juin-2014
+5602,2014-11-08,France,Fidji,40,15,Tournée,,"Stade Vélodrome",Marseille,/rugby/masculin/tournee-2014/france-fidji-8-novembre-2014
+5573,2014-11-15,France,Australie,29,26,Tournée,,"Stade de France",Saint-Denis,/rugby/masculin/tournee-2014/france-australie-15-novembre-2014
+5557,2014-11-22,France,Argentine,13,18,Tournée,,"Stade de France",Saint-Denis,/rugby/masculin/tournee-2014/france-argentine-22-novembre-2014
+5492,2015-02-07,France,Écosse,15,8,"Tournoi des Six Nations","1re journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-six-nations-2015/1-france-ecosse
+5493,2015-02-14,Irlande,France,18,11,"Tournoi des Six Nations","2e journée","Aviva Stadium",Dublin,/rugby/masculin/tournoi-des-six-nations-2015/2-france-irlande
+5494,2015-02-28,France,"Pays de Galles",13,20,"Tournoi des Six Nations","3e journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-six-nations-2015/3-france-pays-de-galles
+5495,2015-03-15,Italie,France,0,29,"Tournoi des Six Nations","4e journée","Stadio Olimpico",Rome,/rugby/masculin/tournoi-des-six-nations-2015/4-france-italie
+5496,2015-03-21,Angleterre,France,55,35,"Tournoi des Six Nations","5e journée","Twickenham Stadium",,/rugby/masculin/tournoi-des-six-nations-2015/5-france-angleterre
+5773,2015-08-15,Angleterre,France,19,14,"Test match",,"Twickenham Stadium",,/rugby/masculin/test-match/france-angleterre-15-aout-2015
+5774,2015-08-22,France,Angleterre,25,20,"Test match",,"Stade de France",Saint-Denis,/rugby/masculin/test-match/france-angleterre-22-aout-2015
+5772,2015-09-05,France,Écosse,19,16,"Test match",,"Stade de France",Saint-Denis,/rugby/masculin/test-match/france-ecosse-5-septembre-2015
+5497,2015-09-19,France,Italie,32,10,"Coupe du monde","1re journée de groupe","Twickenham Stadium",,/rugby/masculin/coupe-du-monde-2015/1re-journee-de-groupe-france-italie
+5498,2015-09-23,France,Roumanie,38,11,"Coupe du monde","2e journée de groupe",,,/rugby/masculin/coupe-du-monde-2015/2eme-journee-de-groupe-france-roumanie
+5499,2015-10-01,France,Canada,41,18,"Coupe du monde","3e journée de groupe",,,/rugby/masculin/coupe-du-monde-2015/3eme-journee-de-groupe-france-canada
+5501,2015-10-11,France,Irlande,9,24,"Coupe du monde","4e journée de groupe","Millennium Stadium",Cardiff,/rugby/masculin/coupe-du-monde-2015/4eme-journee-de-groupe-france-irlande
+5500,2015-10-17,Nouvelle-Zélande,France,62,13,"Coupe du monde",Quart-de-finale,"Millennium Stadium",Cardiff,/rugby/masculin/coupe-du-monde-2015/quart-finale-france-nouvelle-zelande
+5512,2016-02-06,France,Italie,23,21,"Tournoi des Six Nations","1re journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-six-nations-2016/1-france-italie
+5513,2016-02-13,France,Irlande,10,9,"Tournoi des Six Nations","2e journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-six-nations-2016/2-france-irlande
+5514,2016-02-26,"Pays de Galles",France,19,10,"Tournoi des Six Nations","3e journée",,Cardiff,/rugby/masculin/tournoi-des-six-nations-2016/3-france-pays-de-galles
+5515,2016-03-13,Écosse,France,29,18,"Tournoi des Six Nations","4e journée","Murrayfield Stadium",Edinburgh,/rugby/masculin/tournoi-des-six-nations-2016/4-france-ecosse
+5516,2016-03-19,France,Angleterre,21,31,"Tournoi des Six Nations","5e journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-six-nations-2016/5-france-angleterre
+5775,2016-06-19,Argentine,France,30,19,"Test match",,,,/rugby/masculin/test-match/france-argentine-19-juin-2016
+5776,2016-06-25,Argentine,France,0,27,"Test match",,,,/rugby/masculin/test-match/france-argentine-25-juin-2016
+5742,2016-11-12,France,Samoa,52,8,Tournée,,Stadium,Toulouse,/rugby/masculin/tournee-2016/france-samoa-12-novembre-2016
+5572,2016-11-19,France,Australie,23,25,Tournée,,"Stade de France",Saint-Denis,/rugby/masculin/tournee-2016/france-australie-19-novembre-2016
+5717,2016-11-26,France,Nouvelle-Zélande,19,24,Tournée,,"Stade de France",Saint-Denis,/rugby/masculin/tournee-2016/france-nouvelle-zelande-26-novembre-2016
+5517,2017-02-04,Angleterre,France,19,16,"Tournoi des Six Nations","1re journée","Twickenham Stadium",,/rugby/masculin/tournoi-des-six-nations-2017/1-france-angleterre
+5518,2017-02-12,France,Écosse,22,16,"Tournoi des Six Nations","2e journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-six-nations-2017/2-france-ecosse
+5519,2017-02-25,Irlande,France,19,9,"Tournoi des Six Nations","3e journée","Aviva Stadium",Dublin,/rugby/masculin/tournoi-des-six-nations-2017/3-france-irlande
+5520,2017-03-11,Italie,France,18,40,"Tournoi des Six Nations","4e journée","Stadio Olimpico",Rome,/rugby/masculin/tournoi-des-six-nations-2017/4-france-italie
+5521,2017-03-18,France,"Pays de Galles",20,18,"Tournoi des Six Nations","5e journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-six-nations-2017/5-france-pays-de-galles
+5522,2017-06-10,"Afrique du Sud",France,37,14,"Tournée de l'équipe de France",,,Pretoria,/rugby/masculin/tournee-de-l-equipe-de-france-2017/france-afrique-du-sud-10-juin-2017
+5523,2017-06-17,"Afrique du Sud",France,37,15,"Tournée de l'équipe de France",,,,/rugby/masculin/tournee-de-l-equipe-de-france-2017/france-afrique-du-sud-17-juin-2017
+5524,2017-06-24,"Afrique du Sud",France,35,12,"Tournée de l'équipe de France",,"Ellis Park Stadium",Johannesbourg,/rugby/masculin/tournee-de-l-equipe-de-france-2017/france-afrique-du-sud-24-juin-2017
+5716,2017-11-11,France,Nouvelle-Zélande,18,38,Tournée,,"Stade de France",Saint-Denis,/rugby/masculin/tournee-2017/france-nouvelle-zelande-11-novembre-2017
+5766,2017-11-18,France,"Afrique du Sud",17,18,Tournée,,"Stade de France",Saint-Denis,/rugby/masculin/tournee-2017/france-afrique-du-sud-18-novembre-2017
+5702,2017-11-25,France,Japon,23,23,Tournée,,"U Arena",Nanterre,/rugby/masculin/tournee-2017/france-japon-25-novembre-2017
+5525,2018-02-03,France,Irlande,13,15,"Tournoi des Six Nations","1re journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-six-nations-2018/1-france-irlande
+5526,2018-02-11,Écosse,France,32,26,"Tournoi des Six Nations","2e journée","Murrayfield Stadium",Edinburgh,/rugby/masculin/tournoi-des-six-nations-2018/2-france-ecosse
+5527,2018-02-23,France,Italie,34,17,"Tournoi des Six Nations","3e journée","Orange Vélodrome",Marseille,/rugby/masculin/tournoi-des-six-nations-2018/3-france-italie
+5528,2018-03-10,France,Angleterre,22,16,"Tournoi des Six Nations","4e journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-six-nations-2018/4-france-angleterre
+5529,2018-03-17,"Pays de Galles",France,14,13,"Tournoi des Six Nations","5e journée",,Cardiff,/rugby/masculin/tournoi-des-six-nations-2018/5-france-pays-de-galles
+5535,2018-06-09,Nouvelle-Zélande,France,52,11,"Tournée de l'équipe de France",,"Eden Park",Auckland,/rugby/masculin/tournee-de-l-equipe-de-france-2018/france-nouvelle-zelande-9-juin-2018
+5536,2018-06-16,Nouvelle-Zélande,France,26,13,"Tournée de l'équipe de France",,,Wellington,/rugby/masculin/tournee-de-l-equipe-de-france-2018/france-nouvelle-zelande-16-juin-2018
+5537,2018-06-23,Nouvelle-Zélande,France,49,14,"Tournée de l'équipe de France",,,Dunedin,/rugby/masculin/tournee-de-l-equipe-de-france-2018/france-nouvelle-zelande-23-juin-2018
+5746,2018-11-10,France,"Afrique du Sud",26,29,Tournée,,"Stade de France",Saint-Denis,/rugby/masculin/tournee-2018/france-afrique-du-sud-10-novembre-2018
+5558,2018-11-17,France,Argentine,28,13,Tournée,,"Stade Pierre-Mauroy",Villeneuve-d'Ascq,/rugby/masculin/tournee-2018/france-argentine-17-novembre-2018
+5603,2018-11-24,France,Fidji,14,21,Tournée,,"Stade de France",Saint-Denis,/rugby/masculin/tournee-2018/france-fidji-24-novembre-2018
+5530,2019-02-01,France,"Pays de Galles",19,24,"Tournoi des Six Nations","1re journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-six-nations-2019/1-france-pays-de-galles
+5531,2019-02-10,Angleterre,France,44,8,"Tournoi des Six Nations","2e journée","Twickenham Stadium",,/rugby/masculin/tournoi-des-six-nations-2019/2-france-angleterre
+5532,2019-02-23,France,Écosse,27,10,"Tournoi des Six Nations","3e journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-six-nations-2019/3-france-ecosse
+5533,2019-03-10,Irlande,France,26,14,"Tournoi des Six Nations","4e journée","Aviva Stadium",Dublin,/rugby/masculin/tournoi-des-six-nations-2019/4-france-irlande
+5534,2019-03-16,Italie,France,14,25,"Tournoi des Six Nations","5e journée","Stadio Olimpico",Rome,/rugby/masculin/tournoi-des-six-nations-2019/5-france-italie
+5777,2019-08-17,France,Écosse,32,3,"Test match",,"Allianz Riviera",Nice,/rugby/masculin/test-match/france-ecosse-17-aout-2019
+5778,2019-08-24,Écosse,France,17,14,"Test match",,"Murrayfield Stadium",Edinburgh,/rugby/masculin/test-match/france-ecosse-24-aout-2019
+5779,2019-08-30,France,Italie,47,19,"Test match",,"Stade de France",Saint-Denis,/rugby/masculin/test-match/france-italie-30-aout-2019
+48,2019-09-21,France,Argentine,23,21,"Coupe du monde","1re journée de groupe","Stade Ajinomoto","Tokyo | 44 004 spectateurs",/rugby/masculin/coupe-du-monde-2019/1re-journee-de-groupe-france-argentine
+49,2019-10-02,France,États-Unis,33,9,"Coupe du monde","2e journée de groupe","Level5 Stadium","Hakata ku | 17 660 spectateurs",/rugby/masculin/coupe-du-monde-2019/2eme-journee-de-groupe-france-etats-unis
+50,2019-10-06,France,Tonga,23,21,"Coupe du monde","3e journée de groupe","Egao Kenko Stadium","Kumamoto | 28 477 spectateurs",/rugby/masculin/coupe-du-monde-2019/3eme-journee-de-groupe-france-tonga
+52,2019-10-20,"Pays de Galles",France,20,19,"Coupe du monde",Quart-de-finale,"Stade d'Oita | 34 426 spectateurs",,/rugby/masculin/coupe-du-monde-2019/quart-finale-france-pays-de-galles
+5538,2020-02-02,France,Angleterre,24,17,"Tournoi des Six Nations","1re journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-six-nations-2020/1-france-angleterre
+5539,2020-02-09,France,Italie,35,22,"Tournoi des Six Nations","2e journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-six-nations-2020/2-france-italie
+5540,2020-02-22,"Pays de Galles",France,23,27,"Tournoi des Six Nations","3e journée",,Cardiff,/rugby/masculin/tournoi-des-six-nations-2020/3-france-pays-de-galles
+5541,2020-03-08,Écosse,France,28,17,"Tournoi des Six Nations","4e journée","Murrayfield Stadium",Edinburgh,/rugby/masculin/tournoi-des-six-nations-2020/4-france-ecosse
+5780,2020-10-24,France,"Pays de Galles",38,21,"Test match",,"Stade de France",Saint-Denis,/rugby/masculin/test-match/france-pays-de-galles-24-octobre-2020
+5542,2020-10-31,France,Irlande,35,27,"Tournoi des Six Nations","5e journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-six-nations-2020/5-france-irlande
+5597,2020-11-22,Écosse,France,15,22,"Coupe d'automne des nations","2e journée","Murrayfield Stadium",Edinburgh,/rugby/masculin/coupe-d-automne-des-nations-2020/2-france-ecosse
+5598,2020-11-28,France,Italie,36,5,"Coupe d'automne des nations","3e journée","Stade de France",Saint-Denis,/rugby/masculin/coupe-d-automne-des-nations-2020/3-france-italie
+5599,2020-12-06,Angleterre,France,22,19,"Coupe d'automne des nations",Finale,"Twickenham Stadium",,/rugby/masculin/coupe-d-automne-des-nations-2020/finale-france-angleterre
+5543,2021-02-06,Italie,France,10,50,"Tournoi des Six Nations","1re journée","Stadio Olimpico",Rome,/rugby/masculin/tournoi-des-six-nations-2021/1-france-italie
+5544,2021-02-14,Irlande,France,13,15,"Tournoi des Six Nations","2e journée","Aviva Stadium",Dublin,/rugby/masculin/tournoi-des-six-nations-2021/2-france-irlande
+5546,2021-03-13,Angleterre,France,23,20,"Tournoi des Six Nations","3e journée","Twickenham Stadium",,/rugby/masculin/tournoi-des-six-nations-2021/3-france-angleterre
+5547,2021-03-20,France,"Pays de Galles",32,30,"Tournoi des Six Nations","4e journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-six-nations-2021/4-france-pays-de-galles
+5545,2021-03-26,France,Écosse,23,27,"Tournoi des Six Nations","5e journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-six-nations-2021/5-france-ecosse
+5554,2021-07-07,Australie,France,23,21,"Tournée de l'équipe de France",,"Suncorp Stadium",Brisbane,/rugby/masculin/tournee-de-l-equipe-de-france-2021/france-australie-7-juillet-2021
+5555,2021-07-13,Australie,France,26,28,"Tournée de l'équipe de France",,"AAMI Park",Melbourne,/rugby/masculin/tournee-de-l-equipe-de-france-2021/france-australie-13-juillet-2021
+5556,2021-07-17,Australie,France,33,30,"Tournée de l'équipe de France",,"Suncorp Stadium",Brisbane,/rugby/masculin/tournee-de-l-equipe-de-france-2021/france-australie-17-juillet-2021
+5767,2021-11-06,France,Argentine,29,20,Tournée,,"Stade de France",Saint-Denis,/rugby/masculin/tournee-d-automne-2021/france-argentine-6-novembre-2021
+5768,2021-11-14,France,Géorgie,41,15,Tournée,,"Matmut Atlantique",Bordeaux,/rugby/masculin/tournee-d-automne-2021/france-georgie-14-novembre-2021
+5769,2021-11-20,France,Nouvelle-Zélande,40,25,Tournée,,"Stade de France",Saint-Denis,/rugby/masculin/tournee-d-automne-2021/france-nouvelle-zelande-20-novembre-2021
+5549,2022-02-06,France,Italie,37,10,"Tournoi des Six Nations","1re journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-six-nations-2022/1-france-italie
+5550,2022-02-12,France,Irlande,30,24,"Tournoi des Six Nations","2e journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-six-nations-2022/2-france-irlande
+5551,2022-02-26,Écosse,France,17,36,"Tournoi des Six Nations","3e journée","Murrayfield Stadium",Edinburgh,/rugby/masculin/tournoi-des-six-nations-2022/3-france-ecosse
+5552,2022-03-11,"Pays de Galles",France,9,13,"Tournoi des Six Nations","4e journée",,,/rugby/masculin/tournoi-des-six-nations-2022/4-france-pays-de-galles
+5553,2022-03-19,France,Angleterre,25,13,"Tournoi des Six Nations","5e journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-six-nations-2022/5-france-angleterre
+5781,2022-07-02,Japon,France,23,42,"Tournée de l'équipe de France",,"Toyota Stadium",,/rugby/masculin/test-match/france-japon-2-juillet-2022
+1094,2022-07-09,Japon,France,15,20,"Tournée de l'équipe de France",,"Stade olympique national",Tokyo,/rugby/masculin/test-match-2022/2-france-japon
+1090,2022-11-05,France,Australie,30,29,Tournée,"1re journée","Stade de France",Saint-Denis,/rugby/masculin/tournee-d-automne-2022/1-france-australie
+1091,2022-11-12,France,"Afrique du Sud",30,26,Tournée,"2e journée","Orange Vélodrome",Marseille,/rugby/masculin/tournee-d-automne-2022/2-france-afrique-du-sud
+1092,2022-11-20,France,Japon,35,17,Tournée,"3e journée",Stadium,Toulouse,/rugby/masculin/tournee-d-automne-2022/3-france-japon
+1085,2023-02-05,Italie,France,24,29,"Tournoi des Six Nations","1re journée","Stadio Olimpico","Rome | 41 232 spectateurs",/rugby/masculin/tournoi-des-six-nations-2023/1-france-italie
+1086,2023-02-11,Irlande,France,32,19,"Tournoi des Six Nations","2e journée","Aviva Stadium","Dublin | 51 700 spectateurs",/rugby/masculin/tournoi-des-six-nations-2023/2-france-irlande
+1087,2023-02-26,France,Écosse,32,21,"Tournoi des Six Nations","3e journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-six-nations-2023/3-france-ecosse
+1088,2023-03-11,Angleterre,France,10,53,"Tournoi des Six Nations","4e journée","Twickenham Stadium",,/rugby/masculin/tournoi-des-six-nations-2023/4-france-angleterre
+1089,2023-03-18,France,"Pays de Galles",41,28,"Tournoi des Six Nations","5e journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-six-nations-2023/5-france-pays-de-galles
+5931,2023-08-05,Écosse,France,25,21,"Test match",,"Murrayfield Stadium",Edinburgh,/rugby/masculin/test-match/france-ecosse-5-aout-2023
+5928,2023-08-12,France,Écosse,30,27,"Test match",,"Stade Geoffroy-Guichard",Saint-Étienne,/rugby/masculin/test-match/france-ecosse-12-aout-2023
+5929,2023-08-19,France,Fidji,34,17,"Test match",,"Stade de la Beaujoire - Louis Fonteneau",Nantes,/rugby/masculin/test-match/france-fidji-19-aout-2023
+5930,2023-08-27,France,Australie,41,17,"Test match",,"Stade de France",Saint-Denis,/rugby/masculin/test-match/france-australie-26-aout-2023
+956,2023-09-08,France,Nouvelle-Zélande,27,13,"Coupe du monde","1re journée de groupe","Stade de France",Saint-Denis,/rugby/masculin/coupe-du-monde-2023/1re-journee-de-groupe-france-nouvelle-zelande
+957,2023-09-14,France,Uruguay,27,12,"Coupe du monde","2e journée de groupe","Stade Pierre-Mauroy",Villeneuve-d'Ascq,/rugby/masculin/coupe-du-monde-2023/2eme-journee-de-groupe-france-uruguay
+958,2023-09-21,France,Namibie,96,0,"Coupe du monde","3e journée de groupe","Orange Vélodrome",Marseille,/rugby/masculin/coupe-du-monde-2023/3eme-journee-de-groupe-france-namibie
+959,2023-10-06,France,Italie,60,7,"Coupe du monde","4e journée de groupe","Groupama Stadium",Décines-Charpieu,/rugby/masculin/coupe-du-monde-2023/4eme-journee-de-groupe-france-italie
+9227,2023-10-15,France,"Afrique du Sud",28,29,"Coupe du monde",Quart-de-finale,"Stade de France",Saint-Denis,/rugby/masculin/coupe-du-monde-2023/quart-finale-france
+5933,2024-02-02,France,Irlande,17,38,"Tournoi des Six Nations","1re journée","Orange Vélodrome",Marseille,/rugby/masculin/tournoi-des-six-nations-2024/1-france-irlande
+5934,2024-02-10,Écosse,France,16,20,"Tournoi des Six Nations","2e journée","Murrayfield Stadium",Edinburgh,/rugby/masculin/tournoi-des-six-nations-2024/france-ecosse-10-fevrier-2024
+5935,2024-02-25,France,Italie,13,13,"Tournoi des Six Nations","3e journée","Stade Pierre-Mauroy",Villeneuve-d'Ascq,/rugby/masculin/tournoi-des-six-nations-2024/3-france-italie
+5936,2024-03-10,"Pays de Galles",France,24,45,"Tournoi des Six Nations","4e journée","Millennium Stadium",Cardiff,/rugby/masculin/tournoi-des-six-nations-2024/4-france-pays-de-galles
+5937,2024-03-16,France,Angleterre,33,31,"Tournoi des Six Nations","5e journée","Groupama Stadium",Décines-Charpieu,/rugby/masculin/tournoi-des-six-nations-2024/5-france-angleterre
+11406,2024-07-06,Argentine,France,13,28,"Tournée de l'équipe de France","Match 1",,Mendoza,/rugby/masculin/tournee-de-l-equipe-de-france-2024/match-1-france-argentine
+14211,2024-07-10,Uruguay,France,28,43,"Tournée de l'équipe de France","Match 2","Estadio Charrúa",Montevideo,/rugby/masculin/tournee-de-l-equipe-de-france-2024/match-2-france-uruguay
+11407,2024-07-13,Argentine,France,33,25,"Tournée de l'équipe de France","Match 3","Estadio José Amalfitani","Buenos Aires",/rugby/masculin/tournee-de-l-equipe-de-france-2024/match-2-france-argentine
+11408,2024-11-09,France,Japon,52,12,Tournée,"Match 1","Stade de France",Saint-Denis,/rugby/masculin/tournee-2024/match-1-france-japon
+11409,2024-11-16,France,Nouvelle-Zélande,30,29,Tournée,"Match 2","Stade de France",Saint-Denis,/rugby/masculin/tournee-2024/match-2-france-nouvelle-zelande
+11410,2024-11-22,France,Argentine,37,23,Tournée,"Match 3","Stade de France",Saint-Denis,/rugby/masculin/tournee-2024/match-3-france-argentine
+15157,2025-01-31,France,"Pays de Galles",43,0,"Tournoi des Six Nations","1re journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-six-nations-2025/1re-journee-france-pays-de-galles
+15158,2025-02-08,Angleterre,France,26,25,"Tournoi des Six Nations","2e journée","Twickenham Stadium",,/rugby/masculin/tournoi-des-six-nations-2025/2e-journee-france-angleterre
+15159,2025-02-23,Italie,France,24,73,"Tournoi des Six Nations","3e journée","Stadio Olimpico",Rome,/rugby/masculin/tournoi-des-six-nations-2025/3e-journee-france-italie
+15160,2025-03-08,Irlande,France,27,42,"Tournoi des Six Nations","4e journée","Aviva Stadium",Dublin,/rugby/masculin/tournoi-des-six-nations-2025/4e-journee-france-irlande
+15161,2025-03-15,France,Écosse,35,16,"Tournoi des Six Nations","5e journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-six-nations-2025/5e-journee-france-ecosse
+19376,2025-06-21,Angleterre,France,24,26,"Test match",,"Twickenham Stadium",,/rugby/masculin/test-match/france-angleterre-21-juin-2025
+19377,2025-07-05,Nouvelle-Zélande,France,31,27,"Tournée de l'équipe de France","1er match","Forsyth Barr Stadium",Dunedin,/rugby/masculin/tournee-de-l-equipe-de-france-2025/1er-match-france-nouvelle-zelande
+19378,2025-07-12,Nouvelle-Zélande,France,43,17,"Tournée de l'équipe de France","2e match","Sky Stadium",Wellington,/rugby/masculin/tournee-de-l-equipe-de-france-2025/2e-match-france-nouvelle-zelande
+19379,2025-07-19,Nouvelle-Zélande,France,29,19,"Tournée de l'équipe de France","3e match","Waikato Stadium",Hamilton,/rugby/masculin/tournee-de-l-equipe-de-france-2025/3e-match-france-nouvelle-zelande
+20530,2025-11-08,France,"Afrique du Sud",17,32,Tournée,"Match 1","Stade de France",Saint-Denis,/rugby/masculin/tournee-2025/match-1-france-afrique-du-sud
+20531,2025-11-15,France,Fidji,34,21,Tournée,"Match 2","Stade Atlantique",Bordeaux,/rugby/masculin/tournee-2025/match-2-france-fidji
+20532,2025-11-22,France,Australie,48,33,Tournée,"Match 3","Stade de France",Saint-Denis,/rugby/masculin/tournee-2025/match-3-france-australie
+26688,2026-02-05,France,Irlande,36,14,"Tournoi des Six Nations","1re journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-six-nations-2026/1re-journee-france-irlande
+26689,2026-02-15,"Pays de Galles",France,12,54,"Tournoi des Six Nations","2e journée","Millennium Stadium",Cardiff,/rugby/masculin/tournoi-des-six-nations-2026/2e-journee-france-pays-de-galles
+26690,2026-02-22,France,Italie,33,8,"Tournoi des Six Nations","3e journée","Stade Pierre-Mauroy",Villeneuve-d'Ascq,/rugby/masculin/tournoi-des-six-nations-2026/3e-journee-france-italie
+26691,2026-03-07,Écosse,France,50,40,"Tournoi des Six Nations","4e journée","Murrayfield Stadium",Edinburgh,/rugby/masculin/tournoi-des-six-nations-2026/4e-journee-france-ecosse
+26692,2026-03-14,France,Angleterre,48,46,"Tournoi des Six Nations","5e journée","Stade de France",Saint-Denis,/rugby/masculin/tournoi-des-six-nations-2026/5e-journee-france-angleterre
+32465,2026-07-04,Nouvelle-Zélande,France,34,32,"Championnat des nations","1re journée de groupe",,Christchurch,/rugby/masculin/championnat-des-nations-2026/france-nouvelle-zelande-4-juillet-2026
+32466,2026-07-11,Australie,France,26,42,"Championnat des nations","2e journée de groupe",,Brisbane,/rugby/masculin/championnat-des-nations-2026/france-australie-11-juillet-2026
+32467,2026-07-18,Japon,France,15,42,"Championnat des nations","3e journée de groupe","Stade national",Tokyo,/rugby/masculin/championnat-des-nations-2026/france-japon-18-juillet-2026

@@ -70,6 +70,7 @@ Matmut-Atlantique,Bordeaux,FRA,44.841225,-0.5800364,ville,nominatim
 "Allianz Riviera",Nice,FRA,43.7051477,7.1926033,stade,nominatim
 "Stade des Arboras",Nice,FRA,43.7009358,7.2683912,ville,nominatim
 "Parc des Princes",Paris,FRA,48.8414356,2.2530099,stade,base
+"Stade Pershing",Paris,FRA,48.8282904,2.458078,stade,nominatim
 "Stade Geoffroy-Guichard","Saint Etienne",FRA,45.4607567,4.3900932,stade,nominatim
 "Stade de France",Saint-Denis,FRA,48.9244592,2.3602144,stade,base
 "Stade Auguste Bonal",Sochaux,FRA,47.512408,6.8111753,stade,nominatim
@@ -122,6 +123,7 @@ Carisbrook,Dunedin,NZL,-45.8740984,170.5035755,ville,nominatim
 "Loftus Versfeld",Pretoria,RSA,-25.7532404,28.2229489,stade,nominatim
 "Olympia Park",Rustenburg,RSA,-25.6578844,27.225394,stade,nominatim
 "PAM Brink Stadium",Springs,RSA,-26.2518757,28.4278501,stade,nominatim
+Inverleith,Édimbourg,SCO,55.9658322,-3.2160518,stade,nominatim
 "Murrayfield Stadium",Édimbourg,SCO,55.9422,-3.2406,stade,base
 "Carrasco Polo Club",Montevideo,URU,-34.8627617,-56.0641586,stade,nominatim
 "Estadio Charrúa",Montevideo,URU,-34.8784878,-56.0894011,stade,nominatim

@@ -67,3 +67,9 @@ venue,city,country_code,name,kind,used_until,source
 "City of Toyota Stadium",Toyota,JPN,"Toyota Stadium",variant,,
 "Forsyth Barr Stadium",Dunedin,NZL,"Otago Stadium",variant,,
 "FMG Stadium",Hamilton,NZL,"Waikato Stadium",variant,,
+"Stade olympique Yves-du-Manoir",Colombes,FRA,"Stade du Matin",former,1920-06-01,"nom sur equipe-france.fr jusqu'en 1920"
+"Stade olympique Yves-du-Manoir",Colombes,FRA,"Stade de Colombes",variant,,
+"St Helen's",Swansea,WAL,"St Helen's Rugby and Cricket Ground",variant,,"nom sur equipe-france.fr"
+"Inverleith",Édimbourg,SCO,"Inverleith Sports Ground",variant,,"nom sur equipe-france.fr"
+"Gimnasia y Esgrima de Buenos Aires","Buenos Aires",ARG,"Estadio GEBA",variant,,"nom sur equipe-france.fr"
+"Estadio Ferro Carril Oeste","Buenos Aires",ARG,"Estadio Arquitecto Ricardo Etcheverri",variant,,"nom sur equipe-france.fr"
