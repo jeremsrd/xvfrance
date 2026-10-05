@@ -1,7 +1,6 @@
 @extends('layouts.app')
 
 @php
-    use App\Support\FrenchDate;
     $t = $selectorTenure;
     $share = fn ($n) => $record->total ? round($n / $record->total * 100, 2) : 0;
 @endphp
