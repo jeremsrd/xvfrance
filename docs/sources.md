@@ -160,7 +160,7 @@ du même projet.
 
 ## Portraits d'avant 1930 (ancien projet « This Is Rugby »)
 
-116 portraits de joueurs ayant joué avant 1930 (41 Français, 29 Anglais, 12 Néo-Zélandais de 1906, 8 Écossais,
+119 portraits de joueurs ayant joué avant 1930 (42 Français, 31 Anglais, 12 Néo-Zélandais de 1906, 8 Écossais,
 9 Sud-Africains de 1913, 13 Gallois, 4 Irlandais), tirés des archives de l'ancien projet (Agence Rol / Gallica,
 cartes postales et photos de presse de l'époque). Prises avant 1930, ces photos sont **présumées dans le domaine
 public** ; les photos récentes de ce même dossier (AFP, sites de presse) ne sont **pas** publiées.
@@ -171,4 +171,4 @@ public** ; les photos récentes de ce même dossier (AFP, sites de presse) ne so
 - `xv:import-player-photos` (lancée par `deploy.sh`) : renseigne `players.photo_path`, seulement pour un joueur
   ayant un match avant 1930, sans remplacer une photo posée autrement.
 - Écartés faute de certitude : Bancroft (Billy ou Jack ?), Harper et Hunter de 1906 (prénoms différents sur le
-  site), « AlexTrew », et les joueurs sans match en base (Louis Dedet, Giacardy, Halford, Wedge, Nanson, Mackrell…).
+  site), « AlexTrew », et les joueurs sans match en base (Louis Dedet, Halford, Mackrell…).

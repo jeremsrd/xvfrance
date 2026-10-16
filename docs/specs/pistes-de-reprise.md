@@ -26,7 +26,7 @@ Ibañez 98) ; 1 932 remplacements et 1 323 minutes de points français ; 13 sél
 | Feuilles de match | 834 détaillées : compositions des deux équipes, capitaines, arbitre ; points pour 832 (2 sans points), minute connue pour 80 % des points français ; remplacements français et remplaçants restés sur le banc (finalesrugby.fr) |
 | Joueurs | ~7 000, dont 1 229 Français ; 1 051 numéros d'international, 1 036 dates de naissance |
 | Noms | 83 noms français corrigés d'après Wikipédia (`noms_ecarts.csv`) |
-| Portraits | 116 joueurs d'avant 1930 |
+| Portraits | 119 joueurs d'avant 1930 |
 | Sélectionneurs | 13 depuis 1963, avec leurs mandats (`selectionneurs.csv`) |
 
 Chaînage des données au déploiement (`deploy.sh`) : `xv:apply-name-corrections` → `xv:import-match-data --changed`
