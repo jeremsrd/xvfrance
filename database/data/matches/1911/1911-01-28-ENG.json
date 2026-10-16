@@ -30,7 +30,7 @@
       {"jersey": 5, "first_name": "Leonard", "last_name": "Haigh", "is_starter": true, "position": null, "is_captain": false},
       {"jersey": 6, "first_name": "Alf", "last_name": "Kewney", "is_starter": true, "position": null, "is_captain": false},
       {"jersey": 7, "first_name": "John", "last_name": "King", "is_starter": true, "position": null, "is_captain": false},
-      {"jersey": 8, "first_name": "Daniel", "last_name": "Lambert", "is_starter": true, "position": null, "is_captain": false},
+      {"jersey": 8, "first_name": "Douglas", "last_name": "Lambert", "is_starter": true, "position": null, "is_captain": false},
       {"jersey": 9, "first_name": "William", "last_name": "Mann", "is_starter": true, "position": null, "is_captain": false},
       {"jersey": 10, "first_name": "Cherry", "last_name": "Pillman", "is_starter": true, "position": null, "is_captain": false},
       {"jersey": 11, "first_name": "Alan", "last_name": "Roberts", "is_starter": true, "position": null, "is_captain": false},
@@ -43,18 +43,18 @@
   "events": [
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Stoop", "player_first_name": "Adrian", "minute": null},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Wodehouse", "player_first_name": "Norman", "minute": null},
-    {"team_side": "adversaire", "type": "essai", "player_last_name": "Lambert", "player_first_name": "Daniel", "minute": null},
-    {"team_side": "adversaire", "type": "essai", "player_last_name": "Lambert", "player_first_name": "Daniel", "minute": null},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Lambert", "player_first_name": "Douglas", "minute": null},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Lambert", "player_first_name": "Douglas", "minute": null},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Mann", "player_first_name": "William", "minute": null},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Pillman", "player_first_name": "Cherry", "minute": null},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Pillman", "player_first_name": "Cherry", "minute": null},
-    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Lambert", "player_first_name": "Daniel", "minute": null},
-    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Lambert", "player_first_name": "Daniel", "minute": null},
-    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Lambert", "player_first_name": "Daniel", "minute": null},
-    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Lambert", "player_first_name": "Daniel", "minute": null},
-    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Lambert", "player_first_name": "Daniel", "minute": null},
-    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Lambert", "player_first_name": "Daniel", "minute": null},
-    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Lambert", "player_first_name": "Daniel", "minute": null}
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Lambert", "player_first_name": "Douglas", "minute": null},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Lambert", "player_first_name": "Douglas", "minute": null},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Lambert", "player_first_name": "Douglas", "minute": null},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Lambert", "player_first_name": "Douglas", "minute": null},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Lambert", "player_first_name": "Douglas", "minute": null},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Lambert", "player_first_name": "Douglas", "minute": null},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Lambert", "player_first_name": "Douglas", "minute": null}
   ],
   "substitutions": []
 }

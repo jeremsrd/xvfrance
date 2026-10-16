@@ -36,13 +36,13 @@
       {"jersey": 11, "first_name": "Arthur", "last_name": "Hudson", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 12, "first_name": "Walter", "last_name": "Lapage", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 13, "first_name": "John", "last_name": "Birkett", "is_starter": true, "position": "centre", "is_captain": false},
-      {"jersey": 14, "first_name": "Daniel", "last_name": "Lambert", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 14, "first_name": "Douglas", "last_name": "Lambert", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 15, "first_name": "Alfred", "last_name": "Wood", "is_starter": true, "position": "arriere", "is_captain": false}
     ]
   },
   "events": [
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Mills", "player_first_name": "William", "minute": null},
-    {"team_side": "adversaire", "type": "essai", "player_last_name": "Lambert", "player_first_name": "Daniel", "minute": null},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Lambert", "player_first_name": "Douglas", "minute": null},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Lapage", "player_first_name": "Walter", "minute": null},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Portus", "player_first_name": "Garnet", "minute": null},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Birkett", "player_first_name": "John", "minute": null},
