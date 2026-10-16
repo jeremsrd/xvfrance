@@ -8,6 +8,12 @@ sélectionneurs. Tout est commité et déployé (dernier commit déployé : de3a
 Fait le 06/10/2026 : 27 des 29 matches sans points ; sélections justes (remplaçants restés sur le banc,
 Ibañez 98) ; 1 932 remplacements et 1 323 minutes de points français ; 13 sélectionneurs (piste 5).
 
+Fait le 16/10/2026 : feuille complète d'Angleterre–France 1907 (Wikipédia anglaise + finalesrugby.fr) ;
+XV français, capitaine et arbitre d'Allemagne 1932, 1933 et 1934 (finalesrugby.fr) : équipe allemande et points
+inconnus, la validation refusant des points incomplets ; Douglas (et non Daniel) Lambert.
+Piste pour l'Allemagne : la presse de l'époque sur Gallica (*L'Auto* du 18/04/1932), qui bloque les scripts
+(Cloudflare) : passer par Chrome. Reste aussi Armée britannique 1940 (finalesrugby.fr a le XV français).
+
 À faire, dans l'ordre proposé :
 1. **Fiches joueurs plus riches** (piste 4) : lieu de naissance, taille, poids, club depuis les fiches
    equipe-france.fr ; dates de décès depuis Wikipédia. Prochain gros chantier utile.
