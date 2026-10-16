@@ -4,5 +4,28 @@
   "france_score": 3,
   "opponent_score": 36,
   "venue": "Parc des Princes",
-  "stage": "test"
+  "stage": "test",
+  "referee": "Gadney",
+  "lineups": {
+    "france": [
+      {"jersey": 1, "first_name": "François", "last_name": "Meret", "is_starter": true, "position": "pilier_gauche", "is_captain": false, "cap_number": 339},
+      {"jersey": 2, "first_name": "Roger", "last_name": "Paul", "is_starter": true, "position": "talonneur", "is_captain": false, "cap_number": 340},
+      {"jersey": 3, "first_name": "Pierre", "last_name": "Daulouede", "is_starter": true, "position": "pilier_droit", "is_captain": false},
+      {"jersey": 4, "first_name": "Marcel", "last_name": "Tucoo-Chala", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false, "cap_number": 337},
+      {"jersey": 5, "first_name": "Joseph", "last_name": "Dutrey", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false, "cap_number": 338},
+      {"jersey": 6, "first_name": "Pierre", "last_name": "Thiers", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": true},
+      {"jersey": 7, "first_name": "Lucien", "last_name": "Ferrand", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false, "cap_number": 335},
+      {"jersey": 8, "first_name": "Pierre", "last_name": "Charton", "is_starter": true, "position": "numero_huit", "is_captain": false, "cap_number": 336},
+      {"jersey": 9, "first_name": "Henri", "last_name": "Peyrelade", "is_starter": true, "position": "demi_de_melee", "is_captain": false, "cap_number": 334},
+      {"jersey": 10, "first_name": "Gilbert", "last_name": "Lavail", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
+      {"jersey": 11, "first_name": "Robert", "last_name": "Tourte", "is_starter": true, "position": "ailier", "is_captain": false, "cap_number": 333},
+      {"jersey": 12, "first_name": "Georges", "last_name": "Libaros", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 13, "first_name": "Edmond", "last_name": "Elissalde", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 14, "first_name": "Maurice", "last_name": "Celhay", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 15, "first_name": "Michel", "last_name": "Bonnus", "is_starter": true, "position": "arriere", "is_captain": false}
+    ],
+    "adversaire": []
+  },
+  "events": [],
+  "substitutions": []
 }
