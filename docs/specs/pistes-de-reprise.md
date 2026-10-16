@@ -1,37 +1,44 @@
 # État du site et pistes de reprise
 
-État au 06/10/2026 au soir, après les remplacements et sélections (finalesrugby.fr), la minute des points et les
-sélectionneurs. Tout est commité et déployé (dernier commit déployé : de3a973).
+État au 16/10/2026 au soir. Tout est commité, déployé et poussé sur GitHub (dernier commit déployé : f5b5601).
 
 ## Prochaine séance
 
-Fait le 06/10/2026 : 27 des 29 matches sans points ; sélections justes (remplaçants restés sur le banc,
-Ibañez 98) ; 1 932 remplacements et 1 323 minutes de points français ; 13 sélectionneurs (piste 5).
+Fait le 16/10/2026 :
+- feuille complète d'Angleterre–France 1907 (Wikipédia anglaise + finalesrugby.fr), avec 3 portraits débloqués
+  (Giacardy, Nanson, Wedge) ; Douglas (et non Daniel) Lambert ;
+- XV français, capitaine et arbitre d'Allemagne 1932, 1933, 1934 et d'Armée britannique 1940 (finalesrugby.fr) :
+  **les 839 matches ont une composition française**, 20 internationaux de plus en base.
 
-Fait le 16/10/2026 : feuille complète d'Angleterre–France 1907 (Wikipédia anglaise + finalesrugby.fr) ;
-XV français, capitaine et arbitre d'Allemagne 1932, 1933 et 1934 (finalesrugby.fr) : équipe allemande et points
-inconnus, la validation refusant des points incomplets ; idem pour Armée britannique 1940 (les 3 points
-français sont un « drop » de Thiers selon finalesrugby.fr, impossible : le drop valait 4 points) ; Douglas (et non Daniel) Lambert.
-Piste pour l'Allemagne : la presse de l'époque sur Gallica (*L'Auto* du 18/04/1932), qui bloque les scripts
-(Cloudflare) : passer par Chrome.
-
-À faire, dans l'ordre proposé :
-1. **Fiches joueurs plus riches** (piste 4) : lieu de naissance, taille, poids, club depuis les fiches
-   equipe-france.fr ; dates de décès depuis Wikipédia. Prochain gros chantier utile.
-2. **Matches de novembre 2026** (piste 2) : 07/11 Fidji, 13/11 Afrique du Sud, 21/11 Argentine, finales 27-29/11.
-3. **Reste des sélections** : 27 matches aux remplacements non appariés (liste : `python3 scripts/finalesrugby/apply.py --dry`),
-   Traille +2, Szarzewski et Michalak +1 face à la page des records ; remplaçants adverses inconnus.
-4. **Numéros d'international après 2016** (piste 3) : trancher la source d'abord.
-5. Plus tard : 2 matches sans points (presse d'époque), adjoints des sélectionneurs, photos du zip, qualité des
-   données, PHP 8.3 avant le 31/12/2026, session design.
+Reprendre par, dans l'ordre proposé :
+1. **Fiches joueurs plus riches** (piste 4), environ une demi-journée en trois étapes :
+   a. equipe-france.fr (1h30-2h) : date et lieu de naissance, taille, poids. 1 269 fiches à mettre en cache
+      (sur le modèle de `xv:fetch-equipe-france`), rattachement par le slug du site ; colonnes `birth_city`,
+      `height_cm`, `weight_kg` déjà en base. **Commencer par là.**
+   b. Wikipédia (1h-1h30) : dates et lieux de décès, API `prop=extracts` par 50.
+   c. Clubs (1h-2h) : décider d'abord colonne ou table (clubs successifs) ; source « This Is Rugby »
+      (`internationaux_encyclo.csv`, 1 090 internationaux).
+2. **Matches de novembre 2026** (piste 2) : 07/11 Fidji, 13/11 Afrique du Sud, 21/11 Argentine, finales 27-29/11
+   (`/feuille-de-match <date> <code>` une fois joués).
+3. **Équipes adverses et points d'Allemagne 1932-1934 et d'Armée britannique 1940** : presse d'époque sur Gallica
+   (*L'Auto* du 18/04/1932 pour commencer), qui bloque les scripts (Cloudflare) : passer par Chrome. La validation
+   refuse des points incomplets : il faut les marqueurs des deux équipes. 1940 : les 3 points français sont un
+   « drop » de Thiers selon finalesrugby.fr, impossible (4 points en 1940), sans doute une pénalité.
+4. **Reste des sélections** : 27 matches aux remplacements non appariés (`python3 scripts/finalesrugby/apply.py --dry`),
+   Traille +2, Szarzewski et Michalak +1 face à la page des records ; 17 internationaux sans joueur en base
+   (`php artisan xv:import-internationaux --report`).
+5. **Numéros d'international après 2016** (piste 3) : trancher la source d'abord.
+6. Plus tard : 2 matches sans points (1927 GER, 1963 ROU), 58 matches sans stade (le JSON ne fixe le stade qu'à la
+   création), adjoints des sélectionneurs, photos d'équipe et stades du dossier « This Is Rugby » (Dropbox),
+   qualité des données, **PHP 8.3 avant le 31/12/2026**, session design.
 
 ## Où on en est
 
 | Domaine | État |
 |---------|------|
 | Matches | 839 matches officiels (référence : liste Wikipédia, voir `docs/sources.md`) |
-| Feuilles de match | 834 détaillées : compositions des deux équipes, capitaines, arbitre ; points pour 832 (2 sans points), minute connue pour 80 % des points français ; remplacements français et remplaçants restés sur le banc (finalesrugby.fr) |
-| Joueurs | ~7 000, dont 1 229 Français ; 1 051 numéros d'international, 1 036 dates de naissance |
+| Feuilles de match | 839 avec la composition française ; 835 avec les deux équipes, capitaines, arbitre ; points pour 832 (7 sans points), minute connue pour 80 % des points français ; remplacements français et remplaçants restés sur le banc (finalesrugby.fr) |
+| Joueurs | ~7 000, dont 1 251 Français ; 1 073 numéros d'international, 1 055 dates de naissance |
 | Noms | 83 noms français corrigés d'après Wikipédia (`noms_ecarts.csv`) |
 | Portraits | 119 joueurs d'avant 1930 |
 | Sélectionneurs | 13 depuis 1963, avec leurs mandats (`selectionneurs.csv`) |
