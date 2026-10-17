@@ -14,8 +14,9 @@ use Illuminate\Support\Facades\DB;
 /**
  * Clubs des internationaux français. Les clubs (clubs.csv) et la correspondance des noms des sources
  * (club_names.csv : nom brut → club et nom à l'époque) sont versionnés. Les clubs d'un joueur viennent de la liste
- * « This Is Rugby » (internationaux_encyclo.csv, par numéro d'international, jusqu'à 2016), à défaut du club donné
- * par equipe-france.fr (joueurs récents). Les liens joueur ↔ club sont reconstruits à chaque import.
+ * « This Is Rugby » (internationaux_encyclo.csv, par numéro d'international, jusqu'à 2016), à défaut de l'encadré
+ * de leur article Wikipédia (wikipedia_clubs.csv, scripts/wikipedia/clubs.py), à défaut du club actuel donné par
+ * equipe-france.fr. Les liens joueur ↔ club sont reconstruits à chaque import.
  */
 class ImportClubs extends Command
 {
@@ -27,6 +28,7 @@ class ImportClubs extends Command
     private const CLUBS = 'database/data/sources/clubs.csv';
     private const NAMES = 'database/data/sources/club_names.csv';
     private const ENCYCLO = 'database/data/sources/internationaux_encyclo.csv';
+    private const WIKIPEDIA = 'database/data/sources/wikipedia_clubs.csv';
     private const EQUIPE_FRANCE = 'database/data/sources/equipe_france_players.csv';
 
     /** @var array<string, array{0: string, 1: string}> nom brut en minuscules → [slug du club, nom à l'époque] */
@@ -56,12 +58,17 @@ class ImportClubs extends Command
                 $memberships[$playerId] = $this->resolve(explode(',', $row['clubs']), 'liste des internationaux');
             }
         }
+        foreach ($this->readCsv(self::WIKIPEDIA) as $row) {
+            $playerId = $this->playerAt($row['match_date'], $row['jersey']);
+            if ($playerId && empty($memberships[$playerId])) {
+                $memberships[$playerId] = $this->resolve(explode(';', $row['clubs']), 'Wikipédia');
+            }
+        }
         foreach ($this->readCsv(self::EQUIPE_FRANCE) as $row) {
             if ($row['club'] === '') {
                 continue;
             }
-            $playerId = MatchLineup::where('team_side', TeamSide::FRANCE)->where('jersey_number', $row['jersey'])
-                ->whereHas('match', fn ($q) => $q->whereDate('match_date', $row['match_date']))->value('player_id');
+            $playerId = $this->playerAt($row['match_date'], $row['jersey']);
             // Club actuel selon le site (« Stade toulousain (31) ») : seulement pour les joueurs absents de la liste
             if ($playerId && empty($memberships[$playerId])) {
                 $memberships[$playerId] = $this->resolve([preg_replace('/\s*\(\d+\)$/', '', $row['club'])], 'equipe-france.fr');
@@ -99,6 +106,13 @@ class ImportClubs extends Command
         });
 
         return self::SUCCESS;
+    }
+
+    /** Joueur français qui portait ce numéro ce jour-là */
+    private function playerAt(string $date, string $jersey): ?int
+    {
+        return MatchLineup::where('team_side', TeamSide::FRANCE)->where('jersey_number', $jersey)
+            ->whereHas('match', fn ($q) => $q->whereDate('match_date', $date))->value('player_id');
     }
 
     /** Noms bruts → [[slug, nom à l'époque, source]], un club n'apparaissant qu'une fois (son premier nom) */

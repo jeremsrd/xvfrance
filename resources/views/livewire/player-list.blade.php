@@ -45,7 +45,17 @@
                         @endforeach
                     </select>
                 </label>
-                @if($team !== 'bleus')
+                @if($team === 'bleus')
+                    <label>
+                        <span class="sr-only">Club</span>
+                        <select wire:model.live="club" class="{{ $field }}">
+                            <option value="">Tous les clubs</option>
+                            @foreach($clubs as $c)
+                                <option value="{{ $c->slug }}">{{ $c->name }}</option>
+                            @endforeach
+                        </select>
+                    </label>
+                @else
                     <label>
                         <span class="sr-only">Nationalité</span>
                         <select wire:model.live="country" class="{{ $field }}">
@@ -56,7 +66,7 @@
                         </select>
                     </label>
                 @endif
-                <label class="{{ $team === 'bleus' ? 'col-span-1 lg:col-span-2' : '' }}">
+                <label class="col-span-2 lg:col-span-1">
                     <span class="sr-only">Trier</span>
                     <select wire:model.live="order" class="{{ $field }}">
                         <option value="nom">Par nom</option>
@@ -75,7 +85,7 @@
 
     {{-- ═══ Annuaire ═══ --}}
     <section id="liste" class="scroll-mt-4 py-10">
-        <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8" wire:loading.class="opacity-60" wire:target="search,team,country,position,order,gotoPage,nextPage,previousPage">
+        <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8" wire:loading.class="opacity-60" wire:target="search,team,country,position,club,order,gotoPage,nextPage,previousPage">
             @if($players->isEmpty())
                 <div class="rounded-2xl border border-dashed border-filet p-10 text-center">
                     <p class="font-display text-2xl font-bold uppercase text-encre">Aucun joueur</p>

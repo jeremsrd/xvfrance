@@ -189,6 +189,7 @@ Pièges connus :
 | `venue_coordinates.csv` | Coordonnées des stades (précision « stade » ou « ville ») | `xv:import-venue-coordinates` |
 | `clubs.csv` | Clubs des internationaux : slug, nom usuel (graphie de Wikipédia), ville, pays | `xv:import-clubs` |
 | `club_names.csv` | Nom de club des sources → club et nom à l'époque (vide : écarté) | `xv:import-clubs` |
+| `wikipedia_clubs.csv` | Clubs de l'encadré Wikipédia, par première sélection (date, maillot) — généré par `scripts/wikipedia/clubs.py` | `xv:import-clubs` |
 | `dates_corrections.csv` | Dates de naissance et de décès vérifiées (Wikidata, INSEE), avec leur source | `xv:apply-date-corrections` |
 
 Les feuilles de match détaillées sont dans `database/data/matches/{année}/*.json`
@@ -226,9 +227,13 @@ du même projet.
 
 Importés par `xv:import-clubs` (tables `clubs` et `player_clubs`, reconstruites à chaque import) :
 - **Sources** : la colonne `clubs` de la liste « This Is Rugby » (clubs de la carrière internationale, dans
-  l'ordre, sans dates, jusqu'à 2016), par numéro d'international ; à défaut, le club actuel donné par
-  equipe-france.fr (63 joueurs récents). Le 17/10/2026 : 117 clubs, 1 121 internationaux, 1 368 passages ;
-  97 internationaux sans club, surtout ceux d'après 2016 (à compléter, par exemple avec Wikipédia).
+  l'ordre, sans dates, jusqu'à 2016), par numéro d'international ; à défaut, le champ « club » (seniors) de
+  l'encadré de l'article Wikipédia du joueur (`wikipedia_clubs.csv`, relevé par `python3 scripts/wikipedia/clubs.py`
+  via la liste des sélectionnés : titre de l'article du club, intertitres « Rugby à XV / à XIII » écartés) ;
+  à défaut, le club actuel donné par equipe-france.fr. Le 17/10/2026 : 143 clubs, 1 211 internationaux,
+  1 652 passages (1 065 par la liste, 146 par Wikipédia) ; 7 sans club (3 joueurs de 1971 sans prénom, 4 articles
+  sans encadré). Les clubs de rugby à XIII sont écartés (vides dans `club_names.csv`) ; un club étranger est gardé
+  (Brumbies, Munster…). Stado Tarbes Pyrénées rugby continue le Stadoceste tarbais (redirection sur Wikipédia).
 - **Un club au sens de Wikipédia** (choix du 17/10/2026) : un club renommé reste le même (Racing Club de France →
   Racing Métro 92 → Racing 92, AS Montferrand → ASM Clermont Auvergne) ; une fusion qui crée un club en fait un
   nouveau (Union Bordeaux Bègles en 2006, après le CA Bègles et le Stade bordelais ; le CASG reste distinct du Stade

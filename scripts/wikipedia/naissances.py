@@ -48,7 +48,8 @@ def liste():
     rows = []
     for row in re.split(r'\n\|-+', text):
         m = re.match(r'\s*\|\s*\[\[([^\]|]+)(?:\|([^\]]+))?\]\]', row)
-        d = re.search(r'\{\{date\|(\d+)(?:er)?\s+(\w+)\s+(\d{4})', row)
+        # Date de première sélection, avec ou sans {{date}} (la liste s'en passe à partir de février 2020)
+        d = re.search(r'(?:\{\{date\||\ble )(\d+)(?:er)?\s+(\w+)\s+(\d{4})', row)
         if m and d and d.group(2) in MOIS:
             first = f'{d.group(3)}-{MOIS[d.group(2)]:02d}-{int(d.group(1)):02d}'
             rows.append((m.group(1).strip(), (m.group(2) or m.group(1)).strip(), first))
@@ -108,6 +109,23 @@ def site_births():
     return births
 
 
+def rapprocher(label, first, players, by_date):
+    """Joueurs de la base qui correspondent à une ligne de la liste (un seul attendu)."""
+    candidates = by_date.get(first, [])
+    found = [p for p in candidates if norm(p[1] + ' ' + p[2]) == norm(label)]
+    if not found:
+        found = [p for p in candidates if norm(p[2]) and norm(label).endswith(norm(p[2]))]
+    if not found:
+        # Date de première sélection décalée d'un côté ou de l'autre : même nom, moins d'un an d'écart
+        found = [p for p in players if norm(p[1] + ' ' + p[2]) == norm(label)
+                 and abs(int(p[5][:4]) - int(first[:4])) <= 1]
+    if not found:
+        # Graphies différentes (de Malmann / de Mallemann, Iguiniz / Iguinitz) : nom proche, même époque
+        found = [p for p in players if abs(int(p[5][:4]) - int(first[:4])) <= 1
+                 and difflib.SequenceMatcher(None, norm(p[1] + ' ' + p[2]), norm(label)).ratio() >= 0.85]
+    return found
+
+
 def main():
     rows = liste()
     ids = wikidata_ids(sorted({t for t, _, _ in rows}))
@@ -121,18 +139,7 @@ def main():
 
     result, unmatched = [], []
     for title, label, first in rows:
-        candidates = by_date.get(first, [])
-        found = [p for p in candidates if norm(p[1] + ' ' + p[2]) == norm(label)]
-        if not found:
-            found = [p for p in candidates if norm(p[2]) and norm(label).endswith(norm(p[2]))]
-        if not found:
-            # Date de première sélection décalée d'un côté ou de l'autre : même nom, moins d'un an d'écart
-            found = [p for p in players if norm(p[1] + ' ' + p[2]) == norm(label)
-                     and abs(int(p[5][:4]) - int(first[:4])) <= 1]
-        if not found:
-            # Graphies différentes (de Malmann / de Mallemann, Iguiniz / Iguinitz) : nom proche, même époque
-            found = [p for p in players if abs(int(p[5][:4]) - int(first[:4])) <= 1
-                     and difflib.SequenceMatcher(None, norm(p[1] + ' ' + p[2]), norm(label)).ratio() >= 0.85]
+        found = rapprocher(label, first, players, by_date)
         if len(found) != 1:
             unmatched.append((label, first, len(found)))
             continue

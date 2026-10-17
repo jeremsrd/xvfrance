@@ -27,3 +27,4 @@ Thumbs.db
 # Claude Code : réglages personnels et skills externes
 /.claude/settings.local.json
 /.claude/skills/ui-ux-pro-max/
+__pycache__/

@@ -3,6 +3,7 @@
 namespace App\Livewire;
 
 use App\Enums\PlayerPosition;
+use App\Models\Club;
 use App\Models\Country;
 use App\Models\Player;
 use Livewire\Component;
@@ -17,6 +18,8 @@ class PlayerList extends Component
     public string $team = 'bleus';
     public string $country = '';
     public string $position = '';
+    /** slug du club (internationaux français seulement) */
+    public string $club = '';
     /** nom | matches | selection */
     public string $order = 'nom';
 
@@ -25,12 +28,13 @@ class PlayerList extends Component
         'team' => ['except' => 'bleus'],
         'country' => ['except' => ''],
         'position' => ['except' => ''],
+        'club' => ['except' => ''],
         'order' => ['except' => 'nom'],
     ];
 
     public function updating(string $property): void
     {
-        if (in_array($property, ['search', 'team', 'country', 'position', 'order'], true)) {
+        if (in_array($property, ['search', 'team', 'country', 'position', 'club', 'order'], true)) {
             $this->resetPage();
         }
     }
@@ -38,11 +42,12 @@ class PlayerList extends Component
     public function updatedTeam(): void
     {
         $this->country = '';
+        $this->club = '';
     }
 
     public function resetFilters(): void
     {
-        $this->reset(['search', 'country', 'position', 'order']);
+        $this->reset(['search', 'country', 'position', 'club', 'order']);
         $this->resetPage();
     }
 
@@ -78,6 +83,10 @@ class PlayerList extends Component
             $query->where('primary_position', $this->position);
         }
 
+        if ($this->club !== '' && $this->team === 'bleus') {
+            $query->whereHas('clubMemberships.club', fn ($q) => $q->where('slug', $this->club));
+        }
+
         match ($this->order) {
             'matches' => $query->orderByDesc('lineups_count')->orderBy('last_name'),
             // Joueurs sans numéro de sélection en fin de liste
@@ -89,11 +98,12 @@ class PlayerList extends Component
             'players' => $query->paginate(48),
             'countries' => Country::where('id', '!=', $franceId)->whereHas('players')->orderBy('name')->get(),
             'positions' => PlayerPosition::cases(),
+            'clubs' => Club::whereHas('memberships')->orderBy('name')->get(['name', 'slug']),
             'counts' => [
                 'bleus' => Player::where('country_id', $franceId)->count(),
                 'adversaires' => Player::where('country_id', '!=', $franceId)->count(),
             ],
-            'filtered' => $this->search !== '' || $this->country !== '' || $this->position !== '' || $this->order !== 'nom',
+            'filtered' => $this->search !== '' || $this->country !== '' || $this->position !== '' || $this->club !== '' || $this->order !== 'nom',
         ])->layout('layouts.app');
     }
 }

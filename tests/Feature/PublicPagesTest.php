@@ -4,6 +4,7 @@ namespace Tests\Feature;
 
 use App\Enums\EventType;
 use App\Enums\TeamSide;
+use App\Livewire\PlayerList;
 use App\Models\Club;
 use App\Models\Coach;
 use App\Models\CoachTenure;
@@ -17,6 +18,7 @@ use App\Models\PlayerClub;
 use App\Models\RugbyMatch;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use PHPUnit\Framework\Attributes\DataProvider;
+use Livewire\Livewire;
 use Tests\TestCase;
 
 class PublicPagesTest extends TestCase
@@ -102,6 +104,13 @@ class PublicPagesTest extends TestCase
         foreach (['home', 'matches.index', 'players.index', 'opponents.index', 'competitions.index', 'coaches.index', 'records.index', 'venues.index'] as $route) {
             $this->get(route($route))->assertOk();
         }
+    }
+
+    public function test_players_can_be_filtered_by_club(): void
+    {
+        Livewire::test(PlayerList::class, ['club' => 'stade-toulousain'])
+            ->assertSee($this->frenchPlayer->last_name)
+            ->assertViewHas('players', fn ($players) => $players->total() === 1);
     }
 
     public function test_unknown_slugs_return_404(): void

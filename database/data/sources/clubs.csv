@@ -1,4 +1,5 @@
 slug,name,city,country_code
+ac-bobigny,AC Bobigny 93,Bobigny,FRA
 arlequins-perpignanais,Arlequins perpignanais,Perpignan,FRA
 as-beziers,AS Béziers Hérault,Béziers,FRA
 as-bourse,AS de la Bourse,Paris,FRA
@@ -14,46 +15,66 @@ biarritz-olympique,Biarritz olympique Pays basque,Biarritz,FRA
 biarritz-stade,Biarritz Stade,Biarritz,FRA
 bordeaux-etudiants-club,Bordeaux étudiants club,Bordeaux,FRA
 boucau-stade,Boucau Stade,Boucau,FRA
-ca-brive,CA Brive,Brive-la-Gaillarde,FRA
+bristol,Bristol Bears,Bristol,ENG
+brumbies,Brumbies,Canberra,AUS
+bulls,Bulls,Pretoria,RSA
 ca-begles,CA Bègles-Bordeaux,Bègles,FRA
+ca-brive,CA Brive,Brive-la-Gaillarde,FRA
 ca-lannemezan,CA Lannemezan,Lannemezan,FRA
 ca-perigueux,CA Périgueux,Périgueux,FRA
 ca-villeneuve,CA villeneuvois,Villeneuve-sur-Lot,FRA
+canberra-vikings,Canberra Vikings,Canberra,AUS
 casg-paris,CASG Paris,Paris,FRA
 castres-olympique,Castres olympique,Castres,FRA
+club-newman,Club Newman,Buenos Aires,ARG
 co-creusot,CO Le Creusot,Le Creusot,FRA
 colomiers,Colomiers rugby,Colomiers,FRA
 cs-bourgoin,CS Bourgoin-Jallieu,Bourgoin-Jallieu,FRA
 cs-vienne,CS Vienne,Vienne,FRA
+eastern-suburbs,Eastern Suburbs,Sydney,AUS
 fc-aix-les-bains,FC Aix-les-Bains,Aix-les-Bains,FRA
 fc-auch,FC Auch Gers,Auch,FRA
 fc-grenoble,FC Grenoble,Grenoble,FRA
+fc-lezignan,FC Lézignan,Lézignan-Corbières,FRA
 fc-lourdes,FC Lourdes,Lourdes,FRA
 fc-lyon,FC Lyon,Lyon,FRA
-fc-lezignan,FC Lézignan,Lézignan-Corbières,FRA
 fc-oloron,FC Oloron,Oloron-Sainte-Marie,FRA
+fijian-drua,Fijian Drua,Lautoka,FIJ
 gloucester,Gloucester Rugby,Gloucester,ENG
+golden-lions,Golden Lions,Johannesburg,RSA
 harlequins,Harlequins,Londres,ENG
-la-voulte,La Voulte sportif,La Voulte-sur-Rhône,FRA
 havre-ac,Le Havre AC,Le Havre,FRA
+la-voulte,La Voulte sportif,La Voulte-sur-Rhône,FRA
 leicester,Leicester Tigers,Leicester,ENG
 london-irish,London Irish,Londres,ENG
 lyon-ou,Lyon OU,Lyon,FRA
+melbourne-rising,Melbourne Rising,Melbourne,AUS
 montpellier,Montpellier HR,Montpellier,FRA
+munster,Munster,Limerick,IRL
 nac-roanne,NAC Roanne,Roanne,FRA
+nissa-rugby,Nissa Rugby,Nice,FRA
 northampton,Northampton Saints,Northampton,ENG
+nsw-country-eagles,NSW Country Eagles,,AUS
 olympique-marseille,Olympique de Marseille,Marseille,FRA
+oyonnax,US Oyonnax,Oyonnax,FRA
+plouzane-ac,Plouzané AC,Plouzané,FRA
+provence-rugby,Provence Rugby,Aix-en-Provence,FRA
 puc,Paris université club,Paris,FRA
 racing-92,Racing 92,Nanterre,FRA
 rc-chalon,RC Chalon,Chalon-sur-Saône,FRA
 rc-hyeres,RC Hyères,Hyères,FRA
+rc-massy,RC Massy Essonne,Massy,FRA
 rc-narbonne,RC Narbonne,Narbonne,FRA
 rc-nimes,RC Nîmes,Nîmes,FRA
 rc-rouen,RC Rouen,Rouen,FRA
 rc-toulon,RC Toulon,Toulon,FRA
+rc-vannes,RC Vannes,Vannes,FRA
 rc-vichy,RC Vichy,Vichy,FRA
+rennes-ec,Rennes étudiants club,Rennes,FRA
+rouen-normandie,Rouen Normandie Rugby,Rouen,FRA
 rrc-nice,RRC Nice,Nice,FRA
 sa-bordelais,SA bordelais,Bordeaux,FRA
+sa-condom,SA Condom,Condom,FRA
 sa-mauleon,SA Mauléon,Mauléon-Licharre,FRA
 sa-merignac,SA Mérignac,Mérignac,FRA
 sa-rochefort,SA Rochefort,Rochefort,FRA
@@ -87,6 +108,7 @@ stade-hendayais,Stade hendayais,Hendaye,FRA
 stade-lavelanetien,Stade lavelanétien,Lavelanet,FRA
 stade-montois,Stade montois,Mont-de-Marsan,FRA
 stade-nantais,Stade nantais,Nantes,FRA
+stade-phoceen,Stade phocéen Marseille Vitrolles,Marseille,FRA
 stade-poitevin,Stade poitevin,Poitiers,FRA
 stade-rochelais,Stade rochelais,La Rochelle,FRA
 stade-saint-gaudinois,Stade saint-gaudinois,Saint-Gaudens,FRA
@@ -104,15 +126,19 @@ us-carmaux,US Carmaux,Carmaux,FRA
 us-cognac,US Cognac,Cognac,FRA
 us-dax,US Dax,Dax,FRA
 us-fumel,US Fumel Libos,Fumel,FRA
+us-metropolitaine,US métropolitaine,Paris,FRA
 us-montauban,US Montauban,Montauban,FRA
 us-montelimar,US Montélimar,Montélimar,FRA
-us-metropolitaine,US métropolitaine,Paris,FRA
-oyonnax,US Oyonnax,Oyonnax,FRA
+us-nafarroa,US Nafarroa,Saint-Jean-Pied-de-Port,FRA
 us-quillan,US Quillan,Quillan,FRA
 us-romans,US Romans Péage,Romans-sur-Isère,FRA
 us-tyrosse,US Tyrosse,Saint-Vincent-de-Tyrosse,FRA
 usa-limoges,USA Limoges,Limoges,FRA
 usap,USA Perpignan,Perpignan,FRA
+uson-nevers,USON Nevers,Nevers,FRA
+valence-romans,Valence Romans Drôme Rugby,Valence,FRA
 valence-sportif,Valence sportif,Valence,FRA
 vc-beauvais,Vélo club beauvaisien,Beauvais,FRA
+waratahs,Waratahs,Sydney,AUS
+warringah,Warringah,Sydney,AUS
 wasps,Wasps,Londres,ENG
