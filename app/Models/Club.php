@@ -9,7 +9,7 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 
 /**
  * Club d'un international, au sens de Wikipédia : un club renommé reste le même (Racing Club de France → Racing 92),
- * une fusion qui crée un club en fait un nouveau (USA Perpignan, Union Bordeaux Bègles).
+ * une fusion qui crée un club en fait un nouveau (Union Bordeaux Bègles).
  */
 class Club extends Model
 {

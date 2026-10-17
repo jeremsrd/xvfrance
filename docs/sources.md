@@ -227,12 +227,13 @@ du même projet.
 Importés par `xv:import-clubs` (tables `clubs` et `player_clubs`, reconstruites à chaque import) :
 - **Sources** : la colonne `clubs` de la liste « This Is Rugby » (clubs de la carrière internationale, dans
   l'ordre, sans dates, jusqu'à 2016), par numéro d'international ; à défaut, le club actuel donné par
-  equipe-france.fr (63 joueurs récents). Le 17/10/2026 : 119 clubs, 1 121 internationaux, 1 368 passages ;
+  equipe-france.fr (63 joueurs récents). Le 17/10/2026 : 117 clubs, 1 121 internationaux, 1 368 passages ;
   97 internationaux sans club, surtout ceux d'après 2016 (à compléter, par exemple avec Wikipédia).
 - **Un club au sens de Wikipédia** (choix du 17/10/2026) : un club renommé reste le même (Racing Club de France →
   Racing Métro 92 → Racing 92, AS Montferrand → ASM Clermont Auvergne) ; une fusion qui crée un club en fait un
-  nouveau (USA Perpignan en 1933, après l'US perpignanaise et les Arlequins perpignanais ; Union Bordeaux Bègles en
-  2006, après le CA Bègles et le Stade bordelais ; le CASG reste distinct du Stade français).
+  nouveau (Union Bordeaux Bègles en 2006, après le CA Bègles et le Stade bordelais ; le CASG reste distinct du Stade
+  français). Exception voulue : l'US perpignanaise et l'AS perpignanaise sont rattachées à l'USA Perpignan (même
+  club pour l'utilisateur) ; les Arlequins perpignanais restent à part.
 - **Nom affiché** : celui de l'époque sur la fiche du joueur (`player_clubs.name`, « Racing Club de France » pour
   Gaston Lane), le nom actuel sur la page du club, avec les anciens noms en sous-titre.
 - `club_names.csv` corrige au passage les coquilles de la liste (« Stade Toyulousain », « Bitteroise »…) ; la

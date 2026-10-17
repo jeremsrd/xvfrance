@@ -87,6 +87,8 @@ class ImportClubs extends Command
             foreach ($clubs as $slug => $values) {
                 Club::updateOrCreate(['slug' => $slug], $values);
             }
+            // Club retiré de clubs.csv (rattaché à un autre, par exemple) : sa page disparaît
+            Club::whereNotIn('slug', array_keys($clubs))->delete();
             $ids = Club::pluck('id', 'slug');
             PlayerClub::query()->delete();
             foreach ($memberships as $playerId => $list) {
