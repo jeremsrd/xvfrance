@@ -66,7 +66,7 @@
 
     $venueCards = ['home' => 'En France', 'away' => 'Hors de France', 'neutral' => 'Terrain neutre'];
 
-    $sections = ['phares' => 'Records phares', 'ecarts' => 'Écarts', 'scores' => 'Scores', 'series' => 'Séries', 'adversaires' => 'Par adversaire', 'joueurs' => 'Joueurs', 'selections' => 'Recordmen des sélections', 'epoques' => 'Époques'];
+    $sections = ['phares' => 'Records phares', 'ecarts' => 'Écarts', 'scores' => 'Scores', 'series' => 'Séries', 'adversaires' => 'Par adversaire', 'joueurs' => 'Joueurs', 'selections' => 'Recordmen des sélections', 'recordmen-essais' => 'Recordmen des essais', 'recordmen-points' => 'Recordmen des points', 'epoques' => 'Époques'];
 @endphp
 
 @section('content')
@@ -236,7 +236,29 @@
             <h2 id="selections-titre" class="font-display text-3xl font-bold uppercase tracking-tight text-encre">Recordmen des sélections</h2>
             <p class="mt-2 max-w-2xl font-serif text-texte-2">Le record du nombre de sélections avec le XV de France, de main en main depuis 1906.</p>
             @if($capsRecordHistory->isNotEmpty())
-                @include('records.partials.caps-record', ['history' => $capsRecordHistory])
+                @include('records.partials.record-history', ['history' => $capsRecordHistory, 'unit' => ['sélection', 'sélections'], 'reached' => fn ($n) => "avec sa {$n}<sup>e</sup> sélection"])
+            @endif
+        </div>
+    </section>
+
+    {{-- ═══ Recordmen des essais ═══ --}}
+    <section id="recordmen-essais" class="scroll-mt-4 border-t border-filet bg-white py-12 lg:py-16" aria-labelledby="recordmen-essais-titre">
+        <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+            <h2 id="recordmen-essais-titre" class="font-display text-3xl font-bold uppercase tracking-tight text-encre">Recordmen des essais</h2>
+            <p class="mt-2 max-w-2xl font-serif text-texte-2">Le record du nombre d'essais marqués avec le XV de France, de main en main depuis 1906 (essais de pénalité exclus).</p>
+            @if($triesRecordHistory->isNotEmpty())
+                @include('records.partials.record-history', ['history' => $triesRecordHistory, 'unit' => ['essai', 'essais'], 'reached' => fn ($n) => $n === 1 ? 'avec son premier essai' : "avec son {$n}<sup>e</sup> essai"])
+            @endif
+        </div>
+    </section>
+
+    {{-- ═══ Recordmen des points ═══ --}}
+    <section id="recordmen-points" class="scroll-mt-4 border-t border-filet py-12 lg:py-16" aria-labelledby="recordmen-points-titre">
+        <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+            <h2 id="recordmen-points-titre" class="font-display text-3xl font-bold uppercase tracking-tight text-encre">Recordmen des points</h2>
+            <p class="mt-2 max-w-2xl font-serif text-texte-2">Le record du nombre de points marqués avec le XV de France, de main en main depuis 1906, selon le barème de chaque époque.</p>
+            @if($pointsRecordHistory->isNotEmpty())
+                @include('records.partials.record-history', ['history' => $pointsRecordHistory, 'unit' => ['point', 'points'], 'reached' => fn ($n) => "en le portant à {$n} points"])
             @endif
         </div>
     </section>

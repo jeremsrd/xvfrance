@@ -1,5 +1,7 @@
-{{-- Recordmen des sélections successifs : $history (RecordsService::capsRecordHistory()), $focus --}}
+{{-- Recordmen successifs : $history (RecordsService::capsRecordHistory()…), $unit = [singulier, pluriel],
+     $reached = fn (int $n) => « avec sa 100<sup>e</sup> sélection » (HTML), $focus --}}
 @php
+    $count = fn (int $n) => $n . ' ' . $unit[$n > 1 ? 1 : 0];
     $on = fn ($match) => 'le ' . $match->match_date->format('d/m/Y') . ' contre ' . $match->opponent->withArticle();
 
     // Règnes à l'échelle : de 1906 à aujourd'hui, une barre par recordman seul, longueur = durée du règne
@@ -79,7 +81,7 @@
             <p class="font-display text-sm font-semibold uppercase tracking-[0.14em] text-texte-2 tabular-nums">
                 {{ $entry['match']->match_date->year }}
                 @if($alone && !$entry['equalled'])
-                    · <span class="text-encre">{{ $entry['caps'] }} sélections</span>
+                    · <span class="text-encre">{{ $count($entry['value']) }}</span>
                 @endif
             </p>
 
@@ -92,10 +94,10 @@
                         <a href="{{ route('players.show', $player) }}" class="font-display text-2xl font-bold uppercase tracking-tight text-encre hover:underline {{ $focus }}">{{ $player->fullName() }}</a>
                         <p class="mt-1 font-serif text-texte-2">
                             @if($entry['equalled'])
-                                Égale le record ({{ $entry['caps'] }} sélections) {{ $on($entry['match']) }} et le partage avec
+                                Égale le record ({{ $count($entry['value']) }}) {{ $on($entry['match']) }} et le partage avec
                                 {{ $entry['with']->map->fullName()->join(', ', ' et ') }}, sans le battre.
                             @else
-                                Prend seul le record avec sa {{ $entry['caps'] }}<sup>e</sup> sélection, <a href="{{ route('matches.show', $entry['match']) }}" class="underline decoration-filet underline-offset-2 hover:decoration-encre {{ $focus }}">{{ $on($entry['match']) }}</a>@if($entry['equalledMatch']), après l'avoir égalé {{ $on($entry['equalledMatch']) }}@endif.
+                                Prend seul le record {!! $reached($entry['value']) !!}, <a href="{{ route('matches.show', $entry['match']) }}" class="underline decoration-filet underline-offset-2 hover:decoration-encre {{ $focus }}">{{ $on($entry['match']) }}</a>@if($entry['equalledMatch']), après l'avoir égalé {{ $on($entry['equalledMatch']) }}@endif.
                             @endif
                         </p>
                         @php
@@ -108,7 +110,7 @@
                             };
                         @endphp
                         <p class="mt-1 text-sm text-texte-2">
-                            @if($reign)<b @class(['font-semibold text-encre' => $current, 'font-normal' => !$current])>{{ $reign }}</b> · @endif{{ $entry['totals'][$player->id] }} sélections en carrière
+                            @if($reign)<b @class(['font-semibold text-encre' => $current, 'font-normal' => !$current])>{{ $reign }}</b> · @endif{{ $count($entry['totals'][$player->id]) }} en carrière
                         </p>
                     </div>
                 </div>
@@ -121,9 +123,9 @@
                                 <a href="{{ route('players.show', $p) }}" class="hover:underline {{ $focus }}">{{ $p->fullName() }}</a>@if(!$loop->last) et @endif
                             @endforeach
                         </span>
-                        partagent le record ({{ $entry['caps'] }} sélections) {{ $on($entry['match']) }}.
+                        partagent le record ({{ $count($entry['value']) }}) {{ $on($entry['match']) }}.
                     @else
-                        Record partagé par {{ $entry['players']->count() }} joueurs ({{ $entry['caps'] }} sélection{{ $entry['caps'] > 1 ? 's' : '' }}) {{ $on($entry['match']) }} :
+                        Record partagé par {{ $entry['players']->count() }} joueurs ({{ $count($entry['value']) }}) {{ $on($entry['match']) }} :
                         @foreach($entry['players'] as $p)
                             <a href="{{ route('players.show', $p) }}" class="hover:underline {{ $focus }}">{{ $p->fullName() }}</a>{{ $loop->last ? '.' : ',' }}
                         @endforeach

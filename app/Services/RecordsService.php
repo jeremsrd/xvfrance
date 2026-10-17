@@ -10,6 +10,7 @@ use App\Models\Player;
 use App\Models\RugbyMatch;
 use App\Support\RecordSummary;
 use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Support\Carbon;
 use Illuminate\Support\Collection;
 
 /**
@@ -198,7 +199,7 @@ class RecordsService
      * Les recordmen des sélections successifs : chaque fois qu'un joueur prend seul le record du nombre de matches
      * joués avec le XV de France (remplaçants restés sur le banc exclus), ou l'égale et le partage.
      *
-     * @return Collection<int, array{players: Collection<int, Player>, match: RugbyMatch, caps: int, equalled: bool, with: Collection<int, Player>, equalledMatch: RugbyMatch|null, until: RugbyMatch|null, totals: array<int, int>}>
+     * @return Collection<int, array{players: Collection<int, Player>, match: RugbyMatch, value: int, equalled: bool, with: Collection<int, Player>, equalledMatch: RugbyMatch|null, until: RugbyMatch|null, totals: array<int, int>}>
      */
     public function capsRecordHistory(): Collection
     {
@@ -208,17 +209,74 @@ class RecordsService
             ->orderBy('matches.match_date')->orderBy('matches.id')
             ->get(['match_lineups.match_id', 'match_lineups.player_id']);
 
-        $caps = [];
+        return $this->recordHistory(
+            $lineups->groupBy('match_id')->map(fn (Collection $rows) => $rows->mapWithKeys(fn ($row) => [$row->player_id => 1])->all())
+        );
+    }
+
+    /**
+     * Les recordmen des essais successifs (essais de pénalité exclus), même format que capsRecordHistory().
+     */
+    public function triesRecordHistory(): Collection
+    {
+        return $this->recordHistory($this->scoringByMatch()->map(
+            fn (Collection $events) => $events->where('event_type', EventType::ESSAI)->countBy('player_id')->all()
+        ));
+    }
+
+    /**
+     * Les recordmen des points successifs, selon le barème de chaque époque (EventType::points()),
+     * même format que capsRecordHistory().
+     */
+    public function pointsRecordHistory(): Collection
+    {
+        return $this->recordHistory($this->scoringByMatch()->map(
+            fn (Collection $events) => $events->groupBy('player_id')
+                ->map(fn (Collection $own) => $own->sum(fn ($e) => $e->event_type->points(Carbon::parse($e->match_date))))
+                ->all()
+        ));
+    }
+
+    // --- Interne ---
+
+    /**
+     * Événements qui rapportent des points à un joueur français, par match dans l'ordre chronologique.
+     *
+     * @return Collection<int, Collection<int, MatchEvent>>
+     */
+    private function scoringByMatch(): Collection
+    {
+        return MatchEvent::query()
+            ->where('team_side', TeamSide::FRANCE)
+            ->whereNotNull('player_id')
+            ->whereIn('event_type', [EventType::ESSAI, EventType::TRANSFORMATION, EventType::PENALITE, EventType::DROP])
+            ->join('matches', 'matches.id', '=', 'match_events.match_id')
+            ->orderBy('matches.match_date')->orderBy('matches.id')
+            ->get(['match_events.match_id', 'match_events.player_id', 'match_events.event_type', 'matches.match_date'])
+            ->groupBy('match_id');
+    }
+
+    /**
+     * Recordmen successifs d'un total cumulé : chaque fois qu'un joueur prend seul le record, ou l'égale et le partage.
+     *
+     * @param  Collection<int, array<int, int>>  $gains  par match (clé = match_id, ordre chronologique) : player_id => gain
+     */
+    private function recordHistory(Collection $gains): Collection
+    {
+        $totals = [];
         $record = 0;
         $holders = [];
         $entries = [];
-        foreach ($lineups->groupBy('match_id') as $matchId => $rows) {
-            $ids = $rows->pluck('player_id')->all();
-            foreach ($ids as $id) {
-                $caps[$id] = ($caps[$id] ?? 0) + 1;
+        foreach ($gains as $matchId => $byPlayer) {
+            $ids = array_keys(array_filter($byPlayer));
+            if (!$ids) {
+                continue;
             }
-            $best = max(array_map(fn ($id) => $caps[$id], $ids));
-            $atBest = array_values(array_filter($ids, fn ($id) => $caps[$id] === $best));
+            foreach ($byPlayer as $id => $gain) {
+                $totals[$id] = ($totals[$id] ?? 0) + $gain;
+            }
+            $best = max(array_map(fn ($id) => $totals[$id], $ids));
+            $atBest = array_values(array_filter($ids, fn ($id) => $totals[$id] === $best));
 
             if ($best > $record) {
                 // Les mêmes recordmen qui allongent ensemble leur record ne font pas une nouvelle entrée
@@ -228,12 +286,12 @@ class RecordsService
                 $last = end($entries);
                 if ($changed && $last && $last['equalled'] && $last['players'] === $atBest) {
                     // Record égalé puis battu par le même joueur : une seule entrée, qui garde la date de l'égalisation
-                    $entries[array_key_last($entries)] = ['equalledMatch' => $last['match'], 'match' => $matchId, 'caps' => $best, 'equalled' => false] + $last;
+                    $entries[array_key_last($entries)] = ['equalledMatch' => $last['match'], 'match' => $matchId, 'value' => $best, 'equalled' => false] + $last;
                 } elseif ($changed) {
-                    $entries[] = ['players' => $atBest, 'match' => $matchId, 'caps' => $best, 'equalled' => false];
+                    $entries[] = ['players' => $atBest, 'match' => $matchId, 'value' => $best, 'equalled' => false];
                 }
             } elseif ($best === $record && ($joining = array_values(array_diff($atBest, $holders)))) {
-                $entries[] = ['players' => $joining, 'with' => $holders, 'match' => $matchId, 'caps' => $best, 'equalled' => true];
+                $entries[] = ['players' => $joining, 'with' => $holders, 'match' => $matchId, 'value' => $best, 'equalled' => true];
                 $holders = array_merge($holders, $joining);
             }
         }
@@ -244,7 +302,7 @@ class RecordsService
             ->whereIn('id', collect($entries)->pluck('match')->merge(collect($entries)->pluck('equalledMatch')->filter()))
             ->get()->keyBy('id');
 
-        return collect($entries)->map(function (array $entry, int $i) use ($entries, $players, $matches, $caps) {
+        return collect($entries)->map(function (array $entry, int $i) use ($entries, $players, $matches, $totals) {
             // Fin du règne : le premier joueur qui prend seul le record sans faire partie de ces recordmen
             $next = collect($entries)->slice($i + 1)
                 ->first(fn ($later) => !$later['equalled'] && !array_intersect($later['players'], $entry['players']));
@@ -252,18 +310,16 @@ class RecordsService
             return [
                 'players' => collect($entry['players'])->map(fn ($id) => $players[$id]),
                 'match' => $matches[$entry['match']],
-                'caps' => $entry['caps'],
+                'value' => $entry['value'],
                 'equalled' => $entry['equalled'],
                 // Recordmen avec qui le record égalé est partagé
                 'with' => collect($entry['with'] ?? [])->map(fn ($id) => $players[$id]),
                 'equalledMatch' => isset($entry['equalledMatch']) ? $matches[$entry['equalledMatch']] : null,
                 'until' => $next ? $matches[$next['match']] : null,
-                'totals' => array_intersect_key($caps, array_flip($entry['players'])),
+                'totals' => array_intersect_key($totals, array_flip($entry['players'])),
             ];
         });
     }
-
-    // --- Interne ---
 
     private function recordByYear(int $year): RecordSummary
     {

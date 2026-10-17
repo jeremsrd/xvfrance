@@ -169,10 +169,33 @@ class RecordsServiceTest extends TestCase
         $history = (new RecordsService())->capsRecordHistory();
 
         $this->assertSame([[$a->id, $b->id], [$a->id], [$b->id]], $history->map(fn ($e) => $e['players']->pluck('id')->all())->all());
-        $this->assertSame([1, 2, 4], $history->pluck('caps')->all());
+        $this->assertSame([1, 2, 4], $history->pluck('value')->all());
         $this->assertTrue($history[1]['until']->is($m[5]));
         $this->assertSame(3, $history[1]['totals'][$a->id]);
         $this->assertTrue($history[2]['equalledMatch']->is($m[4]));
         $this->assertNull($history[2]['until']);
+    }
+
+    public function test_tries_and_points_record_histories_use_each_era_scale(): void
+    {
+        // Essai à 3 points en 1970, à 5 points depuis 1992
+        [$old, $new] = [$this->playMatches([[10, 0]], '1970-01-01')[0], $this->playMatches([[10, 0], [10, 0]], '2000-01-01')];
+        [$wing, $kicker] = Player::factory()->count(2)->create();
+        $score = fn (RugbyMatch $m, Player $p, EventType $type) => MatchEvent::factory()->create(['match_id' => $m->id, 'player_id' => $p->id, 'event_type' => $type, 'team_side' => 'france']);
+        $score($old, $wing, EventType::ESSAI);
+        $score($old, $kicker, EventType::PENALITE);
+        $score($new[0], $kicker, EventType::PENALITE);
+        $score($new[1], $wing, EventType::ESSAI);
+
+        $service = new RecordsService();
+        $tries = $service->triesRecordHistory();
+        $points = $service->pointsRecordHistory();
+
+        $this->assertSame([[$wing->id]], $tries->map(fn ($e) => $e['players']->pluck('id')->all())->all());
+        $this->assertSame(2, $tries[0]['totals'][$wing->id]);
+        // 3-3 en 1970 (record partagé), le buteur seul à 6, puis le marqueur à 3 + 5 = 8
+        $this->assertSame([[$wing->id, $kicker->id], [$kicker->id], [$wing->id]], $points->map(fn ($e) => $e['players']->pluck('id')->all())->all());
+        $this->assertSame([3, 6, 8], $points->pluck('value')->all());
+        $this->assertTrue($points[1]['until']->is($new[1]));
     }
 }

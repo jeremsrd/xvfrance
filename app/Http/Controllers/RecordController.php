@@ -23,6 +23,8 @@ class RecordController extends Controller
             'mostAppearances' => $records->mostAppearances(),
             'mostCaptaincies' => $records->mostCaptaincies(),
             'capsRecordHistory' => $records->capsRecordHistory(),
+            'triesRecordHistory' => $records->triesRecordHistory(),
+            'pointsRecordHistory' => $records->pointsRecordHistory(),
         ]);
     }
 }
