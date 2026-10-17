@@ -4,7 +4,7 @@
 
 ## Prochaine séance
 
-Fait le 17/10/2026 (tout est commité, déployé et poussé ; dernier commit déployé : ff91a7c) :
+Fait le 17/10/2026 (tout est commité, déployé et poussé ; dernier commit déployé : 83777e0) :
 - **Fiches joueurs d'après equipe-france.fr** : lieux de naissance, décès, tailles, poids
   (`xv:fetch-equipe-france-players`, `xv:import-equipe-france-players`).
 - **Dates de naissance et de décès tranchées avec Wikidata et le fichier des décès de l'INSEE** :
@@ -25,8 +25,13 @@ Fait le 17/10/2026 (tout est commité, déployé et poussé ; dernier commit dé
 - **Naissances des sélectionnés d'après 2020** : 14 dates ajoutées ou corrigées (`dates_corrections.csv`) ; les
   6 autres écarts avec Wikidata sont des erreurs de Wikidata (mois et jour inversés), base gardée.
 - **Portraits sur la feuille de match** : la photo du joueur s'affiche à côté de son nom dans la liste (le numéro reste, le terrain garde les numéros).
+- **Records découpés en deux pages** : `/records` (équipe : phares, écarts, scores, séries, époques, adversaires) et
+  `/records/joueurs` (classements sélections hors banc, essais, points au barème de l'époque, capitanats ; recordmen
+  successifs en onglets Sélections / Essais / Points, `#recordmen-essais` ouvre l'onglet). Dernier commit déployé : 83777e0.
 
 Reprendre par, dans l'ordre proposé :
+0. **Idée à trancher en début de séance** : sur la fiche d'un recordman (actuel ou passé), un lien vers sa frise,
+   par exemple « Recordman des essais de 2025 à aujourd'hui » vers `/records/joueurs#recordmen-essais` (Penaud).
 1. **Accents des noms des joueurs adverses** : vérifier leurs graphies (Argentins, Roumains, Italiens, Géorgiens…)
    comme pour les Bleus, faute de liste de référence unique (pages Wikipédia des effectifs, ou sites des fédérations).
 2. **Matches de novembre 2026** : 07/11 Fidji, 13/11 Afrique du Sud, 21/11 Argentine, finales 27-29/11
