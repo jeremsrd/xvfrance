@@ -62,6 +62,8 @@ Toutes les commandes du projet sont préfixées `xv:` (`php artisan list xv`).
 | `xv:validate-match-data {path}` | Valide des JSON de feuilles de match (dont points = score selon le barème de l'époque, cohérence des remplacements, noms proches d'un joueur existant) |
 | `xv:import-match-data {path}` | Importe des JSON de feuilles de match (`--changed` : seulement ceux modifiés depuis le dernier import, utilisé par `deploy.sh`) |
 | `xv:import-internationaux` | Numéro d'international et date de naissance des Français d'après `internationaux_encyclo.csv` (liste arrêtée en 2016, `--report` : non rapprochés et noms différents) |
+| `xv:fetch-equipe-france-players` | Relève l'identité des internationaux sur leur fiche equipe-france.fr (naissance, décès, taille, poids, club) dans `equipe_france_players.csv`, fiches trouvées dans les compositions des pages de match en cache (ne touche pas la base) |
+| `xv:import-equipe-france-players` | Complète ville et pays de naissance, décès, taille, poids (et la date de naissance absente de la liste) d'après ce relevé, champs vides seulement ; écarte les fiches d'homonymes (`--report` : dates de naissance différentes). Lancé par `deploy.sh` |
 | `xv:apply-name-corrections` | Renomme les joueurs français d'après les écarts de nom vérifiés (`noms_ecarts.csv`, par numéro d'international) |
 | `xv:import-player-photos` | Associe les portraits d'avant 1930 (`public/images/joueurs`, `player_photos.csv`) aux fiches |
 | `xv:compute-primary-positions` | Déduit le poste principal de chaque joueur du poste le plus joué dans ses compositions |
@@ -90,6 +92,7 @@ php artisan xv:generate-slugs
 php artisan xv:import-match-data database/data/matches
 php artisan xv:compute-primary-positions
 php artisan xv:import-internationaux
+php artisan xv:import-equipe-france-players
 php artisan xv:apply-name-corrections
 php artisan xv:import-player-photos
 ```

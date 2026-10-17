@@ -1,23 +1,20 @@
 # État du site et pistes de reprise
 
-État au 16/10/2026 au soir. Tout est commité, déployé et poussé sur GitHub (dernier commit déployé : f5b5601).
+État au 17/10/2026. Tout est commité, déployé et poussé sur GitHub (dernier commit déployé : f5b5601).
 
 ## Prochaine séance
 
-Fait le 16/10/2026 :
-- feuille complète d'Angleterre–France 1907 (Wikipédia anglaise + finalesrugby.fr), avec 3 portraits débloqués
-  (Giacardy, Nanson, Wedge) ; Douglas (et non Daniel) Lambert ;
-- XV français, capitaine et arbitre d'Allemagne 1932, 1933, 1934 et d'Armée britannique 1940 (finalesrugby.fr) :
-  **les 839 matches ont une composition française**, 20 internationaux de plus en base.
+Fait le 17/10/2026 : **fiches joueurs enrichies d'après equipe-france.fr** (étape a) :
+`xv:fetch-equipe-france-players` puis `xv:import-equipe-france-players` (dans `deploy.sh`). 933 lieux de naissance,
+158 dates de naissance de plus, 367 décès (date), 332 lieux de décès, 598 tailles, 583 poids. Voir `docs/sources.md`.
 
 Reprendre par, dans l'ordre proposé :
-1. **Fiches joueurs plus riches** (piste 4), environ une demi-journée en trois étapes :
-   a. equipe-france.fr (1h30-2h) : date et lieu de naissance, taille, poids. 1 269 fiches à mettre en cache
-      (sur le modèle de `xv:fetch-equipe-france`), rattachement par le slug du site ; colonnes `birth_city`,
-      `height_cm`, `weight_kg` déjà en base. **Commencer par là.**
-   b. Wikipédia (1h-1h30) : dates et lieux de décès, API `prop=extracts` par 50.
+1. **Fiches joueurs plus riches** (piste 4), suite :
+   b. Wikipédia (1h-1h30) : décès des anciens que le site ne donne pas, et **les 111 dates de naissance en désaccord**
+      entre la base et equipe-france.fr (`php artisan xv:import-equipe-france-players --dry-run --report`), dont les
+      11 fiches écartées comme homonymes probables. API `prop=extracts` par 50.
    c. Clubs (1h-2h) : décider d'abord colonne ou table (clubs successifs) ; source « This Is Rugby »
-      (`internationaux_encyclo.csv`, 1 090 internationaux).
+      (`internationaux_encyclo.csv`, 1 090 internationaux). equipe-france.fr ne donne le club que des 63 joueurs récents.
 2. **Matches de novembre 2026** (piste 2) : 07/11 Fidji, 13/11 Afrique du Sud, 21/11 Argentine, finales 27-29/11
    (`/feuille-de-match <date> <code>` une fois joués).
 3. **Équipes adverses et points d'Allemagne 1932-1934 et d'Armée britannique 1940** : presse d'époque sur Gallica
@@ -38,13 +35,13 @@ Reprendre par, dans l'ordre proposé :
 |---------|------|
 | Matches | 839 matches officiels (référence : liste Wikipédia, voir `docs/sources.md`) |
 | Feuilles de match | 839 avec la composition française ; 835 avec les deux équipes, capitaines, arbitre ; points pour 832 (7 sans points), minute connue pour 80 % des points français ; remplacements français et remplaçants restés sur le banc (finalesrugby.fr) |
-| Joueurs | ~7 000, dont 1 251 Français ; 1 073 numéros d'international, 1 055 dates de naissance |
+| Joueurs | ~7 000, dont 1 251 Français ; 1 073 numéros d'international ; 1 213 dates de naissance ; d'après equipe-france.fr, 933 lieux de naissance, 367 décès, 598 tailles et 583 poids |
 | Noms | 83 noms français corrigés d'après Wikipédia (`noms_ecarts.csv`) |
 | Portraits | 119 joueurs d'avant 1930 |
 | Sélectionneurs | 13 depuis 1963, avec leurs mandats (`selectionneurs.csv`) |
 
 Chaînage des données au déploiement (`deploy.sh`) : `xv:apply-name-corrections` → `xv:import-match-data --changed`
-→ `xv:compute-primary-positions` → `xv:import-internationaux` → `xv:import-player-photos` → `xv:import-coaches`. Le détail des sources
+→ `xv:compute-primary-positions` → `xv:import-internationaux` → `xv:import-equipe-france-players` → `xv:import-player-photos` → `xv:import-coaches`. Le détail des sources
 et de leurs limites est dans `docs/sources.md`.
 
 ## Pistes
@@ -93,8 +90,7 @@ prolonger la liste à la main avec la même règle. À trancher avant d'écrire 
 
 ### 4. Fiches joueurs plus riches
 
-Aucun joueur n'a de ville de naissance, de date de décès, de taille ni de poids.
-- **equipe-france.fr** : chaque fiche donne prénoms complets, date et lieu de naissance, taille, poids, club
+- **equipe-france.fr** (fait le 17/10/2026) : chaque fiche donne prénoms complets, date et lieu de naissance, taille, poids, club
   (vérifié sur Cyril Baille). 1 269 pages à mettre en cache comme les pages de match (`xv:fetch-equipe-france`),
   puis à lire par script. Rattachement sûr par le slug du site.
 - **Wikipédia** : la première phrase des articles donne naissance et décès (« né le … à …, mort le … à … »).

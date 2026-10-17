@@ -176,6 +176,7 @@ $DEPLOY_PHP artisan xv:apply-name-corrections --no-interaction
 $DEPLOY_PHP artisan xv:import-match-data database/data/matches --changed --no-interaction
 $DEPLOY_PHP artisan xv:compute-primary-positions --no-interaction
 $DEPLOY_PHP artisan xv:import-internationaux --no-interaction
+$DEPLOY_PHP artisan xv:import-equipe-france-players --no-interaction
 $DEPLOY_PHP artisan xv:import-player-photos --no-interaction
 $DEPLOY_PHP artisan xv:import-coaches --no-interaction
 $DEPLOY_PHP artisan xv:remove-excluded-matches --no-interaction

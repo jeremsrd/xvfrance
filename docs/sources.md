@@ -45,6 +45,9 @@ Utilisé par :
 - `xv:fetch-equipe-france` : relevé de tous les matches dans `equipe_france_matches.csv` (compétition, journée
   ou phase, lieu), appliqué par `xv:apply-equipe-france` (phase, numéro de journée, stade quand ils manquent).
 
+- `xv:fetch-equipe-france-players` : fiches des internationaux dans `equipe_france_players.csv` (prénoms, date et
+  lieu de naissance, date et lieu de décès, taille, poids, club), appliquées par `xv:import-equipe-france-players`.
+
 Les pages téléchargées sont gardées en cache dans `storage/app/equipe-france/` (hors git). Les pages de match
 donnent aussi les compositions des deux équipes, l'arbitre et les marqueurs : c'est la source du prochain chantier
 (`docs/specs/feuilles-historiques-equipe-france.md`).
@@ -56,6 +59,25 @@ Limites constatées : la liste du site n'est **pas** la liste officielle.
 - Il liste un match qui n'a pas eu lieu : Angleterre–France du 21/06/2025.
 - Il oublie des matches officiels : Angleterre 1907 et Allemagne 1932, 1933 et 1934.
 - Il donne un score faux pour le quart de finale de 1987 contre les Fidji (34-16 au lieu de 31-16).
+
+### Fiches des joueurs (relevé du 17/10/2026)
+
+- **Rattachement** : seuls les joueurs français ont un lien dans les compositions des pages de match. Chaque fiche
+  est rattachée par sa première apparition (date du match, numéro de maillot, nom de famille proche pour les noms
+  corrigés d'après Wikipédia). 1 230 fiches sur 1 269 ; les 39 autres sont des remplaçants restés sur le banc en
+  1975-1978 (absents de la base) ou des matches sans sélection officielle (FIRA 1935 et 1937, Uruguay 2024, 21/06/2025).
+- **Contenu** : 1 150 dates de naissance, 943 lieux, 376 décès, 602 tailles, 587 poids, 63 clubs (joueurs récents).
+  Lieu en France : « Pau, Pyrénées-Atlantiques » (Paris seul) ; à l'étranger : « Dakar Sénégal ». Un pays absent de
+  la table `countries` reste dans la ville (« Dakar (Sénégal) ») ; Royaume-Uni = Angleterre (Londres, Croydon,
+  Warrington).
+- **Dates bouche-trou** écartées au relevé : naissance au 13/12/1901 (33 joueurs d'avant 1914), décès au 01/01/2000 (4).
+- **Homonymes** : le site mélange parfois deux joueurs du même nom. L'import écarte toute la fiche quand l'âge au
+  premier match sort de 16-42 ans (Laurent Pardo, Jean-Louis Martin, Thierry Picard) ou quand la naissance s'écarte
+  de 2 ans ou plus de la base avec un autre jour et un autre mois (11 fiches au total, dont André Abadie et
+  Christophe Lamaison).
+- **Dates de naissance en désaccord** : 111 avec la liste des internationaux (`--report`), gardées telles qu'en base.
+  Souvent la même date à un an ou une décennie près (Sutra 21/03/1936 en base, 1946 sur le site comme sur
+  Wikipédia) : la liste a aussi ses coquilles. À trancher avec Wikipédia.
 
 ## finalesrugby.fr : remplacements et sélections
 
