@@ -17,6 +17,8 @@ Fait le 17/10/2026 (tout est commité, déployé et poussé ; dernier commit dé
   restent à part). Choix de l'utilisateur, voir `docs/sources.md`.
 - **Clubs d'après Wikipédia** (`scripts/wikipedia/clubs.py`, `wikipedia_clubs.csv`) pour les internationaux absents
   de la liste « This Is Rugby » : 7 internationaux sans club au lieu de 97 ; filtre par club sur `/joueurs`.
+- **Naissances des sélectionnés d'après 2020** : 14 dates ajoutées ou corrigées (`dates_corrections.csv`) ; les
+  6 autres écarts avec Wikidata sont des erreurs de Wikidata (mois et jour inversés), base gardée.
 - **Portraits sur la feuille de match** : la photo du joueur s'affiche à côté de son nom dans la liste (le numéro reste, le terrain garde les numéros).
 
 Reprendre par, dans l'ordre proposé :
@@ -31,9 +33,6 @@ Reprendre par, dans l'ordre proposé :
    (`php artisan xv:import-internationaux --report`) ; Arthapignet 1988 et Mignot 2016 absents de la base (Wikipédia).
 4. **Numéros d'international après 2016** (piste 3) : trancher la source d'abord.
 5. Plus tard :
-   - `scripts/wikipedia/naissances.py` lit désormais les sélectionnés d'après février 2020 (dates sans `{{date}}`
-     dans la liste) : 6 désaccords de naissance de plus (23 en tout), 12 naissances et 2 décès absents de la base
-     mais sur Wikidata, à trancher comme les autres (`--csv`, puis `dates_corrections.csv`) ;
    - décès après 1970 que ni Wikidata ni equipe-france.fr ne donnent, à chercher dans le fichier des décès de
      l'INSEE (API matchID `deces.matchid.io/deces/api/v1/search?lastName=…&firstName=…&birthDate=JJ/MM/AAAA` ;
      quota anonyme de quelques dizaines de requêtes, puis environ une heure d'attente) ;
