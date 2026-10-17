@@ -4,35 +4,45 @@
 
 ## Prochaine séance
 
-Fait le 17/10/2026 : **fiches joueurs enrichies d'après equipe-france.fr** (étape a) :
-`xv:fetch-equipe-france-players` puis `xv:import-equipe-france-players` (dans `deploy.sh`). 933 lieux de naissance,
-158 dates de naissance de plus, 367 décès (date), 332 lieux de décès, 598 tailles, 583 poids. Voir `docs/sources.md`.
-
-Fait le 17/10/2026 aussi : **dates de naissance et de décès tranchées avec Wikidata** (étape b) :
-`scripts/wikipedia/naissances.py`, 84 naissances corrigées et 93 décès ajoutés dans `dates_corrections.csv`,
-appliqués par `xv:apply-date-corrections` (dans `deploy.sh`). Voir `docs/sources.md`.
+Fait le 17/10/2026 (tout est commité, déployé et poussé ; dernier commit déployé : b409232) :
+- **Fiches joueurs d'après equipe-france.fr** : lieux de naissance, décès, tailles, poids
+  (`xv:fetch-equipe-france-players`, `xv:import-equipe-france-players`).
+- **Dates de naissance et de décès tranchées avec Wikidata et le fichier des décès de l'INSEE** :
+  `scripts/wikipedia/naissances.py`, `dates_corrections.csv` (85 naissances, 98 décès, 3 lieux de décès),
+  `xv:apply-date-corrections`. Erreurs connues d'equipe-france.fr écartées au relevé (`KNOWN_ERRORS`).
+- **13 noms alignés sur Wikipédia** (`noms_ecarts.csv`, Porra sans numéro retrouvé par son nom).
+- **Clubs** : tables `clubs` / `player_clubs`, `xv:import-clubs`, pages `/clubs` et `/clubs/{slug}`, clubs sur la
+  fiche joueur (nom de l'époque). Un club renommé reste le même club, une fusion qui crée un club en fait un nouveau
+  (UBB), sauf l'US perpignanaise et l'AS perpignanaise, rattachées à l'USA Perpignan (les Arlequins perpignanais
+  restent à part). Choix de l'utilisateur, voir `docs/sources.md`.
 
 Reprendre par, dans l'ordre proposé :
-1. **Fiches joueurs plus riches** (piste 4), suite :
-   b. Reste (facultatif) : chercher dans le fichier des décès de l'INSEE (matchID, décès depuis 1970) les décès
-      que ni Wikidata ni equipe-france.fr ne donnent, pour les internationaux nés avant 1950 environ.
-   c. Clubs : faits le 17/10/2026 (`xv:import-clubs`, pages `/clubs`, voir `docs/sources.md`). Reste : clubs des
-      97 internationaux qui n'en ont pas (surtout après 2016), filtre par club sur `/joueurs`.
-2. **Matches de novembre 2026** (piste 2) : 07/11 Fidji, 13/11 Afrique du Sud, 21/11 Argentine, finales 27-29/11
-   (`/feuille-de-match <date> <code>` une fois joués).
-3. **Équipes adverses et points d'Allemagne 1932-1934 et d'Armée britannique 1940** : presse d'époque sur Gallica
+1. **Clubs, suite** :
+   - clubs des **97 internationaux qui n'en ont pas**, surtout ceux sélectionnés après 2016 (la liste « This Is
+     Rugby » s'arrête en 2016, equipe-france.fr ne donne que le club actuel de 63 joueurs). Piste : encadré
+     `{{Infobox rugby à XV}}` des articles Wikipédia (clubs avec années), via la page « Liste des sélectionnés »
+     déjà exploitée par `scripts/wikipedia/naissances.py` ; ajouter les noms nouveaux à `club_names.csv` ;
+   - filtre par club sur `/joueurs` (composant Livewire `PlayerList`).
+2. **Feuille de match** (demande du 17/10/2026) : afficher la photo du joueur, quand elle est connue
+   (`players.photo_path`, 119 portraits d'avant 1930), à la place de son numéro de maillot dans la composition.
+3. **Matches de novembre 2026** : 07/11 Fidji, 13/11 Afrique du Sud, 21/11 Argentine, finales 27-29/11
+   (`/feuille-de-match <date> <code>` une fois joués, puis commit et `./deploy.sh`).
+4. **Équipes adverses et points d'Allemagne 1932-1934 et d'Armée britannique 1940** : presse d'époque sur Gallica
    (*L'Auto* du 18/04/1932 pour commencer), qui bloque les scripts (Cloudflare) : passer par Chrome. La validation
    refuse des points incomplets : il faut les marqueurs des deux équipes. 1940 : les 3 points français sont un
    « drop » de Thiers selon finalesrugby.fr, impossible (4 points en 1940), sans doute une pénalité.
-4. **Reste des sélections** : 27 matches aux remplacements non appariés (`python3 scripts/finalesrugby/apply.py --dry`),
+5. **Reste des sélections** : 27 matches aux remplacements non appariés (`python3 scripts/finalesrugby/apply.py --dry`),
    Traille +2, Szarzewski et Michalak +1 face à la page des records ; 17 internationaux sans joueur en base
    (`php artisan xv:import-internationaux --report`) ; Arthapignet 1988 et Mignot 2016 absents de la base (Wikipédia).
-5. **Numéros d'international après 2016** (piste 3) : trancher la source d'abord.
-6. Plus tard : 2 matches sans points (1927 GER, 1963 ROU), 58 matches sans stade (le JSON ne fixe le stade qu'à la
-   création), adjoints des sélectionneurs, photos d'équipe et stades du dossier « This Is Rugby » (Dropbox),
-   qualité des données, **PHP 8.3 avant le 31/12/2026**, session design.
-7. **Feuille de match** (demande du 17/10/2026) : afficher la photo du joueur, quand elle est connue
-   (`players.photo_path`), à la place de son numéro de maillot dans la composition.
+6. **Numéros d'international après 2016** (piste 3) : trancher la source d'abord.
+7. Plus tard :
+   - décès après 1970 que ni Wikidata ni equipe-france.fr ne donnent, à chercher dans le fichier des décès de
+     l'INSEE (API matchID `deces.matchid.io/deces/api/v1/search?lastName=…&firstName=…&birthDate=JJ/MM/AAAA` ;
+     quota anonyme de quelques dizaines de requêtes, puis environ une heure d'attente) ;
+   - 40 naissances où equipe-france.fr diffère de la base (`xv:import-equipe-france-players --report`), base gardée ;
+   - 2 matches sans points (1927 GER, 1963 ROU), 58 matches sans stade, adjoints des sélectionneurs, photos
+     d'équipe et stades du dossier « This Is Rugby » (Dropbox), qualité des données ;
+   - **PHP 8.3 avant le 31/12/2026** ; SEO (reporté par l'utilisateur) ; session design globale à la fin.
 
 ## Où on en est
 
@@ -40,14 +50,17 @@ Reprendre par, dans l'ordre proposé :
 |---------|------|
 | Matches | 839 matches officiels (référence : liste Wikipédia, voir `docs/sources.md`) |
 | Feuilles de match | 839 avec la composition française ; 835 avec les deux équipes, capitaines, arbitre ; points pour 832 (7 sans points), minute connue pour 80 % des points français ; remplacements français et remplaçants restés sur le banc (finalesrugby.fr) |
-| Joueurs | ~7 000, dont 1 251 Français ; 1 073 numéros d'international ; 1 213 dates de naissance ; d'après equipe-france.fr, 933 lieux de naissance, 367 décès, 598 tailles et 583 poids |
-| Noms | 83 noms français corrigés d'après Wikipédia (`noms_ecarts.csv`) |
+| Joueurs | ~7 000, dont 1 251 Français ; 1 073 numéros d'international ; 1 214 dates de naissance, 938 lieux de naissance, 460 décès (equipe-france.fr, Wikidata, INSEE) |
+| Clubs | 117 clubs, 1 121 internationaux reliés à au moins un club (1 368 passages) ; 97 sans club |
+| Noms | 96 noms français corrigés d'après Wikipédia (`noms_ecarts.csv`) |
 | Portraits | 119 joueurs d'avant 1930 |
 | Sélectionneurs | 13 depuis 1963, avec leurs mandats (`selectionneurs.csv`) |
 
-Chaînage des données au déploiement (`deploy.sh`) : `xv:apply-name-corrections` → `xv:import-match-data --changed`
-→ `xv:compute-primary-positions` → `xv:import-internationaux` → `xv:import-equipe-france-players` → `xv:import-player-photos` → `xv:import-coaches`. Le détail des sources
-et de leurs limites est dans `docs/sources.md`.
+Chaînage des données au déploiement (`deploy.sh`) : `xv:import-venue-names` → `xv:compute-venue-flags` →
+`xv:apply-name-corrections` → `xv:import-match-data --changed` → `xv:compute-primary-positions` →
+`xv:import-internationaux` → `xv:apply-date-corrections` → `xv:import-equipe-france-players` → `xv:import-clubs` →
+`xv:import-player-photos` → `xv:import-coaches` → `xv:remove-excluded-matches` → `xv:apply-equipe-france` →
+`xv:import-venue-coordinates`. Le détail des sources et de leurs limites est dans `docs/sources.md`.
 
 ## Pistes
 
