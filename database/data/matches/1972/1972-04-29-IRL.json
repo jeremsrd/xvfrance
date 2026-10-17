@@ -7,11 +7,11 @@
   "lineups": {
     "france": [
       {"jersey": 1, "first_name": "Jean-Louis", "last_name": "Azarete", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
-      {"jersey": 2, "first_name": "René", "last_name": "Benesis", "is_starter": true, "position": "talonneur", "is_captain": false},
-      {"jersey": 3, "first_name": "Jean", "last_name": "Iracabal", "is_starter": true, "position": "pilier_droit", "is_captain": false},
-      {"jersey": 4, "first_name": "Alain", "last_name": "Esteve", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 2, "first_name": "René", "last_name": "Bénésis", "is_starter": true, "position": "talonneur", "is_captain": false},
+      {"jersey": 3, "first_name": "Jean", "last_name": "Iraçabal", "is_starter": true, "position": "pilier_droit", "is_captain": false},
+      {"jersey": 4, "first_name": "Alain", "last_name": "Estève", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 5, "first_name": "Claude", "last_name": "Spanghero", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
-      {"jersey": 6, "first_name": "Pierre", "last_name": "Biemouret", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 6, "first_name": "Pierre", "last_name": "Biémouret", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 7, "first_name": "Jean-Claude", "last_name": "Skrela", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 8, "first_name": "Walter", "last_name": "Spanghero", "is_starter": true, "position": "numero_huit", "is_captain": true},
       {"jersey": 9, "first_name": "Jacques", "last_name": "Fouroux", "is_starter": true, "position": "demi_de_melee", "is_captain": false},

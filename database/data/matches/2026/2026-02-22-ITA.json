@@ -18,9 +18,9 @@
       {"jersey": 10, "first_name": "Thomas", "last_name": "Ramos", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
       {"jersey": 11, "first_name": "Louis", "last_name": "Bielle-Biarrey", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 12, "first_name": "Fabien", "last_name": "Brau-Boirie", "is_starter": true, "position": "centre", "is_captain": false},
-      {"jersey": 13, "first_name": "Emilien", "last_name": "Gailleton", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 13, "first_name": "Émilien", "last_name": "Gailleton", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 14, "first_name": "Gaël", "last_name": "Dréan", "is_starter": true, "position": "ailier", "is_captain": false},
-      {"jersey": 15, "first_name": "Théo", "last_name": "Attissogbe", "is_starter": true, "position": "arriere", "is_captain": false},
+      {"jersey": 15, "first_name": "Théo", "last_name": "Attissogbé", "is_starter": true, "position": "arriere", "is_captain": false},
       {"jersey": 16, "first_name": "Peato", "last_name": "Mauvaka", "is_starter": false, "position": "talonneur", "is_captain": false},
       {"jersey": 17, "first_name": "Rodrigue", "last_name": "Neti", "is_starter": false, "position": "pilier_gauche", "is_captain": false},
       {"jersey": 18, "first_name": "Georges-Henri", "last_name": "Colombe", "is_starter": false, "position": "pilier_droit", "is_captain": false},
@@ -66,7 +66,7 @@
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Garbisi", "player_first_name": "Paolo", "minute": 40},
     {"team_side": "france", "type": "essai", "player_last_name": "Dréan", "player_first_name": "Gaël", "minute": 71},
     {"team_side": "france", "type": "transformation", "player_last_name": "Ramos", "player_first_name": "Thomas", "minute": 72},
-    {"team_side": "france", "type": "essai", "player_last_name": "Gailleton", "player_first_name": "Emilien", "minute": 77},
+    {"team_side": "france", "type": "essai", "player_last_name": "Gailleton", "player_first_name": "Émilien", "minute": 77},
     {"team_side": "france", "type": "transformation", "player_last_name": "Ramos", "player_first_name": "Thomas", "minute": 78}
   ],
   "substitutions": []

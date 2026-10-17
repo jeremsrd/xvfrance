@@ -6,12 +6,12 @@
   "referee": "Mj Dowling",
   "lineups": {
     "france": [
-      {"jersey": 1, "first_name": "Amedee", "last_name": "Domenech", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
+      {"jersey": 1, "first_name": "Amédée", "last_name": "Domenech", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
       {"jersey": 2, "first_name": "Robert", "last_name": "Vigier", "is_starter": true, "position": "talonneur", "is_captain": false},
-      {"jersey": 3, "first_name": "René", "last_name": "Bienes", "is_starter": true, "position": "pilier_droit", "is_captain": false},
+      {"jersey": 3, "first_name": "René", "last_name": "Biénès", "is_starter": true, "position": "pilier_droit", "is_captain": false},
       {"jersey": 4, "first_name": "Bernard", "last_name": "Chevallier", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
-      {"jersey": 5, "first_name": "Gérard", "last_name": "Roucaries", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
-      {"jersey": 6, "first_name": "Jean", "last_name": "Carrere", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 5, "first_name": "Gérard", "last_name": "Roucariès", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 6, "first_name": "Jean", "last_name": "Carrère", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 7, "first_name": "Robert", "last_name": "Baulon", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 8, "first_name": "Michel", "last_name": "Celaya", "is_starter": true, "position": "numero_huit", "is_captain": false},
       {"jersey": 9, "first_name": "Gérard", "last_name": "Dufau", "is_starter": true, "position": "demi_de_melee", "is_captain": true},

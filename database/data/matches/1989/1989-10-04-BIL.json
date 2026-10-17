@@ -24,7 +24,7 @@
       {"jersey": 14, "first_name": "Bernard", "last_name": "Lacombe", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 15, "first_name": "Serge", "last_name": "Blanco", "is_starter": true, "position": "arriere", "is_captain": false},
       {"jersey": 16, "first_name": "Hervé", "last_name": "Chabowski", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 17, "first_name": "Marc", "last_name": "Cecillon", "is_starter": false, "position": null, "is_captain": false, "played": false},
+      {"jersey": 17, "first_name": "Marc", "last_name": "Cécillon", "is_starter": false, "position": null, "is_captain": false, "played": false},
       {"jersey": 18, "first_name": "Thierry", "last_name": "Maset", "is_starter": false, "position": null, "is_captain": false, "played": false},
       {"jersey": 19, "first_name": "Henri", "last_name": "Sanz", "is_starter": false, "position": null, "is_captain": false, "played": false},
       {"jersey": 20, "first_name": "Thierry", "last_name": "Lacroix", "is_starter": false, "position": null, "is_captain": false, "played": false},

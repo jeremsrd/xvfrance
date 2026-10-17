@@ -26,7 +26,7 @@
       {"jersey": 19, "first_name": "Romain", "last_name": "Taofifénua", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 20, "first_name": "Loann", "last_name": "Goujon", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 21, "first_name": "Morgan", "last_name": "Parra", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 22, "first_name": "Rémi", "last_name": "Tales", "is_starter": false, "position": null, "is_captain": false, "played": false},
+      {"jersey": 22, "first_name": "Rémi", "last_name": "Talès", "is_starter": false, "position": null, "is_captain": false, "played": false},
       {"jersey": 23, "first_name": "Rémi", "last_name": "Lamerat", "is_starter": false, "position": null, "is_captain": false}
     ],
     "adversaire": [

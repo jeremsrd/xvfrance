@@ -15,7 +15,7 @@
       {"jersey": 7, "first_name": "Jean-Luc", "last_name": "Joinel", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 8, "first_name": "Manuel", "last_name": "Carpentier", "is_starter": true, "position": "numero_huit", "is_captain": false},
       {"jersey": 9, "first_name": "Pierre", "last_name": "Berbizier", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
-      {"jersey": 10, "first_name": "Bernard", "last_name": "Vivies", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
+      {"jersey": 10, "first_name": "Bernard", "last_name": "Viviès", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
       {"jersey": 11, "first_name": "Laurent", "last_name": "Pardo", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 12, "first_name": "Didier", "last_name": "Codorniou", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 13, "first_name": "Roland", "last_name": "Bertranne", "is_starter": true, "position": "centre", "is_captain": false},
@@ -53,7 +53,7 @@
   },
   "events": [
     {"team_side": "france", "type": "essai", "player_last_name": "Blanco", "player_first_name": "Serge", "minute": 9},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Vivies", "player_first_name": "Bernard", "minute": 12},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Viviès", "player_first_name": "Bernard", "minute": 12},
     {"team_side": "france", "type": "penalite", "player_last_name": "Gabernet", "player_first_name": "Serge", "minute": 34},
     {"team_side": "france", "type": "essai", "player_last_name": "Bertranne", "player_first_name": "Roland", "minute": 39},
     {"team_side": "france", "type": "transformation", "player_last_name": "Caussade", "player_first_name": "Alain", "minute": null},
@@ -62,6 +62,6 @@
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Rutherford", "player_first_name": "John", "minute": null}
   ],
   "substitutions": [
-    {"team_side": "france", "player_off_last_name": "Vivies", "player_off_first_name": "Bernard", "player_on_last_name": "Caussade", "player_on_first_name": "Alain", "minute": null, "is_tactical": true}
+    {"team_side": "france", "player_off_last_name": "Viviès", "player_off_first_name": "Bernard", "player_on_last_name": "Caussade", "player_on_first_name": "Alain", "minute": null, "is_tactical": true}
   ]
 }

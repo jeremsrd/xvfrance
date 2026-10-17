@@ -18,7 +18,7 @@
       {"jersey": 11, "first_name": "Louis", "last_name": "Bielle-Biarrey", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 12, "first_name": "Yoram", "last_name": "Moefana", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 13, "first_name": "Pierre-Louis", "last_name": "Barassi", "is_starter": true, "position": "centre", "is_captain": false},
-      {"jersey": 14, "first_name": "Théo", "last_name": "Attissogbe", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 14, "first_name": "Théo", "last_name": "Attissogbé", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 15, "first_name": "Léo", "last_name": "Barré", "is_starter": true, "position": "arriere", "is_captain": false},
       {"jersey": 16, "first_name": "Julien", "last_name": "Marchand", "is_starter": false, "position": "talonneur", "is_captain": false},
       {"jersey": 17, "first_name": "Cyril", "last_name": "Baille", "is_starter": false, "position": "pilier_gauche", "is_captain": false},
@@ -80,7 +80,7 @@
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Garbisi", "player_first_name": "Paolo", "minute": 61},
     {"team_side": "france", "type": "essai", "player_last_name": "Barré", "player_first_name": "Léo", "minute": 65},
     {"team_side": "france", "type": "transformation", "player_last_name": "Ramos", "player_first_name": "Thomas", "minute": 66},
-    {"team_side": "france", "type": "essai", "player_last_name": "Attissogbe", "player_first_name": "Théo", "minute": 76},
+    {"team_side": "france", "type": "essai", "player_last_name": "Attissogbé", "player_first_name": "Théo", "minute": 76},
     {"team_side": "france", "type": "transformation", "player_last_name": "Lucu", "player_first_name": "Maxime", "minute": 77},
     {"team_side": "france", "type": "essai", "player_last_name": "Barassi", "player_first_name": "Pierre-Louis", "minute": 80}
   ],

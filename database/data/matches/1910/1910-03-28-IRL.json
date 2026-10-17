@@ -11,7 +11,7 @@
       {"jersey": 3, "first_name": "Pierre", "last_name": "Guillemin", "is_starter": true, "position": null, "is_captain": false},
       {"jersey": 4, "first_name": "Augustin", "last_name": "Hourdebaigt", "is_starter": true, "position": null, "is_captain": false},
       {"jersey": 5, "first_name": "Marcel", "last_name": "Legrain", "is_starter": true, "position": null, "is_captain": false},
-      {"jersey": 6, "first_name": "Alphonse", "last_name": "Masse", "is_starter": true, "position": null, "is_captain": false},
+      {"jersey": 6, "first_name": "Alphonse", "last_name": "Massé", "is_starter": true, "position": null, "is_captain": false},
       {"jersey": 7, "first_name": "Paul", "last_name": "Mauriat", "is_starter": true, "position": null, "is_captain": false},
       {"jersey": 8, "first_name": "Lucien", "last_name": "Thévenot", "is_starter": true, "position": null, "is_captain": false},
       {"jersey": 9, "first_name": "Guillaume", "last_name": "Laterrade", "is_starter": true, "position": "demi_de_melee", "is_captain": false},

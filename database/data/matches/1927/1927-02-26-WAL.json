@@ -11,7 +11,7 @@
       {"jersey": 3, "first_name": "René", "last_name": "Bousquet", "is_starter": true, "position": "pilier_droit", "is_captain": false},
       {"jersey": 4, "first_name": "Alfred", "last_name": "Prevost", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 5, "first_name": "Aimé", "last_name": "Cassayet-Armagnac", "is_starter": true, "position": "deuxieme_ligne", "is_captain": true},
-      {"jersey": 6, "first_name": "Eugène", "last_name": "Ribere", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 6, "first_name": "Eugène", "last_name": "Ribère", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 7, "first_name": "Jean", "last_name": "Etcheberry", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 8, "first_name": "Étienne", "last_name": "Piquiral", "is_starter": true, "position": "numero_huit", "is_captain": false},
       {"jersey": 9, "first_name": "Jean", "last_name": "Carbonne", "is_starter": true, "position": "demi_de_melee", "is_captain": false},

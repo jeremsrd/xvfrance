@@ -13,7 +13,7 @@
       {"jersey": 6, "first_name": "Serge", "last_name": "Betsen", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 7, "first_name": "Olivier", "last_name": "Magne", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 8, "first_name": "Imanol", "last_name": "Harinordoquy", "is_starter": true, "position": "numero_huit", "is_captain": false},
-      {"jersey": 9, "first_name": "Jean-Baptiste", "last_name": "Elissalde", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
+      {"jersey": 9, "first_name": "Jean-Baptiste", "last_name": "Élissalde", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
       {"jersey": 10, "first_name": "Frédéric", "last_name": "Michalak", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
       {"jersey": 11, "first_name": "Cédric", "last_name": "Heymans", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 12, "first_name": "Yannick", "last_name": "Jauzion", "is_starter": true, "position": "centre", "is_captain": false},
@@ -60,7 +60,7 @@
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Contepomi", "player_first_name": "Felipe", "minute": 24},
     {"team_side": "france", "type": "essai", "player_last_name": "Marsh", "player_first_name": "Tony", "minute": 28},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Contepomi", "player_first_name": "Felipe", "minute": 34},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Elissalde", "player_first_name": "Jean-Baptiste", "minute": 52},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Élissalde", "player_first_name": "Jean-Baptiste", "minute": 52},
     {"team_side": "france", "type": "penalite", "player_last_name": "Michalak", "player_first_name": "Frédéric", "minute": 60},
     {"team_side": "france", "type": "penalite", "player_last_name": "Michalak", "player_first_name": "Frédéric", "minute": 74},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Hasan Jalil", "player_first_name": "Omar", "minute": 79},
@@ -68,6 +68,6 @@
   ],
   "substitutions": [
     {"team_side": "france", "player_off_last_name": "Brusque", "player_off_first_name": "Nicolas", "player_on_last_name": "Poitrenaud", "player_on_first_name": "Clément", "minute": 41, "is_tactical": true},
-    {"team_side": "france", "player_off_last_name": "Elissalde", "player_off_first_name": "Jean-Baptiste", "player_on_last_name": "Peyrelongue", "player_on_first_name": "Julien", "minute": 59, "is_tactical": true}
+    {"team_side": "france", "player_off_last_name": "Élissalde", "player_off_first_name": "Jean-Baptiste", "player_on_last_name": "Peyrelongue", "player_on_first_name": "Julien", "minute": 59, "is_tactical": true}
   ]
 }

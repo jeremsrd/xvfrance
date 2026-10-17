@@ -22,7 +22,7 @@
       {"jersey": 14, "first_name": "Damian", "last_name": "Penaud", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 15, "first_name": "Thomas", "last_name": "Ramos", "is_starter": true, "position": "arriere", "is_captain": false},
       {"jersey": 16, "first_name": "Peato", "last_name": "Mauvaka", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 17, "first_name": "Sébastien", "last_name": "Taofifenua", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 17, "first_name": "Sébastien", "last_name": "Taofifénua", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 18, "first_name": "Dorian", "last_name": "Aldegheri", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 19, "first_name": "Romain", "last_name": "Taofifénua", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 20, "first_name": "Cameron", "last_name": "Woki", "is_starter": false, "position": null, "is_captain": false},
@@ -79,7 +79,7 @@
     {"team_side": "france", "player_off_last_name": "Flament", "player_off_first_name": "Thibaud", "player_on_last_name": "Taofifénua", "player_on_first_name": "Romain", "minute": 48, "is_tactical": true},
     {"team_side": "france", "player_off_last_name": "Atonio", "player_off_first_name": "Uini", "player_on_last_name": "Aldegheri", "player_on_first_name": "Dorian", "minute": 48, "is_tactical": true},
     {"team_side": "france", "player_off_last_name": "Marchand", "player_off_first_name": "Julien", "player_on_last_name": "Mauvaka", "player_on_first_name": "Peato", "minute": 48, "is_tactical": true},
-    {"team_side": "france", "player_off_last_name": "Gros", "player_off_first_name": "Jean-Baptiste", "player_on_last_name": "Taofifenua", "player_on_first_name": "Sébastien", "minute": 48, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Gros", "player_off_first_name": "Jean-Baptiste", "player_on_last_name": "Taofifénua", "player_on_first_name": "Sébastien", "minute": 48, "is_tactical": true},
     {"team_side": "france", "player_off_last_name": "Dupont", "player_off_first_name": "Antoine", "player_on_last_name": "Couilloud", "player_on_first_name": "Baptiste", "minute": 60, "is_tactical": true},
     {"team_side": "france", "player_off_last_name": "Alldritt", "player_off_first_name": "Grégory", "player_on_last_name": "Boudehent", "player_on_first_name": "Paul", "minute": 65, "is_tactical": true},
     {"team_side": "france", "player_off_last_name": "Ramos", "player_off_first_name": "Thomas", "player_on_last_name": "Jaminet", "player_on_first_name": "Melvyn", "minute": 69, "is_tactical": true}

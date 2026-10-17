@@ -11,7 +11,7 @@
       {"jersey": 3, "first_name": "Pascal", "last_name": "Ondarts", "is_starter": true, "position": "pilier_droit", "is_captain": false},
       {"jersey": 4, "first_name": "Alain", "last_name": "Lorieux", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 5, "first_name": "Jean", "last_name": "Condom", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
-      {"jersey": 6, "first_name": "Eric", "last_name": "Champ", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 6, "first_name": "Éric", "last_name": "Champ", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 7, "first_name": "Alain", "last_name": "Carminati", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 8, "first_name": "Dominique", "last_name": "Erbani", "is_starter": true, "position": "numero_huit", "is_captain": false},
       {"jersey": 9, "first_name": "Pierre", "last_name": "Berbizier", "is_starter": true, "position": "demi_de_melee", "is_captain": true},
@@ -23,7 +23,7 @@
       {"jersey": 15, "first_name": "Serge", "last_name": "Blanco", "is_starter": true, "position": "arriere", "is_captain": false},
       {"jersey": 16, "first_name": "Philippe", "last_name": "Marocco", "is_starter": false, "position": null, "is_captain": false, "played": false},
       {"jersey": 17, "first_name": "Claude", "last_name": "Portolan", "is_starter": false, "position": null, "is_captain": false, "played": false},
-      {"jersey": 18, "first_name": "Marc", "last_name": "Cecillon", "is_starter": false, "position": null, "is_captain": false, "played": false},
+      {"jersey": 18, "first_name": "Marc", "last_name": "Cécillon", "is_starter": false, "position": null, "is_captain": false, "played": false},
       {"jersey": 19, "first_name": "Henri", "last_name": "Sanz", "is_starter": false, "position": null, "is_captain": false, "played": false},
       {"jersey": 20, "first_name": "Denis", "last_name": "Charvet", "is_starter": false, "position": null, "is_captain": false, "played": false},
       {"jersey": 21, "first_name": "Didier", "last_name": "Camberabero", "is_starter": false, "position": null, "is_captain": false, "played": false}

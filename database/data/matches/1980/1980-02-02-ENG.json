@@ -26,7 +26,7 @@
       {"jersey": 18, "first_name": "René", "last_name": "Traille", "is_starter": false, "position": null, "is_captain": false, "played": false},
       {"jersey": 19, "first_name": "Adrien", "last_name": "Mournet", "is_starter": false, "position": null, "is_captain": false, "played": false},
       {"jersey": 20, "first_name": "Laurent", "last_name": "Pardo", "is_starter": false, "position": null, "is_captain": false, "played": false},
-      {"jersey": 21, "first_name": "Pierre", "last_name": "Pedeutour", "is_starter": false, "position": null, "is_captain": false, "played": false}
+      {"jersey": 21, "first_name": "Pierre", "last_name": "Pédeutour", "is_starter": false, "position": null, "is_captain": false, "played": false}
     ],
     "adversaire": [
       {"jersey": 1, "first_name": "Fran", "last_name": "Cotton", "is_starter": true, "position": "pilier_gauche", "is_captain": false},

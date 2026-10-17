@@ -15,7 +15,7 @@
       {"jersey": 7, "first_name": "Jean-Claude", "last_name": "Skrela", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 8, "first_name": "Jean-Pierre", "last_name": "Bastiat", "is_starter": true, "position": "numero_huit", "is_captain": true},
       {"jersey": 9, "first_name": "Jérôme", "last_name": "Gallion", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
-      {"jersey": 10, "first_name": "Bernard", "last_name": "Vivies", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
+      {"jersey": 10, "first_name": "Bernard", "last_name": "Viviès", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
       {"jersey": 11, "first_name": "Guy", "last_name": "Novès", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 12, "first_name": "Christian", "last_name": "Belascain", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 13, "first_name": "Roland", "last_name": "Bertranne", "is_starter": true, "position": "centre", "is_captain": false},
@@ -53,7 +53,7 @@
   },
   "events": [
     {"team_side": "france", "type": "essai", "player_last_name": "Skrela", "player_first_name": "Jean-Claude", "minute": 18},
-    {"team_side": "france", "type": "drop", "player_last_name": "Vivies", "player_first_name": "Bernard", "minute": 24},
+    {"team_side": "france", "type": "drop", "player_last_name": "Viviès", "player_first_name": "Bernard", "minute": 24},
     {"team_side": "adversaire", "type": "drop", "player_last_name": "Edwards", "player_first_name": "Gareth", "minute": null},
     {"team_side": "adversaire", "type": "drop", "player_last_name": "Fenwick", "player_first_name": "Steve", "minute": null},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Bennett", "player_first_name": "Phil", "minute": null},

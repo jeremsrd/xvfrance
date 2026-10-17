@@ -20,7 +20,7 @@
       {"jersey": 13, "first_name": "Rémi", "last_name": "Lamerat", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 14, "first_name": "Teddy", "last_name": "Thomas", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 15, "first_name": "Geoffrey", "last_name": "Palis", "is_starter": true, "position": "arriere", "is_captain": false},
-      {"jersey": 16, "first_name": "Adrien", "last_name": "Pelissie", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 16, "first_name": "Adrien", "last_name": "Pélissié", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 17, "first_name": "Dany", "last_name": "Priso", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 18, "first_name": "Cedate", "last_name": "Gomes Sa", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 19, "first_name": "Paul", "last_name": "Gabrillagues", "is_starter": false, "position": null, "is_captain": false},
@@ -73,7 +73,7 @@
     {"team_side": "france", "player_off_last_name": "Iturria", "player_off_first_name": "Arthur", "player_on_last_name": "Gabrillagues", "player_on_first_name": "Paul", "minute": 61, "is_tactical": true},
     {"team_side": "france", "player_off_last_name": "Lauret", "player_off_first_name": "Wenceslas", "player_on_last_name": "Tauleigne", "player_on_first_name": "Marco", "minute": 66, "is_tactical": true},
     {"team_side": "france", "player_off_last_name": "Machenaud", "player_off_first_name": "Maxime", "player_on_last_name": "Dupont", "player_on_first_name": "Antoine", "minute": 67, "is_tactical": true},
-    {"team_side": "france", "player_off_last_name": "Guirado", "player_off_first_name": "Guilhem", "player_on_last_name": "Pelissie", "player_on_first_name": "Adrien", "minute": 74, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Guirado", "player_off_first_name": "Guilhem", "player_on_last_name": "Pélissié", "player_on_first_name": "Adrien", "minute": 74, "is_tactical": true},
     {"team_side": "france", "player_off_last_name": "Dupont", "player_off_first_name": "Antoine", "player_on_last_name": "Machenaud", "player_on_first_name": "Maxime", "minute": 76, "is_tactical": true}
   ]
 }

@@ -14,8 +14,8 @@
       {"jersey": 7, "first_name": "Julien", "last_name": "Bonnaire", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 8, "first_name": "Rémy", "last_name": "Martin", "is_starter": true, "position": "numero_huit", "is_captain": false},
       {"jersey": 9, "first_name": "Pierre", "last_name": "Mignoni", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
-      {"jersey": 10, "first_name": "Thomas", "last_name": "Castaignede", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
-      {"jersey": 11, "first_name": "Philippe", "last_name": "Bidabe", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 10, "first_name": "Thomas", "last_name": "Castaignède", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
+      {"jersey": 11, "first_name": "Philippe", "last_name": "Bidabé", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 12, "first_name": "Damien", "last_name": "Traille", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 13, "first_name": "Yannick", "last_name": "Jauzion", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 14, "first_name": "Cédric", "last_name": "Heymans", "is_starter": true, "position": "ailier", "is_captain": false},
@@ -68,13 +68,13 @@
     {"team_side": "france", "type": "essai", "player_last_name": "Marconnet", "player_first_name": "Sylvain", "minute": 44},
     {"team_side": "france", "type": "transformation", "player_last_name": "Traille", "player_first_name": "Damien", "minute": 44},
     {"team_side": "france", "type": "transformation", "player_last_name": "Traille", "player_first_name": "Damien", "minute": 53},
-    {"team_side": "france", "type": "essai", "player_last_name": "Castaignede", "player_first_name": "Thomas", "minute": 53},
+    {"team_side": "france", "type": "essai", "player_last_name": "Castaignède", "player_first_name": "Thomas", "minute": 53},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Fercu", "player_first_name": "Catalin", "minute": 59},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Vlaicu", "player_first_name": "Florin", "minute": 62},
     {"team_side": "france", "type": "essai", "player_last_name": "Szarzewski", "player_first_name": "Dimitri", "minute": 68},
     {"team_side": "france", "type": "essai", "player_last_name": "Laharrague", "player_first_name": "Julien", "minute": 74},
     {"team_side": "france", "type": "essai", "player_last_name": "Marty", "player_first_name": "David", "minute": 80},
-    {"team_side": "france", "type": "transformation", "player_last_name": "Castaignede", "player_first_name": "Thomas", "minute": 80}
+    {"team_side": "france", "type": "transformation", "player_last_name": "Castaignède", "player_first_name": "Thomas", "minute": 80}
   ],
   "substitutions": [
     {"team_side": "france", "player_off_last_name": "Attoub", "player_off_first_name": "David", "player_on_last_name": "Szarzewski", "player_on_first_name": "Dimitri", "minute": 48, "is_tactical": true},

@@ -26,7 +26,7 @@
       {"jersey": 19, "first_name": "Sébastien", "last_name": "Vahaamahina", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 20, "first_name": "Yannick", "last_name": "Nyanga", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 21, "first_name": "Rory", "last_name": "Kockott", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 22, "first_name": "Rémi", "last_name": "Tales", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 22, "first_name": "Rémi", "last_name": "Talès", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 23, "first_name": "Mathieu", "last_name": "Bastareaud", "is_starter": false, "position": null, "is_captain": false}
     ],
     "adversaire": [
@@ -81,7 +81,7 @@
     {"team_side": "france", "player_off_last_name": "Tillous-Borde", "player_off_first_name": "Sébastien", "player_on_last_name": "Kockott", "player_on_first_name": "Rory", "minute": 54, "is_tactical": true},
     {"team_side": "france", "player_off_last_name": "Papé", "player_off_first_name": "Pascal", "player_on_last_name": "Vahaamahina", "player_on_first_name": "Sébastien", "minute": 59, "is_tactical": true},
     {"team_side": "france", "player_off_last_name": "Menini", "player_off_first_name": "Alexandre", "player_on_last_name": "Chiocci", "player_on_first_name": "Xavier", "minute": 59, "is_tactical": true},
-    {"team_side": "france", "player_off_last_name": "Lopez", "player_off_first_name": "Camille", "player_on_last_name": "Tales", "player_on_first_name": "Rémi", "minute": 70, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Lopez", "player_off_first_name": "Camille", "player_on_last_name": "Talès", "player_on_first_name": "Rémi", "minute": 70, "is_tactical": true},
     {"team_side": "france", "player_off_last_name": "Le Roux", "player_off_first_name": "Bernard", "player_on_last_name": "Nyanga", "player_on_first_name": "Yannick", "minute": 75, "is_tactical": true}
   ]
 }

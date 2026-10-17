@@ -25,7 +25,7 @@
       {"jersey": 17, "first_name": "Nicolas", "last_name": "Mas", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 18, "first_name": "Fabien", "last_name": "Pelous", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 19, "first_name": "Rémy", "last_name": "Martin", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 20, "first_name": "Jean-Baptiste", "last_name": "Elissalde", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 20, "first_name": "Jean-Baptiste", "last_name": "Élissalde", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 21, "first_name": "David", "last_name": "Skrela", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 22, "first_name": "Vincent", "last_name": "Clerc", "is_starter": false, "position": null, "is_captain": false}
     ],
@@ -76,7 +76,7 @@
     {"team_side": "france", "type": "essai", "player_last_name": "Bonnaire", "player_first_name": "Julien", "minute": 80}
   ],
   "substitutions": [
-    {"team_side": "france", "player_off_last_name": "Mignoni", "player_off_first_name": "Pierre", "player_on_last_name": "Elissalde", "player_on_first_name": "Jean-Baptiste", "minute": 21, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Mignoni", "player_off_first_name": "Pierre", "player_on_last_name": "Élissalde", "player_on_first_name": "Jean-Baptiste", "minute": 21, "is_tactical": true},
     {"team_side": "france", "player_off_last_name": "Thion", "player_off_first_name": "Jérôme", "player_on_last_name": "Pelous", "player_on_first_name": "Fabien", "minute": 53, "is_tactical": true},
     {"team_side": "france", "player_off_last_name": "Marty", "player_off_first_name": "David", "player_on_last_name": "Skrela", "player_on_first_name": "David", "minute": 58, "is_tactical": true},
     {"team_side": "france", "player_off_last_name": "Bruno", "player_off_first_name": "Sébastien", "player_on_last_name": "Mas", "player_on_first_name": "Nicolas", "minute": 58, "is_tactical": true},

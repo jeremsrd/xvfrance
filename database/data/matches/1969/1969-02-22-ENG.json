@@ -11,7 +11,7 @@
       {"jersey": 3, "first_name": "Jean-Michel", "last_name": "Esponda", "is_starter": true, "position": "pilier_droit", "is_captain": false},
       {"jersey": 4, "first_name": "Elie", "last_name": "Cester", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 5, "first_name": "Alain", "last_name": "Plantefol", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
-      {"jersey": 6, "first_name": "Pierre", "last_name": "Biemouret", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 6, "first_name": "Pierre", "last_name": "Biémouret", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 7, "first_name": "Michel", "last_name": "Hauser", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 8, "first_name": "Benoît", "last_name": "Dauga", "is_starter": true, "position": "numero_huit", "is_captain": false},
       {"jersey": 9, "first_name": "Marcel", "last_name": "Puget", "is_starter": true, "position": "demi_de_melee", "is_captain": true},
@@ -22,7 +22,7 @@
       {"jersey": 14, "first_name": "Basile", "last_name": "Moraitis", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 15, "first_name": "Pierre", "last_name": "Villepreux", "is_starter": true, "position": "arriere", "is_captain": false},
       {"jersey": 16, "first_name": "Michel", "last_name": "Yachvili", "is_starter": false, "position": null, "is_captain": false, "played": false},
-      {"jersey": 17, "first_name": "Jean", "last_name": "Iracabal", "is_starter": false, "position": null, "is_captain": false, "played": false},
+      {"jersey": 17, "first_name": "Jean", "last_name": "Iraçabal", "is_starter": false, "position": null, "is_captain": false, "played": false},
       {"jersey": 18, "first_name": "Gérard", "last_name": "Sutra", "is_starter": false, "position": null, "is_captain": false, "played": false},
       {"jersey": 19, "first_name": "Henri", "last_name": "Magois", "is_starter": false, "position": null, "is_captain": false, "played": false}
     ],

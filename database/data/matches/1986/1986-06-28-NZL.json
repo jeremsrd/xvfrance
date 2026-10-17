@@ -6,13 +6,13 @@
   "referee": "Fred Howard",
   "lineups": {
     "france": [
-      {"jersey": 1, "first_name": "Pierre-Edouard", "last_name": "Detrez", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
+      {"jersey": 1, "first_name": "Pierre-Édouard", "last_name": "Detrez", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
       {"jersey": 2, "first_name": "Daniel", "last_name": "Dubroca", "is_starter": true, "position": "talonneur", "is_captain": true},
       {"jersey": 3, "first_name": "Jean-Pierre", "last_name": "Garuet-Lempirou", "is_starter": true, "position": "pilier_droit", "is_captain": false},
       {"jersey": 4, "first_name": "Francis", "last_name": "Haget", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 5, "first_name": "Jean", "last_name": "Condom", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 6, "first_name": "Jacques", "last_name": "Gratton", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
-      {"jersey": 7, "first_name": "Eric", "last_name": "Champ", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 7, "first_name": "Éric", "last_name": "Champ", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 8, "first_name": "Dominique", "last_name": "Erbani", "is_starter": true, "position": "numero_huit", "is_captain": false},
       {"jersey": 9, "first_name": "Pierre", "last_name": "Berbizier", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
       {"jersey": 10, "first_name": "Jean-Patrick", "last_name": "Lescarboura", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
@@ -25,7 +25,7 @@
       {"jersey": 17, "first_name": "Claude", "last_name": "Portolan", "is_starter": false, "position": null, "is_captain": false, "played": false},
       {"jersey": 18, "first_name": "Laurent", "last_name": "Rodriguez", "is_starter": false, "position": null, "is_captain": false, "played": false},
       {"jersey": 19, "first_name": "Rodolphe", "last_name": "Modin", "is_starter": false, "position": null, "is_captain": false, "played": false},
-      {"jersey": 20, "first_name": "Eric", "last_name": "Bonneval", "is_starter": false, "position": null, "is_captain": false, "played": false},
+      {"jersey": 20, "first_name": "Éric", "last_name": "Bonneval", "is_starter": false, "position": null, "is_captain": false, "played": false},
       {"jersey": 21, "first_name": "Jérôme", "last_name": "Bianchi", "is_starter": false, "position": null, "is_captain": false, "played": false}
     ],
     "adversaire": [

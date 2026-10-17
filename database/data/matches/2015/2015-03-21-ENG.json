@@ -26,7 +26,7 @@
       {"jersey": 19, "first_name": "Romain", "last_name": "Taofifénua", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 20, "first_name": "Damien", "last_name": "Chouly", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 21, "first_name": "Rory", "last_name": "Kockott", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 22, "first_name": "Rémi", "last_name": "Tales", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 22, "first_name": "Rémi", "last_name": "Talès", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 23, "first_name": "Mathieu", "last_name": "Bastareaud", "is_starter": false, "position": null, "is_captain": false}
     ],
     "adversaire": [
@@ -90,6 +90,6 @@
     {"team_side": "france", "player_off_last_name": "Goujon", "player_off_first_name": "Loann", "player_on_last_name": "Chouly", "player_on_first_name": "Damien", "minute": 63, "is_tactical": true},
     {"team_side": "france", "player_off_last_name": "Maestri", "player_off_first_name": "Yoann", "player_on_last_name": "Taofifénua", "player_on_first_name": "Romain", "minute": 68, "is_tactical": true},
     {"team_side": "france", "player_off_last_name": "Mermoz", "player_off_first_name": "Maxime", "player_on_last_name": "Bastareaud", "player_on_first_name": "Mathieu", "minute": 72, "is_tactical": true},
-    {"team_side": "france", "player_off_last_name": "Plisson", "player_off_first_name": "Jules", "player_on_last_name": "Tales", "player_on_first_name": "Rémi", "minute": 72, "is_tactical": true}
+    {"team_side": "france", "player_off_last_name": "Plisson", "player_off_first_name": "Jules", "player_on_last_name": "Talès", "player_on_first_name": "Rémi", "minute": 72, "is_tactical": true}
   ]
 }

@@ -26,7 +26,7 @@
       {"jersey": 19, "first_name": "Alexandre", "last_name": "Flanquart", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 20, "first_name": "Yannick", "last_name": "Nyanga", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 21, "first_name": "Rory", "last_name": "Kockott", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 22, "first_name": "Rémi", "last_name": "Tales", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 22, "first_name": "Rémi", "last_name": "Talès", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 23, "first_name": "Gaël", "last_name": "Fickou", "is_starter": false, "position": null, "is_captain": false}
     ],
     "adversaire": [
@@ -78,7 +78,7 @@
     {"team_side": "france", "player_off_last_name": "Slimani", "player_off_first_name": "Rabah", "player_on_last_name": "Atonio", "player_on_first_name": "Uini", "minute": 64, "is_tactical": true},
     {"team_side": "france", "player_off_last_name": "Bastareaud", "player_off_first_name": "Mathieu", "player_on_last_name": "Fickou", "player_on_first_name": "Gaël", "minute": 68, "is_tactical": true},
     {"team_side": "france", "player_off_last_name": "Papé", "player_off_first_name": "Pascal", "player_on_last_name": "Flanquart", "player_on_first_name": "Alexandre", "minute": 68, "is_tactical": true},
-    {"team_side": "france", "player_off_last_name": "Michalak", "player_off_first_name": "Frédéric", "player_on_last_name": "Tales", "player_on_first_name": "Rémi", "minute": 70, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Michalak", "player_off_first_name": "Frédéric", "player_on_last_name": "Talès", "player_on_first_name": "Rémi", "minute": 70, "is_tactical": true},
     {"team_side": "france", "player_off_last_name": "Tillous-Borde", "player_off_first_name": "Sébastien", "player_on_last_name": "Kockott", "player_on_first_name": "Rory", "minute": 71, "is_tactical": true}
   ]
 }

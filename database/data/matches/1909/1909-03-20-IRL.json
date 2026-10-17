@@ -20,7 +20,7 @@
       {"jersey": 12, "first_name": "Marcel", "last_name": "Burgun", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 13, "first_name": "Émile", "last_name": "Lesieur", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 14, "first_name": "Gaston", "last_name": "Lane", "is_starter": true, "position": "ailier", "is_captain": false},
-      {"jersey": 15, "first_name": "Étienne", "last_name": "De Jouvencel", "is_starter": true, "position": "arriere", "is_captain": false}
+      {"jersey": 15, "first_name": "Étienne", "last_name": "de Jouvencel", "is_starter": true, "position": "arriere", "is_captain": false}
     ],
     "adversaire": [
       {"jersey": 1, "first_name": "Fred", "last_name": "Gardiner", "is_starter": true, "position": "pilier_gauche", "is_captain": false},

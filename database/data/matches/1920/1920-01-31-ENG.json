@@ -8,7 +8,7 @@
     "france": [
       {"jersey": 1, "first_name": "Marcel-Frédéric", "last_name": "Lubin-Lebrère", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
       {"jersey": 2, "first_name": "Pierre", "last_name": "Pons", "is_starter": true, "position": "talonneur", "is_captain": false},
-      {"jersey": 3, "first_name": "Eugène", "last_name": "Soulie", "is_starter": true, "position": "pilier_droit", "is_captain": false},
+      {"jersey": 3, "first_name": "Eugène", "last_name": "Soulié", "is_starter": true, "position": "pilier_droit", "is_captain": false},
       {"jersey": 4, "first_name": "Louis", "last_name": "Puech", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 5, "first_name": "Aimé", "last_name": "Cassayet-Armagnac", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 6, "first_name": "Robert", "last_name": "Thierry", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
@@ -19,8 +19,8 @@
       {"jersey": 11, "first_name": "Paul", "last_name": "Serre", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 12, "first_name": "René", "last_name": "Crabos", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 13, "first_name": "Bernard", "last_name": "Lavigne", "is_starter": true, "position": "centre", "is_captain": false},
-      {"jersey": 14, "first_name": "Adolphe", "last_name": "Jaureguy", "is_starter": true, "position": "ailier", "is_captain": false},
-      {"jersey": 15, "first_name": "Theophile", "last_name": "Cambre", "is_starter": true, "position": "arriere", "is_captain": false}
+      {"jersey": 14, "first_name": "Adolphe", "last_name": "Jauréguy", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 15, "first_name": "Théophile", "last_name": "Cambre", "is_starter": true, "position": "arriere", "is_captain": false}
     ],
     "adversaire": [
       {"jersey": 1, "first_name": "Sos", "last_name": "Taylor", "is_starter": true, "position": "pilier_gauche", "is_captain": false},

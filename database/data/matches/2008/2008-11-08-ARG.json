@@ -13,7 +13,7 @@
       {"jersey": 6, "first_name": "Thierry", "last_name": "Dusautoir", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 7, "first_name": "Imanol", "last_name": "Harinordoquy", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 8, "first_name": "Louis", "last_name": "Picamoles", "is_starter": true, "position": "numero_huit", "is_captain": false},
-      {"jersey": 9, "first_name": "Jean-Baptiste", "last_name": "Elissalde", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
+      {"jersey": 9, "first_name": "Jean-Baptiste", "last_name": "Élissalde", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
       {"jersey": 10, "first_name": "David", "last_name": "Skrela", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
       {"jersey": 11, "first_name": "Cédric", "last_name": "Heymans", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 12, "first_name": "Benoît", "last_name": "Baby", "is_starter": true, "position": "centre", "is_captain": false},
@@ -67,6 +67,6 @@
     {"team_side": "france", "player_off_last_name": "Szarzewski", "player_off_first_name": "Dimitri", "player_on_last_name": "Kayser", "player_on_first_name": "Benjamin", "minute": 65, "is_tactical": true},
     {"team_side": "france", "player_off_last_name": "Picamoles", "player_off_first_name": "Louis", "player_on_last_name": "Ouedraogo", "player_on_first_name": "Fulgence", "minute": 69, "is_tactical": true},
     {"team_side": "france", "player_off_last_name": "Médard", "player_off_first_name": "Maxime", "player_on_last_name": "Palisson", "player_on_first_name": "Alexis", "minute": 73, "is_tactical": true},
-    {"team_side": "france", "player_off_last_name": "Elissalde", "player_off_first_name": "Jean-Baptiste", "player_on_last_name": "Parra", "player_on_first_name": "Morgan", "minute": 73, "is_tactical": true}
+    {"team_side": "france", "player_off_last_name": "Élissalde", "player_off_first_name": "Jean-Baptiste", "player_on_last_name": "Parra", "player_on_first_name": "Morgan", "minute": 73, "is_tactical": true}
   ]
 }

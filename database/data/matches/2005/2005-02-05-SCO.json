@@ -8,7 +8,7 @@
     "france": [
       {"jersey": 1, "first_name": "Sylvain", "last_name": "Marconnet", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
       {"jersey": 2, "first_name": "William", "last_name": "Servat", "is_starter": true, "position": "talonneur", "is_captain": false},
-      {"jersey": 3, "first_name": "Pieter", "last_name": "De Villiers", "is_starter": true, "position": "pilier_droit", "is_captain": false},
+      {"jersey": 3, "first_name": "Pieter", "last_name": "de Villiers", "is_starter": true, "position": "pilier_droit", "is_captain": false},
       {"jersey": 4, "first_name": "Fabien", "last_name": "Pelous", "is_starter": true, "position": "deuxieme_ligne", "is_captain": true},
       {"jersey": 5, "first_name": "Jérôme", "last_name": "Thion", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 6, "first_name": "Julien", "last_name": "Bonnaire", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
@@ -20,7 +20,7 @@
       {"jersey": 12, "first_name": "Damien", "last_name": "Traille", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 13, "first_name": "Brian", "last_name": "Liebenberg", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 14, "first_name": "Aurélien", "last_name": "Rougerie", "is_starter": true, "position": "ailier", "is_captain": false},
-      {"jersey": 15, "first_name": "Pepito", "last_name": "Elhorga", "is_starter": true, "position": "arriere", "is_captain": false},
+      {"jersey": 15, "first_name": "Pépito", "last_name": "Elhorga", "is_starter": true, "position": "arriere", "is_captain": false},
       {"jersey": 16, "first_name": "Sébastien", "last_name": "Bruno", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 17, "first_name": "Olivier", "last_name": "Milloud", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 18, "first_name": "Grégory", "last_name": "Lamboley", "is_starter": false, "position": null, "is_captain": false},
@@ -66,7 +66,7 @@
   ],
   "substitutions": [
     {"team_side": "france", "player_off_last_name": "Rougerie", "player_off_first_name": "Aurélien", "player_on_last_name": "Valbon", "player_on_first_name": "Ludovic", "minute": 18, "is_tactical": true},
-    {"team_side": "france", "player_off_last_name": "De Villiers", "player_off_first_name": "Pieter", "player_on_last_name": "Milloud", "player_on_first_name": "Olivier", "minute": 52, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "de Villiers", "player_off_first_name": "Pieter", "player_on_last_name": "Milloud", "player_on_first_name": "Olivier", "minute": 52, "is_tactical": true},
     {"team_side": "france", "player_off_last_name": "Tabacco", "player_off_first_name": "Patrick", "player_on_last_name": "Nyanga", "player_on_first_name": "Yannick", "minute": 65, "is_tactical": true},
     {"team_side": "france", "player_off_last_name": "Thion", "player_off_first_name": "Jérôme", "player_on_last_name": "Lamboley", "player_on_first_name": "Grégory", "minute": 69, "is_tactical": true},
     {"team_side": "france", "player_off_last_name": "Delaigue", "player_off_first_name": "Yann", "player_on_last_name": "Michalak", "player_on_first_name": "Frédéric", "minute": 74, "is_tactical": true},

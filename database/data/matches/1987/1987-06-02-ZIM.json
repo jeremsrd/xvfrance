@@ -16,9 +16,9 @@
       {"jersey": 8, "first_name": "Laurent", "last_name": "Rodriguez", "is_starter": true, "position": "numero_huit", "is_captain": false},
       {"jersey": 9, "first_name": "Rodolphe", "last_name": "Modin", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
       {"jersey": 10, "first_name": "Franck", "last_name": "Mesnel", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
-      {"jersey": 11, "first_name": "Patrick", "last_name": "Esteve", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 11, "first_name": "Patrick", "last_name": "Estève", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 12, "first_name": "Denis", "last_name": "Charvet", "is_starter": true, "position": "centre", "is_captain": false},
-      {"jersey": 13, "first_name": "Eric", "last_name": "Bonneval", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 13, "first_name": "Éric", "last_name": "Bonneval", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 14, "first_name": "Marc", "last_name": "Andrieu", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 15, "first_name": "Didier", "last_name": "Camberabero", "is_starter": true, "position": "arriere", "is_captain": false},
       {"jersey": 16, "first_name": "Philippe", "last_name": "Dintrans", "is_starter": false, "position": null, "is_captain": false, "played": false},
@@ -68,7 +68,7 @@
     {"team_side": "france", "type": "transformation", "player_last_name": "Camberabero", "player_first_name": "Didier", "minute": 58},
     {"team_side": "france", "type": "essai", "player_last_name": "Camberabero", "player_first_name": "Didier", "minute": 61},
     {"team_side": "france", "type": "transformation", "player_last_name": "Camberabero", "player_first_name": "Didier", "minute": 62},
-    {"team_side": "france", "type": "essai", "player_last_name": "Esteve", "player_first_name": "Patrick", "minute": 63},
+    {"team_side": "france", "type": "essai", "player_last_name": "Estève", "player_first_name": "Patrick", "minute": 63},
     {"team_side": "france", "type": "transformation", "player_last_name": "Camberabero", "player_first_name": "Didier", "minute": 64},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Kaulbach", "player_first_name": "Peter", "minute": 66},
     {"team_side": "france", "type": "essai", "player_last_name": "Camberabero", "player_first_name": "Didier", "minute": 67},
@@ -81,7 +81,7 @@
     {"team_side": "france", "type": "essai", "player_last_name": "Laporte", "player_first_name": "Guy", "minute": 77}
   ],
   "substitutions": [
-    {"team_side": "france", "player_off_last_name": "Bonneval", "player_off_first_name": "Eric", "player_on_last_name": "Sella", "player_on_first_name": "Philippe", "minute": 20, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Bonneval", "player_off_first_name": "Éric", "player_on_last_name": "Sella", "player_on_first_name": "Philippe", "minute": 20, "is_tactical": true},
     {"team_side": "france", "player_off_last_name": "Andrieu", "player_off_first_name": "Marc", "player_on_last_name": "Mesnel", "player_on_first_name": "Franck", "minute": 46, "is_tactical": true},
     {"team_side": "france", "player_off_last_name": "Mesnel", "player_off_first_name": "Franck", "player_on_last_name": "Laporte", "player_on_first_name": "Guy", "minute": 75, "is_tactical": true}
   ]

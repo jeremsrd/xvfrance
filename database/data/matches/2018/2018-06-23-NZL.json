@@ -11,7 +11,7 @@
       {"jersey": 4, "first_name": "Bernard", "last_name": "Le Roux", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 5, "first_name": "Yoann", "last_name": "Maestri", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 6, "first_name": "Mathieu", "last_name": "Babillot", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
-      {"jersey": 7, "first_name": "Kelian", "last_name": "Galletier", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 7, "first_name": "Kélian", "last_name": "Galletier", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 8, "first_name": "Kévin", "last_name": "Gourdon", "is_starter": true, "position": "numero_huit", "is_captain": false},
       {"jersey": 9, "first_name": "Morgan", "last_name": "Parra", "is_starter": true, "position": "demi_de_melee", "is_captain": true},
       {"jersey": 10, "first_name": "Anthony", "last_name": "Belleau", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
@@ -20,7 +20,7 @@
       {"jersey": 13, "first_name": "Rémi", "last_name": "Lamerat", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 14, "first_name": "Teddy", "last_name": "Thomas", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 15, "first_name": "Benjamin", "last_name": "Fall", "is_starter": true, "position": "arriere", "is_captain": false},
-      {"jersey": 16, "first_name": "Adrien", "last_name": "Pelissie", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 16, "first_name": "Adrien", "last_name": "Pélissié", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 17, "first_name": "Cyril", "last_name": "Baille", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 18, "first_name": "Cedate", "last_name": "Gomes Sa", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 19, "first_name": "Félix", "last_name": "Lambey", "is_starter": false, "position": null, "is_captain": false},
@@ -82,6 +82,6 @@
     {"team_side": "france", "player_off_last_name": "Atonio", "player_off_first_name": "Uini", "player_on_last_name": "Gomes Sa", "player_on_first_name": "Cedate", "minute": 51, "is_tactical": true},
     {"team_side": "france", "player_off_last_name": "Priso", "player_off_first_name": "Dany", "player_on_last_name": "Baille", "player_on_first_name": "Cyril", "minute": 51, "is_tactical": true},
     {"team_side": "france", "player_off_last_name": "Le Roux", "player_off_first_name": "Bernard", "player_on_last_name": "Lambey", "player_on_first_name": "Félix", "minute": 63, "is_tactical": true},
-    {"team_side": "france", "player_off_last_name": "Chat", "player_off_first_name": "Camille", "player_on_last_name": "Pelissie", "player_on_first_name": "Adrien", "minute": 64, "is_tactical": true}
+    {"team_side": "france", "player_off_last_name": "Chat", "player_off_first_name": "Camille", "player_on_last_name": "Pélissié", "player_on_first_name": "Adrien", "minute": 64, "is_tactical": true}
   ]
 }

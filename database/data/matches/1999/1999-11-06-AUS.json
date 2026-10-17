@@ -23,10 +23,10 @@
       {"jersey": 15, "first_name": "Xavier", "last_name": "Garbajosa", "is_starter": true, "position": "arriere", "is_captain": false},
       {"jersey": 16, "first_name": "Ugo", "last_name": "Mola", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 17, "first_name": "Stéphane", "last_name": "Glas", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 18, "first_name": "Stéphane", "last_name": "Castaignede", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 18, "first_name": "Stéphane", "last_name": "Castaignède", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 19, "first_name": "Arnaud", "last_name": "Costes", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 20, "first_name": "Olivier", "last_name": "Brouzet", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 21, "first_name": "Pieter", "last_name": "De Villiers", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 21, "first_name": "Pieter", "last_name": "de Villiers", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 22, "first_name": "Marc", "last_name": "Dal Maso", "is_starter": false, "position": null, "is_captain": false}
     ],
     "adversaire": [

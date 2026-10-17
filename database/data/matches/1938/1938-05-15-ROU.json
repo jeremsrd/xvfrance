@@ -7,7 +7,7 @@
   "lineups": {
     "france": [
       {"jersey": 1, "first_name": "Émile", "last_name": "Doussau", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
-      {"jersey": 2, "first_name": "Jean", "last_name": "Clave", "is_starter": true, "position": "talonneur", "is_captain": false},
+      {"jersey": 2, "first_name": "Jean", "last_name": "Clavé", "is_starter": true, "position": "talonneur", "is_captain": false},
       {"jersey": 3, "first_name": "André", "last_name": "Goyard", "is_starter": true, "position": "pilier_droit", "is_captain": false},
       {"jersey": 4, "first_name": "Antonin", "last_name": "Delque", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 5, "first_name": "René", "last_name": "Lombarteix", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},

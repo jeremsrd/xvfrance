@@ -6,16 +6,16 @@
   "referee": "Wc Malan",
   "lineups": {
     "france": [
-      {"jersey": 1, "first_name": "Jean", "last_name": "Iracabal", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
+      {"jersey": 1, "first_name": "Jean", "last_name": "Iraçabal", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
       {"jersey": 2, "first_name": "Michel", "last_name": "Yachvili", "is_starter": true, "position": "talonneur", "is_captain": false},
       {"jersey": 3, "first_name": "Jean-Louis", "last_name": "Azarete", "is_starter": true, "position": "pilier_droit", "is_captain": false},
       {"jersey": 4, "first_name": "Jean-Pierre", "last_name": "Bastiat", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 5, "first_name": "Claude", "last_name": "Spanghero", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
-      {"jersey": 6, "first_name": "Pierre", "last_name": "Biemouret", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 6, "first_name": "Pierre", "last_name": "Biémouret", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 7, "first_name": "Jean-Claude", "last_name": "Skrela", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 8, "first_name": "Benoît", "last_name": "Dauga", "is_starter": true, "position": "numero_huit", "is_captain": true},
       {"jersey": 9, "first_name": "Michel", "last_name": "Pebeyre", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
-      {"jersey": 10, "first_name": "Jean-Louis", "last_name": "Berot", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
+      {"jersey": 10, "first_name": "Jean-Louis", "last_name": "Bérot", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
       {"jersey": 11, "first_name": "Roger", "last_name": "Bourgarel", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 12, "first_name": "Jo", "last_name": "Maso", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 13, "first_name": "Jean", "last_name": "Trillo", "is_starter": true, "position": "centre", "is_captain": false},
@@ -42,7 +42,7 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "transformation", "player_last_name": "Berot", "player_first_name": "Jean-Louis", "minute": null},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Bérot", "player_first_name": "Jean-Louis", "minute": null},
     {"team_side": "france", "type": "essai", "player_last_name": "Bertranne", "player_first_name": "Roland", "minute": null},
     {"team_side": "france", "type": "drop", "player_last_name": "Cantoni", "player_first_name": "Jack", "minute": null},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Cronje", "player_first_name": "Peter", "minute": null},

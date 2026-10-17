@@ -26,7 +26,7 @@
       {"jersey": 19, "first_name": "Patrick", "last_name": "Tabacco", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 20, "first_name": "Gérald", "last_name": "Merceron", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 21, "first_name": "Damien", "last_name": "Traille", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 22, "first_name": "Pepito", "last_name": "Elhorga", "is_starter": false, "position": null, "is_captain": false, "played": false}
+      {"jersey": 22, "first_name": "Pépito", "last_name": "Elhorga", "is_starter": false, "position": null, "is_captain": false, "played": false}
     ],
     "adversaire": [
       {"jersey": 1, "first_name": "Tom", "last_name": "Smith", "is_starter": true, "position": "pilier_gauche", "is_captain": false},

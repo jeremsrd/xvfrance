@@ -6,7 +6,7 @@
   "referee": "Ea Strasheim",
   "lineups": {
     "france": [
-      {"jersey": 1, "first_name": "Jean-Claude", "last_name": "Berejnoi", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
+      {"jersey": 1, "first_name": "Jean-Claude", "last_name": "Berejnoï", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
       {"jersey": 2, "first_name": "Yves", "last_name": "Menthillier", "is_starter": true, "position": "talonneur", "is_captain": false},
       {"jersey": 3, "first_name": "Arnaldo", "last_name": "Gruarin", "is_starter": true, "position": "pilier_droit", "is_captain": false},
       {"jersey": 4, "first_name": "Michel", "last_name": "Crauste", "is_starter": true, "position": "deuxieme_ligne", "is_captain": true},
@@ -17,7 +17,7 @@
       {"jersey": 9, "first_name": "Claude", "last_name": "Laborde", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
       {"jersey": 10, "first_name": "Pierre", "last_name": "Albaladejo", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
       {"jersey": 11, "first_name": "Jean", "last_name": "Gachassin", "is_starter": true, "position": "ailier", "is_captain": false},
-      {"jersey": 12, "first_name": "Jean", "last_name": "Pique", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 12, "first_name": "Jean", "last_name": "Piqué", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 13, "first_name": "Jean", "last_name": "Capdouze", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 14, "first_name": "Christian", "last_name": "Darrouy", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 15, "first_name": "Paul", "last_name": "Dedieu", "is_starter": true, "position": "arriere", "is_captain": false}

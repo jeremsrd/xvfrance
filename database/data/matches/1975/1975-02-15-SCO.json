@@ -15,7 +15,7 @@
       {"jersey": 7, "first_name": "Jean-Claude", "last_name": "Skrela", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 8, "first_name": "Victor", "last_name": "Boffelli", "is_starter": true, "position": "numero_huit", "is_captain": false},
       {"jersey": 9, "first_name": "Richard", "last_name": "Astre", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
-      {"jersey": 10, "first_name": "Lucien", "last_name": "Paries", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
+      {"jersey": 10, "first_name": "Lucien", "last_name": "Pariès", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
       {"jersey": 11, "first_name": "Jean-Luc", "last_name": "Averous", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 12, "first_name": "Roland", "last_name": "Bertranne", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 13, "first_name": "Claude", "last_name": "Dourthe", "is_starter": true, "position": "centre", "is_captain": true},
@@ -55,7 +55,7 @@
   "events": [
     {"team_side": "france", "type": "drop", "player_last_name": "Astre", "player_first_name": "Richard", "minute": 42},
     {"team_side": "france", "type": "essai", "player_last_name": "Dourthe", "player_first_name": "Claude", "minute": 59},
-    {"team_side": "france", "type": "penalite", "player_last_name": "Paries", "player_first_name": "Lucien", "minute": 67},
+    {"team_side": "france", "type": "penalite", "player_last_name": "Pariès", "player_first_name": "Lucien", "minute": 67},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Irvine", "player_first_name": "Andy", "minute": null},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Irvine", "player_first_name": "Andy", "minute": null},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Irvine", "player_first_name": "Andy", "minute": null}

@@ -6,7 +6,7 @@
   "lineups": {
     "france": [
       {"jersey": 1, "first_name": "Jefferson", "last_name": "Poirot", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
-      {"jersey": 2, "first_name": "Adrien", "last_name": "Pelissie", "is_starter": true, "position": "talonneur", "is_captain": false},
+      {"jersey": 2, "first_name": "Adrien", "last_name": "Pélissié", "is_starter": true, "position": "talonneur", "is_captain": false},
       {"jersey": 3, "first_name": "Cedate", "last_name": "Gomes Sa", "is_starter": true, "position": "pilier_droit", "is_captain": false},
       {"jersey": 4, "first_name": "Sébastien", "last_name": "Vahaamahina", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 5, "first_name": "Paul", "last_name": "Gabrillagues", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
@@ -68,7 +68,7 @@
   "substitutions": [
     {"team_side": "france", "player_off_last_name": "Camara", "player_off_first_name": "Yacouba", "player_on_last_name": "Babillot", "player_on_first_name": "Mathieu", "minute": 26, "is_tactical": true},
     {"team_side": "france", "player_off_last_name": "Gomes Sa", "player_off_first_name": "Cedate", "player_on_last_name": "Slimani", "player_on_first_name": "Rabah", "minute": 51, "is_tactical": true},
-    {"team_side": "france", "player_off_last_name": "Pelissie", "player_off_first_name": "Adrien", "player_on_last_name": "Chat", "player_on_first_name": "Camille", "minute": 51, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Pélissié", "player_off_first_name": "Adrien", "player_on_last_name": "Chat", "player_on_first_name": "Camille", "minute": 51, "is_tactical": true},
     {"team_side": "france", "player_off_last_name": "Poirot", "player_off_first_name": "Jefferson", "player_on_last_name": "Priso", "player_on_first_name": "Dany", "minute": 60, "is_tactical": true},
     {"team_side": "france", "player_off_last_name": "Machenaud", "player_off_first_name": "Maxime", "player_on_last_name": "Couilloud", "player_on_first_name": "Baptiste", "minute": 62, "is_tactical": true},
     {"team_side": "france", "player_off_last_name": "Trinh-Duc", "player_off_first_name": "François", "player_on_last_name": "Beauxis", "player_on_first_name": "Lionel", "minute": 71, "is_tactical": true},

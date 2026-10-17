@@ -6,14 +6,14 @@
   "referee": "Ed Morrison",
   "lineups": {
     "france": [
-      {"jersey": 1, "first_name": "Grégoire", "last_name": "Lascube", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
+      {"jersey": 1, "first_name": "Grégoire", "last_name": "Lascubé", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
       {"jersey": 2, "first_name": "Philippe", "last_name": "Marocco", "is_starter": true, "position": "talonneur", "is_captain": false},
       {"jersey": 3, "first_name": "Pascal", "last_name": "Ondarts", "is_starter": true, "position": "pilier_droit", "is_captain": false},
       {"jersey": 4, "first_name": "Michel", "last_name": "Tachdjian", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 5, "first_name": "Olivier", "last_name": "Roumat", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 6, "first_name": "Xavier", "last_name": "Blond", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 7, "first_name": "Laurent", "last_name": "Cabannes", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
-      {"jersey": 8, "first_name": "Marc", "last_name": "Cecillon", "is_starter": true, "position": "numero_huit", "is_captain": false},
+      {"jersey": 8, "first_name": "Marc", "last_name": "Cécillon", "is_starter": true, "position": "numero_huit", "is_captain": false},
       {"jersey": 9, "first_name": "Pierre", "last_name": "Berbizier", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
       {"jersey": 10, "first_name": "Didier", "last_name": "Camberabero", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
       {"jersey": 11, "first_name": "Patrice", "last_name": "Lagisquet", "is_starter": true, "position": "ailier", "is_captain": false},

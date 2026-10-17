@@ -14,7 +14,7 @@
       {"jersey": 7, "first_name": "Wenceslas", "last_name": "Lauret", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 8, "first_name": "Damien", "last_name": "Chouly", "is_starter": true, "position": "numero_huit", "is_captain": false},
       {"jersey": 9, "first_name": "Morgan", "last_name": "Parra", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
-      {"jersey": 10, "first_name": "Rémi", "last_name": "Tales", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
+      {"jersey": 10, "first_name": "Rémi", "last_name": "Talès", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
       {"jersey": 11, "first_name": "Yoann", "last_name": "Huget", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 12, "first_name": "Wesley", "last_name": "Fofana", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 13, "first_name": "Florian", "last_name": "Fritz", "is_starter": true, "position": "centre", "is_captain": false},
@@ -75,6 +75,6 @@
     {"team_side": "france", "player_off_last_name": "Parra", "player_off_first_name": "Morgan", "player_on_last_name": "Doussain", "player_on_first_name": "Jean Marc", "minute": 67, "is_tactical": true},
     {"team_side": "france", "player_off_last_name": "Lauret", "player_off_first_name": "Wenceslas", "player_on_last_name": "Nyanga", "player_on_first_name": "Yannick", "minute": 70, "is_tactical": true},
     {"team_side": "france", "player_off_last_name": "Dusautoir", "player_off_first_name": "Thierry", "player_on_last_name": "Forestier", "player_on_first_name": "Yannick", "minute": 72, "is_tactical": true},
-    {"team_side": "france", "player_off_last_name": "Tales", "player_off_first_name": "Rémi", "player_on_last_name": "Michalak", "player_on_first_name": "Frédéric", "minute": 75, "is_tactical": true}
+    {"team_side": "france", "player_off_last_name": "Talès", "player_off_first_name": "Rémi", "player_on_last_name": "Michalak", "player_on_first_name": "Frédéric", "minute": 75, "is_tactical": true}
   ]
 }

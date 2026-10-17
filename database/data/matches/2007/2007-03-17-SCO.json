@@ -7,7 +7,7 @@
     "france": [
       {"jersey": 1, "first_name": "Olivier", "last_name": "Milloud", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
       {"jersey": 2, "first_name": "Raphaël", "last_name": "Ibañez", "is_starter": true, "position": "talonneur", "is_captain": true},
-      {"jersey": 3, "first_name": "Pieter", "last_name": "De Villiers", "is_starter": true, "position": "pilier_droit", "is_captain": false},
+      {"jersey": 3, "first_name": "Pieter", "last_name": "de Villiers", "is_starter": true, "position": "pilier_droit", "is_captain": false},
       {"jersey": 4, "first_name": "Lionel", "last_name": "Nallet", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 5, "first_name": "Jérôme", "last_name": "Thion", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 6, "first_name": "Serge", "last_name": "Betsen", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
@@ -24,7 +24,7 @@
       {"jersey": 17, "first_name": "Nicolas", "last_name": "Mas", "is_starter": false, "position": null, "is_captain": false, "played": false},
       {"jersey": 18, "first_name": "Pascal", "last_name": "Papé", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 19, "first_name": "Elvis", "last_name": "Vermeulen", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 20, "first_name": "Jean-Baptiste", "last_name": "Elissalde", "is_starter": false, "position": null, "is_captain": false, "played": false},
+      {"jersey": 20, "first_name": "Jean-Baptiste", "last_name": "Élissalde", "is_starter": false, "position": null, "is_captain": false, "played": false},
       {"jersey": 21, "first_name": "Damien", "last_name": "Traille", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 22, "first_name": "Christophe", "last_name": "Dominici", "is_starter": false, "position": null, "is_captain": false}
     ],

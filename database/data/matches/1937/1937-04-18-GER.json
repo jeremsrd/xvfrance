@@ -8,7 +8,7 @@
     "france": [
       {"jersey": 1, "first_name": "André", "last_name": "Goyard", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
       {"jersey": 2, "first_name": "Édouard", "last_name": "Ainciart", "is_starter": true, "position": "talonneur", "is_captain": false},
-      {"jersey": 3, "first_name": "Pierre", "last_name": "Daulouede", "is_starter": true, "position": "pilier_droit", "is_captain": false},
+      {"jersey": 3, "first_name": "Pierre", "last_name": "Daulouède", "is_starter": true, "position": "pilier_droit", "is_captain": false},
       {"jersey": 4, "first_name": "Étienne", "last_name": "Ithurra", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 5, "first_name": "David", "last_name": "Aguilar", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 6, "first_name": "Jean", "last_name": "Blond", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},

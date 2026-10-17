@@ -26,7 +26,7 @@
       {"jersey": 19, "first_name": "Christian", "last_name": "Labit", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 20, "first_name": "Gérald", "last_name": "Merceron", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 21, "first_name": "Damien", "last_name": "Traille", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 22, "first_name": "Pepito", "last_name": "Elhorga", "is_starter": false, "position": null, "is_captain": false}
+      {"jersey": 22, "first_name": "Pépito", "last_name": "Elhorga", "is_starter": false, "position": null, "is_captain": false}
     ],
     "adversaire": [
       {"jersey": 1, "first_name": "Richard", "last_name": "Nyholt", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
@@ -78,7 +78,7 @@
     {"team_side": "france", "type": "essai", "player_last_name": "Dominici", "player_first_name": "Christophe", "minute": 81}
   ],
   "substitutions": [
-    {"team_side": "france", "player_off_last_name": "Rougerie", "player_off_first_name": "Aurélien", "player_on_last_name": "Elhorga", "player_on_first_name": "Pepito", "minute": 55, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Rougerie", "player_off_first_name": "Aurélien", "player_on_last_name": "Elhorga", "player_on_first_name": "Pépito", "minute": 55, "is_tactical": true},
     {"team_side": "france", "player_off_last_name": "Pelous", "player_off_first_name": "Fabien", "player_on_last_name": "Brouzet", "player_on_first_name": "Olivier", "minute": 75, "is_tactical": true},
     {"team_side": "france", "player_off_last_name": "Magne", "player_off_first_name": "Olivier", "player_on_last_name": "Labit", "player_on_first_name": "Christian", "minute": 80, "is_tactical": true},
     {"team_side": "france", "player_off_last_name": "Jauzion", "player_off_first_name": "Yannick", "player_on_last_name": "Traille", "player_on_first_name": "Damien", "minute": 85, "is_tactical": true},

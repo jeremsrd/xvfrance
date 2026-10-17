@@ -17,6 +17,9 @@ Fait le 17/10/2026 (tout est commité, déployé et poussé ; dernier commit dé
   restent à part). Choix de l'utilisateur, voir `docs/sources.md`.
 - **Clubs d'après Wikipédia** (`scripts/wikipedia/clubs.py`, `wikipedia_clubs.csv`) pour les internationaux absents
   de la liste « This Is Rugby » : 7 internationaux sans club au lieu de 97 ; filtre par club sur `/joueurs`.
+- **Accents des noms** : 107 internationaux corrigés d'après la liste Wikipédia (`noms_ecarts.csv`, `renommer.py`) ;
+  règle : un accent connu est toujours mis (Benoît Dauga, Raphaël Ibañez gardés malgré Wikipédia), particule en
+  minuscule (de Villiers). « Louis Péllissier » de Wikipédia écarté (graphie douteuse). Adversaires non vérifiés.
 - **Recordmen des sélections** sur `/records` (`RecordsService::capsRecordHistory()`) : qui prend ou égale le record,
   quand, contre qui, jusqu'à quand, total en carrière.
 - **Naissances des sélectionnés d'après 2020** : 14 dates ajoutées ou corrigées (`dates_corrections.csv`) ; les

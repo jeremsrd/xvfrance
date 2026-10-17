@@ -16,9 +16,9 @@
       {"jersey": 8, "first_name": "Jean", "last_name": "Etcheberry", "is_starter": true, "position": "numero_huit", "is_captain": false},
       {"jersey": 9, "first_name": "Clément", "last_name": "Dupont", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
       {"jersey": 10, "first_name": "Henri", "last_name": "Galau", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
-      {"jersey": 11, "first_name": "Adolphe", "last_name": "Jaureguy", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 11, "first_name": "Adolphe", "last_name": "Jauréguy", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 12, "first_name": "Albert", "last_name": "Dupouy", "is_starter": true, "position": "centre", "is_captain": false},
-      {"jersey": 13, "first_name": "André", "last_name": "Behoteguy", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 13, "first_name": "André", "last_name": "Béhotéguy", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 14, "first_name": "Raoul", "last_name": "Got", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 15, "first_name": "Étienne", "last_name": "Bonnes", "is_starter": true, "position": "arriere", "is_captain": false}
     ],
@@ -41,7 +41,7 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "essai", "player_last_name": "Behoteguy", "player_first_name": "André", "minute": 16},
+    {"team_side": "france", "type": "essai", "player_last_name": "Béhotéguy", "player_first_name": "André", "minute": 16},
     {"team_side": "france", "type": "essai", "player_last_name": "Lubin-Lebrère", "player_first_name": "Marcel-Frédéric", "minute": null},
     {"team_side": "adversaire", "type": "drop", "player_last_name": "Griffiths", "player_first_name": "Vince", "minute": null},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Finch", "player_first_name": "Ernie", "minute": null},

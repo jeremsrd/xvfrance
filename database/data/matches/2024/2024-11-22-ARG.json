@@ -27,7 +27,7 @@
       {"jersey": 20, "first_name": "Mickaël", "last_name": "Guillard", "is_starter": false, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 21, "first_name": "Marko", "last_name": "Gazzotti", "is_starter": false, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 22, "first_name": "Nolann", "last_name": "Le Garrec", "is_starter": false, "position": "demi_de_melee", "is_captain": false},
-      {"jersey": 23, "first_name": "Emilien", "last_name": "Gailleton", "is_starter": false, "position": "centre", "is_captain": false}
+      {"jersey": 23, "first_name": "Émilien", "last_name": "Gailleton", "is_starter": false, "position": "centre", "is_captain": false}
     ],
     "adversaire": [
       {"jersey": 1, "first_name": "Thomas", "last_name": "Gallo", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
@@ -75,6 +75,6 @@
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Albornoz", "player_first_name": "Tomás", "minute": 70}
   ],
   "substitutions": [
-    {"team_side": "france", "player_off_last_name": "Fickou", "player_off_first_name": "Gaël", "player_on_last_name": "Gailleton", "player_on_first_name": "Emilien", "minute": 72, "is_tactical": true}
+    {"team_side": "france", "player_off_last_name": "Fickou", "player_off_first_name": "Gaël", "player_on_last_name": "Gailleton", "player_on_first_name": "Émilien", "minute": 72, "is_tactical": true}
   ]
 }

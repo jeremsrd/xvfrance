@@ -6,7 +6,7 @@
   "referee": "Derek Bevan",
   "lineups": {
     "france": [
-      {"jersey": 1, "first_name": "Laurent", "last_name": "Benezech", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
+      {"jersey": 1, "first_name": "Laurent", "last_name": "Bénézech", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
       {"jersey": 2, "first_name": "Jean-Michel", "last_name": "Gonzalez", "is_starter": true, "position": "talonneur", "is_captain": false},
       {"jersey": 3, "first_name": "Laurent", "last_name": "Seigne", "is_starter": true, "position": "pilier_droit", "is_captain": false},
       {"jersey": 4, "first_name": "Olivier", "last_name": "Brouzet", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},

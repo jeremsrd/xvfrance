@@ -8,11 +8,11 @@
     "france": [
       {"jersey": 1, "first_name": "Arnaldo", "last_name": "Gruarin", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
       {"jersey": 2, "first_name": "Jean-Michel", "last_name": "Cabanier", "is_starter": true, "position": "talonneur", "is_captain": false},
-      {"jersey": 3, "first_name": "Jean-Claude", "last_name": "Berejnoi", "is_starter": true, "position": "pilier_droit", "is_captain": false},
+      {"jersey": 3, "first_name": "Jean-Claude", "last_name": "Berejnoï", "is_starter": true, "position": "pilier_droit", "is_captain": false},
       {"jersey": 4, "first_name": "Walter", "last_name": "Spanghero", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 5, "first_name": "Benoît", "last_name": "Dauga", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 6, "first_name": "Jean", "last_name": "Salut", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
-      {"jersey": 7, "first_name": "Christian", "last_name": "Carrere", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 7, "first_name": "Christian", "last_name": "Carrère", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 8, "first_name": "André", "last_name": "Herrero", "is_starter": true, "position": "numero_huit", "is_captain": false},
       {"jersey": 9, "first_name": "Jean-Claude", "last_name": "Lasserre", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
       {"jersey": 10, "first_name": "Jean", "last_name": "Gachassin", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
@@ -42,7 +42,7 @@
   },
   "events": [
     {"team_side": "france", "type": "essai", "player_last_name": "Duprat", "player_first_name": "Bernard", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Carrere", "player_first_name": "Christian", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Carrère", "player_first_name": "Christian", "minute": null},
     {"team_side": "france", "type": "transformation", "player_last_name": "Gachassin", "player_first_name": "Jean", "minute": null},
     {"team_side": "adversaire", "type": "drop", "player_last_name": "Simmers", "player_first_name": "Brian", "minute": null},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Wilson", "player_first_name": "Stewart", "minute": null},

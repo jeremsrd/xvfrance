@@ -18,7 +18,7 @@
       {"jersey": 11, "first_name": "Louis", "last_name": "Bielle-Biarrey", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 12, "first_name": "Yoram", "last_name": "Moefana", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 13, "first_name": "Pierre-Louis", "last_name": "Barassi", "is_starter": true, "position": "centre", "is_captain": false},
-      {"jersey": 14, "first_name": "Théo", "last_name": "Attissogbe", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 14, "first_name": "Théo", "last_name": "Attissogbé", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 15, "first_name": "Thomas", "last_name": "Ramos", "is_starter": true, "position": "arriere", "is_captain": false},
       {"jersey": 16, "first_name": "Julien", "last_name": "Marchand", "is_starter": false, "position": "talonneur", "is_captain": false},
       {"jersey": 17, "first_name": "Cyril", "last_name": "Baille", "is_starter": false, "position": "pilier_gauche", "is_captain": false},
@@ -27,7 +27,7 @@
       {"jersey": 20, "first_name": "Mickaël", "last_name": "Guillard", "is_starter": false, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 21, "first_name": "Oscar", "last_name": "Jégou", "is_starter": false, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 22, "first_name": "Nolann", "last_name": "Le Garrec", "is_starter": false, "position": "demi_de_melee", "is_captain": false},
-      {"jersey": 23, "first_name": "Emilien", "last_name": "Gailleton", "is_starter": false, "position": "centre", "is_captain": false}
+      {"jersey": 23, "first_name": "Émilien", "last_name": "Gailleton", "is_starter": false, "position": "centre", "is_captain": false}
     ],
     "adversaire": [
       {"jersey": 1, "first_name": "Gareth", "last_name": "Thomas", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
@@ -56,16 +56,16 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "essai", "player_last_name": "Attissogbe", "player_first_name": "Théo", "minute": 18},
+    {"team_side": "france", "type": "essai", "player_last_name": "Attissogbé", "player_first_name": "Théo", "minute": 18},
     {"team_side": "france", "type": "transformation", "player_last_name": "Ramos", "player_first_name": "Thomas", "minute": 19},
     {"team_side": "france", "type": "essai", "player_last_name": "Bielle-Biarrey", "player_first_name": "Louis", "minute": 23},
     {"team_side": "france", "type": "transformation", "player_last_name": "Ramos", "player_first_name": "Thomas", "minute": 24},
-    {"team_side": "france", "type": "essai", "player_last_name": "Attissogbe", "player_first_name": "Théo", "minute": 34},
+    {"team_side": "france", "type": "essai", "player_last_name": "Attissogbé", "player_first_name": "Théo", "minute": 34},
     {"team_side": "france", "type": "transformation", "player_last_name": "Ramos", "player_first_name": "Thomas", "minute": 35},
     {"team_side": "france", "type": "essai", "player_last_name": "Bielle-Biarrey", "player_first_name": "Louis", "minute": 41},
     {"team_side": "france", "type": "transformation", "player_last_name": "Ramos", "player_first_name": "Thomas", "minute": 42},
     {"team_side": "france", "type": "essai", "player_last_name": "Marchand", "player_first_name": "Julien", "minute": 55},
-    {"team_side": "france", "type": "essai", "player_last_name": "Gailleton", "player_first_name": "Emilien", "minute": 68},
+    {"team_side": "france", "type": "essai", "player_last_name": "Gailleton", "player_first_name": "Émilien", "minute": 68},
     {"team_side": "france", "type": "carton_rouge", "player_last_name": "Ntamack", "player_first_name": "Romain", "minute": 70},
     {"team_side": "france", "type": "essai", "player_last_name": "Alldritt", "player_first_name": "Grégory", "minute": 78}
   ],

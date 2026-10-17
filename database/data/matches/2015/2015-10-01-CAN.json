@@ -26,7 +26,7 @@
       {"jersey": 19, "first_name": "Yannick", "last_name": "Nyanga", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 20, "first_name": "Fulgence", "last_name": "Ouedraogo", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 21, "first_name": "Morgan", "last_name": "Parra", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 22, "first_name": "Rémi", "last_name": "Tales", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 22, "first_name": "Rémi", "last_name": "Talès", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 23, "first_name": "Alexandre", "last_name": "Dumoulin", "is_starter": false, "position": null, "is_captain": false}
     ],
     "adversaire": [
@@ -79,7 +79,7 @@
     {"team_side": "france", "player_off_last_name": "Guirado", "player_off_first_name": "Guilhem", "player_on_last_name": "Kayser", "player_on_first_name": "Benjamin", "minute": 59, "is_tactical": true},
     {"team_side": "france", "player_off_last_name": "Ben Arous", "player_off_first_name": "Eddy", "player_on_last_name": "Debaty", "player_on_first_name": "Vincent", "minute": 59, "is_tactical": true},
     {"team_side": "france", "player_off_last_name": "Slimani", "player_off_first_name": "Rabah", "player_on_last_name": "Mas", "player_on_first_name": "Nicolas", "minute": 63, "is_tactical": true},
-    {"team_side": "france", "player_off_last_name": "Michalak", "player_off_first_name": "Frédéric", "player_on_last_name": "Tales", "player_on_first_name": "Rémi", "minute": 68, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Michalak", "player_off_first_name": "Frédéric", "player_on_last_name": "Talès", "player_on_first_name": "Rémi", "minute": 68, "is_tactical": true},
     {"team_side": "france", "player_off_last_name": "Le Roux", "player_off_first_name": "Bernard", "player_on_last_name": "Nyanga", "player_on_first_name": "Yannick", "minute": 68, "is_tactical": true},
     {"team_side": "france", "player_off_last_name": "Bastareaud", "player_off_first_name": "Mathieu", "player_on_last_name": "Dumoulin", "player_on_first_name": "Alexandre", "minute": 70, "is_tactical": true},
     {"team_side": "france", "player_off_last_name": "Chouly", "player_off_first_name": "Damien", "player_on_last_name": "Ouedraogo", "player_on_first_name": "Fulgence", "minute": 73, "is_tactical": true}

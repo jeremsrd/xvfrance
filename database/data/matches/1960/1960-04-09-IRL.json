@@ -6,7 +6,7 @@
   "referee": "Gwynne Walters",
   "lineups": {
     "france": [
-      {"jersey": 1, "first_name": "Amedee", "last_name": "Domenech", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
+      {"jersey": 1, "first_name": "Amédée", "last_name": "Domenech", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
       {"jersey": 2, "first_name": "Jean", "last_name": "de Gregorio", "is_starter": true, "position": "talonneur", "is_captain": false},
       {"jersey": 3, "first_name": "Alfred", "last_name": "Roques", "is_starter": true, "position": "pilier_droit", "is_captain": false},
       {"jersey": 4, "first_name": "Hervé", "last_name": "Larrue", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
@@ -44,7 +44,7 @@
     {"team_side": "france", "type": "essai", "player_last_name": "Moncla", "player_first_name": "François", "minute": null},
     {"team_side": "france", "type": "essai", "player_last_name": "Celaya", "player_first_name": "Michel", "minute": null},
     {"team_side": "france", "type": "essai", "player_last_name": "Rancoule", "player_first_name": "Henri", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Domenech", "player_first_name": "Amedee", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Domenech", "player_first_name": "Amédée", "minute": null},
     {"team_side": "france", "type": "drop", "player_last_name": "Albaladejo", "player_first_name": "Pierre", "minute": null},
     {"team_side": "france", "type": "drop", "player_last_name": "Albaladejo", "player_first_name": "Pierre", "minute": null},
     {"team_side": "france", "type": "drop", "player_last_name": "Albaladejo", "player_first_name": "Pierre", "minute": null},

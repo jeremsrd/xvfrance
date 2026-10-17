@@ -26,7 +26,7 @@
       {"jersey": 19, "first_name": "Jocelino", "last_name": "Suta", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 20, "first_name": "Loann", "last_name": "Goujon", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 21, "first_name": "Sébastien", "last_name": "Tillous-Borde", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 22, "first_name": "Rémi", "last_name": "Tales", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 22, "first_name": "Rémi", "last_name": "Talès", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 23, "first_name": "Mathieu", "last_name": "Bastareaud", "is_starter": false, "position": null, "is_captain": false}
     ],
     "adversaire": [
@@ -74,7 +74,7 @@
     {"team_side": "france", "player_off_last_name": "Guirado", "player_off_first_name": "Guilhem", "player_on_last_name": "Kayser", "player_on_first_name": "Benjamin", "minute": 53, "is_tactical": true},
     {"team_side": "france", "player_off_last_name": "Ben Arous", "player_off_first_name": "Eddy", "player_on_last_name": "Debaty", "player_on_first_name": "Vincent", "minute": 53, "is_tactical": true},
     {"team_side": "france", "player_off_last_name": "Taofifénua", "player_off_first_name": "Romain", "player_on_last_name": "Suta", "player_on_first_name": "Jocelino", "minute": 62, "is_tactical": true},
-    {"team_side": "france", "player_off_last_name": "Fofana", "player_off_first_name": "Wesley", "player_on_last_name": "Tales", "player_on_first_name": "Rémi", "minute": 70, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Fofana", "player_off_first_name": "Wesley", "player_on_last_name": "Talès", "player_on_first_name": "Rémi", "minute": 70, "is_tactical": true},
     {"team_side": "france", "player_off_last_name": "Chouly", "player_off_first_name": "Damien", "player_on_last_name": "Goujon", "player_on_first_name": "Loann", "minute": 74, "is_tactical": true}
   ]
 }

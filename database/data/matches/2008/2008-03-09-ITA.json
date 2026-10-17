@@ -23,7 +23,7 @@
       {"jersey": 15, "first_name": "Anthony", "last_name": "Floch", "is_starter": true, "position": "arriere", "is_captain": false},
       {"jersey": 16, "first_name": "Guilhem", "last_name": "Guirado", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 17, "first_name": "Jean-Baptiste", "last_name": "Poux", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 18, "first_name": "Arnaud", "last_name": "Mela", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 18, "first_name": "Arnaud", "last_name": "Méla", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 19, "first_name": "Julien", "last_name": "Bonnaire", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 20, "first_name": "Julien", "last_name": "Tomas", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 21, "first_name": "Damien", "last_name": "Traille", "is_starter": false, "position": null, "is_captain": false},
@@ -72,7 +72,7 @@
     {"team_side": "france", "player_off_last_name": "David", "player_off_first_name": "Yann", "player_on_last_name": "Traille", "player_on_first_name": "Damien", "minute": 60, "is_tactical": true},
     {"team_side": "france", "player_off_last_name": "Mas", "player_off_first_name": "Nicolas", "player_on_last_name": "Poux", "player_on_first_name": "Jean-Baptiste", "minute": 62, "is_tactical": true},
     {"team_side": "france", "player_off_last_name": "Szarzewski", "player_off_first_name": "Dimitri", "player_on_last_name": "Guirado", "player_on_first_name": "Guilhem", "minute": 63, "is_tactical": true},
-    {"team_side": "france", "player_off_last_name": "Thion", "player_off_first_name": "Jérôme", "player_on_last_name": "Mela", "player_on_first_name": "Arnaud", "minute": 68, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Thion", "player_off_first_name": "Jérôme", "player_on_last_name": "Méla", "player_on_first_name": "Arnaud", "minute": 68, "is_tactical": true},
     {"team_side": "france", "player_off_last_name": "Yachvili", "player_off_first_name": "Dimitri", "player_on_last_name": "Tomas", "player_on_first_name": "Julien", "minute": 71, "is_tactical": true}
   ]
 }

@@ -25,7 +25,7 @@
       {"jersey": 18, "first_name": "Xavier", "last_name": "Chiocci", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 19, "first_name": "Paul", "last_name": "Jedrasiak", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 20, "first_name": "Wenceslas", "last_name": "Lauret", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 21, "first_name": "Sébastien", "last_name": "Bezy", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 21, "first_name": "Sébastien", "last_name": "Bézy", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 22, "first_name": "Jules", "last_name": "Plisson", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 23, "first_name": "Maxime", "last_name": "Médard", "is_starter": false, "position": null, "is_captain": false}
     ],
@@ -81,6 +81,6 @@
     {"team_side": "france", "player_off_last_name": "Guirado", "player_off_first_name": "Guilhem", "player_on_last_name": "Chat", "player_on_first_name": "Camille", "minute": 67, "is_tactical": true},
     {"team_side": "france", "player_off_last_name": "Mermoz", "player_off_first_name": "Maxime", "player_on_last_name": "Médard", "player_on_first_name": "Maxime", "minute": 70, "is_tactical": true},
     {"team_side": "france", "player_off_last_name": "Goujon", "player_off_first_name": "Loann", "player_on_last_name": "Lauret", "player_on_first_name": "Wenceslas", "minute": 70, "is_tactical": true},
-    {"team_side": "france", "player_off_last_name": "Machenaud", "player_off_first_name": "Maxime", "player_on_last_name": "Bezy", "player_on_first_name": "Sébastien", "minute": 76, "is_tactical": true}
+    {"team_side": "france", "player_off_last_name": "Machenaud", "player_off_first_name": "Maxime", "player_on_last_name": "Bézy", "player_on_first_name": "Sébastien", "minute": 76, "is_tactical": true}
   ]
 }

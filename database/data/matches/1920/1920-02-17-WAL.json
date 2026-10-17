@@ -19,8 +19,8 @@
       {"jersey": 11, "first_name": "André", "last_name": "Chilo", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 12, "first_name": "René", "last_name": "Crabos", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 13, "first_name": "Bernard", "last_name": "Lavigne", "is_starter": true, "position": "centre", "is_captain": false},
-      {"jersey": 14, "first_name": "Adolphe", "last_name": "Jaureguy", "is_starter": true, "position": "ailier", "is_captain": false},
-      {"jersey": 15, "first_name": "Theophile", "last_name": "Cambre", "is_starter": true, "position": "arriere", "is_captain": false}
+      {"jersey": 14, "first_name": "Adolphe", "last_name": "Jauréguy", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 15, "first_name": "Théophile", "last_name": "Cambre", "is_starter": true, "position": "arriere", "is_captain": false}
     ],
     "adversaire": [
       {"jersey": 1, "first_name": "John", "last_name": "Williams", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
@@ -41,7 +41,7 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "essai", "player_last_name": "Jaureguy", "player_first_name": "Adolphe", "minute": 57},
+    {"team_side": "france", "type": "essai", "player_last_name": "Jauréguy", "player_first_name": "Adolphe", "minute": 57},
     {"team_side": "france", "type": "transformation", "player_last_name": "Struxiano", "player_first_name": "Philippe", "minute": 58},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Powell", "player_first_name": "Wick", "minute": null},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Williams", "player_first_name": "Brinley", "minute": null}

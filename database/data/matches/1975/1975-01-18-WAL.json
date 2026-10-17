@@ -10,8 +10,8 @@
       {"jersey": 2, "first_name": "Alain", "last_name": "Paco", "is_starter": true, "position": "talonneur", "is_captain": false},
       {"jersey": 3, "first_name": "Jean-Louis", "last_name": "Azarete", "is_starter": true, "position": "pilier_droit", "is_captain": false},
       {"jersey": 4, "first_name": "Georges", "last_name": "Senal", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
-      {"jersey": 5, "first_name": "Alain", "last_name": "Esteve", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
-      {"jersey": 6, "first_name": "Olivier", "last_name": "Saisset", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 5, "first_name": "Alain", "last_name": "Estève", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 6, "first_name": "Olivier", "last_name": "Saïsset", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 7, "first_name": "Victor", "last_name": "Boffelli", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 8, "first_name": "Jean-Pierre", "last_name": "Bastiat", "is_starter": true, "position": "numero_huit", "is_captain": false},
       {"jersey": 9, "first_name": "Jacques", "last_name": "Fouroux", "is_starter": true, "position": "demi_de_melee", "is_captain": true},
@@ -66,6 +66,6 @@
   ],
   "substitutions": [
     {"team_side": "france", "player_off_last_name": "Gourdon", "player_off_first_name": "Jean-François", "player_on_last_name": "Cantoni", "player_on_first_name": "Jack", "minute": null, "is_tactical": true},
-    {"team_side": "france", "player_off_last_name": "Saisset", "player_off_first_name": "Olivier", "player_on_last_name": "Skrela", "player_on_first_name": "Jean-Claude", "minute": null, "is_tactical": true}
+    {"team_side": "france", "player_off_last_name": "Saïsset", "player_off_first_name": "Olivier", "player_on_last_name": "Skrela", "player_on_first_name": "Jean-Claude", "minute": null, "is_tactical": true}
   ]
 }

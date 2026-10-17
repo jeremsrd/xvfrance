@@ -26,7 +26,7 @@
       {"jersey": 19, "first_name": "Bernard", "last_name": "Le Roux", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 20, "first_name": "Yannick", "last_name": "Nyanga", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 21, "first_name": "Morgan", "last_name": "Parra", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 22, "first_name": "Rémi", "last_name": "Tales", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 22, "first_name": "Rémi", "last_name": "Talès", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 23, "first_name": "Alexandre", "last_name": "Dumoulin", "is_starter": false, "position": null, "is_captain": false}
     ],
     "adversaire": [

@@ -6,14 +6,14 @@
   "referee": "Dp D'arcy",
   "lineups": {
     "france": [
-      {"jersey": 1, "first_name": "Jean-Claude", "last_name": "Berejnoi", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
+      {"jersey": 1, "first_name": "Jean-Claude", "last_name": "Berejnoï", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
       {"jersey": 2, "first_name": "Jean-Michel", "last_name": "Cabanier", "is_starter": true, "position": "talonneur", "is_captain": false},
       {"jersey": 3, "first_name": "Jean-Michel", "last_name": "Esponda", "is_starter": true, "position": "pilier_droit", "is_captain": false},
       {"jersey": 4, "first_name": "Alain", "last_name": "Plantefol", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 5, "first_name": "Benoît", "last_name": "Dauga", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 6, "first_name": "Jean-Joseph", "last_name": "Rupert", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 7, "first_name": "André", "last_name": "Herrero", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
-      {"jersey": 8, "first_name": "Christian", "last_name": "Carrere", "is_starter": true, "position": "numero_huit", "is_captain": true},
+      {"jersey": 8, "first_name": "Christian", "last_name": "Carrère", "is_starter": true, "position": "numero_huit", "is_captain": true},
       {"jersey": 9, "first_name": "Jean-Henri", "last_name": "Mir", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
       {"jersey": 10, "first_name": "Jo", "last_name": "Maso", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
       {"jersey": 11, "first_name": "Jean-Jacques", "last_name": "Lénient", "is_starter": true, "position": "ailier", "is_captain": false},

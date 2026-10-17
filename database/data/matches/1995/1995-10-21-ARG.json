@@ -6,7 +6,7 @@
   "referee": "Giovanni Morandin",
   "lineups": {
     "france": [
-      {"jersey": 1, "first_name": "Laurent", "last_name": "Benezech", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
+      {"jersey": 1, "first_name": "Laurent", "last_name": "Bénézech", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
       {"jersey": 2, "first_name": "Jean-Michel", "last_name": "Gonzalez", "is_starter": true, "position": "talonneur", "is_captain": false},
       {"jersey": 3, "first_name": "Christian", "last_name": "Califano", "is_starter": true, "position": "pilier_droit", "is_captain": false},
       {"jersey": 4, "first_name": "Olivier", "last_name": "Merle", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
@@ -17,7 +17,7 @@
       {"jersey": 9, "first_name": "Philippe", "last_name": "Carbonneau", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
       {"jersey": 10, "first_name": "Christophe", "last_name": "Deylaud", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
       {"jersey": 11, "first_name": "Philippe", "last_name": "Saint-André", "is_starter": true, "position": "ailier", "is_captain": true},
-      {"jersey": 12, "first_name": "Thomas", "last_name": "Castaignede", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 12, "first_name": "Thomas", "last_name": "Castaignède", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 13, "first_name": "Richard", "last_name": "Dourthe", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 14, "first_name": "Émile", "last_name": "Ntamack", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 15, "first_name": "Jean-Luc", "last_name": "Sadourny", "is_starter": true, "position": "arriere", "is_captain": false},
@@ -57,7 +57,7 @@
     {"team_side": "france", "type": "essai", "player_last_name": "Carbonneau", "player_first_name": "Philippe", "minute": 59},
     {"team_side": "france", "type": "essai", "player_last_name": "Ntamack", "player_first_name": "Émile", "minute": 63},
     {"team_side": "france", "type": "essai", "player_last_name": "Ntamack", "player_first_name": "Émile", "minute": 68},
-    {"team_side": "france", "type": "essai", "player_last_name": "Castaignede", "player_first_name": "Thomas", "minute": 69},
+    {"team_side": "france", "type": "essai", "player_last_name": "Castaignède", "player_first_name": "Thomas", "minute": 69},
     {"team_side": "france", "type": "essai", "player_last_name": "Carbonneau", "player_first_name": "Philippe", "minute": 79},
     {"team_side": "france", "type": "transformation", "player_last_name": "Deylaud", "player_first_name": "Christophe", "minute": null},
     {"team_side": "france", "type": "transformation", "player_last_name": "Deylaud", "player_first_name": "Christophe", "minute": null},

@@ -25,7 +25,7 @@
       {"jersey": 18, "first_name": "Lucas", "last_name": "Pointud", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 19, "first_name": "Fabrice", "last_name": "Metz", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 20, "first_name": "Louis", "last_name": "Picamoles", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 21, "first_name": "Sébastien", "last_name": "Bezy", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 21, "first_name": "Sébastien", "last_name": "Bézy", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 22, "first_name": "François", "last_name": "Trinh-Duc", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 23, "first_name": "Gaël", "last_name": "Fickou", "is_starter": false, "position": null, "is_captain": false}
     ],
@@ -78,7 +78,7 @@
     {"team_side": "france", "player_off_last_name": "Danty", "player_off_first_name": "Jonathan", "player_on_last_name": "Fickou", "player_on_first_name": "Gaël", "minute": 67, "is_tactical": true},
     {"team_side": "france", "player_off_last_name": "Bonfils", "player_off_first_name": "Rémi", "player_on_last_name": "Maynadier", "player_on_first_name": "Clément", "minute": 70, "is_tactical": true},
     {"team_side": "france", "player_off_last_name": "Plisson", "player_off_first_name": "Jules", "player_on_last_name": "Trinh-Duc", "player_on_first_name": "François", "minute": 77, "is_tactical": true},
-    {"team_side": "france", "player_off_last_name": "Serin", "player_off_first_name": "Baptiste", "player_on_last_name": "Bezy", "player_on_first_name": "Sébastien", "minute": 77, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Serin", "player_off_first_name": "Baptiste", "player_on_last_name": "Bézy", "player_on_first_name": "Sébastien", "minute": 77, "is_tactical": true},
     {"team_side": "france", "player_off_last_name": "Le Devedec", "player_off_first_name": "Julien", "player_on_last_name": "Metz", "player_on_first_name": "Fabrice", "minute": 77, "is_tactical": true},
     {"team_side": "france", "player_off_last_name": "Poirot", "player_off_first_name": "Jefferson", "player_on_last_name": "Pointud", "player_on_first_name": "Lucas", "minute": 77, "is_tactical": true}
   ]

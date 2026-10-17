@@ -13,16 +13,16 @@
       {"jersey": 5, "first_name": "Olivier", "last_name": "Brouzet", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 6, "first_name": "Lionel", "last_name": "Mallier", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 7, "first_name": "Olivier", "last_name": "Magne", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
-      {"jersey": 8, "first_name": "Thomas", "last_name": "Lievremont", "is_starter": true, "position": "numero_huit", "is_captain": false},
+      {"jersey": 8, "first_name": "Thomas", "last_name": "Lièvremont", "is_starter": true, "position": "numero_huit", "is_captain": false},
       {"jersey": 9, "first_name": "Aubin", "last_name": "Hueber", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
       {"jersey": 10, "first_name": "Alain", "last_name": "Penaud", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
       {"jersey": 11, "first_name": "David", "last_name": "Bory", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 12, "first_name": "Émile", "last_name": "Ntamack", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 13, "first_name": "Richard", "last_name": "Dourthe", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 14, "first_name": "Philippe", "last_name": "Bernat-Salles", "is_starter": true, "position": "ailier", "is_captain": false},
-      {"jersey": 15, "first_name": "Thomas", "last_name": "Castaignede", "is_starter": true, "position": "arriere", "is_captain": false},
+      {"jersey": 15, "first_name": "Thomas", "last_name": "Castaignède", "is_starter": true, "position": "arriere", "is_captain": false},
       {"jersey": 16, "first_name": "Raphaël", "last_name": "Ibañez", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 17, "first_name": "Pieter", "last_name": "De Villiers", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 17, "first_name": "Pieter", "last_name": "de Villiers", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 18, "first_name": "Hugues", "last_name": "Miorin", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 19, "first_name": "Abdelatif", "last_name": "Benazzi", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 20, "first_name": "Christophe", "last_name": "Laussucq", "is_starter": false, "position": null, "is_captain": false, "played": false},
@@ -65,7 +65,7 @@
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Troncon", "player_first_name": "Alessandro", "minute": 28},
     {"team_side": "france", "type": "penalite", "player_last_name": "Dourthe", "player_first_name": "Richard", "minute": 31},
     {"team_side": "france", "type": "transformation", "player_last_name": "Dourthe", "player_first_name": "Richard", "minute": 35},
-    {"team_side": "france", "type": "essai", "player_last_name": "Castaignede", "player_first_name": "Thomas", "minute": 35},
+    {"team_side": "france", "type": "essai", "player_last_name": "Castaignède", "player_first_name": "Thomas", "minute": 35},
     {"team_side": "france", "type": "transformation", "player_last_name": "Dourthe", "player_first_name": "Richard", "minute": 44},
     {"team_side": "france", "type": "essai", "player_last_name": "Pelous", "player_first_name": "Fabien", "minute": 44},
     {"team_side": "france", "type": "penalite", "player_last_name": "Dourthe", "player_first_name": "Richard", "minute": 53},
@@ -78,10 +78,10 @@
   ],
   "substitutions": [
     {"team_side": "france", "player_off_last_name": "Ntamack", "player_off_first_name": "Émile", "player_on_last_name": "Venditti", "player_on_first_name": "David", "minute": 22, "is_tactical": true},
-    {"team_side": "france", "player_off_last_name": "Lievremont", "player_off_first_name": "Thomas", "player_on_last_name": "Benazzi", "player_on_first_name": "Abdelatif", "minute": 41, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Lièvremont", "player_off_first_name": "Thomas", "player_on_last_name": "Benazzi", "player_on_first_name": "Abdelatif", "minute": 41, "is_tactical": true},
     {"team_side": "france", "player_off_last_name": "Dal Maso", "player_off_first_name": "Marc", "player_on_last_name": "Ibañez", "player_on_first_name": "Raphaël", "minute": 41, "is_tactical": true},
     {"team_side": "france", "player_off_last_name": "Brouzet", "player_off_first_name": "Olivier", "player_on_last_name": "Miorin", "player_on_first_name": "Hugues", "minute": 63, "is_tactical": true},
     {"team_side": "france", "player_off_last_name": "Bory", "player_off_first_name": "David", "player_on_last_name": "Heymans", "player_on_first_name": "Cédric", "minute": 72, "is_tactical": true},
-    {"team_side": "france", "player_off_last_name": "Tournaire", "player_off_first_name": "Franck", "player_on_last_name": "De Villiers", "player_on_first_name": "Pieter", "minute": 72, "is_tactical": true}
+    {"team_side": "france", "player_off_last_name": "Tournaire", "player_off_first_name": "Franck", "player_on_last_name": "de Villiers", "player_on_first_name": "Pieter", "minute": 72, "is_tactical": true}
   ]
 }

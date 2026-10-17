@@ -18,8 +18,8 @@
       {"jersey": 11, "first_name": "Jean-François", "last_name": "Coux", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 12, "first_name": "Jean Philippe", "last_name": "Grandclaude", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 13, "first_name": "Arnaud", "last_name": "Mignardi", "is_starter": true, "position": "centre", "is_captain": false},
-      {"jersey": 14, "first_name": "Benjamin", "last_name": "Thiery", "is_starter": true, "position": "ailier", "is_captain": false},
-      {"jersey": 15, "first_name": "Thomas", "last_name": "Castaignede", "is_starter": true, "position": "arriere", "is_captain": false},
+      {"jersey": 14, "first_name": "Benjamin", "last_name": "Thiéry", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 15, "first_name": "Thomas", "last_name": "Castaignède", "is_starter": true, "position": "arriere", "is_captain": false},
       {"jersey": 16, "first_name": "Raphaël", "last_name": "Ibañez", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 17, "first_name": "Franck", "last_name": "Montanella", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 18, "first_name": "Olivier", "last_name": "Olibeau", "is_starter": false, "position": null, "is_captain": false},
@@ -76,7 +76,7 @@
     {"team_side": "france", "player_off_last_name": "Mas", "player_off_first_name": "Nicolas", "player_on_last_name": "Montanella", "player_on_first_name": "Franck", "minute": 56, "is_tactical": true},
     {"team_side": "france", "player_off_last_name": "Le Corvec", "player_off_first_name": "Grégory", "player_on_last_name": "Chouly", "player_on_first_name": "Damien", "minute": 63, "is_tactical": true},
     {"team_side": "france", "player_off_last_name": "Coux", "player_off_first_name": "Jean-François", "player_on_last_name": "Laharrague", "player_on_first_name": "Nicolas", "minute": 76, "is_tactical": true},
-    {"team_side": "france", "player_off_last_name": "Thiery", "player_off_first_name": "Benjamin", "player_on_last_name": "Forest", "player_on_first_name": "Mickaël", "minute": 76, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Thiéry", "player_off_first_name": "Benjamin", "player_on_last_name": "Forest", "player_on_first_name": "Mickaël", "minute": 76, "is_tactical": true},
     {"team_side": "france", "player_off_last_name": "Papé", "player_off_first_name": "Pascal", "player_on_last_name": "Ibañez", "player_on_first_name": "Raphaël", "minute": 76, "is_tactical": true}
   ]
 }

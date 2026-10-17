@@ -6,7 +6,7 @@
   "referee": "Wn Gillmore",
   "lineups": {
     "france": [
-      {"jersey": 1, "first_name": "Amedee", "last_name": "Domenech", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
+      {"jersey": 1, "first_name": "Amédée", "last_name": "Domenech", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
       {"jersey": 2, "first_name": "Robert", "last_name": "Vigier", "is_starter": true, "position": "talonneur", "is_captain": false},
       {"jersey": 3, "first_name": "André", "last_name": "Sanac", "is_starter": true, "position": "pilier_droit", "is_captain": false},
       {"jersey": 4, "first_name": "Bernard", "last_name": "Chevallier", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
@@ -18,7 +18,7 @@
       {"jersey": 10, "first_name": "Jacques", "last_name": "Bouquet", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
       {"jersey": 11, "first_name": "Jean", "last_name": "Dupuy", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 12, "first_name": "Maurice", "last_name": "Prat", "is_starter": true, "position": "centre", "is_captain": false},
-      {"jersey": 13, "first_name": "René", "last_name": "Monie", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 13, "first_name": "René", "last_name": "Monié", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 14, "first_name": "André", "last_name": "Boniface", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 15, "first_name": "Jacques", "last_name": "Meynard", "is_starter": true, "position": "arriere", "is_captain": false}
     ],
@@ -43,10 +43,10 @@
   "events": [
     {"team_side": "france", "type": "penalite", "player_last_name": "Meynard", "player_first_name": "Jacques", "minute": null},
     {"team_side": "france", "type": "penalite", "player_last_name": "Meynard", "player_first_name": "Jacques", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Monie", "player_first_name": "René", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Monié", "player_first_name": "René", "minute": null},
     {"team_side": "france", "type": "essai", "player_last_name": "Boniface", "player_first_name": "André", "minute": null},
     {"team_side": "france", "type": "essai", "player_last_name": "Dupuy", "player_first_name": "Jean", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Domenech", "player_first_name": "Amedee", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Domenech", "player_first_name": "Amédée", "minute": null},
     {"team_side": "france", "type": "essai", "player_last_name": "Celaya", "player_first_name": "Michel", "minute": null},
     {"team_side": "france", "type": "essai", "player_last_name": "Prat", "player_first_name": "Maurice", "minute": null},
     {"team_side": "france", "type": "transformation", "player_last_name": "Meynard", "player_first_name": "Jacques", "minute": null},

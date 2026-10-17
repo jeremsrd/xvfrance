@@ -26,7 +26,7 @@
       {"jersey": 19, "first_name": "Patrick", "last_name": "Tabacco", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 20, "first_name": "Gérald", "last_name": "Merceron", "is_starter": false, "position": null, "is_captain": false, "played": false},
       {"jersey": 21, "first_name": "Brian", "last_name": "Liebenberg", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 22, "first_name": "Pepito", "last_name": "Elhorga", "is_starter": false, "position": null, "is_captain": false}
+      {"jersey": 22, "first_name": "Pépito", "last_name": "Elhorga", "is_starter": false, "position": null, "is_captain": false}
     ],
     "adversaire": [
       {"jersey": 1, "first_name": "Reggie", "last_name": "Corrigan", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
@@ -80,6 +80,6 @@
     {"team_side": "france", "player_off_last_name": "Crenca", "player_off_first_name": "Jean-Jacques", "player_on_last_name": "Milloud", "player_on_first_name": "Olivier", "minute": 73, "is_tactical": true},
     {"team_side": "france", "player_off_last_name": "Ibañez", "player_off_first_name": "Raphaël", "player_on_last_name": "Magne", "player_on_first_name": "Olivier", "minute": 76, "is_tactical": true},
     {"team_side": "france", "player_off_last_name": "Harinordoquy", "player_off_first_name": "Imanol", "player_on_last_name": "Tabacco", "player_on_first_name": "Patrick", "minute": 79, "is_tactical": true},
-    {"team_side": "france", "player_off_last_name": "Brouzet", "player_off_first_name": "Olivier", "player_on_last_name": "Elhorga", "player_on_first_name": "Pepito", "minute": 80, "is_tactical": true}
+    {"team_side": "france", "player_off_last_name": "Brouzet", "player_off_first_name": "Olivier", "player_on_last_name": "Elhorga", "player_on_first_name": "Pépito", "minute": 80, "is_tactical": true}
   ]
 }

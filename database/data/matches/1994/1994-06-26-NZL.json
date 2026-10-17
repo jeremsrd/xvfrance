@@ -6,7 +6,7 @@
   "referee": "Derek Bevan",
   "lineups": {
     "france": [
-      {"jersey": 1, "first_name": "Laurent", "last_name": "Benezech", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
+      {"jersey": 1, "first_name": "Laurent", "last_name": "Bénézech", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
       {"jersey": 2, "first_name": "Jean-Michel", "last_name": "Gonzalez", "is_starter": true, "position": "talonneur", "is_captain": false},
       {"jersey": 3, "first_name": "Christian", "last_name": "Califano", "is_starter": true, "position": "pilier_droit", "is_captain": false},
       {"jersey": 4, "first_name": "Olivier", "last_name": "Roumat", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
@@ -24,7 +24,7 @@
       {"jersey": 16, "first_name": "William", "last_name": "Techoueyres", "is_starter": false, "position": null, "is_captain": false, "played": false},
       {"jersey": 17, "first_name": "Yann", "last_name": "Delaigue", "is_starter": false, "position": null, "is_captain": false, "played": false},
       {"jersey": 18, "first_name": "Alain", "last_name": "Macabiau", "is_starter": false, "position": null, "is_captain": false, "played": false},
-      {"jersey": 19, "first_name": "Marc", "last_name": "Cecillon", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 19, "first_name": "Marc", "last_name": "Cécillon", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 20, "first_name": "Louis", "last_name": "Armary", "is_starter": false, "position": null, "is_captain": false, "played": false},
       {"jersey": 21, "first_name": "Laurent", "last_name": "Seigne", "is_starter": false, "position": null, "is_captain": false, "played": false}
     ],
@@ -64,6 +64,6 @@
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Bunce", "player_first_name": "Frank", "minute": 74}
   ],
   "substitutions": [
-    {"team_side": "france", "player_off_last_name": "Cabannes", "player_off_first_name": "Laurent", "player_on_last_name": "Cecillon", "player_on_first_name": "Marc", "minute": null, "is_tactical": true}
+    {"team_side": "france", "player_off_last_name": "Cabannes", "player_off_first_name": "Laurent", "player_on_last_name": "Cécillon", "player_on_first_name": "Marc", "minute": null, "is_tactical": true}
   ]
 }

@@ -8,9 +8,9 @@
   "referee": "Gadney",
   "lineups": {
     "france": [
-      {"jersey": 1, "first_name": "François", "last_name": "Meret", "is_starter": true, "position": "pilier_gauche", "is_captain": false, "cap_number": 339},
+      {"jersey": 1, "first_name": "François", "last_name": "Méret", "is_starter": true, "position": "pilier_gauche", "is_captain": false, "cap_number": 339},
       {"jersey": 2, "first_name": "Roger", "last_name": "Paul", "is_starter": true, "position": "talonneur", "is_captain": false, "cap_number": 340},
-      {"jersey": 3, "first_name": "Pierre", "last_name": "Daulouede", "is_starter": true, "position": "pilier_droit", "is_captain": false},
+      {"jersey": 3, "first_name": "Pierre", "last_name": "Daulouède", "is_starter": true, "position": "pilier_droit", "is_captain": false},
       {"jersey": 4, "first_name": "Marcel", "last_name": "Tucoo-Chala", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false, "cap_number": 337},
       {"jersey": 5, "first_name": "Joseph", "last_name": "Dutrey", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false, "cap_number": 338},
       {"jersey": 6, "first_name": "Pierre", "last_name": "Thiers", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": true},

@@ -11,12 +11,12 @@
       {"jersey": 3, "first_name": "Jean-Pierre", "last_name": "Garuet-Lempirou", "is_starter": true, "position": "pilier_droit", "is_captain": false},
       {"jersey": 4, "first_name": "Francis", "last_name": "Haget", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 5, "first_name": "Jean", "last_name": "Condom", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
-      {"jersey": 6, "first_name": "Eric", "last_name": "Champ", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 6, "first_name": "Éric", "last_name": "Champ", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 7, "first_name": "Jean-Luc", "last_name": "Joinel", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 8, "first_name": "Dominique", "last_name": "Erbani", "is_starter": true, "position": "numero_huit", "is_captain": false},
       {"jersey": 9, "first_name": "Pierre", "last_name": "Berbizier", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
       {"jersey": 10, "first_name": "Guy", "last_name": "Laporte", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
-      {"jersey": 11, "first_name": "Eric", "last_name": "Bonneval", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 11, "first_name": "Éric", "last_name": "Bonneval", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 12, "first_name": "Denis", "last_name": "Charvet", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 13, "first_name": "Philippe", "last_name": "Sella", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 14, "first_name": "Jean-Baptiste", "last_name": "Lafond", "is_starter": true, "position": "ailier", "is_captain": false},
@@ -45,7 +45,7 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "essai", "player_last_name": "Bonneval", "player_first_name": "Eric", "minute": 3},
+    {"team_side": "france", "type": "essai", "player_last_name": "Bonneval", "player_first_name": "Éric", "minute": 3},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Ignat", "player_first_name": "Gelu", "minute": 8},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "David", "player_first_name": "Vasile", "minute": 8},
     {"team_side": "france", "type": "essai", "player_last_name": "Charvet", "player_first_name": "Denis", "minute": 20},
@@ -59,6 +59,6 @@
   ],
   "substitutions": [
     {"team_side": "france", "player_off_last_name": "Lafond", "player_off_first_name": "Jean-Baptiste", "player_on_last_name": "Lagisquet", "player_on_first_name": "Patrice", "minute": 19, "is_tactical": true},
-    {"team_side": "france", "player_off_last_name": "Champ", "player_off_first_name": "Eric", "player_on_last_name": "Picard", "player_on_first_name": "Thierry", "minute": 66, "is_tactical": true}
+    {"team_side": "france", "player_off_last_name": "Champ", "player_off_first_name": "Éric", "player_on_last_name": "Picard", "player_on_first_name": "Thierry", "minute": 66, "is_tactical": true}
   ]
 }

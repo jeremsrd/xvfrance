@@ -19,7 +19,7 @@
       {"jersey": 11, "first_name": "Louis", "last_name": "Bielle-Biarrey", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 12, "first_name": "Yoram", "last_name": "Moefana", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 13, "first_name": "Nicolas", "last_name": "Depoortère", "is_starter": true, "position": "centre", "is_captain": false},
-      {"jersey": 14, "first_name": "Théo", "last_name": "Attissogbe", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 14, "first_name": "Théo", "last_name": "Attissogbé", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 15, "first_name": "Thomas", "last_name": "Ramos", "is_starter": true, "position": "arriere", "is_captain": false},
       {"jersey": 16, "first_name": "Peato", "last_name": "Mauvaka", "is_starter": false, "position": "talonneur", "is_captain": false},
       {"jersey": 17, "first_name": "Rodrigue", "last_name": "Neti", "is_starter": false, "position": "pilier_gauche", "is_captain": false},
@@ -69,7 +69,7 @@
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Prendergast", "player_first_name": "Sam", "minute": 59},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Milne", "player_first_name": "Michael", "minute": 62},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Prendergast", "player_first_name": "Sam", "minute": 62},
-    {"team_side": "france", "type": "essai", "player_last_name": "Attissogbe", "player_first_name": "Théo", "minute": 81},
+    {"team_side": "france", "type": "essai", "player_last_name": "Attissogbé", "player_first_name": "Théo", "minute": 81},
     {"team_side": "france", "type": "transformation", "player_last_name": "Ramos", "player_first_name": "Thomas", "minute": 81}
   ],
   "substitutions": []

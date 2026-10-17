@@ -15,7 +15,7 @@
       {"jersey": 7, "first_name": "Laurent", "last_name": "Cabannes", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 8, "first_name": "Fabien", "last_name": "Pelous", "is_starter": true, "position": "numero_huit", "is_captain": false},
       {"jersey": 9, "first_name": "Guy", "last_name": "Accoceberry", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
-      {"jersey": 10, "first_name": "Thomas", "last_name": "Castaignede", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
+      {"jersey": 10, "first_name": "Thomas", "last_name": "Castaignède", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
       {"jersey": 11, "first_name": "Philippe", "last_name": "Saint-André", "is_starter": true, "position": "ailier", "is_captain": true},
       {"jersey": 12, "first_name": "Thierry", "last_name": "Lacroix", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 13, "first_name": "Olivier", "last_name": "Campan", "is_starter": true, "position": "centre", "is_captain": false},
@@ -26,7 +26,7 @@
       {"jersey": 18, "first_name": "Philippe", "last_name": "Carbonneau", "is_starter": false, "position": null, "is_captain": false, "played": false},
       {"jersey": 19, "first_name": "Sylvain", "last_name": "Dispagne", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 20, "first_name": "Marc", "last_name": "de Rougemont", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 21, "first_name": "Michel", "last_name": "Perie", "is_starter": false, "position": null, "is_captain": false}
+      {"jersey": 21, "first_name": "Michel", "last_name": "Périé", "is_starter": false, "position": null, "is_captain": false}
     ],
     "adversaire": [
       {"jersey": 1, "first_name": "Nick", "last_name": "Popplewell", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
@@ -55,16 +55,16 @@
   "events": [
     {"team_side": "france", "type": "essai", "player_last_name": "Saint-André", "player_first_name": "Philippe", "minute": 11},
     {"team_side": "france", "type": "essai", "player_last_name": "Ntamack", "player_first_name": "Émile", "minute": 20},
-    {"team_side": "france", "type": "transformation", "player_last_name": "Castaignede", "player_first_name": "Thomas", "minute": 20},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Castaignède", "player_first_name": "Thomas", "minute": 20},
     {"team_side": "france", "type": "essai", "player_last_name": "Castel", "player_first_name": "Richard", "minute": 30},
     {"team_side": "france", "type": "essai", "player_last_name": "Accoceberry", "player_first_name": "Guy", "minute": 39},
-    {"team_side": "france", "type": "transformation", "player_last_name": "Castaignede", "player_first_name": "Thomas", "minute": 39},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Castaignède", "player_first_name": "Thomas", "minute": 39},
     {"team_side": "france", "type": "essai", "player_last_name": "Ntamack", "player_first_name": "Émile", "minute": 56},
-    {"team_side": "france", "type": "transformation", "player_last_name": "Castaignede", "player_first_name": "Thomas", "minute": 56},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Castaignède", "player_first_name": "Thomas", "minute": 56},
     {"team_side": "france", "type": "essai", "player_last_name": "Castel", "player_first_name": "Richard", "minute": 64},
-    {"team_side": "france", "type": "transformation", "player_last_name": "Castaignede", "player_first_name": "Thomas", "minute": 64},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Castaignède", "player_first_name": "Thomas", "minute": 64},
     {"team_side": "france", "type": "essai", "player_last_name": "Campan", "player_first_name": "Olivier", "minute": 76},
-    {"team_side": "france", "type": "transformation", "player_last_name": "Castaignede", "player_first_name": "Thomas", "minute": 76},
+    {"team_side": "france", "type": "transformation", "player_last_name": "Castaignède", "player_first_name": "Thomas", "minute": 76},
     {"team_side": "adversaire", "type": "essai_penalite", "player_last_name": null, "player_first_name": null, "minute": null},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Humphreys", "player_first_name": "David", "minute": null},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Humphreys", "player_first_name": "David", "minute": null}

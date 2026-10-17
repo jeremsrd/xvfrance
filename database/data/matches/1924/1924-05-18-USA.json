@@ -8,7 +8,7 @@
     "france": [
       {"jersey": 1, "first_name": "Jean", "last_name": "Etcheberry", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
       {"jersey": 2, "first_name": "Jean", "last_name": "Bayard", "is_starter": true, "position": "talonneur", "is_captain": false},
-      {"jersey": 3, "first_name": "Louis", "last_name": "Beguet", "is_starter": true, "position": "pilier_droit", "is_captain": false},
+      {"jersey": 3, "first_name": "Louis", "last_name": "Béguet", "is_starter": true, "position": "pilier_droit", "is_captain": false},
       {"jersey": 4, "first_name": "Aimé", "last_name": "Cassayet-Armagnac", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 5, "first_name": "Marcel-Frédéric", "last_name": "Lubin-Lebrère", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 6, "first_name": "Alex", "last_name": "Bioussa", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
@@ -18,8 +18,8 @@
       {"jersey": 10, "first_name": "Henri", "last_name": "Galau", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
       {"jersey": 11, "first_name": "Raoul", "last_name": "Got", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 12, "first_name": "Jean", "last_name": "Vaysse", "is_starter": true, "position": "centre", "is_captain": false},
-      {"jersey": 13, "first_name": "André", "last_name": "Behoteguy", "is_starter": true, "position": "centre", "is_captain": false},
-      {"jersey": 14, "first_name": "Adolphe", "last_name": "Jaureguy", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 13, "first_name": "André", "last_name": "Béhotéguy", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 14, "first_name": "Adolphe", "last_name": "Jauréguy", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 15, "first_name": "Étienne", "last_name": "Bonnes", "is_starter": true, "position": "arriere", "is_captain": false}
     ],
     "adversaire": [

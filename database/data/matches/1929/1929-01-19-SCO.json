@@ -12,14 +12,14 @@
       {"jersey": 4, "first_name": "André", "last_name": "Camel", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 5, "first_name": "Richard", "last_name": "Majerus", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 6, "first_name": "Alex", "last_name": "Bioussa", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
-      {"jersey": 7, "first_name": "Joseph", "last_name": "Auge", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 7, "first_name": "Joseph", "last_name": "Augé", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 8, "first_name": "Gérald", "last_name": "Branca", "is_starter": true, "position": "numero_huit", "is_captain": false},
       {"jersey": 9, "first_name": "Charles", "last_name": "Lacazedieu", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
       {"jersey": 10, "first_name": "Christian", "last_name": "Magnanou", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
       {"jersey": 11, "first_name": "Robert", "last_name": "Houdet", "is_starter": true, "position": "ailier", "is_captain": false},
-      {"jersey": 12, "first_name": "Georges", "last_name": "Gerald", "is_starter": true, "position": "centre", "is_captain": false},
-      {"jersey": 13, "first_name": "André", "last_name": "Behoteguy", "is_starter": true, "position": "centre", "is_captain": false},
-      {"jersey": 14, "first_name": "Adolphe", "last_name": "Jaureguy", "is_starter": true, "position": "ailier", "is_captain": true},
+      {"jersey": 12, "first_name": "Georges", "last_name": "Gérald", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 13, "first_name": "André", "last_name": "Béhotéguy", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 14, "first_name": "Adolphe", "last_name": "Jauréguy", "is_starter": true, "position": "ailier", "is_captain": true},
       {"jersey": 15, "first_name": "Louis", "last_name": "Magnol", "is_starter": true, "position": "arriere", "is_captain": false}
     ],
     "adversaire": [
@@ -41,7 +41,7 @@
     ]
   },
   "events": [
-    {"team_side": "france", "type": "essai", "player_last_name": "Behoteguy", "player_first_name": "André", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Béhotéguy", "player_first_name": "André", "minute": null},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Paterson", "player_first_name": "John", "minute": null},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Brown", "player_first_name": "Alexander", "minute": null}
   ],

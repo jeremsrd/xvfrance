@@ -6,7 +6,7 @@
   "referee": "Jpg Pring",
   "lineups": {
     "france": [
-      {"jersey": 1, "first_name": "Jean", "last_name": "Iracabal", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
+      {"jersey": 1, "first_name": "Jean", "last_name": "Iraçabal", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
       {"jersey": 2, "first_name": "Jean-Paul", "last_name": "Baux", "is_starter": true, "position": "talonneur", "is_captain": false},
       {"jersey": 3, "first_name": "Jean-Michel", "last_name": "Esponda", "is_starter": true, "position": "pilier_droit", "is_captain": false},
       {"jersey": 4, "first_name": "Alain", "last_name": "Plantefol", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
@@ -23,7 +23,7 @@
       {"jersey": 15, "first_name": "Pierre", "last_name": "Villepreux", "is_starter": true, "position": "arriere", "is_captain": false},
       {"jersey": 16, "first_name": "Michel", "last_name": "Lasserre", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 17, "first_name": "Claude", "last_name": "Chenevay", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 18, "first_name": "Jean-Louis", "last_name": "Berot", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 18, "first_name": "Jean-Louis", "last_name": "Bérot", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 19, "first_name": "Jean-Pierre", "last_name": "Lux", "is_starter": false, "position": null, "is_captain": false}
     ],
     "adversaire": [

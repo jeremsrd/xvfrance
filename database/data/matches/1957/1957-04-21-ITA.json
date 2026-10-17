@@ -6,7 +6,7 @@
   "referee": "Waldron",
   "lineups": {
     "france": [
-      {"jersey": 1, "first_name": "Amedee", "last_name": "Domenech", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
+      {"jersey": 1, "first_name": "Amédée", "last_name": "Domenech", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
       {"jersey": 2, "first_name": "Robert", "last_name": "Vigier", "is_starter": true, "position": "talonneur", "is_captain": false},
       {"jersey": 3, "first_name": "André", "last_name": "Sanac", "is_starter": true, "position": "pilier_droit", "is_captain": false},
       {"jersey": 4, "first_name": "Paul", "last_name": "Cassagne", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
@@ -50,7 +50,7 @@
     {"team_side": "france", "type": "essai", "player_last_name": "Darrouy", "player_first_name": "Christian", "minute": null},
     {"team_side": "france", "type": "essai", "player_last_name": "Dupuy", "player_first_name": "Jean", "minute": null},
     {"team_side": "france", "type": "essai", "player_last_name": "Dupuy", "player_first_name": "Jean", "minute": null},
-    {"team_side": "france", "type": "essai", "player_last_name": "Domenech", "player_first_name": "Amedee", "minute": null},
+    {"team_side": "france", "type": "essai", "player_last_name": "Domenech", "player_first_name": "Amédée", "minute": null},
     {"team_side": "france", "type": "transformation", "player_last_name": "Vannier", "player_first_name": "Michel", "minute": null},
     {"team_side": "france", "type": "transformation", "player_last_name": "Vannier", "player_first_name": "Michel", "minute": null},
     {"team_side": "france", "type": "transformation", "player_last_name": "Cassagne", "player_first_name": "Paul", "minute": null},
