@@ -23,7 +23,10 @@
 
         return $n < 1 ? "moins d'un an" : $n . ' an' . ($n > 1 ? 's' : '');
     };
-    $ticks = range((int) ceil($start->year / 20) * 20, $now->year, 20);
+    $ticks = [];
+    for ($year = (int) ceil($start->year / 20) * 20; $year <= $now->year; $year += 20) {
+        $ticks[] = $year;
+    }
 @endphp
 
 <figure class="mt-10 max-w-4xl">

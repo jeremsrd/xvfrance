@@ -235,7 +235,9 @@
         <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
             <h2 id="selections-titre" class="font-display text-3xl font-bold uppercase tracking-tight text-encre">Recordmen des sélections</h2>
             <p class="mt-2 max-w-2xl font-serif text-texte-2">Le record du nombre de sélections avec le XV de France, de main en main depuis 1906.</p>
-            @include('records.partials.caps-record', ['history' => $capsRecordHistory])
+            @if($capsRecordHistory->isNotEmpty())
+                @include('records.partials.caps-record', ['history' => $capsRecordHistory])
+            @endif
         </div>
     </section>
 
