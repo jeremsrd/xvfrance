@@ -1,10 +1,64 @@
 {{-- Recordmen des sélections successifs : $history (RecordsService::capsRecordHistory()), $focus --}}
 @php
     $on = fn ($match) => 'le ' . $match->match_date->format('d/m/Y') . ' contre ' . $match->opponent->withArticle();
-    $years = fn ($from, $to) => $to->match_date->year - $from->match_date->year;
+
+    // Règnes à l'échelle : de 1906 à aujourd'hui, une barre par recordman seul, longueur = durée du règne
+    $start = $history->first()['match']->match_date;
+    $now = now();
+    $span = $start->diffInDays($now);
+    $at = fn ($date) => round($start->diffInDays($date) / $span * 100, 2);
+    $sole = $history->filter(fn ($e) => $e['players']->count() === 1 && !$e['equalled'])->values();
+    $reigns = $sole->map(fn ($e) => [
+        'label' => $e['players']->first()->fullName(),
+        'player' => $e['players']->first(),
+        'from' => $e['match']->match_date,
+        'to' => $e['until']?->match_date ?? $now,
+        'current' => $e['until'] === null,
+    ]);
+    if ($sole->isNotEmpty() && $sole->first()['match']->match_date->gt($start)) {
+        $reigns->prepend(['label' => 'Record partagé', 'player' => null, 'from' => $start, 'to' => $sole->first()['match']->match_date, 'current' => false]);
+    }
+    $duration = function ($reign) {
+        $n = (int) floor($reign['from']->diffInYears($reign['to']));
+
+        return $n < 1 ? "moins d'un an" : $n . ' an' . ($n > 1 ? 's' : '');
+    };
+    $ticks = range((int) ceil($start->year / 20) * 20, $now->year, 20);
 @endphp
 
-<ol class="relative mt-10 max-w-3xl border-l-2 border-filet pl-6 sm:pl-8">
+<figure class="mt-10 max-w-4xl">
+    <figcaption class="text-xs font-semibold uppercase tracking-[0.18em] text-texte-2">Durée de chaque règne, de {{ $start->year }} à aujourd'hui</figcaption>
+    <ol class="mt-4 space-y-1.5">
+        @foreach($reigns as $reign)
+            @php $left = $at($reign['from']); $width = max($at($reign['to']) - $left, 0.6); @endphp
+            <li class="grid grid-cols-[7.5rem_minmax(0,1fr)] items-center gap-3 sm:grid-cols-[12rem_minmax(0,1fr)]">
+                <span class="min-w-0 text-right text-xs leading-tight sm:text-sm">
+                    @if($reign['player'])
+                        <a href="{{ route('players.show', $reign['player']) }}" class="block truncate font-semibold text-encre hover:underline {{ $focus }}">{{ $reign['label'] }}</a>
+                    @else
+                        <span class="block truncate font-semibold text-texte-2">{{ $reign['label'] }}</span>
+                    @endif
+                    <span class="block text-[11px] tabular-nums text-texte-2">{{ $reign['from']->year }}–{{ $reign['current'] ? 'auj.' : $reign['to']->year }} · {{ $duration($reign) }}</span>
+                </span>
+                <span class="relative block h-5 rounded-sm bg-papier-2" title="{{ $reign['label'] }} : {{ $duration($reign) }}">
+                    <span @class(['absolute inset-y-0 rounded-sm', 'bg-or' => $reign['current'], 'bg-bleu-france' => !$reign['current'] && $reign['player'], 'bg-texte-2/40' => !$reign['player']])
+                          style="left: {{ $left }}%; width: {{ $width }}%"></span>
+                </span>
+            </li>
+        @endforeach
+    </ol>
+    {{-- Axe des années --}}
+    <div class="mt-1 grid grid-cols-[7.5rem_minmax(0,1fr)] gap-3 sm:grid-cols-[12rem_minmax(0,1fr)]" aria-hidden="true">
+        <span></span>
+        <span class="relative block h-4 text-[10px] tabular-nums text-texte-2 sm:text-xs">
+            @foreach($ticks as $year)
+                <span class="absolute -translate-x-1/2" style="left: {{ $at(\Illuminate\Support\Carbon::create($year)) }}%">{{ $year }}</span>
+            @endforeach
+        </span>
+    </div>
+</figure>
+
+<ol class="relative mt-12 max-w-3xl border-l-2 border-filet pl-6 sm:pl-8">
     @foreach($history as $entry)
         @php
             $player = $entry['players']->first();
@@ -43,9 +97,10 @@
                         </p>
                         @php
                             $reign = match (true) {
-                                $current => 'Recordman depuis ' . $entry['match']->match_date->year,
+                                $current => 'Recordman depuis ' . $entry['match']->match_date->year
+                                    . ' (' . $duration(['from' => $entry['match']->match_date, 'to' => $now]) . ')',
                                 !$entry['equalled'] && $entry['until'] !== null => "Recordman jusqu'en " . $entry['until']->match_date->year
-                                    . (($n = $years($entry['match'], $entry['until'])) > 0 ? " ({$n} an" . ($n > 1 ? 's' : '') . ')' : ''),
+                                    . ' (' . $duration(['from' => $entry['match']->match_date, 'to' => $entry['until']->match_date]) . ')',
                                 default => null,
                             };
                         @endphp
