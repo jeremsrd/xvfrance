@@ -17,21 +17,20 @@ Fait le 17/10/2026 (tout est commité, déployé et poussé ; dernier commit dé
   restent à part). Choix de l'utilisateur, voir `docs/sources.md`.
 - **Clubs d'après Wikipédia** (`scripts/wikipedia/clubs.py`, `wikipedia_clubs.csv`) pour les internationaux absents
   de la liste « This Is Rugby » : 7 internationaux sans club au lieu de 97 ; filtre par club sur `/joueurs`.
+- **Portraits sur la feuille de match** : la photo du joueur remplace son numéro (terrain et liste) quand elle est connue.
 
 Reprendre par, dans l'ordre proposé :
-1. **Feuille de match** (demande du 17/10/2026) : afficher la photo du joueur, quand elle est connue
-   (`players.photo_path`, 119 portraits d'avant 1930), à la place de son numéro de maillot dans la composition.
-2. **Matches de novembre 2026** : 07/11 Fidji, 13/11 Afrique du Sud, 21/11 Argentine, finales 27-29/11
+1. **Matches de novembre 2026** : 07/11 Fidji, 13/11 Afrique du Sud, 21/11 Argentine, finales 27-29/11
    (`/feuille-de-match <date> <code>` une fois joués, puis commit et `./deploy.sh`).
-3. **Équipes adverses et points d'Allemagne 1932-1934 et d'Armée britannique 1940** : presse d'époque sur Gallica
+2. **Équipes adverses et points d'Allemagne 1932-1934 et d'Armée britannique 1940** : presse d'époque sur Gallica
    (*L'Auto* du 18/04/1932 pour commencer), qui bloque les scripts (Cloudflare) : passer par Chrome. La validation
    refuse des points incomplets : il faut les marqueurs des deux équipes. 1940 : les 3 points français sont un
    « drop » de Thiers selon finalesrugby.fr, impossible (4 points en 1940), sans doute une pénalité.
-4. **Reste des sélections** : 27 matches aux remplacements non appariés (`python3 scripts/finalesrugby/apply.py --dry`),
+3. **Reste des sélections** : 27 matches aux remplacements non appariés (`python3 scripts/finalesrugby/apply.py --dry`),
    Traille +2, Szarzewski et Michalak +1 face à la page des records ; 17 internationaux sans joueur en base
    (`php artisan xv:import-internationaux --report`) ; Arthapignet 1988 et Mignot 2016 absents de la base (Wikipédia).
-5. **Numéros d'international après 2016** (piste 3) : trancher la source d'abord.
-6. Plus tard :
+4. **Numéros d'international après 2016** (piste 3) : trancher la source d'abord.
+5. Plus tard :
    - `scripts/wikipedia/naissances.py` lit désormais les sélectionnés d'après février 2020 (dates sans `{{date}}`
      dans la liste) : 6 désaccords de naissance de plus (23 en tout), 12 naissances et 2 décès absents de la base
      mais sur Wikidata, à trancher comme les autres (`--csv`, puis `dates_corrections.csv`) ;

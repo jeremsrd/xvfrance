@@ -22,7 +22,7 @@
             <li>
                 <a href="{{ route('players.show', $row['player']) }}"
                    class="grid grid-cols-[2rem_minmax(0,1fr)] items-center gap-3 px-4 py-2.5 hover:bg-papier {{ $cols }} {{ $focus }} focus-visible:ring-inset focus-visible:ring-bleu-france {{ $didNotPlay ? 'opacity-60' : '' }}">
-                    <x-match.jersey :number="$row['jersey']" :france="$team['isFrance']" size="sm" class="{{ $team['isFrance'] ? '' : 'ring-encre/25' }}" />
+                    <x-match.jersey :number="$row['jersey']" :france="$team['isFrance']" :photo="$row['player']->photo_path" size="sm" class="{{ $team['isFrance'] ? '' : 'ring-encre/25' }}" />
 
                     <span class="min-w-0">
                         <span class="block truncate font-semibold text-encre">

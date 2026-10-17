@@ -127,4 +127,13 @@ class PublicPagesTest extends TestCase
             ->assertSee('29')
             ->assertSee($this->frenchPlayer->last_name);
     }
+
+    public function test_match_lineup_shows_portrait_instead_of_number_when_known(): void
+    {
+        $this->frenchPlayer->update(['photo_path' => '/images/joueurs/fra-test.webp']);
+
+        $this->get(route('matches.show', $this->match))
+            ->assertSee('src="/images/joueurs/fra-test.webp"', false)
+            ->assertSee('title="N° 1"', false);
+    }
 }
