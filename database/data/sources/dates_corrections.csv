@@ -178,3 +178,11 @@ match_date,jersey,joueur,champ,base,correction,source
 2016-06-19,4,Julien Le Devedec,birth_date,1987-06-04,1986-06-04,"equipe-france.fr, Wikidata"
 2016-06-19,16,Clément Maynadier,birth_date,1988-10-01,1988-10-11,"equipe-france.fr, Wikidata"
 1923-04-14,6,Hector Fargues,birth_date,1892-05-14,1894-07-09,"Wikipédia fr, equipe-france.fr"
+1921-03-28,2,Charles-Anthoine Gonnet,death_date,1985-11-26,1985-09-26,"INSEE (fichier des décès), Wikidata"
+1949-08-28,13,Francis Desclaux,death_date,2023-03-06,1981-10-26,"INSEE (fichier des décès), Wikidata"
+1949-08-28,13,Francis Desclaux,death_city,,Paris,INSEE (fichier des décès)
+1982-02-06,13,Patrick Perrier,death_date,2015-07-21,2015-07-22,"INSEE (fichier des décès), Wikidata"
+1963-12-15,7,André Herrero,death_date,,2025-10-23,"INSEE (fichier des décès), Wikidata"
+1963-12-15,7,André Herrero,death_city,,Toulon,INSEE (fichier des décès)
+1964-03-21,1,Arnaldo Gruarin,death_date,,2025-01-29,"INSEE (fichier des décès), Wikidata"
+1964-03-21,1,Arnaldo Gruarin,death_city,,Toulon,INSEE (fichier des décès)

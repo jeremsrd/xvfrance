@@ -7,10 +7,10 @@ use App\Models\MatchLineup;
 use Illuminate\Console\Command;
 
 /**
- * Applique les dates de naissance et de décès vérifiées de dates_corrections.csv (comparaison avec Wikidata,
- * equipe-france.fr et le fichier des décès de l'INSEE, voir scripts/wikipedia/naissances.py). Le joueur est
- * retrouvé par son numéro de maillot à son premier match. Une date n'est changée que si la base porte encore
- * l'ancienne valeur : une correction faite depuis n'est pas écrasée. Passe avant xv:import-equipe-france-players,
+ * Applique les dates de naissance et de décès (et lieux de décès) vérifiées de dates_corrections.csv
+ * (comparaison avec Wikidata, equipe-france.fr et le fichier des décès de l'INSEE, voir scripts/wikipedia/naissances.py).
+ * Le joueur est retrouvé par son numéro de maillot à son premier match. Une valeur n'est changée que si la base porte
+ * encore l'ancienne : une correction faite depuis n'est pas écrasée. Passe avant xv:import-equipe-france-players,
  * qui écarte la fiche d'un joueur dont la naissance en base est trop éloignée de celle du site.
  */
 class ApplyDateCorrections extends Command
@@ -19,9 +19,9 @@ class ApplyDateCorrections extends Command
         {file=database/data/sources/dates_corrections.csv : Dates vérifiées}
         {--dry-run : Afficher les changements sans les appliquer}';
 
-    protected $description = 'Corrige les dates de naissance et de décès des internationaux (dates_corrections.csv)';
+    protected $description = 'Corrige naissance, décès et lieu de décès des internationaux (dates_corrections.csv)';
 
-    private const FIELDS = ['birth_date', 'death_date'];
+    private const FIELDS = ['birth_date', 'death_date', 'death_city'];
 
     public function handle(): int
     {
@@ -49,7 +49,8 @@ class ApplyDateCorrections extends Command
                 continue;
             }
 
-            $current = $player->{$row['champ']}?->format('Y-m-d') ?? '';
+            $value = $player->{$row['champ']};
+            $current = $value instanceof \DateTimeInterface ? $value->format('Y-m-d') : (string) $value;
             if ($current === $row['correction']) {
                 continue;
             }

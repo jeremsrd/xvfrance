@@ -14,9 +14,8 @@ appliqués par `xv:apply-date-corrections` (dans `deploy.sh`). Voir `docs/source
 
 Reprendre par, dans l'ordre proposé :
 1. **Fiches joueurs plus riches** (piste 4), suite :
-   b. Reste : vérifier dans le fichier des décès de l'INSEE (matchID) les 5 décès en suspens (Gonnet, Desclaux,
-      Perrier, Herrero, Gruarin) et, plus largement, les décès après 1970 que ni Wikidata ni equipe-france.fr ne
-      donnent. Noms différents de Wikipédia : faits (13 renommages, voir `docs/sources.md`).
+   b. Reste (facultatif) : chercher dans le fichier des décès de l'INSEE (matchID, décès depuis 1970) les décès
+      que ni Wikidata ni equipe-france.fr ne donnent, pour les internationaux nés avant 1950 environ.
    c. Clubs (1h-2h) : décider d'abord colonne ou table (clubs successifs) ; source « This Is Rugby »
       (`internationaux_encyclo.csv`, 1 090 internationaux). equipe-france.fr ne donne le club que des 63 joueurs récents.
 2. **Matches de novembre 2026** (piste 2) : 07/11 Fidji, 13/11 Afrique du Sud, 21/11 Argentine, finales 27-29/11

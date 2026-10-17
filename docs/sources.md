@@ -97,9 +97,11 @@ consignées dans `dates_corrections.csv` (colonne `source`) :
   ([matchID](https://deces.matchid.io), décès depuis 1970, naissance d'après l'état civil) tranchent : Wikipédia a
   eu raison à chaque vérification (Constant, Llari, Chaud). Wikidata se trompe pour Georges Jérome et Hugues Miorin
   (l'article fr donne la date de la base).
-- décès : date complète de Wikidata quand la base n'en a pas (93). Restent à vérifier à l'INSEE : Gonnet (26/11
-  ou 26/09/1985), Desclaux (2023 en base, 1981 sur Wikidata), Perrier (21 ou 22/07/2015), Herrero et Gruarin
-  (deux dates sur Wikidata). L'API matchID limite les requêtes anonymes (compte gratuit avec e-mail au-delà).
+- décès : date complète de Wikidata quand la base n'en a pas (93). Les 5 cas douteux sont tranchés par l'INSEE
+  (avec le lieu de décès) : Gonnet 26/09/1985, Desclaux 26/10/1981 (2023 sur equipe-france.fr), Perrier 22/07/2015,
+  Herrero 23/10/2025, Gruarin 29/01/2025. L'API matchID limite les requêtes anonymes (quelques dizaines, puis une
+  attente d'environ une heure ; compte gratuit avec e-mail au-delà) : une requête par joueur, filtrée par
+  `birthDate=JJ/MM/AAAA`, suffit.
 
 `xv:apply-date-corrections` applique le fichier (ne change une date que si la base porte encore l'ancienne valeur),
 avant `xv:import-equipe-france-players` dans `deploy.sh`.
