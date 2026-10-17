@@ -17,7 +17,7 @@ Fait le 17/10/2026 (tout est commité, déployé et poussé ; dernier commit dé
   restent à part). Choix de l'utilisateur, voir `docs/sources.md`.
 - **Clubs d'après Wikipédia** (`scripts/wikipedia/clubs.py`, `wikipedia_clubs.csv`) pour les internationaux absents
   de la liste « This Is Rugby » : 7 internationaux sans club au lieu de 97 ; filtre par club sur `/joueurs`.
-- **Portraits sur la feuille de match** : la photo du joueur remplace son numéro (terrain et liste) quand elle est connue.
+- **Portraits sur la feuille de match** : la photo du joueur s'affiche à côté de son nom dans la liste (le numéro reste, le terrain garde les numéros).
 
 Reprendre par, dans l'ordre proposé :
 1. **Matches de novembre 2026** : 07/11 Fidji, 13/11 Afrique du Sud, 21/11 Argentine, finales 27-29/11

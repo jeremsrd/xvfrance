@@ -128,12 +128,12 @@ class PublicPagesTest extends TestCase
             ->assertSee($this->frenchPlayer->last_name);
     }
 
-    public function test_match_lineup_shows_portrait_instead_of_number_when_known(): void
+    public function test_match_lineup_shows_portrait_next_to_name_when_known(): void
     {
         $this->frenchPlayer->update(['photo_path' => '/images/joueurs/fra-test.webp']);
 
         $this->get(route('matches.show', $this->match))
             ->assertSee('src="/images/joueurs/fra-test.webp"', false)
-            ->assertSee('title="N° 1"', false);
+            ->assertSee('tabular-nums ring-1 h-7 w-7 text-sm', false);
     }
 }

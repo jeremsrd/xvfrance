@@ -39,7 +39,7 @@
            class="group absolute flex w-[22%] -translate-x-1/2 -translate-y-1/2 flex-col items-center gap-1 text-center focus-visible:outline-hidden"
            style="left: {{ $x }}%; top: {{ $y }}%">
             <span class="relative">
-                <x-match.jersey :number="$row['jersey']" :france="$france" :photo="$row['player']->photo_path"
+                <x-match.jersey :number="$row['jersey']" :france="$france"
                     class="shadow-lg shadow-black/30 motion-safe:transition-transform group-hover:scale-110 group-focus-visible:ring-2 group-focus-visible:ring-or" />
                 @if($row['captain'])
                     <span class="absolute -right-1.5 -top-1.5 flex h-4 w-4 items-center justify-center rounded-full bg-or font-display text-[10px] font-bold text-encre" title="Capitaine">C</span>

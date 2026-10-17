@@ -1,5 +1,9 @@
 {{-- Liste d'une équipe avec colonnes de stats : $rows, $title, $team, $focus --}}
-@php $cols = 'sm:grid-cols-[2rem_minmax(0,1fr)_3rem_3rem_3rem_4.5rem]'; @endphp
+@php
+    $cols = 'sm:grid-cols-[2rem_minmax(0,1fr)_3rem_3rem_3rem_4.5rem]';
+    // Emplacement de portrait réservé sur toutes les lignes dès qu'un joueur en a un, pour aligner les noms
+    $portraits = collect($rows)->contains(fn ($row) => $row['player']->photo_path);
+@endphp
 
 <div>
     <div class="mb-2 grid grid-cols-[2rem_minmax(0,1fr)] items-end gap-3 px-4 {{ $cols }}">
@@ -22,8 +26,14 @@
             <li>
                 <a href="{{ route('players.show', $row['player']) }}"
                    class="grid grid-cols-[2rem_minmax(0,1fr)] items-center gap-3 px-4 py-2.5 hover:bg-papier {{ $cols }} {{ $focus }} focus-visible:ring-inset focus-visible:ring-bleu-france {{ $didNotPlay ? 'opacity-60' : '' }}">
-                    <x-match.jersey :number="$row['jersey']" :france="$team['isFrance']" :photo="$row['player']->photo_path" size="sm" class="{{ $team['isFrance'] ? '' : 'ring-encre/25' }}" />
+                    <x-match.jersey :number="$row['jersey']" :france="$team['isFrance']" size="sm" class="{{ $team['isFrance'] ? '' : 'ring-encre/25' }}" />
 
+                    <span class="flex min-w-0 items-center gap-3">
+                        @if($row['player']->photo_path)
+                            <img src="{{ $row['player']->photo_path }}" alt="" loading="lazy" class="h-9 w-9 shrink-0 rounded-full object-cover object-top ring-1 ring-filet">
+                        @elseif($portraits)
+                            <span class="h-9 w-9 shrink-0" aria-hidden="true"></span>
+                        @endif
                     <span class="min-w-0">
                         <span class="block truncate font-semibold text-encre">
                             {{ $row['player']->first_name }} {{ $row['player']->last_name }}
@@ -43,6 +53,7 @@
                                 @endforeach
                             </span>
                         @endif
+                    </span>
                     </span>
 
                     {{-- Ordinateur : colonnes alignées --}}
