@@ -66,7 +66,7 @@
 
     $venueCards = ['home' => 'En France', 'away' => 'Hors de France', 'neutral' => 'Terrain neutre'];
 
-    $sections = ['phares' => 'Records phares', 'ecarts' => 'Écarts', 'scores' => 'Scores', 'series' => 'Séries', 'adversaires' => 'Par adversaire', 'joueurs' => 'Joueurs', 'epoques' => 'Époques'];
+    $sections = ['phares' => 'Records phares', 'ecarts' => 'Écarts', 'scores' => 'Scores', 'series' => 'Séries', 'adversaires' => 'Par adversaire', 'joueurs' => 'Joueurs', 'selections' => 'Recordmen des sélections', 'epoques' => 'Époques'];
 @endphp
 
 @section('content')
@@ -227,6 +227,15 @@
                 @include('records.partials.player-ranking', ['title' => 'Feuilles de match', 'rows' => $mostAppearances, 'unit' => ['match', 'matches']])
                 @include('records.partials.player-ranking', ['title' => 'Capitanats', 'rows' => $mostCaptaincies, 'unit' => ['match', 'matches']])
             </div>
+        </div>
+    </section>
+
+    {{-- ═══ Recordmen des sélections ═══ --}}
+    <section id="selections" class="scroll-mt-4 border-t border-filet py-12 lg:py-16" aria-labelledby="selections-titre">
+        <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+            <h2 id="selections-titre" class="font-display text-3xl font-bold uppercase tracking-tight text-encre">Recordmen des sélections</h2>
+            <p class="mt-2 max-w-2xl font-serif text-texte-2">Le record du nombre de sélections avec le XV de France, de main en main depuis 1906.</p>
+            @include('records.partials.caps-record', ['history' => $capsRecordHistory])
         </div>
     </section>
 

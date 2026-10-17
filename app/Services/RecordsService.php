@@ -6,6 +6,7 @@ use App\Enums\EventType;
 use App\Enums\TeamSide;
 use App\Models\MatchEvent;
 use App\Models\MatchLineup;
+use App\Models\Player;
 use App\Models\RugbyMatch;
 use App\Support\RecordSummary;
 use Illuminate\Database\Eloquent\Builder;
@@ -191,6 +192,75 @@ class RecordsService
             MatchLineup::where('team_side', TeamSide::FRANCE)->where('is_captain', true),
             $limit,
         );
+    }
+
+    /**
+     * Les recordmen des sélections successifs : chaque fois qu'un joueur prend seul le record du nombre de matches
+     * joués avec le XV de France (remplaçants restés sur le banc exclus), ou l'égale et le partage.
+     *
+     * @return Collection<int, array{players: Collection<int, Player>, match: RugbyMatch, caps: int, equalled: bool, with: Collection<int, Player>, equalledMatch: RugbyMatch|null, until: RugbyMatch|null, totals: array<int, int>}>
+     */
+    public function capsRecordHistory(): Collection
+    {
+        $lineups = MatchLineup::query()->played()
+            ->where('team_side', TeamSide::FRANCE)
+            ->join('matches', 'matches.id', '=', 'match_lineups.match_id')
+            ->orderBy('matches.match_date')->orderBy('matches.id')
+            ->get(['match_lineups.match_id', 'match_lineups.player_id']);
+
+        $caps = [];
+        $record = 0;
+        $holders = [];
+        $entries = [];
+        foreach ($lineups->groupBy('match_id') as $matchId => $rows) {
+            $ids = $rows->pluck('player_id')->all();
+            foreach ($ids as $id) {
+                $caps[$id] = ($caps[$id] ?? 0) + 1;
+            }
+            $best = max(array_map(fn ($id) => $caps[$id], $ids));
+            $atBest = array_values(array_filter($ids, fn ($id) => $caps[$id] === $best));
+
+            if ($best > $record) {
+                // Les mêmes recordmen qui allongent ensemble leur record ne font pas une nouvelle entrée
+                $changed = array_diff($atBest, $holders) || array_diff($holders, $atBest);
+                $holders = $atBest;
+                $record = $best;
+                $last = end($entries);
+                if ($changed && $last && $last['equalled'] && $last['players'] === $atBest) {
+                    // Record égalé puis battu par le même joueur : une seule entrée, qui garde la date de l'égalisation
+                    $entries[array_key_last($entries)] = ['equalledMatch' => $last['match'], 'match' => $matchId, 'caps' => $best, 'equalled' => false] + $last;
+                } elseif ($changed) {
+                    $entries[] = ['players' => $atBest, 'match' => $matchId, 'caps' => $best, 'equalled' => false];
+                }
+            } elseif ($best === $record && ($joining = array_values(array_diff($atBest, $holders)))) {
+                $entries[] = ['players' => $joining, 'with' => $holders, 'match' => $matchId, 'caps' => $best, 'equalled' => true];
+                $holders = array_merge($holders, $joining);
+            }
+        }
+
+        $players = Player::whereIn('id', collect($entries)->pluck('players')->merge(collect($entries)->pluck('with'))->flatten()->filter()->unique())
+            ->get()->keyBy('id');
+        $matches = RugbyMatch::with('opponent')
+            ->whereIn('id', collect($entries)->pluck('match')->merge(collect($entries)->pluck('equalledMatch')->filter()))
+            ->get()->keyBy('id');
+
+        return collect($entries)->map(function (array $entry, int $i) use ($entries, $players, $matches, $caps) {
+            // Fin du règne : le premier joueur qui prend seul le record sans faire partie de ces recordmen
+            $next = collect($entries)->slice($i + 1)
+                ->first(fn ($later) => !$later['equalled'] && !array_intersect($later['players'], $entry['players']));
+
+            return [
+                'players' => collect($entry['players'])->map(fn ($id) => $players[$id]),
+                'match' => $matches[$entry['match']],
+                'caps' => $entry['caps'],
+                'equalled' => $entry['equalled'],
+                // Recordmen avec qui le record égalé est partagé
+                'with' => collect($entry['with'] ?? [])->map(fn ($id) => $players[$id]),
+                'equalledMatch' => isset($entry['equalledMatch']) ? $matches[$entry['equalledMatch']] : null,
+                'until' => $next ? $matches[$next['match']] : null,
+                'totals' => array_intersect_key($caps, array_flip($entry['players'])),
+            ];
+        });
     }
 
     // --- Interne ---

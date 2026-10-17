@@ -149,4 +149,30 @@ class RecordsServiceTest extends TestCase
         $this->assertSame($star->id, $service->mostCaptaincies()->sole()->player_id);
         $this->assertSame(1, $service->detailedMatchCount());
     }
+
+    public function test_caps_record_history_follows_each_new_record_holder(): void
+    {
+        $m = $this->playMatches(array_fill(0, 6, [20, 10]));
+        [$a, $b, $bench] = Player::factory()->count(3)->create();
+        $jersey = 0;
+        $play = function (Player $p, int $i, bool $played = true) use ($m, &$jersey) {
+            MatchLineup::factory()->create(['match_id' => $m[$i]->id, 'player_id' => $p->id, 'played' => $played, 'jersey_number' => ++$jersey]);
+        };
+        $play($a, 0); $play($b, 0);       // record partagé à 1
+        $play($a, 1); $play($a, 2);       // A seul recordman, 3 sélections
+        $play($b, 3); $play($b, 4);       // B égale à 3…
+        $play($b, 5); $play($bench, 5, false);  // … puis bat le record ; un remplaçant resté sur le banc ne compte pas
+        foreach (range(0, 4) as $i) {
+            $play($bench, $i, false);
+        }
+
+        $history = (new RecordsService())->capsRecordHistory();
+
+        $this->assertSame([[$a->id, $b->id], [$a->id], [$b->id]], $history->map(fn ($e) => $e['players']->pluck('id')->all())->all());
+        $this->assertSame([1, 2, 4], $history->pluck('caps')->all());
+        $this->assertTrue($history[1]['until']->is($m[5]));
+        $this->assertSame(3, $history[1]['totals'][$a->id]);
+        $this->assertTrue($history[2]['equalledMatch']->is($m[4]));
+        $this->assertNull($history[2]['until']);
+    }
 }

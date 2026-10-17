@@ -22,6 +22,7 @@ class RecordController extends Controller
             'topTryScorers' => $records->topTryScorers(),
             'mostAppearances' => $records->mostAppearances(),
             'mostCaptaincies' => $records->mostCaptaincies(),
+            'capsRecordHistory' => $records->capsRecordHistory(),
         ]);
     }
 }
