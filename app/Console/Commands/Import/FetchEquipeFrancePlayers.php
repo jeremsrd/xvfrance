@@ -32,6 +32,11 @@ class FetchEquipeFrancePlayers extends Command
     private const OUTPUT = 'database/data/sources/equipe_france_players.csv';
     /** Dates que le site met faute de mieux : 13/12/1901 en naissance, 01/01/2000 en décès */
     private const PLACEHOLDER_DATES = ['birth_date' => '1901-12-13', 'death_date' => '2000-01-01'];
+    /** Champs faux sur le site, laissés vides (Yoann Huget est vivant ; Lamaison : 1971, 1,80 m, 90 kg selon Wikipédia) */
+    private const KNOWN_ERRORS = [
+        'yoann-huget' => ['death_date'],
+        'christophe-lamaison' => ['birth_date', 'height_cm', 'weight_kg'],
+    ];
 
     private const COLUMNS = [
         'site_slug', 'match_date', 'jersey', 'first_name', 'last_name', 'site_name', 'given_names',
@@ -48,7 +53,8 @@ class FetchEquipeFrancePlayers extends Command
         foreach ($players as $slug => $player) {
             $html = $this->get("/rugby/{$slug}", "joueurs/{$slug}.html");
             if ($html !== null) {
-                $rows[] = ['site_slug' => $slug] + $player + $this->parseProfile($html);
+                $profile = array_diff_key($this->parseProfile($html), array_flip(self::KNOWN_ERRORS[$slug] ?? []));
+                $rows[] = ['site_slug' => $slug] + $player + $profile;
             }
             $bar->advance();
         }

@@ -73,11 +73,43 @@ Limites constatées : la liste du site n'est **pas** la liste officielle.
 - **Dates bouche-trou** écartées au relevé : naissance au 13/12/1901 (33 joueurs d'avant 1914), décès au 01/01/2000 (4).
 - **Homonymes** : le site mélange parfois deux joueurs du même nom. L'import écarte toute la fiche quand l'âge au
   premier match sort de 16-42 ans (Laurent Pardo, Jean-Louis Martin, Thierry Picard) ou quand la naissance s'écarte
-  de 2 ans ou plus de la base avec un autre jour et un autre mois (11 fiches au total, dont André Abadie et
-  Christophe Lamaison).
-- **Dates de naissance en désaccord** : 111 avec la liste des internationaux (`--report`), gardées telles qu'en base.
-  Souvent la même date à un an ou une décennie près (Sutra 21/03/1936 en base, 1946 sur le site comme sur
-  Wikipédia) : la liste a aussi ses coquilles. À trancher avec Wikipédia.
+  de 2 ans ou plus de la base avec un autre jour et un autre mois (7 fiches depuis les corrections de dates du
+  17/10/2026, dont André Abadie et Hector Fargues ; Sagot, Legrain, Tales et Lamaison n'étaient pas des homonymes).
+- **Dates de naissance en désaccord** : 111 avec la liste des internationaux, tranchées avec Wikidata le 17/10/2026
+  (section suivante). Restent 40 (`--report`) où la base est gardée : Wikidata la confirme, ou rien ne tranche
+  (Duval, Duffour, Milliand, Failliot, Theuriet, Besson).
+- **Erreurs connues** du site, laissées vides au relevé (`KNOWN_ERRORS` de `xv:fetch-equipe-france-players`) :
+  décès de Yoann Huget (vivant), naissance, taille et poids de Christophe Lamaison.
+
+## Wikidata et fichier des décès de l'INSEE : dates de naissance et de décès
+
+`scripts/wikipedia/naissances.py` part de la page [Liste des sélectionnés en équipe de France de rugby à XV](https://fr.wikipedia.org/wiki/Liste_des_s%C3%A9lectionn%C3%A9s_en_%C3%A9quipe_de_France_de_rugby_%C3%A0_XV)
+(1 120 internationaux, jusqu'à 2020 environ), suit le lien de chaque joueur jusqu'à son élément Wikidata et compare
+naissance et décès à la base et à equipe-france.fr (rapprochement par date de première sélection et nom ;
+1 114 joueurs, 1 005 avec une date de naissance sur Wikidata). Réponses gardées dans `storage/app/wikipedia`.
+
+Bilan du 17/10/2026 : 100 naissances en désaccord avec la base, 96 décès absents de la base. Règles de décision,
+consignées dans `dates_corrections.csv` (colonne `source`) :
+- equipe-france.fr et Wikidata d'accord contre la base → Wikidata (68 cas : la liste « This Is Rugby » inverse
+  souvent jour et mois ou se trompe d'année) ;
+- base et equipe-france.fr d'accord contre Wikidata → base (15 cas) ;
+- sinon, l'article Wikipédia (fr, et en s'il existe) et le **fichier des décès de l'INSEE**
+  ([matchID](https://deces.matchid.io), décès depuis 1970, naissance d'après l'état civil) tranchent : Wikipédia a
+  eu raison à chaque vérification (Constant, Llari, Chaud). Wikidata se trompe pour Georges Jérome et Hugues Miorin
+  (l'article fr donne la date de la base).
+- décès : date complète de Wikidata quand la base n'en a pas (93). Restent à vérifier à l'INSEE : Gonnet (26/11
+  ou 26/09/1985), Desclaux (2023 en base, 1981 sur Wikidata), Perrier (21 ou 22/07/2015), Herrero et Gruarin
+  (deux dates sur Wikidata). L'API matchID limite les requêtes anonymes (compte gratuit avec e-mail au-delà).
+
+`xv:apply-date-corrections` applique le fichier (ne change une date que si la base porte encore l'ancienne valeur),
+avant `xv:import-equipe-france-players` dans `deploy.sh`.
+
+Le rapprochement révèle aussi des **prénoms différents** de Wikipédia, non traités : M. Thevenot (Lucien),
+Antoine/André Francquenelle, Léon/Jean Larribau, Jean/Bernard Lavigne, Hector/Georges Fargues, Jean/Fernand
+Taillantou, Porra (Maurice), Aimé/André Rochon, Noël/René Séguier, et des graphies (Tilh/Thil, Mouniq/Mounicq,
+Bergese/Bergèze, Gonzales/Gonzalez, Coeurveille/Cœurveillé, Thibault/Thibaut Privat, Mikael/Mickaël Forest).
+Non rapprochés : Beaurin-Gressier, Géo André, Augras-Fabre et Henri Poirier (Henri-Auguste Poirrier sur Wikipédia),
+noms trop différents, et 2 internationaux absents de la base : Pierre Arthapignet (1988) et Xavier Mignot (2016).
 
 ## finalesrugby.fr : remplacements et sélections
 
@@ -148,6 +180,7 @@ Pièges connus :
 | `venue_names.csv` | Anciens noms datés, variantes et noms erronés des stades | `xv:import-venue-names` |
 | `venue_home_grounds.csv` | Stades de repli (Galles à Wembley en 1998) | `xv:compute-venue-flags` |
 | `venue_coordinates.csv` | Coordonnées des stades (précision « stade » ou « ville ») | `xv:import-venue-coordinates` |
+| `dates_corrections.csv` | Dates de naissance et de décès vérifiées (Wikidata, INSEE), avec leur source | `xv:apply-date-corrections` |
 
 Les feuilles de match détaillées sont dans `database/data/matches/{année}/*.json`
 (format : `docs/specs/import-match-data.md`). Une feuille peut aussi créer un match absent de la base.

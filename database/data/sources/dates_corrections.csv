@@ -1,0 +1,179 @@
+match_date,jersey,joueur,champ,base,correction,source
+1906-01-01,1,André Vergès,death_date,,1936-03-19,Wikidata
+1906-01-01,1,André Vergès,birth_date,1877-12-28,1877-12-27,Wikipédia fr
+1906-01-01,5,Allan Muhr,death_date,,1944-12-29,Wikidata
+1906-01-01,5,Allan Muhr,birth_date,1881-06-04,1882-01-23,Wikipédia fr et en
+1906-01-01,8,Jacques Dufourcq,death_date,,1975-10-31,Wikidata
+1906-01-01,10,Henri Amand,birth_date,1873-09-17,1873-09-18,"equipe-france.fr, Wikidata"
+1906-01-01,12,Paul Sagot,death_date,,1959-06-27,Wikidata
+1906-01-01,12,Paul Sagot,birth_date,1881-04-02,1885-01-15,"equipe-france.fr, Wikidata"
+1906-01-01,15,William Crichton,birth_date,1881-12-15,1881-12-01,Wikipédia fr
+1906-03-22,4,Pierre Gaudermen,death_date,,1948-12-18,Wikidata
+1906-03-22,10,Théodore Varvier,death_date,,1913-08-25,Wikidata
+1906-03-22,11,Émile Lesieur,death_date,1985-01-01,1985-01-25,Wikidata
+1907-01-05,6,Marc Giacardy,death_date,,1917-08-20,Wikidata
+1907-01-05,11,Charles Vareilles,birth_date,1886-07-01,1885-07-25,Wikipédia fr
+1907-01-05,13,Henri Martin,death_date,,1973-02-16,Wikidata
+1908-01-01,1,René de Malmann,death_date,,1969-12-08,Wikidata
+1908-01-01,9,Alfred Mayssonnié,birth_date,1884-02-10,1884-10-02,"equipe-france.fr, Wikidata"
+1909-03-20,4,Marcel Legrain,death_date,,1915-06-27,Wikidata
+1909-03-20,4,Marcel Legrain,birth_date,1880-06-14,1890-10-13,"equipe-france.fr, Wikidata"
+1909-03-20,12,Marcel Burgun,birth_date,1890-01-18,1890-01-30,"equipe-france.fr, Wikidata"
+1911-01-02,3,Pierre Mouniq,death_date,,1964-04-07,Wikidata
+1911-01-02,12,Antoine Francquenelle,death_date,,1965-07-11,Wikidata
+1911-01-28,5,François-Xavier Dutour,death_date,,1978-05-22,Wikidata
+1911-03-25,1,Robert Monier,death_date,,1944-12-06,Wikidata
+1912-01-01,4,Jean-Jacques Conilh de Beyssac,death_date,,1918-06-13,Wikidata
+1912-01-01,4,Jean-Jacques Conilh de Beyssac,birth_date,1890-04-12,1890-06-12,Wikipédia fr et en
+1912-01-01,9,Léon Larribau,death_date,,1916-12-31,Wikidata
+1912-01-01,11,Julien Dufau,birth_date,1888-02-16,1888-02-18,"equipe-france.fr, Wikidata"
+1912-03-25,8,Hélier Tilh,death_date,,1946-10-29,Wikidata
+1913-02-27,9,Philippe Struxiano,death_date,,1956-04-21,Wikidata
+1913-03-24,6,Albert Eutrope,death_date,,1915-05-26,Wikidata
+1920-01-01,4,Aimé Cassayet-Armagnac,birth_date,1893-05-09,1893-04-09,"equipe-france.fr, Wikidata"
+1920-01-31,13,Jean Lavigne,death_date,,1926-06-01,Wikidata
+1920-02-17,6,Georges Constant,death_date,,1978-06-09,Wikidata
+1920-02-17,6,Georges Constant,birth_date,1899-04-03,1899-08-13,"INSEE (fichier des décès), Wikipédia fr"
+1920-04-03,11,Raoul Got,birth_date,1900-02-11,1900-10-11,"equipe-france.fr, Wikidata"
+1921-04-09,11,Marcel De Laborderie,death_date,,1954-08-08,Wikidata
+1921-04-09,14,Jacques Baquey,death_date,,1933-08-11,Wikidata
+1922-01-02,10,Joseph Pascot,death_date,,1974-06-04,Wikidata
+1922-01-02,10,Joseph Pascot,birth_date,1897-11-11,1897-12-11,Wikipédia fr
+1922-04-08,8,Noël Sicart,death_date,,1994-02-07,Wikidata
+1923-01-20,9,Clément Dupont,birth_date,1899-04-18,1899-04-11,"equipe-france.fr, Wikidata"
+1923-04-14,6,Hector Fargues,death_date,,1962-11-18,Wikidata
+1924-01-01,15,Edmond Besset,birth_date,1901-07-14,1901-12-01,"equipe-france.fr, Wikidata"
+1924-01-26,3,Jean Danion,death_date,,1927-11-02,Wikidata
+1924-03-27,15,Étienne Bonnes,death_date,,1941-02-20,Wikidata
+1925-02-28,11,Adolphe Bringeon,birth_date,1898-01-23,1895-01-23,"equipe-france.fr, Wikidata"
+1926-01-02,9,Roger Llari,death_date,,1973-12-18,Wikidata
+1926-01-02,9,Roger Llari,birth_date,1903-04-05,1903-04-15,"INSEE (fichier des décès), Wikipédia fr"
+1926-12-26,4,René Bousquet,death_date,,1964-05-19,Wikidata
+1927-01-01,11,Edmond Vellat,death_date,,1996-06-03,Wikidata
+1927-01-01,15,Maixent Piquemal,death_date,,1995-08-14,Wikidata
+1927-02-26,9,Jean Carbonne,death_date,,1952-12-13,Wikidata
+1928-01-02,5,André Camel,birth_date,1905-01-09,1905-02-09,"equipe-france.fr, Wikidata"
+1928-01-02,8,Gérald Branca,birth_date,1903-12-29,1902-12-29,"equipe-france.fr, Wikidata"
+1928-01-02,9,Georges Daudignon,death_date,,1989-11-06,Wikidata
+1928-01-02,10,Henri Haget,birth_date,1906-08-13,1905-10-12,"equipe-france.fr, Wikidata"
+1928-01-28,3,Jean Duhau,birth_date,1906-01-05,1906-05-01,"equipe-france.fr, Wikidata"
+1929-02-25,14,Albert Domec,birth_date,1910-10-07,1901-10-07,"equipe-france.fr, Wikidata"
+1929-04-28,7,André Clady,death_date,,1989-10-15,Wikidata
+1930-01-25,11,Jean Taillantou,death_date,,1988-01-09,Wikidata
+1931-01-01,2,Porra,birth_date,,1906-05-17,Wikidata
+1931-01-01,2,Porra,death_date,,1950-09-02,Wikidata
+1931-01-01,4,Marius Rodrigo,death_date,,1989-11-23,Wikidata
+1931-01-01,15,Maurice Savy,birth_date,1906-09-22,1906-09-21,"equipe-france.fr, Wikidata"
+1931-02-28,6,Charles Petit,birth_date,1903-01-06,1903-01-05,"equipe-france.fr, Wikidata"
+1932-04-17,1,Joseph Griffard,death_date,,1984-03-13,Wikidata
+1932-04-17,5,Lucien Cognet,death_date,,1960-03-14,Wikidata
+1932-04-17,7,Roger Claudel,death_date,,1944-12-08,Wikidata
+1932-04-17,8,Henri de Malherbe,death_date,,2006-08-12,Wikidata
+1932-04-17,10,Antonin Barbazanges,death_date,,1994-09-09,Wikidata
+1932-04-17,14,Eugène Chaud,birth_date,1906-03-02,1906-03-03,"INSEE (fichier des décès), equipe-france.fr, Wikipédia fr"
+1933-03-26,10,Jean Daguerre,death_date,,1987-06-25,Wikidata
+1934-03-25,6,Antoine Blain,death_date,,1973-08-31,Wikidata
+1934-03-25,11,Pierre Cussac,death_date,,1978-01-21,Wikidata
+1935-03-24,6,François Raynal,death_date,,1994-11-29,Wikidata
+1935-03-24,14,Armand Vigneau,death_date,,2002-08-05,Wikidata
+1936-05-17,2,Aimé Rochon,death_date,,1986-12-08,Wikidata
+1936-11-01,10,Edmond Elissalde,death_date,,2006-05-16,Wikidata
+1936-11-01,12,Félix Bergese,death_date,,2003-09-22,Wikidata
+1936-11-01,15,Frantz Sahuc,death_date,,1970-07-22,Wikidata
+1936-11-01,15,Frantz Sahuc,birth_date,1910-11-13,1910-11-10,Wikipédia fr (lieu de naissance donné)
+1937-10-17,5,Émile Fabre,death_date,,1985-06-09,Wikidata
+1938-03-27,10,Jean Chassagne,death_date,,1994-01-20,Wikidata
+1938-05-15,5,René Lombarteix,death_date,,1984-04-12,Wikidata
+1938-05-15,9,Guy Vassal,death_date,,1980-12-21,Wikidata
+1938-05-15,11,Raymond Le Goff,death_date,,2005-07-08,Wikidata
+1940-02-25,1,François Meret,death_date,,1940-06-10,Wikidata
+1940-02-25,2,Roger Paul,death_date,,1981-06-12,Wikidata
+1940-02-25,8,Pierre Charton,death_date,,1992-06-16,Wikidata
+1945-01-01,15,Roger Minjat,death_date,,2005-09-27,Wikidata
+1945-04-28,9,Gaston Combes,death_date,,1989-08-28,Wikidata
+1946-01-01,12,Albert Kaempf,death_date,,2013-10-31,Wikidata
+1951-01-27,13,Maurice Prat,birth_date,1928-11-17,1928-09-17,"equipe-france.fr, Wikidata"
+1952-01-12,4,Bernard Chevallier,birth_date,1925-12-07,1925-09-07,"equipe-france.fr, Wikidata"
+1952-01-12,7,Jean-Roger Bourdeu,birth_date,1927-03-06,1927-01-06,"equipe-france.fr, Wikidata"
+1952-02-16,11,Jean Colombier,birth_date,1928-09-23,1928-03-28,"equipe-france.fr, Wikidata"
+1954-04-24,14,Jacques Lepatey,death_date,,2024-05-01,Wikidata
+1955-04-10,2,Marcel Escommier,death_date,,2025-09-15,Wikidata
+1956-04-14,9,Guy Pauthe,death_date,,2023-05-17,Wikidata
+1956-12-16,9,Georges Gauby,death_date,,2025-04-19,Wikidata
+1957-04-21,4,Paul Cassagne,death_date,,2015-06-07,Wikidata
+1957-05-19,4,Adrien Normand,death_date,,2019-12-31,Wikidata
+1957-05-19,12,Christian Vignes,death_date,,2025-12-04,Wikidata
+1958-04-07,12,Arnaud Marquesuzaa,birth_date,1934-07-14,1934-06-14,"equipe-france.fr, Wikidata"
+1959-04-18,11,Serge Mericq,birth_date,1937-07-16,1937-05-16,"equipe-france.fr, Wikidata"
+1960-03-26,4,Hervé Larrue,death_date,,2026-06-16,Wikidata
+1961-08-05,8,Roland Lefevre,death_date,,2026-01-17,Wikidata
+1961-08-05,15,Claude Lacaze,death_date,,2026-02-28,Wikidata
+1961-08-19,10,Guy Camberabero,death_date,,2023-10-26,Wikidata
+1962-01-13,7,Roger Gensane,death_date,,2019-12-12,Wikidata
+1962-11-11,3,Francis Mas,birth_date,1936-11-08,1938-11-08,"equipe-france.fr, Wikidata"
+1962-11-11,14,Michel Arino,birth_date,1934-02-08,1938-02-08,"equipe-france.fr, Wikidata"
+1962-11-11,15,Jean-Pierre Razat,death_date,,2025-02-02,Wikidata
+1963-04-13,4,Jean Le Droff,birth_date,1939-07-22,1939-06-22,"equipe-france.fr, Wikidata"
+1963-12-15,3,Jean-Claude Berejnoi,death_date,,2024-09-08,Wikidata
+1964-02-08,1,Jean-Baptiste Amestoy,death_date,,2026-04-27,Wikidata
+1964-03-21,2,Yves Menthillier,death_date,,2019-09-06,Wikidata
+1964-07-25,13,Jean Capdouze,birth_date,1942-08-31,1942-08-30,"equipe-france.fr, Wikidata"
+1965-11-28,1,André Abadie,death_date,,2020-01-06,Wikidata
+1966-11-27,8,Jean Salut,death_date,,2025-09-05,Wikidata
+1967-02-11,12,Jean-Pierre Mir,birth_date,1947-07-06,1947-06-25,"equipe-france.fr, Wikidata"
+1967-07-22,1,Michel Lasserre,birth_date,1940-01-21,1940-11-29,"equipe-france.fr, Wikidata"
+1967-07-22,9,Gérard Sutra,birth_date,1936-03-21,1946-03-21,"equipe-france.fr, Wikidata"
+1967-11-25,14,Jean-Michel Capendeguy,birth_date,1941-03-05,1944-03-05,"equipe-france.fr, Wikidata"
+1969-02-22,2,Christian Swierczinski,birth_date,1947-07-28,1946-07-28,"equipe-france.fr, Wikidata"
+1969-02-22,7,Michel Hauser,birth_date,1945-05-10,1945-07-10,"equipe-france.fr, Wikidata"
+1969-02-22,14,Basile Moraitis,death_date,,2005-06-04,Wikidata
+1969-12-14,4,Michel Savitsky,birth_date,1946-10-21,1946-10-31,"equipe-france.fr, Wikidata"
+1971-01-16,1,Marc Etcheverry,death_date,,2020-07-29,Wikidata
+1971-01-16,9,Max Barrau,birth_date,1950-11-20,1950-11-26,"equipe-france.fr, Wikidata"
+1971-02-27,5,Claude Spanghero,birth_date,1948-06-16,1948-06-05,"equipe-france.fr, Wikidata"
+1971-02-27,13,Roland Bertranne,death_date,,2025-10-02,Wikidata
+1971-06-12,6,Alain Esteve,death_date,,2023-11-07,Wikidata
+1972-06-17,21,Henri Cabrol,birth_date,1947-02-11,1947-02-12,"equipe-france.fr, Wikidata"
+1973-03-24,14,Jean-François Phliponeau,death_date,,1976-05-08,Wikidata
+1973-10-27,3,Jacques Rougerie,death_date,,2023-08-12,Wikidata
+1973-10-27,5,Michel Sappa,birth_date,1943-03-19,1949-03-19,"equipe-france.fr, Wikidata"
+1975-06-21,7,Patrice Peron,death_date,,2025-12-29,Wikidata
+1975-06-21,8,Gérard Rousset,birth_date,1953-01-21,1953-01-31,"equipe-france.fr, Wikidata"
+1976-03-20,16,René Berges-Cau,birth_date,1949-10-28,1949-02-28,"equipe-france.fr, Wikidata"
+1977-11-19,6,Jacques Gasc,death_date,,2025-06-16,Wikidata
+1978-01-21,10,Bernard Vivies,birth_date,1953-09-03,1955-09-03,"equipe-france.fr, Wikidata"
+1979-07-07,8,Christian Beguerie,death_date,,2024-01-05,Wikidata
+1980-02-02,8,Manuel Carpentier,birth_date,1960-03-15,1959-10-15,"equipe-france.fr, Wikidata"
+1982-11-20,20,Jacques Bégu,birth_date,1957-10-22,1957-04-22,"equipe-france.fr, Wikidata"
+1985-06-29,4,Thierry Picard,death_date,,2025-05-15,Wikidata
+1991-06-22,2,Vincent Moscato,birth_date,1966-03-20,1965-07-28,Wikipédia fr et en
+1991-09-04,16,Jean-Luc Sadourny,birth_date,1966-06-28,1966-08-26,"equipe-france.fr, Wikidata"
+1992-02-15,17,Pierre Montlaur,death_date,,2024-01-27,Wikidata
+1995-10-14,13,Alain Hyardet,birth_date,1965-11-28,1964-11-28,"equipe-france.fr, Wikidata"
+1996-11-30,12,Guillaume Bouic,birth_date,1970-03-21,1970-01-21,"equipe-france.fr, Wikidata"
+1996-11-30,17,Christophe Lamaison,birth_date,1971-01-08,1971-04-08,"Wikipédia fr et en, equipe-france.fr"
+1997-10-22,19,Pierre Mignoni,birth_date,1976-02-28,1977-02-28,"equipe-france.fr, Wikidata"
+1999-06-03,14,Olivier Sarramea,birth_date,1975-10-20,1975-06-05,"equipe-france.fr, Wikidata"
+2000-04-01,21,Cédric Heymans,birth_date,1978-07-22,1978-07-20,"equipe-france.fr, Wikidata"
+2000-11-18,22,Mathieu Dourthe,birth_date,1974-12-26,1976-07-22,"equipe-france.fr, Wikidata"
+2001-06-30,10,David Skrela,birth_date,1975-03-02,1979-03-02,Wikipédia fr et en
+2001-11-10,8,Francis Ntamack,birth_date,1972-01-15,1972-11-15,"equipe-france.fr, Wikidata"
+2004-02-14,5,Pascal Papé,birth_date,1980-01-05,1980-10-05,"equipe-france.fr, Wikidata"
+2005-02-26,15,Julien Laharrague,birth_date,1978-07-21,1978-07-29,"equipe-france.fr, Wikidata"
+2005-03-19,12,David Marty,birth_date,1982-12-30,1982-10-30,Wikipédia fr et en
+2005-07-02,3,Denis Avril,birth_date,1972-09-28,1972-10-31,"equipe-france.fr, Wikidata"
+2006-06-17,17,Vincent Debaty,birth_date,1981-01-02,1981-10-02,"equipe-france.fr, Wikidata"
+2007-06-02,11,Jean-François Coux,birth_date,1980-12-28,1980-12-23,"equipe-france.fr, Wikidata"
+2007-06-02,14,Benjamin Thiery,birth_date,1984-06-02,1984-02-06,"equipe-france.fr, Wikidata"
+2008-02-23,22,Anthony Floch,birth_date,1983-03-12,1983-02-12,Wikipédia fr et en
+2008-03-09,1,Fabien Barcella,birth_date,1983-10-20,1983-10-27,"equipe-france.fr, Wikidata"
+2008-06-28,14,Alexis Palisson,birth_date,1986-09-09,1987-09-09,"equipe-france.fr, Wikidata"
+2009-11-21,7,Alexandre Lapandry,birth_date,1989-03-13,1989-04-13,"equipe-france.fr, Wikidata"
+2009-11-21,14,Benjamin Fall,birth_date,1989-04-29,1989-03-03,"equipe-france.fr, Wikidata"
+2010-02-07,17,Luc Ducalcon,birth_date,1984-02-01,1984-01-02,"equipe-france.fr, Wikidata"
+2010-11-20,14,Yoann Huget,death_date,2022-10-17,,vivant (Wikipédia) ; erreur d'equipe-france.fr
+2013-06-08,14,Adrien Plante,birth_date,1985-04-21,1985-04-25,"equipe-france.fr, Wikidata"
+2013-06-15,22,Rémi Tales,birth_date,1981-06-03,1984-05-02,"equipe-france.fr, Wikidata"
+2014-11-08,18,Xavier Chiocci,birth_date,1990-12-13,1990-02-13,"equipe-france.fr, Wikidata"
+2016-06-19,4,Julien Le Devedec,birth_date,1987-06-04,1986-06-04,"equipe-france.fr, Wikidata"
+2016-06-19,16,Clément Maynadier,birth_date,1988-10-01,1988-10-11,"equipe-france.fr, Wikidata"

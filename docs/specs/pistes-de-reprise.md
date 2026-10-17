@@ -1,6 +1,6 @@
 # État du site et pistes de reprise
 
-État au 17/10/2026. Tout est commité, déployé et poussé sur GitHub (dernier commit déployé : f5b5601).
+État au 17/10/2026.
 
 ## Prochaine séance
 
@@ -8,11 +8,15 @@ Fait le 17/10/2026 : **fiches joueurs enrichies d'après equipe-france.fr** (ét
 `xv:fetch-equipe-france-players` puis `xv:import-equipe-france-players` (dans `deploy.sh`). 933 lieux de naissance,
 158 dates de naissance de plus, 367 décès (date), 332 lieux de décès, 598 tailles, 583 poids. Voir `docs/sources.md`.
 
+Fait le 17/10/2026 aussi : **dates de naissance et de décès tranchées avec Wikidata** (étape b) :
+`scripts/wikipedia/naissances.py`, 84 naissances corrigées et 93 décès ajoutés dans `dates_corrections.csv`,
+appliqués par `xv:apply-date-corrections` (dans `deploy.sh`). Voir `docs/sources.md`.
+
 Reprendre par, dans l'ordre proposé :
 1. **Fiches joueurs plus riches** (piste 4), suite :
-   b. Wikipédia (1h-1h30) : décès des anciens que le site ne donne pas, et **les 111 dates de naissance en désaccord**
-      entre la base et equipe-france.fr (`php artisan xv:import-equipe-france-players --dry-run --report`), dont les
-      11 fiches écartées comme homonymes probables. API `prop=extracts` par 50.
+   b. Reste : vérifier dans le fichier des décès de l'INSEE (matchID) les 5 décès en suspens (Gonnet, Desclaux,
+      Perrier, Herrero, Gruarin) et, plus largement, les décès après 1970 que ni Wikidata ni equipe-france.fr ne
+      donnent ; prénoms différents de Wikipédia (liste dans `docs/sources.md`).
    c. Clubs (1h-2h) : décider d'abord colonne ou table (clubs successifs) ; source « This Is Rugby »
       (`internationaux_encyclo.csv`, 1 090 internationaux). equipe-france.fr ne donne le club que des 63 joueurs récents.
 2. **Matches de novembre 2026** (piste 2) : 07/11 Fidji, 13/11 Afrique du Sud, 21/11 Argentine, finales 27-29/11
@@ -23,7 +27,7 @@ Reprendre par, dans l'ordre proposé :
    « drop » de Thiers selon finalesrugby.fr, impossible (4 points en 1940), sans doute une pénalité.
 4. **Reste des sélections** : 27 matches aux remplacements non appariés (`python3 scripts/finalesrugby/apply.py --dry`),
    Traille +2, Szarzewski et Michalak +1 face à la page des records ; 17 internationaux sans joueur en base
-   (`php artisan xv:import-internationaux --report`).
+   (`php artisan xv:import-internationaux --report`) ; Arthapignet 1988 et Mignot 2016 absents de la base (Wikipédia).
 5. **Numéros d'international après 2016** (piste 3) : trancher la source d'abord.
 6. Plus tard : 2 matches sans points (1927 GER, 1963 ROU), 58 matches sans stade (le JSON ne fixe le stade qu'à la
    création), adjoints des sélectionneurs, photos d'équipe et stades du dossier « This Is Rugby » (Dropbox),
