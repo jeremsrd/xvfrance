@@ -197,5 +197,21 @@ class RecordsServiceTest extends TestCase
         $this->assertSame([[$wing->id, $kicker->id], [$kicker->id], [$wing->id]], $points->map(fn ($e) => $e['players']->pluck('id')->all())->all());
         $this->assertSame([3, 6, 8], $points->pluck('value')->all());
         $this->assertTrue($points[1]['until']->is($new[1]));
+        $this->assertSame([[$wing->id, 8], [$kicker->id, 6]], $service->topPointScorers()->map(fn ($row) => [$row->player->id, $row->total])->all());
+    }
+
+    public function test_players_records_page_renders_with_tabs(): void
+    {
+        $match = $this->playMatches([[10, 0]])[0];
+        $player = Player::factory()->create();
+        MatchLineup::factory()->create(['match_id' => $match->id, 'player_id' => $player->id]);
+        MatchLineup::factory()->create(['match_id' => $match->id, 'played' => false, 'jersey_number' => 16]);
+        MatchEvent::factory()->create(['match_id' => $match->id, 'player_id' => $player->id, 'event_type' => EventType::ESSAI, 'team_side' => 'france']);
+
+        $this->assertSame([$player->id], (new RecordsService())->mostAppearances()->pluck('player_id')->all());
+        $this->get('/records/joueurs')->assertOk()
+            ->assertSee('role="tablist"', false)
+            ->assertSee($player->fullName());
+        $this->get('/records')->assertOk()->assertSee(route('records.players'));
     }
 }

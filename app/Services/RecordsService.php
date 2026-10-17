@@ -180,10 +180,27 @@ class RecordsService
         );
     }
 
-    /** @return Collection<int, MatchLineup>  avec l'attribut total */
+    /**
+     * Meilleurs marqueurs de points, selon le barème de chaque époque.
+     *
+     * @return Collection<int, object{player: Player, total: int}>
+     */
+    public function topPointScorers(int $limit = 10): Collection
+    {
+        $totals = $this->scoringByMatch()->flatten(1)
+            ->groupBy('player_id')
+            ->map(fn (Collection $events) => $events->sum(fn ($e) => $e->event_type->points(Carbon::parse($e->match_date))))
+            ->sortDesc()
+            ->take($limit);
+        $players = Player::whereIn('id', $totals->keys())->get()->keyBy('id');
+
+        return $totals->map(fn (int $total, int $id) => (object) ['player' => $players[$id], 'total' => $total])->values();
+    }
+
+    /** @return Collection<int, MatchLineup>  avec l'attribut total (remplaçants restés sur le banc exclus) */
     public function mostAppearances(int $limit = 10): Collection
     {
-        return $this->leaderboard(MatchLineup::where('team_side', TeamSide::FRANCE), $limit);
+        return $this->leaderboard(MatchLineup::query()->played()->where('team_side', TeamSide::FRANCE), $limit);
     }
 
     /** @return Collection<int, MatchLineup>  avec l'attribut total */

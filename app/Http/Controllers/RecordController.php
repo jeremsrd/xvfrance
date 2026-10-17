@@ -18,13 +18,23 @@ class RecordController extends Controller
             'decades' => $records->recordByDecade(),
             'venueTypes' => $records->recordByVenueType(),
             'firstMatch' => $records->firstMatch(),
+        ]);
+    }
+
+    public function players(RecordsService $records)
+    {
+        return view('records.players', [
+            'matchCount' => \App\Models\RugbyMatch::count(),
             'detailedMatchCount' => $records->detailedMatchCount(),
-            'topTryScorers' => $records->topTryScorers(),
             'mostAppearances' => $records->mostAppearances(),
+            'topTryScorers' => $records->topTryScorers(),
+            'topPointScorers' => $records->topPointScorers(),
             'mostCaptaincies' => $records->mostCaptaincies(),
-            'capsRecordHistory' => $records->capsRecordHistory(),
-            'triesRecordHistory' => $records->triesRecordHistory(),
-            'pointsRecordHistory' => $records->pointsRecordHistory(),
+            'recordHistories' => [
+                'selections' => $records->capsRecordHistory(),
+                'essais' => $records->triesRecordHistory(),
+                'points' => $records->pointsRecordHistory(),
+            ],
         ]);
     }
 }

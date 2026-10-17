@@ -29,4 +29,5 @@ Route::get('/competitions/editions/{competitionEdition}', [CompetitionEditionCon
 Route::get('/selectionneurs', [CoachController::class, 'index'])->name('coaches.index');
 Route::get('/selectionneurs/{coach}', [CoachController::class, 'show'])->name('coaches.show');
 Route::get('/records', [RecordController::class, 'index'])->name('records.index');
+Route::get('/records/joueurs', [RecordController::class, 'players'])->name('records.players');
 Route::get('/stades', [VenueController::class, 'index'])->name('venues.index');

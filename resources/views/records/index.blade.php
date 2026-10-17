@@ -66,7 +66,7 @@
 
     $venueCards = ['home' => 'En France', 'away' => 'Hors de France', 'neutral' => 'Terrain neutre'];
 
-    $sections = ['phares' => 'Records phares', 'ecarts' => 'Écarts', 'scores' => 'Scores', 'series' => 'Séries', 'adversaires' => 'Par adversaire', 'joueurs' => 'Joueurs', 'selections' => 'Recordmen des sélections', 'recordmen-essais' => 'Recordmen des essais', 'recordmen-points' => 'Recordmen des points', 'epoques' => 'Époques'];
+    $sections = ['phares' => 'Records phares', 'ecarts' => 'Écarts', 'scores' => 'Scores', 'series' => 'Séries', 'epoques' => 'Époques', 'adversaires' => 'Par adversaire'];
 @endphp
 
 @section('content')
@@ -76,6 +76,7 @@
             @foreach($sections as $id => $label)
                 <a href="#{{ $id }}" class="rounded-full border border-white/20 px-3.5 py-1.5 text-sm font-medium text-blue-100 hover:border-white/50 hover:text-white {{ $focus }}">{{ $label }}</a>
             @endforeach
+            <a href="{{ route('records.players') }}" class="rounded-full bg-white px-3.5 py-1.5 text-sm font-semibold text-encre hover:bg-blue-50 {{ $focus }}">Records des joueurs →</a>
         </nav>
     </x-page.hero>
 
@@ -166,105 +167,8 @@
         </div>
     </section>
 
-    {{-- ═══ Face à chaque adversaire ═══ --}}
-    <section id="adversaires" class="scroll-mt-4 py-12 lg:py-16" aria-labelledby="adversaires-titre">
-        <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-            <h2 id="adversaires-titre" class="font-display text-3xl font-bold uppercase tracking-tight text-encre">Face à chaque adversaire</h2>
-            <p class="mt-2 max-w-2xl font-serif text-texte-2">La première victoire, la plus large et la plus lourde défaite contre chacune des nations affrontées.</p>
-
-            <div class="mt-8 overflow-x-auto rounded-2xl border border-filet bg-white">
-                <table class="w-full min-w-[44rem] text-sm">
-                    <thead class="border-b border-filet bg-papier text-left text-xs font-semibold uppercase tracking-[0.12em] text-texte-2">
-                        <tr>
-                            <th scope="col" class="px-5 py-3">Nation</th>
-                            <th scope="col" class="px-3 py-3 text-right">Matches</th>
-                            <th scope="col" class="px-5 py-3">Première victoire</th>
-                            <th scope="col" class="px-5 py-3">Plus large victoire</th>
-                            <th scope="col" class="px-5 py-3">Plus lourde défaite</th>
-                        </tr>
-                    </thead>
-                    <tbody class="divide-y divide-filet">
-                        @foreach($opponentRecords as $row)
-                            <tr class="hover:bg-papier/60">
-                                <th scope="row" class="px-5 py-3 text-left font-semibold">
-                                    <a href="{{ route('opponents.show', $row->opponent) }}" class="text-encre hover:underline {{ $focus }}"><span aria-hidden="true">{{ $row->opponent->flag_emoji }}</span> {{ $row->opponent->name }}</a>
-                                </th>
-                                <td class="px-3 py-3 text-right font-display text-lg font-bold tabular-nums text-encre">{{ $row->total }}</td>
-                                @foreach([[$row->firstWin, 'text-encre'], [$row->biggestWin, 'text-gagne'], [$row->heaviestDefeat, 'text-perdu']] as [$match, $tone])
-                                    <td class="px-5 py-3 tabular-nums">
-                                        @if($match)
-                                            <a href="{{ route('matches.show', $match) }}" class="group {{ $focus }}">
-                                                <b class="font-display text-lg {{ $tone }} group-hover:underline">{{ $score($match) }}</b>
-                                                <span class="text-texte-2">{{ $match->match_date->year }}</span>
-                                            </a>
-                                        @else
-                                            <span class="text-texte-2/60">—</span>
-                                        @endif
-                                    </td>
-                                @endforeach
-                            </tr>
-                        @endforeach
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </section>
-
-    {{-- ═══ Records individuels ═══ --}}
-    <section id="joueurs" class="scroll-mt-4 border-t border-filet py-12 lg:py-16" aria-labelledby="joueurs-titre">
-        <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-            <h2 id="joueurs-titre" class="font-display text-3xl font-bold uppercase tracking-tight text-encre">Records individuels</h2>
-            <div class="mt-4 flex max-w-3xl gap-3 rounded-xl border border-or/40 bg-or/10 px-4 py-3 text-sm text-encre">
-                <svg class="mt-0.5 size-4 shrink-0 text-or-2" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M18 10a8 8 0 1 1-16 0 8 8 0 0 1 16 0Zm-7-4a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM9 9a.75.75 0 0 0 0 1.5h.253a.25.25 0 0 1 .244.304l-.459 2.066A1.75 1.75 0 0 0 10.747 15H11a.75.75 0 0 0 0-1.5h-.253a.25.25 0 0 1-.244-.304l.459-2.066A1.75 1.75 0 0 0 9.253 9H9Z" clip-rule="evenodd"/></svg>
-                <p>
-                    <b>Site en construction, saisie des données en cours.</b>
-                    Ces classements ne portent que sur les {{ $detailedMatchCount }} matches dont la composition et les marqueurs sont déjà saisis :
-                    ils ne reflètent pas encore les records historiques et s'enrichiront au fil de la saisie.
-                </p>
-            </div>
-            <div class="mt-8 grid gap-6 lg:grid-cols-3">
-                @include('records.partials.player-ranking', ['title' => 'Essais', 'rows' => $topTryScorers, 'unit' => ['essai', 'essais']])
-                @include('records.partials.player-ranking', ['title' => 'Feuilles de match', 'rows' => $mostAppearances, 'unit' => ['match', 'matches']])
-                @include('records.partials.player-ranking', ['title' => 'Capitanats', 'rows' => $mostCaptaincies, 'unit' => ['match', 'matches']])
-            </div>
-        </div>
-    </section>
-
-    {{-- ═══ Recordmen des sélections ═══ --}}
-    <section id="selections" class="scroll-mt-4 border-t border-filet py-12 lg:py-16" aria-labelledby="selections-titre">
-        <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-            <h2 id="selections-titre" class="font-display text-3xl font-bold uppercase tracking-tight text-encre">Recordmen des sélections</h2>
-            <p class="mt-2 max-w-2xl font-serif text-texte-2">Le record du nombre de sélections avec le XV de France, de main en main depuis 1906.</p>
-            @if($capsRecordHistory->isNotEmpty())
-                @include('records.partials.record-history', ['history' => $capsRecordHistory, 'unit' => ['sélection', 'sélections'], 'reached' => fn ($n) => "avec sa {$n}<sup>e</sup> sélection"])
-            @endif
-        </div>
-    </section>
-
-    {{-- ═══ Recordmen des essais ═══ --}}
-    <section id="recordmen-essais" class="scroll-mt-4 border-t border-filet bg-white py-12 lg:py-16" aria-labelledby="recordmen-essais-titre">
-        <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-            <h2 id="recordmen-essais-titre" class="font-display text-3xl font-bold uppercase tracking-tight text-encre">Recordmen des essais</h2>
-            <p class="mt-2 max-w-2xl font-serif text-texte-2">Le record du nombre d'essais marqués avec le XV de France, de main en main depuis 1906 (essais de pénalité exclus).</p>
-            @if($triesRecordHistory->isNotEmpty())
-                @include('records.partials.record-history', ['history' => $triesRecordHistory, 'unit' => ['essai', 'essais'], 'reached' => fn ($n) => $n === 1 ? 'avec son premier essai' : "avec son {$n}<sup>e</sup> essai"])
-            @endif
-        </div>
-    </section>
-
-    {{-- ═══ Recordmen des points ═══ --}}
-    <section id="recordmen-points" class="scroll-mt-4 border-t border-filet py-12 lg:py-16" aria-labelledby="recordmen-points-titre">
-        <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-            <h2 id="recordmen-points-titre" class="font-display text-3xl font-bold uppercase tracking-tight text-encre">Recordmen des points</h2>
-            <p class="mt-2 max-w-2xl font-serif text-texte-2">Le record du nombre de points marqués avec le XV de France, de main en main depuis 1906, selon le barème de chaque époque.</p>
-            @if($pointsRecordHistory->isNotEmpty())
-                @include('records.partials.record-history', ['history' => $pointsRecordHistory, 'unit' => ['point', 'points'], 'reached' => fn ($n) => "en le portant à {$n} points"])
-            @endif
-        </div>
-    </section>
-
     {{-- ═══ À travers les époques ═══ --}}
-    <section id="epoques" class="scroll-mt-4 border-t border-filet bg-white py-12 lg:py-16" aria-labelledby="epoques-titre">
+    <section id="epoques" class="scroll-mt-4 bg-white py-12 lg:py-16" aria-labelledby="epoques-titre">
         <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
             <h2 id="epoques-titre" class="font-display text-3xl font-bold uppercase tracking-tight text-encre">À travers les époques</h2>
             <p class="mt-2 max-w-2xl font-serif text-texte-2">Le pourcentage de victoires du XV de France, décennie par décennie.</p>
@@ -339,6 +243,50 @@
                         </div>
                     @endforeach
                 </div>
+            </div>
+        </div>
+    </section>
+
+    {{-- ═══ Face à chaque adversaire ═══ --}}
+    <section id="adversaires" class="scroll-mt-4 border-t border-filet py-12 lg:py-16" aria-labelledby="adversaires-titre">
+        <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+            <h2 id="adversaires-titre" class="font-display text-3xl font-bold uppercase tracking-tight text-encre">Face à chaque adversaire</h2>
+            <p class="mt-2 max-w-2xl font-serif text-texte-2">La première victoire, la plus large et la plus lourde défaite contre chacune des nations affrontées.</p>
+
+            <div class="mt-8 overflow-x-auto rounded-2xl border border-filet bg-white">
+                <table class="w-full min-w-[44rem] text-sm">
+                    <thead class="border-b border-filet bg-papier text-left text-xs font-semibold uppercase tracking-[0.12em] text-texte-2">
+                        <tr>
+                            <th scope="col" class="px-5 py-3">Nation</th>
+                            <th scope="col" class="px-3 py-3 text-right">Matches</th>
+                            <th scope="col" class="px-5 py-3">Première victoire</th>
+                            <th scope="col" class="px-5 py-3">Plus large victoire</th>
+                            <th scope="col" class="px-5 py-3">Plus lourde défaite</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-filet">
+                        @foreach($opponentRecords as $row)
+                            <tr class="hover:bg-papier/60">
+                                <th scope="row" class="px-5 py-3 text-left font-semibold">
+                                    <a href="{{ route('opponents.show', $row->opponent) }}" class="text-encre hover:underline {{ $focus }}"><span aria-hidden="true">{{ $row->opponent->flag_emoji }}</span> {{ $row->opponent->name }}</a>
+                                </th>
+                                <td class="px-3 py-3 text-right font-display text-lg font-bold tabular-nums text-encre">{{ $row->total }}</td>
+                                @foreach([[$row->firstWin, 'text-encre'], [$row->biggestWin, 'text-gagne'], [$row->heaviestDefeat, 'text-perdu']] as [$match, $tone])
+                                    <td class="px-5 py-3 tabular-nums">
+                                        @if($match)
+                                            <a href="{{ route('matches.show', $match) }}" class="group {{ $focus }}">
+                                                <b class="font-display text-lg {{ $tone }} group-hover:underline">{{ $score($match) }}</b>
+                                                <span class="text-texte-2">{{ $match->match_date->year }}</span>
+                                            </a>
+                                        @else
+                                            <span class="text-texte-2/60">—</span>
+                                        @endif
+                                    </td>
+                                @endforeach
+                            </tr>
+                        @endforeach
+                    </tbody>
+                </table>
             </div>
         </div>
     </section>

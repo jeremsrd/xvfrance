@@ -16,7 +16,18 @@
         'from' => $e['match']->match_date,
         'to' => $e['until']?->match_date ?? $now,
         'current' => $e['until'] === null,
-    ]);
+    ])
+        // Record égalé puis repris seul par le même joueur : un seul règne
+        ->reduce(function ($reigns, $reign) {
+            $last = $reigns->last();
+            if ($last && $last['player']->is($reign['player'])) {
+                $reigns->put($reigns->keys()->last(), ['from' => $last['from']] + $reign);
+
+                return $reigns;
+            }
+
+            return $reigns->push($reign);
+        }, collect());
     if ($sole->isNotEmpty() && $sole->first()['match']->match_date->gt($start)) {
         $reigns->prepend(['label' => 'Record partagé', 'player' => null, 'from' => $start, 'to' => $sole->first()['match']->match_date, 'current' => false]);
     }
