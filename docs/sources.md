@@ -118,6 +118,19 @@ de numéro : `xv:apply-name-corrections` le retrouve par son nom avant correctio
 Non rapprochés : Beaurin-Gressier, Géo André, Augras-Fabre et Henri Poirier (Henri-Auguste Poirrier sur Wikipédia),
 noms trop différents, et 2 internationaux absents de la base : Pierre Arthapignet (1988) et Xavier Mignot (2016).
 
+**Accents** (règle de l'utilisateur, 17/10/2026 : un nom ou un prénom qui porte un accent doit l'avoir) : 107 noms
+d'internationaux accentués d'après la liste Wikipédia (Ribère, Domenech, Castaignède, Cécillon, Éric Champ, Iraçabal…),
+lignes « Wikipédia : accents et particule » de `noms_ecarts.csv`, reportées dans les feuilles JSON par
+`scripts/equipe_france/renommer.py`. Un accent présent dans la base et absent de Wikipédia est gardé (Benoît Dauga,
+Raphaël Ibañez, Kévin Gourdon, Étienne Piquiral, Émile Doussau, François Sangalli) ; particules en minuscule
+(de Villiers, de Jouvencel, de Laborderie, de Bésombes). « Louis Péllissier » (Wikipédia) écarté, graphie douteuse.
+Les noms des joueurs adverses ne sont pas vérifiés.
+
+Les sélectionnés d'après février 2020 n'ont plus le modèle `{{date}}` dans la liste Wikipédia : `naissances.py` lit
+aussi les dates en texte. 14 naissances ajoutées ou corrigées (Haouas, Forletta, Roumat — 27/06/1997 selon les
+articles français et anglais, 24/06 sur Wikidata —, Beria…) ; les autres écarts avec Wikidata sont des erreurs de
+Wikidata (jour et mois inversés), base gardée.
+
 ## finalesrugby.fr : remplacements et sélections
 
 [finalesrugby.fr/xv-de-france](https://finalesrugby.fr/xv-de-france/) : une page par match (803 en cache dans
