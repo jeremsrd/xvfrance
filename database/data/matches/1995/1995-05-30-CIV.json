@@ -26,7 +26,7 @@
       {"jersey": 18, "first_name": "Émile", "last_name": "Ntamack", "is_starter": false, "position": null, "is_captain": false, "played": false},
       {"jersey": 19, "first_name": "Aubin", "last_name": "Hueber", "is_starter": false, "position": null, "is_captain": false, "played": false},
       {"jersey": 20, "first_name": "Philippe", "last_name": "Gallart", "is_starter": false, "position": null, "is_captain": false, "played": false},
-      {"jersey": 21, "first_name": "Jean-Michel", "last_name": "Gonzales", "is_starter": false, "position": null, "is_captain": false, "played": false}
+      {"jersey": 21, "first_name": "Jean-Michel", "last_name": "Gonzalez", "is_starter": false, "position": null, "is_captain": false, "played": false}
     ],
     "adversaire": [
       {"jersey": 1, "first_name": "Jean-Pascal", "last_name": "Ezou", "is_starter": true, "position": "pilier_gauche", "is_captain": false},

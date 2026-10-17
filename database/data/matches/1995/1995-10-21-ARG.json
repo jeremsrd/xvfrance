@@ -7,7 +7,7 @@
   "lineups": {
     "france": [
       {"jersey": 1, "first_name": "Laurent", "last_name": "Benezech", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
-      {"jersey": 2, "first_name": "Jean-Michel", "last_name": "Gonzales", "is_starter": true, "position": "talonneur", "is_captain": false},
+      {"jersey": 2, "first_name": "Jean-Michel", "last_name": "Gonzalez", "is_starter": true, "position": "talonneur", "is_captain": false},
       {"jersey": 3, "first_name": "Christian", "last_name": "Califano", "is_starter": true, "position": "pilier_droit", "is_captain": false},
       {"jersey": 4, "first_name": "Olivier", "last_name": "Merle", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 5, "first_name": "Fabien", "last_name": "Pelous", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
@@ -64,7 +64,7 @@
     {"team_side": "france", "type": "transformation", "player_last_name": "Deylaud", "player_first_name": "Christophe", "minute": null}
   ],
   "substitutions": [
-    {"team_side": "france", "player_off_last_name": "Gonzales", "player_off_first_name": "Jean-Michel", "player_on_last_name": "Azam", "player_on_first_name": "Olivier", "minute": 49, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Gonzalez", "player_off_first_name": "Jean-Michel", "player_on_last_name": "Azam", "player_on_first_name": "Olivier", "minute": 49, "is_tactical": true},
     {"team_side": "france", "player_off_last_name": "Carminati", "player_off_first_name": "Alain", "player_on_last_name": "Lièvremont", "player_on_first_name": "Marc", "minute": 64, "is_tactical": true},
     {"team_side": "france", "player_off_last_name": "Dourthe", "player_off_first_name": "Richard", "player_on_last_name": "Hyardet", "player_on_first_name": "Alain", "minute": 70, "is_tactical": true},
     {"team_side": "france", "player_off_last_name": "Pelous", "player_off_first_name": "Fabien", "player_on_last_name": "Brouzet", "player_on_first_name": "Olivier", "minute": 70, "is_tactical": true}

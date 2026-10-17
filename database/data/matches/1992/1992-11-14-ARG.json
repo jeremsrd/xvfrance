@@ -7,7 +7,7 @@
   "lineups": {
     "france": [
       {"jersey": 1, "first_name": "Louis", "last_name": "Armary", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
-      {"jersey": 2, "first_name": "Jean-Michel", "last_name": "Gonzales", "is_starter": true, "position": "talonneur", "is_captain": false},
+      {"jersey": 2, "first_name": "Jean-Michel", "last_name": "Gonzalez", "is_starter": true, "position": "talonneur", "is_captain": false},
       {"jersey": 3, "first_name": "Philippe", "last_name": "Gallart", "is_starter": true, "position": "pilier_droit", "is_captain": false},
       {"jersey": 4, "first_name": "Christophe", "last_name": "Mougeot", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 5, "first_name": "Olivier", "last_name": "Roumat", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
@@ -47,7 +47,7 @@
   "events": [
     {"team_side": "france", "type": "essai", "player_last_name": "Galthié", "player_first_name": "Fabien", "minute": 3},
     {"team_side": "france", "type": "penalite", "player_last_name": "Viars", "player_first_name": "Sébastien", "minute": 3},
-    {"team_side": "france", "type": "essai", "player_last_name": "Gonzales", "player_first_name": "Jean-Michel", "minute": 10},
+    {"team_side": "france", "type": "essai", "player_last_name": "Gonzalez", "player_first_name": "Jean-Michel", "minute": 10},
     {"team_side": "france", "type": "transformation", "player_last_name": "Viars", "player_first_name": "Sébastien", "minute": 10},
     {"team_side": "france", "type": "essai", "player_last_name": "Sella", "player_first_name": "Philippe", "minute": 53},
     {"team_side": "adversaire", "type": "drop", "player_last_name": "Arbizu", "player_first_name": "Lisandro", "minute": null},

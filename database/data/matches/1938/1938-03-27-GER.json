@@ -18,7 +18,7 @@
       {"jersey": 10, "first_name": "Jean", "last_name": "Chassagne", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
       {"jersey": 11, "first_name": "Robert", "last_name": "Cals", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 12, "first_name": "Joseph", "last_name": "Desclaux", "is_starter": true, "position": "centre", "is_captain": true},
-      {"jersey": 13, "first_name": "Félix", "last_name": "Bergese", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 13, "first_name": "Félix", "last_name": "Bergèse", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 14, "first_name": "Maurice", "last_name": "Celhay", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 15, "first_name": "Michel", "last_name": "Bonnus", "is_starter": true, "position": "arriere", "is_captain": false}
     ],

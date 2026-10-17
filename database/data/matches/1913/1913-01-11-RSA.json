@@ -9,7 +9,7 @@
       {"jersey": 1, "first_name": "Hélier", "last_name": "Tilh", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
       {"jersey": 2, "first_name": "Jean-René", "last_name": "Pascarel", "is_starter": true, "position": "talonneur", "is_captain": false},
       {"jersey": 3, "first_name": "Paul", "last_name": "Mauriat", "is_starter": true, "position": "pilier_droit", "is_captain": false},
-      {"jersey": 4, "first_name": "Pierre", "last_name": "Mouniq", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 4, "first_name": "Pierre", "last_name": "Mounicq", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 5, "first_name": "Maurice", "last_name": "Leuvielle", "is_starter": true, "position": "deuxieme_ligne", "is_captain": true},
       {"jersey": 6, "first_name": "Marcel", "last_name": "Legrain", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 7, "first_name": "Marcel", "last_name": "Communeau", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},

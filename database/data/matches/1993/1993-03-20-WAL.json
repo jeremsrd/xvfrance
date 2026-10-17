@@ -25,7 +25,7 @@
       {"jersey": 17, "first_name": "Pierre", "last_name": "Montlaur", "is_starter": false, "position": null, "is_captain": false, "played": false},
       {"jersey": 18, "first_name": "Guy", "last_name": "Accoceberry", "is_starter": false, "position": null, "is_captain": false, "played": false},
       {"jersey": 19, "first_name": "Eric", "last_name": "Melville", "is_starter": false, "position": null, "is_captain": false, "played": false},
-      {"jersey": 20, "first_name": "Jean-Michel", "last_name": "Gonzales", "is_starter": false, "position": null, "is_captain": false, "played": false},
+      {"jersey": 20, "first_name": "Jean-Michel", "last_name": "Gonzalez", "is_starter": false, "position": null, "is_captain": false, "played": false},
       {"jersey": 21, "first_name": "Stéphane", "last_name": "Graou", "is_starter": false, "position": null, "is_captain": false, "played": false}
     ],
     "adversaire": [

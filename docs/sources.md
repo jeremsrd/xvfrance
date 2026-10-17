@@ -73,8 +73,8 @@ Limites constatées : la liste du site n'est **pas** la liste officielle.
 - **Dates bouche-trou** écartées au relevé : naissance au 13/12/1901 (33 joueurs d'avant 1914), décès au 01/01/2000 (4).
 - **Homonymes** : le site mélange parfois deux joueurs du même nom. L'import écarte toute la fiche quand l'âge au
   premier match sort de 16-42 ans (Laurent Pardo, Jean-Louis Martin, Thierry Picard) ou quand la naissance s'écarte
-  de 2 ans ou plus de la base avec un autre jour et un autre mois (7 fiches depuis les corrections de dates du
-  17/10/2026, dont André Abadie et Hector Fargues ; Sagot, Legrain, Tales et Lamaison n'étaient pas des homonymes).
+  de 2 ans ou plus de la base avec un autre jour et un autre mois (6 fiches depuis les corrections de dates du
+  17/10/2026, dont André Abadie ; Sagot, Legrain, Tales, Lamaison et Fargues n'étaient pas des homonymes).
 - **Dates de naissance en désaccord** : 111 avec la liste des internationaux, tranchées avec Wikidata le 17/10/2026
   (section suivante). Restent 40 (`--report`) où la base est gardée : Wikidata la confirme, ou rien ne tranche
   (Duval, Duffour, Milliand, Failliot, Theuriet, Besson).
@@ -104,10 +104,15 @@ consignées dans `dates_corrections.csv` (colonne `source`) :
 `xv:apply-date-corrections` applique le fichier (ne change une date que si la base porte encore l'ancienne valeur),
 avant `xv:import-equipe-france-players` dans `deploy.sh`.
 
-Le rapprochement révèle aussi des **prénoms différents** de Wikipédia, non traités : M. Thevenot (Lucien),
-Antoine/André Francquenelle, Léon/Jean Larribau, Jean/Bernard Lavigne, Hector/Georges Fargues, Jean/Fernand
-Taillantou, Porra (Maurice), Aimé/André Rochon, Noël/René Séguier, et des graphies (Tilh/Thil, Mouniq/Mounicq,
-Bergese/Bergèze, Gonzales/Gonzalez, Coeurveille/Cœurveillé, Thibault/Thibaut Privat, Mikael/Mickaël Forest).
+Le rapprochement a aussi révélé des **noms différents de Wikipédia**, tranchés le 17/10/2026 selon la règle du
+06/10 (nom de Wikipédia, nom d'usage compris) : 13 renommages ajoutés à `noms_ecarts.csv` (Lucien Thévenot,
+André Francquenelle, Pierre Mounicq, Bernard Lavigne, Fernand Taillantou, Maurice Porra, André Rochon, Félix Bergèse,
+René Séguier, Christian Cœurveillé, Jean-Michel Gonzalez, Thibaut Privat, Mickaël Forest). Gardés : Jacques Dufourcq,
+Léon Larribau et Hector Fargues (l'article confirme la base, même si la liste Wikipédia dit autrement), Hourdebaigt,
+Iguiniz et Poirier (pas d'article), Augras-Fabre (graphie de la liste et du site), de Malmann et Tilh (tranchés le
+06/10). Hector Fargues est né le 9 juillet 1894 (article et equipe-france.fr), pas en 1892 : ce n'était pas un
+homonyme. Maurice Porra, « 255 bis » de la liste (sa ligne était collée aux clubs de Charles Bigot, corrigé), n'a pas
+de numéro : `xv:apply-name-corrections` le retrouve par son nom avant correction.
 Non rapprochés : Beaurin-Gressier, Géo André, Augras-Fabre et Henri Poirier (Henri-Auguste Poirrier sur Wikipédia),
 noms trop différents, et 2 internationaux absents de la base : Pierre Arthapignet (1988) et Xavier Mignot (2016).
 

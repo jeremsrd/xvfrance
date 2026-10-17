@@ -16,7 +16,7 @@ Reprendre par, dans l'ordre proposé :
 1. **Fiches joueurs plus riches** (piste 4), suite :
    b. Reste : vérifier dans le fichier des décès de l'INSEE (matchID) les 5 décès en suspens (Gonnet, Desclaux,
       Perrier, Herrero, Gruarin) et, plus largement, les décès après 1970 que ni Wikidata ni equipe-france.fr ne
-      donnent ; prénoms différents de Wikipédia (liste dans `docs/sources.md`).
+      donnent. Noms différents de Wikipédia : faits (13 renommages, voir `docs/sources.md`).
    c. Clubs (1h-2h) : décider d'abord colonne ou table (clubs successifs) ; source « This Is Rugby »
       (`internationaux_encyclo.csv`, 1 090 internationaux). equipe-france.fr ne donne le club que des 63 joueurs récents.
 2. **Matches de novembre 2026** (piste 2) : 07/11 Fidji, 13/11 Afrique du Sud, 21/11 Argentine, finales 27-29/11
@@ -32,6 +32,8 @@ Reprendre par, dans l'ordre proposé :
 6. Plus tard : 2 matches sans points (1927 GER, 1963 ROU), 58 matches sans stade (le JSON ne fixe le stade qu'à la
    création), adjoints des sélectionneurs, photos d'équipe et stades du dossier « This Is Rugby » (Dropbox),
    qualité des données, **PHP 8.3 avant le 31/12/2026**, session design.
+7. **Feuille de match** (demande du 17/10/2026) : afficher la photo du joueur, quand elle est connue
+   (`players.photo_path`), à la place de son numéro de maillot dans la composition.
 
 ## Où on en est
 

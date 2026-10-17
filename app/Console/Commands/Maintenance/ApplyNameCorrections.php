@@ -8,7 +8,7 @@ use Illuminate\Console\Command;
 
 /**
  * Applique les noms vérifiés de noms_ecarts.csv aux joueurs français, retrouvés par leur numéro d'international
- * (xv:import-internationaux). Le slug suit le nouveau nom. Les feuilles JSON portent déjà les noms corrigés,
+ * (xv:import-internationaux), à défaut par leur nom avant correction. Le slug suit le nouveau nom. Les feuilles JSON portent déjà les noms corrigés,
  * et equipe_france_name_splits.csv les impose au générateur : un réimport ne recrée pas l'ancien nom.
  */
 class ApplyNameCorrections extends Command
@@ -36,7 +36,12 @@ class ApplyNameCorrections extends Command
             if ($row['statut'] !== 'vérifié') {
                 continue;
             }
-            $player = Player::where('country_id', $france)->where('cap_number', (int) $row['cap_number'])->first();
+            // Sans numéro d'international (Porra, « 255 bis » dans la liste) : par le nom actuel, s'il est unique
+            $players = $row['cap_number'] !== ''
+                ? Player::where('country_id', $france)->where('cap_number', (int) $row['cap_number'])->get()
+                : Player::where('country_id', $france)->where('first_name', $row['base_first_name'])
+                    ->where('last_name', $row['base_last_name'])->get();
+            $player = $players->count() === 1 ? $players->first() : null;
             if (!$player || ($player->first_name === $row['first_name'] && $player->last_name === $row['last_name'])) {
                 continue;
             }

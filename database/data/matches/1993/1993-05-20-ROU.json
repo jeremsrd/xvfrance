@@ -6,7 +6,7 @@
   "referee": "Brian Wade Stirling",
   "lineups": {
     "france": [
-      {"jersey": 1, "first_name": "Jean-Michel", "last_name": "Gonzales", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
+      {"jersey": 1, "first_name": "Jean-Michel", "last_name": "Gonzalez", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
       {"jersey": 2, "first_name": "Jean-François", "last_name": "Tordo", "is_starter": true, "position": "talonneur", "is_captain": true},
       {"jersey": 3, "first_name": "Laurent", "last_name": "Seigne", "is_starter": true, "position": "pilier_droit", "is_captain": false},
       {"jersey": 4, "first_name": "Yann", "last_name": "Lemeur", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
