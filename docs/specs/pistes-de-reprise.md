@@ -16,8 +16,8 @@ Reprendre par, dans l'ordre proposé :
 1. **Fiches joueurs plus riches** (piste 4), suite :
    b. Reste (facultatif) : chercher dans le fichier des décès de l'INSEE (matchID, décès depuis 1970) les décès
       que ni Wikidata ni equipe-france.fr ne donnent, pour les internationaux nés avant 1950 environ.
-   c. Clubs (1h-2h) : décider d'abord colonne ou table (clubs successifs) ; source « This Is Rugby »
-      (`internationaux_encyclo.csv`, 1 090 internationaux). equipe-france.fr ne donne le club que des 63 joueurs récents.
+   c. Clubs : faits le 17/10/2026 (`xv:import-clubs`, pages `/clubs`, voir `docs/sources.md`). Reste : clubs des
+      97 internationaux qui n'en ont pas (surtout après 2016), filtre par club sur `/joueurs`.
 2. **Matches de novembre 2026** (piste 2) : 07/11 Fidji, 13/11 Afrique du Sud, 21/11 Argentine, finales 27-29/11
    (`/feuille-de-match <date> <code>` une fois joués).
 3. **Équipes adverses et points d'Allemagne 1932-1934 et d'Armée britannique 1940** : presse d'époque sur Gallica

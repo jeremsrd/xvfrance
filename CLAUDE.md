@@ -170,6 +170,11 @@ matches ──┬── match_lineups (match_id)
   detail (VARCHAR 255 NULL)
 - player_id NULL uniquement pour ESSAI_PENALITE
 
+#### clubs / player_clubs
+- clubs : id, name (nom usuel), slug (UNIQUE), city, country_id (FK countries)
+- player_clubs : player_id, club_id, position (ordre dans la carrière), name (nom du club à l'époque), source
+- Un club renommé reste le même club ; une fusion qui crée un club en fait un nouveau (voir docs/sources.md)
+
 #### match_substitutions
 - id (PK), match_id (FK matches), player_off_id (FK players),
   player_on_id (FK players), minute (INT NULL),
@@ -325,6 +330,8 @@ GET /competitions/editions/{competitionEdition} -- Détail d'une édition
 GET /selectionneurs                     -- Liste des sélectionneurs
 GET /selectionneurs/{coach}             -- Fiche sélectionneur + bilan
 GET /stades                             -- Carte interactive (Leaflet.js) + bilan par stade
+GET /clubs                              -- Clubs des internationaux
+GET /clubs/{club:slug}                  -- Internationaux d'un club
 GET /records                            -- Records et statistiques (RecordsService)
 ```
 

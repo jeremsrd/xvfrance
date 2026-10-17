@@ -187,6 +187,8 @@ Pièges connus :
 | `venue_names.csv` | Anciens noms datés, variantes et noms erronés des stades | `xv:import-venue-names` |
 | `venue_home_grounds.csv` | Stades de repli (Galles à Wembley en 1998) | `xv:compute-venue-flags` |
 | `venue_coordinates.csv` | Coordonnées des stades (précision « stade » ou « ville ») | `xv:import-venue-coordinates` |
+| `clubs.csv` | Clubs des internationaux : slug, nom usuel (graphie de Wikipédia), ville, pays | `xv:import-clubs` |
+| `club_names.csv` | Nom de club des sources → club et nom à l'époque (vide : écarté) | `xv:import-clubs` |
 | `dates_corrections.csv` | Dates de naissance et de décès vérifiées (Wikidata, INSEE), avec leur source | `xv:apply-date-corrections` |
 
 Les feuilles de match détaillées sont dans `database/data/matches/{année}/*.json`
@@ -219,6 +221,22 @@ du même projet.
   et articles des joueurs) : le nom retenu est celui de Wikipédia, sauf Géo André (nom d'usage) et René de Malmann
   (graphie FFR). Cette page Wikipédia numérote autrement (date de première sélection, titulaire puis remplaçant,
   ordre alphabétique : Communeau n° 4) et précise que ses numéros ne sont pas ceux de la FFR.
+
+## Clubs des internationaux
+
+Importés par `xv:import-clubs` (tables `clubs` et `player_clubs`, reconstruites à chaque import) :
+- **Sources** : la colonne `clubs` de la liste « This Is Rugby » (clubs de la carrière internationale, dans
+  l'ordre, sans dates, jusqu'à 2016), par numéro d'international ; à défaut, le club actuel donné par
+  equipe-france.fr (63 joueurs récents). Le 17/10/2026 : 119 clubs, 1 121 internationaux, 1 368 passages ;
+  97 internationaux sans club, surtout ceux d'après 2016 (à compléter, par exemple avec Wikipédia).
+- **Un club au sens de Wikipédia** (choix du 17/10/2026) : un club renommé reste le même (Racing Club de France →
+  Racing Métro 92 → Racing 92, AS Montferrand → ASM Clermont Auvergne) ; une fusion qui crée un club en fait un
+  nouveau (USA Perpignan en 1933, après l'US perpignanaise et les Arlequins perpignanais ; Union Bordeaux Bègles en
+  2006, après le CA Bègles et le Stade bordelais ; le CASG reste distinct du Stade français).
+- **Nom affiché** : celui de l'époque sur la fiche du joueur (`player_clubs.name`, « Racing Club de France » pour
+  Gaston Lane), le nom actuel sur la page du club, avec les anciens noms en sous-titre.
+- `club_names.csv` corrige au passage les coquilles de la liste (« Stade Toyulousain », « Bitteroise »…) ; la
+  « Fédération Française de Rugby » (contrat fédéral de Vakatawa, rugby à 7) est écartée.
 
 ## Portraits d'avant 1930 (ancien projet « This Is Rugby »)
 

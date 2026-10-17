@@ -71,6 +71,15 @@
                     </p>
                 @endif
 
+                @if($p->clubMemberships->isNotEmpty())
+                    <p class="mt-2 text-blue-100">
+                        <span class="text-blue-300">{{ $p->clubMemberships->count() > 1 ? 'Clubs' : 'Club' }} :</span>
+                        @foreach($p->clubMemberships as $membership)
+                            <a href="{{ route('clubs.show', $membership->club) }}" class="font-semibold text-white underline decoration-white/30 underline-offset-4 hover:decoration-white {{ $focus }}">{{ $membership->name }}</a>@unless($loop->last)<span class="text-blue-300" aria-hidden="true"> · </span>@endunless
+                        @endforeach
+                    </p>
+                @endif
+
                 @if($first)
                     <p class="mt-4 max-w-2xl text-blue-100">
                         @if($first === $last)

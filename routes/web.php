@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ClubController;
 use App\Http\Controllers\CoachController;
 use App\Http\Controllers\CompetitionController;
 use App\Http\Controllers\CompetitionEditionController;
@@ -18,6 +19,8 @@ Route::get('/matches', MatchList::class)->name('matches.index');
 Route::get('/matches/{rugbyMatch:slug}', [MatchController::class, 'show'])->name('matches.show');
 Route::get('/joueurs', PlayerList::class)->name('players.index');
 Route::get('/joueurs/{player:slug}', [PlayerController::class, 'show'])->name('players.show');
+Route::get('/clubs', [ClubController::class, 'index'])->name('clubs.index');
+Route::get('/clubs/{club:slug}', [ClubController::class, 'show'])->name('clubs.show');
 Route::get('/adversaires', [OpponentController::class, 'index'])->name('opponents.index');
 Route::get('/adversaires/{country:code}', [OpponentController::class, 'show'])->name('opponents.show');
 Route::get('/competitions', [CompetitionController::class, 'index'])->name('competitions.index');

@@ -4,6 +4,7 @@ namespace Tests\Feature;
 
 use App\Enums\EventType;
 use App\Enums\TeamSide;
+use App\Models\Club;
 use App\Models\Coach;
 use App\Models\CoachTenure;
 use App\Models\CompetitionEdition;
@@ -12,6 +13,7 @@ use App\Models\MatchEvent;
 use App\Models\MatchLineup;
 use App\Models\MatchSubstitution;
 use App\Models\Player;
+use App\Models\PlayerClub;
 use App\Models\RugbyMatch;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use PHPUnit\Framework\Attributes\DataProvider;
@@ -24,6 +26,7 @@ class PublicPagesTest extends TestCase
     private RugbyMatch $match;
     private Player $frenchPlayer;
     private CoachTenure $tenure;
+    private Club $club;
 
     protected function setUp(): void
     {
@@ -52,6 +55,9 @@ class PublicPagesTest extends TestCase
         MatchEvent::factory()->create(['match_id' => $this->match->id, 'player_id' => null, 'event_type' => EventType::ESSAI_PENALITE, 'team_side' => TeamSide::ADVERSAIRE]);
         MatchSubstitution::factory()->create(['match_id' => $this->match->id, 'player_off_id' => $this->frenchPlayer->id, 'player_on_id' => $frenchSub->id]);
 
+        $this->club = Club::create(['name' => 'Stade toulousain', 'slug' => 'stade-toulousain', 'city' => 'Toulouse', 'country_id' => $france->id]);
+        PlayerClub::create(['player_id' => $this->frenchPlayer->id, 'club_id' => $this->club->id, 'position' => 1, 'name' => 'Stade toulousain', 'source' => 'test']);
+
         $this->tenure = CoachTenure::factory()->create([
             'start_date' => '2020-01-01',
             'coach_id' => Coach::factory()->create(['country_id' => $france->id])->id,
@@ -75,6 +81,8 @@ class PublicPagesTest extends TestCase
             'fiche sélectionneur' => [fn (self $t) => route('coaches.show', $t->tenure->coach_id)],
             'records' => [fn (self $t) => route('records.index')],
             'stades' => [fn (self $t) => route('venues.index')],
+            'clubs' => [fn (self $t) => route('clubs.index')],
+            'club' => [fn (self $t) => route('clubs.show', $t->club)],
         ];
     }
 

@@ -179,6 +179,7 @@ $DEPLOY_PHP artisan xv:import-internationaux --no-interaction
 # Dates vérifiées (dates_corrections.csv) avant equipe-france.fr, qui écarte les fiches dont la naissance diffère trop
 $DEPLOY_PHP artisan xv:apply-date-corrections --no-interaction
 $DEPLOY_PHP artisan xv:import-equipe-france-players --no-interaction
+$DEPLOY_PHP artisan xv:import-clubs --no-interaction
 $DEPLOY_PHP artisan xv:import-player-photos --no-interaction
 $DEPLOY_PHP artisan xv:import-coaches --no-interaction
 $DEPLOY_PHP artisan xv:remove-excluded-matches --no-interaction

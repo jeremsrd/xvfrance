@@ -9,7 +9,7 @@ class PlayerController extends Controller
 {
     public function show(Player $player)
     {
-        $player->load(['country', 'birthCountry']);
+        $player->load(['country', 'birthCountry', 'clubMemberships.club']);
 
         return view('players.show', [
             'player' => $player,

@@ -17,6 +17,7 @@
     $nav = [
         ['Matches', 'matches.index', 'matches.*'],
         ['Joueurs', 'players.index', 'players.*'],
+        ['Clubs', 'clubs.index', 'clubs.*'],
         ['Adversaires', 'opponents.index', 'opponents.*'],
         ['Compétitions', 'competitions.index', ['competitions.*', 'editions.*']],
         ['Sélectionneurs', 'coaches.index', 'coaches.*'],

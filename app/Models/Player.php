@@ -137,6 +137,12 @@ class Player extends Model
         return $this->hasMany(MatchLineup::class);
     }
 
+    /** Clubs successifs, dans l'ordre de la carrière, avec le nom du club à l'époque */
+    public function clubMemberships(): HasMany
+    {
+        return $this->hasMany(PlayerClub::class)->orderBy('position');
+    }
+
     public function events(): HasMany
     {
         return $this->hasMany(MatchEvent::class);
