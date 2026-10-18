@@ -1,10 +1,10 @@
 # État du site et pistes de reprise
 
-État au 17/10/2026.
+État au 18/10/2026.
 
 ## Prochaine séance
 
-Fait le 17/10/2026 (tout est commité, déployé et poussé ; dernier commit déployé : 83777e0) :
+Fait les 17 et 18/10/2026 (tout est commité, déployé et poussé) :
 - **Fiches joueurs d'après equipe-france.fr** : lieux de naissance, décès, tailles, poids
   (`xv:fetch-equipe-france-players`, `xv:import-equipe-france-players`).
 - **Dates de naissance et de décès tranchées avec Wikidata et le fichier des décès de l'INSEE** :
@@ -43,6 +43,12 @@ Reprendre par, dans l'ordre proposé :
    l'Allemagne 1932-1934 (fait le 18/10, méthode dans `docs/sources.md`). La validation
    refuse des points incomplets : il faut les marqueurs des deux équipes. 1940 : les 3 points français sont un
    « drop » de Thiers selon finalesrugby.fr, impossible (4 points en 1940), sans doute une pénalité.
+   Tenté le 18/10 : Gallica renvoyait « 429 Too Many Requests » (même l'accueil) après le relevé de l'Allemagne,
+   encore au bout de 20 minutes. Commencer la séance par là, à froid : recherche SRU sur la semaine du
+   25/02/1940 (« rugby », « britannique »), puis *L'Auto*, *France olympique*, *Le Miroir des sports*, *Match*
+   (ces quatre-là donnaient les équipes et les marqueurs en 1932-1934). Une requête à la fois, espacées.
+   À trancher avec l'utilisateur (Allemagne) : le Pfisterer avant de 1932, rattaché à Walter Pfisterer par l'import
+   (« Pfisterer II » en 1933 : deux frères ?), et Klingebiel 1932-1933, peut-être le « Karl Klingenberg » de 1931.
 3. **Reste des sélections** : 27 matches aux remplacements non appariés (`python3 scripts/finalesrugby/apply.py --dry`),
    Traille +2, Szarzewski et Michalak +1 face à la page des records ; 17 internationaux sans joueur en base
    (`php artisan xv:import-internationaux --report`) ; Arthapignet 1988 et Mignot 2016 absents de la base (Wikipédia).
