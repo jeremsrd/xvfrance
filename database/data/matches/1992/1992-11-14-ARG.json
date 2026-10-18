@@ -29,7 +29,7 @@
       {"jersey": 3, "first_name": "Patricio", "last_name": "Noriega", "is_starter": true, "position": "pilier_droit", "is_captain": false},
       {"jersey": 4, "first_name": "Pedro", "last_name": "Sporleder", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 5, "first_name": "Germán", "last_name": "Llanes", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
-      {"jersey": 6, "first_name": "Gonzalo", "last_name": "Garcia-Orsetti", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 6, "first_name": "Gonzalo", "last_name": "García-Orsetti", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 7, "first_name": "Raúl", "last_name": "Pérez", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 8, "first_name": "José", "last_name": "Santamarina", "is_starter": true, "position": "numero_huit", "is_captain": false},
       {"jersey": 9, "first_name": "Gonzalo", "last_name": "Camardón", "is_starter": true, "position": "demi_de_melee", "is_captain": false},

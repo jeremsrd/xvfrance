@@ -48,7 +48,7 @@
       {"jersey": 17, "first_name": "Ricardo", "last_name": "Le Fort", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 18, "first_name": "Francisco", "last_name": "Irarrazabal", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 19, "first_name": "Rodrigo", "last_name": "Crexell", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 21, "first_name": "Rodrigo", "last_name": "De La Arena", "is_starter": false, "position": null, "is_captain": false}
+      {"jersey": 21, "first_name": "Rodrigo", "last_name": "de la Arena", "is_starter": false, "position": null, "is_captain": false}
     ]
   },
   "events": [

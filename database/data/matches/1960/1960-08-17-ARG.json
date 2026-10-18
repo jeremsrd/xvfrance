@@ -37,7 +37,7 @@
       {"jersey": 12, "first_name": "Ricardo", "last_name": "Olivieri", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 13, "first_name": "Esteban", "last_name": "Karplus", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 14, "first_name": "Enrique", "last_name": "Kossler", "is_starter": true, "position": "ailier", "is_captain": false},
-      {"jersey": 15, "first_name": "Jorge", "last_name": "Rios", "is_starter": true, "position": "arriere", "is_captain": false}
+      {"jersey": 15, "first_name": "Jorge", "last_name": "Ríos", "is_starter": true, "position": "arriere", "is_captain": false}
     ]
   },
   "events": [
@@ -52,8 +52,8 @@
     {"team_side": "france", "type": "essai", "player_last_name": "Dizabo", "player_first_name": "Pierre", "minute": null},
     {"team_side": "france", "type": "essai", "player_last_name": "Boniface", "player_first_name": "Guy", "minute": null},
     {"team_side": "france", "type": "drop", "player_last_name": "Vannier", "player_first_name": "Michel", "minute": null},
-    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Rios", "player_first_name": "Jorge", "minute": null},
-    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Rios", "player_first_name": "Jorge", "minute": null}
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Ríos", "player_first_name": "Jorge", "minute": null},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Ríos", "player_first_name": "Jorge", "minute": null}
   ],
   "substitutions": []
 }

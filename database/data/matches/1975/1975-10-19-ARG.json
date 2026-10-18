@@ -26,7 +26,7 @@
       {"jersey": 1, "first_name": "Hugo", "last_name": "Nicola", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
       {"jersey": 2, "first_name": "Guillermo", "last_name": "Casas", "is_starter": true, "position": "talonneur", "is_captain": false},
       {"jersey": 3, "first_name": "Mario", "last_name": "Carluccio", "is_starter": true, "position": "pilier_droit", "is_captain": false},
-      {"jersey": 4, "first_name": "Jose", "last_name": "Fernandez", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 4, "first_name": "José", "last_name": "Fernández", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 5, "first_name": "Carlos", "last_name": "Bottarini", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 6, "first_name": "Ricardo", "last_name": "Mastai", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 7, "first_name": "Carlos", "last_name": "Neyra", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
@@ -35,7 +35,7 @@
       {"jersey": 10, "first_name": "Hugo", "last_name": "Porta", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
       {"jersey": 11, "first_name": "Daniel", "last_name": "Beccar Varela", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 12, "first_name": "Alejandro", "last_name": "Travaglini", "is_starter": true, "position": "centre", "is_captain": false},
-      {"jersey": 13, "first_name": "Arturo", "last_name": "Rodriguez Jurado", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 13, "first_name": "Arturo", "last_name": "Rodríguez Jurado", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 14, "first_name": "Jorge", "last_name": "Gauweloose", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 15, "first_name": "Martín", "last_name": "Sansot", "is_starter": true, "position": "arriere", "is_captain": false}
     ]

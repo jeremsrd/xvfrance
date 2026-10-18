@@ -1,19 +1,32 @@
 country,slug,base_first_name,base_last_name,first_name,last_name,wikidata,annees,statut
 ARG,matias-alemanno-6612,Matias,Alemanno,Matías,Alemanno,Q17523769,2018-2024,vérifié
+ARG,martin-alonso-3375,Martin,Alonso,Martín,Alonso,,1977-1977,vérifié
+ARG,carlos-alvarez-2425,Carlos,Alvarez,Carlos,Álvarez,,1960-1960,vérifié
 ARG,gabriel-ascarate-6146,Gabriel,Ascarate,Gabriel,Ascárate,Q16148916,2012-2012,vérifié
 ARG,rodrigo-baez-6139,Rodrigo,Baez,Rodrigo,Báez,Q25281111,2012-2012,vérifié
 ARG,andres-bordoy-6136,Andres,Bordoy,Andrés,Bordoy,Q16382846,2012-2012,vérifié
 ARG,gonzalo-camardon-4312,Gonzalo,Camardon,Gonzalo,Camardón,Q3110610,1992-2002,vérifié
+ARG,pablo-jose-camerlinckx-4659,Pablo Jose,Camerlinckx,Pablo José,Camerlinckx,,1996-1998,vérifié
 ARG,agustin-canalda-4769,Agustin,Canalda,Agustín,Canalda,Q3606940,1997-1999,vérifié
 ARG,jose-cilley-4661,Jose,Cilley,José,Cilley,Q3186246,1996-1996,vérifié
 ARG,matias-cortese-6343,Matias,Cortese,Matías,Cortese,Q3299080,2014-2014,vérifié
+ARG,jose-costante-3377,Jose,Costante,José,Costante,,1977-1977,vérifié
 ARG,andres-courreges-3666,Andres,Courreges,Andrés,Courreges,Q2849008,1982-1988,vérifié
 ARG,tomas-cubelli-6140,Tomas,Cubelli,Tomás,Cubelli,Q7820453,2012-2021,vérifié
+ARG,miguel-de-achaval-5984,Miguel,De Achaval,Miguel,de Achaval,,2010-2010,vérifié
+ARG,rodrigo-de-la-arena-4325,Rodrigo,De La Arena,Rodrigo,de la Arena,,1992-1992,vérifié
 ARG,jeronimo-de-la-fuente-6458,Jeronimo,De La Fuente,Jerónimo,de la Fuente,Q17542132,2016-2024,vérifié
 ARG,tomas-de-la-vega-6128,Tomas,De La Vega,Tomás,de la Vega,Q7820539,2012-2012,vérifié
+ARG,ricardo-de-vedia-3681,Ricardo,De Vedia,Ricardo,de Vedia,,1982-1982,vérifié
+ARG,fernando-del-castillo-4663,Fernando,Del Castillo,Fernando,del Castillo,,1996-1996,vérifié
+ARG,lucio-del-chazal-3684,Lucio,Del Chazal,Lucio,del Chazal,,1982-1982,vérifié
+ARG,eduardo-gonzalez-del-solar-2412,Eduardo Gonzalez,Del Solar,Eduardo,González del Solar,,1960-1960,vérifié
 ARG,serafin-dengra-3680,Serafin,Dengra,Serafín,Dengra,Q3479112,1982-1988,vérifié
 ARG,diego-dominguez-4017,Diego,Dominguez,Diego,Domínguez,Q1220419,1988-1988,vérifié
+ARG,emilio-dominguez-1826,Emilio,Dominguez,Emilio,Domínguez,,1949-1954,vérifié
 ARG,julio-farias-cabello-5987,Julio,Farias Cabello,Julio,Farías Cabello,Q3189811,2010-2012,vérifié
+ARG,jose-fernandez-3191,Jose,Fernandez,José,Fernández,,1974-1977,vérifié
+ARG,nicolas-fernandez-4667,Nicolás,Fernandez,Nicolás,Fernández,,1996-2007,vérifié
 ARG,santiago-fernandez-5955,Santiago,Fernandez,Santiago,Fernández,Q3472873,2010-2010,vérifié
 ARG,carlos-ignacio-fernandez-lobbe-4818,Carlos Ignacio,Fernandez Lobbe,Carlos Ignacio,Fernández Lobbe,Q1648228,1998-2007,vérifié
 ARG,juan-martin-fernandez-lobbe-5619,Juan Martín,Fernandez Lobbe,Juan Martín,Fernández Lobbe,Q950241,2006-2012,vérifié
@@ -21,36 +34,53 @@ ARG,alvaro-galindo-5791,Alvaro,Galindo,Álvaro,Galindo,Q2117766,2008-2010,vérif
 ARG,francisco-garcia-4664,Francisco,Garcia,Francisco,García,Q5483396,1996-1996,vérifié
 ARG,santiago-garcia-botta-6453,Santiago,Garcia Botta,Santiago,García Botta,Q21066991,2016-2018,vérifié
 ARG,hernan-garcia-simon-4314,Hernan,Garcia Simon,Hernán,García Simón,Q21066115,1992-1992,vérifié
+ARG,gonzalo-garcia-orsetti-4348,Gonzalo,Garcia-Orsetti,Gonzalo,García-Orsetti,,1992-1992,vérifié
 ARG,pablo-garreton-4000,Pablo,Garreton,Pablo,Garretón,Q3359973,1988-1992,vérifié
+ARG,elias-gavina-2406,Elias,Gavina,Elías,Gavina,,1960-1960,vérifié
 ARG,fabio-gomez-3845,Fabio,Gomez,Fabio,Gómez,Q3063725,1986-1986,vérifié
+ARG,dardo-gonzalez-4004,Dardo,Gonzalez,Dardo,González,,1988-1988,vérifié
 ARG,lucas-gonzalez-amorosino-5956,Lucas,Gonzalez Amorosino,Lucas,González Amorosino,Q3265049,2010-2016,vérifié
 ARG,santiago-gonzalez-bonorino-5309,Santiago,Gonzalez Bonorino,Santiago,González Bonorino,Q616217,2003-2007,vérifié
 ARG,santiago-gonzalez-iglesias-6348,Santiago,Gonzalez Iglesias,Santiago,González Iglesias,Q7420276,2014-2016,vérifié
 ARG,angel-guastella-2427,Angel,Guastella,Ángel,Guastella,Q28604360,1960-1960,vérifié
 ARG,eusebio-guinazu-5473,Eusebio,Guinazu,Eusebio,Guiñazú,Q3060976,2004-2012,vérifié
 ARG,tomas-lavanini-6340,Tomas,Lavanini,Tomás,Lavanini,Q16235566,2014-2021,vérifié
+ARG,julian-legora-4666,Julian,Legora,Julián,Legora,,1996-1996,vérifié
 ARG,juan-manuel-leguizamon-5624,Juan Manuel,Leguizamon,Juan Manuel,Leguizamón,Q1403617,2006-2016,vérifié
 ARG,tomas-lezana-6347,Tomas,Lezana,Tomás,Lezana,Q18637637,2014-2019,vérifié
 ARG,german-llanes-4309,German,Llanes,Germán,Llanes,Q3104239,1992-1998,vérifié
+ARG,jesus-loures-2106,Jesus,Loures,Jesús,Loures,,1954-1954,vérifié
+ARG,jose-luna-4604,Jose,Luna,José,Luna,,1995-1995,vérifié
 ARG,benjamin-macome-6127,Benjamin,Macome,Benjamín,Macome,Q16231417,2012-2012,vérifié
+ARG,rolando-martin-4601,Rolando,Martin,Rolando,Martín,,1995-2003,vérifié
 ARG,federico-martin-aramburu-5471,Federico,Martin Aramburu,Federico,Martín Aramburú,Q2313220,2004-2008,vérifié
 ARG,rodrigo-martinez-6788,Rodrigo,Martinez,Rodrigo,Martínez,Q108733069,2021-2021,vérifié
+ARG,oscar-martinez-basante-2105,Oscar,Martinez Basante,Óscar,Martínez Basante,,1954-1954,vérifié
 ARG,santiago-meson-4010,Santiago,Meson,Santiago,Mesón,Q1154165,1988-1992,vérifié
 ARG,roman-miralles-6135,Roman,Miralles,Román,Miralles,Q127222157,2012-2012,vérifié
 ARG,julian-montoya-129,Julian,Montoya,Julián,Montoya,Q20981768,2016-2024,vérifié
 ARG,jose-maria-nunez-piossek-5225,Jose Maria,Nunez Piossek,José María,Núñez Piossek,Q3186451,2002-2006,vérifié
 ARG,jose-orengo-4765,Jose,Orengo,José,Orengo,Q3186497,1997-2003,vérifié
 ARG,matias-orlando-6459,Matias,Orlando,Matías,Orlando,Q20981841,2016-2024,vérifié
+ARG,martin-palou-4669,Martin,Palou,Martín,Palou,,1996-1996,vérifié
 ARG,raul-perez-4310,Raúl,Perez,Raúl,Pérez,Q3930845,1992-1995,vérifié
 ARG,guido-petti-pagadizabal-6339,Guido,Petti Pagadizabal,Guido,Petti Pagadizábal,Q18637871,2014-2021,vérifié
+ARG,martin-pfister-4665,Martin,Pfister,Martín,Pfister,,1996-1996,vérifié
 ARG,agustin-pichot-4603,Agustin,Pichot,Agustín,Pichot,Q399410,1995-2007,vérifié
+ARG,jorge-rios-2429,Jorge,Rios,Jorge,Ríos,,1960-1960,vérifié
+ARG,arturo-rodriguez-jurado-3200,Arturo,Rodriguez Jurado,Arturo,Rodríguez Jurado,,1974-1975,vérifié
 ARG,sebastian-salvat-4014,Sebastian,Salvat,Sebastián,Salvat,Q3476884,1988-1995,vérifié
 ARG,nicolas-sanchez-6162,Nicolas,Sanchez,Nicolás,Sánchez,Q542948,2012-2021,vérifié
 ARG,martin-sansot-3276,Martin,Sansot,Martín,Sansot,Q91880493,1975-1975,vérifié
 ARG,jose-santamarina-4318,Jose,Santamarina,José,Santamarina,Q16195315,1992-1995,vérifié
+ARG,raul-sanz-3192,Raul,Sanz,Raúl,Sanz,,1974-1977,vérifié
+ARG,jose-simes-4658,Jose,Simes,José,Simes,,1996-1996,vérifié
 ARG,martin-teran-4324,Martin,Teran,Martín,Terán,Q3295645,1992-1995,vérifié
 ARG,joaquin-tuculet-6133,Joaquin,Tuculet,Joaquín,Tuculet,Q3179777,2012-2016,vérifié
 ARG,fabian-turnes-3799,Fabian,Turnes,Fabián,Turnes,Q3063769,1985-1997,vérifié
+ARG,benjamin-urdapilleta-6141,Benjamin,Urdapilleta,Benjamín,Urdapilleta,,2012-2019,vérifié
+ARG,joaquin-uriarte-4005,Joaquin,Uriarte,Joaquín,Uriarte,,1988-1988,vérifié
+ARG,tomas-vallejos-6165,Tomas,Vallejos,Tomás,Vallejos,,2012-2012,vérifié
 AUS,enrique-rodriguez-3850,Enrique,Rodriguez,Enrique,Rodríguez,Q3054707,1986-1987,vérifié
 IRL,ciaran-frawley-6948,Ciaran,Frawley,Ciarán,Frawley,Q57586493,2024-2024,vérifié
 IRL,ronan-kelleher-265,Ronan,Kelleher,Rónan,Kelleher,Q62942455,2021-2026,vérifié
@@ -119,6 +149,8 @@ RSA,gurthro-steenkamp-5521,Gurthro,Steenkamp,Gurthrö,Steenkamp,Q138586,2005-201
 RSA,morne-steyn-5877,Morne,Steyn,Morné,Steyn,Q1390892,2009-2013,vérifié
 RSA,andre-venter-4683,Andre,Venter,André,Venter,Q508342,1996-2001,vérifié
 RSA,andre-vos-5134,Andre,Vos,André,Vos,Q2021505,2001-2001,vérifié
+URU,matias-benitez-6915,Matias,Benitez,Matías,Benítez,,2023-2023,vérifié
 URU,nicolas-freitas-6909,Nicolas,Freitas,Nicolás,Freitas,Q28943604,2023-2023,vérifié
+URU,tomas-inciarte-6911,Tomas,Inciarte,Tomás,Inciarte,,2023-2023,vérifié
 URU,agustin-ormaechea-6920,Agustin,Ormaechea,Agustín,Ormaechea,Q9142690,2023-2023,vérifié
 URU,andres-vilaseca-6910,Andres,Vilaseca,Andrés,Vilaseca,Q21066922,2023-2023,vérifié

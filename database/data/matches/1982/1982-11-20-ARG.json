@@ -34,7 +34,7 @@
       {"jersey": 3, "first_name": "Pablo", "last_name": "Devoto", "is_starter": true, "position": "pilier_droit", "is_captain": false},
       {"jersey": 4, "first_name": "Alejandro", "last_name": "Iachetti", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 5, "first_name": "Gustavo", "last_name": "Milano", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
-      {"jersey": 6, "first_name": "Ricardo", "last_name": "De Vedia", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 6, "first_name": "Ricardo", "last_name": "de Vedia", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 7, "first_name": "Ernesto", "last_name": "Ure", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 8, "first_name": "Gabriel", "last_name": "Travaglini", "is_starter": true, "position": "numero_huit", "is_captain": false},
       {"jersey": 9, "first_name": "Alfredo", "last_name": "Soares-Gache", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
@@ -44,7 +44,7 @@
       {"jersey": 13, "first_name": "Marcelo", "last_name": "Loffreda", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 14, "first_name": "Marcelo", "last_name": "Campo", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 15, "first_name": "Eduardo", "last_name": "Sanguinetti", "is_starter": true, "position": "arriere", "is_captain": false},
-      {"jersey": 17, "first_name": "Lucio", "last_name": "Del Chazal", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 17, "first_name": "Lucio", "last_name": "del Chazal", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 19, "first_name": "Javier", "last_name": "Miguens", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 20, "first_name": "Guillermo", "last_name": "Sanguinetti", "is_starter": false, "position": null, "is_captain": false}
     ]

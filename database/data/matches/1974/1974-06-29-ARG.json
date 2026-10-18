@@ -27,9 +27,9 @@
       {"jersey": 2, "first_name": "Osvaldo", "last_name": "Rocha", "is_starter": true, "position": "talonneur", "is_captain": false},
       {"jersey": 3, "first_name": "Arturo", "last_name": "Orzabal", "is_starter": true, "position": "pilier_droit", "is_captain": false},
       {"jersey": 4, "first_name": "Adrian", "last_name": "Anthony", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
-      {"jersey": 5, "first_name": "Jose", "last_name": "Fernandez", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 5, "first_name": "José", "last_name": "Fernández", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 6, "first_name": "Carlos", "last_name": "Bottarini", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
-      {"jersey": 7, "first_name": "Raul", "last_name": "Sanz", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 7, "first_name": "Raúl", "last_name": "Sanz", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 8, "first_name": "Miguel", "last_name": "Iglesias", "is_starter": true, "position": "numero_huit", "is_captain": true},
       {"jersey": 9, "first_name": "Adolfo", "last_name": "Etchegaray", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
       {"jersey": 10, "first_name": "Hugo", "last_name": "Porta", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
@@ -37,7 +37,7 @@
       {"jersey": 12, "first_name": "Roberto", "last_name": "Matarazzo", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 13, "first_name": "Alejandro", "last_name": "Travaglini", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 14, "first_name": "Mario", "last_name": "Walther", "is_starter": true, "position": "ailier", "is_captain": false},
-      {"jersey": 15, "first_name": "Arturo", "last_name": "Rodriguez Jurado", "is_starter": true, "position": "arriere", "is_captain": false}
+      {"jersey": 15, "first_name": "Arturo", "last_name": "Rodríguez Jurado", "is_starter": true, "position": "arriere", "is_captain": false}
     ]
   },
   "events": [

@@ -42,9 +42,9 @@
       {"jersey": 16, "first_name": "Marcelo", "last_name": "Urbano", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 17, "first_name": "Santiago", "last_name": "Mesón", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 18, "first_name": "Alfredo", "last_name": "Soares-Gache", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 19, "first_name": "Joaquin", "last_name": "Uriarte", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 19, "first_name": "Joaquín", "last_name": "Uriarte", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 20, "first_name": "Gustavo", "last_name": "Maschwitz", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 21, "first_name": "Dardo", "last_name": "Gonzalez", "is_starter": false, "position": null, "is_captain": false}
+      {"jersey": 21, "first_name": "Dardo", "last_name": "González", "is_starter": false, "position": null, "is_captain": false}
     ]
   },
   "events": [

@@ -132,7 +132,11 @@ afrikaans…) : même nom sans accents, un seul joueur de ce nom, naissance comp
 reportés dans les feuilles par `scripts/wikipedia/renommer_adversaires.py` et en base par
 `xv:apply-opponent-name-corrections`. Choix de l'utilisateur : accents irlandais oui, macrons des translittérations
 non (Shuhei Takeuchi, Hitoshi Ono, George Nepia), Noel Henderson sans tréma ; Mihăiță Lazăr complété à la main.
-Wikidata ne connaît qu'une partie des joueurs (192 Argentins sur 335, 114 Roumains sur 294, en comptant les joueurs de rugby de la nationalité, P27) : les autres ne sont pas vérifiés.
+Wikidata ne connaît qu'une partie des joueurs (192 Argentins sur 335, 114 Roumains sur 294, en comptant les joueurs
+de rugby de la nationalité, P27). Pour les Argentins et les Uruguayens absents de Wikidata, 32 noms suivent
+l'orthographe espagnole (José, Martín, Tomás, noms en -ez ; particules en minuscule : de Vedia, del Castillo), lignes
+sans élément Wikidata de `noms_adversaires.csv` ; les noms d'origine anglaise sont laissés tels quels (Victor
+Christianson, Adrian Anthony, Tomas Petersen). Choix de l'utilisateur : les ~180 Roumains sans source restent en l'état.
 
 Les sélectionnés d'après février 2020 n'ont plus le modèle `{{date}}` dans la liste Wikipédia : `naissances.py` lit
 aussi les dates en texte. 14 naissances ajoutées ou corrigées (Haouas, Forletta, Roumat — 27/06/1997 selon les

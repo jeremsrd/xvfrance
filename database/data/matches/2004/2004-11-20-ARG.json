@@ -48,7 +48,7 @@
       {"jersey": 17, "first_name": "Eusebio", "last_name": "Guiñazú", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 18, "first_name": "Pablo", "last_name": "Bouza", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 19, "first_name": "Martín", "last_name": "Schusterman", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 20, "first_name": "Nicolás", "last_name": "Fernandez", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 20, "first_name": "Nicolás", "last_name": "Fernández", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 21, "first_name": "Juan", "last_name": "Fernández Miranda", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 22, "first_name": "Gonzalo", "last_name": "Tiesi", "is_starter": false, "position": null, "is_captain": false}
     ]

@@ -26,7 +26,7 @@
       {"jersey": 1, "first_name": "Bruno", "last_name": "Grigolon", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
       {"jersey": 2, "first_name": "Victor", "last_name": "Christianson", "is_starter": true, "position": "talonneur", "is_captain": false},
       {"jersey": 3, "first_name": "Erwin", "last_name": "Hirsch", "is_starter": true, "position": "pilier_droit", "is_captain": false},
-      {"jersey": 4, "first_name": "Emilio", "last_name": "Dominguez", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 4, "first_name": "Emilio", "last_name": "Domínguez", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 5, "first_name": "Bernardo", "last_name": "Yustini", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 6, "first_name": "Roberto", "last_name": "Pineo", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 7, "first_name": "Miguel", "last_name": "Sarandon", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},

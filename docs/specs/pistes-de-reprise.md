@@ -28,23 +28,24 @@ Fait le 17/10/2026 (tout est commité, déployé et poussé ; dernier commit dé
 - **Records découpés en deux pages** : `/records` (équipe : phares, écarts, scores, séries, époques, adversaires) et
   `/records/joueurs` (classements sélections hors banc, essais, points au barème de l'époque, capitanats ; recordmen
   successifs en onglets Sélections / Essais / Points, `#recordmen-essais` ouvre l'onglet). Dernier commit déployé : 83777e0.
+- **Règnes de recordman sur la fiche joueur** (18/10) : « Recordman des essais de 1989 à 2025 », lien vers l'onglet de la
+  frise (`RecordsService::playerRecordReigns()`, historiques en cache tant que les feuilles ne changent pas).
+- **Accents des joueurs adverses** (18/10) : 155 noms (`noms_adversaires.csv`), d'après Wikidata (123) et l'orthographe
+  espagnole (32) ; `accents_adversaires.py`, `renommer_adversaires.py`, `xv:apply-opponent-name-corrections`.
+  Roumains sans source laissés en l'état (voir `docs/sources.md`).
 
 Reprendre par, dans l'ordre proposé :
-0. **Idée à trancher en début de séance** : sur la fiche d'un recordman (actuel ou passé), un lien vers sa frise,
-   par exemple « Recordman des essais de 2025 à aujourd'hui » vers `/records/joueurs#recordmen-essais` (Penaud).
-1. **Accents des noms des joueurs adverses** : vérifier leurs graphies (Argentins, Roumains, Italiens, Géorgiens…)
-   comme pour les Bleus, faute de liste de référence unique (pages Wikipédia des effectifs, ou sites des fédérations).
-2. **Matches de novembre 2026** : 07/11 Fidji, 13/11 Afrique du Sud, 21/11 Argentine, finales 27-29/11
+1. **Matches de novembre 2026** : 07/11 Fidji, 13/11 Afrique du Sud, 21/11 Argentine, finales 27-29/11
    (`/feuille-de-match <date> <code>` une fois joués, puis commit et `./deploy.sh`).
-3. **Équipes adverses et points d'Allemagne 1932-1934 et d'Armée britannique 1940** : presse d'époque sur Gallica
+2. **Équipes adverses et points d'Allemagne 1932-1934 et d'Armée britannique 1940** : presse d'époque sur Gallica
    (*L'Auto* du 18/04/1932 pour commencer), qui bloque les scripts (Cloudflare) : passer par Chrome. La validation
    refuse des points incomplets : il faut les marqueurs des deux équipes. 1940 : les 3 points français sont un
    « drop » de Thiers selon finalesrugby.fr, impossible (4 points en 1940), sans doute une pénalité.
-4. **Reste des sélections** : 27 matches aux remplacements non appariés (`python3 scripts/finalesrugby/apply.py --dry`),
+3. **Reste des sélections** : 27 matches aux remplacements non appariés (`python3 scripts/finalesrugby/apply.py --dry`),
    Traille +2, Szarzewski et Michalak +1 face à la page des records ; 17 internationaux sans joueur en base
    (`php artisan xv:import-internationaux --report`) ; Arthapignet 1988 et Mignot 2016 absents de la base (Wikipédia).
-5. **Numéros d'international après 2016** (piste 3) : trancher la source d'abord.
-6. Plus tard :
+4. **Numéros d'international après 2016** (piste 3) : trancher la source d'abord.
+5. Plus tard :
    - décès après 1970 que ni Wikidata ni equipe-france.fr ne donnent, à chercher dans le fichier des décès de
      l'INSEE (API matchID `deces.matchid.io/deces/api/v1/search?lastName=…&firstName=…&birthDate=JJ/MM/AAAA` ;
      quota anonyme de quelques dizaines de requêtes, puis environ une heure d'attente) ;

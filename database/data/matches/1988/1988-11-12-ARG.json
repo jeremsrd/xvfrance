@@ -40,7 +40,7 @@
       {"jersey": 14, "first_name": "Diego", "last_name": "Cuesta Silva", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 15, "first_name": "Alejandro", "last_name": "Scolni", "is_starter": true, "position": "arriere", "is_captain": false},
       {"jersey": 16, "first_name": "Sebastián", "last_name": "Salvat", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 17, "first_name": "Dardo", "last_name": "Gonzalez", "is_starter": false, "position": null, "is_captain": false}
+      {"jersey": 17, "first_name": "Dardo", "last_name": "González", "is_starter": false, "position": null, "is_captain": false}
     ]
   },
   "events": [

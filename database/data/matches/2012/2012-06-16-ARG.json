@@ -49,7 +49,7 @@
       {"jersey": 18, "first_name": "Rodrigo", "last_name": "Bruno", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 19, "first_name": "Rodrigo", "last_name": "Báez", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 20, "first_name": "Tomás", "last_name": "Cubelli", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 21, "first_name": "Benjamin", "last_name": "Urdapilleta", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 21, "first_name": "Benjamín", "last_name": "Urdapilleta", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 22, "first_name": "Facundo", "last_name": "Barrea", "is_starter": false, "position": null, "is_captain": false}
     ]
   },
