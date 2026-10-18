@@ -196,6 +196,26 @@ Pièges connus :
 - **Variantes de noms.** Les noms de stades y sont souvent des noms de sponsor ou des graphies différentes,
   reconnus grâce à `venue_names.csv`.
 
+## Presse d'époque sur Gallica : Allemagne 1932-1934
+
+Gallica (BnF) bloque les scripts : lecture par Chrome, une requête à la fois (`ark:/12148/<id>.texteBrut`, OCR
+du numéro), après la case « Je ne suis pas un robot » cochée par l'utilisateur ; trop de requêtes rapprochées
+déclenchent une erreur 429 pendant plusieurs minutes. Recherche plein texte : `gallica.bnf.fr/SRU` (dc.type
+« fascicule », dates de parution). Relevé du 18/10/2026 :
+- **17/04/1932, Francfort (20-4)** : XV allemand de *France olympique* du 18/04 ; points de *L'Auto* du 18/04,
+  le buteur de la transformation (Chaud) de *Match l'Intran*. Postes allemands déduits de l'ordre de la liste,
+  qui suit celui de l'équipe de France (trois-quarts de l'aile droite à l'aile gauche, avants de la 3e ligne à la 1re).
+- **26/03/1933, Paris (38-17)** : *L'Auto* du 27/03 (minutes de sa chronologie, coup d'envoi à 15 h),
+  *France olympique* et *Le Miroir des sports*. Le drop final est de Heine selon *France olympique* et *Match*,
+  de Schwanenberg selon *L'Auto* : Heine retenu. Talonneur « Vietgen » (4 listes) plutôt que « Viltgen ».
+- **25/03/1934, Hanovre (13-9)** : *L'Auto* du 26/03, confirmé par *Le Miroir des sports* (essais d'Escaffre,
+  Desclaux et Duluc, drop d'Amelung, essai de Kocher transformé par Isenberg) ; *France olympique* donne d'autres
+  marqueurs (Servole, Isenberg au drop, Oppermann, Pfisterer), écartés.
+- Graphies : Grotehenne (nom attesté, OCR « Grotherenne », « Grobehenne »), Flinsch, Tasler, Klingebiel (3 sources ;
+  peut-être le « Karl Klingenberg » de 1931 sur equipe-france.fr, non fusionné), Wichmann. Prénoms repris des
+  feuilles de 1931 à 1937 quand le nom y figure ; les autres joueurs n'ont pas de prénom. Le Pfisterer avant de 1932
+  est rattaché à Walter Pfisterer par l'import, sans certitude (« Pfisterer II » en 1933).
+
 ## Autres sources
 
 - **Wikipédia anglaise, encadrés `{{rugbybox}}`** : points, marqueurs, arbitre, affluence, heure d'une feuille

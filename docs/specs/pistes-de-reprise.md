@@ -33,12 +33,14 @@ Fait le 17/10/2026 (tout est commité, déployé et poussé ; dernier commit dé
 - **Accents des joueurs adverses** (18/10) : 155 noms (`noms_adversaires.csv`), d'après Wikidata (123) et l'orthographe
   espagnole (32) ; `accents_adversaires.py`, `renommer_adversaires.py`, `xv:apply-opponent-name-corrections`.
   Roumains sans source laissés en l'état (voir `docs/sources.md`).
+- **Allemagne 1932, 1933, 1934** (18/10) : XV allemands et points des deux équipes d'après *L'Auto*, *France olympique*,
+  *Le Miroir des sports* et *Match* (Gallica) ; sources contradictoires tranchées dans `docs/sources.md`.
 
 Reprendre par, dans l'ordre proposé :
 1. **Matches de novembre 2026** : 07/11 Fidji, 13/11 Afrique du Sud, 21/11 Argentine, finales 27-29/11
    (`/feuille-de-match <date> <code>` une fois joués, puis commit et `./deploy.sh`).
-2. **Équipes adverses et points d'Allemagne 1932-1934 et d'Armée britannique 1940** : presse d'époque sur Gallica
-   (*L'Auto* du 18/04/1932 pour commencer), qui bloque les scripts (Cloudflare) : passer par Chrome. La validation
+2. **Équipe adverse et points d'Armée britannique 1940** : presse d'époque sur Gallica par Chrome, comme
+   l'Allemagne 1932-1934 (fait le 18/10, méthode dans `docs/sources.md`). La validation
    refuse des points incomplets : il faut les marqueurs des deux équipes. 1940 : les 3 points français sont un
    « drop » de Thiers selon finalesrugby.fr, impossible (4 points en 1940), sans doute une pénalité.
 3. **Reste des sélections** : 27 matches aux remplacements non appariés (`python3 scripts/finalesrugby/apply.py --dry`),
@@ -146,8 +148,8 @@ Mêmes règles : photos d'avant 1930 seulement, pas de photos de presse récente
 
 ### 7. Qualité des données
 
-- **Matches sans composition** (5) : Angleterre 1907, Allemagne 1932, 1933 et 1934, Armée britannique 1940
-  (absents d'equipe-france.fr). Leurs joueurs français (René Finat, Antonin Barbazanges…) ne sont pas en base.
+- **Matches sans composition adverse** (2) : Angleterre 1907, Armée britannique 1940 (absents d'equipe-france.fr) ;
+  Allemagne 1932-1934 complétés le 18/10 d'après la presse d'époque (Gallica).
 - **Internationaux introuvables sur le site** : Serin, Vidal et Bianco (1961), Halçarren (1964), Cardebat (1967)…
   (`xv:import-internationaux --report`).
 - **Numéros de maillot attribués** par le générateur (722 joueurs sans numéro sur le site) : affichés comme s'ils
