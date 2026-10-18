@@ -15,7 +15,7 @@
         ['players.index', 'Joueurs', $counts['players'], 'Bleus recensés', 'Les Bleus et leurs adversaires, match après match.'],
         ['competitions.index', 'Compétitions', $counts['competitions'], 'compétitions', 'Le Tournoi, la Coupe du monde, les tournées.'],
         ['records.index', 'Records', null, null, 'Les plus larges victoires, les plus longues séries.'],
-        ['venues.index', 'Stades', null, null, 'La carte de tous les terrains foulés par le XV.'],
+        ['venues.index', 'Stades', null, null, 'Tous les terrains foulés par le XV, pays par pays.'],
     ]);
 @endphp
 

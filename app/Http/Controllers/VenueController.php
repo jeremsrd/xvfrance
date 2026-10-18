@@ -19,23 +19,24 @@ class VenueController extends Controller
             ->sortByDesc(fn (Venue $venue) => $venue->record->total)
             ->values();
 
-        $markers = $venues
-            ->filter(fn (Venue $venue) => $venue->latitude !== null && $venue->longitude !== null)
-            ->map(fn (Venue $venue) => [
-                'name' => $venue->name,
-                'url' => route('venues.show', $venue),
-                'city' => $venue->city,
-                'country' => $venue->country?->name,
-                'lat' => (float) $venue->latitude,
-                'lng' => (float) $venue->longitude,
-                'total' => $venue->record->total,
-                'wins' => $venue->record->wins,
-                'draws' => $venue->record->draws,
-                'losses' => $venue->record->losses,
+        // Par pays : la France d'abord, puis les pays où le XV a le plus joué
+        $countries = $venues->groupBy('country_id')
+            ->map(fn ($group) => (object) [
+                'country' => $group->first()->country,
+                'venues' => $group,
+                'record' => new RecordSummary(
+                    wins: $group->sum(fn (Venue $venue) => $venue->record->wins),
+                    losses: $group->sum(fn (Venue $venue) => $venue->record->losses),
+                    draws: $group->sum(fn (Venue $venue) => $venue->record->draws),
+                ),
+            ])
+            ->sortBy([
+                fn ($a, $b) => ($b->country?->code === 'FRA') <=> ($a->country?->code === 'FRA'),
+                fn ($a, $b) => $b->record->total <=> $a->record->total,
             ])
             ->values();
 
-        return view('venues.index', compact('venues', 'markers'));
+        return view('venues.index', compact('venues', 'countries'));
     }
 
     public function show(Venue $venue)
