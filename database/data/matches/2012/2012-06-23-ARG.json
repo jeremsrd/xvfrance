@@ -47,10 +47,10 @@
       {"jersey": 16, "first_name": "Nahuel", "last_name": "Tetaz Chaparro", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 17, "first_name": "Bruno", "last_name": "Postiglioni", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 18, "first_name": "Santiago", "last_name": "Guzmán", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 19, "first_name": "Benjamin", "last_name": "Macome", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 20, "first_name": "Rodrigo", "last_name": "Baez", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 19, "first_name": "Benjamín", "last_name": "Macome", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 20, "first_name": "Rodrigo", "last_name": "Báez", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 21, "first_name": "Martín", "last_name": "Landajo", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 22, "first_name": "Gabriel", "last_name": "Ascarate", "is_starter": false, "position": null, "is_captain": false}
+      {"jersey": 22, "first_name": "Gabriel", "last_name": "Ascárate", "is_starter": false, "position": null, "is_captain": false}
     ]
   },
   "events": [

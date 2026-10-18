@@ -38,7 +38,7 @@
       {"jersey": 6, "first_name": "Siya", "last_name": "Kolisi", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 7, "first_name": "Teboho", "last_name": "Mohoje", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 8, "first_name": "Warren", "last_name": "Whiteley", "is_starter": true, "position": "numero_huit", "is_captain": true},
-      {"jersey": 9, "first_name": "Ross", "last_name": "Cronje", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
+      {"jersey": 9, "first_name": "Ross", "last_name": "Cronjé", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
       {"jersey": 10, "first_name": "Elton", "last_name": "Jantjies", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
       {"jersey": 11, "first_name": "Courtnall", "last_name": "Skosan", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 12, "first_name": "Jan", "last_name": "Serfontein", "is_starter": true, "position": "centre", "is_captain": false},

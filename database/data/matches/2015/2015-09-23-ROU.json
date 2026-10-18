@@ -45,7 +45,7 @@
       {"jersey": 13, "first_name": "Paula", "last_name": "Kinikinilau", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 14, "first_name": "Mădălin", "last_name": "Lemnaru", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 15, "first_name": "Cătălin", "last_name": "Fercu", "is_starter": true, "position": "arriere", "is_captain": false},
-      {"jersey": 16, "first_name": "Andrei", "last_name": "Radoi", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 16, "first_name": "Andrei", "last_name": "Rădoi", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 17, "first_name": "Andrei", "last_name": "Ursache", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 18, "first_name": "Horațiu", "last_name": "Pungea", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 19, "first_name": "Ovidiu", "last_name": "Tonița", "is_starter": false, "position": null, "is_captain": false},

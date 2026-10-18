@@ -38,7 +38,7 @@
       {"jersey": 6, "first_name": "Siya", "last_name": "Kolisi", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 7, "first_name": "Teboho", "last_name": "Mohoje", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 8, "first_name": "Warren", "last_name": "Whiteley", "is_starter": true, "position": "numero_huit", "is_captain": true},
-      {"jersey": 9, "first_name": "Ross", "last_name": "Cronje", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
+      {"jersey": 9, "first_name": "Ross", "last_name": "Cronjé", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
       {"jersey": 10, "first_name": "Elton", "last_name": "Jantjies", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
       {"jersey": 11, "first_name": "Courtnall", "last_name": "Skosan", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 12, "first_name": "Jan", "last_name": "Serfontein", "is_starter": true, "position": "centre", "is_captain": false},
@@ -66,7 +66,7 @@
     {"team_side": "france", "type": "essai", "player_last_name": "Serin", "player_first_name": "Baptiste", "minute": 54},
     {"team_side": "france", "type": "transformation", "player_last_name": "Plisson", "player_first_name": "Jules", "minute": 55},
     {"team_side": "adversaire", "type": "essai_penalite", "player_last_name": null, "player_first_name": null, "minute": 59},
-    {"team_side": "adversaire", "type": "essai", "player_last_name": "Cronje", "player_first_name": "Ross", "minute": 60},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Cronjé", "player_first_name": "Ross", "minute": 60},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Jantjies", "player_first_name": "Elton", "minute": 61},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Serfontein", "player_first_name": "Jan", "minute": 67},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Jantjies", "player_first_name": "Elton", "minute": 68}

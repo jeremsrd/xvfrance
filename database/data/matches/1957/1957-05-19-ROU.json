@@ -27,7 +27,7 @@
       {"jersey": 2, "first_name": "Paul", "last_name": "Iordachescu", "is_starter": true, "position": "talonneur", "is_captain": false},
       {"jersey": 3, "first_name": "Lica", "last_name": "Coter", "is_starter": true, "position": "pilier_droit", "is_captain": false},
       {"jersey": 4, "first_name": "Anastase", "last_name": "Marinache", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
-      {"jersey": 5, "first_name": "Margarit", "last_name": "Blagescu", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 5, "first_name": "Mărgărit", "last_name": "Blăgescu", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 6, "first_name": "Viorel", "last_name": "Morariu", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 7, "first_name": "Ion", "last_name": "Florescu", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 8, "first_name": "Alexandru", "last_name": "Palosanu", "is_starter": true, "position": "numero_huit", "is_captain": false},

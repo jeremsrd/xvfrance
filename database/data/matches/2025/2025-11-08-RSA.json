@@ -49,7 +49,7 @@
       {"jersey": 17, "first_name": "Gerhard", "last_name": "Steenekamp", "is_starter": false, "position": "pilier_gauche", "is_captain": false},
       {"jersey": 18, "first_name": "Wilco", "last_name": "Louw", "is_starter": false, "position": "pilier_droit", "is_captain": false},
       {"jersey": 19, "first_name": "RG", "last_name": "Snyman", "is_starter": false, "position": "deuxieme_ligne", "is_captain": false},
-      {"jersey": 20, "first_name": "Ruan", "last_name": "Nortje", "is_starter": false, "position": "deuxieme_ligne", "is_captain": false},
+      {"jersey": 20, "first_name": "Ruan", "last_name": "Nortjé", "is_starter": false, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 21, "first_name": "André", "last_name": "Esterhuizen", "is_starter": false, "position": "centre", "is_captain": false},
       {"jersey": 22, "first_name": "Grant", "last_name": "Williams", "is_starter": false, "position": "demi_de_melee", "is_captain": false},
       {"jersey": 23, "first_name": "Manie", "last_name": "Libbok", "is_starter": false, "position": "demi_ouverture", "is_captain": false}

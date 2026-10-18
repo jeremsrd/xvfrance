@@ -38,7 +38,7 @@
       {"jersey": 13, "first_name": "Adrian", "last_name": "Lungu", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 14, "first_name": "Sorin", "last_name": "Fuicu", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 15, "first_name": "Gheorghe", "last_name": "Florea", "is_starter": true, "position": "arriere", "is_captain": false},
-      {"jersey": 16, "first_name": "Gheorghe", "last_name": "Varzaru", "is_starter": false, "position": null, "is_captain": false}
+      {"jersey": 16, "first_name": "Gheorghe", "last_name": "Vărzaru", "is_starter": false, "position": null, "is_captain": false}
     ]
   },
   "events": [

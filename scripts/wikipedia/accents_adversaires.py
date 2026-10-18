@@ -4,7 +4,7 @@ Compare les noms des joueurs adverses de la base aux libellés Wikidata des joue
 (P54 « membre de l'équipe sportive »), pour retrouver les accents et signes diacritiques manquants. Voir docs/sources.md.
 
   python3 scripts/wikipedia/accents_adversaires.py                # bilan par pays
-  python3 scripts/wikipedia/accents_adversaires.py --write        # écrit aussi database/data/sources/noms_adversaires.csv
+  python3 scripts/wikipedia/accents_adversaires.py --write        # complète database/data/sources/noms_adversaires.csv
 
 Puis python3 scripts/wikipedia/renommer_adversaires.py (feuilles JSON) et php artisan xv:apply-opponent-name-corrections (base).
 
@@ -29,6 +29,10 @@ CACHE = 'storage/app/wikipedia'
 UA = 'xvfrance.fr/1.0 (https://xvfrance.fr)'
 
 # Code World Rugby → (équipe nationale Wikidata, langues des libellés par ordre de préférence)
+# Pays dont la langue s'écrit avec des diacritiques : on ajoute les joueurs de rugby de cette nationalité (P27),
+# beaucoup d'internationaux n'ayant pas d'équipe nationale (P54) sur Wikidata
+CITIZENSHIP = {'ARG': 'Q414', 'URU': 'Q77', 'ESP': 'Q29', 'CHI': 'Q298', 'ITA': 'Q38', 'ROU': 'Q218', 'GER': 'Q183',
+               'POR': 'Q45', 'BRA': 'Q155', 'TCH': 'Q33946', 'RSA': 'Q258', 'NAM': 'Q1030'}
 TEAMS = {
     'ARG': ('Q646070', ['es']), 'URU': ('Q276760', ['es']), 'ESP': ('Q250783', ['es']), 'CHI': ('Q334657', ['es']),
     'ITA': ('Q113135', ['it']), 'ROU': ('Q967505', ['ro']), 'GER': ('Q695374', ['de']), 'POR': ('Q250778', ['pt']),
@@ -64,11 +68,11 @@ def sparql(query):
     return data
 
 
-def team_players(team, langs):
+def team_players(team, langs, country=None):
     """{Q: {'labels': [libellés par ordre de préférence], 'birth': année ou None}}"""
     wanted = list(dict.fromkeys(langs + ['fr', 'en']))
     rows = sparql(f'''SELECT ?p ?label ?lang (YEAR(?birth) AS ?year) WHERE {{
-        ?p wdt:P54 wd:{team}.
+        {{ ?p wdt:P54 wd:{team} }}{f' UNION {{ ?p wdt:P106 wd:Q14089670; wdt:P27 wd:{country} }}' if country else ''}
         ?p rdfs:label ?label. BIND(LANG(?label) AS ?lang) FILTER(?lang IN ({', '.join(f'"{l}"' for l in wanted)}))
         OPTIONAL {{ ?p wdt:P569 ?birth }} }}''')
     people = defaultdict(lambda: {'labels': {}, 'birth': None})
@@ -99,7 +103,7 @@ def main():
 
     found, stats = [], defaultdict(lambda: [0, 0, 0])
     for code, (team, langs) in TEAMS.items():
-        people = team_players(team, langs)
+        people = team_players(team, langs, CITIZENSHIP.get(code))
         by_name = defaultdict(list)
         for q, p in people.items():
             for key in {norm(l) for l in p['labels']}:
@@ -136,10 +140,15 @@ def main():
         print(f'{code:5} {n:5} {matched:9} {fixed:8}')
     print(f'Total : {len(found)} noms à accentuer')
     if '--write' in sys.argv:
+        # Les noms déjà corrigés en base ne sont plus des écarts : on complète le fichier sans rien en retirer
+        rows = list(csv.DictReader(open(OUT, encoding='utf-8'))) if os.path.exists(OUT) else []
+        known = {(r['country'], r['base_first_name'], r['base_last_name']) for r in rows}
+        rows += [r for r in found if (r['country'], r['base_first_name'], r['base_last_name']) not in known]
         with open(OUT, 'w', encoding='utf-8', newline='') as f:
-            w = csv.DictWriter(f, fieldnames=list(found[0].keys()))
+            w = csv.DictWriter(f, fieldnames=['country', 'slug', 'base_first_name', 'base_last_name', 'first_name',
+                                              'last_name', 'wikidata', 'annees', 'statut'])
             w.writeheader()
-            w.writerows(sorted(found, key=lambda r: (r['country'], r['base_last_name'], r['base_first_name'])))
+            w.writerows(sorted(rows, key=lambda r: (r['country'], r['base_last_name'], r['base_first_name'])))
 
 
 if __name__ == '__main__':

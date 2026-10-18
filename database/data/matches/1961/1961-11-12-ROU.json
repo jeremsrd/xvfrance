@@ -25,7 +25,7 @@
     "adversaire": [
       {"jersey": 1, "first_name": "Alexandru", "last_name": "Teofilovici", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
       {"jersey": 2, "first_name": "Niculae", "last_name": "Capusan", "is_starter": true, "position": "talonneur", "is_captain": false},
-      {"jersey": 3, "first_name": "Gheorghe", "last_name": "Drobota", "is_starter": true, "position": "pilier_droit", "is_captain": false},
+      {"jersey": 3, "first_name": "Gheorghe", "last_name": "Drobotă", "is_starter": true, "position": "pilier_droit", "is_captain": false},
       {"jersey": 4, "first_name": "Anastase", "last_name": "Marinache", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 5, "first_name": "Vasile", "last_name": "Rusu", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 6, "first_name": "Viorel", "last_name": "Morariu", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": true},
@@ -33,7 +33,7 @@
       {"jersey": 8, "first_name": "Dumitru", "last_name": "Zlatoianu", "is_starter": true, "position": "numero_huit", "is_captain": false},
       {"jersey": 9, "first_name": "Alexandru", "last_name": "Ionescu", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
       {"jersey": 10, "first_name": "Rene", "last_name": "Chiriac", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
-      {"jersey": 11, "first_name": "Paul", "last_name": "Ciobanel", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 11, "first_name": "Paul", "last_name": "Ciobănel", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 12, "first_name": "Mihai", "last_name": "Vusec", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 13, "first_name": "Valeriu", "last_name": "Irimescu", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 14, "first_name": "Ion", "last_name": "Sava", "is_starter": true, "position": "ailier", "is_captain": false},

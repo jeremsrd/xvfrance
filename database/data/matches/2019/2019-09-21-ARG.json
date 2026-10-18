@@ -42,7 +42,7 @@
       {"jersey": 9, "first_name": "Tomás", "last_name": "Cubelli", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
       {"jersey": 10, "first_name": "Nicolás", "last_name": "Sánchez", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
       {"jersey": 11, "first_name": "Ramiro", "last_name": "Moyano", "is_starter": true, "position": "ailier", "is_captain": false},
-      {"jersey": 12, "first_name": "Jerónimo", "last_name": "De La Fuente", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 12, "first_name": "Jerónimo", "last_name": "de la Fuente", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 13, "first_name": "Matías", "last_name": "Orlando", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 14, "first_name": "Matías", "last_name": "Moroni", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 15, "first_name": "Emiliano", "last_name": "Boffelli", "is_starter": true, "position": "arriere", "is_captain": false},

@@ -47,7 +47,7 @@
       {"jersey": 14, "first_name": "Edoardo", "last_name": "Padovani", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 15, "first_name": "Jayden", "last_name": "Hayward", "is_starter": true, "position": "arriere", "is_captain": false},
       {"jersey": 16, "first_name": "Luca", "last_name": "Bigi", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 17, "first_name": "Cherif", "last_name": "Traore", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 17, "first_name": "Cherif", "last_name": "Traorè", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 18, "first_name": "Simone", "last_name": "Ferrari", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 19, "first_name": "Alessandro", "last_name": "Zanni", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 20, "first_name": "Sebastian", "last_name": "Negri", "is_starter": false, "position": null, "is_captain": false},

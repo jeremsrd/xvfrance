@@ -36,7 +36,7 @@
       {"jersey": 4, "first_name": "Guido", "last_name": "Petti Pagadizábal", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 5, "first_name": "Javier", "last_name": "Ortega Desio", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 6, "first_name": "Pablo", "last_name": "Matera", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
-      {"jersey": 7, "first_name": "Tomas", "last_name": "Lezana", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 7, "first_name": "Tomás", "last_name": "Lezana", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 8, "first_name": "Facundo", "last_name": "Isa", "is_starter": true, "position": "numero_huit", "is_captain": false},
       {"jersey": 9, "first_name": "Martín", "last_name": "Landajo", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
       {"jersey": 10, "first_name": "Nicolás", "last_name": "Sánchez", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
@@ -51,7 +51,7 @@
       {"jersey": 19, "first_name": "Ignacio", "last_name": "Larrague", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 20, "first_name": "Juan Manuel", "last_name": "Leguizamón", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 21, "first_name": "Tomás", "last_name": "Cubelli", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 22, "first_name": "Santiago", "last_name": "Gonzalez Iglesias", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 22, "first_name": "Santiago", "last_name": "González Iglesias", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 23, "first_name": "Ramiro", "last_name": "Moyano", "is_starter": false, "position": null, "is_captain": false}
     ]
   },
