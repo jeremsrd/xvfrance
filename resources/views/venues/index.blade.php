@@ -53,7 +53,7 @@
                         @foreach($venues as $venue)
                             <tr>
                                 <th scope="row" class="px-5 py-2.5 text-left font-medium text-encre">
-                                    {{ $venue->name }}
+                                    <a href="{{ route('venues.show', $venue) }}" class="hover:underline focus-visible:outline-hidden focus-visible:underline">{{ $venue->name }}</a>
                                     @if($venue->formerNames()->isNotEmpty())
                                         <span class="block text-xs font-normal text-texte-2">anciennement {{ $venue->formerNames()->pluck('name')->reverse()->implode(', ') }}</span>
                                     @endif
@@ -98,7 +98,8 @@
                 })
                     .bindPopup(
                         `<strong>${escape(venue.name)}</strong><br>${escape(venue.city)}, ${escape(venue.country)}<br>`
-                        + `${plural(venue.total, 'match', 'matches')} · ${venue.wins} V · ${venue.draws} N · ${venue.losses} D`
+                        + `${plural(venue.total, 'match', 'matches')} · ${venue.wins} V · ${venue.draws} N · ${venue.losses} D<br>`
+                        + `<a href="${escape(venue.url)}">Voir ${venue.total > 1 ? 'les matches' : 'le match'} →</a>`
                     )
                     .addTo(map);
             });

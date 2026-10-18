@@ -14,13 +14,28 @@ class Venue extends Model
     use HasFactory;
 
     protected $fillable = [
-        'name', 'city', 'country_id', 'capacity', 'opened_year', 'latitude', 'longitude',
+        'name', 'slug', 'city', 'country_id', 'capacity', 'opened_year', 'latitude', 'longitude',
     ];
 
     protected $casts = [
         'latitude' => 'decimal:7',
         'longitude' => 'decimal:7',
     ];
+
+    protected static function booted(): void
+    {
+        // L'adresse de la page reste celle de la création, même si le stade change de nom
+        static::creating(function (self $venue) {
+            $venue->slug ??= collect([Str::slug($venue->name), Str::slug($venue->name . ' ' . $venue->city)])
+                ->first(fn ($slug) => !self::where('slug', $slug)->exists())
+                ?? Str::slug($venue->name) . '-' . (self::max('id') + 1);
+        });
+    }
+
+    public function getRouteKeyName(): string
+    {
+        return 'slug';
+    }
 
     public function country(): BelongsTo
     {

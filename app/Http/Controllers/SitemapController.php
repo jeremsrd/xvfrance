@@ -10,6 +10,7 @@ use App\Models\CompetitionEdition;
 use App\Models\Country;
 use App\Models\Player;
 use App\Models\RugbyMatch;
+use App\Models\Venue;
 use Illuminate\Http\Response;
 
 class SitemapController extends Controller
@@ -26,6 +27,8 @@ class SitemapController extends Controller
             ->merge(RugbyMatch::orderBy('match_date')->pluck('slug')->map(fn ($slug) => route('matches.show', $slug)))
             ->merge(Player::has('lineups')->orderBy('slug')->pluck('slug')->map(fn ($slug) => route('players.show', $slug)))
             ->merge(Club::orderBy('slug')->pluck('slug')->map(fn ($slug) => route('clubs.show', $slug)))
+            ->merge(Venue::whereIn('id', RugbyMatch::select('venue_id'))->orderBy('slug')->pluck('slug')
+                ->map(fn ($slug) => route('venues.show', $slug)))
             ->merge(Country::whereIn('id', RugbyMatch::select('opponent_id'))->orderBy('code')->pluck('code')
                 ->map(fn ($code) => route('opponents.show', $code)))
             ->merge(Competition::has('editions')->orderBy('id')->pluck('id')->map(fn ($id) => route('competitions.show', $id)))

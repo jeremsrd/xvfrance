@@ -151,7 +151,13 @@
                     @foreach($facts as $label => $value)
                         <div>
                             <dt class="text-[11px] uppercase tracking-[0.18em] text-blue-300">{{ $label }}</dt>
-                            <dd class="mt-0.5 text-white">{{ $value }}</dd>
+                            <dd class="mt-0.5 text-white">
+                                @if($label === 'Stade')
+                                    <a href="{{ route('venues.show', $m->venue) }}" class="underline decoration-white/30 underline-offset-4 hover:decoration-white">{{ $value }}</a>
+                                @else
+                                    {{ $value }}
+                                @endif
+                            </dd>
                         </div>
                     @endforeach
                 </dl>

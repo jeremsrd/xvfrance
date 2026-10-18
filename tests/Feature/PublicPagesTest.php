@@ -84,6 +84,7 @@ class PublicPagesTest extends TestCase
             'records' => [fn (self $t) => route('records.index')],
             'records des joueurs' => [fn (self $t) => route('records.players')],
             'stades' => [fn (self $t) => route('venues.index')],
+            'stade' => [fn (self $t) => route('venues.show', $t->match->venue)],
             'clubs' => [fn (self $t) => route('clubs.index')],
             'club' => [fn (self $t) => route('clubs.show', $t->club)],
         ];
@@ -122,6 +123,7 @@ class PublicPagesTest extends TestCase
             ->assertSee('<loc>' . route('players.show', $this->frenchPlayer) . '</loc>', false)
             ->assertSee('<loc>' . route('opponents.show', 'NZL') . '</loc>', false)
             ->assertSee('<loc>' . route('clubs.show', $this->club) . '</loc>', false)
+            ->assertSee('<loc>' . route('venues.show', $this->match->venue) . '</loc>', false)
             ->assertSee('<loc>' . route('editions.show', $this->match->edition_id) . '</loc>', false)
             ->assertSee('<loc>' . route('coaches.show', $this->tenure->coach_id) . '</loc>', false)
             ->assertDontSee('/matches?', false);
@@ -173,6 +175,25 @@ class PublicPagesTest extends TestCase
         Livewire::test(PlayerList::class, ['club' => 'stade-toulousain'])
             ->assertSee($this->frenchPlayer->last_name)
             ->assertViewHas('players', fn ($players) => $players->total() === 1);
+    }
+
+    public function test_venue_page_lists_its_matches_and_is_linked_from_the_match_sheet(): void
+    {
+        $venue = $this->match->venue;
+        $this->assertNotEmpty($venue->slug);
+
+        $this->get(route('venues.show', $venue))
+            ->assertOk()
+            ->assertSee(route('matches.show', $this->match), false);
+        $this->get(route('matches.show', $this->match))
+            ->assertSee(route('venues.show', $venue), false);
+        $this->get(route('venues.index'))
+            ->assertSee(route('venues.show', $venue), false);
+    }
+
+    public function test_venue_without_matches_returns_404(): void
+    {
+        $this->get(route('venues.show', \App\Models\Venue::factory()->create()))->assertNotFound();
     }
 
     public function test_unknown_slugs_return_404(): void

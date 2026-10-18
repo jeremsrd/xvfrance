@@ -32,4 +32,5 @@ Route::get('/selectionneurs/{coach}', [CoachController::class, 'show'])->name('c
 Route::get('/records', [RecordController::class, 'index'])->name('records.index');
 Route::get('/records/joueurs', [RecordController::class, 'players'])->name('records.players');
 Route::get('/stades', [VenueController::class, 'index'])->name('venues.index');
+Route::get('/stades/{venue:slug}', [VenueController::class, 'show'])->name('venues.show');
 Route::get('/sitemap.xml', [SitemapController::class, 'index'])->name('sitemap');
