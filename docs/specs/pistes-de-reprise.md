@@ -61,10 +61,13 @@ Reprendre par, dans l'ordre proposé :
    - 2 matches sans points (1927 GER, 1963 ROU), 58 matches sans stade, adjoints des sélectionneurs, photos
      d'équipe et stades du dossier « This Is Rugby » (Dropbox), qualité des données ;
    - **PHP 8.3 avant le 31/12/2026**.
-6. **SEO** (commencé le 18/10/2026) : séance 1 faite (www → sans www, `/sitemap.xml` de toutes les fiches,
-   `robots.txt`, `canonical` sans les filtres des listes, descriptions accordées). À faire : déclarer le site
-   et le sitemap dans Google Search Console ; séance 2 = Open Graph / Twitter et données structurées JSON-LD
-   (`SportsEvent` pour les matches, `Person` pour les joueurs, `BreadcrumbList`) ; puis images de partage.
+6. **SEO** (18/10/2026) : www → sans www, `/sitemap.xml` de toutes les fiches, `robots.txt`, `canonical` sans
+   les filtres des listes, descriptions accordées ; Open Graph / Twitter (image par défaut
+   `public/images/partage.png`, portrait du joueur sur sa fiche) ; JSON-LD via `App\Support\JsonLd`
+   (`SportsEvent` matches, `ProfilePage`/`Person` joueurs, `BreadcrumbList` dans `x-breadcrumb`, `WebSite`
+   accueil). Search Console : propriété Domaine validée par TXT DNS (zone O2switch, ne pas supprimer), sitemap
+   à envoyer. Plus tard : image de partage par match (score), suivi des pages « explorées, non indexées »
+   (fiches de joueurs adverses à un seul match).
 
 ## Où on en est
 

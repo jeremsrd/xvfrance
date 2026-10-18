@@ -45,6 +45,25 @@
     <x-breadcrumb :items="['Matches' => route('matches.index'), $home['name'] . ' – ' . $away['name'] . ', ' . $m->match_date->format('d/m/Y') => null]" />
 @endsection
 
+@push('head')
+{!! \App\Support\JsonLd::script([
+    '@type' => 'SportsEvent',
+    'name' => $home['name'] . ' – ' . $away['name'],
+    'description' => $resultLabel . ' ' . $m->france_score . '-' . $m->opponent_score . ' le ' . \App\Support\FrenchDate::long($m->match_date),
+    'url' => route('matches.show', $m),
+    'startDate' => $m->match_date->format('Y-m-d'),
+    'sport' => 'Rugby à XV',
+    'location' => $m->venue ? [
+        '@type' => 'Place',
+        'name' => $m->venue->nameOn($m->match_date),
+        'address' => ['@type' => 'PostalAddress', 'addressLocality' => $m->venue->city, 'addressCountry' => $m->venue->country?->name],
+    ] : null,
+    'homeTeam' => ['@type' => 'SportsTeam', 'name' => $home['name']],
+    'awayTeam' => ['@type' => 'SportsTeam', 'name' => $away['name']],
+    'superEvent' => $m->edition ? ['@type' => 'SportsEvent', 'name' => $competition->name . ' ' . $m->edition->year, 'url' => route('editions.show', $m->edition)] : null,
+]) !!}
+@endpush
+
 @section('content')
 <div class="bg-papier text-texte">
 

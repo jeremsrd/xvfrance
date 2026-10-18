@@ -36,6 +36,36 @@
     <x-breadcrumb :items="['Joueurs' => route('players.index'), $p->fullName() => null]" />
 @endsection
 
+@section('og_type', 'profile')
+@if($p->photo_path)
+    @section('og_image', asset($p->photo_path))
+    @section('twitter_card', 'summary')
+@endif
+
+@push('head')
+{!! \App\Support\JsonLd::script([
+    '@type' => 'ProfilePage',
+    'mainEntity' => [
+        '@type' => 'Person',
+        'name' => $p->fullName(),
+        'givenName' => $p->first_name,
+        'familyName' => $p->last_name,
+        'alternateName' => $p->nickname,
+        'url' => route('players.show', $p),
+        'image' => $p->photo_path ? asset($p->photo_path) : null,
+        'jobTitle' => 'Joueur de rugby à XV',
+        'birthDate' => $p->birth_date?->format('Y-m-d'),
+        'birthPlace' => $p->birth_city ? ['@type' => 'Place', 'name' => $p->birth_city . ($p->birthCountry ? ', ' . $p->birthCountry->name : '')] : null,
+        'deathDate' => $p->death_date?->format('Y-m-d'),
+        'deathPlace' => $p->death_city ? ['@type' => 'Place', 'name' => $p->death_city] : null,
+        'nationality' => $p->country ? ['@type' => 'Country', 'name' => $p->country->name] : null,
+        'height' => $p->height_cm ? ['@type' => 'QuantitativeValue', 'value' => $p->height_cm, 'unitCode' => 'CMT'] : null,
+        'weight' => $p->weight_kg ? ['@type' => 'QuantitativeValue', 'value' => $p->weight_kg, 'unitCode' => 'KGM'] : null,
+        'memberOf' => $p->country ? ['@type' => 'SportsTeam', 'name' => $isFrench ? 'Équipe de France de rugby à XV' : $p->country->name, 'sport' => 'Rugby à XV'] : null,
+    ],
+]) !!}
+@endpush
+
 @section('content')
 <div class="bg-papier text-texte">
 

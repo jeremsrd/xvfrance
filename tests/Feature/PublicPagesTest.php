@@ -127,6 +127,35 @@ class PublicPagesTest extends TestCase
             ->assertDontSee('/matches?', false);
     }
 
+    #[DataProvider('publicPages')]
+    public function test_public_page_has_open_graph_tags(\Closure $url): void
+    {
+        $html = $this->get($url($this))->getContent();
+
+        $this->assertStringContainsString('<meta property="og:url" content="' . $url($this) . '">', $html);
+        $this->assertMatchesRegularExpression('#<meta property="og:title" content="[^"]{10,}">#', $html);
+        $this->assertMatchesRegularExpression('#<meta property="og:image" content="https?://[^"]+">#', $html);
+        $this->assertFileExists(public_path('images/partage.png'));
+    }
+
+    public function test_match_and_player_pages_carry_structured_data(): void
+    {
+        $structuredData = fn (string $url) => collect(
+            preg_match_all('#<script type="application/ld\+json">(.*?)</script>#s', $this->get($url)->getContent(), $m) ? $m[1] : []
+        )->map(fn ($json) => json_decode($json, true, flags: JSON_THROW_ON_ERROR))->keyBy('@type');
+
+        $match = $structuredData(route('matches.show', $this->match));
+        $this->assertSame('2024-11-16', $match['SportsEvent']['startDate']);
+        $this->assertSame('Nouvelle-Zélande', $match['SportsEvent']['awayTeam']['name']);
+        $this->assertSame(route('matches.show', $this->match), last($match['BreadcrumbList']['itemListElement'])['item']);
+
+        $player = $structuredData(route('players.show', $this->frenchPlayer));
+        $this->assertSame($this->frenchPlayer->fullName(), $player['ProfilePage']['mainEntity']['name']);
+        $this->assertSame('Équipe de France de rugby à XV', $player['ProfilePage']['mainEntity']['memberOf']['name']);
+
+        $this->assertArrayHasKey('WebSite', $structuredData(route('home')));
+    }
+
     public function test_pages_render_with_empty_database(): void
     {
         $this->match->lineups()->delete();

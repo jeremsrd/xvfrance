@@ -16,3 +16,16 @@
         @endforeach
     </ol>
 </nav>
+
+@php
+    $trail = ['Accueil' => route('home')] + $items;
+@endphp
+{!! \App\Support\JsonLd::script([
+    '@type' => 'BreadcrumbList',
+    'itemListElement' => collect(array_keys($trail))->map(fn ($label, $i) => [
+        '@type' => 'ListItem',
+        'position' => $i + 1,
+        'name' => $label,
+        'item' => $trail[$label] ?? url()->current(),
+    ])->all(),
+]) !!}

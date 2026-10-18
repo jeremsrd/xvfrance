@@ -19,6 +19,17 @@
     ]);
 @endphp
 
+@push('head')
+{!! \App\Support\JsonLd::script([
+    '@type' => 'WebSite',
+    'name' => 'xvfrance.fr',
+    'alternateName' => 'XV de France — L\'histoire complète depuis 1906',
+    'url' => route('home'),
+    'inLanguage' => 'fr-FR',
+    'description' => 'Site de référence francophone sur l\'histoire du XV de France de rugby depuis 1906 : tous les matches, compositions, marqueurs et statistiques.',
+]) !!}
+@endpush
+
 @section('content')
 
     {{-- ═══ Bandeau ═══ --}}
