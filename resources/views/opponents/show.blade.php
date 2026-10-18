@@ -19,7 +19,7 @@
 
 @section('title', 'France – ' . $c->name . ' : le bilan complet depuis ' . ($first?->match_date->year ?? ''))
 
-@section('meta_description', 'Le bilan du XV de France face ' . $c->withArticle('à') . ' : ' . $record->total . ' matches, ' . $record->wins . ' victoires, ' . $record->draws . ' nuls, ' . $record->losses . ' défaites.')
+@section('meta_description', 'Le bilan du XV de France face ' . $c->withArticle('à') . ' : ' . \App\Support\FrenchText::count($record->total, 'match', 'matches') . ', ' . \App\Support\FrenchText::count($record->wins, 'victoire') . ', ' . \App\Support\FrenchText::count($record->draws, 'nul') . ', ' . \App\Support\FrenchText::count($record->losses, 'défaite') . '.')
 
 @section('breadcrumb')
     <x-breadcrumb :items="['Adversaires' => route('opponents.index'), $c->name => null]" />

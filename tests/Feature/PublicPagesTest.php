@@ -82,6 +82,7 @@ class PublicPagesTest extends TestCase
             'sélectionneurs' => [fn (self $t) => route('coaches.index')],
             'fiche sélectionneur' => [fn (self $t) => route('coaches.show', $t->tenure->coach_id)],
             'records' => [fn (self $t) => route('records.index')],
+            'records des joueurs' => [fn (self $t) => route('records.players')],
             'stades' => [fn (self $t) => route('venues.index')],
             'clubs' => [fn (self $t) => route('clubs.index')],
             'club' => [fn (self $t) => route('clubs.show', $t->club)],
@@ -92,6 +93,38 @@ class PublicPagesTest extends TestCase
     public function test_public_page_renders(\Closure $url): void
     {
         $this->get($url($this))->assertOk();
+    }
+
+    #[DataProvider('publicPages')]
+    public function test_public_page_has_title_description_and_canonical(\Closure $url): void
+    {
+        $html = $this->get($url($this))->assertOk()->getContent();
+
+        $this->assertMatchesRegularExpression('#<title>[^<]{10,}</title>#', $html);
+        $this->assertMatchesRegularExpression('#<meta name="description" content="[^"]{50,}">#', $html);
+        $this->assertStringContainsString('<link rel="canonical" href="' . $url($this) . '">', $html);
+    }
+
+    public function test_canonical_drops_list_filters_but_keeps_pagination(): void
+    {
+        $this->get(route('players.index', ['team' => 'adversaires', 'page' => 2]))
+            ->assertSee('<link rel="canonical" href="' . route('players.index') . '">', false);
+        $this->get(route('matches.index', ['page' => 2]))
+            ->assertSee('<link rel="canonical" href="' . route('matches.index') . '?page=2">', false);
+    }
+
+    public function test_sitemap_lists_every_detail_page(): void
+    {
+        $this->get(route('sitemap'))
+            ->assertOk()
+            ->assertHeader('Content-Type', 'application/xml; charset=UTF-8')
+            ->assertSee('<loc>' . route('matches.show', $this->match) . '</loc>', false)
+            ->assertSee('<loc>' . route('players.show', $this->frenchPlayer) . '</loc>', false)
+            ->assertSee('<loc>' . route('opponents.show', 'NZL') . '</loc>', false)
+            ->assertSee('<loc>' . route('clubs.show', $this->club) . '</loc>', false)
+            ->assertSee('<loc>' . route('editions.show', $this->match->edition_id) . '</loc>', false)
+            ->assertSee('<loc>' . route('coaches.show', $this->tenure->coach_id) . '</loc>', false)
+            ->assertDontSee('/matches?', false);
     }
 
     public function test_pages_render_with_empty_database(): void

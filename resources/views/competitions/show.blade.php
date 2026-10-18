@@ -2,7 +2,7 @@
 
 @section('title', $competition->name . ' — Le XV de France, édition par édition')
 
-@section('meta_description', 'Le XV de France dans la compétition ' . $competition->name . ' : ' . $editions->count() . ' éditions, ' . $record->total . ' matches, ' . $record->wins . ' victoires.')
+@section('meta_description', 'Le XV de France dans la compétition ' . $competition->name . ' : ' . \App\Support\FrenchText::count($editions->count(), 'édition') . ', ' . \App\Support\FrenchText::count($record->total, 'match', 'matches') . ', ' . \App\Support\FrenchText::count($record->wins, 'victoire') . '.')
 
 @section('breadcrumb')
     <x-breadcrumb :items="['Compétitions' => route('competitions.index'), $competition->name => null]" />

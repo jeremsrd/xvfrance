@@ -60,7 +60,11 @@ Reprendre par, dans l'ordre proposé :
    - 40 naissances où equipe-france.fr diffère de la base (`xv:import-equipe-france-players --report`), base gardée ;
    - 2 matches sans points (1927 GER, 1963 ROU), 58 matches sans stade, adjoints des sélectionneurs, photos
      d'équipe et stades du dossier « This Is Rugby » (Dropbox), qualité des données ;
-   - **PHP 8.3 avant le 31/12/2026** ; SEO (reporté par l'utilisateur) ; session design globale à la fin.
+   - **PHP 8.3 avant le 31/12/2026**.
+6. **SEO** (commencé le 18/10/2026) : séance 1 faite (www → sans www, `/sitemap.xml` de toutes les fiches,
+   `robots.txt`, `canonical` sans les filtres des listes, descriptions accordées). À faire : déclarer le site
+   et le sitemap dans Google Search Console ; séance 2 = Open Graph / Twitter et données structurées JSON-LD
+   (`SportsEvent` pour les matches, `Person` pour les joueurs, `BreadcrumbList`) ; puis images de partage.
 
 ## Où on en est
 
@@ -171,4 +175,4 @@ Mêmes règles : photos d'avant 1930 seulement, pas de photos de presse récente
 
 - **PHP 8.2** n'a plus de correctifs de sécurité après le 31/12/2026 : passer le compte O2switch en 8.3+ (en
   vérifiant les ~40 autres sites), puis revenir à Laravel 13 (voir `CLAUDE.md`).
-- **Session design** globale prévue en fin de projet (page `/records` à reprendre, fiches joueurs avec portrait).
+- **Design** : refonte « Almanach du XV » faite et validée (octobre 2026) ; plus de session design globale prévue.

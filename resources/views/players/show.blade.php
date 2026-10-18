@@ -21,7 +21,16 @@
 
 @section('title', $p->fullName() . ' — ' . ($isFrench ? 'XV de France' : ($p->country?->name ?? 'Joueur')) . ' : matches, essais, points')
 
-@section('meta_description', $p->fullName() . ($p->primary_position ? ', ' . mb_strtolower($p->primary_position->label()) : '') . ($p->country ? ' (' . $p->country->name . ')' : '') . ' : ' . $totals['matches'] . ' matches recensés' . ($totals['tries'] ? ', ' . $totals['tries'] . ' essais' : '') . ($totals['points'] ? ', ' . $totals['points'] . ' points' : '') . '.')
+@section('meta_description', $p->fullName()
+    . ($p->primary_position ? ', ' . mb_strtolower($p->primary_position->label()) : '')
+    . ($isFrench ? ' du XV de France' : ($p->country ? ' (' . $p->country->name . ')' : ''))
+    . ($first
+        ? ' : ' . \App\Support\FrenchText::count($totals['matches'], $isFrench ? 'sélection' : 'match', $isFrench ? null : 'matches')
+            . ($isFrench ? ' ' : ' contre la France ') . \App\Support\FrenchText::years($first['match']->match_date->year, $last['match']->match_date->year)
+            . ($totals['tries'] ? ', ' . \App\Support\FrenchText::count($totals['tries'], 'essai') : '')
+            . ($totals['points'] ? ', ' . \App\Support\FrenchText::count($totals['points'], 'point') : '')
+        : '')
+    . '. Ses matches, ' . ($isFrench ? 'ses clubs, ' : '') . 'ses essais et ses statistiques.')
 
 @section('breadcrumb')
     <x-breadcrumb :items="['Joueurs' => route('players.index'), $p->fullName() => null]" />

@@ -7,7 +7,7 @@
 
 @section('title', $coach->fullName() . ' — Sélectionneur du XV de France')
 
-@section('meta_description', $coach->fullName() . ', sélectionneur du XV de France' . ($t ? ($t->end_date ? ' de ' . $t->start_date->year . ' à ' . $t->end_date->year : ' depuis ' . $t->start_date->year) : '') . ' : ' . $record->total . ' matches, ' . $record->wins . ' victoires.')
+@section('meta_description', $coach->fullName() . ', sélectionneur du XV de France' . ($t ? ($t->end_date ? ' de ' . $t->start_date->year . ' à ' . $t->end_date->year : ' depuis ' . $t->start_date->year) : '') . ' : ' . \App\Support\FrenchText::count($record->total, 'match', 'matches') . ', ' . \App\Support\FrenchText::count($record->wins, 'victoire') . '.')
 
 @section('breadcrumb')
     <x-breadcrumb :items="['Sélectionneurs' => route('coaches.index'), $coach->fullName() => null]" />

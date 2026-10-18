@@ -9,6 +9,7 @@ use App\Http\Controllers\MatchController;
 use App\Http\Controllers\OpponentController;
 use App\Http\Controllers\PlayerController;
 use App\Http\Controllers\RecordController;
+use App\Http\Controllers\SitemapController;
 use App\Http\Controllers\VenueController;
 use App\Livewire\MatchList;
 use App\Livewire\PlayerList;
@@ -31,3 +32,4 @@ Route::get('/selectionneurs/{coach}', [CoachController::class, 'show'])->name('c
 Route::get('/records', [RecordController::class, 'index'])->name('records.index');
 Route::get('/records/joueurs', [RecordController::class, 'players'])->name('records.players');
 Route::get('/stades', [VenueController::class, 'index'])->name('venues.index');
+Route::get('/sitemap.xml', [SitemapController::class, 'index'])->name('sitemap');

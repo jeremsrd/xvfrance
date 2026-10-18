@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@yield('title', 'XV de France — L\'histoire complète depuis 1906')</title>
     <meta name="description" content="@yield('meta_description', 'Site de référence francophone sur l\'histoire du XV de France de rugby depuis 1906. Tous les matches, compositions, marqueurs et statistiques.')">
+    @php
+        // Adresse de référence : sans les filtres des listes ; la pagination seule reste une page à part
+        $page = (int) request()->query('page');
+        $canonical = url()->current() . (array_keys(request()->query()) === ['page'] && $page > 1 ? '?page=' . $page : '');
+    @endphp
+    <link rel="canonical" href="{{ $canonical }}">
     <meta name="theme-color" content="#0B1A3B">
     <link rel="icon" href="/favicon.ico" sizes="32x32">
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">

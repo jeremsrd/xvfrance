@@ -5,6 +5,10 @@
 
     RewriteEngine On
 
+    # Adresse unique pour les moteurs de recherche : www.xvfrance.fr → xvfrance.fr (en https)
+    RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+    RewriteRule ^ https://%1%{REQUEST_URI} [L,R=301]
+
     # Forcer HTTPS (les cookies de session sont « secure » en production)
     RewriteCond %{HTTPS} !=on
     RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]

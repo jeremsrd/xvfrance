@@ -7,7 +7,7 @@
 
 @section('title', $club->name . ' — internationaux du XV de France')
 
-@section('meta_description', 'Les ' . $players->count() . ' internationaux du XV de France issus du club ' . $club->name . ($club->city ? ' (' . $club->city . ')' : '') . ', de ' . $year($players->first()?->first_cap) . ' à aujourd\'hui.')
+@section('meta_description', $club->name . ($club->city ? ' (' . $club->city . ')' : '') . ' a fourni ' . \App\Support\FrenchText::count($players->count(), 'international', 'internationaux') . ' au XV de France' . ($players->isNotEmpty() ? ' depuis ' . $year($players->first()->first_cap) : '') . ' : la liste, leurs sélections et leurs postes.')
 
 @section('breadcrumb')
     <x-breadcrumb :items="['Clubs' => route('clubs.index'), $club->name => null]" />

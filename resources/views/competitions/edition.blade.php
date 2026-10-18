@@ -8,7 +8,7 @@
 
 @section('title', $c->name . ' ' . $e->year . ' — Les matches du XV de France')
 
-@section('meta_description', 'Le XV de France dans la compétition ' . $c->name . ' ' . $e->year . ' : ' . $record->total . ' matches, ' . $record->wins . ' victoires, ' . $record->losses . ' défaites.')
+@section('meta_description', 'Le XV de France dans la compétition ' . $c->name . ' ' . $e->year . ' : ' . \App\Support\FrenchText::count($record->total, 'match', 'matches') . ', ' . \App\Support\FrenchText::count($record->wins, 'victoire') . ', ' . \App\Support\FrenchText::count($record->losses, 'défaite') . '.')
 
 @section('breadcrumb')
     <x-breadcrumb :items="['Compétitions' => route('competitions.index'), $c->name => route('competitions.show', $c), (string) $e->year => null]" />

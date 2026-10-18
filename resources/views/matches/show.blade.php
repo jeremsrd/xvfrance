@@ -39,7 +39,7 @@
 
 @section('title', $home['name'] . ' ' . $home['score'] . '-' . $away['score'] . ' ' . $away['name'] . ' (' . $m->match_date->format('d/m/Y') . ') — Feuille de match')
 
-@section('meta_description', $resultLabel . ' ' . $m->france_score . '-' . $m->opponent_score . ' face à ' . $m->opponent->name . ' le ' . \App\Support\FrenchDate::long($m->match_date) . ($m->venue ? ' à ' . $m->venue->city : '') . ' : composition, marqueurs et chronologie du match.')
+@section('meta_description', $resultLabel . ' ' . $m->france_score . '-' . $m->opponent_score . ' face ' . $m->opponent->withArticle('à') . ' le ' . \App\Support\FrenchDate::long($m->match_date) . ($m->venue ? ' à ' . $m->venue->city : '') . ' : composition, marqueurs et chronologie du match.')
 
 @section('breadcrumb')
     <x-breadcrumb :items="['Matches' => route('matches.index'), $home['name'] . ' – ' . $away['name'] . ', ' . $m->match_date->format('d/m/Y') => null]" />
