@@ -80,6 +80,28 @@
                     </p>
                 @endif
 
+                @if($recordReigns)
+                    @php
+                        $recordLabels = ['selections' => 'des sélections', 'essais' => 'des essais', 'points' => 'des points'];
+                        $period = fn ($reign) => match (true) {
+                            $reign['to'] === null => 'depuis ' . $reign['from']->year,
+                            $reign['from']->year === $reign['to']->year => 'en ' . $reign['from']->year,
+                            default => 'de ' . $reign['from']->year . ' à ' . $reign['to']->year,
+                        };
+                    @endphp
+                    <ul class="mt-3 space-y-1">
+                        @foreach($recordReigns as $key => $reigns)
+                            <li>
+                                <a href="{{ route('records.players') }}#recordmen-{{ $key }}" class="inline-flex items-baseline gap-2 text-blue-100 hover:text-white {{ $focus }}">
+                                    <span @class(['h-2 w-2 shrink-0 self-center rounded-full', 'bg-or' => end($reigns)['to'] === null, 'bg-blue-300' => end($reigns)['to'] !== null]) aria-hidden="true"></span>
+                                    <span>Recordman {{ $recordLabels[$key] }} {{ collect($reigns)->map($period)->join(', ', ' et ') }}</span>
+                                    <span class="font-semibold text-white underline decoration-white/30 underline-offset-4">Voir la frise</span>
+                                </a>
+                            </li>
+                        @endforeach
+                    </ul>
+                @endif
+
                 @if($first)
                     <p class="mt-4 max-w-2xl text-blue-100">
                         @if($first === $last)

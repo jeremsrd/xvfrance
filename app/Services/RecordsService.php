@@ -11,6 +11,7 @@ use App\Models\RugbyMatch;
 use App\Support\RecordSummary;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Carbon;
+use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Collection;
 
 /**
@@ -252,6 +253,58 @@ class RecordsService
                 ->map(fn (Collection $own) => $own->sum(fn ($e) => $e->event_type->points(Carbon::parse($e->match_date))))
                 ->all()
         ));
+    }
+
+    /**
+     * Règnes de recordman seul d'un historique (capsRecordHistory()…), dans l'ordre chronologique : un record égalé
+     * puis repris seul par le même joueur ne fait qu'un règne.
+     *
+     * @return Collection<int, array{player: Player, from: Carbon, to: Carbon|null}>  to = null : règne en cours
+     */
+    public function soleReigns(Collection $history): Collection
+    {
+        return $history->filter(fn ($e) => $e['players']->count() === 1 && !$e['equalled'])
+            ->map(fn ($e) => ['player' => $e['players']->first(), 'from' => $e['match']->match_date, 'to' => $e['until']?->match_date])
+            ->reduce(function (Collection $reigns, array $reign) {
+                $last = $reigns->last();
+                if ($last && $last['player']->is($reign['player'])) {
+                    $reigns->put($reigns->keys()->last(), ['from' => $last['from']] + $reign);
+
+                    return $reigns;
+                }
+
+                return $reigns->push($reign);
+            }, collect());
+    }
+
+    /**
+     * Règnes d'un joueur comme recordman seul des sélections, des essais et des points. Les trois historiques sont
+     * mis en cache tant que les matches, compositions et événements ne changent pas.
+     *
+     * @return array<string, list<array{from: Carbon, to: Carbon|null}>>  clés selections, essais, points (records détenus seulement)
+     */
+    public function playerRecordReigns(Player $player): array
+    {
+        $fingerprint = collect([RugbyMatch::query(), MatchLineup::query(), MatchEvent::query()])
+            ->map(fn (Builder $query) => $query->count() . '@' . $query->max('updated_at'))->join('|');
+
+        $byPlayer = Cache::remember('record-reigns:' . md5($fingerprint), now()->addWeek(), fn () => collect([
+            'selections' => $this->capsRecordHistory(),
+            'essais' => $this->triesRecordHistory(),
+            'points' => $this->pointsRecordHistory(),
+        ])->map(fn (Collection $history) => $this->soleReigns($history)
+            ->groupBy(fn ($reign) => $reign['player']->id)
+            ->map(fn (Collection $reigns) => $reigns->map(fn ($reign) => [$reign['from']->toDateString(), $reign['to']?->toDateString()])->values()->all())
+            ->all()
+        )->all());
+
+        return collect($byPlayer)
+            ->map(fn (array $players) => array_map(
+                fn ($dates) => ['from' => Carbon::parse($dates[0]), 'to' => $dates[1] ? Carbon::parse($dates[1]) : null],
+                $players[$player->id] ?? []
+            ))
+            ->filter()
+            ->all();
     }
 
     // --- Interne ---

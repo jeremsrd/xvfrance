@@ -9,27 +9,10 @@
     $now = now();
     $span = $start->diffInDays($now);
     $at = fn ($date) => round($start->diffInDays($date) / $span * 100, 2);
-    $sole = $history->filter(fn ($e) => $e['players']->count() === 1 && !$e['equalled'])->values();
-    $reigns = $sole->map(fn ($e) => [
-        'label' => $e['players']->first()->fullName(),
-        'player' => $e['players']->first(),
-        'from' => $e['match']->match_date,
-        'to' => $e['until']?->match_date ?? $now,
-        'current' => $e['until'] === null,
-    ])
-        // Record égalé puis repris seul par le même joueur : un seul règne
-        ->reduce(function ($reigns, $reign) {
-            $last = $reigns->last();
-            if ($last && $last['player']->is($reign['player'])) {
-                $reigns->put($reigns->keys()->last(), ['from' => $last['from']] + $reign);
-
-                return $reigns;
-            }
-
-            return $reigns->push($reign);
-        }, collect());
-    if ($sole->isNotEmpty() && $sole->first()['match']->match_date->gt($start)) {
-        $reigns->prepend(['label' => 'Record partagé', 'player' => null, 'from' => $start, 'to' => $sole->first()['match']->match_date, 'current' => false]);
+    $reigns = app(\App\Services\RecordsService::class)->soleReigns($history)
+        ->map(fn ($reign) => ['label' => $reign['player']->fullName(), 'to' => $reign['to'] ?? $now, 'current' => $reign['to'] === null] + $reign);
+    if ($reigns->isNotEmpty() && $reigns->first()['from']->gt($start)) {
+        $reigns->prepend(['label' => 'Record partagé', 'player' => null, 'from' => $start, 'to' => $reigns->first()['from'], 'current' => false]);
     }
     $duration = function ($reign) {
         $n = (int) floor($reign['from']->diffInYears($reign['to']));
