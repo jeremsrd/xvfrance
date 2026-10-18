@@ -146,7 +146,7 @@ def main():
         rows += [r for r in found if (r['country'], r['base_first_name'], r['base_last_name']) not in known]
         with open(OUT, 'w', encoding='utf-8', newline='') as f:
             w = csv.DictWriter(f, fieldnames=['country', 'slug', 'base_first_name', 'base_last_name', 'first_name',
-                                              'last_name', 'wikidata', 'annees', 'statut'])
+                                              'last_name', 'wikidata', 'annees', 'statut'], lineterminator='\n')
             w.writeheader()
             w.writerows(sorted(rows, key=lambda r: (r['country'], r['base_last_name'], r['base_first_name'])))
 
