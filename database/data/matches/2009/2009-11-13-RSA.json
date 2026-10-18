@@ -34,11 +34,11 @@
       {"jersey": 3, "first_name": "John", "last_name": "Smit", "is_starter": true, "position": "pilier_droit", "is_captain": true},
       {"jersey": 4, "first_name": "Bakkies", "last_name": "Botha", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 5, "first_name": "Victor", "last_name": "Matfield", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
-      {"jersey": 6, "first_name": "Heinrich", "last_name": "Brussow", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 6, "first_name": "Heinrich", "last_name": "Brüssow", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 7, "first_name": "Schalk", "last_name": "Burger", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 8, "first_name": "Ryan", "last_name": "Kankowski", "is_starter": true, "position": "numero_huit", "is_captain": false},
       {"jersey": 9, "first_name": "Fourie", "last_name": "Du Preez", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
-      {"jersey": 10, "first_name": "Morne", "last_name": "Steyn", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
+      {"jersey": 10, "first_name": "Morné", "last_name": "Steyn", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
       {"jersey": 11, "first_name": "Bryan", "last_name": "Habana", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 12, "first_name": "Adi", "last_name": "Jacobs", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 13, "first_name": "Jaque", "last_name": "Fourie", "is_starter": true, "position": "centre", "is_captain": false},
@@ -55,15 +55,15 @@
   },
   "events": [
     {"team_side": "france", "type": "penalite", "player_last_name": "Dupuy", "player_first_name": "Julien", "minute": 6},
-    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Steyn", "player_first_name": "Morne", "minute": 20},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Steyn", "player_first_name": "Morné", "minute": 20},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Smit", "player_first_name": "John", "minute": 28},
-    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Steyn", "player_first_name": "Morne", "minute": 29},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Steyn", "player_first_name": "Morné", "minute": 29},
     {"team_side": "france", "type": "essai", "player_last_name": "Clerc", "player_first_name": "Vincent", "minute": 31},
     {"team_side": "france", "type": "penalite", "player_last_name": "Dupuy", "player_first_name": "Julien", "minute": 40},
     {"team_side": "france", "type": "penalite", "player_last_name": "Dupuy", "player_first_name": "Julien", "minute": 49},
     {"team_side": "france", "type": "penalite", "player_last_name": "Dupuy", "player_first_name": "Julien", "minute": 62},
     {"team_side": "france", "type": "penalite", "player_last_name": "Parra", "player_first_name": "Morgan", "minute": 79},
-    {"team_side": "adversaire", "type": "drop", "player_last_name": "Steyn", "player_first_name": "Morne", "minute": null}
+    {"team_side": "adversaire", "type": "drop", "player_last_name": "Steyn", "player_first_name": "Morné", "minute": null}
   ],
   "substitutions": [
     {"team_side": "france", "player_off_last_name": "David", "player_off_first_name": "Yann", "player_on_last_name": "Marty", "player_on_first_name": "David", "minute": 50, "is_tactical": true},

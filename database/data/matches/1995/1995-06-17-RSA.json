@@ -43,13 +43,13 @@
       {"jersey": 12, "first_name": "Hennie", "last_name": "Le Roux", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 13, "first_name": "Japie", "last_name": "Mulder", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 14, "first_name": "James", "last_name": "Small", "is_starter": true, "position": "ailier", "is_captain": false},
-      {"jersey": 15, "first_name": "Andre", "last_name": "Joubert", "is_starter": true, "position": "arriere", "is_captain": false},
+      {"jersey": 15, "first_name": "André", "last_name": "Joubert", "is_starter": true, "position": "arriere", "is_captain": false},
       {"jersey": 16, "first_name": "Gavin", "last_name": "Johnson", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 17, "first_name": "Chris", "last_name": "Scholtz", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 18, "first_name": "Johan", "last_name": "Roux", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 19, "first_name": "Rudolf", "last_name": "Straeuli", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 20, "first_name": "Garry", "last_name": "Pagel", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 21, "first_name": "Naka", "last_name": "Drotske", "is_starter": false, "position": null, "is_captain": false}
+      {"jersey": 21, "first_name": "Naka", "last_name": "Drotské", "is_starter": false, "position": null, "is_captain": false}
     ]
   },
   "events": [

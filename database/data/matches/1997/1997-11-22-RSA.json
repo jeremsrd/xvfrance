@@ -34,7 +34,7 @@
       {"jersey": 4, "first_name": "Krynauw", "last_name": "Otto", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 5, "first_name": "Mark", "last_name": "Andrews", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 6, "first_name": "Rassie", "last_name": "Erasmus", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
-      {"jersey": 7, "first_name": "Andre", "last_name": "Venter", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 7, "first_name": "André", "last_name": "Venter", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 8, "first_name": "Gary", "last_name": "Teichmann", "is_starter": true, "position": "numero_huit", "is_captain": true},
       {"jersey": 9, "first_name": "Werner", "last_name": "Swanepoel", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
       {"jersey": 10, "first_name": "Henry", "last_name": "Honiball", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
@@ -48,7 +48,7 @@
       {"jersey": 18, "first_name": "Andy", "last_name": "Aitken", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 19, "first_name": "Braam", "last_name": "Els", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 20, "first_name": "Dawie", "last_name": "Theron", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 21, "first_name": "Naka", "last_name": "Drotske", "is_starter": false, "position": null, "is_captain": false}
+      {"jersey": 21, "first_name": "Naka", "last_name": "Drotské", "is_starter": false, "position": null, "is_captain": false}
     ]
   },
   "events": [

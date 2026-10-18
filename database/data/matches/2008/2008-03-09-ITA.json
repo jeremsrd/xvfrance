@@ -32,7 +32,7 @@
     "adversaire": [
       {"jersey": 1, "first_name": "Andrea", "last_name": "Lo Cicero", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
       {"jersey": 2, "first_name": "Leonardo", "last_name": "Ghiraldini", "is_starter": true, "position": "talonneur", "is_captain": false},
-      {"jersey": 3, "first_name": "Martin", "last_name": "Castrogiovanni", "is_starter": true, "position": "pilier_droit", "is_captain": false},
+      {"jersey": 3, "first_name": "Martín", "last_name": "Castrogiovanni", "is_starter": true, "position": "pilier_droit", "is_captain": false},
       {"jersey": 4, "first_name": "Carlo", "last_name": "Del Fava", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 5, "first_name": "Marco", "last_name": "Bortolami", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 6, "first_name": "Josh", "last_name": "Sole", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
@@ -62,7 +62,7 @@
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Marcato", "player_first_name": "Andrea", "minute": 31},
     {"team_side": "france", "type": "penalite", "player_last_name": "Yachvili", "player_first_name": "Dimitri", "minute": 37},
     {"team_side": "france", "type": "essai", "player_last_name": "Jauzion", "player_first_name": "Yannick", "minute": 53},
-    {"team_side": "adversaire", "type": "essai", "player_last_name": "Castrogiovanni", "player_first_name": "Martin", "minute": 58},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Castrogiovanni", "player_first_name": "Martín", "minute": 58},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Marcato", "player_first_name": "Andrea", "minute": 59},
     {"team_side": "france", "type": "transformation", "player_last_name": "Yachvili", "player_first_name": "Dimitri", "minute": 66},
     {"team_side": "france", "type": "essai", "player_last_name": "Rougerie", "player_first_name": "Aurélien", "minute": 66}

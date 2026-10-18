@@ -32,7 +32,7 @@
     ],
     "adversaire": [
       {"jersey": 1, "first_name": "Mayco", "last_name": "Vivas", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
-      {"jersey": 2, "first_name": "Julian", "last_name": "Montoya", "is_starter": true, "position": "talonneur", "is_captain": true},
+      {"jersey": 2, "first_name": "Julián", "last_name": "Montoya", "is_starter": true, "position": "talonneur", "is_captain": true},
       {"jersey": 3, "first_name": "Eduardo", "last_name": "Bello", "is_starter": true, "position": "pilier_droit", "is_captain": false},
       {"jersey": 4, "first_name": "Franco", "last_name": "Molina", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 5, "first_name": "Lucas", "last_name": "Paulos", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
@@ -53,7 +53,7 @@
       {"jersey": 20, "first_name": "Pedro", "last_name": "Rubiolo", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 21, "first_name": "Gonzalo", "last_name": "Bertranou", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 22, "first_name": "Tomás", "last_name": "Albornoz", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 23, "first_name": "Matias", "last_name": "Orlando", "is_starter": false, "position": null, "is_captain": false}
+      {"jersey": 23, "first_name": "Matías", "last_name": "Orlando", "is_starter": false, "position": null, "is_captain": false}
     ]
   },
   "events": [

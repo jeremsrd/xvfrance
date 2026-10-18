@@ -1,0 +1,94 @@
+country,slug,base_first_name,base_last_name,first_name,last_name,wikidata,annees,statut
+ARG,andres-bordoy-6136,Andres,Bordoy,Andrés,Bordoy,Q16382846,2012-2012,vérifié
+ARG,gonzalo-camardon-4312,Gonzalo,Camardon,Gonzalo,Camardón,Q3110610,1992-2002,vérifié
+ARG,agustin-canalda-4769,Agustin,Canalda,Agustín,Canalda,Q3606940,1997-1999,vérifié
+ARG,jose-cilley-4661,Jose,Cilley,José,Cilley,Q3186246,1996-1996,vérifié
+ARG,matias-cortese-6343,Matias,Cortese,Matías,Cortese,Q3299080,2014-2014,vérifié
+ARG,andres-courreges-3666,Andres,Courreges,Andrés,Courreges,Q2849008,1982-1988,vérifié
+ARG,tomas-cubelli-6140,Tomas,Cubelli,Tomás,Cubelli,Q7820453,2012-2021,vérifié
+ARG,tomas-de-la-vega-6128,Tomas,De La Vega,Tomás,de la Vega,Q7820539,2012-2012,vérifié
+ARG,serafin-dengra-3680,Serafin,Dengra,Serafín,Dengra,Q3479112,1982-1988,vérifié
+ARG,diego-dominguez-4017,Diego,Dominguez,Diego,Domínguez,Q1220419,1988-1988,vérifié
+ARG,julio-farias-cabello-5987,Julio,Farias Cabello,Julio,Farías Cabello,Q3189811,2010-2012,vérifié
+ARG,santiago-fernandez-5955,Santiago,Fernandez,Santiago,Fernández,Q3472873,2010-2010,vérifié
+ARG,carlos-ignacio-fernandez-lobbe-4818,Carlos Ignacio,Fernandez Lobbe,Carlos Ignacio,Fernández Lobbe,Q1648228,1998-2007,vérifié
+ARG,juan-martin-fernandez-lobbe-5619,Juan Martín,Fernandez Lobbe,Juan Martín,Fernández Lobbe,Q950241,2006-2012,vérifié
+ARG,alvaro-galindo-5791,Alvaro,Galindo,Álvaro,Galindo,Q2117766,2008-2010,vérifié
+ARG,santiago-garcia-botta-6453,Santiago,Garcia Botta,Santiago,García Botta,Q21066991,2016-2018,vérifié
+ARG,hernan-garcia-simon-4314,Hernan,Garcia Simon,Hernán,García Simón,Q21066115,1992-1992,vérifié
+ARG,pablo-garreton-4000,Pablo,Garreton,Pablo,Garretón,Q3359973,1988-1992,vérifié
+ARG,fabio-gomez-3845,Fabio,Gomez,Fabio,Gómez,Q3063725,1986-1986,vérifié
+ARG,lucas-gonzalez-amorosino-5956,Lucas,Gonzalez Amorosino,Lucas,González Amorosino,Q3265049,2010-2016,vérifié
+ARG,santiago-gonzalez-bonorino-5309,Santiago,Gonzalez Bonorino,Santiago,González Bonorino,Q616217,2003-2007,vérifié
+ARG,eusebio-guinazu-5473,Eusebio,Guinazu,Eusebio,Guiñazú,Q3060976,2004-2012,vérifié
+ARG,juan-manuel-leguizamon-5624,Juan Manuel,Leguizamon,Juan Manuel,Leguizamón,Q1403617,2006-2016,vérifié
+ARG,german-llanes-4309,German,Llanes,Germán,Llanes,Q3104239,1992-1998,vérifié
+ARG,federico-martin-aramburu-5471,Federico,Martin Aramburu,Federico,Martín Aramburú,Q2313220,2004-2008,vérifié
+ARG,santiago-meson-4010,Santiago,Meson,Santiago,Mesón,Q1154165,1988-1992,vérifié
+ARG,julian-montoya-129,Julian,Montoya,Julián,Montoya,Q20981768,2016-2024,vérifié
+ARG,jose-maria-nunez-piossek-5225,Jose Maria,Nunez Piossek,José María,Núñez Piossek,Q3186451,2002-2006,vérifié
+ARG,jose-orengo-4765,Jose,Orengo,José,Orengo,Q3186497,1997-2003,vérifié
+ARG,matias-orlando-6459,Matias,Orlando,Matías,Orlando,Q20981841,2016-2024,vérifié
+ARG,raul-perez-4310,Raúl,Perez,Raúl,Pérez,Q3930845,1992-1995,vérifié
+ARG,guido-petti-pagadizabal-6339,Guido,Petti Pagadizabal,Guido,Petti Pagadizábal,Q18637871,2014-2021,vérifié
+ARG,agustin-pichot-4603,Agustin,Pichot,Agustín,Pichot,Q399410,1995-2007,vérifié
+ARG,sebastian-salvat-4014,Sebastian,Salvat,Sebastián,Salvat,Q3476884,1988-1995,vérifié
+ARG,nicolas-sanchez-6162,Nicolas,Sanchez,Nicolás,Sánchez,Q542948,2012-2021,vérifié
+ARG,martin-sansot-3276,Martin,Sansot,Martín,Sansot,Q91880493,1975-1975,vérifié
+ARG,jose-santamarina-4318,Jose,Santamarina,José,Santamarina,Q16195315,1992-1995,vérifié
+ARG,martin-teran-4324,Martin,Teran,Martín,Terán,Q3295645,1992-1995,vérifié
+ARG,joaquin-tuculet-6133,Joaquin,Tuculet,Joaquín,Tuculet,Q3179777,2012-2016,vérifié
+ARG,fabian-turnes-3799,Fabian,Turnes,Fabián,Turnes,Q3063769,1985-1997,vérifié
+AUS,enrique-rodriguez-3850,Enrique,Rodriguez,Enrique,Rodríguez,Q3054707,1986-1987,vérifié
+IRL,ciaran-frawley-6948,Ciaran,Frawley,Ciarán,Frawley,Q57586493,2024-2024,vérifié
+IRL,ronan-kelleher-265,Ronan,Kelleher,Rónan,Kelleher,Q62942455,2021-2026,vérifié
+ITA,matias-aguero-5934,Matias,Aguero,Matías,Agüero,Q3300062,2010-2015,vérifié
+ITA,martin-castrogiovanni-5295,Martin,Castrogiovanni,Martín,Castrogiovanni,Q1039026,2003-2016,vérifié
+ITA,diego-dominguez-4721,Diego,Dominguez,Diego,Domínguez,Q1220419,1997-2002,vérifié
+ITA,gonzalo-garcia-5933,Gonzalo,Garcia,Gonzalo,García,Q3110622,2010-2016,vérifié
+ITA,javier-pertile-4723,Javier,Pertile,Javier,Pértile,Q3163166,1997-1997,vérifié
+NAM,obert-nortje-6937,Obert,Nortje,Obert,Nortjé,Q55760183,2023-2023,vérifié
+ROU,bogdan-balan-5595,Bogdan,Balan,Bogdan,Bălan,Q2908627,2006-2006,vérifié
+ROU,petru-balan-4905,Petru,Balan,Petru,Bălan,Q3377669,1999-2006,vérifié
+ROU,gheorghe-bentia-1091,Gheorghe,Bentia,Gheorghe,Benția,Q371377,1924-1924,vérifié
+ROU,romeo-bezuscu-3919,Romeo,Bezuscu,Romeo,Bezușcu,Q29382482,1987-1987,vérifié
+ROU,ionut-botezatu-6397,Ionut,Botezatu,Ionuț,Botezatu,Q3154124,2015-2015,vérifié
+ROU,tiberiu-brinza-4386,Tiberiu,Brinza,Tiberiu,Brînză,Q16197765,1993-1997,vérifié
+ROU,sandu-ciorascu-4021,Sandu,Ciorascu,Sandu,Ciorăscu,Q29165846,1988-1999,vérifié
+ROU,stefan-constantin-3660,Stefan,Constantin,Ștefan,Constantin,Q62926120,1982-1986,vérifié
+ROU,catalin-draguceanu-4594,Catalin,Draguceanu,Cătălin,Drăguceanu,Q29164614,1995-2000,vérifié
+ROU,danut-dumbrava-5332,Danut,Dumbrava,Dănuț,Dumbravă,Q3045593,2003-2015,vérifié
+ROU,iulian-dumitras-5606,Iulian,Dumitras,Iulian,Dumitraș,Q3156026,2006-2006,vérifié
+ROU,catalin-fercu-5601,Catalin,Fercu,Cătălin,Fercu,Q2941606,2006-2015,vérifié
+ROU,andrei-guranescu-4221,Andrei,Guranescu,Andrei,Gurănescu,Q29166749,1991-1995,vérifié
+ROU,liviu-hodorca-3841,Liviu,Hodorca,Liviu,Hodorcă,Q50128589,1986-1988,vérifié
+ROU,paulica-ion-5603,Paulica,Ion,Paulică,Ion,Q3372650,2006-2015,vérifié
+ROU,mihaita-lazar-6384,Mihaita,Lazar,Mihăiță,Lazăr,Q3313064,2015-2015,vérifié
+ROU,madalin-lemnaru-6393,Madalin,Lemnaru,Mădălin,Lemnaru,Q18637571,2015-2015,vérifié
+ROU,florica-murariu-3337,Florica,Murariu,Florică,Murariu,Q3074261,1976-1988,vérifié
+ROU,florea-opris-3835,Florea,Opris,Florea,Opriș,Q40422251,1986-1987,vérifié
+ROU,valentin-poparlan-6386,Valentin,Poparlan,Valentin,Popârlan,Q16231889,2015-2015,vérifié
+ROU,horatiu-pungea-6396,Horatiu,Pungea,Horațiu,Pungea,Q5902876,2015-2015,vérifié
+ROU,nicolae-racean-4023,Nicolae,Racean,Nicolae,Răcean,Q29344927,1988-1995,vérifié
+ROU,cosmin-ratiu-5597,Cosmin,Ratiu,Cosmin,Rațiu,Q2998289,2006-2006,vérifié
+ROU,cristian-sauan-5331,Cristian,Sauan,Cristian,Săuan,Q3002857,2003-2003,vérifié
+ROU,ovidiu-slusariuc-4652,Ovidiu,Slusariuc,Ovidiu,Slușariuc,Q29347962,1996-1999,vérifié
+ROU,petrisor-toderasc-5333,Petrisor,Toderasc,Petrișor,Toderașc,Q3377610,2003-2003,vérifié
+ROU,ionut-tofan-4759,Ionut,Tofan,Ionuț,Tofan,Q3154126,1997-2003,vérifié
+ROU,stefan-tofan-3887,Stefan,Tofan,Ștefan,Tofan,Q29381908,1986-1992,vérifié
+ROU,ovidiu-tonita-5076,Ovidiu,Tonita,Ovidiu,Tonița,Q3358954,2000-2015,vérifié
+RSA,heinrich-brussow-5875,Heinrich,Brussow,Heinrich,Brüssow,Q2053950,2009-2009,vérifié
+RSA,jacques-cronje-5512,Jacques,Cronje,Jacques,Cronjé,Q3158609,2005-2006,vérifié
+RSA,naka-drotske-4562,Naka,Drotske,Naka,Drotské,Q3335328,1995-1997,vérifié
+RSA,morne-du-plessis-3211,Morne,Du Plessis,Morné,du Plessis,Q3324209,1974-1980,vérifié
+RSA,andre-joubert-4556,Andre,Joubert,André,Joubert,Q2848016,1995-1996,vérifié
+RSA,corne-krige-5133,Corne,Krige,Corné,Krige,Q768777,2001-2002,vérifié
+RSA,handre-pollard-6543,Handre,Pollard,Handré,Pollard,Q15736032,2017-2023,vérifié
+RSA,andre-pretorius-5239,Andre,Pretorius,André,Pretorius,Q546277,2002-2002,vérifié
+RSA,gurthro-steenkamp-5521,Gurthro,Steenkamp,Gurthrö,Steenkamp,Q138586,2005-2013,vérifié
+RSA,morne-steyn-5877,Morne,Steyn,Morné,Steyn,Q1390892,2009-2013,vérifié
+RSA,andre-venter-4683,Andre,Venter,André,Venter,Q508342,1996-2001,vérifié
+RSA,andre-vos-5134,Andre,Vos,André,Vos,Q2021505,2001-2001,vérifié
+URU,nicolas-freitas-6909,Nicolas,Freitas,Nicolás,Freitas,Q28943604,2023-2023,vérifié
+URU,agustin-ormaechea-6920,Agustin,Ormaechea,Agustín,Ormaechea,Q9142690,2023-2023,vérifié
+URU,andres-vilaseca-6910,Andres,Vilaseca,Andrés,Vilaseca,Q21066922,2023-2023,vérifié

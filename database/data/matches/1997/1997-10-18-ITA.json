@@ -37,7 +37,7 @@
       {"jersey": 7, "first_name": "Andrea", "last_name": "Sgorlon", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 8, "first_name": "Carlo", "last_name": "Checchinato", "is_starter": true, "position": "numero_huit", "is_captain": false},
       {"jersey": 9, "first_name": "Alessandro", "last_name": "Troncon", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
-      {"jersey": 10, "first_name": "Diego", "last_name": "Dominguez", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
+      {"jersey": 10, "first_name": "Diego", "last_name": "Domínguez", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
       {"jersey": 11, "first_name": "Marcello", "last_name": "Cuttitta", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 12, "first_name": "Ivan", "last_name": "Francescato", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 13, "first_name": "Cristian", "last_name": "Stoica", "is_starter": true, "position": "centre", "is_captain": false},
@@ -48,21 +48,21 @@
     ]
   },
   "events": [
-    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Dominguez", "player_first_name": "Diego", "minute": 7},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Domínguez", "player_first_name": "Diego", "minute": 7},
     {"team_side": "france", "type": "essai", "player_last_name": "Califano", "player_first_name": "Christian", "minute": 10},
-    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Dominguez", "player_first_name": "Diego", "minute": 29},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Domínguez", "player_first_name": "Diego", "minute": 29},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Vaccari", "player_first_name": "Paolo", "minute": 48},
-    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Dominguez", "player_first_name": "Diego", "minute": 48},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Domínguez", "player_first_name": "Diego", "minute": 48},
     {"team_side": "france", "type": "essai", "player_last_name": "Saint-André", "player_first_name": "Philippe", "minute": 59},
     {"team_side": "france", "type": "transformation", "player_last_name": "Lamaison", "player_first_name": "Christophe", "minute": 59},
-    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Dominguez", "player_first_name": "Diego", "minute": 63},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Domínguez", "player_first_name": "Diego", "minute": 63},
     {"team_side": "france", "type": "penalite", "player_last_name": "Lamaison", "player_first_name": "Christophe", "minute": null},
     {"team_side": "france", "type": "penalite", "player_last_name": "Lamaison", "player_first_name": "Christophe", "minute": null},
     {"team_side": "france", "type": "penalite", "player_last_name": "Lamaison", "player_first_name": "Christophe", "minute": null},
     {"team_side": "france", "type": "penalite", "player_last_name": "Lamaison", "player_first_name": "Christophe", "minute": null},
     {"team_side": "france", "type": "penalite", "player_last_name": "Lamaison", "player_first_name": "Christophe", "minute": null},
     {"team_side": "france", "type": "penalite", "player_last_name": "Lamaison", "player_first_name": "Christophe", "minute": null},
-    {"team_side": "adversaire", "type": "drop", "player_last_name": "Dominguez", "player_first_name": "Diego", "minute": null}
+    {"team_side": "adversaire", "type": "drop", "player_last_name": "Domínguez", "player_first_name": "Diego", "minute": null}
   ],
   "substitutions": [
     {"team_side": "france", "player_off_last_name": "Galthié", "player_off_first_name": "Fabien", "player_on_last_name": "Cazalbou", "player_on_first_name": "Jérôme", "minute": 31, "is_tactical": true},

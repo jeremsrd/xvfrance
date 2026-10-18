@@ -36,7 +36,7 @@
       {"jersey": 5, "first_name": "Moaner", "last_name": "Van Heerden", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 6, "first_name": "Kleintjie", "last_name": "Grobler", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 7, "first_name": "Klippies", "last_name": "Kritzinger", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
-      {"jersey": 8, "first_name": "Morne", "last_name": "Du Plessis", "is_starter": true, "position": "numero_huit", "is_captain": true},
+      {"jersey": 8, "first_name": "Morné", "last_name": "du Plessis", "is_starter": true, "position": "numero_huit", "is_captain": true},
       {"jersey": 9, "first_name": "Paul", "last_name": "Bayvel", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
       {"jersey": 10, "first_name": "Gerald", "last_name": "Bosch", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
       {"jersey": 11, "first_name": "Jan", "last_name": "Schlebusch", "is_starter": true, "position": "ailier", "is_captain": false},
@@ -67,7 +67,7 @@
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Bosch", "player_first_name": "Gerald", "minute": null},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Bosch", "player_first_name": "Gerald", "minute": null},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Fourie", "player_first_name": "Carel", "minute": null},
-    {"team_side": "adversaire", "type": "essai", "player_last_name": "Du Plessis", "player_first_name": "Morne", "minute": null},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "du Plessis", "player_first_name": "Morné", "minute": null},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Fourie", "player_first_name": "Carel", "minute": null}
   ],
   "substitutions": []

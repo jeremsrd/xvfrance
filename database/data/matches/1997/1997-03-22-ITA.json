@@ -33,12 +33,12 @@
       {"jersey": 7, "first_name": "Andrea", "last_name": "Sgorlon", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 8, "first_name": "Julian", "last_name": "Gardner", "is_starter": true, "position": "numero_huit", "is_captain": false},
       {"jersey": 9, "first_name": "Alessandro", "last_name": "Troncon", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
-      {"jersey": 10, "first_name": "Diego", "last_name": "Dominguez", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
+      {"jersey": 10, "first_name": "Diego", "last_name": "Domínguez", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
       {"jersey": 11, "first_name": "Marcello", "last_name": "Cuttitta", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 12, "first_name": "Ivan", "last_name": "Francescato", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 13, "first_name": "Stefano", "last_name": "Bordon", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 14, "first_name": "Paolo", "last_name": "Vaccari", "is_starter": true, "position": "ailier", "is_captain": false},
-      {"jersey": 15, "first_name": "Javier", "last_name": "Pertile", "is_starter": true, "position": "arriere", "is_captain": false},
+      {"jersey": 15, "first_name": "Javier", "last_name": "Pértile", "is_starter": true, "position": "arriere", "is_captain": false},
       {"jersey": 16, "first_name": "Gianluca", "last_name": "Guidi", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 17, "first_name": "Francesco", "last_name": "Mazzariol", "is_starter": false, "position": null, "is_captain": false}
     ]
@@ -57,14 +57,14 @@
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Gardner", "player_first_name": "Julian", "minute": null},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Croci", "player_first_name": "Giambatista", "minute": null},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Vaccari", "player_first_name": "Paolo", "minute": null},
-    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Dominguez", "player_first_name": "Diego", "minute": null},
-    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Dominguez", "player_first_name": "Diego", "minute": null},
-    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Dominguez", "player_first_name": "Diego", "minute": null},
-    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Dominguez", "player_first_name": "Diego", "minute": null},
-    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Dominguez", "player_first_name": "Diego", "minute": null},
-    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Dominguez", "player_first_name": "Diego", "minute": null},
-    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Dominguez", "player_first_name": "Diego", "minute": null},
-    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Dominguez", "player_first_name": "Diego", "minute": null}
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Domínguez", "player_first_name": "Diego", "minute": null},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Domínguez", "player_first_name": "Diego", "minute": null},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Domínguez", "player_first_name": "Diego", "minute": null},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Domínguez", "player_first_name": "Diego", "minute": null},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Domínguez", "player_first_name": "Diego", "minute": null},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Domínguez", "player_first_name": "Diego", "minute": null},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Domínguez", "player_first_name": "Diego", "minute": null},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Domínguez", "player_first_name": "Diego", "minute": null}
   ],
   "substitutions": [
     {"team_side": "france", "player_off_last_name": "Costes", "player_off_first_name": "Arnaud", "player_on_last_name": "Betsen", "player_on_first_name": "Serge", "minute": 59, "is_tactical": true},

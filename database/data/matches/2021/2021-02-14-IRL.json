@@ -45,7 +45,7 @@
       {"jersey": 13, "first_name": "Garry", "last_name": "Ringrose", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 14, "first_name": "Keith", "last_name": "Earls", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 15, "first_name": "Hugo", "last_name": "Keenan", "is_starter": true, "position": "arriere", "is_captain": false},
-      {"jersey": 16, "first_name": "Ronan", "last_name": "Kelleher", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 16, "first_name": "Rónan", "last_name": "Kelleher", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 17, "first_name": "Ed", "last_name": "Byrne", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 18, "first_name": "Tadhg", "last_name": "Furlong", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 19, "first_name": "Ultan", "last_name": "Dillane", "is_starter": false, "position": null, "is_captain": false},
@@ -61,7 +61,7 @@
     {"team_side": "france", "type": "transformation", "player_last_name": "Jalibert", "player_first_name": "Matthieu", "minute": 31},
     {"team_side": "france", "type": "penalite", "player_last_name": "Jalibert", "player_first_name": "Matthieu", "minute": 39},
     {"team_side": "france", "type": "essai", "player_last_name": "Penaud", "player_first_name": "Damian", "minute": 55},
-    {"team_side": "adversaire", "type": "essai", "player_last_name": "Kelleher", "player_first_name": "Ronan", "minute": 57},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Kelleher", "player_first_name": "Rónan", "minute": 57},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Byrne", "player_first_name": "Ross", "minute": 58},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Byrne", "player_first_name": "Ross", "minute": 65}
   ],

@@ -40,16 +40,16 @@
       {"jersey": 9, "first_name": "Teodor", "last_name": "Coman", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
       {"jersey": 10, "first_name": "Gelu", "last_name": "Ignat", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
       {"jersey": 11, "first_name": "Gheorghe", "last_name": "Solomie", "is_starter": true, "position": "ailier", "is_captain": false},
-      {"jersey": 12, "first_name": "Nicolae", "last_name": "Racean", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 12, "first_name": "Nicolae", "last_name": "Răcean", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 13, "first_name": "Adrian", "last_name": "Lungu", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 14, "first_name": "Marian", "last_name": "Dumitru", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 15, "first_name": "Vasile", "last_name": "Brici", "is_starter": true, "position": "arriere", "is_captain": false},
       {"jersey": 16, "first_name": "Viorel", "last_name": "Ionescu", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 17, "first_name": "Cristian", "last_name": "Gheorghe", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 18, "first_name": "Andrei", "last_name": "Guranescu", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 18, "first_name": "Andrei", "last_name": "Gurănescu", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 19, "first_name": "Mihai", "last_name": "Foca", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 20, "first_name": "Neculai", "last_name": "Nichitean", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 21, "first_name": "Stefan", "last_name": "Tofan", "is_starter": false, "position": null, "is_captain": false}
+      {"jersey": 21, "first_name": "Ștefan", "last_name": "Tofan", "is_starter": false, "position": null, "is_captain": false}
     ]
   },
   "events": [
@@ -57,8 +57,8 @@
     {"team_side": "france", "type": "transformation", "player_last_name": "Viars", "player_first_name": "Sébastien", "minute": 24},
     {"team_side": "france", "type": "essai", "player_last_name": "Saint-André", "player_first_name": "Philippe", "minute": 24},
     {"team_side": "france", "type": "essai", "player_last_name": "Cadieu", "player_first_name": "Jean-Marie", "minute": 50},
-    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Racean", "player_first_name": "Nicolae", "minute": 66},
-    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Racean", "player_first_name": "Nicolae", "minute": 71},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Răcean", "player_first_name": "Nicolae", "minute": 66},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Răcean", "player_first_name": "Nicolae", "minute": 71},
     {"team_side": "france", "type": "essai_penalite", "player_last_name": null, "player_first_name": null, "minute": 73},
     {"team_side": "france", "type": "transformation", "player_last_name": "Ougier", "player_first_name": "Stéphane", "minute": 73},
     {"team_side": "france", "type": "essai_penalite", "player_last_name": null, "player_first_name": null, "minute": 80},

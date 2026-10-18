@@ -28,7 +28,7 @@
       {"jersey": 3, "first_name": "Gheorghe", "last_name": "Leonte", "is_starter": true, "position": "pilier_droit", "is_captain": false},
       {"jersey": 4, "first_name": "Gheorghe", "last_name": "Dumitru", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 5, "first_name": "Gheorghe", "last_name": "Caragea", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
-      {"jersey": 6, "first_name": "Florica", "last_name": "Murariu", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 6, "first_name": "Florică", "last_name": "Murariu", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 7, "first_name": "Alexandru", "last_name": "Radulescu", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 8, "first_name": "Laurentiu", "last_name": "Constantin", "is_starter": true, "position": "numero_huit", "is_captain": false},
       {"jersey": 9, "first_name": "Mircea", "last_name": "Paraschiv", "is_starter": true, "position": "demi_de_melee", "is_captain": true},
@@ -38,7 +38,7 @@
       {"jersey": 13, "first_name": "Gheorghe", "last_name": "Varzaru", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 14, "first_name": "Adrian", "last_name": "Lungu", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 15, "first_name": "Laurentiu", "last_name": "Codoi", "is_starter": true, "position": "arriere", "is_captain": false},
-      {"jersey": 16, "first_name": "Stefan", "last_name": "Constantin", "is_starter": false, "position": null, "is_captain": false}
+      {"jersey": 16, "first_name": "Ștefan", "last_name": "Constantin", "is_starter": false, "position": null, "is_captain": false}
     ]
   },
   "events": [

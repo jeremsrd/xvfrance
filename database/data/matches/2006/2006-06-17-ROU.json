@@ -29,28 +29,28 @@
       {"jersey": 22, "first_name": "Julien", "last_name": "Laharrague", "is_starter": false, "position": null, "is_captain": false}
     ],
     "adversaire": [
-      {"jersey": 1, "first_name": "Petru", "last_name": "Balan", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
+      {"jersey": 1, "first_name": "Petru", "last_name": "Bălan", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
       {"jersey": 2, "first_name": "Marius", "last_name": "Tincu", "is_starter": true, "position": "talonneur", "is_captain": false},
-      {"jersey": 3, "first_name": "Bogdan", "last_name": "Balan", "is_starter": true, "position": "pilier_droit", "is_captain": false},
+      {"jersey": 3, "first_name": "Bogdan", "last_name": "Bălan", "is_starter": true, "position": "pilier_droit", "is_captain": false},
       {"jersey": 4, "first_name": "Sorin", "last_name": "Socol", "is_starter": true, "position": "deuxieme_ligne", "is_captain": true},
       {"jersey": 5, "first_name": "Cristian", "last_name": "Petre", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 6, "first_name": "Stelian", "last_name": "Burcea", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 7, "first_name": "Alexandru", "last_name": "Tudori", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
-      {"jersey": 8, "first_name": "Cosmin", "last_name": "Ratiu", "is_starter": true, "position": "numero_huit", "is_captain": false},
+      {"jersey": 8, "first_name": "Cosmin", "last_name": "Rațiu", "is_starter": true, "position": "numero_huit", "is_captain": false},
       {"jersey": 9, "first_name": "Lucian Mihai", "last_name": "Sirbu", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
       {"jersey": 10, "first_name": "Tiberius Ionut", "last_name": "Dimofte", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
       {"jersey": 11, "first_name": "Ioan", "last_name": "Teodorescu", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 12, "first_name": "Romeo Stefan", "last_name": "Gontineac", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 13, "first_name": "Robert", "last_name": "Dascalu", "is_starter": true, "position": "centre", "is_captain": false},
-      {"jersey": 14, "first_name": "Catalin", "last_name": "Fercu", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 14, "first_name": "Cătălin", "last_name": "Fercu", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 15, "first_name": "Florin", "last_name": "Vlaicu", "is_starter": true, "position": "arriere", "is_captain": false},
       {"jersey": 16, "first_name": "Cezar", "last_name": "Popescu", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 17, "first_name": "Paulica", "last_name": "Ion", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 17, "first_name": "Paulică", "last_name": "Ion", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 18, "first_name": "Razvan", "last_name": "Mavrodin", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 19, "first_name": "Valentin", "last_name": "Ursache", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 20, "first_name": "Valentin", "last_name": "Calafeteanu", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 21, "first_name": "Gabriel", "last_name": "Brezoianu", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 22, "first_name": "Iulian", "last_name": "Dumitras", "is_starter": false, "position": null, "is_captain": false}
+      {"jersey": 22, "first_name": "Iulian", "last_name": "Dumitraș", "is_starter": false, "position": null, "is_captain": false}
     ]
   },
   "events": [
@@ -69,7 +69,7 @@
     {"team_side": "france", "type": "transformation", "player_last_name": "Traille", "player_first_name": "Damien", "minute": 44},
     {"team_side": "france", "type": "transformation", "player_last_name": "Traille", "player_first_name": "Damien", "minute": 53},
     {"team_side": "france", "type": "essai", "player_last_name": "Castaignède", "player_first_name": "Thomas", "minute": 53},
-    {"team_side": "adversaire", "type": "essai", "player_last_name": "Fercu", "player_first_name": "Catalin", "minute": 59},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Fercu", "player_first_name": "Cătălin", "minute": 59},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Vlaicu", "player_first_name": "Florin", "minute": 62},
     {"team_side": "france", "type": "essai", "player_last_name": "Szarzewski", "player_first_name": "Dimitri", "minute": 68},
     {"team_side": "france", "type": "essai", "player_last_name": "Laharrague", "player_first_name": "Julien", "minute": 74},

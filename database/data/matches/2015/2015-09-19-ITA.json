@@ -30,9 +30,9 @@
       {"jersey": 23, "first_name": "Gaël", "last_name": "Fickou", "is_starter": false, "position": null, "is_captain": false}
     ],
     "adversaire": [
-      {"jersey": 1, "first_name": "Matias", "last_name": "Aguero", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
+      {"jersey": 1, "first_name": "Matías", "last_name": "Agüero", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
       {"jersey": 2, "first_name": "Leonardo", "last_name": "Ghiraldini", "is_starter": true, "position": "talonneur", "is_captain": true},
-      {"jersey": 3, "first_name": "Martin", "last_name": "Castrogiovanni", "is_starter": true, "position": "pilier_droit", "is_captain": false},
+      {"jersey": 3, "first_name": "Martín", "last_name": "Castrogiovanni", "is_starter": true, "position": "pilier_droit", "is_captain": false},
       {"jersey": 4, "first_name": "Quintin", "last_name": "Geldenhuys", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 5, "first_name": "Josh", "last_name": "Furno", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 6, "first_name": "Alessandro", "last_name": "Zanni", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},

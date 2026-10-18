@@ -34,15 +34,15 @@
       {"jersey": 6, "first_name": "Martín", "last_name": "Durand", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 7, "first_name": "Miguel", "last_name": "Ruiz", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 8, "first_name": "Pablo Jose", "last_name": "Camerlinckx", "is_starter": true, "position": "numero_huit", "is_captain": false},
-      {"jersey": 9, "first_name": "Agustin", "last_name": "Pichot", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
+      {"jersey": 9, "first_name": "Agustín", "last_name": "Pichot", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
       {"jersey": 10, "first_name": "Lisandro", "last_name": "Arbizu", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
       {"jersey": 11, "first_name": "Ignacio", "last_name": "Corleto", "is_starter": true, "position": "ailier", "is_captain": false},
-      {"jersey": 12, "first_name": "Jose", "last_name": "Orengo", "is_starter": true, "position": "centre", "is_captain": false},
+      {"jersey": 12, "first_name": "José", "last_name": "Orengo", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 13, "first_name": "Eduardo", "last_name": "Simone", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 14, "first_name": "Diego", "last_name": "Albanese", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 15, "first_name": "Manuel", "last_name": "Contepomi", "is_starter": true, "position": "arriere", "is_captain": false},
       {"jersey": 16, "first_name": "Felipe", "last_name": "Contepomi", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 17, "first_name": "Carlos Ignacio", "last_name": "Fernandez Lobbe", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 17, "first_name": "Carlos Ignacio", "last_name": "Fernández Lobbe", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 18, "first_name": "Mario", "last_name": "Ledesma", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 19, "first_name": "Martín", "last_name": "Scelzo", "is_starter": false, "position": null, "is_captain": false}
     ]

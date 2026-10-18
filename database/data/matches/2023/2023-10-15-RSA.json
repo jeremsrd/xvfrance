@@ -52,7 +52,7 @@
       {"jersey": 19, "first_name": "RG", "last_name": "Snyman", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 20, "first_name": "Kwagga", "last_name": "Smith", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 21, "first_name": "Faf", "last_name": "De Klerk", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 22, "first_name": "Handre", "last_name": "Pollard", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 22, "first_name": "Handré", "last_name": "Pollard", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 23, "first_name": "Willie", "last_name": "Le Roux", "is_starter": false, "position": null, "is_captain": false}
     ]
   },
@@ -70,8 +70,8 @@
     {"team_side": "france", "type": "penalite", "player_last_name": "Ramos", "player_first_name": "Thomas", "minute": 41},
     {"team_side": "france", "type": "penalite", "player_last_name": "Ramos", "player_first_name": "Thomas", "minute": 54},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Etzebeth", "player_first_name": "Eben", "minute": 67},
-    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Pollard", "player_first_name": "Handre", "minute": 67},
-    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Pollard", "player_first_name": "Handre", "minute": 69},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Pollard", "player_first_name": "Handré", "minute": 67},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Pollard", "player_first_name": "Handré", "minute": 69},
     {"team_side": "france", "type": "penalite", "player_last_name": "Ramos", "player_first_name": "Thomas", "minute": 73}
   ],
   "substitutions": []

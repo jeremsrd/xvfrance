@@ -33,7 +33,7 @@
       {"jersey": 8, "first_name": "Hary", "last_name": "Dumitras", "is_starter": true, "position": "numero_huit", "is_captain": true},
       {"jersey": 9, "first_name": "Daniel", "last_name": "Neaga", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
       {"jersey": 10, "first_name": "Neculai", "last_name": "Nichitean", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
-      {"jersey": 11, "first_name": "Nicolae", "last_name": "Racean", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 11, "first_name": "Nicolae", "last_name": "Răcean", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 12, "first_name": "Adrian", "last_name": "Lungu", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 13, "first_name": "George", "last_name": "Sava", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 14, "first_name": "Catalin", "last_name": "Sasu", "is_starter": true, "position": "ailier", "is_captain": false},

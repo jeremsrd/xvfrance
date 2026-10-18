@@ -31,7 +31,7 @@
     ],
     "adversaire": [
       {"jersey": 1, "first_name": "Thomas", "last_name": "Gallo", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
-      {"jersey": 2, "first_name": "Julian", "last_name": "Montoya", "is_starter": true, "position": "talonneur", "is_captain": true},
+      {"jersey": 2, "first_name": "Julián", "last_name": "Montoya", "is_starter": true, "position": "talonneur", "is_captain": true},
       {"jersey": 3, "first_name": "Joel", "last_name": "Sclavi", "is_starter": true, "position": "pilier_droit", "is_captain": false},
       {"jersey": 4, "first_name": "Guido", "last_name": "Petti", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 5, "first_name": "Pedro", "last_name": "Rubiolo", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},

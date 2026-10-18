@@ -32,7 +32,7 @@
     "adversaire": [
       {"jersey": 1, "first_name": "Andrea", "last_name": "Lo Cicero", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
       {"jersey": 2, "first_name": "Fabio", "last_name": "Ongaro", "is_starter": true, "position": "talonneur", "is_captain": false},
-      {"jersey": 3, "first_name": "Martin", "last_name": "Castrogiovanni", "is_starter": true, "position": "pilier_droit", "is_captain": false},
+      {"jersey": 3, "first_name": "Martín", "last_name": "Castrogiovanni", "is_starter": true, "position": "pilier_droit", "is_captain": false},
       {"jersey": 4, "first_name": "Santiago", "last_name": "Dellapè", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 5, "first_name": "Marco", "last_name": "Bortolami", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 6, "first_name": "Andrea", "last_name": "De Rossi", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": true},

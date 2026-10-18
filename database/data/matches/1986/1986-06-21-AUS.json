@@ -29,7 +29,7 @@
       {"jersey": 21, "first_name": "Marc", "last_name": "Andrieu", "is_starter": false, "position": null, "is_captain": false, "played": false}
     ],
     "adversaire": [
-      {"jersey": 1, "first_name": "Enrique", "last_name": "Rodriguez", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
+      {"jersey": 1, "first_name": "Enrique", "last_name": "Rodríguez", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
       {"jersey": 2, "first_name": "Tommy", "last_name": "Lawton", "is_starter": true, "position": "talonneur", "is_captain": false},
       {"jersey": 3, "first_name": "Andy", "last_name": "McIntyre", "is_starter": true, "position": "pilier_droit", "is_captain": false},
       {"jersey": 4, "first_name": "Steve", "last_name": "Cutler", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},

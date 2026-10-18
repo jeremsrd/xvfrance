@@ -124,7 +124,15 @@ lignes « Wikipédia : accents et particule » de `noms_ecarts.csv`, reportées 
 `scripts/equipe_france/renommer.py`. Un accent présent dans la base et absent de Wikipédia est gardé (Benoît Dauga,
 Raphaël Ibañez, Kévin Gourdon, Étienne Piquiral, Émile Doussau, François Sangalli) ; particules en minuscule
 (de Villiers, de Jouvencel, de Laborderie, de Bésombes). « Louis Péllissier » (Wikipédia) écarté, graphie douteuse.
-Les noms des joueurs adverses ne sont pas vérifiés.
+
+**Accents des joueurs adverses** (18/10/2026) : `scripts/wikipedia/accents_adversaires.py` compare les noms aux
+libellés Wikidata des joueurs de chaque équipe nationale (P54), dans la langue du pays (espagnol, roumain, italien,
+afrikaans…) : même nom sans accents, un seul joueur de ce nom, naissance compatible avec les années de sélection.
+93 noms accentués (Agustín Pichot, Ștefan Tofan, Morné du Plessis, Rónan Kelleher…) dans `noms_adversaires.csv`,
+reportés dans les feuilles par `scripts/wikipedia/renommer_adversaires.py` et en base par
+`xv:apply-opponent-name-corrections`. Choix de l'utilisateur : accents irlandais oui, macrons des translittérations
+non (Shuhei Takeuchi, Hitoshi Ono, George Nepia), Noel Henderson sans tréma ; Mihăiță Lazăr complété à la main.
+Wikidata ne connaît qu'une partie des joueurs (136 Argentins sur 335, 85 Roumains sur 294) : les autres ne sont pas vérifiés.
 
 Les sélectionnés d'après février 2020 n'ont plus le modèle `{{date}}` dans la liste Wikipédia : `naissances.py` lit
 aussi les dates en texte. 14 naissances ajoutées ou corrigées (Haouas, Forletta, Roumat — 27/06/1997 selon les

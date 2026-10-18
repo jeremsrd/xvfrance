@@ -36,7 +36,7 @@
       {"jersey": 5, "first_name": "Moaner", "last_name": "Van Heerden", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 6, "first_name": "Louis", "last_name": "Moolman", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 7, "first_name": "Theuns", "last_name": "Stofberg", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
-      {"jersey": 8, "first_name": "Morne", "last_name": "Du Plessis", "is_starter": true, "position": "numero_huit", "is_captain": true},
+      {"jersey": 8, "first_name": "Morné", "last_name": "du Plessis", "is_starter": true, "position": "numero_huit", "is_captain": true},
       {"jersey": 9, "first_name": "Divan", "last_name": "Serfontein", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
       {"jersey": 10, "first_name": "Naas", "last_name": "Botha", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
       {"jersey": 11, "first_name": "Ray", "last_name": "Mordt", "is_starter": true, "position": "ailier", "is_captain": false},

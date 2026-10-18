@@ -46,7 +46,7 @@
       {"jersey": 13, "first_name": "Garry", "last_name": "Ringrose", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 14, "first_name": "Tommy", "last_name": "O'Brien", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 15, "first_name": "Jamie", "last_name": "Osborne", "is_starter": true, "position": "arriere", "is_captain": false},
-      {"jersey": 16, "first_name": "Ronan", "last_name": "Kelleher", "is_starter": false, "position": "talonneur", "is_captain": false},
+      {"jersey": 16, "first_name": "Rónan", "last_name": "Kelleher", "is_starter": false, "position": "talonneur", "is_captain": false},
       {"jersey": 17, "first_name": "Michael", "last_name": "Milne", "is_starter": false, "position": "pilier_gauche", "is_captain": false},
       {"jersey": 18, "first_name": "Finlay", "last_name": "Bealham", "is_starter": false, "position": "pilier_droit", "is_captain": false},
       {"jersey": 19, "first_name": "James", "last_name": "Ryan", "is_starter": false, "position": "deuxieme_ligne", "is_captain": false},

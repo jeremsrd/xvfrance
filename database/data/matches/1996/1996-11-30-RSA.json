@@ -33,7 +33,7 @@
       {"jersey": 4, "first_name": "Kobus", "last_name": "Wiese", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 5, "first_name": "Mark", "last_name": "Andrews", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 6, "first_name": "Ruben", "last_name": "Kruger", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
-      {"jersey": 7, "first_name": "Andre", "last_name": "Venter", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
+      {"jersey": 7, "first_name": "André", "last_name": "Venter", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 8, "first_name": "Gary", "last_name": "Teichmann", "is_starter": true, "position": "numero_huit", "is_captain": true},
       {"jersey": 9, "first_name": "Joost", "last_name": "Van Der Westhuizen", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
       {"jersey": 10, "first_name": "Henry", "last_name": "Honiball", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
@@ -41,7 +41,7 @@
       {"jersey": 12, "first_name": "Hennie", "last_name": "Le Roux", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 13, "first_name": "Japie", "last_name": "Mulder", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 14, "first_name": "James", "last_name": "Small", "is_starter": true, "position": "ailier", "is_captain": false},
-      {"jersey": 15, "first_name": "Andre", "last_name": "Joubert", "is_starter": true, "position": "arriere", "is_captain": false},
+      {"jersey": 15, "first_name": "André", "last_name": "Joubert", "is_starter": true, "position": "arriere", "is_captain": false},
       {"jersey": 20, "first_name": "Toks", "last_name": "Van Der Linde", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 21, "first_name": "Henry", "last_name": "Tromp", "is_starter": false, "position": null, "is_captain": false}
     ]
@@ -51,7 +51,7 @@
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Small", "player_first_name": "James", "minute": 4},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Honiball", "player_first_name": "Henry", "minute": 16},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Honiball", "player_first_name": "Henry", "minute": 25},
-    {"team_side": "adversaire", "type": "essai", "player_last_name": "Joubert", "player_first_name": "Andre", "minute": 29},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Joubert", "player_first_name": "André", "minute": 29},
     {"team_side": "france", "type": "penalite", "player_last_name": "Dourthe", "player_first_name": "Richard", "minute": 33},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Honiball", "player_first_name": "Henry", "minute": 39},
     {"team_side": "france", "type": "penalite", "player_last_name": "Dourthe", "player_first_name": "Richard", "minute": 56},

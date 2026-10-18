@@ -24,7 +24,7 @@
     ],
     "adversaire": [
       {"jersey": 1, "first_name": "Pablo", "last_name": "Devoto", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
-      {"jersey": 2, "first_name": "Andres", "last_name": "Courreges", "is_starter": true, "position": "talonneur", "is_captain": false},
+      {"jersey": 2, "first_name": "Andrés", "last_name": "Courreges", "is_starter": true, "position": "talonneur", "is_captain": false},
       {"jersey": 3, "first_name": "Fernando", "last_name": "Morel", "is_starter": true, "position": "pilier_droit", "is_captain": false},
       {"jersey": 4, "first_name": "Gustavo", "last_name": "Milano", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 5, "first_name": "Alejandro", "last_name": "Iachetti", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},

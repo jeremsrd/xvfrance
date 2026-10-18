@@ -30,7 +30,7 @@
       {"jersey": 23, "first_name": "Mathieu", "last_name": "Bastareaud", "is_starter": false, "position": null, "is_captain": false}
     ],
     "adversaire": [
-      {"jersey": 1, "first_name": "Matias", "last_name": "Aguero", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
+      {"jersey": 1, "first_name": "Matías", "last_name": "Agüero", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
       {"jersey": 2, "first_name": "Leonardo", "last_name": "Ghiraldini", "is_starter": true, "position": "talonneur", "is_captain": false},
       {"jersey": 3, "first_name": "Dario", "last_name": "Chistolini", "is_starter": true, "position": "pilier_droit", "is_captain": false},
       {"jersey": 4, "first_name": "George", "last_name": "Biagi", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},

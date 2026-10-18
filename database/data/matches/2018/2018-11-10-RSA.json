@@ -39,7 +39,7 @@
       {"jersey": 7, "first_name": "Duane", "last_name": "Vermeulen", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 8, "first_name": "Warren", "last_name": "Whiteley", "is_starter": true, "position": "numero_huit", "is_captain": false},
       {"jersey": 9, "first_name": "Faf", "last_name": "De Klerk", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
-      {"jersey": 10, "first_name": "Handre", "last_name": "Pollard", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
+      {"jersey": 10, "first_name": "Handré", "last_name": "Pollard", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
       {"jersey": 11, "first_name": "Aphiwe", "last_name": "Dyantyi", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 12, "first_name": "Damian", "last_name": "de Allende", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 13, "first_name": "Jesse", "last_name": "Kriel", "is_starter": true, "position": "centre", "is_captain": false},
@@ -58,21 +58,21 @@
   "events": [
     {"team_side": "france", "type": "penalite", "player_last_name": "Serin", "player_first_name": "Baptiste", "minute": 7},
     {"team_side": "france", "type": "penalite", "player_last_name": "Serin", "player_first_name": "Baptiste", "minute": 12},
-    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Pollard", "player_first_name": "Handre", "minute": 13},
-    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Pollard", "player_first_name": "Handre", "minute": 22},
-    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Pollard", "player_first_name": "Handre", "minute": 29},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Pollard", "player_first_name": "Handré", "minute": 13},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Pollard", "player_first_name": "Handré", "minute": 22},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Pollard", "player_first_name": "Handré", "minute": 29},
     {"team_side": "france", "type": "drop", "player_last_name": "Lopez", "player_first_name": "Camille", "minute": 34},
     {"team_side": "france", "type": "essai", "player_last_name": "Guirado", "player_first_name": "Guilhem", "minute": 37},
     {"team_side": "france", "type": "transformation", "player_last_name": "Serin", "player_first_name": "Baptiste", "minute": 39},
     {"team_side": "france", "type": "essai", "player_last_name": "Bastareaud", "player_first_name": "Mathieu", "minute": 42},
     {"team_side": "france", "type": "transformation", "player_last_name": "Serin", "player_first_name": "Baptiste", "minute": 43},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Nkosi", "player_first_name": "S'busiso", "minute": 44},
-    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Pollard", "player_first_name": "Handre", "minute": 45},
-    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Pollard", "player_first_name": "Handre", "minute": 53},
-    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Pollard", "player_first_name": "Handre", "minute": 61},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Pollard", "player_first_name": "Handré", "minute": 45},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Pollard", "player_first_name": "Handré", "minute": 53},
+    {"team_side": "adversaire", "type": "penalite", "player_last_name": "Pollard", "player_first_name": "Handré", "minute": 61},
     {"team_side": "france", "type": "penalite", "player_last_name": "Serin", "player_first_name": "Baptiste", "minute": 67},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Mbonambi", "player_first_name": "Mbongeni", "minute": 85},
-    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Pollard", "player_first_name": "Handre", "minute": 87}
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Pollard", "player_first_name": "Handré", "minute": 87}
   ],
   "substitutions": []
 }

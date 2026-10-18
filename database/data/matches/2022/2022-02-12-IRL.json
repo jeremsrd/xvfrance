@@ -31,7 +31,7 @@
     ],
     "adversaire": [
       {"jersey": 1, "first_name": "Andrew", "last_name": "Porter", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
-      {"jersey": 2, "first_name": "Ronan", "last_name": "Kelleher", "is_starter": true, "position": "talonneur", "is_captain": false},
+      {"jersey": 2, "first_name": "Rónan", "last_name": "Kelleher", "is_starter": true, "position": "talonneur", "is_captain": false},
       {"jersey": 3, "first_name": "Tadhg", "last_name": "Furlong", "is_starter": true, "position": "pilier_droit", "is_captain": false},
       {"jersey": 4, "first_name": "Tadhg", "last_name": "Beirne", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 5, "first_name": "James", "last_name": "Ryan", "is_starter": true, "position": "deuxieme_ligne", "is_captain": true},

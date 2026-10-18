@@ -41,8 +41,8 @@
       {"jersey": 8, "first_name": "Manuel", "last_name": "Diana", "is_starter": true, "position": "numero_huit", "is_captain": false},
       {"jersey": 9, "first_name": "Santiago", "last_name": "Arata", "is_starter": true, "position": "demi_de_melee", "is_captain": false},
       {"jersey": 10, "first_name": "Felipe", "last_name": "Etcheverry", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
-      {"jersey": 11, "first_name": "Nicolas", "last_name": "Freitas", "is_starter": true, "position": "ailier", "is_captain": false},
-      {"jersey": 12, "first_name": "Andres", "last_name": "Vilaseca", "is_starter": true, "position": "centre", "is_captain": true},
+      {"jersey": 11, "first_name": "Nicolás", "last_name": "Freitas", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 12, "first_name": "Andrés", "last_name": "Vilaseca", "is_starter": true, "position": "centre", "is_captain": true},
       {"jersey": 13, "first_name": "Tomas", "last_name": "Inciarte", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 14, "first_name": "Bautista", "last_name": "Basso", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 15, "first_name": "Baltazar", "last_name": "Amaya", "is_starter": true, "position": "arriere", "is_captain": false},
@@ -52,13 +52,13 @@
       {"jersey": 19, "first_name": "Ignacio", "last_name": "Dotti", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 20, "first_name": "Lucas", "last_name": "Bianchi", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 21, "first_name": "Carlos", "last_name": "Deus", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 22, "first_name": "Agustin", "last_name": "Ormaechea", "is_starter": false, "position": null, "is_captain": false},
+      {"jersey": 22, "first_name": "Agustín", "last_name": "Ormaechea", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 23, "first_name": "Felipe", "last_name": "Berchesi", "is_starter": false, "position": null, "is_captain": false}
     ]
   },
   "events": [
     {"team_side": "france", "type": "penalite", "player_last_name": "Jaminet", "player_first_name": "Melvyn", "minute": 4},
-    {"team_side": "adversaire", "type": "essai", "player_last_name": "Freitas", "player_first_name": "Nicolas", "minute": 6},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Freitas", "player_first_name": "Nicolás", "minute": 6},
     {"team_side": "france", "type": "essai", "player_last_name": "Hastoy", "player_first_name": "Antoine", "minute": 11},
     {"team_side": "france", "type": "transformation", "player_last_name": "Jaminet", "player_first_name": "Melvyn", "minute": 13},
     {"team_side": "france", "type": "penalite", "player_last_name": "Jaminet", "player_first_name": "Melvyn", "minute": 16},

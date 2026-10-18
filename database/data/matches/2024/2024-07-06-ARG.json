@@ -32,7 +32,7 @@
     ],
     "adversaire": [
       {"jersey": 1, "first_name": "Thomas", "last_name": "Gallo", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
-      {"jersey": 2, "first_name": "Julian", "last_name": "Montoya", "is_starter": true, "position": "talonneur", "is_captain": true},
+      {"jersey": 2, "first_name": "Julián", "last_name": "Montoya", "is_starter": true, "position": "talonneur", "is_captain": true},
       {"jersey": 3, "first_name": "Eduardo", "last_name": "Bello", "is_starter": true, "position": "pilier_droit", "is_captain": false},
       {"jersey": 4, "first_name": "Matias", "last_name": "Alemanno", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
       {"jersey": 5, "first_name": "Lucas", "last_name": "Paulos", "is_starter": true, "position": "deuxieme_ligne", "is_captain": false},
@@ -53,7 +53,7 @@
       {"jersey": 20, "first_name": "Juan Bautista", "last_name": "Pedemonte", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 21, "first_name": "Lautaro", "last_name": "Bazán Vélez", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 22, "first_name": "Tomás", "last_name": "Albornoz", "is_starter": false, "position": null, "is_captain": false},
-      {"jersey": 23, "first_name": "Matias", "last_name": "Orlando", "is_starter": false, "position": null, "is_captain": false}
+      {"jersey": 23, "first_name": "Matías", "last_name": "Orlando", "is_starter": false, "position": null, "is_captain": false}
     ]
   },
   "events": [
@@ -64,10 +64,10 @@
     {"team_side": "france", "type": "essai", "player_last_name": "Frisch", "player_first_name": "Antoine", "minute": 45},
     {"team_side": "france", "type": "transformation", "player_last_name": "Hastoy", "player_first_name": "Antoine", "minute": 46},
     {"team_side": "france", "type": "penalite", "player_last_name": "Hastoy", "player_first_name": "Antoine", "minute": 55},
-    {"team_side": "adversaire", "type": "essai", "player_last_name": "Montoya", "player_first_name": "Julian", "minute": 60},
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Montoya", "player_first_name": "Julián", "minute": 60},
     {"team_side": "france", "type": "essai", "player_last_name": "Attissogbé", "player_first_name": "Théo", "minute": 66},
     {"team_side": "france", "type": "penalite", "player_last_name": "Jaminet", "player_first_name": "Melvyn", "minute": 75},
-    {"team_side": "adversaire", "type": "essai", "player_last_name": "Orlando", "player_first_name": "Matias", "minute": 76}
+    {"team_side": "adversaire", "type": "essai", "player_last_name": "Orlando", "player_first_name": "Matías", "minute": 76}
   ],
   "substitutions": []
 }

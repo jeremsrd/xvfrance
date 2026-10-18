@@ -39,7 +39,7 @@
       {"jersey": 7, "first_name": "Mauro", "last_name": "Bergamasco", "is_starter": true, "position": "troisieme_ligne_aile", "is_captain": false},
       {"jersey": 8, "first_name": "Andrea", "last_name": "De Rossi", "is_starter": true, "position": "numero_huit", "is_captain": false},
       {"jersey": 9, "first_name": "Alessandro", "last_name": "Troncon", "is_starter": true, "position": "demi_de_melee", "is_captain": true},
-      {"jersey": 10, "first_name": "Diego", "last_name": "Dominguez", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
+      {"jersey": 10, "first_name": "Diego", "last_name": "Domínguez", "is_starter": true, "position": "demi_ouverture", "is_captain": false},
       {"jersey": 11, "first_name": "Cristian", "last_name": "Stoica", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 12, "first_name": "Nicolas", "last_name": "Zisti", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 13, "first_name": "Luca", "last_name": "Martin", "is_starter": true, "position": "centre", "is_captain": false},
@@ -56,12 +56,12 @@
   "events": [
     {"team_side": "france", "type": "penalite", "player_last_name": "Dourthe", "player_first_name": "Richard", "minute": 6},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Martin", "player_first_name": "Luca", "minute": 18},
-    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Dominguez", "player_first_name": "Diego", "minute": 18},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Domínguez", "player_first_name": "Diego", "minute": 18},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Mazzucato", "player_first_name": "Nicola", "minute": 24},
-    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Dominguez", "player_first_name": "Diego", "minute": 24},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Domínguez", "player_first_name": "Diego", "minute": 24},
     {"team_side": "france", "type": "transformation", "player_last_name": "Dourthe", "player_first_name": "Richard", "minute": 26},
     {"team_side": "france", "type": "essai", "player_last_name": "Penaud", "player_first_name": "Alain", "minute": 26},
-    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Dominguez", "player_first_name": "Diego", "minute": 28},
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Domínguez", "player_first_name": "Diego", "minute": 28},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Troncon", "player_first_name": "Alessandro", "minute": 28},
     {"team_side": "france", "type": "penalite", "player_last_name": "Dourthe", "player_first_name": "Richard", "minute": 31},
     {"team_side": "france", "type": "transformation", "player_last_name": "Dourthe", "player_first_name": "Richard", "minute": 35},
@@ -73,8 +73,8 @@
     {"team_side": "france", "type": "essai", "player_last_name": "Penaud", "player_first_name": "Alain", "minute": 66},
     {"team_side": "france", "type": "essai", "player_last_name": "Benazzi", "player_first_name": "Abdelatif", "minute": 66},
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Troncon", "player_first_name": "Alessandro", "minute": 92},
-    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Dominguez", "player_first_name": "Diego", "minute": 92},
-    {"team_side": "adversaire", "type": "drop", "player_last_name": "Dominguez", "player_first_name": "Diego", "minute": null}
+    {"team_side": "adversaire", "type": "transformation", "player_last_name": "Domínguez", "player_first_name": "Diego", "minute": 92},
+    {"team_side": "adversaire", "type": "drop", "player_last_name": "Domínguez", "player_first_name": "Diego", "minute": null}
   ],
   "substitutions": [
     {"team_side": "france", "player_off_last_name": "Ntamack", "player_off_first_name": "Émile", "player_on_last_name": "Venditti", "player_on_first_name": "David", "minute": 22, "is_tactical": true},
