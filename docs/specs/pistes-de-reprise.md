@@ -60,7 +60,7 @@ Reprendre par, dans l'ordre proposé :
      quota anonyme de quelques dizaines de requêtes, puis environ une heure d'attente) ;
    - 40 naissances où equipe-france.fr diffère de la base (`xv:import-equipe-france-players --report`), base gardée ;
    - 2 matches sans points (1927 GER, 1963 ROU), 58 matches sans stade, adjoints des sélectionneurs, photos
-     d'équipe et stades du dossier « This Is Rugby » (Dropbox), qualité des données ;
+     des stades du dossier « This Is Rugby » (Dropbox ; photos d'équipe faites le 26/10/2026), qualité des données ;
    - **PHP 8.3 avant le 31/12/2026**.
 6. **SEO** (18/10/2026) : www → sans www, `/sitemap.xml` de toutes les fiches, `robots.txt`, `canonical` sans
    les filtres des listes, descriptions accordées ; Open Graph / Twitter (image par défaut

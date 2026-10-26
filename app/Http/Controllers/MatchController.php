@@ -19,6 +19,7 @@ class MatchController extends Controller
             'events.player',
             'substitutions.playerOff',
             'substitutions.playerOn',
+            'photos',
         ]);
 
         $sheet = new MatchSheet($rugbyMatch);

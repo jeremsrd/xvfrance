@@ -309,3 +309,20 @@ public** ; les photos récentes de ce même dossier (AFP, sites de presse) ne so
   ayant un match avant 1930, sans remplacer une photo posée autrement.
 - Écartés faute de certitude : Bancroft (Billy ou Jack ?), Harper et Hunter de 1906 (prénoms différents sur le
   site), « AlexTrew », et les joueurs sans match en base (Louis Dedet, Halford, Mackrell…).
+
+
+### Photos d'équipe et de match (1906-1920)
+
+37 photos du même dossier (`PhotosEquipe`, `PhotoMatch`), sur 18 matches de 1906 à 1920 : le XV de France, l'équipe
+adverse, les deux équipes ensemble, deux scènes de France-Écosse 1920. Surtout des négatifs de l'Agence Rol
+(Gallica / BnF), quelques cartes postales ; présumées dans le domaine public comme les portraits.
+
+- `database/data/sources/match_photos.csv` : fichier d'origine → match (date, adversaire), équipe (`france`,
+  `adversaire`, vide = les deux équipes ou une scène), légende facultative (sinon « Le XV de France »,
+  « L'équipe d'Angleterre »…). Rattachement vérifié image par image le 26/10/2026.
+- `scripts/photos/convertir_matches.py` : WebP de 1 200 px de large au plus dans `public/images/matches/`.
+- `xv:import-match-photos` (lancée par `deploy.sh`) : reconstruit la table `match_photos` ; section « Photos
+  d'époque » de la feuille de match.
+- Écartées : trois photos sans la France (Angleterre-Écosse 1907 et 1914, « Scotch team » du 05/02/1910),
+  « 1908TeamEngland » (pavillon de Richmond, sans doute 1907 : incertain), deux recadrages en double (France 1909
+  et 1914), une colorisation signée d'un tiers (DeviantArt), Galles 1967 (pas dans le domaine public).

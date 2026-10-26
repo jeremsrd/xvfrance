@@ -183,6 +183,7 @@ $DEPLOY_PHP artisan xv:apply-date-corrections --no-interaction
 $DEPLOY_PHP artisan xv:import-equipe-france-players --no-interaction
 $DEPLOY_PHP artisan xv:import-clubs --no-interaction
 $DEPLOY_PHP artisan xv:import-player-photos --no-interaction
+$DEPLOY_PHP artisan xv:import-match-photos --no-interaction
 $DEPLOY_PHP artisan xv:import-coaches --no-interaction
 $DEPLOY_PHP artisan xv:remove-excluded-matches --no-interaction
 $DEPLOY_PHP artisan xv:apply-equipe-france --no-interaction

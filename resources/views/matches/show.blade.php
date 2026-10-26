@@ -30,6 +30,7 @@
     ]);
     $sections = array_filter([
         'video' => $m->video_url ? 'Résumé vidéo' : null,
+        'photos' => $m->photos->isNotEmpty() ? 'Photos d\'époque' : null,
         'compositions' => $sheet->hasLineups() ? 'Compositions' : null,
         'chronologie' => count($timeline) ? 'Chronologie' : null,
         'face-a-face' => 'Face-à-face',
@@ -226,6 +227,29 @@
                         </span>
                     </a>
                 @endif
+            </div>
+        </section>
+    @endif
+
+    {{-- ═══ Photos d'époque (1906-1920, domaine public) : chaque vignette ouvre l'image entière ═══ --}}
+    @if($m->photos->isNotEmpty())
+        <section id="photos" class="scroll-mt-16 pt-12 lg:pt-16">
+            <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+                <h2 class="font-display text-3xl font-bold uppercase tracking-tight text-encre">Photos d'époque</h2>
+                <div class="mt-6 grid gap-6 sm:grid-cols-2">
+                    @foreach($m->photos as $photo)
+                        <figure>
+                            <a href="{{ $photo->path }}" target="_blank" rel="noopener"
+                               class="block overflow-hidden rounded-2xl bg-encre shadow-sm ring-1 ring-filet {{ $focus }} focus-visible:ring-bleu-france">
+                                <img src="{{ $photo->path }}" width="{{ $photo->width }}" height="{{ $photo->height }}"
+                                     alt="{{ $photo->label($m->opponent) }}, {{ \App\Support\FrenchDate::long($m->match_date) }}"
+                                     loading="lazy" decoding="async" class="h-auto w-full motion-safe:transition-transform hover:scale-[1.02]">
+                            </a>
+                            <figcaption class="mt-2 font-serif text-sm text-texte-2">{{ $photo->label($m->opponent) }}</figcaption>
+                        </figure>
+                    @endforeach
+                </div>
+                <p class="mt-4 text-sm text-texte-2">Photographies de presse de l'époque (Agence Rol, Gallica / BnF) et cartes postales, domaine public.</p>
             </div>
         </section>
     @endif

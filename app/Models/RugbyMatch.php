@@ -104,6 +104,11 @@ class RugbyMatch extends Model
         return $this->hasMany(MatchSubstitution::class, 'match_id');
     }
 
+    public function photos(): HasMany
+    {
+        return $this->hasMany(MatchPhoto::class, 'match_id')->orderBy('position');
+    }
+
     public function scopeWins(Builder $query): Builder
     {
         return $query->whereColumn('france_score', '>', 'opponent_score');
