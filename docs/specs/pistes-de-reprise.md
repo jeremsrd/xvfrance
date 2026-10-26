@@ -53,7 +53,7 @@ Reprendre par, dans l'ordre proposé :
    de Michalak ; restent 7 remplacements sans vis-à-vis, voir `docs/sources.md`). Les 16 autres internationaux
    sans joueur en base (`php artisan xv:import-internationaux --report`) n'ont pas de match officiel dans la
    liste Wikipédia (1900, années 1960-1970, Gérard David 1999) : à vérifier un par un si besoin.
-4. **Numéros d'international après 2016** (piste 3) : trancher la source d'abord.
+4. **Numéros d'international après 2016** (piste 3) : laissés vides (choix du 26/10/2026), faute de source FFR.
 5. Plus tard :
    - décès après 1970 que ni Wikidata ni equipe-france.fr ne donnent, à chercher dans le fichier des décès de
      l'INSEE (API matchID `deces.matchid.io/deces/api/v1/search?lastName=…&firstName=…&birthDate=JJ/MM/AAAA` ;
@@ -130,7 +130,14 @@ de 1927), Le Monde ou L'Équipe de décembre 1963.
 178 joueurs français n'ont pas de numéro : les sélectionnés depuis 2017 (la liste s'arrête au n° 1098) et
 quelques anciens non rapprochés. **Attention** : la page Wikipédia numérote autrement que la FFR (date de première
 sélection, titulaire puis remplaçant, ordre alphabétique). Il faut une source de numéros FFR (fiches ffr.fr ?) ou
-prolonger la liste à la main avec la même règle. À trancher avant d'écrire quoi que ce soit.
+prolonger la liste à la main avec la même règle.
+
+**Tranché le 26/10/2026 : numéros laissés vides** tant qu'aucune source FFR n'est trouvée. Cherché sans succès :
+fiches equipe-france.fr (pas de numéro), ffr.fr, presse. La FFR ne numérote pas les débutants d'un même match dans
+l'ordre des maillots (19/06/2016 : n° 14, 13, 9, 7, 5, 4, 2), donc aucune règle à prolonger. Wikipédia numérote
+jusqu'à 1214, mais son écart avec la FFR varie de 18 à 28 (Mignot : 1069 / 1087) et l'ordre dans un match diffère :
+inutilisable. Seule piste restante : un annuaire imprimé récent de la FFR. `xv:import-internationaux` reprendrait
+les numéros sans autre changement.
 
 ### 4. Fiches joueurs plus riches
 
