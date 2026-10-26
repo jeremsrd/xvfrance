@@ -231,18 +231,31 @@
         </section>
     @endif
 
-    {{-- ═══ Photos d'époque (1906-1920, domaine public) : chaque vignette ouvre l'image entière ═══ --}}
+    {{-- ═══ Photos d'époque (1906-1920, domaine public) : visionneuse en surimpression (Échap, flèches, clic hors de la photo) ;
+         sans JavaScript, la vignette reste un lien vers l'image ═══ --}}
     @if($m->photos->isNotEmpty())
-        <section id="photos" class="scroll-mt-16 pt-12 lg:pt-16">
+        @php
+            $gallery = $m->photos->map(fn ($photo) => [
+                'src' => $photo->path,
+                'label' => $photo->label($m->opponent),
+                'alt' => $photo->label($m->opponent) . ', ' . \App\Support\FrenchDate::long($m->match_date),
+            ])->values();
+        @endphp
+        <section id="photos" class="scroll-mt-16 pt-12 lg:pt-16"
+                 x-data="{ photos: @js($gallery), open: null,
+                           show(i) { this.open = (i + this.photos.length) % this.photos.length } }"
+                 @keydown.escape.window="open = null"
+                 @keydown.arrow-right.window="open !== null && show(open + 1)"
+                 @keydown.arrow-left.window="open !== null && show(open - 1)">
             <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
                 <h2 class="font-display text-3xl font-bold uppercase tracking-tight text-encre">Photos d'époque</h2>
                 <div class="mt-6 grid gap-6 sm:grid-cols-2">
                     @foreach($m->photos as $photo)
                         <figure>
-                            <a href="{{ $photo->path }}" target="_blank" rel="noopener"
-                               class="block overflow-hidden rounded-2xl bg-encre shadow-sm ring-1 ring-filet {{ $focus }} focus-visible:ring-bleu-france">
+                            <a href="{{ $photo->path }}" @click.prevent="show({{ $loop->index }})"
+                               class="block cursor-zoom-in overflow-hidden rounded-2xl bg-encre shadow-sm ring-1 ring-filet {{ $focus }} focus-visible:ring-bleu-france">
                                 <img src="{{ $photo->path }}" width="{{ $photo->width }}" height="{{ $photo->height }}"
-                                     alt="{{ $photo->label($m->opponent) }}, {{ \App\Support\FrenchDate::long($m->match_date) }}"
+                                     alt="{{ $gallery[$loop->index]['alt'] }}"
                                      loading="lazy" decoding="async" class="h-auto w-full motion-safe:transition-transform hover:scale-[1.02]">
                             </a>
                             <figcaption class="mt-2 font-serif text-sm text-texte-2">{{ $photo->label($m->opponent) }}</figcaption>
@@ -251,6 +264,45 @@
                 </div>
                 <p class="mt-4 text-sm text-texte-2">Photographies de presse de l'époque (Agence Rol, Gallica / BnF) et cartes postales, domaine public.</p>
             </div>
+
+            <template x-teleport="body">
+                <div x-show="open !== null" x-cloak x-trap.noscroll="open !== null"
+                     x-transition.opacity.duration.200ms
+                     class="fixed inset-0 z-50 flex flex-col bg-encre/95 text-white"
+                     role="dialog" aria-modal="true" aria-label="Photos d'époque"
+                     @click="$event.target.closest('img, button') || (open = null)">
+                    <div class="flex items-center justify-between gap-4 px-4 py-3 sm:px-6">
+                        <p class="text-sm text-blue-200 tabular-nums" x-text="(open ?? 0) + 1 + ' / ' + photos.length"></p>
+                        <button type="button" @click="open = null"
+                                class="flex h-11 w-11 items-center justify-center rounded-full hover:bg-white/10 {{ $focus }} focus-visible:ring-white focus-visible:ring-offset-encre">
+                            <svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" stroke-linecap="round"/></svg>
+                            <span class="sr-only">Fermer</span>
+                        </button>
+                    </div>
+                    <div class="relative flex min-h-0 flex-1 items-center justify-center px-4 sm:px-16">
+                        <template x-if="open !== null">
+                            <figure class="flex max-h-full flex-col items-center">
+                                <img :src="photos[open].src" :alt="photos[open].alt" class="max-h-[calc(100dvh-9rem)] w-auto max-w-full rounded-lg object-contain shadow-2xl">
+                                <figcaption class="mt-3 text-center font-serif text-base text-white/90" x-text="photos[open].label"></figcaption>
+                            </figure>
+                        </template>
+                        <template x-if="photos.length > 1">
+                            <div>
+                                <button type="button" @click="show(open - 1)"
+                                        class="absolute left-1 top-1/2 flex h-12 w-12 -translate-y-1/2 items-center justify-center rounded-full bg-white/10 hover:bg-white/20 sm:left-4 {{ $focus }} focus-visible:ring-white focus-visible:ring-offset-encre">
+                                    <svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m15 18-6-6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                    <span class="sr-only">Photo précédente</span>
+                                </button>
+                                <button type="button" @click="show(open + 1)"
+                                        class="absolute right-1 top-1/2 flex h-12 w-12 -translate-y-1/2 items-center justify-center rounded-full bg-white/10 hover:bg-white/20 sm:right-4 {{ $focus }} focus-visible:ring-white focus-visible:ring-offset-encre">
+                                    <svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m9 18 6-6-6-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                    <span class="sr-only">Photo suivante</span>
+                                </button>
+                            </div>
+                        </template>
+                    </div>
+                </div>
+            </template>
         </section>
     @endif
 
