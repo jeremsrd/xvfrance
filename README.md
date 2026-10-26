@@ -6,7 +6,7 @@ sélectionneurs et compétitions.
 
 ## Stack
 
-- Laravel 12 · PHP 8.2 · MySQL / MariaDB
+- Laravel 13 · PHP 8.4 · MySQL / MariaDB
 - Blade + Livewire · Tailwind CSS v4 (Vite)
 - Admin : Filament 4 (`/admin`)
 
