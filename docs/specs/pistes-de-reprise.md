@@ -36,6 +36,18 @@ Fait les 17 et 18/10/2026 (tout est commité, déployé et poussé) :
 - **Allemagne 1932, 1933, 1934** (18/10) : XV allemands et points des deux équipes d'après *L'Auto*, *France olympique*,
   *Le Miroir des sports* et *Match* (Gallica) ; sources contradictoires tranchées dans `docs/sources.md`.
 
+Fait le 26/10/2026 (tout est commité, déployé et poussé ; dernier commit déployé 7b9ebd0) :
+- **Sélections** : 137 remplacements finalesrugby.fr de plus (`apply.py` : fins de remplacement temporaire, talonneur
+  → n° 16, voisinage dans l'ordre du site), Ondarts 1990 (42 sélections), Xavier Mignot à la place de Michalak au
+  n° 14 du 19/06/2016 (Michalak 77). Traille, Szarzewski, Michalak conformes à la page des records.
+- **Laravel 13.38** : le compte O2switch est en PHP 8.4.27 (`deploy.sh` affiche la version), plateforme Composer 8.4.27.
+- **Numéros d'international après 2016** : laissés vides (aucune source FFR, voir piste 3).
+- **Photos d'époque** sur la feuille de match : 37 photos 1906-1920 (`match_photos.csv`, `xv:import-match-photos`),
+  visionneuse en surimpression.
+- **Photos des stades** : 90 stades sur 133 d'après Wikimedia Commons, crédit affiché (`venue_photos.csv`,
+  `scripts/wikipedia/stades.py`, `xv:import-venue-photos`), vignettes sur `/stades`.
+- Gallica bloqué par Cloudflare (« you have been blocked ») dès la première page : Armée britannique 1940 reporté.
+
 Reprendre par, dans l'ordre proposé :
 1. **Matches de novembre 2026** : 07/11 Fidji, 13/11 Afrique du Sud, 21/11 Argentine, finales 27-29/11
    (`/feuille-de-match <date> <code>` une fois joués, puis commit et `./deploy.sh`).
@@ -61,7 +73,6 @@ Reprendre par, dans l'ordre proposé :
    - 40 naissances où equipe-france.fr diffère de la base (`xv:import-equipe-france-players --report`), base gardée ;
    - 2 matches sans points (1927 GER, 1963 ROU), 58 matches sans stade, adjoints des sélectionneurs, photos
      d'équipe et de stades faites le 26/10/2026 (stades : Wikimedia Commons, 43 stades sans photo), qualité des données ;
-   - **PHP 8.3 avant le 31/12/2026**.
 6. **SEO** (18/10/2026) : www → sans www, `/sitemap.xml` de toutes les fiches, `robots.txt`, `canonical` sans
    les filtres des listes, descriptions accordées ; Open Graph / Twitter (image par défaut
    `public/images/partage.png`, portrait du joueur sur sa fiche) ; JSON-LD via `App\Support\JsonLd`
