@@ -166,6 +166,7 @@ set -euo pipefail
 cd '$DEPLOY_PATH'
 mkdir -p storage/app/public storage/framework/cache/data storage/framework/sessions storage/framework/views storage/logs bootstrap/cache
 [ -f .env ] || { echo ".env absent sur le serveur : à créer avant le premier déploiement." >&2; exit 1; }
+echo "PHP du serveur : \$($DEPLOY_PHP -r 'echo PHP_VERSION;')"
 $DEPLOY_COMPOSER install --no-dev --optimize-autoloader --no-interaction --no-progress
 $DEPLOY_PHP artisan migrate --force
 $DEPLOY_PHP artisan xv:import-venue-names --no-interaction
