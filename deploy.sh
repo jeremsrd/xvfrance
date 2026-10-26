@@ -188,6 +188,7 @@ $DEPLOY_PHP artisan xv:import-coaches --no-interaction
 $DEPLOY_PHP artisan xv:remove-excluded-matches --no-interaction
 $DEPLOY_PHP artisan xv:apply-equipe-france --no-interaction
 $DEPLOY_PHP artisan xv:import-venue-coordinates --no-interaction
+$DEPLOY_PHP artisan xv:import-venue-photos --no-interaction
 $DEPLOY_PHP artisan optimize
 $DEPLOY_PHP artisan filament:optimize
 [ -L public/storage ] || $DEPLOY_PHP artisan storage:link

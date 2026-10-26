@@ -227,6 +227,14 @@ déclenchent une erreur 429 pendant plusieurs minutes. Recherche plein texte : `
 - **Wikipédia anglaise, encadrés `{{rugbybox}}`** : points, marqueurs, arbitre, affluence, heure d'une feuille
   de match (`scripts/wikipedia/rugbybox.py`, `apply_wiki.py`). Méthode dans `docs/specs/feuilles-de-match-suite.md`.
 - **OpenStreetMap (Nominatim)** : coordonnées des stades (`xv:geocode-venues`).
+- **Wikidata et Wikimedia Commons** : photo libre de 90 stades sur 133 (`python3 scripts/wikipedia/stades.py` →
+  `venue_photos.csv`, puis `scripts/photos/convertir_stades.py` → `public/images/stades/`, `xv:import-venue-photos`).
+  Le stade est cherché autour de nos coordonnées (lieu sportif à moins de 2 km, 15 km si elles ne sont précises qu'à
+  la ville, nom le plus proche) ; son image principale (P18), son auteur et sa licence viennent de Commons. Crédit
+  affiché sous la photo (auteur, licence, lien vers Commons), comme l'exigent les licences CC BY et CC BY-SA.
+  Images vérifiées une à une le 26/10/2026 ; rapprochements faux corrigés ou écartés dans `OVERRIDES` et `EXCLUDED`
+  du script (ancien Wembley plutôt que Wembley Arena, Ballymore et Giulești écartés…). Les photos de l'ancien projet
+  « This Is Rugby » (dossier `Stades`) ne sont pas publiées : photos récentes d'origine et de licence inconnues.
 
 ## Fichiers de `database/data/sources/`
 

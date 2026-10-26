@@ -15,6 +15,7 @@ class Venue extends Model
 
     protected $fillable = [
         'name', 'slug', 'city', 'country_id', 'capacity', 'opened_year', 'latitude', 'longitude',
+        'photo_path', 'photo_width', 'photo_height', 'photo_author', 'photo_license', 'photo_license_url', 'photo_source_url',
     ];
 
     protected $casts = [
@@ -30,6 +31,12 @@ class Venue extends Model
                 ->first(fn ($slug) => !self::where('slug', $slug)->exists())
                 ?? Str::slug($venue->name) . '-' . (self::max('id') + 1);
         });
+    }
+
+    /** Vignette de la photo (240 px), à côté de l'image entière : /images/stades/{slug}-vignette.webp */
+    public function photoThumbPath(): ?string
+    {
+        return $this->photo_path ? preg_replace('/\.webp$/', '-vignette.webp', $this->photo_path) : null;
     }
 
     public function getRouteKeyName(): string

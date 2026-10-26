@@ -60,6 +60,27 @@
         </div>
     </x-page.hero>
 
+    {{-- ═══ Photo du stade (Wikimedia Commons) : le crédit et la licence sont exigés par la licence ═══ --}}
+    @if($venue->photo_path)
+        <figure class="mx-auto max-w-6xl px-4 pt-12 sm:px-6 lg:px-8 lg:pt-16">
+            <img src="{{ $venue->photo_path }}" width="{{ $venue->photo_width }}" height="{{ $venue->photo_height }}"
+                 alt="{{ $venue->name }}, {{ $venue->city }}" decoding="async"
+                 class="h-64 w-full rounded-2xl bg-papier-2 object-cover shadow-sm ring-1 ring-filet sm:h-96">
+            <figcaption class="mt-2 text-xs text-texte-2">
+                Photo : {{ $venue->photo_author ?? 'auteur inconnu' }}
+                @if($venue->photo_license)
+                    ·
+                    @if($venue->photo_license_url)
+                        <a href="{{ $venue->photo_license_url }}" rel="license noopener" target="_blank" class="underline hover:text-encre">{{ $venue->photo_license }}</a>
+                    @else
+                        {{ $venue->photo_license }}
+                    @endif
+                @endif
+                · <a href="{{ $venue->photo_source_url }}" rel="noopener" target="_blank" class="underline hover:text-encre">Wikimedia Commons</a>
+            </figcaption>
+        </figure>
+    @endif
+
     {{-- ═══ Adversaires reçus ═══ --}}
     @if($opponents->count() > 1)
         <section class="py-12 lg:py-16" aria-labelledby="adversaires">

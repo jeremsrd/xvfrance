@@ -56,11 +56,21 @@
                             <tbody class="divide-y divide-filet">
                                 @foreach($group->venues as $venue)
                                     <tr class="hover:bg-papier">
-                                        <th scope="row" class="px-5 py-2.5 text-left font-medium text-encre">
-                                            <a href="{{ route('venues.show', $venue) }}" class="hover:underline focus-visible:outline-hidden focus-visible:underline">{{ $venue->name }}</a>
-                                            @if($venue->formerNames()->isNotEmpty())
-                                                <span class="block text-xs font-normal text-texte-2">anciennement {{ $venue->formerNames()->pluck('name')->reverse()->implode(', ') }}</span>
-                                            @endif
+                                        <th scope="row" class="px-5 py-2 text-left font-medium text-encre">
+                                            <div class="flex items-center gap-3">
+                                                @if($venue->photo_path)
+                                                    <img src="{{ $venue->photoThumbPath() }}" alt="" width="56" height="40" loading="lazy" decoding="async"
+                                                         class="h-10 w-14 shrink-0 rounded-md bg-papier-2 object-cover">
+                                                @else
+                                                    <span class="h-10 w-14 shrink-0 rounded-md bg-papier-2" aria-hidden="true"></span>
+                                                @endif
+                                                <span>
+                                                    <a href="{{ route('venues.show', $venue) }}" class="hover:underline focus-visible:outline-hidden focus-visible:underline">{{ $venue->name }}</a>
+                                                    @if($venue->formerNames()->isNotEmpty())
+                                                        <span class="block text-xs font-normal text-texte-2">anciennement {{ $venue->formerNames()->pluck('name')->reverse()->implode(', ') }}</span>
+                                                    @endif
+                                                </span>
+                                            </div>
                                         </th>
                                         <td class="px-3 py-2.5 text-texte-2">{{ $venue->city }}</td>
                                         <td class="px-3 py-2.5 text-right tabular-nums">{{ $venue->record->total }}</td>
