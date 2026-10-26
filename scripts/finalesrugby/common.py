@@ -2,7 +2,7 @@
 Fonctions communes aux scripts finalesrugby.fr : lecture des pages en cache, rapprochement avec les feuilles
 de match JSON et les joueurs de leurs compositions, écriture des JSON au format du projet.
 """
-import os,re,glob,json,html,datetime,unicodedata
+import os,re,glob,json,html,datetime,difflib,unicodedata
 ROOT=os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 CACHE=os.path.join(ROOT,'storage/app/finalesrugby')
 norm=lambda s: re.sub(r'[^a-z ]','',unicodedata.normalize('NFD',s).encode('ascii','ignore').decode().lower().replace('-',' ')).split()
@@ -67,12 +67,17 @@ def parse(page):
             scoring.setdefault(kind,[]).append({'count':int(n.group(1)),'name':name,'minutes':minutes(n.group(3) or '')})
     return date,players,subs,scoring
 
+initial=lambda s: ''.join(norm(s))[:1]
+
 def find(lineup,last,first):
-    L,F=norm(last),norm(first)
+    L,F=norm(last),initial(first)
     c=[p for p in lineup if norm(p['last_name'])==L]
-    if len(c)>1: c=[p for p in c if norm(p['first_name'])[:1]==F[:1]] or c
+    if len(c)>1: c=[p for p in c if initial(p['first_name'])==F] or c
     if not c:  # nom composé ou abrégé d'un côté : « N'TAMACK-MUYENGA » / « Ntamack »
-        c=[p for p in lineup if set(norm(p['last_name']))&set(L) and (not F or norm(p['first_name'])[:1]==F[:1])]
+        c=[p for p in lineup if set(norm(p['last_name']))&set(L) and (not F or initial(p['first_name'])==F)]
+    if not c:  # une lettre de différence, même initiale : « GONZALES » / « Gonzalez »
+        c=[p for p in lineup if initial(p['first_name'])==F
+           and difflib.SequenceMatcher(None,' '.join(norm(p['last_name'])),' '.join(L)).ratio()>=0.85]
     return c[0] if len(c)==1 else None
 
 def match_file(date):

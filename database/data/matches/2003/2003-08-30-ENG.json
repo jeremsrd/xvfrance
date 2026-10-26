@@ -65,5 +65,10 @@
     {"team_side": "france", "type": "penalite", "player_last_name": "Michalak", "player_first_name": "Frédéric", "minute": 64},
     {"team_side": "france", "type": "penalite", "player_last_name": "Michalak", "player_first_name": "Frédéric", "minute": 81}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Bru", "player_off_first_name": "Yannick", "player_on_last_name": "Ibañez", "player_on_first_name": "Raphaël", "minute": 55, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Traille", "player_off_first_name": "Damien", "player_on_last_name": "Liebenberg", "player_on_first_name": "Brian", "minute": 55, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Thion", "player_off_first_name": "Jérôme", "player_on_last_name": "Auradou", "player_on_first_name": "David", "minute": 65, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Magne", "player_off_first_name": "Olivier", "player_on_last_name": "Chabal", "player_on_first_name": "Sébastien", "minute": 76, "is_tactical": true}
+  ]
 }

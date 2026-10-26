@@ -49,9 +49,10 @@ Reprendre par, dans l'ordre proposé :
    (ces quatre-là donnaient les équipes et les marqueurs en 1932-1934). Une requête à la fois, espacées.
    À trancher avec l'utilisateur (Allemagne) : le Pfisterer avant de 1932, rattaché à Walter Pfisterer par l'import
    (« Pfisterer II » en 1933 : deux frères ?), et Klingebiel 1932-1933, peut-être le « Karl Klingenberg » de 1931.
-3. **Reste des sélections** : 27 matches aux remplacements non appariés (`python3 scripts/finalesrugby/apply.py --dry`),
-   Traille +2, Szarzewski et Michalak +1 face à la page des records ; 17 internationaux sans joueur en base
-   (`php artisan xv:import-internationaux --report`) ; Arthapignet 1988 et Mignot 2016 absents de la base (Wikipédia).
+3. **Reste des sélections** (fait le 26/10/2026 : 137 remplacements appariés, Ondarts 1990, Mignot 2016 à la place
+   de Michalak ; restent 7 remplacements sans vis-à-vis, voir `docs/sources.md`). Les 16 autres internationaux
+   sans joueur en base (`php artisan xv:import-internationaux --report`) n'ont pas de match officiel dans la
+   liste Wikipédia (1900, années 1960-1970, Gérard David 1999) : à vérifier un par un si besoin.
 4. **Numéros d'international après 2016** (piste 3) : trancher la source d'abord.
 5. Plus tard :
    - décès après 1970 que ni Wikidata ni equipe-france.fr ne donnent, à chercher dans le fichier des décès de

@@ -71,5 +71,12 @@
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Finegan", "player_first_name": "Owen", "minute": 86},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Burke", "player_first_name": "Matt", "minute": 87}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Juillet", "player_off_first_name": "Christophe", "player_on_last_name": "Brouzet", "player_on_first_name": "Olivier", "minute": 41, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Soulette", "player_off_first_name": "Cédric", "player_on_last_name": "de Villiers", "player_on_first_name": "Pieter", "minute": 47, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Garbajosa", "player_off_first_name": "Xavier", "player_on_last_name": "Mola", "player_on_first_name": "Ugo", "minute": 68, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Lièvremont", "player_off_first_name": "Marc", "player_on_last_name": "Costes", "player_on_first_name": "Arnaud", "minute": 68, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Galthié", "player_off_first_name": "Fabien", "player_on_last_name": "Castaignède", "player_on_first_name": "Stéphane", "minute": 78, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Ibañez", "player_off_first_name": "Raphaël", "player_on_last_name": "Dal Maso", "player_on_first_name": "Marc", "minute": 80, "is_tactical": true}
+  ]
 }

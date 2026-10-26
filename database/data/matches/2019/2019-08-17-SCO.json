@@ -66,5 +66,13 @@
     {"team_side": "france", "type": "essai", "player_last_name": "Dupont", "player_first_name": "Antoine", "minute": 61},
     {"team_side": "france", "type": "transformation", "player_last_name": "Lopez", "player_first_name": "Camille", "minute": 62}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Slimani", "player_off_first_name": "Rabah", "player_on_last_name": "Setiano", "player_on_first_name": "Emerick", "minute": 56, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Poirot", "player_off_first_name": "Jefferson", "player_on_last_name": "Priso", "player_on_first_name": "Dany", "minute": 56, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Chat", "player_off_first_name": "Camille", "player_on_last_name": "Mauvaka", "player_on_first_name": "Peato", "minute": 63, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Penaud", "player_off_first_name": "Damian", "player_on_last_name": "Ramos", "player_on_first_name": "Thomas", "minute": 65, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Dupont", "player_off_first_name": "Antoine", "player_on_last_name": "Serin", "player_on_first_name": "Baptiste", "minute": 66, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Fofana", "player_off_first_name": "Wesley", "player_on_last_name": "Ntamack", "player_on_first_name": "Romain", "minute": 67, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Gabrillagues", "player_off_first_name": "Paul", "player_on_last_name": "Lambey", "player_on_first_name": "Félix", "minute": 72, "is_tactical": true}
+  ]
 }

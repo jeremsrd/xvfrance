@@ -71,5 +71,13 @@
     {"team_side": "adversaire", "type": "essai", "player_last_name": "Serfontein", "player_first_name": "Jan", "minute": 67},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Jantjies", "player_first_name": "Elton", "minute": 68}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Machenaud", "player_off_first_name": "Maxime", "player_on_last_name": "Serin", "player_on_first_name": "Baptiste", "minute": 47, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Maynadier", "player_off_first_name": "Clément", "player_on_last_name": "Chat", "player_on_first_name": "Camille", "minute": 52, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Goujon", "player_off_first_name": "Loann", "player_on_last_name": "Gourdon", "player_on_first_name": "Kévin", "minute": 52, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Poirot", "player_off_first_name": "Jefferson", "player_on_last_name": "Ben Arous", "player_on_first_name": "Eddy", "minute": 61, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Picamoles", "player_off_first_name": "Louis", "player_on_last_name": "Le Roux", "player_on_first_name": "Bernard", "minute": 64, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Dulin", "player_off_first_name": "Brice", "player_on_last_name": "Rattez", "player_on_first_name": "Vincent", "minute": 71, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Plisson", "player_off_first_name": "Jules", "player_on_last_name": "Doussain", "player_on_first_name": "Jean Marc", "minute": 71, "is_tactical": true}
+  ]
 }

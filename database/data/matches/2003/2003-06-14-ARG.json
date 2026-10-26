@@ -61,5 +61,7 @@
     {"team_side": "france", "type": "penalite", "player_last_name": "Traille", "player_first_name": "Damien", "minute": 43},
     {"team_side": "france", "type": "penalite", "player_last_name": "Delaigue", "player_first_name": "Yann", "minute": 50}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Bouilhou", "player_off_first_name": "Jean", "player_on_last_name": "Harinordoquy", "player_on_first_name": "Imanol", "minute": 71, "is_tactical": true}
+  ]
 }

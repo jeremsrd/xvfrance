@@ -69,5 +69,13 @@
     {"team_side": "france", "type": "essai", "player_last_name": "Chouly", "player_first_name": "Damien", "minute": 100},
     {"team_side": "france", "type": "transformation", "player_last_name": "Lopez", "player_first_name": "Camille", "minute": 101}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Vakatawa", "player_off_first_name": "Virimi", "player_on_last_name": "Huget", "player_on_first_name": "Yoann", "minute": 54, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Sanconnie", "player_off_first_name": "Fabien", "player_on_last_name": "Chouly", "player_on_first_name": "Damien", "minute": 55, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Slimani", "player_off_first_name": "Rabah", "player_on_last_name": "Atonio", "player_on_first_name": "Uini", "minute": 55, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Baille", "player_off_first_name": "Cyril", "player_on_last_name": "Ben Arous", "player_on_first_name": "Eddy", "minute": 55, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Lamerat", "player_off_first_name": "Rémi", "player_on_last_name": "Trinh-Duc", "player_on_first_name": "François", "minute": 66, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Guirado", "player_off_first_name": "Guilhem", "player_on_last_name": "Chat", "player_on_first_name": "Camille", "minute": 72, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Vahaamahina", "player_off_first_name": "Sébastien", "player_on_last_name": "Le Devedec", "player_on_first_name": "Julien", "minute": 77, "is_tactical": true}
+  ]
 }

@@ -70,5 +70,12 @@
     {"team_side": "adversaire", "type": "drop", "player_last_name": "Gregan", "player_first_name": "George", "minute": null},
     {"team_side": "adversaire", "type": "transformation", "player_last_name": "Mortlock", "player_first_name": "Stirling", "minute": null}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Elhorga", "player_off_first_name": "Pépito", "player_on_last_name": "Heymans", "player_on_first_name": "Cédric", "minute": 13, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Betsen", "player_off_first_name": "Serge", "player_on_last_name": "Magne", "player_on_first_name": "Olivier", "minute": 40, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Pelous", "player_off_first_name": "Fabien", "player_on_last_name": "Porcu", "player_on_first_name": "Christophe", "minute": 62, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Marconnet", "player_off_first_name": "Sylvain", "player_on_last_name": "Poux", "player_on_first_name": "Jean-Baptiste", "minute": 66, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Traille", "player_off_first_name": "Damien", "player_on_last_name": "Jauzion", "player_on_first_name": "Yannick", "minute": 68, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Michalak", "player_off_first_name": "Frédéric", "player_on_last_name": "Mignoni", "player_on_first_name": "Pierre", "minute": 77, "is_tactical": true}
+  ]
 }

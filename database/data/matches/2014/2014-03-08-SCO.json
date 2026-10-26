@@ -68,5 +68,13 @@
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Weir", "player_first_name": "Duncan", "minute": 62},
     {"team_side": "france", "type": "penalite", "player_last_name": "Doussain", "player_first_name": "Jean Marc", "minute": 79}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Plisson", "player_off_first_name": "Jules", "player_on_last_name": "Talès", "player_on_first_name": "Rémi", "minute": 47, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Maestri", "player_off_first_name": "Yoann", "player_on_last_name": "Flanquart", "player_on_first_name": "Alexandre", "minute": 60, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Mas", "player_off_first_name": "Nicolas", "player_on_last_name": "Slimani", "player_on_first_name": "Rabah", "minute": 60, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Vahaamahina", "player_off_first_name": "Sébastien", "player_on_last_name": "Claassen", "player_on_first_name": "Antonie", "minute": 67, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Bastareaud", "player_off_first_name": "Mathieu", "player_on_last_name": "Fickou", "player_on_first_name": "Gaël", "minute": 69, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Domingo", "player_off_first_name": "Thomas", "player_on_last_name": "Debaty", "player_on_first_name": "Vincent", "minute": 69, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Machenaud", "player_off_first_name": "Maxime", "player_on_last_name": "Doussain", "player_on_first_name": "Jean Marc", "minute": 75, "is_tactical": true}
+  ]
 }

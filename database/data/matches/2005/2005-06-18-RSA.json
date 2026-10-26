@@ -73,5 +73,12 @@
     {"team_side": "france", "type": "essai", "player_last_name": "Candelon", "player_first_name": "Julien", "minute": 79},
     {"team_side": "adversaire", "type": "drop", "player_last_name": "Montgomery", "player_first_name": "Percy", "minute": null}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Millo-Chluski", "player_off_first_name": "Romain", "player_on_last_name": "Lamboley", "player_on_first_name": "Grégory", "minute": 54, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Bruno", "player_off_first_name": "Sébastien", "player_on_last_name": "Servat", "player_on_first_name": "William", "minute": 60, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Milloud", "player_off_first_name": "Olivier", "player_on_last_name": "de Villiers", "player_on_first_name": "Pieter", "minute": 60, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Fritz", "player_off_first_name": "Florian", "player_on_last_name": "Traille", "player_on_first_name": "Damien", "minute": 65, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Élissalde", "player_off_first_name": "Jean-Baptiste", "player_on_last_name": "Yachvili", "player_on_first_name": "Dimitri", "minute": 71, "is_tactical": true},
+    {"team_side": "france", "player_off_last_name": "Heymans", "player_off_first_name": "Cédric", "player_on_last_name": "Brusque", "player_on_first_name": "Nicolas", "minute": 80, "is_tactical": true}
+  ]
 }

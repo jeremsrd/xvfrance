@@ -20,21 +20,38 @@ dry='--dry' in sys.argv
 only={a for a in sys.argv[1:] if not a.startswith('--')}
 
 def pair(subs,lineup):
-    """Remplacements définitifs regroupés par minute ; un joueur à la fois sortant et entrant change de poste."""
-    out=[];groups={}
+    """Remplacements définitifs regroupés par minute, dans l'ordre du site ; renvoie (remplacements, problèmes).
+    Un joueur à la fois sortant et entrant change de poste ; la sortie d'un remplaçant entré temporairement
+    marque le retour du titulaire. Le talonneur sortant est apparié d'abord au n° 16. Si les sortants et les entrants ne s'équilibrent pas (joueur oublié par
+    le site), seul un sortant immédiatement suivi d'un entrant est apparié. Une minute dont un joueur est
+    introuvable est laissée de côté."""
+    out=[];probs=[];groups={}
+    temp={id(p) for s in subs if s['kind']=='T' and s['dir']=='on' for p in [find(lineup,*s['name'])] if p and not p['is_starter']}
     for s in subs:
         if s['kind']=='D': groups.setdefault(s['minute'],[]).append(s)
     for mi,g in groups.items():
-        offs=[find(lineup,*s['name']) for s in g if s['dir']=='off']
-        ons=[find(lineup,*s['name']) for s in g if s['dir']=='on']
-        if None in offs or None in ons: return None
-        both=[p for p in offs if p in ons]
-        offs=[p for p in offs if p not in both]; ons=[p for p in ons if p not in both]
-        if len(offs)!=len(ons): return None
-        for o,i in zip(offs,ons):
+        seq=[];seen=set()
+        for s in g:
+            p=find(lineup,*s['name'])
+            if p is None: probs.append(f"{mi}' introuvable : {' '.join(s['name'][::-1])}"); seq=None; break
+            if (s['dir'],id(p)) not in seen: seen.add((s['dir'],id(p))); seq.append((s['dir'],p))
+        if seq is None: continue
+        both={id(p) for d,p in seq if d=='off'}&{id(p) for d,p in seq if d=='on'}
+        ons={id(p) for d,p in seq if d=='on'}
+        seq=[(d,p) for d,p in seq if id(p) not in both and not (d=='off' and id(p) in temp and id(p) not in ons)]
+        hook=[(o,i) for d,o in seq if d=='off' and o.get('position')=='talonneur' for e,i in seq if e=='on' and i['jersey']==16]
+        if hook: seq=[(d,p) for d,p in seq if p not in hook[0]]
+        offs=[p for d,p in seq if d=='off']; ins=[p for d,p in seq if d=='on']
+        if len(offs)==len(ins): pairs=hook[:1]+list(zip(offs,ins))
+        else:
+            pairs=hook[:1]+[(seq[i][1],seq[i+1][1]) for i in range(len(seq)-1) if seq[i][0]=='off' and seq[i+1][0]=='on']
+            used={id(p) for o,i in pairs for p in (o,i)}
+            left=[f"{'sortie' if d=='off' else 'entrée'} {p['last_name']}" for d,p in seq if id(p) not in used]
+            probs.append(f"{mi}' sans vis-à-vis : {', '.join(left)}")
+        for o,i in pairs:
             out.append({'team_side':'france','player_off_last_name':o['last_name'],'player_off_first_name':o['first_name'],
                         'player_on_last_name':i['last_name'],'player_on_first_name':i['first_name'],'minute':mi,'is_tactical':True})
-    return out
+    return out,probs
 
 stats={'pages':0,'sans_json':0,'introuvables':0,'banc':0,'reservistes':0,'banc_absent':0,'subs':0,'subs_ko':0,'fichiers':0}
 for page in sorted(glob.glob(os.path.join(CACHE,'*.html'))):
@@ -81,9 +98,9 @@ for page in sorted(glob.glob(os.path.join(CACHE,'*.html'))):
             if 'played' not in e: e['played']=False
             stats['banc']+=1; changed=True
     if subs and not any(s['team_side']=='france' for s in d['substitutions']):
-        new=pair(subs,lineup)
-        if new is None: stats['subs_ko']+=1; print(f'{os.path.basename(path)} : remplacements non appariés')
-        elif new:
+        new,probs=pair(subs,lineup)
+        if probs: stats['subs_ko']+=1; print(f"{os.path.basename(path)} : {' ; '.join(probs)}")
+        if new:
             new=[s for s in new if not any(p.get('played') is False for p in lineup if p['last_name'] in (s['player_on_last_name'],s['player_off_last_name']))]
             d['substitutions']=sorted(d['substitutions']+new,key=lambda s:(s['minute'] if s['minute'] is not None else 999))
             stats['subs']+=len(new); changed=True

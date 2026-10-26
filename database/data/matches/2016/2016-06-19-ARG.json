@@ -18,7 +18,7 @@
       {"jersey": 11, "first_name": "Djibril", "last_name": "Camara", "is_starter": true, "position": "ailier", "is_captain": false},
       {"jersey": 12, "first_name": "Jonathan", "last_name": "Danty", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 13, "first_name": "Julien", "last_name": "Rey", "is_starter": true, "position": "centre", "is_captain": false},
-      {"jersey": 14, "first_name": "Frédéric", "last_name": "Michalak", "is_starter": true, "position": "ailier", "is_captain": false},
+      {"jersey": 14, "first_name": "Xavier", "last_name": "Mignot", "is_starter": true, "position": "ailier", "is_captain": false, "cap_number": 1087},
       {"jersey": 15, "first_name": "Hugo", "last_name": "Bonneval", "is_starter": true, "position": "arriere", "is_captain": false},
       {"jersey": 16, "first_name": "Clément", "last_name": "Maynadier", "is_starter": false, "position": null, "is_captain": false},
       {"jersey": 17, "first_name": "Uini", "last_name": "Atonio", "is_starter": false, "position": null, "is_captain": false},

@@ -163,13 +163,19 @@ python3 scripts/finalesrugby/apply.py --dry    # bilan, puis sans --dry pour ré
 
 Règles de `apply.py` : le match est reconnu par la date (à 3 jours près) et vérifié sur les titulaires ;
 un remplaçant marqué « * », ou que le site ne cite pas alors qu'il liste un banc, reçoit `played: false` ;
-les remplacements définitifs sont ajoutés s'il n'y a encore aucun remplacement français (27 matches non
-appariés, ignorés). Les réservistes « * » d'avant 1969, absents des JSON, sont sans effet.
+les remplacements définitifs sont ajoutés s'il n'y a encore aucun remplacement français, regroupés par minute
+dans l'ordre du site : la sortie d'un remplaçant entré temporairement marque le retour du titulaire (ignorée),
+le talonneur sortant va au n° 16, et quand sortants et entrants ne s'équilibrent pas (joueur oublié par le site)
+seul un sortant suivi immédiatement d'un entrant est apparié. Le 26/10/2026 : 137 remplacements de plus sur
+25 feuilles ; restent 7 minutes sans vis-à-vis (Blanco 1987, Dispagne 1996, Chabal 2001, Yachvili 2005, Mas et
+Fritz 2007, Mach 2014) et Ougier entré le 11/07/1992 selon le site, écarté (4 sélections selon Wikipédia et nous,
+banc différent du nôtre). Les réservistes « * » d'avant 1969, absents des JSON, sont sans effet.
 
 Contrôle le 06/10/2026 sur les 975 internationaux de la liste « This Is Rugby » dont la carrière finit avant
 2015 : 825 ont exactement leur nombre de sélections (646 avant). Les 14 recordmen de la page
 [Records en équipe de France](https://fr.wikipedia.org/wiki/Records_en_%C3%A9quipe_de_France_masculine_de_rugby_%C3%A0_XV)
-sont justes, sauf Traille (+2), Szarzewski (+1) et Michalak (+1). Les écarts restants sont souvent des désaccords
+étaient justes, sauf Traille (+2), Szarzewski (+1) et Michalak (+1) ; tous justes le 26/10/2026 (Michalak était
+au n° 14 du 19/06/2016 à la place de Xavier Mignot ; Ondarts, 42 sélections, entré contre la Roumanie le 24/05/1990). Les écarts restants sont souvent des désaccords
 entre sources (Berbizier : 56 selon Wikipédia et nous, 60 selon la liste) ou des erreurs du site (Brouzet en 1994).
 Pas de remplacements adverses sur ce site.
 

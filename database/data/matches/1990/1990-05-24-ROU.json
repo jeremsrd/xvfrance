@@ -20,7 +20,8 @@
       {"jersey": 12, "first_name": "Philippe", "last_name": "Saint-André", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 13, "first_name": "Jean-Claude", "last_name": "Langlade", "is_starter": true, "position": "centre", "is_captain": false},
       {"jersey": 14, "first_name": "Pierre", "last_name": "Hontas", "is_starter": true, "position": "ailier", "is_captain": false},
-      {"jersey": 15, "first_name": "Serge", "last_name": "Blanco", "is_starter": true, "position": "arriere", "is_captain": false}
+      {"jersey": 15, "first_name": "Serge", "last_name": "Blanco", "is_starter": true, "position": "arriere", "is_captain": false},
+      {"jersey": 16, "first_name": "Pascal", "last_name": "Ondarts", "is_starter": false, "position": null, "is_captain": false}
     ],
     "adversaire": [
       {"jersey": 1, "first_name": "Gheorghe", "last_name": "Leonte", "is_starter": true, "position": "pilier_gauche", "is_captain": false},
@@ -48,5 +49,7 @@
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Ignat", "player_first_name": "Gelu", "minute": null},
     {"team_side": "adversaire", "type": "penalite", "player_last_name": "Ignat", "player_first_name": "Gelu", "minute": null}
   ],
-  "substitutions": []
+  "substitutions": [
+    {"team_side": "france", "player_off_last_name": "Gallart", "player_off_first_name": "Philippe", "player_on_last_name": "Ondarts", "player_on_first_name": "Pascal", "minute": 75, "is_tactical": true}
+  ]
 }
